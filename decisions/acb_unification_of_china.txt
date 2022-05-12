@@ -1,0 +1,1027 @@
+﻿country_decisions = {
+	
+	#Common Unification of China
+	unificate_china = {
+		
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = chinese
+				religion = chinese_religions
+			}
+			OR = {
+				num_of_cities >= 40
+			}
+			NOT = {
+				has_variable = china_is_unified
+				tag = QII
+				tag = QIN
+				tag = HAN
+				tag = WEI
+				tag = YAN
+				tag = ZHA
+				tag = CHU
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 8313
+					province_id = 8972
+					province_id = 8446
+					province_id = 8384
+					province_id = 8504
+					province_id = 8379
+					province_id = 8381
+					province_id = 8380
+					province_id = 8433
+					province_id = 8533
+					province_id = 8681
+					province_id = 8742
+					province_id = 9651
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "china_is_not_yet_unified"
+			}
+			owns = 8313
+			owns = 8972
+			owns = 8446
+			owns = 8384
+			owns = 8504
+			owns = 8379
+			owns = 8381
+			owns = 8380
+			owns = 8433
+			owns = 8533
+			owns = 8681
+			owns = 8742
+			owns = 9651
+		}
+		
+		effect = {
+			trigger_event = {
+				id = china_unification.1
+			}
+			add_country_modifier = {
+				name = china_unified
+				duration = -1
+			}
+			set_variable = china_is_unified
+			custom_tooltip = chinese_claims_tooltip
+			hidden_effect = {
+				region:yu_region = { formable_region_province_effect = yes }
+				region:you_region = { formable_region_province_effect = yes }
+				region:yi_region = { formable_region_province_effect = yes }
+				region:yan_region = { formable_region_province_effect = yes }
+				region:xu_region = { formable_region_province_effect = yes }
+				region:qing_region = { formable_region_province_effect = yes }
+				region:jing_region = { formable_region_province_effect = yes }
+				region:ji_region = { formable_region_province_effect = yes }
+				region:bing_region = { formable_region_province_effect = yes }
+				region:yong_region = { formable_region_province_effect = yes }
+				region:liang_region = { formable_region_province_effect = yes }
+				region:shuofang_region = { formable_region_province_effect = yes }
+				region:jiao_region = { formable_region_province_effect = yes }
+				region:yang_region = { formable_region_province_effect = yes }
+				region:nanzhong_region = { formable_region_province_effect = yes }
+			}
+			add_5_free_province_investments = yes
+			change_government = chinese_empire
+		}
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+	}
+	
+
+	#QII Unification of China
+	qii_unificate_china = {
+		
+		potential = {
+			tag = QII
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = chinese
+				religion = chinese_religions
+			}
+			OR = {
+				num_of_cities >= 40
+			}
+			NOT = {
+				has_variable = china_is_unified
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 8313
+					province_id = 8972
+					province_id = 8446
+					province_id = 8384
+					province_id = 8504
+					province_id = 8379
+					province_id = 8381
+					province_id = 8380
+					province_id = 8433
+					province_id = 8533
+					province_id = 8681
+					province_id = 8742
+					province_id = 9651
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "china_is_not_yet_unified"
+			}
+			custom_tooltip = {
+				text = "other_six_countries_do_not_exist"
+				NOT = {
+					any_country = {
+						tag = QIN
+						has_land = yes
+					}
+					any_country = {
+						tag = HAN
+						has_land = yes
+					}
+					any_country = {
+						tag = WEI
+						has_land = yes
+					}
+					any_country = {
+						tag = YAN
+						has_land = yes
+					}
+					any_country = {
+						tag = ZHA
+						has_land = yes
+					}
+					any_country = {
+						tag = CHU
+						has_land = yes
+					}
+				}
+			}
+			owns = 8313
+			owns = 8972
+			owns = 8446
+			owns = 8384
+			owns = 8504
+			owns = 8379
+			owns = 8381
+			owns = 8380
+			owns = 8433
+			owns = 8533
+			owns = 8681
+			owns = 8742
+			owns = 9651
+		}
+		
+		effect = {
+			trigger_event = {
+				id = china_unification.1
+			}
+			add_country_modifier = {
+				name = china_unified
+				duration = -1
+			}
+			set_variable = china_is_unified
+			custom_tooltip = chinese_claims_tooltip
+			hidden_effect = {
+				region:yu_region = { formable_region_province_effect = yes }
+				region:you_region = { formable_region_province_effect = yes }
+				region:yi_region = { formable_region_province_effect = yes }
+				region:yan_region = { formable_region_province_effect = yes }
+				region:xu_region = { formable_region_province_effect = yes }
+				region:qing_region = { formable_region_province_effect = yes }
+				region:jing_region = { formable_region_province_effect = yes }
+				region:ji_region = { formable_region_province_effect = yes }
+				region:bing_region = { formable_region_province_effect = yes }
+				region:yong_region = { formable_region_province_effect = yes }
+				#凉州
+				area:tianshui_area = { formable_area_province_effect = yes }
+				area:longxi_area = { formable_area_province_effect = yes }
+				#朔方
+				area:shang_area = { formable_area_province_effect = yes }
+				area:xihe_area = { formable_area_province_effect = yes }
+				area:wuyuan_area = { formable_area_province_effect = yes }
+				#扬州（除建安）
+				area:lujiang_area = { formable_area_province_effect = yes }
+				area:jiujiang_area = { formable_area_province_effect = yes }
+				area:kuaiji_area = { formable_area_province_effect = yes }
+				area:danyang_area = { formable_area_province_effect = yes }
+				area:yuzhang_area = { formable_area_province_effect = yes }
+				area:linhai_area = { formable_area_province_effect = yes }
+			}
+			add_5_free_province_investments = yes
+			change_government = chinese_empire
+		}
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+	}
+
+	#QIN Unification of China
+	qin_unificate_china = {
+		
+		potential = {
+			tag = QIN
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = chinese
+				religion = chinese_religions
+			}
+			OR = {
+				num_of_cities >= 40
+			}
+			NOT = {
+				has_variable = china_is_unified
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 8313
+					province_id = 8972
+					province_id = 8446
+					province_id = 8384
+					province_id = 8504
+					province_id = 8379
+					province_id = 8381
+					province_id = 8380
+					province_id = 8433
+					province_id = 8533
+					province_id = 8681
+					province_id = 8742
+					province_id = 9651
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "china_is_not_yet_unified"
+			}
+			custom_tooltip = {
+				text = "other_six_countries_do_not_exist"
+				NOT = {
+					any_country = {
+						tag = QII
+						has_land = yes
+					}
+					any_country = {
+						tag = HAN
+						has_land = yes
+					}
+					any_country = {
+						tag = WEI
+						has_land = yes
+					}
+					any_country = {
+						tag = YAN
+						has_land = yes
+					}
+					any_country = {
+						tag = ZHA
+						has_land = yes
+					}
+					any_country = {
+						tag = CHU
+						has_land = yes
+					}
+				}
+			}
+			owns = 8313
+			owns = 8972
+			owns = 8446
+			owns = 8384
+			owns = 8504
+			owns = 8379
+			owns = 8381
+			owns = 8380
+			owns = 8433
+			owns = 8533
+			owns = 8681
+			owns = 8742
+			owns = 9651
+		}
+		
+		effect = {
+			trigger_event = {
+				id = china_unification.1
+			}
+			add_country_modifier = {
+				name = china_unified
+				duration = -1
+			}
+			set_variable = china_is_unified
+			custom_tooltip = chinese_claims_tooltip
+			hidden_effect = {
+				region:yu_region = { formable_region_province_effect = yes }
+				region:you_region = { formable_region_province_effect = yes }
+				region:yi_region = { formable_region_province_effect = yes }
+				region:yan_region = { formable_region_province_effect = yes }
+				region:xu_region = { formable_region_province_effect = yes }
+				region:qing_region = { formable_region_province_effect = yes }
+				region:jing_region = { formable_region_province_effect = yes }
+				region:ji_region = { formable_region_province_effect = yes }
+				region:bing_region = { formable_region_province_effect = yes }
+				region:yong_region = { formable_region_province_effect = yes }
+				#凉州
+				area:tianshui_area = { formable_area_province_effect = yes }
+				area:longxi_area = { formable_area_province_effect = yes }
+				#朔方
+				area:shang_area = { formable_area_province_effect = yes }
+				area:xihe_area = { formable_area_province_effect = yes }
+				area:wuyuan_area = { formable_area_province_effect = yes }
+				#扬州（除建安）
+				area:lujiang_area = { formable_area_province_effect = yes }
+				area:jiujiang_area = { formable_area_province_effect = yes }
+				area:kuaiji_area = { formable_area_province_effect = yes }
+				area:danyang_area = { formable_area_province_effect = yes }
+				area:yuzhang_area = { formable_area_province_effect = yes }
+				area:linhai_area = { formable_area_province_effect = yes }
+			}
+			add_5_free_province_investments = yes
+			change_government = chinese_empire
+		}
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+	}
+
+	#HAN Unification of China
+	han_unificate_china = {
+		
+		potential = {
+			tag = HAN
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = chinese
+				religion = chinese_religions
+			}
+			OR = {
+				num_of_cities >= 40
+			}
+			NOT = {
+				has_variable = china_is_unified
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 8313
+					province_id = 8972
+					province_id = 8446
+					province_id = 8384
+					province_id = 8504
+					province_id = 8379
+					province_id = 8381
+					province_id = 8380
+					province_id = 8433
+					province_id = 8533
+					province_id = 8681
+					province_id = 8742
+					province_id = 9651
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "china_is_not_yet_unified"
+			}
+			custom_tooltip = {
+				text = "other_six_countries_do_not_exist"
+				NOT = {
+					any_country = {
+						tag = QII
+						has_land = yes
+					}
+					any_country = {
+						tag = QIN
+						has_land = yes
+					}
+					any_country = {
+						tag = WEI
+						has_land = yes
+					}
+					any_country = {
+						tag = YAN
+						has_land = yes
+					}
+					any_country = {
+						tag = ZHA
+						has_land = yes
+					}
+					any_country = {
+						tag = CHU
+						has_land = yes
+					}
+				}
+			}
+			owns = 8313
+			owns = 8972
+			owns = 8446
+			owns = 8384
+			owns = 8504
+			owns = 8379
+			owns = 8381
+			owns = 8380
+			owns = 8433
+			owns = 8533
+			owns = 8681
+			owns = 8742
+			owns = 9651
+		}
+		
+		effect = {
+			trigger_event = {
+				id = china_unification.1
+			}
+			add_country_modifier = {
+				name = china_unified
+				duration = -1
+			}
+			set_variable = china_is_unified
+			custom_tooltip = chinese_claims_tooltip
+			hidden_effect = {
+				region:yu_region = { formable_region_province_effect = yes }
+				region:you_region = { formable_region_province_effect = yes }
+				region:yi_region = { formable_region_province_effect = yes }
+				region:yan_region = { formable_region_province_effect = yes }
+				region:xu_region = { formable_region_province_effect = yes }
+				region:qing_region = { formable_region_province_effect = yes }
+				region:jing_region = { formable_region_province_effect = yes }
+				region:ji_region = { formable_region_province_effect = yes }
+				region:bing_region = { formable_region_province_effect = yes }
+				region:yong_region = { formable_region_province_effect = yes }
+				#凉州
+				area:tianshui_area = { formable_area_province_effect = yes }
+				area:longxi_area = { formable_area_province_effect = yes }
+				#朔方
+				area:shang_area = { formable_area_province_effect = yes }
+				area:xihe_area = { formable_area_province_effect = yes }
+				area:wuyuan_area = { formable_area_province_effect = yes }
+				#扬州（除建安）
+				area:lujiang_area = { formable_area_province_effect = yes }
+				area:jiujiang_area = { formable_area_province_effect = yes }
+				area:kuaiji_area = { formable_area_province_effect = yes }
+				area:danyang_area = { formable_area_province_effect = yes }
+				area:yuzhang_area = { formable_area_province_effect = yes }
+				area:linhai_area = { formable_area_province_effect = yes }
+			}
+			add_5_free_province_investments = yes
+			change_government = chinese_empire
+		}
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+	}
+
+	#WEI Unification of China
+	wei_unificate_china = {
+		
+		potential = {
+			tag = WEI
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = chinese
+				religion = chinese_religions
+			}
+			OR = {
+				num_of_cities >= 40
+			}
+			NOT = {
+				has_variable = china_is_unified
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 8313
+					province_id = 8972
+					province_id = 8446
+					province_id = 8384
+					province_id = 8504
+					province_id = 8379
+					province_id = 8381
+					province_id = 8380
+					province_id = 8433
+					province_id = 8533
+					province_id = 8681
+					province_id = 8742
+					province_id = 9651
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "china_is_not_yet_unified"
+			}
+			custom_tooltip = {
+				text = "other_six_countries_do_not_exist"
+				NOT = {
+					any_country = {
+						tag = QII
+						has_land = yes
+					}
+					any_country = {
+						tag = QIN
+						has_land = yes
+					}
+					any_country = {
+						tag = HAN
+						has_land = yes
+					}
+					any_country = {
+						tag = YAN
+						has_land = yes
+					}
+					any_country = {
+						tag = ZHA
+						has_land = yes
+					}
+					any_country = {
+						tag = CHU
+						has_land = yes
+					}
+				}
+			}
+			owns = 8313
+			owns = 8972
+			owns = 8446
+			owns = 8384
+			owns = 8504
+			owns = 8379
+			owns = 8381
+			owns = 8380
+			owns = 8433
+			owns = 8533
+			owns = 8681
+			owns = 8742
+			owns = 9651
+		}
+		
+		effect = {
+			trigger_event = {
+				id = china_unification.1
+			}
+			add_country_modifier = {
+				name = china_unified
+				duration = -1
+			}
+			set_variable = china_is_unified
+			custom_tooltip = chinese_claims_tooltip
+			hidden_effect = {
+				region:yu_region = { formable_region_province_effect = yes }
+				region:you_region = { formable_region_province_effect = yes }
+				region:yi_region = { formable_region_province_effect = yes }
+				region:yan_region = { formable_region_province_effect = yes }
+				region:xu_region = { formable_region_province_effect = yes }
+				region:qing_region = { formable_region_province_effect = yes }
+				region:jing_region = { formable_region_province_effect = yes }
+				region:ji_region = { formable_region_province_effect = yes }
+				region:bing_region = { formable_region_province_effect = yes }
+				region:yong_region = { formable_region_province_effect = yes }
+				#凉州
+				area:tianshui_area = { formable_area_province_effect = yes }
+				area:longxi_area = { formable_area_province_effect = yes }
+				#朔方
+				area:shang_area = { formable_area_province_effect = yes }
+				area:xihe_area = { formable_area_province_effect = yes }
+				area:wuyuan_area = { formable_area_province_effect = yes }
+				#扬州（除建安）
+				area:lujiang_area = { formable_area_province_effect = yes }
+				area:jiujiang_area = { formable_area_province_effect = yes }
+				area:kuaiji_area = { formable_area_province_effect = yes }
+				area:danyang_area = { formable_area_province_effect = yes }
+				area:yuzhang_area = { formable_area_province_effect = yes }
+				area:linhai_area = { formable_area_province_effect = yes }
+			}
+			add_5_free_province_investments = yes
+			change_government = chinese_empire
+		}
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+	}
+
+	#YAN Unification of China
+	yan_unificate_china = {
+		
+		potential = {
+			tag = YAN
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = chinese
+				religion = chinese_religions
+			}
+			OR = {
+				num_of_cities >= 40
+			}
+			NOT = {
+				has_variable = china_is_unified
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 8313
+					province_id = 8972
+					province_id = 8446
+					province_id = 8384
+					province_id = 8504
+					province_id = 8379
+					province_id = 8381
+					province_id = 8380
+					province_id = 8433
+					province_id = 8533
+					province_id = 8681
+					province_id = 8742
+					province_id = 9651
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "china_is_not_yet_unified"
+			}
+			custom_tooltip = {
+				text = "other_six_countries_do_not_exist"
+				NOT = {
+					any_country = {
+						tag = QII
+						has_land = yes
+					}
+					any_country = {
+						tag = QIN
+						has_land = yes
+					}
+					any_country = {
+						tag = HAN
+						has_land = yes
+					}
+					any_country = {
+						tag = WEI
+						has_land = yes
+					}
+					any_country = {
+						tag = ZHA
+						has_land = yes
+					}
+					any_country = {
+						tag = CHU
+						has_land = yes
+					}
+				}
+			}
+			owns = 8313
+			owns = 8972
+			owns = 8446
+			owns = 8384
+			owns = 8504
+			owns = 8379
+			owns = 8381
+			owns = 8380
+			owns = 8433
+			owns = 8533
+			owns = 8681
+			owns = 8742
+			owns = 9651
+		}
+		
+		effect = {
+			trigger_event = {
+				id = china_unification.1
+			}
+			add_country_modifier = {
+				name = china_unified
+				duration = -1
+			}
+			set_variable = china_is_unified
+			custom_tooltip = chinese_claims_tooltip
+			hidden_effect = {
+				region:yu_region = { formable_region_province_effect = yes }
+				region:you_region = { formable_region_province_effect = yes }
+				region:yi_region = { formable_region_province_effect = yes }
+				region:yan_region = { formable_region_province_effect = yes }
+				region:xu_region = { formable_region_province_effect = yes }
+				region:qing_region = { formable_region_province_effect = yes }
+				region:jing_region = { formable_region_province_effect = yes }
+				region:ji_region = { formable_region_province_effect = yes }
+				region:bing_region = { formable_region_province_effect = yes }
+				region:yong_region = { formable_region_province_effect = yes }
+				#凉州
+				area:tianshui_area = { formable_area_province_effect = yes }
+				area:longxi_area = { formable_area_province_effect = yes }
+				#朔方
+				area:shang_area = { formable_area_province_effect = yes }
+				area:xihe_area = { formable_area_province_effect = yes }
+				area:wuyuan_area = { formable_area_province_effect = yes }
+				#扬州（除建安）
+				area:lujiang_area = { formable_area_province_effect = yes }
+				area:jiujiang_area = { formable_area_province_effect = yes }
+				area:kuaiji_area = { formable_area_province_effect = yes }
+				area:danyang_area = { formable_area_province_effect = yes }
+				area:yuzhang_area = { formable_area_province_effect = yes }
+				area:linhai_area = { formable_area_province_effect = yes }
+			}
+			add_5_free_province_investments = yes
+			change_government = chinese_empire
+		}
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+	}
+
+	#ZHA Unification of China
+	zha_unificate_china = {
+		
+		potential = {
+			tag = ZHA
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = chinese
+				religion = chinese_religions
+			}
+			OR = {
+				num_of_cities >= 40
+			}
+			NOT = {
+				has_variable = china_is_unified
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 8313
+					province_id = 8972
+					province_id = 8446
+					province_id = 8384
+					province_id = 8504
+					province_id = 8379
+					province_id = 8381
+					province_id = 8380
+					province_id = 8433
+					province_id = 8533
+					province_id = 8681
+					province_id = 8742
+					province_id = 9651
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "china_is_not_yet_unified"
+			}
+			custom_tooltip = {
+				text = "other_six_countries_do_not_exist"
+				NOT = {
+					any_country = {
+						tag = QII
+						has_land = yes
+					}
+					any_country = {
+						tag = QIN
+						has_land = yes
+					}
+					any_country = {
+						tag = HAN
+						has_land = yes
+					}
+					any_country = {
+						tag = WEI
+						has_land = yes
+					}
+					any_country = {
+						tag = YAN
+						has_land = yes
+					}
+					any_country = {
+						tag = CHU
+						has_land = yes
+					}
+				}
+			}
+			owns = 8313
+			owns = 8972
+			owns = 8446
+			owns = 8384
+			owns = 8504
+			owns = 8379
+			owns = 8381
+			owns = 8380
+			owns = 8433
+			owns = 8533
+			owns = 8681
+			owns = 8742
+			owns = 9651
+		}
+		
+		effect = {
+			trigger_event = {
+				id = china_unification.1
+			}
+			add_country_modifier = {
+				name = china_unified
+				duration = -1
+			}
+			set_variable = china_is_unified
+			custom_tooltip = chinese_claims_tooltip
+			hidden_effect = {
+				region:yu_region = { formable_region_province_effect = yes }
+				region:you_region = { formable_region_province_effect = yes }
+				region:yi_region = { formable_region_province_effect = yes }
+				region:yan_region = { formable_region_province_effect = yes }
+				region:xu_region = { formable_region_province_effect = yes }
+				region:qing_region = { formable_region_province_effect = yes }
+				region:jing_region = { formable_region_province_effect = yes }
+				region:ji_region = { formable_region_province_effect = yes }
+				region:bing_region = { formable_region_province_effect = yes }
+				region:yong_region = { formable_region_province_effect = yes }
+				#凉州
+				area:tianshui_area = { formable_area_province_effect = yes }
+				area:longxi_area = { formable_area_province_effect = yes }
+				#朔方
+				area:shang_area = { formable_area_province_effect = yes }
+				area:xihe_area = { formable_area_province_effect = yes }
+				area:wuyuan_area = { formable_area_province_effect = yes }
+				#扬州（除建安）
+				area:lujiang_area = { formable_area_province_effect = yes }
+				area:jiujiang_area = { formable_area_province_effect = yes }
+				area:kuaiji_area = { formable_area_province_effect = yes }
+				area:danyang_area = { formable_area_province_effect = yes }
+				area:yuzhang_area = { formable_area_province_effect = yes }
+				area:linhai_area = { formable_area_province_effect = yes }
+			}
+			add_5_free_province_investments = yes
+			change_government = chinese_empire
+		}
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+	}
+
+	#CHU Unification of China
+	chu_unificate_china = {
+		
+		potential = {
+			tag = CHU
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = chinese
+				religion = chinese_religions
+			}
+			OR = {
+				num_of_cities >= 40
+			}
+			NOT = {
+				has_variable = china_is_unified
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 8313
+					province_id = 8972
+					province_id = 8446
+					province_id = 8384
+					province_id = 8504
+					province_id = 8379
+					province_id = 8381
+					province_id = 8380
+					province_id = 8433
+					province_id = 8533
+					province_id = 8681
+					province_id = 8742
+					province_id = 9651
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "china_is_not_yet_unified"
+			}
+			custom_tooltip = {
+				text = "other_six_countries_do_not_exist"
+				NOT = {
+					any_country = {
+						tag = QII
+						has_land = yes
+					}
+					any_country = {
+						tag = QIN
+						has_land = yes
+					}
+					any_country = {
+						tag = HAN
+						has_land = yes
+					}
+					any_country = {
+						tag = WEI
+						has_land = yes
+					}
+					any_country = {
+						tag = YAN
+						has_land = yes
+					}
+					any_country = {
+						tag = ZHA
+						has_land = yes
+					}
+				}
+			}
+			owns = 8313
+			owns = 8972
+			owns = 8446
+			owns = 8384
+			owns = 8504
+			owns = 8379
+			owns = 8381
+			owns = 8380
+			owns = 8433
+			owns = 8533
+			owns = 8681
+			owns = 8742
+			owns = 9651
+		}
+		
+		effect = {
+			trigger_event = {
+				id = china_unification.1
+			}
+			add_country_modifier = {
+				name = china_unified
+				duration = -1
+			}
+			set_variable = china_is_unified
+			custom_tooltip = chinese_claims_tooltip
+			hidden_effect = {
+				region:yu_region = { formable_region_province_effect = yes }
+				region:you_region = { formable_region_province_effect = yes }
+				region:yi_region = { formable_region_province_effect = yes }
+				region:yan_region = { formable_region_province_effect = yes }
+				region:xu_region = { formable_region_province_effect = yes }
+				region:qing_region = { formable_region_province_effect = yes }
+				region:jing_region = { formable_region_province_effect = yes }
+				region:ji_region = { formable_region_province_effect = yes }
+				region:bing_region = { formable_region_province_effect = yes }
+				region:yong_region = { formable_region_province_effect = yes }
+				#凉州
+				area:tianshui_area = { formable_area_province_effect = yes }
+				area:longxi_area = { formable_area_province_effect = yes }
+				#朔方
+				area:shang_area = { formable_area_province_effect = yes }
+				area:xihe_area = { formable_area_province_effect = yes }
+				area:wuyuan_area = { formable_area_province_effect = yes }
+				#扬州（除建安）
+				area:lujiang_area = { formable_area_province_effect = yes }
+				area:jiujiang_area = { formable_area_province_effect = yes }
+				area:kuaiji_area = { formable_area_province_effect = yes }
+				area:danyang_area = { formable_area_province_effect = yes }
+				area:yuzhang_area = { formable_area_province_effect = yes }
+				area:linhai_area = { formable_area_province_effect = yes }
+			}
+			add_5_free_province_investments = yes
+			change_government = chinese_empire
+		}
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+	}
+}

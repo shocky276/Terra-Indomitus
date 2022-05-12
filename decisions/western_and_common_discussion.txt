@@ -1,0 +1,27 @@
+﻿country_decisions = {
+
+	wac_policy_discussion = {
+		
+		potential = {
+			is_ai = no
+			NOT = {
+				country_culture_group = chinese
+			}
+		}
+		
+		allow = {
+			current_ruler = {
+				finesse >= 5
+			}
+			political_influence >= 5
+		}
+		
+		effect = {
+			add_political_influence = -5
+			trigger_event = {
+				id = policy_discussion_start.1
+			}
+		}
+		
+	}
+}

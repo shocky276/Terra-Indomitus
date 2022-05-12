@@ -1,0 +1,38 @@
+﻿country_decisions = {
+	
+	#heirloom_seal_of_the_realm
+	heirloom_seal_of_the_realm = {
+		
+		potential = {
+			has_variable = china_is_unified
+			exists = treasure:treasure_heshibi
+		}
+		
+		allow = {
+			treasure:treasure_heshibi = {
+				treasure_owned_or_altared_trigger = { SHINY = treasure:treasure_heshibi }
+			}
+		}
+		
+		effect = {
+			create_country_treasure = {
+				key = treasure_chuanguoyuxi
+				icon = treasure_chuanguoyuxi
+
+				modifier = {
+					local_monthly_state_loyalty = 0.5
+					local_citizen_happyness = 0.2
+					local_pop_conversion_speed = 0.2
+					local_pop_assimilation_speed = 0.15
+				}
+			}
+			treasure:treasure_heshibi = { destroy_treasure = yes }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+}
