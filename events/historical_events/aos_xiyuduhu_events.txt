@@ -1,0 +1,23 @@
+﻿namespace = sheli_xiyuduhu
+
+sheli_xiyuduhu.1 = {
+	
+	type = country_event
+	title = "sheli_xiyuduhu.1.t"
+	desc = "sheli_xiyuduhu.1.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+	fire_only_once = yes
+
+	trigger = {
+	}
+	
+	immediate = {
+	}
+	
+	option = {
+		name = sheli_xiyuduhu.1.a
+	}
+	
+}

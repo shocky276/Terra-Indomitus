@@ -1,0 +1,869 @@
+﻿namespace = chaoyi_start
+chaoyi_start.1 = { #朝议开始
+	
+	type = country_event
+	title = "chaoyi_start.1.t"
+	desc = "chaoyi_start.1.desc"
+	picture = china_political
+	goto_location = root
+
+	trigger = {
+		is_ai = no
+		country_culture_group = chinese
+	}
+	
+	immediate = {
+	}
+	
+	option = { #政策调整
+		name = chaoyi_start.1.a
+		trigger_event = {
+		id = chaoyi_policy_adjustment.1
+		}
+	}
+	
+	option = { #大臣提议
+		name = chaoyi_start.1.b
+		random_list = {
+			60 = {	
+				trigger_event = {
+					id = wcwjhzhg_events.2
+				}
+			}
+			
+			60 = {	
+				trigger_event = {
+					id = wcwjhzhg_events.3
+				}
+			}
+			
+			60 = {	
+				trigger_event = {
+					id = wcwjhzhg_events.4
+				}
+			}
+			
+			60 = {	
+				trigger_event = {
+					id = wcwjhzhg_events.5
+				}
+			}
+			
+			80 = {	
+				trigger_event = {
+					id = yanchengtaobing.1
+				}
+			}
+			
+			75 = {
+				trigger_event = {
+					id = chaoyi_wushibingbao.1
+				}
+			}
+		}
+	}
+	
+	option = { #改革诸子百家
+		name = chaoyi_start.1.c
+		trigger_event = {
+			id = tiaozheng_zhuzibaijia.1
+		}
+	}
+	
+	option = { #退朝
+		name = chaoyi_start.1.d
+		trigger_event = {
+			id = gongneimouhua_start.1
+		}
+	}
+	
+}
+
+namespace = chaoyi_policy_adjustment
+
+chaoyi_policy_adjustment.1 = { #朝议政策调整
+	
+	type = country_event
+	title = "chaoyi_policy_adjustment.1.t"
+	desc = "chaoyi_policy_adjustment.1.desc"
+	picture = china_political
+	goto_location = root
+
+	trigger = {
+		is_ai = no
+		country_culture_group = chinese
+	}
+	
+	immediate = {
+	}
+	
+	option = { #执政阶层调整
+		name = chaoyi_policy_adjustment.1.a
+		trigger = {
+			has_variable = china_is_unified
+		}
+		trigger_event = {
+			id = wcwjhzhg_events.2
+		}
+		trigger_event = {
+			id = wcwjhzhg_events.3
+		}
+		trigger_event = {
+			id = wcwjhzhg_events.4
+		}
+		trigger_event = {
+			id = wcwjhzhg_events.5
+		}
+		add_political_influence = -5
+	}
+	
+	option = { #政策增废
+		name = chaoyi_policy_adjustment.1.b
+		trigger_event = {
+			id = chaoyi_zhengcefeizeng.1
+		}
+	}
+	
+	option = { #返回上级
+		name = chaoyi_policy_adjustment.1.c
+		trigger_event = {
+			id = chaoyi_start.1
+		}
+	}
+	
+}
+
+namespace = chaoyi_wushibingbao
+
+chaoyi_wushibingbao.1 = { #无事禀报
+	
+	type = country_event
+	title = "chaoyi_wushibingbao.1.t"
+	desc = "chaoyi_wushibingbao.1.desc"
+	picture = china_political
+	goto_location = root
+
+	trigger = {
+	}
+	
+	immediate = {
+	}
+	
+	option = { #返回上级
+		name = chaoyi_wushibingbao.1.a
+		trigger_event = {
+			id = chaoyi_start.1
+		}
+	}
+	
+}
+
+namespace = tiaozheng_zhuzibaijia
+
+tiaozheng_zhuzibaijia.1 = { #调整诸子百家
+	
+	type = country_event
+	title = "tiaozheng_zhuzibaijia.1.t"
+	desc = "tiaozheng_zhuzibaijia.1.desc"
+	picture = china_political
+	goto_location = root
+
+	trigger = {
+	}
+	
+	immediate = {
+	}
+	
+	option = { #更换治国思想
+		name = tiaozheng_zhuzibaijia.1.a
+		trigger_event = {
+			id = genghuan_zhuzibaijia.1
+		}
+	}
+	
+	option = { #改革目前思想
+		name = tiaozheng_zhuzibaijia.1.b
+		add_political_influence = -5
+		random_list = {
+			50 = {
+				trigger_event = {
+					id = rujia_events.1
+				}
+			}
+			60 = {
+				trigger_event = {
+					id = rujia_events.3
+				}
+			}
+			60 = {
+				trigger_event = {
+					id = rujia_events.4
+				}
+			}
+			60 = {
+				trigger_event = {
+					id = rujia_events.5
+				}
+			}
+			60 = {
+				trigger_event = {
+					id = rujia_events.6
+				}
+			}
+			60 = {
+				trigger_event = {
+					id = rujia_events.7
+				}
+			}
+			60 = {
+				trigger_event = {
+					id = rujia_events.8
+				}
+			}
+			60 = {
+				trigger_event = {
+					id = rujia_events.9
+				}
+			}
+			60 = {
+				trigger_event = {
+					id = fajia_events.1
+				}
+			}
+			60 = {
+				trigger_event = {
+					id = fajia_events.2
+				}
+			}
+		}
+		
+	}
+	
+	option = { #返回上级
+		name = tiaozheng_zhuzibaijia.1.c
+		trigger_event = {
+			id = chaoyi_start.1
+		}
+	}
+	
+}
+
+namespace = genghuan_zhuzibaijia
+
+genghuan_zhuzibaijia.1 = { #调整诸子百家
+	
+	type = country_event
+	title = "genghuan_zhuzibaijia.1.t"
+	desc = "genghuan_zhuzibaijia.1.desc"
+	picture = china_political
+	goto_location = root
+
+	trigger = {
+		is_ai = no
+		country_culture_group = chinese
+	}
+	
+	immediate = {
+	}
+	
+	option = { #更换为法家
+		name = genghuan_zhuzibaijia.1.a
+		trigger = {
+			political_influence >= 50
+			stability >= 30
+			treasury >= 500
+			current_ruler = {
+				finesse >= 10
+				charisma >= 8
+			}
+			NOT = {
+				has_country_modifier = qin_buff
+				has_country_modifier = fajia_buff
+			}
+		}
+		add_country_modifier = {
+			name = fajia_buff
+			duration = -1
+		}
+		hidden_effect = {
+			remove_country_modifier = rujia_buff
+			remove_country_modifier = qin_buff
+			remove_country_modifier = daojia_buff
+			remove_country_modifier = mojia_buff
+		}
+		add_political_influence = -50
+		add_stability = -15
+		add_treasury = -500
+	}
+	
+	option = { #更换为儒家
+		name = genghuan_zhuzibaijia.1.b
+		trigger = {
+			political_influence >= 25
+			stability >= 20
+			treasury >= 250
+			current_ruler = {
+				finesse >= 8
+				charisma >= 4
+			}
+			NOT = {
+				has_country_modifier = qin_buff
+				has_country_modifier = rujia_buff
+			}
+		}
+		add_country_modifier = {
+			name = rujia_buff
+			duration = -1
+		}
+		hidden_effect = {
+			remove_country_modifier = qin_buff
+			remove_country_modifier = daojia_buff
+			remove_country_modifier = mojia_buff
+			remove_country_modifier = fajia_buff
+		}
+		add_political_influence = -25
+		add_stability = -5
+		add_treasury = -250
+	}
+	
+	option = { #更换为墨家
+		name = genghuan_zhuzibaijia.1.c
+		trigger = {
+			political_influence >= 35
+			stability >= 25
+			treasury >= 350
+			current_ruler = {
+				finesse >= 12
+				charisma >= 6
+			}
+			NOT = {
+				has_country_modifier = qin_buff
+				has_country_modifier = mojia_buff
+			}
+		}
+		add_country_modifier = {
+			name = mojia_buff
+			duration = -1
+		}
+		hidden_effect = {
+			remove_country_modifier = qin_buff
+			remove_country_modifier = daojia_buff
+			remove_country_modifier = rujia_buff
+			remove_country_modifier = fajia_buff
+		}
+		add_political_influence = -35
+		add_stability = -10
+		add_treasury = -350
+	}
+	
+	option = { #更换为道家
+		name = genghuan_zhuzibaijia.1.d
+		trigger = {
+			political_influence >= 35
+			stability >= 25
+			treasury >= 400
+			current_ruler = {
+				finesse >= 6
+				charisma >= 5
+			}
+			NOT = {
+				has_country_modifier = qin_buff
+				has_country_modifier = daojia_buff
+			}
+		}
+		add_country_modifier = {
+			name = daojia_buff
+			duration = -1
+		}
+		hidden_effect = {
+			remove_country_modifier = qin_buff
+			remove_country_modifier = mojia_buff
+			remove_country_modifier = rujia_buff
+			remove_country_modifier = fajia_buff
+		}
+		add_political_influence = -35
+		add_stability = -10
+		add_treasury = -400
+	}
+	
+	option = { #返回
+		name = genghuan_zhuzibaijia.1.e
+		trigger_event = {
+			id = chaoyi_start.1
+		}
+	}
+	
+}
+
+namespace = gongneimouhua_start
+
+gongneimouhua_start.1 = { #退朝后
+	
+	type = country_event
+	title = "gongneimouhua_start.1.t"
+	desc = "gongneimouhua_start.1.desc"
+	goto_location = root
+
+	trigger = {
+		is_ai = no
+		country_culture_group = chinese
+	}
+	
+	immediate = {
+	}
+	
+	option = { #退朝后密谋
+		name = gongneimouhua_start.1.a
+		trigger_event = {
+			id = gongneimouhua_1.1
+		}
+	}
+	
+	option = { #算了
+		name = gongneimouhua_start.1.b
+	}
+	
+}
+
+namespace = gongneimouhua_1
+
+gongneimouhua_1.1 = { #与宦官密谋
+	
+	type = country_event
+	title = "gongneimouhua_1.1.t"
+	desc = "gongneimouhua_1.1.desc"
+	goto_location = root
+
+	trigger = {
+		is_ai = no
+		country_culture_group = chinese
+	}
+	
+	immediate = {
+	}
+	
+	option = { #扩大后宫
+		name = gongneimouhua_1.1.a
+		create_character = { # Create a beauty
+				female = yes
+				age = 16
+		}
+		add_country_modifier = {
+			name = junwanghaomei_buff
+   			duration = 1825
+   		}
+		add_treasury = { -600 -1000 }
+	}
+	
+	option = { #搞些钱来
+		name = gongneimouhua_1.1.b
+		trigger = {
+			num_of_cities >= 25
+			NOT = {
+				has_country_modifier = hzbl_buff
+			}
+		}
+		add_treasury = { 400 900 }
+		add_country_modifier = {
+			name = hzbl_buff
+   			duration = 1825
+   		}
+		current_ruler = {
+			add_corruption = 5
+		}
+	}
+	
+	option = {
+		name = gongneimouhua_1.1.c
+		trigger = {
+			current_ruler = {
+				NOT = {
+					has_trait = studying_trait
+				}
+			}
+		}
+		add_political_influence = { -3 -9 }
+		add_treasury = { -150 -400 }
+		trigger_event = {
+			id = character_study_events.1
+		}
+	}
+
+	option = { #算了
+		name = gongneimouhua_1.1.d
+	}
+	
+}
+
+namespace = chaoyi_zhengcefeizeng
+
+chaoyi_zhengcefeizeng.1 = { #废增政策列表
+	
+	type = country_event
+	title = "chaoyi_zhengcefeizeng.1.t"
+	desc = "chaoyi_zhengcefeizeng.1.desc"
+	picture = china_political
+	goto_location = root
+
+	trigger = {
+	}
+	
+	immediate = {
+	}
+	
+	option = { #扩修宫室
+		name = chaoyi_zhengcefeizeng.1.a
+		trigger = {
+			NOT = {
+				has_country_modifier = yuminxiuxi_buff
+				has_country_modifier = kuojianhuanggong_buff
+			}
+		}
+		add_treasury = { -1000 -2000 }
+		add_political_influence = { -15 -30 }
+		add_country_modifier = {
+			name = kuojianhuanggong_buff
+			duration = 3650
+		}
+	}
+	
+	option = { #修建园林
+		name = chaoyi_zhengcefeizeng.1.b
+		trigger = {
+			NOT = {
+				has_country_modifier = yuminxiuxi_buff
+				has_country_modifier = huangjiayuanlin_buff
+			}
+		}
+		add_treasury = { -1500 -2200 }
+		add_political_influence = { -20 -30 }
+		add_country_modifier = {
+			name = huangjiayuanlin_buff
+			duration = 3650
+		}
+	}
+	
+	option = { #卖官弼爵
+		name = chaoyi_zhengcefeizeng.1.c
+		trigger = {
+			num_of_cities >= 260
+			NOT = {
+				has_country_modifier = maiguanbinjue_buff
+			}
+		}
+		add_treasury = { 1300 2000 }
+		add_political_influence = { -5 -10 }
+		add_country_modifier = {
+			name = maiguanbinjue_buff
+			duration = 3650
+		}
+	}
+	
+	option = { #施行仁政
+		name = chaoyi_zhengcefeizeng.1.d
+		trigger = {
+			NOT = {
+				has_country_modifier = abolish_tyranny_buff
+			}
+			tyranny >= 20
+			current_ruler = {
+				finesse >= 7
+			}
+		}
+		add_treasury = { -250 -350 }
+		add_political_influence = { -15 -20 }
+		add_country_modifier = {
+			name = abolish_tyranny_buff
+			duration = 1825
+		}
+	}
+	
+	option = { #整军修武
+		name = chaoyi_zhengcefeizeng.1.e
+		trigger = {
+			NOT = {
+				has_country_modifier = country_improvement_satrap_project_great_army
+				has_country_modifier = yuminxiuxi_buff
+			}
+			current_ruler = {
+				martial >= 6
+			}
+		}
+		add_treasury = { -350 -500 }
+		add_political_influence = { -15 -20 }
+		add_country_modifier = {
+			name = country_improvement_satrap_project_great_army
+			duration = 1825
+		}
+	}
+	
+	option = { #裁减冗兵
+		name = chaoyi_zhengcefeizeng.1.f
+		trigger = {
+			manpower >= 90
+			current_ruler = {
+				finesse >= 5
+			}
+			NOT = {
+				has_country_modifier = caijrb_buff
+			}
+		}
+		add_manpower = { -40 -80 }
+		add_treasury = { -200 -400 }
+		add_political_influence = { -15 -25 }
+		add_country_modifier = {
+			name = caijrb_buff
+			duration = 3650
+		}
+	}
+	
+	option = { #改革官僚
+		name = chaoyi_zhengcefeizeng.1.g
+		trigger = {
+			current_ruler = {
+				finesse >= 6
+			}
+			NOT = {
+				has_country_modifier = caijianrg_buff
+			}
+		}
+		add_treasury = { -300 -500 }
+		add_political_influence = { -15 -30 }
+		add_country_modifier = {
+			name = caijianrg_buff
+			duration = 3650
+		}
+	}
+	
+	option = { #文化包容
+		name = chaoyi_zhengcefeizeng.1.h
+		trigger = {
+			current_ruler = {
+				finesse >= 8
+			}
+			NOT = {
+				has_country_modifier = wenhpd_buff
+			}
+		}
+		add_treasury = { -200 -300 }
+		add_political_influence = { -15 -30 }
+		add_stability = { -5 -10 }
+		add_country_modifier = {
+			name = wenhpd_buff
+			duration = 3650
+		}
+	}
+	
+	option = { #军功爵制
+		name = chaoyi_zhengcefeizeng.1.i
+		trigger = {
+			current_ruler = {
+				finesse >= 8
+				martial >= 8
+			}
+			NOT = {
+				has_country_modifier = jungjz_buff
+			}
+		}
+		add_treasury = { -300 -500 }
+		add_political_influence = { -20 -35 }
+		add_stability = { -10 -15 }
+		add_country_modifier = {
+			name = jungjz_buff
+			duration = -1
+		}
+	}
+	
+	option = { #刺激经济
+		name = chaoyi_zhengcefeizeng.1.j
+		trigger = {
+			current_ruler = {
+				finesse >= 7
+			}
+			NOT = {
+				has_country_modifier = fazhanshangmao_buff
+				has_country_modifier = zhongnongys_buff
+			}
+		}
+		add_treasury = { -250 -450 }
+		add_political_influence = { -10 -20 }
+		add_country_modifier = {
+			name = fazhanshangmao_buff
+			duration = 3650
+		}
+	}
+	
+	option = { #大兴徭役
+		name = chaoyi_zhengcefeizeng.1.k
+		trigger = {
+			current_ruler = {
+				finesse >= 5
+			}
+			NOT = {
+				has_country_modifier = souguarenmin_buff
+			}
+		}
+		add_treasury = { 500 1000 }
+		add_political_influence = { -10 -20 }
+		add_stability = { -10 -25 }
+		add_country_modifier = {
+			name = souguarenmin_buff
+			duration = 7300
+		}
+	}
+	
+	option = { #扩编文官
+		name = chaoyi_zhengcefeizeng.1.l
+		trigger = {
+			current_ruler = {
+				finesse >= 6
+			}
+			NOT = {
+				has_country_modifier = maiguanbinjue_buff
+				has_country_modifier = xuanxianjuneng_buff
+			}
+		}
+		create_character = {
+			age > 22
+			save_scope_as = kuobianwenguan_character
+		}
+		hidden_effect = {
+			scope:kuobianwenguan_character = {
+				add_finesse = { 5 9 }
+			}
+		}
+		add_treasury = { -200 -500 }
+		add_political_influence = { -8 -16 }
+		add_country_modifier = {
+			name = xuanxianjuneng_buff
+			duration = 1825
+		}
+	}
+	
+	option = { #提拔将领
+		name = chaoyi_zhengcefeizeng.1.m
+		trigger = {
+			current_ruler = {
+				finesse >= 6
+				martial >= 6
+			}
+			NOT = {
+				has_country_modifier = maiguanbinjue_buff
+				has_country_modifier = xuanxianjuneng_buff
+			}
+		}
+		create_character = {
+			age > 25
+			save_scope_as = tibajiangling_character
+		}
+		hidden_effect = {
+			scope:tibajiangling_character = {
+				add_finesse = { 5 9 }
+				add_martial = { 7 12 }
+				force_add_trait = tactician
+				force_add_trait = brave
+			}
+		}
+		add_treasury = { -300 -700 }
+		add_political_influence = { -12 -22 }
+		add_country_modifier = {
+			name = xuanxianjuneng_buff
+			duration = 1825
+		}
+	}
+	
+	option = { #重农抑商
+		name = chaoyi_zhengcefeizeng.1.n
+		trigger = {
+			current_ruler = {
+				finesse >= 5
+			}
+			NOT = {
+				has_country_modifier = duiwkf_buff
+				has_country_modifier = fazhanshangmao_buff
+			}
+		}
+		add_treasury = { -100 -300 }
+		add_political_influence = { -10 -25 }
+		add_stability = { -10 -25 }
+		add_country_modifier = {
+			name = zhongnongys_buff
+			duration = -1
+		}
+	}
+	
+	option = { #废止重农抑商
+		name = chaoyi_zhengcefeizeng.1.o
+		trigger = {
+			current_ruler = {
+				finesse >= 9
+			}
+			has_country_modifier = zhongnongys_buff
+		}
+		add_treasury = { -200 -500 }
+		add_political_influence = { -30 -65 }
+		add_stability = { -10 -30 }
+		remove_country_modifier = zhongnongys_buff
+	}
+	
+	option = { #闭关锁国
+		name = chaoyi_zhengcefeizeng.1.p
+		trigger = {
+			current_ruler = {
+				finesse >= 5
+			}
+			has_variable = china_is_unified
+			NOT = {
+				has_country_modifier = bigsg_buff
+			}
+		}
+		add_treasury = { -100 -300 }
+		add_political_influence = { -10 -25 }
+		add_stability = { -1 -10 }
+		add_country_modifier = {
+			name = bigsg_buff
+			duration = -1
+		}
+	}
+	
+	option = { #废止闭关锁国
+		name = chaoyi_zhengcefeizeng.1.q
+		trigger = {
+			current_ruler = {
+				finesse >= 9
+			}
+			has_country_modifier = bigsg_buff
+		}
+		add_treasury = { -200 -500 }
+		add_political_influence = { -30 -65 }
+		add_stability = { -10 -30 }
+		remove_country_modifier = bigsg_buff
+	}
+	
+	option = { #加强中央集权
+		name = chaoyi_zhengcefeizeng.1.r
+		trigger = {
+			has_variable = china_is_unified
+			current_ruler = {
+				finesse >= 9
+			}
+			NOT = {
+				has_country_modifier = jiaqhq_buff
+			}
+		}
+		add_political_influence = { -15 -40 }
+		add_stability = { 1 10 }
+		add_country_modifier = {
+			name = jiaqhq_buff
+			duration = 7300
+		}
+	}
+	
+	option = { #返回
+		name = chaoyi_zhengcefeizeng.1.s
+		trigger_event = {
+			id = chaoyi_start.1
+		}
+	}
+	
+}

@@ -1,0 +1,14 @@
+﻿namespace = aos_replace_the_vassal_ruler
+aos_replace_the_vassal_ruler.1 = {
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		scope:recipient = {
+			set_as_ruler = scope:target
+		}
+		new_family_generation_effect = {
+			FAMILY_CANDIDATE = target 
+		}
+	}
+}

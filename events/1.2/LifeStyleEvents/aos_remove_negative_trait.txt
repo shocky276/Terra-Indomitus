@@ -1,0 +1,115 @@
+﻿namespace = aos_remove_negative_trait
+
+#移除统治者负面特质随机事件
+aos_remove_negative_trait.1 = {
+	type = country_event
+	title = "aos_remove_negative_trait.1.t"
+	desc = "aos_remove_negative_trait.1.desc"
+	left_portrait = current_ruler
+
+	trigger = {
+		is_ai = no
+		current_ruler = {
+			OR = {
+				has_trait = cruel
+				has_trait = abrasive
+			}
+		}
+		any_character = {
+			prisoner = no
+			is_ruler = no
+			is_adult = yes
+		}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				prisoner = no
+				is_ruler = no
+				is_adult = yes
+			}
+			save_scope_as = advice_ruler_remove_trait_character
+		}
+		current_ruler = {
+			save_scope_as = has_negative_trait_ruler
+		}
+	}
+	
+	option = {
+		name = "aos_remove_negative_trait.1.a"
+		trigger = {
+			current_ruler = {
+				finesse > 9
+				OR = {
+					has_trait = shrewd
+					has_trait = silver_tongued
+					has_trait = good_natured
+					has_trait = crafty
+				}
+			}
+		}
+		scope:advice_ruler_remove_trait_character = {
+			add_loyalty = aos_loyalty_adopt_suggestion
+		}
+		scope:has_negative_trait_ruler = {
+			remove_trait = abrasive
+			remove_trait = cruel
+		}
+	}
+
+	option = {
+		name = "aos_remove_negative_trait.1.b"
+		trigger = {
+			current_ruler = {
+				finesse < 9
+				NOT = {
+					has_trait = shrewd
+					has_trait = silver_tongued
+					has_trait = good_natured
+					has_trait = crafty
+				}
+			}
+		}
+		scope:advice_ruler_remove_trait_character = {
+			add_loyalty = aos_loyalty_be_insulted
+		}
+	}
+
+	option = {
+		name = "aos_remove_negative_trait.1.c"
+		trigger = {
+			current_ruler = {
+				finesse > 5
+			}
+		}
+		scope:advice_ruler_remove_trait_character = {
+			add_loyalty = aos_loyalty_adopt_suggestion
+		}
+		scope:has_negative_trait_ruler = {
+			remove_trait = abrasive
+			remove_trait = cruel
+			add_trait = depressed
+			add_trait = stressed
+			add_health = -5
+		}
+	}
+
+	option = {
+		name = "aos_remove_negative_trait.1.d"
+		trigger = {
+			current_ruler = {
+				has_trait = cruel
+			}
+		}
+		scope:advice_ruler_remove_trait_character = {
+			death = {
+				death_reason = death_swallowed_by_wild_animals
+			}
+		}
+		scope:has_negative_trait_ruler = {
+			add_popularity = -10
+		}
+		add_tyranny = tyranny_large
+	}
+}

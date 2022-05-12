@@ -1,0 +1,33 @@
+﻿namespace = chu_startup
+
+chu_startup.1 = { #楚懷王debuff
+	
+	type = country_event
+	title = "chu_startup.1.t"
+	desc = "chu_startup.1.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+	fire_only_once = yes
+
+	trigger = {
+		tag = CHU
+	}
+	
+	immediate = {
+    set_variable = chinese_country_named
+	set_variable = zhuzibaijia
+   	add_country_modifier = {
+   		name = chuhuaiwang
+   		duration = -1 #It could only be removed after the death of King Huai of Chu and if the succeeding monarch was capable of doing so.
+   	}
+	trigger_event = {
+	    id = game_start_introduce.1
+	}
+	}
+	
+	option = {
+		name = chu_startup.1.a
+	}
+	
+}

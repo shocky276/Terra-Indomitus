@@ -1,0 +1,236 @@
+﻿namespace = bachaoxiuxian
+bachaoxiuxian.1 = {
+	type = country_event
+	title = "bachaoxiuxian.1.t"
+	desc = "bachaoxiuxian.1.desc"
+	picture = china_political
+	left_portrait = current_ruler
+
+	trigger = {
+		NOT = {
+			has_country_modifier = bacxx_buff
+		}
+		is_ai = no
+		country_culture_group = chinese
+		current_ruler = {
+			has_trait = daojia_trait
+		}
+		any_character = {
+			is_adult = yes
+			prisoner = no
+			has_trait = daojia_trait
+			is_ruler = no
+		}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				is_adult = yes
+				prisoner = no
+				has_trait = daojia_trait
+				is_ruler = no
+			}
+			save_scope_as = daojia_fangshi_target
+		}
+	}
+
+	option = {
+		name = "bachaoxiuxian.1.a"
+		add_country_modifier = {
+			name = bacxx_buff
+			duration = -1
+		}
+		current_ruler = {
+			add_trait = bachaoxiuxian
+		}
+		scope:daojia_fangshi_target = {
+			add_loyalty = aos_loyalty_adopt_suggestion
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = bachaoxiuxian.2
+			}
+		}
+	}
+
+	option = {
+		name = "bachaoxiuxian.1.b"
+		scope:daojia_fangshi_target = {
+			add_loyalty = aos_loyalty_suggestion_be_perfunctory
+		}
+	}
+
+	option = {
+		name = "bachaoxiuxian.1.c"
+		trigger = {
+			current_ruler = {
+				finesse > 10
+			}
+		}
+		scope:daojia_fangshi_target = {
+			remove_all_positions = yes
+			add_loyalty = aos_loyalty_be_insulted
+			root = {
+				imprison = {
+					target = scope:daojia_fangshi_target
+				}
+			}
+		}
+	}
+}
+
+bachaoxiuxian.2 = {
+	type = country_event
+	title = "bachaoxiuxian.2.t"
+	desc = "bachaoxiuxian.2.desc"
+	picture = china_political
+	left_portrait = current_ruler
+
+	trigger = {
+		current_ruler = {
+			has_trait = bachaoxiuxian
+		}
+	}
+
+	immediate = {}
+
+	option = {
+		name = "bachaoxiuxian.2.a"
+		trigger = {
+			current_ruler = {
+				finesse < 12
+			}
+		}
+		current_ruler = {
+			set_variable = eat_danyao
+			add_health = 5
+		}
+	}
+
+	option = {
+		name = "bachaoxiuxian.2.b"
+		trigger = {
+			current_ruler = {
+				finesse > 12
+			}
+		}
+	}
+}
+
+bachaoxiuxian.3 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		current_ruler = {
+			has_variable = eat_danyao
+		}
+	}
+
+	immediate = {
+		current_ruler = {
+			add_health = -1
+		}
+	}
+}
+
+namespace = chennihougong
+chennihougong.1 = {
+	type = country_event
+	title = "chennihougong.1.t"
+	desc = "chennihougong.1.desc"
+	left_portrait = current_ruler
+
+	trigger = {
+		NOT = {
+			has_country_modifier = chennhg_buff
+		}
+		current_ruler = {
+			OR = {
+				has_trait = lapsed
+				has_trait = lustful
+			}
+		}
+	}
+	
+	immediate = {}
+
+	option = {
+		name = "chennihougong.1.a"
+		ai_chance = {
+			modifier = {
+				factor = 100
+			}
+		}
+		current_ruler = {
+			add_trait = chennihougong
+		}
+		add_country_modifier = {
+			name = chennhg_buff
+			duration = -1
+		}
+	}
+
+	option = {
+		name = "chennihougong.1.b"
+		current_ruler = {
+			remove_trait = lapsed
+			remove_trait = lustful
+			remove_trait = chennihougong
+			add_trait = depressed
+		}
+		remove_country_modifier = chennhg_buff
+	}
+}
+
+namespace = des_bachaoxiuxian
+des_bachaoxiuxian.1 = {
+	type = country_event
+	title = "bachaoxiuxian.1.t"
+	desc = "bachaoxiuxian.1.desc"
+	picture = china_political
+	left_portrait = current_ruler
+
+	trigger = {
+		NOT = {
+			has_country_modifier = bacxx_buff
+		}
+		is_ai = no
+		country_culture_group = chinese
+		current_ruler = {
+			has_trait = daojia_trait
+		}
+	}
+	
+	immediate = {}
+
+	option = {
+		name = "bachaoxiuxian.1.a"
+		add_country_modifier = {
+			name = bacxx_buff
+			duration = -1
+		}
+		current_ruler = {
+			add_trait = bachaoxiuxian
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = bachaoxiuxian.2
+			}
+		}
+	}
+
+	option = {
+		name = "bachaoxiuxian.1.b"
+	}
+
+	option = {
+		name = "bachaoxiuxian.1.c"
+		trigger = {
+			current_ruler = {
+				finesse > 10
+			}
+		}
+	}
+}

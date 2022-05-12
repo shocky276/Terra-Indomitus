@@ -1,0 +1,411 @@
+﻿namespace = serve_a_banquet
+
+#举办宴会
+serve_a_banquet.1 = { #开始举办
+	type = country_event
+	title = "serve_a_banquet.1.t"
+	desc = "serve_a_banquet.1.desc"
+	picture = having_banquet
+	left_portrait = current_ruler
+
+	trigger = {
+		is_ai = no
+	}
+	
+	immediate = {
+		set_variable = country_serve_banquet
+		current_ruler = {
+			add_trait = serve_banquet
+		}
+	}
+
+	option = {
+	name = "serve_a_banquet.1.a"
+		hidden_effect = {
+			trigger_event = {
+				id = serve_a_banquet.2
+				days = { 2 7 }
+			}
+		}
+	}
+}
+
+serve_a_banquet.2 = { #客人到来
+	type = country_event
+	title = "serve_a_banquet.2.t"
+	desc = "serve_a_banquet.2.desc"
+	picture = having_banquet
+	left_portrait = current_ruler
+	right_portrait = scope:banquet_guests
+
+	trigger = {
+		has_variable = country_serve_banquet
+		any_character = {
+			prisoner = no
+			is_adult = yes
+			is_ruler = no
+		}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				prisoner = no
+				is_adult = yes
+				is_ruler = no
+			}
+			save_scope_as = banquet_guests
+		}
+	}
+
+	option = {
+	name = "serve_a_banquet.2.a"
+		scope:banquet_guests = {
+		add_loyalty = aos_loyalty_banquet_guests
+		}
+		hidden_effect = {
+			random_list = {
+				80 = {
+					trigger_event = {
+						id = serve_a_banquet.3
+						days = { 2 7 }
+					}
+				}
+				45 = {
+					trigger_event = {
+						id = serve_a_banquet.4
+						days = { 2 7 }
+					}
+				}
+				80 = {
+					trigger_event = {
+						id = serve_a_banquet.5
+						days = { 2 7 }
+					}
+				}
+			}
+			trigger_event = {
+				id = serve_a_banquet.6
+				days = { 60 90 }
+			}
+		}
+	}
+}
+
+serve_a_banquet.3 = { #高谈阔论
+	type = country_event
+	title = "serve_a_banquet.3.t"
+	desc = "serve_a_banquet.3.desc"
+	picture = having_banquet
+	left_portrait = current_ruler
+	right_portrait = scope:banquet_guests_talkative
+
+	trigger = {
+		has_variable = country_serve_banquet
+		any_character = {
+			OR = {
+				has_trait = orator
+				has_trait = silver_tongued
+				finesse > 10
+			}
+			prisoner = no
+			is_adult = yes
+			is_ruler = no
+			can_get_friends = yes
+		}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				OR = {
+					has_trait = orator
+					has_trait = silver_tongued
+					finesse > 10
+				}
+				prisoner = no
+				is_adult = yes
+				is_ruler = no
+			}
+			save_scope_as = banquet_guests_talkative
+		}
+		current_ruler = {
+			save_scope_as = banquet_current_ruler
+		}
+	}
+
+	option = { #夸赞
+	name = "serve_a_banquet.3.a"
+	trigger = {
+		current_ruler = {
+			NOT = {
+				has_trait = abrasive
+				has_trait = cruel
+			}
+		}
+	}
+		scope:banquet_guests_talkative = {
+			add_loyalty = aos_loyalty_banquet_happy_guests
+		}
+	}
+
+	option = { #谩骂
+	name = "serve_a_banquet.3.b"
+	custom_tooltip = abrasive_tooltip
+	trigger = {
+		current_ruler = {
+			OR = {
+				has_trait = abrasive
+				has_trait = cruel
+			}
+		}
+	}
+		scope:banquet_guests_talkative = {
+			add_loyalty = aos_loyalty_be_insulted
+			add_rival = scope:banquet_current_ruler
+		}
+	}
+
+	option = { #知己
+	name = "serve_a_banquet.3.c"
+	trigger = {
+		current_ruler = {
+			OR = {
+				has_trait = scholar
+				has_trait = original_thinker
+				has_trait = intelligent
+				has_trait = polymath
+				has_trait = obsessive
+				finesse > 10
+			}
+			can_get_friends = yes
+		}
+	}
+		scope:banquet_guests_talkative = {
+			add_loyalty = aos_loyalty_banquet_happy_guests
+			add_friend = scope:banquet_current_ruler
+		}
+	}
+}
+
+serve_a_banquet.4 = { #一言不合
+	type = country_event
+	title = "serve_a_banquet.4.t"
+	desc = "serve_a_banquet.4.desc"
+	picture = having_banquet
+	left_portrait = current_ruler
+	right_portrait = scope:banquet_guests_conflict
+
+	trigger = {
+		has_variable = country_serve_banquet
+		any_character = {
+			OR = {
+				has_trait = proud
+				has_trait = abrasive
+				has_trait = cruel
+				has_trait = sarcastic
+			}
+			prisoner = no
+			is_adult = yes
+			is_ruler = no
+		}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				OR = {
+					has_trait = proud
+					has_trait = abrasive
+					has_trait = cruel
+					has_trait = sarcastic
+				}
+				prisoner = no
+				is_adult = yes
+				is_ruler = no
+			}
+			save_scope_as = banquet_guests_conflict
+		}
+		current_ruler = {
+			save_scope_as = banquet_current_ruler
+		}
+	}
+
+	option = { #争吵
+	name = "serve_a_banquet.4.a"
+	trigger = {
+		current_ruler = {
+			OR = {
+				has_trait = frail
+				has_trait = weak_willed
+				has_trait = coward
+			}
+		}
+	}
+		scope:banquet_current_ruler = {
+			add_popularity = -60
+		}
+		scope:banquet_guests_conflict = {
+		add_loyalty = aos_loyalty_be_insulted
+		add_rival = scope:banquet_current_ruler
+		}
+	}
+
+	option = { #打斗
+	name = "serve_a_banquet.4.b"
+		scope:banquet_current_ruler = {
+			add_health = -10
+		}
+		scope:banquet_guests_conflict = {
+			add_loyalty = aos_loyalty_be_insulted
+			add_rival = scope:banquet_current_ruler
+			add_health = -10
+		}
+		imprison = {
+			target = scope:banquet_guests_conflict
+		}
+	}
+
+	option = { #化解
+	name = "serve_a_banquet.4.c"
+	trigger = {
+		current_ruler = {
+			OR = {
+				has_trait = crafty
+				has_trait = sceptical
+				has_trait = deceitful
+				has_trait = shrewd
+				has_trait = wise
+				finesse > 10
+			}
+		}
+	}
+	}
+}
+
+serve_a_banquet.5 = { #把酒言欢
+	type = country_event
+	title = "serve_a_banquet.5.t"
+	desc = "serve_a_banquet.5.desc"
+	picture = having_banquet
+	left_portrait = current_ruler
+	right_portrait = scope:banquet_guests_be_friends
+
+	trigger = {
+		has_variable = country_serve_banquet
+		any_character = {
+			OR = {
+				has_trait = orator
+				has_trait = silver_tongued
+				finesse > 12
+			}
+			NOT = {
+				has_trait = abrasive
+				has_trait = lapsed
+				has_trait = cruel
+				has_trait = arbitrary
+				has_trait = vengeful
+				has_trait = selfish
+				has_trait = sarcastic
+				has_trait = miserly
+				has_trait = cold
+			}
+			prisoner = no
+			is_adult = yes
+			is_ruler = no
+			can_get_friends = yes
+		}
+		current_ruler = {
+			can_get_friends = yes
+			NOT = {
+				has_trait = abrasive
+				has_trait = lapsed
+				has_trait = cruel
+				has_trait = arbitrary
+				has_trait = vengeful
+				has_trait = selfish
+				has_trait = sarcastic
+				has_trait = miserly
+				has_trait = cold
+			}
+		}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				OR = {
+					has_trait = orator
+					has_trait = silver_tongued
+					finesse > 12
+				}
+				NOT = {
+					has_trait = abrasive
+					has_trait = lapsed
+					has_trait = cruel
+					has_trait = arbitrary
+					has_trait = vengeful
+					has_trait = selfish
+					has_trait = sarcastic
+					has_trait = miserly
+					has_trait = cold
+				}
+				prisoner = no
+				is_adult = yes
+				is_ruler = no
+			}
+			save_scope_as = banquet_guests_be_friends
+		}
+		current_ruler = {
+			save_scope_as = banquet_current_ruler
+		}
+	}
+
+	option = { #知己
+	name = "serve_a_banquet.5.a"
+		scope:banquet_guests_be_friends = {
+			add_loyalty = aos_loyalty_banquet_happy_guests
+			add_friend = scope:banquet_current_ruler
+		}
+	}
+}
+
+serve_a_banquet.6 = { #宴会结束
+	type = country_event
+	title = "serve_a_banquet.6.t"
+	desc = "serve_a_banquet.6.desc"
+	picture = having_banquet
+	left_portrait = current_ruler
+	right_portrait = scope:banquet_guests
+
+	trigger = {
+		has_variable = country_serve_banquet
+		any_character = {
+			prisoner = no
+			is_adult = yes
+			is_ruler = no
+		}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				prisoner = no
+				is_adult = yes
+				is_ruler = no
+			}
+			save_scope_as = banquet_guests
+		}
+		remove_variable = country_serve_banquet
+	}
+
+	option = {
+	name = "serve_a_banquet.6.a"
+		scope:banquet_guests = {
+		add_loyalty = aos_loyalty_banquet_guests
+		}
+		current_ruler = {
+			remove_trait = serve_banquet
+		}
+	}
+}

@@ -1,0 +1,241 @@
+﻿namespace = concubine
+
+concubine.1 = { #Maintenance event, fired yearly
+	type = character_event
+	title = "lovers.1.t"
+	desc = "lovers.1.desc"
+	picture = greek_court
+	
+	left_portrait = root
+	right_portrait = current_ruler
+	
+	trigger = {
+		is_female = yes
+		OR = {
+			has_trait = concubine
+			is_spouse_of = employer.current_ruler
+		}
+		is_adult = yes
+		is_pregnant = no
+	}
+
+	option = { 
+		name = "lovers.1.a"
+		#Fix assignment of concubine trait
+		if = { 
+			limit = {
+				OR = {
+					NOT = { is_spouse_of = employer.current_ruler }
+					NOT = { is_friend = employer.current_ruler }
+				}
+				has_trait = concubine
+			}
+		}
+		if = { 
+			limit = {
+				is_friend = employer.current_ruler
+				is_spouse_of = employer.current_ruler
+				NOT = { has_trait = concubine }
+			}
+			add_trait = concubine
+		}
+		#if possible to get pregnant, attempt it
+		if = {
+			limit = {
+				age < 45
+				prisoner = no
+				NOT = { has_trait = barren }
+				NOT = { has_trait = castrated }
+				NOT = { has_trait = leper }
+				NOT = { has_trait = inbred }
+				NOT = { has_trait = pox }
+				employer = {
+					current_ruler = {
+						is_female = no
+						is_adult = yes
+						prisoner = no
+						NOR = {
+							has_trait = castrated
+							has_trait = leper
+							has_trait = inbred
+							has_trait = pox
+							has_trait = shenxu
+						}
+					}
+				}
+			}
+			#Fertility is divided into 3 age ranges: 16-29 (60%), 30-39 (30%), 40-45 (10%)
+			if = {
+				limit = { 
+					age < 30
+				}
+				if = {
+					limit = { #concubine
+						has_trait = concubine
+					}
+					random_list = { #~1.8 children in 14 years
+						15 = { #pregnant!
+							trigger_event = { # Next event
+								id = concubine.2
+								days = { 0 364 } # 1 month - 1 year 
+							}
+						}
+						85 = { } #no pregnancy
+					}
+				}
+				else = {
+					random_list = { #~3 children in 14 years
+						20 = { #pregnant!
+							trigger_event = { # Next event
+								id = concubine.2
+								days = { 0 364 } # 1 month - 1 year 
+							}
+						}
+						80 = { } #no pregnancy
+					}
+				}
+			}
+			else_if = {
+				limit = { 
+					age >= 30
+					age < 40
+				}
+				if = {
+					limit = { #concubine
+						has_trait = concubine
+					}
+					random_list = { #
+						10 = { #pregnant!
+							trigger_event = { # Next event
+								id = concubine.2
+								days = { 0 364 } # 1 month - 1 year 
+							}
+						}
+						90 = { } #no pregnancy
+					}
+				}
+				else = {
+					random_list = { #
+						15 = { #pregnant!
+							trigger_event = { # Next event
+								id = concubine.2
+								days = { 0 364 } # 1 month - 1 year 
+							}
+						}
+						85 = { } #no pregnancy
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { #concubine
+						has_trait = concubine
+					}
+					random_list = { #
+						5 = { #pregnant!
+							trigger_event = { # Next event
+								id = concubine.2
+								days = { 0 364 } # 1 month - 1 year 
+							}
+						}
+						95 = { } #no pregnancy
+					}
+				}
+				else = {
+					random_list = { #
+						10 = { #pregnant!
+							trigger_event = { # Next event
+								id = concubine.2
+								days = { 0 364 } # 1 month - 1 year 
+							}
+						}
+						90 = { } #no pregnancy
+					}
+				}
+			}
+		}
+	}
+}
+
+concubine.2 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		if = { #ruler must still be alive, and root is not already pregnant and still capable of pregnancy
+			limit = {
+				employer = {
+					current_ruler = {
+						is_female = no
+						is_adult = yes
+						prisoner = no
+						NOR = {
+							has_trait = castrated
+							has_trait = leper
+							has_trait = inbred
+							has_trait = pox
+							has_trait = shenxu
+						}
+					}
+				}
+				is_pregnant = no
+				NOT = { has_trait = barren }
+				NOT = { has_trait = castrated }
+				NOT = { has_trait = leper }
+				NOT = { has_trait = inbred }
+				NOT = { has_trait = pox }
+				OR = {
+					has_trait = concubine
+					is_spouse_of = employer.current_ruler
+				}
+			}
+			save_scope_as = pregnant_lady
+			make_pregnant = {
+				father = employer.current_ruler
+			}
+			if = {
+				limit = { has_trait = concubine }
+				employer = {
+					trigger_event = { # Notify pregnant
+						id = concubine.3
+					}
+				}
+			}
+			else = {
+				employer = {
+					trigger_event = { # Notify pregnant
+						id = concubine.4
+					}
+				}
+			}
+		}
+	}
+}
+
+concubine.3 = {
+	type = country_event
+	title = "concubine.3.t"
+	desc = "concubine.3.desc"
+	picture = celtic_religious_festival
+	
+	left_portrait = current_ruler
+	right_portrait = scope:pregnant_lady
+	
+	option = {
+		name = "concubine.3.a"
+	}
+}
+
+concubine.4 = {
+	type = country_event
+	title = "concubine.4.t"
+	desc = "concubine.4.desc"
+	picture = celtic_religious_festival
+	
+	left_portrait = current_ruler
+	right_portrait = scope:pregnant_lady
+	
+	option = {
+		name = "concubine.4.a"
+	}
+}

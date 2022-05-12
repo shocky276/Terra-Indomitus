@@ -1,0 +1,294 @@
+﻿namespace = aos_ai_xiongnu_declare_war
+
+# xiongnu declare war
+
+aos_ai_xiongnu_declare_war.1 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+	}
+
+	immediate = {
+		trigger_event = {
+			id = aos_ai_xiongnu_declare_war.2
+		}
+		trigger_event = {
+			id = aos_ai_xiongnu_declare_war.3
+		}
+		trigger_event = {
+			id = aos_ai_xiongnu_declare_war.4
+		}
+	}
+
+}
+
+aos_ai_xiongnu_declare_war.2 = { #匈奴自动宣战草原其他游牧
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			OR = {
+				has_variable = xiongnu_rise_country
+				tag = XNU
+			}
+			country_culture_group = di
+			is_ai = yes
+			has_land = yes
+			num_of_cities > 25
+			current_date > 545.1.1
+			has_civil_war = no
+			war = no
+			has_war_exhaustion < 30
+			is_subject = no
+		}
+		any_neighbour_country = {
+			OR = {
+				country_culture_group = di
+				country_culture_group = hu
+			}
+			NOT = {
+				tag = root
+			}
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				OR = {
+					has_variable = xiongnu_rise_country
+					tag = XNU
+				}
+				is_ai = yes
+				has_land = yes
+				num_of_cities > 25
+				current_date > 545.1.1
+				has_civil_war = no
+				war = no
+				is_subject = no
+				has_war_exhaustion < 30
+			}
+			save_scope_as = xiongnu_country
+		}
+		every_neighbour_country = {
+			limit = {
+				OR = {
+					country_culture_group = di
+					country_culture_group = hu
+				}
+				NOT = {
+					tag = root
+					is_subject_of = scope:xiongnu_country
+					has_truce_with = scope:xiongnu_country
+					alliance_with = scope:xiongnu_country
+				}
+			}
+			save_scope_as = xiongnu_declare_war_attack_target_country
+		}
+		scope:xiongnu_country = {
+			declare_war_with_wargoal = {
+				war_goal = eastern_steppe_overlord_wargoal
+				target = scope:xiongnu_declare_war_attack_target_country
+			}
+		}
+	}
+}
+
+aos_ai_xiongnu_declare_war.3 = { #匈奴自动宣战河西走廊与西域势力
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			OR = {
+				has_variable = xiongnu_rise_country
+				tag = XNU
+			}
+			country_culture_group = di
+			is_ai = yes
+			has_land = yes
+			num_of_cities > 25
+			current_date > 545.1.1
+			has_civil_war = no
+			war = no
+			has_war_exhaustion < 30
+			is_subject = no
+		}
+		any_neighbour_country = {
+			OR = {
+				country_culture_group = xiyu
+				country_culture_group = saka_g
+				country_culture_group = bactrian
+			}
+			NOT = {
+				tag = root
+			}
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				OR = {
+					has_variable = xiongnu_rise_country
+					tag = XNU
+				}
+				is_ai = yes
+				has_land = yes
+				num_of_cities > 25
+				current_date > 545.1.1
+				has_civil_war = no
+				war = no
+				is_subject = no
+				has_war_exhaustion < 30
+			}
+			save_scope_as = xiongnu_country
+		}
+		every_neighbour_country = {
+			limit = {
+				OR = {
+					country_culture_group = xiyu
+					country_culture_group = saka_g
+					country_culture_group = bactrian
+				}
+				NOT = {
+					tag = root
+					is_subject_of = scope:xiongnu_country
+					has_truce_with = scope:xiongnu_country
+					alliance_with = scope:xiongnu_country
+				}
+			}
+			save_scope_as = xiongnu_declare_war_attack_western_target
+		}
+		scope:xiongnu_country = {
+			declare_war_with_wargoal = {
+				war_goal = eastern_steppe_overlord_wargoal
+				target = scope:xiongnu_declare_war_attack_western_target
+			}
+		}
+	}
+}
+
+aos_ai_xiongnu_declare_war.4 = { #匈奴自动宣战华夏农耕劫掠
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		NOT = {
+			has_variable = nomads_loop_event_triggered
+		}
+		any_country = {
+			OR = {
+				country_culture_group = di
+				country_culture_group = hu
+			}
+			is_ai = yes
+			has_land = yes
+			num_of_cities > 18
+			current_date > 545.1.1
+			has_civil_war = no
+			is_subject = no
+		}
+		any_neighbour_country = {
+			OR = {
+				country_culture_group = chinese
+				has_variable = china_is_unified
+			}
+			NOT = {
+				is_subject_of = root
+				has_truce_with = root
+				war_with = root
+				alliance_with = root
+			}
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				OR = {
+					country_culture_group = di
+					country_culture_group = hu
+				}
+				is_ai = yes
+				has_land = yes
+				num_of_cities > 18
+				current_date > 545.1.1
+				has_civil_war = no
+				is_subject = no
+			}
+			save_scope_as = xiongnu_country
+		}
+		every_neighbour_country = {
+			limit = {
+				OR = {
+					country_culture_group = chinese
+					has_variable = china_is_unified
+				}
+				NOT = {
+					is_subject_of = scope:xiongnu_country
+					has_truce_with = scope:xiongnu_country
+					alliance_with = scope:xiongnu_country
+				}
+			}
+			save_scope_as = xiongnu_declare_war_loop_target_country
+		}
+		scope:xiongnu_declare_war_loop_target_country = {
+			trigger_event = {
+				id = aos_ai_xiongnu_declare_war.5
+			}
+		}
+		set_variable = {
+			name = nomads_loop_event_triggered
+			days = 10
+		}
+	}
+}
+
+aos_ai_xiongnu_declare_war.5 = {
+	type = country_event
+	title = "aos_ai_xiongnu_declare_war.5.t"
+	desc = "aos_ai_xiongnu_declare_war.5.desc"
+	picture = xiongnu_cavalry
+
+	trigger = {
+		scope:xiongnu_declare_war_loop_target_country = {
+			NOT = {
+				has_variable = tribute_to_nomads
+				has_variable = nomads_loop_event_triggered
+				war_with = scope:xiongnu_country
+			}
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = nomads_loop_event_triggered
+			days = {1095 1825}
+		}
+	}
+
+	option = {
+		name = aos_ai_xiongnu_declare_war.5.a
+		scope:xiongnu_country = {
+			declare_war_with_wargoal = {
+				war_goal = steppe_nomadic_loot_wargoal
+				target = scope:xiongnu_declare_war_loop_target_country
+			}
+		}
+	}
+
+	option = {
+		name = aos_ai_xiongnu_declare_war.5.b
+		add_treasury = {
+			value = has_monthly_income
+			multiply = -10
+		}
+		set_variable = {
+			name = tribute_to_nomads
+			days = {365 1095}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+﻿namespace = bii_startup
+
+bii_startup.1 = { #鄪开局
+	
+	type = country_event
+	title = "bii_startup.1.t"
+	desc = "bii_startup.1.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+	fire_only_once = yes
+
+	trigger = {
+		tag = BII
+	}
+	
+	immediate = {
+    set_variable = chinese_country_named
+	set_variable = zhuzibaijia
+	    trigger_event = {
+	    id = game_start_introduce.1
+	    }
+   		add_country_modifier = {
+   			name = rujia_buff
+   			duration = -1
+   		}
+	}
+	
+	option = {
+		name = bii_startup.1.a
+	}
+	
+}

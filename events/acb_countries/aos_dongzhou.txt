@@ -1,0 +1,33 @@
+﻿namespace = dongzhou_startup
+
+dongzhou_startup.1 = { #东周开局buff
+	
+	type = country_event
+	title = "dongzhou_startup.1.t"
+	desc = "dongzhou_startup.1.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+	fire_only_once = yes
+
+	trigger = {
+		tag = EZO
+	}
+	
+	immediate = {
+    set_variable = chinese_country_named
+	set_variable = zhuzibaijia
+	    trigger_event = {
+	    id = game_start_introduce.1
+	    }
+   		add_country_modifier = {
+   			name = rujia_buff
+   			duration = -1
+   		}
+	}
+	
+	option = {
+		name = dongzhou_startup.1.a
+	}
+	
+}

@@ -1,0 +1,93 @@
+﻿namespace = china_transformation_of_cultural_identity
+china_transformation_of_cultural_identity.1 = {
+	type = country_event
+	title = "china_transformation_of_cultural_identity.1.t"
+	desc = "china_transformation_of_cultural_identity.1.desc"
+	picture = china_political
+	trigger = {
+		has_variable = china_is_unified		#已政治統一
+		has_variable = chetongguishutongwen		#已統一度量衡
+		current_date >= 552.1.1		#西漢建立時間
+		NOT = {
+			has_variable = china_cultural_transformationed
+		}
+	}
+	option = {
+		name = "china_transformation_of_cultural_identity.1.a"
+		trigger = {
+			country_culture_group = chinese
+		}
+		custom_tooltip = china_transformation_of_cultural_identity_tt
+		set_variable = china_cultural_transformationed
+		hidden_effect = {
+			every_owned_province = {
+				every_pops_in_province = {
+					limit = {
+						OR = {
+							pop_culture = wuyue
+							pop_culture_group = chinese
+							pop_religion = chinese_religions
+						}
+					}
+					set_pop_culture = huaxia
+				}
+			}
+			every_character = {
+				limit = {
+					OR = {
+						has_culture = wuyue
+						has_culture_group = chinese
+						has_religion = chinese_religions
+					}
+				}
+				set_culture = huaxia
+			}
+			set_primary_culture = huaxia
+		}
+	}
+
+	option = {
+		name = "china_transformation_of_cultural_identity.1.b"
+		trigger = {
+			NOT = {
+				country_culture_group = chinese
+			}
+		}
+	}
+
+	option = {
+		name = "china_transformation_of_cultural_identity.1.c"
+		trigger = {
+			NOT = {
+				country_culture_group = chinese
+			}
+		}
+		custom_tooltip = china_transformation_of_cultural_identity_tt
+		set_variable = china_cultural_transformationed
+		hidden_effect = {
+			every_owned_province = {
+				every_pops_in_province = {
+					limit = {
+						OR = {
+							pop_culture = wuyue
+							pop_culture_group = chinese
+							pop_religion = chinese_religions
+						}
+					}
+					set_pop_culture = huaxia
+				}
+			}
+			every_character = {
+				limit = {
+					OR = {
+						has_culture = wuyue
+						has_culture_group = chinese
+						has_religion = chinese_religions
+					}
+				}
+				set_culture = huaxia
+			}
+			set_primary_culture = huaxia
+		}
+	}
+}

@@ -1,0 +1,48 @@
+﻿namespace = aos_ai_western_declare_war
+
+# western declare war
+
+aos_ai_western_declare_war.1 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		tag = ROM
+		has_land = yes
+		num_of_cities > 800
+		has_civil_war = no
+		war = no
+		is_ai = yes
+		is_subject = no
+		any_neighbour_country = {
+			has_land = yes
+			num_of_cities < 600
+			NOT = {
+				is_subject_of = ROM
+				has_truce_with = ROM
+				alliance_with = ROM
+			}
+		}
+	}
+
+	immediate = {
+		every_neighbour_country = {
+			limit = {
+				has_land = yes
+				num_of_cities < 600
+				NOT = {
+					is_subject_of = ROM
+					has_truce_with = ROM
+					alliance_with = ROM
+				}
+			}
+			save_scope_as = rom_attack_target_country
+		}
+		c:ROM = {
+			declare_war_with_wargoal = {
+				war_goal = only_ai_can_use_wargoal
+				target = scope:rom_attack_target_country
+			}
+		}
+	}
+}

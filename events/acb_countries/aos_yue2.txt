@@ -1,0 +1,29 @@
+﻿namespace = yue2_startup
+
+yue2_startup.1 = { #越开局buff
+	
+	type = country_event
+	title = "yue2_startup.1.t"
+	desc = "yue2_startup.1.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+	fire_only_once = yes
+
+	trigger = {
+		tag = YUE
+	}
+	
+	immediate = {
+    set_variable = chinese_country_named
+	set_variable = zhuzibaijia
+	    trigger_event = {
+	    id = game_start_introduce.1
+	    }
+	}
+	
+	option = {
+		name = yue2_startup.1.a
+	}
+	
+}

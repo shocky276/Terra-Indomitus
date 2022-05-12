@@ -1,0 +1,523 @@
+﻿namespace = go_hunting
+
+#狩猎
+go_hunting.1 = { #开始狩猎
+	type = country_event
+	title = "go_hunting.1.t"
+	desc = "go_hunting.1.desc"
+	picture = go_hunting
+	left_portrait = current_ruler
+
+	trigger = {
+		is_ai = no
+	}
+	
+	immediate = {
+		set_variable = country_go_hunting
+	}
+
+	option = {
+	name = "go_hunting.1.a"
+		hidden_effect = {
+			trigger_event = {
+				id = go_hunting.2
+				days = { 2 7 }
+			}
+		}
+	}
+}
+
+go_hunting.2 = { #开始狩猎
+	type = country_event
+	title = "go_hunting.2.t"
+	desc = "go_hunting.2.desc"
+	picture = go_hunting
+	left_portrait = current_ruler
+	right_portrait = scope:go_hunting_guests
+
+	trigger = {
+		has_variable = country_go_hunting
+		any_character = {
+			prisoner = no
+			is_ruler = no
+			is_adult = yes
+		}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				prisoner = no
+				is_ruler = no
+				is_adult = yes
+			}
+			save_scope_as = go_hunting_guests
+		}
+	}
+
+	option = {
+	name = "go_hunting.2.a"
+		scope:go_hunting_guests = {
+		add_loyalty = aos_loyalty_go_hunting_guests
+		}
+		hidden_effect = {
+			random_list = {
+				90 = {
+					trigger_event = {
+						id = go_hunting2.3
+						days = { 2 7 }
+					}
+				}
+				55 = {
+					trigger_event = {
+						id = go_hunting2.5
+						days = { 2 7 }
+					}
+				}
+			}
+			trigger_event = {
+				id = go_hunting2.4
+				days = { 50 90 }
+			}
+		}
+	}
+}
+
+namespace = go_hunting2
+
+go_hunting2.3 = { #野兽袭击
+	type = country_event
+	title = "go_hunting2.3.t"
+	desc = "go_hunting2.3.desc"
+	picture = hunting_tiger
+	left_portrait = current_ruler
+	right_portrait = scope:go_hunting_guests_helper
+
+	trigger = {
+		has_variable = country_go_hunting
+		current_ruler = {
+			can_get_friends = yes
+		}
+			any_character = {
+				OR = {
+					has_trait = brave
+					martial > 12
+				}
+				prisoner = no
+				is_adult = yes
+				is_ruler = no
+			}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				OR = {
+					has_trait = brave
+					martial > 12
+				}
+				prisoner = no
+				is_adult = yes
+				is_ruler = no
+			}
+			save_scope_as = go_hunting_guests_helper
+		}
+		current_ruler = {
+			save_scope_as = go_hunting_current_ruler
+		}
+	}
+
+	option = { #独自解决
+	name = "go_hunting2.3.a"
+		trigger = {
+			scope:go_hunting_current_ruler = {
+				NOT = {
+					has_trait = coward
+					has_trait = incapable
+				}
+			}
+		}
+		scope:go_hunting_current_ruler = {
+			add_health = -20
+			add_trait = brave
+			add_trait = wounded
+			add_popularity = 30
+		}
+	}
+
+	option = { #寻求帮助
+	name = "go_hunting2.3.b"
+	trigger = {
+		current_ruler = {
+			can_get_friends = yes
+		}
+		scope:go_hunting_current_ruler = {
+			NOT = {
+				has_trait = coward
+				has_trait = incapable
+			}
+		}
+	}
+		scope:go_hunting_guests_helper = {
+			add_loyalty = aos_loyalty_go_hunting_helper
+			add_friend = scope:go_hunting_current_ruler
+		}
+	}
+
+	option = { #撒腿就跑
+	name = "go_hunting2.3.c"
+	custom_tooltip = coward_tooltip
+		trigger = {
+			current_ruler = {
+				OR = {
+					has_trait = coward
+					has_trait = incapable
+					martial < 5
+				}
+			}
+		}
+		trigger_event = {
+			id = go_hunting2.4
+		}
+	}
+}
+
+go_hunting2.4 = { #狩猎结束
+	type = country_event
+	title = "go_hunting2.4.t"
+	desc = "go_hunting2.4.desc"
+	picture = go_hunting
+	left_portrait = current_ruler
+	right_portrait = scope:go_hunting_guests
+
+	trigger = {
+		has_variable = country_go_hunting
+		any_character = {
+			prisoner = no
+			is_adult = yes
+			is_ruler = no
+		}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				prisoner = no
+				is_adult = yes
+				is_ruler = no
+			}
+			save_scope_as = go_hunting_guests
+		}
+		current_ruler = {
+			save_scope_as = go_hunting_current_ruler
+		}
+		remove_variable = country_go_hunting
+	}
+
+	option = {
+	name = "go_hunting2.4.a"
+		scope:go_hunting_guests = {
+		add_loyalty = aos_loyalty_go_hunting_guests
+		}
+		scope:go_hunting_current_ruler = {
+			add_martial = 1
+			add_popularity = 8
+		}
+	}
+}
+
+go_hunting2.5 = { #走散了
+	type = country_event
+	title = "go_hunting2.5.t"
+	desc = "go_hunting2.5.desc"
+	picture = go_hunting
+	left_portrait = current_ruler
+
+	trigger = {
+		has_variable = country_go_hunting
+	}
+	
+	immediate = {
+		current_ruler = {
+			save_scope_as = go_hunting_current_ruler
+		}
+	}
+
+	option = { #独自寻路
+	name = "go_hunting2.5.a"
+		trigger_event = {
+			id = go_hunting2.5
+		}
+	}
+
+	option = { #大声呼喊
+	name = "go_hunting2.5.b"
+		trigger_event = {
+			id = go_hunting2.8
+		}
+	}
+
+	option = { #原地坐着
+	name = "go_hunting2.5.c"
+		scope:go_hunting_current_ruler = {
+			add_health = -2
+		}
+		trigger_event = {
+			id = go_hunting2.5
+			days = { 1 3 }
+		}
+	}
+}
+
+namespace = go_hunting2
+
+go_hunting2.6 = { #四处寻路
+	type = country_event
+	title = "go_hunting2.6.t"
+	desc = "go_hunting2.6.desc"
+	picture = go_hunting
+	left_portrait = current_ruler
+
+	trigger = {
+		has_variable = country_go_hunting
+	}
+	
+	immediate = {
+		current_ruler = {
+			save_scope_as = go_hunting_get_lost_ruler
+		}
+	}
+
+	option = { #往前走
+	name = "go_hunting2.6.a"
+		scope:go_hunting_get_lost_ruler = {
+			add_health = -3
+		}
+		random_list = {
+			30 = {
+				trigger_event = {
+					id = go_hunting2.7
+					days = { 1 3 }
+				}
+			}
+			70 = {
+				trigger_event = {
+					id = go_hunting2.6
+					days = { 1 3 }
+				}
+			}
+		}
+	}
+
+	option = { #往左拐
+	name = "go_hunting2.6.b"
+		scope:go_hunting_get_lost_ruler = {
+		add_health = -3
+		}
+		random_list = {
+			30 = {
+				trigger_event = {
+					id = go_hunting2.7
+					days = { 1 3 }
+				}
+			}
+			70 = {
+				trigger_event = {
+					id = go_hunting2.6
+					days = { 1 3 }
+				}
+			}
+		}
+	}
+
+	option = { #往右拐
+	name = "go_hunting2.6.c"
+		scope:go_hunting_get_lost_ruler = {
+		add_health = -3
+		}
+		random_list = {
+			30 = {
+				trigger_event = {
+					id = go_hunting2.7
+					days = { 1 3 }
+				}
+			}
+			70 = {
+				trigger_event = {
+					id = go_hunting2.6
+					days = { 1 3 }
+				}
+			}
+		}
+	}
+}
+
+go_hunting2.7 = { #被人找到
+	type = country_event
+	title = "go_hunting2.7.t"
+	desc = "go_hunting2.7.desc"
+	picture = go_hunting
+	left_portrait = current_ruler
+	right_portrait = scope:go_hunting_guests
+
+	trigger = {
+		has_variable = country_go_hunting
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				prisoner = no
+				is_adult = yes
+				is_ruler = no
+			}
+			save_scope_as = go_hunting_guests
+		}
+		current_ruler = {
+			save_scope_as = go_hunting_current_ruler
+		}
+	}
+
+	option = { #继续狩猎
+	name = "go_hunting2.7.a"
+		scope:go_hunting_current_ruler = {
+			add_popularity = 3
+		}
+		scope:go_hunting_guests = {
+			add_loyalty = aos_loyalty_go_hunting_guests
+		}
+	}
+
+	option = { #结束狩猎
+	name = "go_hunting2.7.b"
+		scope:go_hunting_current_ruler = {
+			add_popularity = -15
+		}
+		remove_variable = country_go_hunting
+	}
+}
+
+go_hunting2.8 = { #大声喊叫
+	type = country_event
+	title = "go_hunting2.8.t"
+	desc = "go_hunting2.8.desc"
+	picture = go_hunting
+	left_portrait = current_ruler
+
+	trigger = {
+		has_variable = country_go_hunting
+	}
+	
+	immediate = {
+		current_ruler = {
+			save_scope_as = go_hunting_get_lost_ruler
+		}
+	}
+
+	option = { #继续喊
+	name = "go_hunting2.8.a"
+		scope:go_hunting_get_lost_ruler = {
+			add_health = -2
+		}
+		random_list = {
+			10 = {
+				trigger_event = {
+					id = go_hunting2.7
+					days = { 1 3 }
+				}
+			}
+			50 = {
+				trigger_event = {
+					id = go_hunting2.8
+					days = { 1 3 }
+				}
+			}
+			20 = {
+				trigger_event = {
+					id = go_hunting2.9 #被人救助
+					days = { 1 3 }
+				}
+			}
+			15 = {
+				trigger_event = {
+					id = go_hunting2.10 #被野兽袭击
+					days = { 1 3 }
+				}
+			}
+		}
+	}
+
+	option = { #停下来歇歇
+	name = "go_hunting2.8.b"
+		scope:go_hunting_get_lost_ruler = {
+			add_health = -1
+		}
+		trigger_event = {
+			id = go_hunting2.5
+		}
+	}
+}
+
+go_hunting2.9 = { #被人救助
+	type = country_event
+	title = "go_hunting2.9.t"
+	desc = "go_hunting2.9.desc"
+	picture = go_hunting
+	left_portrait = current_ruler
+	right_portrait = scope:go_hunting_woodcutter1
+
+	trigger = {
+		has_variable = country_go_hunting
+	}
+	
+	immediate = {
+		create_character = {
+			female = yes
+			add_trait = fair
+			add_trait = loving
+			age = { 16 25 }
+			save_scope_as = go_hunting_woodcutter1
+		}
+		current_ruler = {
+			save_scope_as = go_hunting_current_ruler
+		}
+	}
+
+	option = {
+	name = "go_hunting2.9.a"
+		scope:go_hunting_woodcutter1 = {
+			add_loyalty = aos_loyalty_go_hunting_guests
+		}
+		trigger_event = {
+			id = go_hunting2.7
+		}
+	}
+}
+
+go_hunting2.10 = { #被野兽吃掉
+	type = country_event
+	title = "go_hunting2.10.t"
+	desc = "go_hunting2.10.desc"
+	picture = hunting_tiger
+	left_portrait = current_ruler
+
+	trigger = {
+		has_variable = country_go_hunting
+	}
+	
+	immediate = {
+		current_ruler = {
+			save_scope_as = go_hunting_current_ruler
+		}
+	}
+
+	option = { #被吃掉
+	name = "go_hunting2.10.a"
+		scope:go_hunting_current_ruler = {
+			death = {
+				death_reason = death_swallowed_by_wild_animals
+			}
+		}
+		remove_variable = country_go_hunting
+	}
+}

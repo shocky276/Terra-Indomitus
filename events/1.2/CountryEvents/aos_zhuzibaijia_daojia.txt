@@ -1,0 +1,366 @@
+﻿namespace = daojia_events
+
+daojia_events.1 = { #无为而治
+	type = country_event
+	title = "daojia_events.1.t"
+	desc = "daojia_events.1.desc"
+	picture = china_political
+	left_portrait = current_ruler
+	right_portrait = scope:daojia_minister_target
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = yanlushouzu_buff
+			has_country_modifier = wuweierzhi_buff
+		}
+		country_culture_group = chinese
+		any_character = {
+			is_adult = yes
+			prisoner = no
+			has_trait = daojia_trait
+			is_ruler = no
+			is_female = no
+		}
+	}
+
+	immediate = {
+		random_character = {
+			limit = {
+				is_adult = yes
+				prisoner = no
+				has_trait = daojia_trait
+				is_ruler = no
+				is_female = no
+			}
+			save_scope_as = daojia_minister_target
+		}
+	}
+
+	option = { #同意
+		name = "daojia_events.1.a"
+		trigger = {
+			current_ruler = {
+				NOT = {
+					has_trait = abrasive
+					has_trait = cruel
+				}
+				OR = {
+					finesse > 6
+					has_trait = daojia_trait
+				}
+			}
+		}
+		scope:daojia_minister_target = {
+			add_loyalty = aos_loyalty_adopt_suggestion
+		}
+		add_country_modifier = {
+			name = wuweierzhi_buff
+			duration = 1825
+		}
+		add_political_influence = { -3 -6 }
+	}
+
+	option = { #婉拒
+		name = "daojia_events.1.b"
+		trigger = {
+			current_ruler = {
+				NOT = {
+					has_trait = abrasive
+					has_trait = cruel
+				}
+			}
+		}
+		scope:daojia_minister_target = {
+			add_loyalty = aos_loyalty_suggestion_be_perfunctory
+		}
+	}
+
+	option = { #怒骂
+		name = "daojia_events.1.c"
+		custom_tooltip = abrasive_tooltip
+		trigger = {
+			current_ruler = {
+				OR = {
+					has_trait = abrasive
+					has_trait = cruel
+				}
+			}
+		}
+		scope:daojia_minister_target = {
+			add_loyalty = aos_loyalty_be_insulted
+		}
+	}
+
+	option = { #关起来
+		name = "daojia_events.1.d"
+		custom_tooltip = abrasive_tooltip
+		trigger = {
+			current_ruler = {
+				has_trait = cruel
+			}
+		}
+		scope:daojia_minister_target = {
+			remove_all_positions = yes
+			add_loyalty = aos_loyalty_be_insulted
+			root = {
+				imprison = {
+					target = scope:daojia_minister_target
+				}
+			}
+		}
+		current_ruler = {
+			add_popularity = -40
+		}
+		add_country_modifier = {
+			name = yanlushouzu_buff
+			duration = 3650
+		}
+	}
+}
+
+daojia_events.2 = { #使民无智
+	type = country_event
+	title = "daojia_events.2.t"
+	desc = "daojia_events.2.desc"
+	picture = china_political
+	left_portrait = current_ruler
+	right_portrait = scope:daojia_minister_target
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = yanlushouzu_buff
+			has_country_modifier = restricted_education_buff
+		}
+		country_culture_group = chinese
+		any_character = {
+			is_adult = yes
+			prisoner = no
+			has_trait = daojia_trait
+			is_ruler = no
+			is_female = no
+		}
+	}
+
+	immediate = {
+		random_character = {
+			limit = {
+				is_adult = yes
+				prisoner = no
+				has_trait = daojia_trait
+				is_ruler = no
+				is_female = no
+			}
+			save_scope_as = daojia_minister_target
+		}
+	}
+
+	option = { #同意
+		name = "daojia_events.1.a"
+		trigger = {
+			current_ruler = {
+				NOT = {
+					has_trait = abrasive
+					has_trait = cruel
+				}
+				OR = {
+					finesse > 6
+					has_trait = daojia_trait
+				}
+			}
+		}
+		scope:daojia_minister_target = {
+			add_loyalty = aos_loyalty_adopt_suggestion
+		}
+		add_country_modifier = {
+			name = restricted_education_buff
+			duration = 1825
+		}
+		add_political_influence = { -3 -6 }
+	}
+
+	option = { #婉拒
+		name = "daojia_events.1.b"
+		trigger = {
+			current_ruler = {
+				NOT = {
+					has_trait = abrasive
+					has_trait = cruel
+				}
+			}
+		}
+		scope:daojia_minister_target = {
+			add_loyalty = aos_loyalty_suggestion_be_perfunctory
+		}
+	}
+
+	option = { #怒骂
+		name = "daojia_events.1.c"
+		custom_tooltip = abrasive_tooltip
+		trigger = {
+			current_ruler = {
+				OR = {
+					has_trait = abrasive
+					has_trait = cruel
+				}
+			}
+		}
+		scope:daojia_minister_target = {
+			add_loyalty = aos_loyalty_be_insulted
+		}
+	}
+
+	option = { #关起来
+		name = "daojia_events.1.d"
+		custom_tooltip = abrasive_tooltip
+		trigger = {
+			current_ruler = {
+				has_trait = cruel
+			}
+		}
+		scope:daojia_minister_target = {
+			remove_all_positions = yes
+			add_loyalty = aos_loyalty_be_insulted
+			root = {
+				imprison = {
+					target = scope:daojia_minister_target
+				}
+			}
+		}
+		current_ruler = {
+			add_popularity = -40
+		}
+		add_country_modifier = {
+			name = yanlushouzu_buff
+			duration = 3650
+		}
+	}
+}
+
+daojia_events.3 = { #以道治国
+	type = country_event
+	title = "daojia_events.3.t"
+	desc = "daojia_events.3.desc"
+	picture = china_political
+	left_portrait = current_ruler
+	right_portrait = scope:daojia_minister_target
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = yanlushouzu_buff
+			has_country_modifier = daojia_buff
+		}
+		country_culture_group = chinese
+		any_character = {
+			is_adult = yes
+			prisoner = no
+			has_trait = daojia_trait
+			is_ruler = no
+			is_female = no
+		}
+	}
+
+	immediate = {
+		random_character = {
+			limit = {
+				is_adult = yes
+				prisoner = no
+				has_trait = daojia_trait
+				is_ruler = no
+				is_female = no
+			}
+			save_scope_as = daojia_minister_target
+		}
+	}
+
+	option = { #同意
+		name = "daojia_events.3.a"
+		trigger = {
+			current_ruler = {
+				NOT = {
+					has_trait = abrasive
+					has_trait = cruel
+				}
+				OR = {
+					finesse > 6
+					has_trait = daojia_trait
+				}
+			}
+		}
+		scope:daojia_minister_target = {
+			add_loyalty = aos_loyalty_adopt_suggestion
+		}
+		add_country_modifier = {
+			name = daojia_buff
+			duration = -1
+		}
+		set_variable = daojia
+		add_political_influence = { -3 -6 }
+		add_stability = { -5 -15 }
+		hidden_effect = {
+			remove_country_modifier = rujia_buff
+			remove_country_modifier = fajia_buff
+			remove_country_modifier = mojia_buff
+			remove_country_modifier = qin_buff
+			remove_variable = rujia
+			remove_variable = fajia
+			remove_variable = mojia
+		}
+	}
+
+	option = { #婉拒
+		name = "daojia_events.3.b"
+		trigger = {
+			current_ruler = {
+				NOT = {
+					has_trait = abrasive
+					has_trait = cruel
+				}
+			}
+		}
+		scope:daojia_minister_target = {
+			add_loyalty = aos_loyalty_suggestion_be_perfunctory
+		}
+	}
+
+	option = { #怒骂
+		name = "daojia_events.3.c"
+		custom_tooltip = abrasive_tooltip
+		trigger = {
+			current_ruler = {
+				OR = {
+					has_trait = abrasive
+					has_trait = cruel
+				}
+			}
+		}
+		scope:daojia_minister_target = {
+			add_loyalty = aos_loyalty_be_insulted
+		}
+	}
+
+	option = { #关起来
+		name = "daojia_events.3.d"
+		custom_tooltip = abrasive_tooltip
+		trigger = {
+			current_ruler = {
+				has_trait = cruel
+			}
+		}
+		scope:daojia_minister_target = {
+			remove_all_positions = yes
+			add_loyalty = aos_loyalty_be_insulted
+			root = {
+				imprison = {
+					target = scope:daojia_minister_target
+				}
+			}
+		}
+		current_ruler = {
+			add_popularity = -40
+		}
+		add_country_modifier = {
+			name = yanlushouzu_buff
+			duration = 3650
+		}
+	}
+}

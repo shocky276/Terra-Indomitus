@@ -1,0 +1,25 @@
+﻿namespace = game_start_introduce
+
+game_start_introduce.1 = { #mod介绍
+	
+	type = country_event
+	title = "game_start_introduce.1.t"
+	desc = "game_start_introduce.1.desc"
+	picture = game_start_introduce
+	goto_location = root
+	fire_only_once = yes
+
+	trigger = {
+	}
+	
+	immediate = {
+		trigger_event = {
+			id = aos_game_helper.1
+		}
+	}
+	
+	option = {
+		name = game_start_introduce.1.a
+	}
+	
+}

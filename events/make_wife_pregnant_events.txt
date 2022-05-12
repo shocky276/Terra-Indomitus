@@ -1,0 +1,134 @@
+﻿namespace = make_wife_pregnant
+
+make_wife_pregnant.1 = {
+	type = character_event
+	title = "make_wife_pregnant.1.t"
+	desc = "make_wife_pregnant.1.desc"
+	
+	left_portrait = root
+	right_portrait = current_ruler
+	
+	trigger = {
+		is_female = yes
+		has_trait = concubine
+		is_adult = yes
+		is_pregnant = no
+		is_friend = employer.current_ruler
+	}
+
+	option = { 
+		name = "make_wife_pregnant.1.a"
+		if = {
+			limit = {
+				age < 45
+				NOT = { has_trait = barren }
+				NOT = { has_trait = castrated }
+				NOT = { has_trait = leper }
+				NOT = { has_trait = inbred }
+				NOT = { has_trait = pox }
+				employer = {
+					current_ruler = {
+						is_female = no
+						is_adult = yes
+						prisoner = no
+						NOR = {
+							has_trait = castrated
+							has_trait = leper
+							has_trait = inbred
+							has_trait = pox
+							has_trait = shenxu
+						}
+					}
+				}
+			}
+			if = {
+				limit = { 
+					age < 30
+				}
+				if = {
+					limit = {
+						has_trait = concubine
+					}
+					random_list = {
+						15 = {
+							trigger_event = {
+								id = concubine.2
+								days = { 0 364 }
+							}
+						}
+						85 = { }
+					}
+				}
+				else = {
+					random_list = {
+						20 = {
+							trigger_event = {
+								id = concubine.2
+								days = { 0 364 }
+							}
+						}
+						80 = { }
+					}
+				}
+			}
+			else_if = {
+				limit = { 
+					age >= 30
+					age < 40
+				}
+				if = {
+					limit = {
+						has_trait = concubine
+					}
+					random_list = {
+						10 = {
+							trigger_event = {
+								id = concubine.2
+								days = { 0 364 }
+							}
+						}
+						90 = { }
+					}
+				}
+				else = {
+					random_list = {
+						15 = {
+							trigger_event = {
+								id = concubine.2
+								days = { 0 364 }
+							}
+						}
+						85 = { }
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						has_trait = concubine
+					}
+					random_list = {
+						5 = { #pregnant!
+							trigger_event = {
+								id = concubine.2
+								days = { 0 364 }
+							}
+						}
+						95 = { }
+					}
+				}
+				else = {
+					random_list = {
+						10 = {
+							trigger_event = {
+								id = concubine.2
+								days = { 0 364 }
+							}
+						}
+						90 = { }
+					}
+				}
+			}
+		}
+	}
+}

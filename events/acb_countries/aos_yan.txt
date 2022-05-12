@@ -1,0 +1,66 @@
+﻿namespace = yan_startup
+
+yan_startup.1 = { #燕开局buff
+	
+	type = country_event
+	title = "yan_startup.1.t"
+	desc = "yan_startup.1.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+	fire_only_once = yes
+
+	trigger = {
+		tag = YAN
+	}
+	
+	immediate = {
+	set_variable = chinese_country_named
+	set_variable = zhuzibaijia
+	    trigger_event = {
+	    id = game_start_introduce.1
+	    }
+   		add_country_modifier = {
+   			name = rujia_buff
+   			duration = -1
+   		}
+   		add_country_modifier = {
+   			name = yanzhaowang_buff
+   			duration = -1
+   		}
+	}
+	
+	option = {
+		name = yan_startup.1.a
+	}
+	
+}
+yan_startup.2 = { #燕昭王之死
+	
+	type = country_event
+	title = "yan_startup.2.t"
+	desc = "yan_startup.2.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+	fire_only_once = yes
+
+	trigger = {
+		tag = YAN
+		char:1376 = {
+			OR = {
+				is_alive = no 
+				is_ruler = no
+			}
+		}
+	}
+	
+	immediate = {
+   		remove_country_modifier = yanzhaowang_buff
+	}
+	
+	option = {
+		name = yan_startup.2.a
+	}
+	
+}

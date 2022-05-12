@@ -1,0 +1,228 @@
+﻿namespace = trigger_xianzhikuozhang_events
+trigger_xianzhikuozhang_events.1 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		NOT = {
+			has_variable = off_real_mode
+		}
+	}
+
+	immediate = {
+		trigger_event = {
+			id = xianzhikuozhang.1
+		}
+		trigger_event = {
+			id = xianzhikuozhang.2
+		}
+		trigger_event = {
+			id = xianzhikuozhang.3
+		}
+		trigger_event = {
+			id = xianzhikuozhang.4
+		}
+		trigger_event = {
+			id = xianzhikuozhang.5
+		}
+		trigger_event = {
+			id = xianzhikuozhang.6
+		}
+		trigger_event = {
+			id = xianzhikuozhang.7
+		}
+		trigger_event = {
+			id = xianzhikuozhang.8
+		}
+	}
+}
+
+namespace = xianzhikuozhang
+xianzhikuozhang.1 = { #领土超过900块debuff
+	
+	type = country_event
+	title = "xianzhikuozhang.1.t"
+	desc = "xianzhikuozhang.1.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+
+	trigger = {
+	NOT = {
+	has_country_modifier = 700lingtu_debuff
+	}
+	num_of_cities >= 900
+	}
+	
+	option = {
+		name = xianzhikuozhang.1.a
+		ai_chance = {
+			modifier = {
+				factor = 100
+			}
+		}
+		add_country_modifier = {
+		name = 700lingtu_debuff
+		duration = -1
+		}
+	}
+}
+
+xianzhikuozhang.2 = { #领土小于900块移除debuff
+	
+	type = country_event
+	title = "xianzhikuozhang.2.t"
+	desc = "xianzhikuozhang.2.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+
+	trigger = {
+	num_of_cities < 900
+	has_country_modifier = 700lingtu_debuff
+	}
+	
+	option = {
+		name = xianzhikuozhang.2.a
+		ai_chance = {
+			modifier = {
+				factor = 100
+			}
+		}
+		remove_country_modifier = 700lingtu_debuff
+		remove_country_modifier = 1000lingtu_debuff
+		remove_country_modifier = 1200lingtu_debuff
+		remove_country_modifier = 1400lingtu_debuff
+	}
+}
+
+xianzhikuozhang.3 = { #领土超过1200块debuff
+	
+	type = country_event
+	hidden = yes
+
+	trigger = {
+	NOT = {
+	has_country_modifier = 1000lingtu_debuff
+	}
+	num_of_cities >= 1200
+	}
+	
+	immediate = {
+		add_country_modifier = {
+		name = 1000lingtu_debuff
+		duration = -1
+		}
+		remove_country_modifier = 700lingtu_debuff
+	}
+}
+
+xianzhikuozhang.4 = { #领土小于1200块移除debuff
+	
+	type = country_event
+	hidden = yes
+
+	trigger = {
+	has_country_modifier = 1000lingtu_debuff
+	num_of_cities < 1200
+	}
+	
+	immediate = {
+		remove_country_modifier = 1000lingtu_debuff
+	}
+}
+
+xianzhikuozhang.5 = { #领土超过1500块debuff
+	
+	type = country_event
+	hidden = yes
+
+	trigger = {
+	NOT = {
+	has_country_modifier = 1200lingtu_debuff
+	}
+	num_of_cities >= 1500
+	}
+	
+	immediate = {
+		add_country_modifier = {
+		name = 1200lingtu_debuff
+		duration = -1
+		}
+		remove_country_modifier = 1000lingtu_debuff
+	}
+}
+
+xianzhikuozhang.6 = { #领土小于1500块移除debuff
+	
+	type = country_event
+	hidden = yes
+
+	trigger = {
+	has_country_modifier = 1200lingtu_debuff
+	num_of_cities < 1500
+	}
+	
+	immediate = {
+		remove_country_modifier = 1200lingtu_debuff
+	}
+}
+
+xianzhikuozhang.7 = { #领土超过1800块debuff
+	
+	type = country_event
+	title = "xianzhikuozhang.7.t"
+	desc = "xianzhikuozhang.7.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+
+	trigger = {
+	NOT = {
+	has_country_modifier = 1400lingtu_debuff
+	}
+	num_of_cities >= 1800
+	}
+
+	immediate = {
+		remove_country_modifier = 1200lingtu_debuff
+	}
+	
+	option = {
+		name = xianzhikuozhang.7.a
+		ai_chance = {
+			modifier = {
+				factor = 100
+			}
+		}
+		add_country_modifier = {
+		name = 1400lingtu_debuff
+		duration = -1
+		}
+	}
+}
+
+xianzhikuozhang.8 = { #领土小于1800块移除debuff
+	
+	type = country_event
+	title = "xianzhikuozhang.8.t"
+	desc = "xianzhikuozhang.8.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+
+	trigger = {
+	num_of_cities < 1800
+	has_country_modifier = 1400lingtu_debuff
+	}
+	
+	option = {
+		name = xianzhikuozhang.8.a
+		ai_chance = {
+			modifier = {
+				factor = 100
+			}
+		}
+		remove_country_modifier = 1400lingtu_debuff
+	}
+}

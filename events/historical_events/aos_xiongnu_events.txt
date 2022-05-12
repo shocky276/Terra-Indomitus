@@ -1,0 +1,455 @@
+﻿namespace = form_xiongnu
+
+# Rise of Xiongnu
+form_xiongnu.1 = {
+	type = country_event
+	title = "form_xiongnu.1.t"
+	desc = "form_xiongnu.1.desc"
+	picture = xiongnu_cavalry
+	fire_only_once = yes
+	
+	left_portrait = current_ruler
+	right_portrait = scope:modu_character
+	
+	trigger = {
+		tag = XNU
+		current_date = 545.1.1
+		NOT = {
+			has_global_variable = xiongnu_rised
+		}
+	}
+
+	immediate = {
+		change_country_name = XION
+		hidden_effect = {
+			create_character = {
+				culture = xiongnu
+				religion = hu_religions
+				age = 25
+				first_name = "modu"
+				family_name = "Fluandi"
+				save_scope_as = modu_character
+				force_add_trait = tactician
+				force_add_trait = disciplined
+				add_martial = 13
+				add_charisma = 8
+			}
+			new_family_generation_effect = { FAMILY_CANDIDATE = modu_character } #Scripted Effect that passes on the saved scope.
+			change_country_adjective = XION_ADJ
+		}
+		trigger_event = {
+			id = form_xiongnu.2
+		}
+		set_global_variable = xiongnu_rised
+	}
+
+	option = {
+		name = "form_xiongnu.1.a"
+		set_as_ruler = scope:modu_character
+		hidden_effect = {
+			scope:modu_character = {
+				add_gold = 900
+			}
+		}
+		add_country_modifier = {
+			name = xiongnu_rise
+			duration = 9125
+		}
+		add_country_modifier = {
+			name = xiongnu_cavalry
+			duration = -1
+		}
+		add_country_modifier = {
+			name = nomadic_empire
+			duration = -1
+		}
+		hidden_effect = {
+			p:9516 = {add_to_list = xiongnu_rise_province}
+			p:9517 = {add_to_list = xiongnu_rise_province}
+			p:9512 = {add_to_list = xiongnu_rise_province}
+			p:9515 = {add_to_list = xiongnu_rise_province}
+			p:9514 = {add_to_list = xiongnu_rise_province}
+			p:9537 = {add_to_list = xiongnu_rise_province}
+			p:9538 = {add_to_list = xiongnu_rise_province}
+			p:9513 = {add_to_list = xiongnu_rise_province}
+			p:9518 = {add_to_list = xiongnu_rise_province}
+			p:9505 = {add_to_list = xiongnu_rise_province}
+			p:9527 = {add_to_list = xiongnu_rise_province}
+			p:8242 = {add_to_list = xiongnu_rise_province}
+			p:8603 = {add_to_list = xiongnu_rise_province}
+			p:8606 = {add_to_list = xiongnu_rise_province}
+			p:8607 = {add_to_list = xiongnu_rise_province}
+			p:8608 = {add_to_list = xiongnu_rise_province}
+			p:8609 = {add_to_list = xiongnu_rise_province}
+			p:8610 = {add_to_list = xiongnu_rise_province}
+			p:8611 = {add_to_list = xiongnu_rise_province}
+			p:9571 = {add_to_list = xiongnu_rise_province}
+			p:8612 = {add_to_list = xiongnu_rise_province}
+			p:8613 = {add_to_list = xiongnu_rise_province}
+			p:9572 = {add_to_list = xiongnu_rise_province}
+			p:8573 = {add_to_list = xiongnu_rise_province}
+			p:8572 = {add_to_list = xiongnu_rise_province}
+			p:8652 = {add_to_list = xiongnu_rise_province}
+			p:8751 = {add_to_list = xiongnu_rise_province}
+			p:8604 = {add_to_list = xiongnu_rise_province}
+			p:8605 = {add_to_list = xiongnu_rise_province}
+			region:mobei_region = {
+				every_region_province = {
+					limit = {
+						dominant_province_culture = xiongnu
+					}
+					add_to_list = xiongnu_rise_province
+				}
+			}
+			if = {
+				limit = {
+					any_in_list = {
+						list = xiongnu_rise_province
+						NOT = {owner = ROOT}
+					}
+				}
+				every_in_list = {
+					list = xiongnu_rise_province
+					limit = {
+						NOT = {owner = ROOT}
+					}
+					set_conquered_by = ROOT
+				}
+			}
+			region:mobei_region = { formable_region_province_effect = yes }
+			region:shuofang_region = { formable_region_province_effect = yes }
+			region:liang_region = { formable_region_province_effect = yes }
+			area:beishan_area = { formable_area_province_effect = yes }
+			area:modong_area = { formable_area_province_effect = yes }
+			area:raole_area = { formable_area_province_effect = yes }
+			area:wuhuan_area = { formable_area_province_effect = yes }
+			area:yunzhong_area = { formable_area_province_effect = yes }
+			area:dingxiang_area = { formable_area_province_effect = yes }
+			area:yanmen_area = { formable_area_province_effect = yes }
+		}
+	}
+}
+
+form_xiongnu.2 = {
+	type = country_event
+	title = "form_xiongnu.2.t"
+	desc = "form_xiongnu.2.desc"
+	picture = xiongnu_cavalry
+	fire_only_once = yes
+	
+	left_portrait = current_ruler
+	right_portrait = scope:modu_character
+	
+	trigger = {
+		NOT = {
+			tag = XNU
+		}
+		has_land = yes
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = "form_xiongnu.2.a"
+	}
+}
+
+form_xiongnu.3 = {
+	type = country_event
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		NOT = {
+			has_global_variable = xiongnu_rised
+			any_country = {
+				tag = XNU
+				has_land = yes
+			}
+		}
+		OR = {
+			country_culture_group = hu
+			country_culture_group = di
+		}
+		owns = 9512
+		current_date > 545.1.1
+		current_date < 564.1.1
+	}
+
+	immediate = {
+		p:9512 = {
+			create_country = {
+				set_variable = xiongnu_rise_country
+			}
+		}
+		trigger_event = {
+			id = form_xiongnu.4
+			days = { 10 20 }
+		}
+	}
+}
+
+form_xiongnu.4 = {
+	type = country_event
+	title = "form_xiongnu.1.t"
+	desc = "form_xiongnu.1.desc"
+	picture = xiongnu_cavalry
+	fire_only_once = yes
+	
+	left_portrait = current_ruler
+	right_portrait = scope:modu_character
+	
+	trigger = {
+		any_country = {
+			has_land = yes
+			owns = 9512
+			capital_scope = {
+				province_id = 9512
+			}
+			has_variable = xiongnu_rise_country
+		}
+		NOT = {
+			has_global_variable = xiongnu_rised
+		}
+	}
+
+	immediate = {
+		change_country_name = XION
+		set_variable = xiongnu_rise_country
+		set_global_variable = xiongnu_rised
+		hidden_effect = {
+			create_character = {
+				culture = xiongnu
+				religion = hu_religions
+				age = 25
+				first_name = "modu"
+				family_name = "Fluandi"
+				save_scope_as = modu_character
+				force_add_trait = tactician
+				force_add_trait = disciplined
+				add_martial = 13
+				add_charisma = 8
+			}
+			new_family_generation_effect = { FAMILY_CANDIDATE = modu_character } #Scripted Effect that passes on the saved scope.
+			change_country_adjective = XION_ADJ
+			change_government = tribal_chiefdom
+		}
+		trigger_event = {
+			id = form_xiongnu.2
+		}
+		every_neighbour_country = {
+			limit = {
+				country_culture_group = chinese
+			}
+			save_scope_as = xiongnu_rise_overlord_country
+		}
+		scope:xiongnu_rise_overlord_country = { release_subject = ROOT }
+	}
+
+	option = {
+		name = "form_xiongnu.1.a"
+		set_as_ruler = scope:modu_character
+		hidden_effect = {
+			scope:modu_character = {
+				add_gold = 900
+			}
+		}
+		add_country_modifier = {
+			name = xiongnu_rise
+			duration = 9125
+		}
+		add_country_modifier = {
+			name = xiongnu_cavalry
+			duration = -1
+		}
+		add_country_modifier = {
+			name = nomadic_empire
+			duration = -1
+		}
+		hidden_effect = {
+			p:9516 = {add_to_list = xiongnu_rise_province}
+			p:9517 = {add_to_list = xiongnu_rise_province}
+			p:9512 = {add_to_list = xiongnu_rise_province}
+			p:9515 = {add_to_list = xiongnu_rise_province}
+			p:9514 = {add_to_list = xiongnu_rise_province}
+			p:9537 = {add_to_list = xiongnu_rise_province}
+			p:9538 = {add_to_list = xiongnu_rise_province}
+			p:9513 = {add_to_list = xiongnu_rise_province}
+			p:9518 = {add_to_list = xiongnu_rise_province}
+			p:9505 = {add_to_list = xiongnu_rise_province}
+			p:9527 = {add_to_list = xiongnu_rise_province}
+			p:8242 = {add_to_list = xiongnu_rise_province}
+			p:8603 = {add_to_list = xiongnu_rise_province}
+			p:8606 = {add_to_list = xiongnu_rise_province}
+			p:8607 = {add_to_list = xiongnu_rise_province}
+			p:8608 = {add_to_list = xiongnu_rise_province}
+			p:8609 = {add_to_list = xiongnu_rise_province}
+			p:8610 = {add_to_list = xiongnu_rise_province}
+			p:8611 = {add_to_list = xiongnu_rise_province}
+			p:9571 = {add_to_list = xiongnu_rise_province}
+			p:8612 = {add_to_list = xiongnu_rise_province}
+			p:8613 = {add_to_list = xiongnu_rise_province}
+			p:9572 = {add_to_list = xiongnu_rise_province}
+			p:8573 = {add_to_list = xiongnu_rise_province}
+			p:8572 = {add_to_list = xiongnu_rise_province}
+			p:8652 = {add_to_list = xiongnu_rise_province}
+			p:8751 = {add_to_list = xiongnu_rise_province}
+			p:8604 = {add_to_list = xiongnu_rise_province}
+			p:8605 = {add_to_list = xiongnu_rise_province}
+			region:mobei_region = {
+				every_region_province = {
+					limit = {
+						dominant_province_culture = xiongnu
+					}
+					add_to_list = xiongnu_rise_province
+				}
+			}
+			if = {
+				limit = {
+					any_in_list = {
+						list = xiongnu_rise_province
+						NOT = {owner = ROOT}
+					}
+				}
+				every_in_list = {
+					list = xiongnu_rise_province
+					limit = {
+						NOT = {owner = ROOT}
+					}
+					set_conquered_by = ROOT
+				}
+			}
+			region:mobei_region = { formable_region_province_effect = yes }
+			region:shuofang_region = { formable_region_province_effect = yes }
+			region:liang_region = { formable_region_province_effect = yes }
+			area:beishan_area = { formable_area_province_effect = yes }
+			area:modong_area = { formable_area_province_effect = yes }
+			area:raole_area = { formable_area_province_effect = yes }
+			area:wuhuan_area = { formable_area_province_effect = yes }
+			area:yunzhong_area = { formable_area_province_effect = yes }
+			area:dingxiang_area = { formable_area_province_effect = yes }
+			area:yanmen_area = { formable_area_province_effect = yes }
+		}
+	}
+}
+
+form_xiongnu.5 = {
+	type = country_event
+	title = "form_xiongnu.5.t"
+	desc = "form_xiongnu.5.desc"
+	picture = xiongnu_cavalry
+	fire_only_once = yes
+	
+	left_portrait = current_ruler
+	
+	trigger = {
+		NOT = {
+			has_global_variable = xiongnu_rised
+		}
+	}
+
+	immediate = {
+		set_variable = xiongnu_rise_country
+		set_global_variable = xiongnu_rised
+		trigger_event = {
+			id = form_xiongnu.6
+		}
+	}
+
+	option = {
+		name = "form_xiongnu.5.a"
+		add_country_modifier = {
+			name = xiongnu_rise
+			duration = 9125
+		}
+		add_country_modifier = {
+			name = xiongnu_cavalry
+			duration = -1
+		}
+		add_country_modifier = {
+			name = nomadic_empire
+			duration = -1
+		}
+		hidden_effect = {
+			p:9516 = {add_to_list = xiongnu_rise_province}
+			p:9517 = {add_to_list = xiongnu_rise_province}
+			p:9512 = {add_to_list = xiongnu_rise_province}
+			p:9515 = {add_to_list = xiongnu_rise_province}
+			p:9514 = {add_to_list = xiongnu_rise_province}
+			p:9537 = {add_to_list = xiongnu_rise_province}
+			p:9538 = {add_to_list = xiongnu_rise_province}
+			p:9513 = {add_to_list = xiongnu_rise_province}
+			p:9518 = {add_to_list = xiongnu_rise_province}
+			p:9505 = {add_to_list = xiongnu_rise_province}
+			p:9527 = {add_to_list = xiongnu_rise_province}
+			p:8242 = {add_to_list = xiongnu_rise_province}
+			p:8603 = {add_to_list = xiongnu_rise_province}
+			p:8606 = {add_to_list = xiongnu_rise_province}
+			p:8607 = {add_to_list = xiongnu_rise_province}
+			p:8608 = {add_to_list = xiongnu_rise_province}
+			p:8609 = {add_to_list = xiongnu_rise_province}
+			p:8610 = {add_to_list = xiongnu_rise_province}
+			p:8611 = {add_to_list = xiongnu_rise_province}
+			p:9571 = {add_to_list = xiongnu_rise_province}
+			p:8612 = {add_to_list = xiongnu_rise_province}
+			p:8613 = {add_to_list = xiongnu_rise_province}
+			p:9572 = {add_to_list = xiongnu_rise_province}
+			p:8573 = {add_to_list = xiongnu_rise_province}
+			p:8572 = {add_to_list = xiongnu_rise_province}
+			p:8652 = {add_to_list = xiongnu_rise_province}
+			p:8751 = {add_to_list = xiongnu_rise_province}
+			p:8604 = {add_to_list = xiongnu_rise_province}
+			p:8605 = {add_to_list = xiongnu_rise_province}
+			region:mobei_region = {
+				every_region_province = {
+					limit = {
+						dominant_province_culture = xiongnu
+					}
+					add_to_list = xiongnu_rise_province
+				}
+			}
+			if = {
+				limit = {
+					any_in_list = {
+						list = xiongnu_rise_province
+						NOT = {owner = ROOT}
+					}
+				}
+				every_in_list = {
+					list = xiongnu_rise_province
+					limit = {
+						NOT = {owner = ROOT}
+					}
+					set_conquered_by = ROOT
+				}
+			}
+			region:mobei_region = { formable_region_province_effect = yes }
+			region:shuofang_region = { formable_region_province_effect = yes }
+			region:liang_region = { formable_region_province_effect = yes }
+			area:beishan_area = { formable_area_province_effect = yes }
+			area:modong_area = { formable_area_province_effect = yes }
+			area:raole_area = { formable_area_province_effect = yes }
+			area:wuhuan_area = { formable_area_province_effect = yes }
+			area:yunzhong_area = { formable_area_province_effect = yes }
+			area:dingxiang_area = { formable_area_province_effect = yes }
+			area:yanmen_area = { formable_area_province_effect = yes }
+		}
+	}
+}
+
+form_xiongnu.6 = {
+		type = country_event
+		title = "form_xiongnu.6.t"
+		desc = "form_xiongnu.6.desc"
+		picture = xiongnu_cavalry
+		fire_only_once = yes
+
+		trigger = {
+			has_land = yes
+		}
+	
+		option = {
+			name = "form_xiongnu.6.a"
+		}
+}

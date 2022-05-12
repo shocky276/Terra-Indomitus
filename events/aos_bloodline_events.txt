@@ -1,0 +1,232 @@
+﻿namespace = aos_bloodline_events
+
+aos_bloodline_events.1 = {
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		every_character = {
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = qin_bloodline
+					}
+					NOT = {
+						has_trait = qin_bloodline
+					}
+				}
+				add_trait = qin_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = chu_bloodline
+					}
+					NOT = {
+						has_trait = chu_bloodline
+					}
+				}
+				add_trait = chu_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = wei_bloodline
+					}
+					NOT = {
+						has_trait = wei_bloodline
+					}
+				}
+				add_trait = wei_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = zhou_bloodline
+					}
+					NOT = {
+						has_trait = zhou_bloodline
+					}
+				}
+				add_trait = zhou_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = yue_bloodline
+					}
+					NOT = {
+						has_trait = yue_bloodline
+					}
+				}
+				add_trait = yue_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = yan_bloodline
+					}
+					NOT = {
+						has_trait = yan_bloodline
+					}
+				}
+				add_trait = yan_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = song_bloodline
+					}
+					NOT = {
+						has_trait = song_bloodline
+					}
+				}
+				add_trait = song_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = lu_bloodline
+					}
+					NOT = {
+						has_trait = lu_bloodline
+					}
+				}
+				add_trait = lu_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = wii_bloodline
+					}
+					NOT = {
+						has_trait = wii_bloodline
+					}
+				}
+				add_trait = wii_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = han_bloodline
+					}
+					NOT = {
+						has_trait = han_bloodline
+					}
+				}
+				add_trait = han_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = zhao_bloodline
+					}
+					NOT = {
+						has_trait = zhao_bloodline
+					}
+				}
+				add_trait = zhao_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = zhongshan_bloodline
+					}
+					NOT = {
+						has_trait = zhongshan_bloodline
+					}
+				}
+				add_trait = zhongshan_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = qii_bloodline
+					}
+					NOT = {
+						has_trait = qii_bloodline
+					}
+				}
+				add_trait = qii_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = nii_bloodline
+					}
+					NOT = {
+						has_trait = nii_bloodline
+					}
+				}
+				add_trait = nii_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = zou_bloodline
+					}
+					NOT = {
+						has_trait = zou_bloodline
+					}
+				}
+				add_trait = zou_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = teng_bloodline
+					}
+					NOT = {
+						has_trait = teng_bloodline
+					}
+				}
+				add_trait = teng_bloodline
+			}
+			if = {
+				limit = {
+					is_alive = yes
+					exists = father
+					father = {
+						has_trait = zhaoxian_bloodline
+					}
+					NOT = {
+						has_trait = zhaoxian_bloodline
+					}
+				}
+				add_trait = zhaoxian_bloodline
+			}
+		}
+	}
+}

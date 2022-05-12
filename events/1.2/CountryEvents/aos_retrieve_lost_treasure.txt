@@ -1,0 +1,174 @@
+﻿namespace = aos_retrieve_lost_treasure
+
+aos_retrieve_lost_treasure.1 = {
+
+	type = country_event
+	title = "aos_retrieve_lost_treasure.1.t"
+	desc = "aos_retrieve_lost_treasure.1.desc"
+	picture = china_political
+
+	trigger = {}
+
+	immediate = {}
+
+	option = {
+		name = "aos_retrieve_lost_treasure.1.a"
+	}
+
+	option = { #找回九鼎
+		name = "aos_retrieve_lost_treasure.1.b"
+		trigger = {
+			NOT = {
+				exists = treasure:treasure_jiuding
+			}
+		}
+		add_treasury = { -8000 -16000 }
+		add_political_influence = { -25 -60 }
+		trigger_event = {
+			id = aos_retrieve_lost_treasure.2
+			days = { 900 1800 }
+		}
+	}
+
+	option = { #找回和氏璧
+		name = "aos_retrieve_lost_treasure.1.c"
+		trigger = {
+			NOT = {
+				exists = treasure:treasure_heshibi
+				exists = treasure:treasure_chuanguoyuxi
+			}
+		}
+		add_treasury = { -5000 -10000 }
+		add_political_influence = { -25 -60 }
+		trigger_event = {
+			id = aos_retrieve_lost_treasure.3
+			days = { 900 1800 }
+		}
+	}
+
+	option = { #找回随侯珠
+		name = "aos_retrieve_lost_treasure.1.d"
+		trigger = {
+			NOT = {
+				exists = treasure:treasure_suihouzhu
+			}
+		}
+		add_treasury = { -4000 -8000 }
+		add_political_influence = { -25 -60 }
+		trigger_event = {
+			id = aos_retrieve_lost_treasure.4
+			days = { 900 1800 }
+		}
+	}
+
+	option = { #找回妇好钺
+		name = "aos_retrieve_lost_treasure.1.e"
+		trigger = {
+			NOT = {
+				exists = treasure:treasure_fuhaoyue
+			}
+		}
+		add_treasury = { -5000 -10000 }
+		add_political_influence = { -25 -60 }
+		trigger_event = {
+			id = aos_retrieve_lost_treasure.5
+			days = { 900 1800 }
+		}
+	}
+}
+
+aos_retrieve_lost_treasure.2 = { #找到了九鼎
+
+	type = country_event
+	title = "aos_retrieve_lost_treasure.2.t"
+	desc = "aos_retrieve_lost_treasure.2.desc"
+	picture = china_political
+
+	trigger = {}
+
+	immediate = {}
+
+	option = { #找回九鼎
+		name = "aos_retrieve_lost_treasure.2.a"
+		create_country_treasure = {
+			key = treasure_jiuding
+			icon = treasure_jiuding
+
+			modifier = {
+				local_happiness_for_same_culture_modifier = 0.2
+			}
+		}
+	}
+}
+
+aos_retrieve_lost_treasure.3 = { #找到了和氏璧
+
+	type = country_event
+	title = "aos_retrieve_lost_treasure.3.t"
+	desc = "aos_retrieve_lost_treasure.3.desc"
+	picture = china_political
+
+	trigger = {}
+
+	immediate = {}
+
+	option = { #找回和氏璧
+		name = "aos_retrieve_lost_treasure.3.a"
+		create_country_treasure = {
+			key = treasure_heshibi
+			icon = treasure_heshibi
+
+			modifier = {
+				local_citizen_happyness = 0.2
+			}
+		}
+	}
+}
+
+aos_retrieve_lost_treasure.4 = { #找到了随侯珠
+
+	type = country_event
+	title = "aos_retrieve_lost_treasure.3.t"
+	desc = "aos_retrieve_lost_treasure.3.desc"
+	picture = china_political
+
+	trigger = {}
+
+	immediate = {}
+
+	option = { #找回随侯珠
+		name = "aos_retrieve_lost_treasure.4.a"
+		create_country_treasure = {
+			key = treasure_suihouzhu
+			icon = treasure_suihouzhu
+
+			modifier = {
+				local_citizen_happyness = 0.2
+			}
+		}
+	}
+}
+
+aos_retrieve_lost_treasure.5 = { #找到了妇好钺
+
+	type = country_event
+	title = "aos_retrieve_lost_treasure.5.t"
+	desc = "aos_retrieve_lost_treasure.5.desc"
+	picture = china_political
+
+	trigger = {}
+
+	immediate = {}
+
+	option = { #找回妇好钺
+		name = "aos_retrieve_lost_treasure.5.a"
+		create_country_treasure = {
+			key = treasure_fuhaoyue
+			icon = treasure_fuhaoyue
+
+			modifier = {
+				happiness_for_same_religion_modifier = 0.2
+			}
+		}
+	}
+}

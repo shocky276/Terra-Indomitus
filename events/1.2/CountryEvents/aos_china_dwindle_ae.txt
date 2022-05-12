@@ -1,0 +1,79 @@
+﻿namespace = aos_china_dwindle_ae
+aos_china_dwindle_ae.1 = { #前260年后统一前给减ae
+	
+	type = country_event
+	title = "aos_china_dwindle_ae.1.t"
+	desc = "aos_china_dwindle_ae.1.desc"
+	fire_only_once = yes
+	picture = china_political
+	left_portrait = current_ruler
+
+	trigger = {
+		current_date > 504.1.1
+		OR = {
+			country_culture_group = chinese
+			religion = chinese_religions
+		}
+		NOT = {
+			has_country_modifier = aos_china_dwindle_ae_buff
+			has_variable = china_is_unified
+			num_of_cities > 650
+		}
+	}
+	
+	option = {
+		name = aos_china_dwindle_ae.1.a
+		add_country_modifier = {
+		name = aos_china_dwindle_ae_buff
+		duration = -1
+		}
+		region:yu_region = { formable_region_province_effect = yes }
+		region:you_region = { formable_region_province_effect = yes }
+		region:yi_region = { formable_region_province_effect = yes }
+		region:yan_region = { formable_region_province_effect = yes }
+		region:xu_region = { formable_region_province_effect = yes }
+		region:qing_region = { formable_region_province_effect = yes }
+		region:jing_region = { formable_region_province_effect = yes }
+		region:ji_region = { formable_region_province_effect = yes }
+		region:bing_region = { formable_region_province_effect = yes }
+		region:yong_region = { formable_region_province_effect = yes }
+		#凉州
+		area:tianshui_area = { formable_area_province_effect = yes }
+		area:longxi_area = { formable_area_province_effect = yes }
+		#朔方
+		area:shang_area = { formable_area_province_effect = yes }
+		area:xihe_area = { formable_area_province_effect = yes }
+		area:wuyuan_area = { formable_area_province_effect = yes }
+		#扬州（除建安）
+		area:lujiang_area = { formable_area_province_effect = yes }
+		area:jiujiang_area = { formable_area_province_effect = yes }
+		area:kuaiji_area = { formable_area_province_effect = yes }
+		area:danyang_area = { formable_area_province_effect = yes }
+		area:yuzhang_area = { formable_area_province_effect = yes }
+		area:linhai_area = { formable_area_province_effect = yes }
+		area:wu_area = { formable_area_province_effect = yes }
+		area:luling_area = { formable_area_province_effect = yes }
+	}
+}
+
+aos_china_dwindle_ae.2 = { #统一后移除减ae
+	
+	type = country_event
+	title = "aos_china_dwindle_ae.2.t"
+	desc = "aos_china_dwindle_ae.2.desc"
+	picture = china_political
+	left_portrait = current_ruler
+
+	trigger = {
+		has_country_modifier = aos_china_dwindle_ae_buff
+		OR = {
+			has_variable = china_is_unified
+			num_of_cities >= 650
+		}
+	}
+	
+	option = {
+		name = aos_china_dwindle_ae.2.a
+		remove_country_modifier = aos_china_dwindle_ae_buff
+	}
+}

@@ -1,0 +1,89 @@
+﻿namespace = new_year_festival
+new_year_festival.1 = { #新年庆典
+	type = country_event
+	title = "new_year_festival.1.t"
+	desc = "new_year_festival.1.desc"
+	picture = china_political
+	left_portrait = current_ruler
+	right_portrait = scope:new_year_minister_target
+	
+	trigger = {
+		num_of_cities > 150
+		is_ai = no
+		war = no
+		any_character = {
+			prisoner = no
+			is_adult = yes
+			is_ruler = no
+			is_female = no
+		}
+	}
+
+	immediate = {
+		random_character = {
+			limit = {
+				prisoner = no
+				is_adult = yes
+				is_ruler = no
+				is_female = no
+			}
+			save_scope_as = new_year_minister_target
+		}
+	}
+
+	option = { #举办一场常规的庆典
+		name = "new_year_festival.1.a"
+		trigger = {
+			current_ruler = {
+				NOT = {
+					has_trait = self_controlled
+					has_trait = proud
+					has_trait = gluttonous
+					has_trait = sarcastic
+					has_trait = miserly
+					has_trait = harsh
+				}
+			}
+		}
+		scope:new_year_minister_target = {
+			add_loyalty = aos_loyalty_adopt_suggestion
+		}
+		add_stability = { 2 5 }
+		add_treasury = { -20 -55 }
+		add_political_influence = { -2 -5 }
+		add_country_modifier = {
+			name = new_year_festival_buff
+			duration = 180
+		}
+	}
+
+	option = { #举办一场盛大的庆典
+		name = "new_year_festival.1.b"
+		trigger = {
+			current_ruler = {
+				OR = {
+					has_trait = proud
+					has_trait = zealous
+				}
+			}
+		}
+		scope:new_year_minister_target = {
+			add_loyalty = aos_loyalty_adopt_suggestion
+		}
+		add_stability = { 5 9 }
+		add_treasury = { -60 -150 }
+		add_political_influence = { -5 -15 }
+		add_country_modifier = {
+			name = grand_new_year_festival_buff
+			duration = 220
+		}
+	}
+
+	option = { #不举办庆典
+		name = "new_year_festival.1.c"
+		add_country_modifier = {
+			name = no_new_year_festival_buff
+			duration = 180
+		}
+	}
+}

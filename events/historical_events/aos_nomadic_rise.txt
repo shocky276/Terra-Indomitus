@@ -1,0 +1,159 @@
+﻿namespace = aos_nomadic_rise
+aos_nomadic_rise.1 = { #游牧崛起
+	
+	type = country_event
+	title = "aos_nomadic_rise.1.t"
+	desc = "aos_nomadic_rise.1.desc"
+	picture = xiongnu_cavalry
+	goto_location = root
+	left_portrait = current_ruler
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			country_culture_group = di
+			country_culture_group = hu
+		}
+		NOT = {
+			has_country_modifier = aos_nomadic_rise_buff
+			has_country_modifier = nomadic_empire
+			has_country_modifier = aos_nomadic_cavalry
+		}
+		num_of_cities >= 28
+	}
+	
+	option = {
+		name = aos_nomadic_rise.1.a
+		ai_chance = {
+			modifier = {
+				factor = 100
+			}
+		}
+		add_country_modifier = {
+			name = aos_nomadic_rise_buff
+			duration = 18250
+		}
+		add_country_modifier = {
+			name = aos_nomadic_cavalry
+			duration = -1
+		}
+		region:mobei_region = { formable_region_province_effect = yes }
+		region:shuofang_region = { formable_region_province_effect = yes }
+		region:xiyu_region = { formable_region_province_effect = yes }
+		region:yong_region = { formable_region_province_effect = yes }
+	}
+}
+
+aos_nomadic_rise.2 = { #随机AI游牧崛起
+	
+	type = country_event
+	title = "aos_nomadic_rise.1.t"
+	desc = "aos_nomadic_rise.1.desc"
+	picture = xiongnu_cavalry
+	goto_location = root
+	left_portrait = current_ruler
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			country_culture_group = di
+			country_culture_group = hu
+		}
+		NOT = {
+			has_country_modifier = aos_nomadic_rise_buff
+			has_country_modifier = nomadic_empire
+			has_country_modifier = aos_nomadic_cavalry
+			has_global_variable = ai_nomadic_rise
+		}
+		is_ai = yes
+		num_of_cities >= 36
+		current_date > 1004.1.1
+	}
+
+	immediate = {
+		set_global_variable = {
+			name = ai_nomadic_rise
+			days = 73000
+		}
+	}
+
+	option = {
+		name = aos_nomadic_rise.1.a
+		add_country_modifier = {
+			name = nomadic_empire
+			duration = -1
+		}
+		add_country_modifier = {
+			name = aos_nomadic_rise_buff
+			duration = 18250
+		}
+		add_country_modifier = {
+			name = aos_nomadic_cavalry
+			duration = -1
+		}
+		hidden_effect = {
+			p:9516 = {add_to_list = xiongnu_rise_province}
+			p:9517 = {add_to_list = xiongnu_rise_province}
+			p:9512 = {add_to_list = xiongnu_rise_province}
+			p:9515 = {add_to_list = xiongnu_rise_province}
+			p:9514 = {add_to_list = xiongnu_rise_province}
+			p:9537 = {add_to_list = xiongnu_rise_province}
+			p:9538 = {add_to_list = xiongnu_rise_province}
+			p:9513 = {add_to_list = xiongnu_rise_province}
+			p:9518 = {add_to_list = xiongnu_rise_province}
+			p:9505 = {add_to_list = xiongnu_rise_province}
+			p:9527 = {add_to_list = xiongnu_rise_province}
+			p:8242 = {add_to_list = xiongnu_rise_province}
+			p:8603 = {add_to_list = xiongnu_rise_province}
+			p:8606 = {add_to_list = xiongnu_rise_province}
+			p:8607 = {add_to_list = xiongnu_rise_province}
+			p:8608 = {add_to_list = xiongnu_rise_province}
+			p:8609 = {add_to_list = xiongnu_rise_province}
+			p:8610 = {add_to_list = xiongnu_rise_province}
+			p:8611 = {add_to_list = xiongnu_rise_province}
+			p:9571 = {add_to_list = xiongnu_rise_province}
+			p:8612 = {add_to_list = xiongnu_rise_province}
+			p:8613 = {add_to_list = xiongnu_rise_province}
+			p:9572 = {add_to_list = xiongnu_rise_province}
+			p:8573 = {add_to_list = xiongnu_rise_province}
+			p:8572 = {add_to_list = xiongnu_rise_province}
+			p:8652 = {add_to_list = xiongnu_rise_province}
+			p:8751 = {add_to_list = xiongnu_rise_province}
+			p:8604 = {add_to_list = xiongnu_rise_province}
+			p:8605 = {add_to_list = xiongnu_rise_province}
+			region:mobei_region = {
+				every_region_province = {
+					limit = {
+						dominant_province_culture = xiongnu
+					}
+					add_to_list = xiongnu_rise_province
+				}
+			}
+			if = {
+				limit = {
+					any_in_list = {
+						list = xiongnu_rise_province
+						NOT = {owner = ROOT}
+					}
+				}
+				every_in_list = {
+					list = xiongnu_rise_province
+					limit = {
+						NOT = {owner = ROOT}
+					}
+					set_conquered_by = ROOT
+				}
+			}
+			region:mobei_region = { formable_region_province_effect = yes }
+			region:shuofang_region = { formable_region_province_effect = yes }
+			region:liang_region = { formable_region_province_effect = yes }
+			area:beishan_area = { formable_area_province_effect = yes }
+			area:modong_area = { formable_area_province_effect = yes }
+			area:raole_area = { formable_area_province_effect = yes }
+			area:wuhuan_area = { formable_area_province_effect = yes }
+			area:yunzhong_area = { formable_area_province_effect = yes }
+			area:dingxiang_area = { formable_area_province_effect = yes }
+			area:yanmen_area = { formable_area_province_effect = yes }
+		}
+	}
+}
