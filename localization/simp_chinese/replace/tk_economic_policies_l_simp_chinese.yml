@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+ #
+ income_commerce_low:1 "限制进出口"
+ income_commerce_default:0 "许可贸易"
+ income_commerce_high:1 "贸易征税"
+ 

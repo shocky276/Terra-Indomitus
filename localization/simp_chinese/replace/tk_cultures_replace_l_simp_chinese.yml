@@ -1,0 +1,104 @@
+﻿l_simp_chinese:
+ tibetan_malename:0 "$NICKNAME$ $FAMILY_MALE$$NAME_MALE$"
+ tibetan_femalename:1 "$NICKNAME$ $FAMILY_MALE$$NAME_MALE$"
+ north_african:2 "埃及"
+ tibetan:0 "藏"
+ west_levantine:0 "迦南"#Canannite
+ proto_european:1 "阿基坦尼"#Aquitanian
+ tyrrhenian:1 "提壬尼亚"
+ bactra:0 "巴克特里亚"#Bacterian
+ phryni:0 "勃律"
+ mariandynian:0 "马里安底尼亚"
+ aduatacian:0 "阿杜阿图基亚"
+ hellenistic:0 "希腊化"
+ achaean:0 "亚该亚"
+ boeotian:0 "玻俄提亚"
+ peloponnesian:1 "拉科代蒙"
+ troan:0 "特罗亚"
+ aestian:0 "埃斯提亚"
+ slavian:0 "斯克拉维亚"#Sclavian
+ roman:0 "拉丁"#Latin
+ north_picena:0 "北庇刻纳"
+ south_picena:0 "南庇刻纳"
+ rhaetian:0 "赖提亚"
+ samnite:0 "萨贝利亚"
+ messapian:0 "墨萨庇亚"
+ nuragic:0 "努拉格"
+ egyptian:1 "北埃及"#Tsakhet
+ upper_egyptian:0 "塔舍马乌"#Ta Shemaw
+ middle_egyptian:0 "帕约姆"#Payom
+ sagartian:0 "萨伽耳提亚"
+ philistine:0 "非利士"
+ gothonic:0 "吕根"
+ elymian:0 "厄律弥亚"
+ sicanian:0 "西卡尼亚"
+ bactrian:0 "图兰"#Turan
+ persia:0 "伊朗"#Iran
+ carthaginian:0 "迦太基"#Carthage
+ buridavensi:0 "部里达文西亚"
+ massagetaen:0 "马萨革泰"
+ himalayan:0 "罽罗多"#Kirata
+ saka_g:0 "塞种"
+ pasargadi:0 "波斯"#Persian
+ brygian:0 "布里吉亚"
+ odrysi:0 "色雷斯"#Thrakian
+ sasperires:0 "萨斯珀里亚"
+ abasgoi:0 "阿巴斯戈伊"
+ bekhyrian:0 "柏居里亚"
+ caspian:0 "卡斯庇亚"
+ phasiane:0 "法西亚涅"
+ sophene:0 "索斐涅"
+ van:0 "托斯庇亚"#Thospia
+ celtic_pannonian:1 "斯科耳迪斯基亚"
+ aksumite_group:1 "蓬特"#Punt
+ cushite:1 "库希特"
+ south_semitic:1 "南闪族"
+ dacian:1 "阿尔玻肯西亚"
+ #Caledonian
+ caledonian_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ caledonian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ ARMY_NAME_caledonian:2 "第 $NUM$ 战团"
+ NAVY_NAME_caledonian:1 "第 $NUM$ 舰队"
+ COHORT_NAME_caledonian:1 "$HOME$第 $NUM$ 军"
+ #Etruria
+ tyrrhenian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ tyrrhenian_femalename:1 "$FAMILY_FEMALE$ $FEMALE_ORDER$ $REGNALNUMBER$ $NICKNAME$"
+ ARMY_NAME_tyrrhenian:2 "大队 $ROMAN$"
+ NAVY_NAME_tyrrhenian:1 "舰队 $ROMAN$"
+ COHORT_NAME_tyrrhenian:1 "$HOME$中队 $ROMAN$"
+ #Armenia
+ armenian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ armenian_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ ARMY_NAME_armenian:1 "$BASE$第 $NUM$ 军"
+ NAVY_NAME_armenian:1 "第 $NUM$ 船队"
+ COHORT_NAME_armenian:1 "$HOME$第 $NUM$ 旗"
+ #Saka
+ saka_g_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ saka_g_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ ARMY_NAME_saka_g_:1 "第 $NUM$ 军"
+ NAVY_NAME_saka_g_:0 "第 $NUM$ 舰队"
+ COHORT_NAME_saka_g:1 "$HOME$第 $NUM$ 大队"
+ #Albanian
+ albanian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ albanian_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ ARMY_NAME_albanian:1 "第$NUM$陆军"
+ NAVY_NAME_albanian:1 "第$NUM$海军"
+ COHORT_NAME_albanian:1 "$HOME$的第$NUM$大队"
+ #Maeotian
+ maeotian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ maeotian_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ ARMY_NAME_maeotian:1 "第$NUM$陆军"
+ NAVY_NAME_maeotian:1 "第$NUM$海军"
+ COHORT_NAME_maeotian:1 "$HOME$的第$NUM$大队"
+ #Phrygian
+ phrygian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ phrygian_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ ARMY_NAME_phrygian:1 "第$NUM$陆军"
+ NAVY_NAME_phrygian:1 "第$NUM$海军"
+ COHORT_NAME_phrygian:1 "$HOME$的第$NUM$大队"
+ #South Semitic
+ south_semitic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ south_semitic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ ARMY_NAME_south_semitic:0 "第 $NUM$ 军"
+ NAVY_NAME_south_semitic:0 "第 $NUM$ 舰队"
+ COHORT_NAME_south_semitic:1 "$HOME$第 $NUM$ 千人队"

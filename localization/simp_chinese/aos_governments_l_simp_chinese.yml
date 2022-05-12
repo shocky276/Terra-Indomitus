@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+ # chinese_empire
+ chinese_empire:0 "中华帝国制"
+ chinese_empire_desc:0 "中华帝国是古代中国统一时期的帝制王朝，中国古代帝制王朝通常以朝代名称指代当时的中华帝国。在中华帝国政体下，中国皇帝享有绝对权力，有权任命和废除百官与诸侯，有权不经讨论直接废立太子。在中华帝国制下，中国与周边各国形成了华夷体系与朝贡外交，中国皇帝认为自己和中华帝国处于世界中央，周围的其他民族和国家则被称为四夷。"
+ chinese_empire_consort:0 "皇后"
+ chinese_empire_ruler:0 "皇帝"
+ chinese_empire_governor:0 "刺史"
+ chinese_empire_ruler_female:0 "女皇"
+ chinese_empire_general:0 "校尉"
+ chinese_empire_admiral:0 "水军校尉"
+ # EnfeoffmentSystemZhouRites
+ enfeoffment_zhourites:0 "周礼分封制"
+ enfeoffment_zhourites_desc:0 "周代礼制完整地讲应称之为礼乐制度，分礼和乐两个部分。礼的部分主要对人的身份进行划分和社会规范，最终形成等级制度。乐的部分主要是基于礼的等级制度，运用音乐进行缓解社会矛盾。前者是所有制度的基础和前提，后者是制度运行的形式和保障。在此基础上周朝制定了周礼分封制，分封出了大大小小近八十个诸侯国。周天子按照宗法制来分封诸侯国，宗法制度是由氏族社会父系家长制演变而来的，是王族贵族按血缘关系分配国家权力，以便建立世袭统治的一种制度。其特点是宗族组织和国家组织合二为一，宗法等级和政治等级完全一致。此制度确立于夏朝，发展于商朝，完备于周朝。按照周代的宗法制度，宗族中分为大宗和小宗。周王自称天子，称为天下的大宗。天子的除嫡长子以外的其他儿子被封为诸侯。诸侯对天子而言是小宗，但在他的封国内却是大宗。诸侯的其它儿子被分封为卿大夫。卿大夫对诸侯而言是小宗，但在他的采邑内却是大宗。从卿大夫到士也是如此。因此贵族的嫡长子总是不同等级的大宗（宗子）。大宗不仅享有对宗族成员的统治权，而且享有政治上的特权。"
+ enfeoffment_zhourites_consort:0 "王后"
+ enfeoffment_zhourites_ruler:0 "天子"
+ enfeoffment_zhourites_ruler_female:0 "天子"
