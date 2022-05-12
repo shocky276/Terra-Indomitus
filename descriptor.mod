@@ -1,0 +1,15 @@
+version="1.7.0"
+tags={
+	"Characters"
+	"Flags"
+	"Historical"
+	"Interface"
+	"Overhaul"
+	"Portraits"
+	"Total Conversions"
+	"Unit Graphics"
+	"Unit Types"
+}
+name="直到世界尽头"
+supported_version="2.0.3"
+remote_file_id="2501265160"
