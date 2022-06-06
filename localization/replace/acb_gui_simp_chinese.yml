@@ -1,6 +1,0 @@
-﻿l_simp_chinese:
- RIV_DATECHANGE_TOOLTIP:0 "切换AUC和公历年份。"
- CURRENT_DATE_REVERSE:0 "[GetChristianDateString]"
- CURRENT_DATE_REVERSE_TOOLTIP:2 "#T 当前日期#!\n#Y 右击以切换#!\n目前年份显示为公历。若以AUC计算则是[GetDateString|Y]\n\n#TF 当毕达哥拉斯被问到什么是时间的时候，他的回答是这个世界的灵魂。#!"
- CURRENT_DATE_BOTH:0 "[GetDateString] / [GetChristianDateString]"
- CURRENT_DATE_BOTH_TOOLTIP:0 "#T 当前日期#!\n#Y 右击以切换#!\n#TF 当毕达哥拉斯被问到什么是时间的时候，他的回答是这个世界的灵魂。#!"

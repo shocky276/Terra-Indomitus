@@ -706,7 +706,7 @@ QII = "setup/countries/china/qi.txt"
 BAA = "setup/countries/china/ba.txt"
 YQI = "setup/countries/china/yiqu.txt"
 BII = "setup/countries/china/bi.txt"
-#1.2AOS
+#
 HNN = "setup/countries/china/hann.txt"
 LIA = "setup/countries/china/liao.txt"
 CHA = "setup/countries/china/chang.txt"
@@ -837,7 +837,7 @@ EZO = "setup/countries/china/dongzhouguo.txt"
 WZO = "setup/countries/china/xizhouguo.txt"
 NYE = "setup/countries/china/langyawuyue.txt"
 
-#三韩
+#
 JNG = "setup/countries/acb_others/jingug.txt"
 BAE = "setup/countries/acb_others/baekje.txt"
 GBL = "setup/countries/acb_others/gobiri.txt"
@@ -853,7 +853,7 @@ HRO = "setup/countries/acb_others/horo.txt"
 GIJ = "setup/countries/acb_others/gijeo.txt"
 UYU = "setup/countries/acb_others/uyu.txt"
 
-#1.2新增
+#
 HUJ = "setup/countries/acb_others/hujie.txt"
 JIK = "setup/countries/acb_others/jiankun.txt"
 NNH = "setup/countries/acb_others/nanhe.txt"

@@ -14,7 +14,7 @@
  xiyu:0 "Xiyu"
  austronesian:0 "Austronesian"
  ainu:0 "Ainu"
- #华夏
+ #
  yan:0 "Yan"
  jin:0 "Jin"
  qin:0 "Qin"
@@ -25,7 +25,7 @@
  xu:0 "Xu"
  yaan:0 "Yaan"
  huaxia:0 "Huaxia"
- #戎
+ #
  yiqu:0 "Yiqu"
  juyan:0 "Juyan"
  qiang:0 "Qiang"
@@ -37,7 +37,7 @@
  piaoyue:0 "Piaoyue"
  ruoqiang:0 "Ruoqiang"
  kunming:0 "Kunming"
- #狄
+ #
  xiongnu:0 "Xiongnu"
  shanrong:0 "Shanrong"
  linhu:0 "Linhu"
@@ -48,11 +48,11 @@
  jiankun:0 "Jiankun"
  hujie:0 "Hujie"
  dingling:0 "Dingling"
- #胡
+ #
  xianbei:0 "Xianbei"
  wuhuan:0 "Wuhuan"
  donghu:0 "Donghu"
- #越
+ #
  wuyue:0 "Wuyue"
  ouyue:0 "Ouyue"
  minyue:0 "Minyue"
@@ -63,10 +63,10 @@
  yelang:0 "Yelang"
  jiuliao:0 "Jiuliao"
  nanyue:0 "Nanyue"
- #苗
+ #
  yangyu:0 "Yangyu"
  sanmiao:0 "Sanmiao"
- #濮
+ #
  bo:0 "Bo"
  dian:0 "Dian"
  pubu:0 "Pubu"
@@ -74,14 +74,14 @@
  phnom:0 "Phnom"
  minpu:0 "Minpu"
  suvarnabhumi:0 "Suvarnabhumi"
- #夷
+ #
  huaiyi:0 "Huaiyi"
  laiyi:0 "Laiyi"
  guzhu:0 "Guzhu"
  lingzhi:0 "Lingzhi"
  joseon:0 "Joseon"
  qunshu:0 "Qunshu"
- #濊貊
+ #
  goguryeo:0 "Goguryeo"
  woju:0 "Woju"
  fuyu:0 "Fuyu"
@@ -90,20 +90,20 @@
  lelang:0 "Lelang"
  dongwei:0 "Dongwei"
  yilyu:0 "Yilyu"
- #南洋
+ #
  yizhou:0 "Yizhou"
  linyi:0 "Linyi"
- #三韩
+ #
  jinhan:0 "Jinhan"
  mahan:0 "Mahan"
  byeonhan:0 "Byeonhan"
- #倭
+ #
  wa:0 "Wa"
  kumaso:0 "Kumaso"
  aduma:0 "Aduma"
- #毛人
+ #
  ainu:0 "Ainu"
- #西域
+ #
  loulan:0 "Loulan"
  beishan:0 "Beishan"
  #Naming
@@ -182,7 +182,7 @@
  COHORT_NAME_ainu: "$ORDER$$NUM$ Cohort"
  ainu_malename:0 "$NICKNAME$ $FAMILY_MALE$ $NAME_MALE$"
  ainu_femalename:1 "$NICKNAME$ $FAMILY_MALE$ $NAME_MALE$"
-#北狄部落
+#
  XULIANTI:0 "Xulianti"
  HUNYI:0 "Hunyi"
  TIELE:0 "Tiele"
@@ -196,7 +196,7 @@
  CHILE:0 "Chile"
  DILI:0 "Dili"
  LANSHI:0 "Lanshi"
- #胡人部落
+ #
  ROURAN:0 "Rouran"
  SHIWEI:0 "Shiwei"
  DUAN:0 "Duan"
@@ -209,7 +209,7 @@
  DUGU:0 "Dugu"
  QIUDUN:0 "Qiudun"
  HELAI:0 "Helai"
- #西戎部落
+ #
  XIRONG:0 "Xirong"
  XIANLING:0 "Xianling"
  LEJIE:0 "Lejie"
@@ -236,7 +236,7 @@
  DAZANGYI:0 "Dazangyi"
  BADI:0 "Badi"
  QIUNIU:0 "Qiuniu"
- #濊貊部落
+ #
  XISHEN:0 "Xishen"
  WUJI:0 "Wuji"
  XIAONU:0 "Xiaonu"
@@ -249,7 +249,7 @@
  YIMO:0 "Yimo"
  ZHIGOULOU:0 "Zhigoulou"
  HUI:0 "Hui"
- #百濮部落
+ #
  JIAORAOZHONGYI:0 "Jiaoraozhongyi"
  AILAO:0 "Ailao"
  PUBU:0 "Pubu"
@@ -261,7 +261,7 @@
  PANYUE:0 "Panyue"
  XIYU:0 "Xiyu"
  WUHUMAN:0 "Wuhuman"
- #百越部落
+ #
  SHANYUE:0 "Shanyue"
  LIAO:0 "Liao"
  DIAOTI:0 "Diaoti"
@@ -269,7 +269,7 @@
  YANGYUE:0 "Yangyue"
  GANYUE:0 "Ganyue"
  NANYUE:0 "Nanyue"
- #三苗部落
+ #
  NANMAN:0 "Nanman"
  LOUZHONGMAN:0 "Louzhongman"
  LIZHONGMAN:0 "Lizhongman"
@@ -277,7 +277,7 @@
  CHANGSHAMAN:0 "Changshaman"
  WULINGMAN:0 "Wulingman"
  NANJUNMAN:0 "Nanjunman"
- #南洋部落
+ #
  DONGTI:0 "Dongti"
  QIJIE:0 "Qijie"
  SHIPU:0 "Shipu"
@@ -285,5 +285,5 @@
  QUDU:0 "Qudu"
  GANLU:0 "Ganlu"
  FUDAN:0 "Fudan"
- #毛人
+ #
  EMISI:0 "Emisi"

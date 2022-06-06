@@ -1,5 +1,5 @@
 ﻿namespace = policy_discussion_start
-policy_discussion_start.1 = { #政策讨论开始
+policy_discussion_start.1 = { #
 	
 	type = country_event
 	title = "policy_discussion_start.1.t"
@@ -38,7 +38,7 @@ policy_discussion_start.1 = { #政策讨论开始
 }
 
 namespace = policy_discussion_domestic_policy
-policy_discussion_domestic_policy.1 = { #更改国内政策
+policy_discussion_domestic_policy.1 = { #
 	
 	type = country_event
 	title = "policy_discussion_domestic_policy.1.t"
@@ -69,7 +69,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 		add_political_influence = { 25 40 }
 	}
 	
-	option = { #要求一笔额外征税
+	option = { #
 		name = policy_discussion_domestic_policy.1.b
 		trigger = {
 			num_of_cities >= 50
@@ -86,7 +86,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 		add_political_influence = { -10 -20 }
 	}
 	
-	option = { #刺激经济
+	option = { #
 		name = policy_discussion_domestic_policy.1.c
 		trigger = {
 			current_ruler = {
@@ -104,7 +104,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 		}
 	}
 	
-	option = { #军功爵制
+	option = { #
 		name = policy_discussion_domestic_policy.1.d
 		trigger = {
 			current_ruler = {
@@ -128,7 +128,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 		}
 	}
 	
-	option = { #文化包容
+	option = { #
 		name = policy_discussion_domestic_policy.1.e
 		trigger = {
 			current_ruler = {
@@ -147,7 +147,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 		}
 	}
 	
-	option = { #改革官僚
+	option = { #
 		name = policy_discussion_domestic_policy.1.f
 		trigger = {
 			current_ruler = {
@@ -165,7 +165,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 		}
 	}
 	
-	option = { #裁减冗兵
+	option = { #
 		name = policy_discussion_domestic_policy.1.g
 		trigger = {
 			current_ruler = {
@@ -184,7 +184,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 		}
 	}
 	
-	option = { #训练军队
+	option = { #
 		name = policy_discussion_domestic_policy.1.h
 		trigger = {
 			NOT = {
@@ -202,7 +202,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 		}
 	}
 
-	option = { #道德教育
+	option = { #
 		name = policy_discussion_domestic_policy.1.i
 		trigger = {
 			NOT = {
@@ -220,7 +220,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 		}
 	}
 
-	option = { #无阶级差别教育
+	option = { #
 		name = policy_discussion_domestic_policy.1.j
 		trigger = {
 			NOT = {
@@ -238,7 +238,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 		}
 	}
 	
-	option = { #返回
+	option = { #
 		name = policy_discussion_domestic_policy.1.k
 		trigger_event = {
 			id = policy_discussion_start.1
@@ -248,7 +248,7 @@ policy_discussion_domestic_policy.1 = { #更改国内政策
 }
 
 namespace = policy_discussion_class_rights
-policy_discussion_class_rights.1 = { #讨论阶级权利
+policy_discussion_class_rights.1 = { #
 	
 	type = country_event
 	title = "policy_discussion_class_rights.1.t"
@@ -263,7 +263,7 @@ policy_discussion_class_rights.1 = { #讨论阶级权利
 	immediate = {
 	}
 	
-	option = { #我想给贵族更多权利
+	option = { #
 		name = policy_discussion_class_rights.1.a
 		trigger = {
 			NOT = {
@@ -279,7 +279,7 @@ policy_discussion_class_rights.1 = { #讨论阶级权利
 		add_treasury = { -200 -400 }
 	}
 	
-	option = { #我想给公民更多权利
+	option = { #
 		name = policy_discussion_class_rights.1.b
 		trigger = {
 			NOT = {
