@@ -1,0 +1,679 @@
+﻿china_unified = {
+	happiness_for_same_culture_modifier = 0.15
+	global_freemen_output = output_huge_svalue
+}
+
+chuhuaiwang = {
+	land_morale_modifier = -0.1
+	siege_ability = -0.1
+	manpower_recovery_speed = -0.1
+}
+
+zhao_buff = {
+	heavy_cavalry_offensive = 0.05
+	heavy_cavalry_defensive = 0.05
+	horse_archers_offensive = 0.05
+	horse_archers_defensive = 0.05
+	light_cavalry_offensive = 0.05
+	light_cavalry_defensive = 0.05
+	happiness_for_same_culture_modifier = -0.05
+}
+
+yanzhaowang_buff = {
+	army_movement_speed = 0.15
+	chariots_discipline = 0.1
+	light_infantry_discipline = 0.1
+	horse_archers_discipline = 0.1
+	heavy_infantry_discipline = 0.1
+	light_cavalry_discipline = 0.1
+	levy_size_multiplier = 0.1
+	global_tax_modifier = 0.2
+	global_manpower_modifier = 0.2
+	ruler_popularity_gain = 1
+	local_population_growth = 0.15
+}
+
+qin_buff = {
+	land_morale_modifier = 0.25
+	levy_size_multiplier = 0.05
+	build_cost = -0.2
+	manpower_recovery_speed = 1
+	agressive_expansion_monthly_change = -0.25
+	global_slaves_output = 0.1
+	local_monthly_civilization = -0.1
+	local_nobles_happyness = -0.1
+	local_citizen_happyness = -0.05
+	local_freemen_happyness = -0.05
+	local_slaves_happyness = -0.1
+	monthly_tyranny = 0.12
+	country_civilization_value = -10
+	war_score_cost = -0.5
+}
+
+han_buff = {
+	monthly_tyranny = 0.05
+	happiness_for_same_culture_modifier = 0.1
+	monthly_political_influence_modifier = 0.25
+	character_loyalty = -5
+}
+
+qi_buff = {
+	ruler_popularity_gain = 0.1
+	research_points_modifier = 0.05
+}
+
+wei4_buff = {
+}
+
+yue_buff = {
+}
+
+yue2_buff = {
+}
+
+zhongshan_buff = {
+}
+
+zhou_buff = {
+}
+
+yan_buff = {
+}
+
+lu_buff = {
+}
+
+wuhuan_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+yinshan_north_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+fuyangju_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+jiankun_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+hujie_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+xihai_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+dingling_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+guyan_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+gonglu_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+modong_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+daxianbeishan_east_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+huifa_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+sushen_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+raole_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+zhuya_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+rinan_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+lam_ap_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+beishan_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+sirdarya_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+darn_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+scythia_ad_pontem_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+scythia_ultima_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+borysthenia_maioris_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+danaia_superioris_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+tanassa_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+danaia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+confluenta_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+alania_proper_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+alania_orientalis_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+maeotia_minores_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+alania_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+tanaissa_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+sattara_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+hyrcania_superior_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+atara_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+transhyrcania_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+scythia_trans_montem_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+sarmatia_hyrcania_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+hypania_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+borysthenia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+transborysthenia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+sarmatia_superioris_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+ciscarpathia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+vistulia_inferioris_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+amadocia_occidentalis_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+bassetia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+vistulia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+ossioia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+subcarpathia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+hypania_minoris_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+transhypania_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+rugia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+helveconia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+elysia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+galindia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+venedia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+lugia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+marsignia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+chrononis_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+turuntia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+buria_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+semnonia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+pharodenia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+cimbrica_inferioris_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+cimbrica_superioris_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+scandia_insula_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+herulia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+east_gothia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+west_gothia_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+ultima_thule_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+caledonia_meridionalis_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+caledonia_occidentalis_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+caledonia_septentrionalis_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+hibernia_septentrionalis_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+hibernia_occidentalis_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+rutubis_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+tadla_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+taifa_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+arabia_relicta_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+arabia_ad_sinus_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+arabia_deserta_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+dedan_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+arabia_maritimae_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+omana_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+east_omana_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+gerrha_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+hadramut_orientalis_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+gilgit_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+suvarna_gotra_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+zhangzhung_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+jangtang_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+sumpa_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+lhasa_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+yarlung_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+tsang_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+chomolangma_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+halin_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+beikthano_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+shenli_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+dvaravati_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+tenasserim_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+chenla_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+funan_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+kualadungun_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+mosylon_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+tana_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+aksum_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+punt_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+ptolemais_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+ferghana_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+tarim_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+talas_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+qiuci_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+hetian_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+yanqi_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+jiuquan_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+zhangye_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+wuwei_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}
+
+dunhuang_frontier_cost = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_small
+	global_tax_modifier = -0.05
+}

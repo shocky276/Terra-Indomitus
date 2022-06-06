@@ -1,0 +1,249 @@
+﻿make_concubine = {
+
+	on_other_nation = no 
+	on_own_nation = yes
+	
+	sound = "event:/SFX/UI/Character/sfx_ui_character_arrange_marriage"
+
+	potential_trigger = {
+		scope:actor = {
+			OR = {
+				is_monarchy = yes
+				is_tribal = yes
+			}
+		}
+		scope:actor.current_ruler = {
+			is_female = no
+			is_adult = yes
+			is_married = yes
+		}
+		scope:target = {
+			is_ruler = yes
+		}
+	}
+
+	allowed_trigger = {
+		scope:actor.current_ruler = {
+			prisoner = no
+			can_get_friends = yes
+			NOT = { has_trait = barren }
+			NOT = { has_trait = castrated }
+			NOT = { has_trait = leper }
+			NOT = { has_trait = inbred }
+			NOT = { has_trait = pox }
+		}
+	}
+
+	character_actor_trigger = {
+		is_adult = yes
+		age < 45
+		NOT = { is_same_gender = scope:target }
+		NOT = { has_trait = barren }
+		NOT = { has_trait = castrated }
+		NOT = { has_trait = leper }
+		NOT = { has_trait = inbred }
+		NOT = { has_trait = pox }
+		NOT = { has_trait = concubine }
+		is_alive = yes
+		employer = scope:actor
+		NOT = { employer = { tag = REB } }
+		NOT = { employer = { tag = BAR } }
+		is_mercenary = no
+		prisoner = no
+		is_married = no
+		NOT = { has_trait = concubine }
+		trigger_if = {
+			limit = {
+				NOT = {
+					scope:target.employer = {
+						has_law = egyption_succession_law
+					}
+				}
+			}
+			NOR = { 
+				is_close_relative = scope:target
+				this = scope:target.mother
+				this = scope:target.father
+			}
+		}
+	}
+	
+	effect = {
+		if = {
+			limit = { exists = scope:recipient }
+			scope:recipient = {
+				add_trait = concubine
+				add_friend = scope:actor.current_ruler
+				hidden_effect = {
+					trigger_event = {
+						id = concubine.1
+					}
+				}
+			}
+		}
+	}
+}
+
+make_concubine_target = {
+
+	on_other_nation = no 
+	on_own_nation = yes
+	
+	sound = "event:/SFX/UI/Character/sfx_ui_character_arrange_marriage"
+
+	potential_trigger = {
+		scope:actor = {
+			OR = {
+				is_monarchy = yes
+				is_tribal = yes
+			}
+		}
+		scope:actor.current_ruler = {
+			is_female = no
+			is_adult = yes
+			is_married = yes
+		}
+		scope:target = {
+			is_adult = yes
+			is_female = yes
+			is_alive = yes
+			employer = scope:actor
+			NOT = { employer = { tag = REB } }
+			NOT = { employer = { tag = BAR } }
+			is_married = no
+			NOT = { has_trait = concubine }
+			OR = {
+				scope:actor = {
+					has_law = egyption_succession_law
+				}
+				NOR = { 
+					is_close_relative = scope:actor.current_ruler
+					this = scope:actor.current_ruler.mother
+					this = scope:actor.current_ruler.father
+				}
+			}
+		}
+	}
+
+	allowed_trigger = {
+		scope:actor.current_ruler = {
+			prisoner = no
+			can_get_friends = yes
+			NOT = { has_trait = barren }
+			NOT = { has_trait = castrated }
+			NOT = { has_trait = leper }
+			NOT = { has_trait = inbred }
+			NOT = { has_trait = pox }
+		}
+		scope:target = {
+			age < 45
+			NOT = { has_trait = barren }
+			NOT = { has_trait = castrated }
+			NOT = { has_trait = leper }
+			NOT = { has_trait = inbred }
+			NOT = { has_trait = pox }
+			prisoner = no
+			is_mercenary = no
+		}
+	}
+	
+	effect = {
+		scope:target = {
+			add_trait = concubine
+			add_friend = scope:actor.current_ruler
+			hidden_effect = {
+				trigger_event = { #
+					id = concubine.1
+				}
+			}
+		}
+	}
+}
+
+remove_concubine = {
+	on_other_nation = no
+	on_own_nation = yes
+	
+	sound = "event:/SFX/UI/Character/sfx_ui_character_banish"
+
+	potential_trigger = {
+		scope:target = {
+			has_trait = concubine
+		}
+	}
+	
+	allowed_trigger = {
+
+	}
+
+	effect = {
+		scope:target = {
+			if = {
+				limit = {
+					has_trait = concubine
+				}
+				remove_trait = concubine
+			}
+			if = {
+				limit = {
+					is_friend = scope:actor.current_ruler
+				}
+				remove_friend = scope:actor.current_ruler
+			}
+		}
+	}
+}
+
+show_can_marry = {
+
+	on_other_nation = no 
+	on_own_nation = yes
+
+	potential_trigger = {
+		scope:target = {
+			is_ruler = yes
+		}
+	}
+
+	character_actor_trigger = {
+		is_adult = yes
+		is_close_relative = scope:target
+		is_married = no
+	}
+	
+	effect = {}
+}
+
+make_concubine_to_wife = {
+	on_other_nation = no
+	on_own_nation = yes
+	
+	sound = "event:/SFX/UI/Character/sfx_ui_character_arrange_marriage"
+
+	potential_trigger = {
+		scope:target = {
+			has_trait = concubine
+			is_friend = scope:actor.current_ruler
+		}
+	}
+	
+	allowed_trigger = {
+		scope:actor.current_ruler = {
+			is_married = no
+		}
+	}
+
+	effect = {
+		scope:target = {
+			if = {
+				limit = {
+					has_trait = concubine
+				}
+				remove_trait = concubine
+			}
+		}
+		scope:actor.current_ruler = {
+			marry_character = scope:target
+		}
+	}
+}

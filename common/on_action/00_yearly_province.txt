@@ -1,0 +1,18 @@
+﻿yearly_province_pulse = {
+	random_events = {
+		90 = 0
+		10 = slave_revolts.1
+		50 = renew_wasteland_events.1
+		50 = renew_wasteland_events.2
+		50 = renew_wasteland_events.3
+		50 = renew_wasteland_events.4
+		50 = renew_wasteland_events.5
+		50 = renew_wasteland_events.6
+		50 = renew_wasteland_events.7
+		50 = renew_wasteland_events.8
+		50 = renew_wasteland_events.9
+		50 = renew_wasteland_events.10
+	}
+
+	events = {}
+}

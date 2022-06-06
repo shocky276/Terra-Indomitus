@@ -1,0 +1,13 @@
+﻿china_political = {
+	theme = Civic
+	picture = "gfx/interface/event_window/event_china_political.dds"
+}
+
+china_war = {
+	theme = War
+	picture = "gfx/interface/event_window/event_china_war.dds"
+}
+game_start_introduce = {
+	theme = Civic
+	picture = "gfx/interface/event_window/game_start_introduce.dds"
+}

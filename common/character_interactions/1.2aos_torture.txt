@@ -1,0 +1,230 @@
+﻿castration_character = {
+
+	on_other_nation = no
+	on_own_nation = yes
+	needs_senate_approval = yes
+	
+	potential_trigger = {
+		hidden:scope:target = {
+			employer = scope:actor
+			NOT = { employer = { tag = REB } }
+			NOT = { employer = { tag = BAR } }
+			prisoner_valid_for_country_events_trigger = yes
+			NOT = {
+				has_character_modifier = disloyal_successor_cmod
+			}
+			prisoner = yes
+		}
+	}
+	
+	allowed_trigger = {
+		hidden:scope:actor = {
+			can_pay_price = price_execute
+		}
+		hidden:scope:target = {
+			NOT = {
+				has_trait = castrated
+			}
+			is_male = yes
+			prisoner = yes
+			is_co_ruler = no
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			pay_price = price_execute
+		}
+		scope:target = {
+			add_trait = castrated
+			add_rival = scope:actor.current_ruler
+			add_health = -25
+		}
+	}
+}
+
+castration_female_character = {
+
+	on_other_nation = no
+	on_own_nation = yes
+	needs_senate_approval = yes
+	
+	potential_trigger = {
+		hidden:scope:target = {
+			employer = scope:actor
+			NOT = { employer = { tag = REB } }
+			NOT = { employer = { tag = BAR } }
+			prisoner_valid_for_country_events_trigger = yes
+			NOT = {
+				has_character_modifier = disloyal_successor_cmod
+			}
+			prisoner = yes
+		}
+	}
+	
+	allowed_trigger = {
+		hidden:scope:actor = {
+			can_pay_price = price_execute
+		}
+		hidden:scope:target = {
+			NOT = {
+				has_trait = youbi
+			}
+			is_female = yes
+			prisoner = yes
+			is_co_ruler = no
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			pay_price = price_execute
+		}
+		scope:target = {
+			add_trait = youbi
+			add_rival = scope:actor.current_ruler
+			add_health = -25
+		}
+	}
+}
+
+enucleation_tongue_character = {
+
+	on_other_nation = no
+	on_own_nation = yes
+	needs_senate_approval = yes
+	
+	potential_trigger = {
+		hidden:scope:target = {
+			employer = scope:actor
+			NOT = { employer = { tag = REB } }
+			NOT = { employer = { tag = BAR } }
+			prisoner_valid_for_country_events_trigger = yes
+			NOT = {
+				has_character_modifier = disloyal_successor_cmod
+			}
+			prisoner = yes
+		}
+	}
+	
+	allowed_trigger = {
+		hidden:scope:actor = {
+			can_pay_price = price_execute
+		}
+		hidden:scope:target = {
+			NOT = {
+				has_trait = stutter
+			}
+			prisoner = yes
+			is_co_ruler = no
+		}
+	}
+
+	effect = {
+		scope:actor.current_ruler = {
+			add_trait = cruel
+		}
+		scope:actor = {
+			pay_price = price_execute
+		}
+		scope:target = {
+			add_trait = stutter
+			add_rival = scope:actor.current_ruler
+			add_health = -25
+		}
+	}
+}
+
+eye_gouge_character = {
+
+	on_other_nation = no
+	on_own_nation = yes
+	needs_senate_approval = yes
+	
+	potential_trigger = {
+		hidden:scope:target = {
+			employer = scope:actor
+			NOT = { employer = { tag = REB } }
+			NOT = { employer = { tag = BAR } }
+			prisoner_valid_for_country_events_trigger = yes
+			NOT = {
+				has_character_modifier = disloyal_successor_cmod
+			}
+			prisoner = yes
+		}
+	}
+	
+	allowed_trigger = {
+		hidden:scope:actor = {
+			can_pay_price = price_execute
+		}
+		hidden:scope:target = {
+			NOT = {
+				has_trait = blind
+			}
+			prisoner = yes
+			is_co_ruler = no
+		}
+	}
+
+	effect = {
+		scope:actor.current_ruler = {
+			add_trait = cruel
+		}
+		scope:actor = {
+			pay_price = price_execute
+		}
+		scope:target = {
+			add_trait = blind
+			add_rival = scope:actor.current_ruler
+			add_health = -25
+		}
+	}
+}
+
+cut_off_foot_character = {
+
+	on_other_nation = no
+	on_own_nation = yes
+	needs_senate_approval = yes
+	
+	potential_trigger = {
+		hidden:scope:target = {
+			employer = scope:actor
+			NOT = { employer = { tag = REB } }
+			NOT = { employer = { tag = BAR } }
+			prisoner_valid_for_country_events_trigger = yes
+			NOT = {
+				has_character_modifier = disloyal_successor_cmod
+			}
+			prisoner = yes
+		}
+	}
+	
+	allowed_trigger = {
+		hidden:scope:actor = {
+			can_pay_price = price_execute
+		}
+		hidden:scope:target = {
+			NOT = {
+				has_trait = limp
+			}
+			prisoner = yes
+			is_co_ruler = no
+		}
+	}
+
+	effect = {
+		scope:actor.current_ruler = {
+			add_trait = cruel
+		}
+		scope:actor = {
+			pay_price = price_execute
+		}
+		scope:target = {
+			add_trait = limp
+			add_rival = scope:actor.current_ruler
+			add_health = -35
+		}
+	}
+}

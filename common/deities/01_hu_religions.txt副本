@@ -1,0 +1,175 @@
+﻿deity_hu_sky_hu = {
+	# 天神
+	trigger = {
+		religion = hu_religions
+	}
+	icon = deity_chinese_war
+	passive_modifier = {
+		army_maintenance_cost = deity_army_maintenance_cost_svalue
+	}
+	omen = {
+		discipline = omen_discipline_svalue
+	}	#Bonus from Omen
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+	religion = hu_religions
+	deity_category = war
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_hu_earth_hu = {
+	# 地神
+	trigger = {
+		religion = hu_religions
+	}
+	icon = deity_chinese_fertility
+	passive_modifier = {
+		manpower_recovery_speed = deity_global_manpower_recovery_speed_svalue
+	}
+	omen = {
+		happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue
+	}
+	on_activate = {
+		fertility_apotheosis_food_effect = yes
+	}
+	religion = hu_religions
+	deity_category = fertility
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_hu_mountain_hu = {
+	# 山神
+	trigger = {
+		religion = hu_religions
+	}
+	icon = deity_chinese_culture
+	passive_modifier = {
+		global_pop_assimilation_speed_modifier = deity_global_pop_assimilation_speed_modifier_svalue
+	}
+	omen = {
+		civic_tech_investment = omen_civic_tech_investment_svalue
+	}	#Bonus from Omen
+	on_activate = {
+		culture_apotheosis_civic_tech_effect = yes
+	}
+	religion = hu_religions
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_hu_river_hu = {
+	# 河神
+	trigger = {
+		religion = hu_religions
+	}
+	icon = deity_chinese_economy
+	passive_modifier = {
+		global_tax_modifier = deity_global_tax_modifier_svalue
+	}
+	omen = {
+		global_slaves_output = omen_global_slaves_output_svalue
+	}	#Bonus from Omen
+	on_activate = {
+		economy_apotheosis_capital_citizens_effect = yes
+	}
+	religion = hu_religions
+	deity_category = economy
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_hu_thunder_hu = {
+	# 雷神
+	trigger = {
+		religion = hu_religions
+	}
+	icon = deity_chinese_war
+	passive_modifier = {
+		war_exhaustion = deity_war_exhaustion_svalue
+	}
+	omen = {
+		army_weight_modifier = omen_army_weight_modifier
+	}	#Bonus from Omen
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
+	religion = hu_religions
+	deity_category = war
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_hu_wind_hu = {
+	# 风神
+	trigger = {
+		religion = hu_religions
+	}
+	icon = deity_chinese_economy
+	passive_modifier = {
+		global_slaves_output = deity_global_slaves_output_svalue
+	}
+	omen = {
+		global_slaves_output = omen_global_slaves_output_svalue
+	}	#Bonus from Omen
+	on_activate = {
+		economy_income_effect = yes
+	}
+	religion = hu_religions
+	deity_category = economy
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_hu_fire_hu = {
+	# 火神
+	trigger = {
+		religion = hu_religions
+	}
+	icon = deity_chinese_culture
+	passive_modifier = {
+		global_pop_conversion_speed_modifier = deity_global_pop_conversion_speed_modifier_svalue
+	}
+	omen = {
+		happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue
+	}
+	on_activate = {
+		culture_apotheosis_civic_tech_effect = yes
+	}
+	religion = hu_religions
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_hu_ancestor_hu = {
+	# 祖先
+	trigger = {
+		religion = hu_religions
+	}
+	icon = deity_chinese_fertility
+	passive_modifier = {
+		global_tribesmen_happyness = global_tribesmen_happiness_svalue
+	}
+	omen = {
+		hostile_attrition = omen_hostile_attrition_svalue
+	}	#Bonus from Omen
+	on_activate = {
+		fertility_apotheosis_food_effect = yes
+	}
+	religion = hu_religions
+	deity_category = fertility
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}

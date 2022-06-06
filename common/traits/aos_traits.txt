@@ -1,0 +1,173 @@
+﻿qin_bloodline = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	finesse = 1
+}
+
+chu_bloodline = {
+	type = status
+	
+	prominence = 30
+	charisma = 1
+	unit = {
+		heavy_infantry_offensive = 0.10
+	}
+}
+
+wei_bloodline = {
+	type = status
+	
+	prominence = 20
+	charisma = 1
+	unit = {
+		chariots_discipline = 0.10
+	}
+}
+
+zhou_bloodline = {
+	type = status
+	
+	prominence = 40
+	charisma = 3
+	unit = {
+		chariots_discipline = 0.10
+		chariots_offensive = 0.10
+		chariots_defensive = 0.10
+		chariots_morale = 0.10
+	}
+}
+
+yue_bloodline = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	unit = {
+		archers_morale = 0.10
+		archers_offensive = 0.10
+	}
+}
+
+yan_bloodline = {
+	type = status
+	
+	prominence = 25
+	finesse = 1
+	unit = {
+		land_morale_modifier = 0.08
+	}
+}
+
+song_bloodline = {
+	type = status
+	
+	prominence = 25
+	zeal = 1
+	unit = {
+		light_infantry_offensive = 0.10
+	}
+}
+
+lu_bloodline = {
+	type = status
+	
+	prominence = 30
+	zeal = 1
+	finesse = 1
+	character_loyalty = 8
+	unit = {
+		land_morale_modifier = 0.05
+	}
+}
+
+wii_bloodline = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	unit = {
+		chariots_morale = 0.10
+	}
+}
+
+han_bloodline = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	unit = {
+		archers_offensive = 0.10
+		light_infantry_offensive = 0.10
+	}
+}
+
+zhao_bloodline = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	unit = {
+		light_cavalry_offensive = 0.10
+		horse_archers_offensive = 0.10
+	}
+}
+
+zhongshan_bloodline = {
+	type = status
+	
+	prominence = 10
+	martial = 2
+	unit = {
+		light_cavalry_offensive = 0.25
+		horse_archers_offensive = 0.25
+		heavy_cavalry_offensive = 0.25
+	}
+}
+
+qii_bloodline = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	unit = {
+		chariots_discipline = 0.10
+	}
+}
+
+nii_bloodline = {
+	type = status
+	
+	prominence = 10
+	finesse = 1
+}
+
+zou_bloodline = {
+	type = status
+	
+	prominence = 10
+	finesse = 1
+}
+
+teng_bloodline = {
+	type = status
+	
+	prominence = 15
+	finesse = 1
+}
+
+zhaoxian_bloodline = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+}
+
+shihao_trait = {
+	type = status
+}
+
+zoroaster_trait = {
+	type = status
+}
