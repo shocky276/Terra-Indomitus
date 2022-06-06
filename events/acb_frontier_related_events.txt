@@ -17837,6 +17837,7 @@ namespace = 12china_frontier
 	goto_location = scope:wuwei_frontier
 	trigger = {
 		is_tribal = no
+		is_ai = no
 		capital_scope = {
 			NOR = {
 				is_in_region = liang_region
@@ -17851,7 +17852,6 @@ namespace = 12china_frontier
 		}
 		NOT = {
 			has_variable = hold_wuwei
-			is_ai = no
 		}
 	}
 	immediate = {
@@ -17990,6 +17990,7 @@ namespace = 12china_frontier
 	goto_location = scope:zhangye_frontier
 	trigger = {
 		is_tribal = no
+		is_ai = no
 		capital_scope = {
 			NOR = {
 				is_in_region = liang_region
@@ -18004,7 +18005,6 @@ namespace = 12china_frontier
 		}
 		NOT = {
 			has_variable = hold_zhangye
-			is_ai = no
 		}
 	}
 	immediate = {
@@ -18143,6 +18143,7 @@ namespace = 12china_frontier
 	goto_location = scope:jiuquan_frontier
 	trigger = {
 		is_tribal = no
+		is_ai = no
 		capital_scope = {
 			NOR = {
 				is_in_region = liang_region
@@ -18157,7 +18158,6 @@ namespace = 12china_frontier
 		}
 		NOT = {
 			has_variable = hold_jiuquan
-			is_ai = no
 		}
 	}
 	immediate = {
@@ -18296,6 +18296,7 @@ namespace = 12china_frontier
 	goto_location = scope:dunhuang_frontier
 	trigger = {
 		is_tribal = no
+		is_ai = no
 		capital_scope = {
 			NOR = {
 				is_in_region = liang_region
@@ -18310,7 +18311,6 @@ namespace = 12china_frontier
 		}
 		NOT = {
 			has_variable = hold_dunhuang
-			is_ai = no
 		}
 	}
 	immediate = {
@@ -18449,6 +18449,7 @@ namespace = 12china_frontier
 	goto_location = scope:yanqi_frontier
 	trigger = {
 		is_tribal = no
+		is_ai = no
 		capital_scope = {
 			NOR = {
 				is_in_region = liang_region
@@ -18462,7 +18463,6 @@ namespace = 12china_frontier
 		}
 		NOT = {
 			has_variable = hold_yanqi
-			is_ai = no
 		}
 	}
 	immediate = {
@@ -18601,6 +18601,7 @@ namespace = 12china_frontier
 	goto_location = scope:hetian_frontier
 	trigger = {
 		is_tribal = no
+		is_ai = no
 		capital_scope = {
 			NOR = {
 				is_in_region = liang_region
@@ -18614,7 +18615,6 @@ namespace = 12china_frontier
 		}
 		NOT = {
 			has_variable = hold_hetian
-			is_ai = no
 		}
 	}
 	immediate = {
@@ -18753,6 +18753,7 @@ namespace = 12china_frontier
 	goto_location = scope:qiuci_frontier
 	trigger = {
 		is_tribal = no
+		is_ai = no
 		capital_scope = {
 			NOR = {
 				is_in_region = liang_region
@@ -18766,7 +18767,6 @@ namespace = 12china_frontier
 		}
 		NOT = {
 			has_variable = hold_qiuci
-			is_ai = no
 		}
 	}
 	immediate = {
@@ -19056,6 +19056,7 @@ namespace = 12china_frontier
 	goto_location = scope:tarim_frontier
 	trigger = {
 		is_tribal = no
+		is_ai = no
 		capital_scope = {
 			NOR = {
 				is_in_region = liang_region
@@ -19069,7 +19070,6 @@ namespace = 12china_frontier
 		}
 		NOT = {
 			has_variable = hold_tarim
-			is_ai = no
 		}
 	}
 	immediate = {

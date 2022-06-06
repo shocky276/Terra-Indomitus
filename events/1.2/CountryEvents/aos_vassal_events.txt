@@ -192,14 +192,12 @@ zhuhouguo_events.1 = {
 		country_culture_group = chinese
 		is_subject = yes
 		any_neighbour_country = {
-			is_overlord = yes
+			this = overlord
 			country_culture_group = chinese
+			num_of_cities > 30
 			NOT = {
 				has_variable = jiaqiangtianwei
 			}
-		}
-		overlord = {
-			num_of_cities > 30
 		}
 	}
 
@@ -207,13 +205,7 @@ zhuhouguo_events.1 = {
 		root = {
 			save_scope_as = zhuhou_country
 		}
-		random_neighbour_country = {
-			limit = {
-				is_overlord = yes
-				NOT = {
-					has_variable = jiaqiangtianwei
-				}
-			}
+		overlord = {
 			save_scope_as = zhuhou_overlord
 		}
 		scope:zhuhou_overlord = {
@@ -365,7 +357,7 @@ zhuhouguo_events.3 = {
 		country_culture_group = chinese
 		is_subject = yes
 		any_neighbour_country = {
-			is_overlord = yes
+			this = overlord
 		}
 	}
 
@@ -373,10 +365,7 @@ zhuhouguo_events.3 = {
 		root = {
 			save_scope_as = zhuhou_country
 		}
-		random_neighbour_country = {
-			limit = {
-				is_overlord = yes
-			}
+		overlord = {
 			save_scope_as = zhuhou_overlord
 		}
 		random_owned_province = {
@@ -566,6 +555,84 @@ zhuhouguo_events.6 = {
 		remove_variable = houguo
 		remove_variable = gongguo
 		remove_variable = wangguo
+	}
+}
+
+zhuhouguo_events.7 = { #华夏文化诸侯绝贡 检测是否达到绝贡条件
+	hidden = yes
+	type = country_event
+
+	trigger = {
+		num_of_cities > 25
+		is_subject = yes
+		overlord = {
+			country_culture_group = chinese
+			num_of_cities < 200
+			has_variable = china_is_unified
+		}
+	}
+
+	immediate = {
+		root = {
+			save_scope_as = tuolichaogong_zhuhou
+		}
+		overlord = {
+			trigger_event = {
+				id = zhuhouguo_events.8
+			}
+			trigger_event = {
+				id = zhuhouguo_events.9
+			}
+		}
+	}
+
+}
+
+zhuhouguo_events.8 = { #诸侯绝贡 中华帝国弹出反馈窗口
+	type = country_event
+	title = zhuhouguo_events.8.t
+	desc = zhuhouguo_events.8.desc
+	picture = china_political
+
+	option = {
+		name = zhuhouguo_events.8.a
+		scope:tuolichaogong_zhuhou = {
+			add_opinion = {
+				modifier = zhuhoujuegong
+				target = overlord
+			}
+		}
+		release_subject = scope:tuolichaogong_zhuhou
+		add_opinion = {
+			modifier = zhuhoujuegong
+			target = scope:tuolichaogong_zhuhou
+		}
+	}
+}
+
+zhuhouguo_events.9 = { #非华夏文化附庸国绝贡 检测是否达到绝贡条件
+	hidden = yes
+	type = country_event
+
+	trigger = {
+		num_of_cities > 3
+		is_subject = yes
+		overlord = {
+			country_culture_group = chinese
+			num_of_cities < 200
+			has_variable = china_is_unified
+		}
+	}
+
+	immediate = {
+		root = {
+			save_scope_as = tuolichaogong_zhuhou
+		}
+		overlord = {
+			trigger_event = {
+				id = zhuhouguo_events.8
+			}
+		}
 	}
 }
 

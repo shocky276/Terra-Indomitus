@@ -1,0 +1,1313 @@
+﻿3340={ #墨德里翁
+	terrain="desert"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		culture="garamantic"
+		religion="berber_religion"
+		amount=1
+	}
+}
+
+3341={ #阿斯特罗孔达
+	terrain="desert"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3342={ #开农
+	terrain="desert"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+3343={ #科耳尼克拉农
+	terrain="desert"
+	culture="libyan"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3344={ #塞拉珀翁
+	terrain="desert"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=9
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="libyan"
+		religion="berber_religion"
+		amount=2
+	}
+	port_building=1
+}
+
+3345={ #诺厄图
+	terrain="desert"
+	culture="libyan"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="cyrenaican"
+		religion="roman_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3346={ #阿马斯托耳
+	terrain="dry_plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+}
+
+3347={ #塔利阿穆涅拉
+	terrain="desert"
+	culture="libyan"
+	religion="berber_religion"
+	trade_goods="olive"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cyrenaican"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3348={ #刻耳西斯
+	terrain="dry_plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3349={ #兆 塔柏耳纳
+	terrain="desert"
+	culture="libyan"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cyrenaican"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3350={ #欧厄斯佩里得斯
+	terrain="dry_plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+}
+
+3351={ #开雷克拉
+	terrain="desert"
+	culture="libyan"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3352={ #考卡路科墨
+	terrain="plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="leather"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=9
+	}
+	slaves={
+		amount=4
+	}
+	port_building=1
+}
+
+3353={ #陶刻拉
+	terrain="plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="cloth"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3354={ #利马涅巴耳刻
+	terrain="plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=10
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+3357={ #巴耳刻
+	terrain="desert"
+	culture="libyan"
+	religion="berber_religion"
+	trade_goods="olive"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3358={ #费库斯
+	terrain="plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3359={ #巴拉格赖
+	terrain="desert"
+	culture="libyan"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cyrenaican"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3360={ #昔兰尼
+	terrain="plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="leather"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+3361={ #昔兰尼的阿波罗尼亚
+	terrain="plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3362={ #阿伽比斯
+	terrain="desert"
+	culture="libyan"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3363={ #达耳尼斯
+	terrain="plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="spices"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+}
+
+3364={ #马览迪斯
+	terrain="desert"
+	culture="libyan"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cyrenaican"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		culture="cyrenaican"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3365={ #阿齐里斯
+	terrain="plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="spices"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3366={ #帕利乌洛斯
+	terrain="dry_plains"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=3
+	}
+	port_building=1
+}
+
+3367={ #小佩特拉
+	terrain="desert"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3368={ #巴特拉科斯
+	terrain="desert"
+	culture="cyrenaican"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		culture="libyan"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+3369={ #戈尼亚
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="egyptian"
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+}
+
+3370={ #安提皮耳戈斯
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="olive"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="egyptian"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3371={ #克律塔尼翁
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="olive"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="egyptian"
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3372={ #墨涅拉俄斯
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="fish"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="egyptian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+3373={ #普吕诺斯港
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="salt"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="egyptian"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3374={ #埃涅西斯费拉
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="fish"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+}
+
+3375={ #刻泰亚
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="olive"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3376={ #瑟勒尼斯
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+}
+
+3377={ #阿庇斯
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+}
+
+3378={ #帕赖托尼翁
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="salt"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	port_building=1
+}
+
+3379={ #卡利亚斯海角
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+}
+
+3380={ #昔兰尼加的琉刻海岸
+	terrain="desert"
+	culture="egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="fish"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+}
+
+3476={ #普尼革俄斯
+	terrain="desert"
+	culture="egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+}
+
+3477={ #佩多尼亚
+	terrain="desert"
+	culture="egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="fish"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3478={ #得拉斯
+	terrain="desert"
+	culture="egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="fish"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+5514={ #锡瓦
+	terrain="dry_plains"
+	culture="upper_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="salt"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5523={ #法拉佛拉
+	terrain="desert"
+	culture="upper_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="fur"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5524={ #比沙亚
+	terrain="desert"
+	culture="upper_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5525={ #塔瓦尔
+	terrain="desert"
+	culture="upper_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5526={ #明咖尔
+	terrain="desert"
+	culture="upper_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="stone"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5527={ #塔布拉蒙
+	terrain="desert"
+	culture="upper_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+}
+
+5528={ #厄拉萨
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5529={ #波卡
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5530={ #曼迪什
+	terrain="desert"
+	culture="upper_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="woad"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5531={ #泽斯泽斯
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5532={ #考姆纳姆鲁德
+	terrain="desert"
+	culture="middle_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5533={ #柏耳库
+	terrain="desert"
+	culture="middle_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5534={ #瓦剌姆
+	terrain="desert"
+	culture="middle_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5535={ #科利剌
+	terrain="desert"
+	culture="middle_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5536={ #西特拉
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5537={ #阿蒙涅翁
+	terrain="dry_plains"
+	culture="middle_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=36
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5538={ #伽耳伽拉
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5539={ #泽廷
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5540={ #阿雷格
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5541={ #述内
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5542={ #穆耳塔
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="fur"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5543={ #马格剌卜
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+}
+
+5544={ #革戎
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5545={ #图马特
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5546={ #那卡拉
+	terrain="desert"
+	culture="middle_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5548={ #刻耳刻托里斯
+	terrain="desert"
+	culture="middle_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5550={ #亚历山大洛乌 帕壬玻勒
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=38
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5551={ #瓦里亚斯
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5552={ #克利马克斯
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5553={ #格赖亚斯
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="salt"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5554={ #萨诺斯
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5555={ #卡耳那萨
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5556={ #阿比德
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+

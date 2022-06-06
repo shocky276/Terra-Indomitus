@@ -1,0 +1,1691 @@
+﻿1019={ #克卢尼亚
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1020={ #阿拉基隆
+	terrain="hills"
+	culture="cantabrian"
+	religion="animism"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1021={ #帕兰提亚
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1022={ #瑟戈维亚
+	terrain="plains"
+	culture="carpetanian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1041={ #印忒卡提亚
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1042={ #布里盖基翁
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1043={ #杜鲁斯的俄刻隆
+	terrain="plains"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1044={ #兰基亚
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1045={ #阿斯图里基亚
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1046={ #萨尔曼提卡
+	terrain="forest"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1047={ #卢库斯
+	terrain="forest"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1048={ #利弥科戎厅
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1050={ #佛拉维亚的阿库亚
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1051={ #奥古斯塔的布拉卡拉
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1093={ #新奥古斯塔
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="cloth"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1103={ #尤利乌斯的瑟基萨玛
+	terrain="plains"
+	culture="cantabrian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1108={ #维瑟亚苏厄卡
+	terrain="hills"
+	culture="cantabrian"
+	religion="animism"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+1109={ #马吉亚维恩西翁
+	terrain="plains"
+	culture="cantabrian"
+	religion="animism"
+	trade_goods="marble"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1110={ #卡马里卡
+	terrain="plains"
+	culture="cantabrian"
+	religion="animism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1111={ #厄阔瑟拉
+	terrain="plains"
+	culture="cantabrian"
+	religion="animism"
+	trade_goods="stone"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1112={ #恺厄隆
+	terrain="hills"
+	culture="cantabrian"
+	religion="animism"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1113={ #帕隆提翁
+	terrain="hills"
+	culture="cantabrian"
+	religion="animism"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1114={ #吉吉亚
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+	port_building=1
+}
+
+1115={ #阿德马雷
+	terrain="hills"
+	culture="cantabrian"
+	religion="animism"
+	trade_goods="leather"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1116={ #阿斯图戎的卢库斯
+	terrain="hills"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1117={ #墨摩里亚纳
+	terrain="hills"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1118={ #佛拉维俄纳维亚
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1119={ #革弥纳军团
+	terrain="forest"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1120={ #瓦拉塔
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1121={ #印忒然尼翁
+	terrain="forest"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1122={ #斯帕多尼翁
+	terrain="forest"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1123={ #红山
+	terrain="forest"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1124={ #派西基亚
+	terrain="hills"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1125={ #维拉冬加
+	terrain="hills"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1126={ #卢戈尼亚
+	terrain="hills"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1127={ #佛拉维亚的贝耳吉冬
+	terrain="forest"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1128={ #乌塔里斯
+	terrain="farmland"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+1129={ #卡拉尼孔
+	terrain="farmland"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1130={ #布里甘提翁的佛拉维翁
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1131={ #兰布里斯的佛拉维亚
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+1132={ #阿罗尼亚
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1133={ #瓦里尼亚
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1134={ #马里尼亚的瓦里纳
+	terrain="forest"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1135={ #基巴耳基亚
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1136={ #阿维利俄布里斯
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1137={ #阿耳塔布戎港
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1138={ #诺维翁
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+1139={ #阿瑟戈尼亚
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1140={ #布雷维斯
+	terrain="forest"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1141={ #昆廷的阿库亚
+	terrain="forest"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1142={ #墨杜尼翁兵营
+	terrain="forest"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1143={ #柏迪亚
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1145={ #革墨斯塔戎
+	terrain="forest"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1146={ #印忒拉弥基亚
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1147={ #卢吉亚
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1148={ #加利西亚的阿库亚
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1149={ #双大道
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_berobreo
+}
+
+1150={ #斯帕科戎村
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+	port_building=1
+}
+
+1151={ #利弥亚
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1152={ #阿奎斯 逵耳昆尼斯
+	terrain="forest"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1153={ #埃玻科西亚的萨拉基亚
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+1154={ #俄里吉纳的阿库埃
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1155={ #革耳弥奈
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1156={ #瓦戈耳尼肯西斯村
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1157={ #巴尼恩西翁
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1161={ #西巴里斯
+	terrain="plains"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1163={ #左伊拉戎
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	holy_site=omen_endouellicus
+}
+
+1164={ #维尼亚提亚
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+1165={ #涅墨托布里加
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1166={ #吉顾里亚
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1167={ #左伊利亚
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1168={ #佩塔沃尼翁
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1169={ #阿耳根提俄隆
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1170={ #阿斯图里亚的雷利克塔
+	terrain="forest"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1171={ #普拉忒里翁
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1172={ #阿夸里乌斯村
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1173={ #阿耳部卡勒
+	terrain="plains"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1174={ #阿马洛布里加
+	terrain="forest"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1175={ #瑟普提曼卡
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1176={ #尼瓦里亚
+	terrain="forest"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1177={ #考卡
+	terrain="plains"
+	culture="carpetanian"
+	religion="druidism"
+	trade_goods="marble"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1178={ #科墨尼亚卡
+	terrain="plains"
+	culture="asturian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1179={ #维托尼亚荒地
+	terrain="forest"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1180={ #维托尼亚沙漠
+	terrain="forest"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1181={ #革拉
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1182={ #巴尔涅俄斯
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1183={ #瓦恺亚沙漠
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1184={ #瓦恺亚荒地
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="marble"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+1185={ #卡马拉
+	terrain="plains"
+	culture="cantabrian"
+	religion="animism"
+	trade_goods="marble"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1186={ #维弥纳基翁
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1187={ #拉科布里加
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="olive"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1189={ #拉忒雷蒙
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1190={ #潘普利瓜
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1191={ #烙达
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1192={ #品提亚
+	terrain="plains"
+	culture="vaccaeian"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1193={ #孔佛卢恩提亚
+	terrain="plains"
+	culture="carpetanian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1194={ #阿维拉
+	terrain="hills"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1196={ #图利翁
+	terrain="plains"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1197={ #利波斯
+	terrain="forest"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1199={ #普拉塔努斯
+	terrain="hills"
+	culture="vettonian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1288={ #拉墨孔
+	terrain="hills"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1289={ #同戈布里加
+	terrain="plains"
+	culture="callaecian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+	port_building=1
+}
+

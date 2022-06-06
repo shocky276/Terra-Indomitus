@@ -37,11 +37,15 @@ new_ruler.1 = { # gives ruler things
 		trigger_event = {
 			id = aos_remove_regent_gov.1
 		}
+		trigger_event = {
+			id = duhufu_events.4 #都护府上一任都护去世，新一任非世袭都护上任
+		}
 	}
 	
 }
 
 namespace = old_ruler_tomb
+
 old_ruler_tomb.1 = {
 	type = country_event
 	title = old_ruler_tomb.1.t

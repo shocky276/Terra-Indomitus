@@ -1,0 +1,1446 @@
+﻿8816={ #武都
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="precious_metals"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+8817={ #下辨
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8818={ #故道
+	terrain="mountain"
+	culture="qin"
+	religion="chinese_religions"
+	trade_goods="wood"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8819={ #氐道
+	terrain="mountain"
+	culture="di_qiang"
+	religion="chinese_religions"
+	trade_goods="stone"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8820={ #河池
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="wine"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+8821={ #沮
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="spices"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+8822={ #嶓冢山
+	terrain="impassable_terrain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+8823={ #武都东部山脉
+	terrain="impassable_terrain"
+	culture="qin"
+	religion="chinese_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8824={ #西成
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="wild_game"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+8825={ #郇阳
+	terrain="mountain"
+	culture="qin"
+	religion="chinese_religions"
+	trade_goods="earthware"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8826={ #锡
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8827={ #郧阳
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="leather"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8828={ #武陵
+	terrain="hills"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8829={ #上庸
+	terrain="hills"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="grain"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8830={ #房陵
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+}
+
+8831={ #南郑
+	terrain="hills"
+	culture="qin"
+	religion="chinese_religions"
+	trade_goods="silk"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8832={ #成固
+	terrain="hills"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8833={ #安阳
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8834={ #徐谷
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="cloth"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8835={ #旱山
+	terrain="impassable_terrain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8836={ #汉中南山
+	terrain="impassable_terrain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+8837={ #巴山
+	terrain="impassable_terrain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="dye"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+8838={ #江州
+	terrain="hills"
+	culture="qin"
+	religion="chinese_religions"
+	trade_goods="spices"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="ba"
+		religion="bon_religion"
+		amount=1
+	}
+	nobles={
+		amount=1
+	}
+	slaves={
+		culture="ba"
+		religion="bon_religion"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="ba"
+		religion="bon_religion"
+		amount=2
+	}
+}
+
+8839={ #枳
+	terrain="hills"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8840={ #涪陵
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8841={ #垫江
+	terrain="forest"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="grain"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8842={ #宕渠
+	terrain="hills"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="iron"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="qin"
+		religion="chinese_religions"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8843={ #阆中
+	terrain="forest"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8844={ #临江
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="cloth"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		culture="chu"
+		religion="chinese_religions"
+		amount=1
+	}
+}
+
+8845={ #朐忍
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="salt"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		culture="chu"
+		religion="chinese_religions"
+		amount=1
+	}
+}
+
+8846={ #鱼复
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+8847={ #不曹
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8848={ #朐忍北
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8849={ #米仓山
+	terrain="impassable_terrain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8850={ #巴山
+	terrain="impassable_terrain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8851={ #明月山
+	terrain="impassable_terrain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8852={ #方斗山
+	terrain="impassable_terrain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8853={ #犬娄山
+	terrain="impassable_terrain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8854={ #梓潼
+	terrain="forest"
+	culture="qin"
+	religion="chinese_religions"
+	trade_goods="grain"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		culture="shu"
+		religion="bon_religion"
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8855={ #白水
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="incense"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8856={ #葭明
+	terrain="hills"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="honey"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="qin"
+		religion="chinese_religions"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8857={ #阴平
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="marble"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8858={ #新都
+	terrain="farmland"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8859={ #雒
+	terrain="plains"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="silk"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8860={ #什方
+	terrain="plains"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="dye"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8861={ #绵竹
+	terrain="plains"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="grain"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+8862={ #郪
+	terrain="forest"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="dye"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8863={ #广汉
+	terrain="forest"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="spices"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+}
+
+8864={ #涪
+	terrain="forest"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="silk"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+8865={ #孱亭
+	terrain="forest"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="wine"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8866={ #成都
+	terrain="farmland"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="silk"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="qin"
+		religion="chinese_religions"
+		amount=5
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		culture="qin"
+		religion="chinese_religions"
+		amount=4
+	}
+	freemen={
+		amount=2
+	}
+	nobles={
+		culture="qin"
+		religion="chinese_religions"
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+8867={ #郫
+	terrain="farmland"
+	culture="qin"
+	religion="chinese_religions"
+	trade_goods="spices"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	citizen={
+		culture="shu"
+		religion="bon_religion"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="shu"
+		religion="bon_religion"
+		amount=2
+	}
+	nobles={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="shu"
+		religion="bon_religion"
+		amount=2
+	}
+}
+
+8868={ #江原
+	terrain="plains"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="salt"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="qin"
+		religion="chinese_religions"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	nobles={
+		culture="qin"
+		religion="chinese_religions"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8869={ #广都
+	terrain="plains"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="grain"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="qin"
+		religion="chinese_religions"
+		amount=2
+	}
+	nobles={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8870={ #堰
+	terrain="hills"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8871={ #临邛
+	terrain="hills"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="iron"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8875={ #绵虒
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8876={ #广柔
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="gems"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8877={ #汶江
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8878={ #湔氐
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8882={ #西岭
+	terrain="impassable_terrain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8883={ #僰道
+	terrain="hills"
+	culture="bo"
+	religion="baiyue_religions"
+	trade_goods="vegetables"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+8884={ #武阳
+	terrain="forest"
+	culture="bo"
+	religion="baiyue_religions"
+	trade_goods="iron"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+8885={ #南安
+	terrain="forest"
+	culture="bo"
+	religion="baiyue_religions"
+	trade_goods="salt"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+8886={ #资中
+	terrain="forest"
+	culture="bo"
+	religion="baiyue_religions"
+	trade_goods="leather"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8887={ #牛鞞
+	terrain="forest"
+	culture="shu"
+	religion="bon_religion"
+	trade_goods="honey"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8888={ #江阳
+	terrain="forest"
+	culture="bo"
+	religion="baiyue_religions"
+	trade_goods="grain"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+8889={ #符
+	terrain="forest"
+	culture="bo"
+	religion="baiyue_religions"
+	trade_goods="dye"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+8894={ #不狼山
+	terrain="impassable_terrain"
+	culture="yelang"
+	religion="baiyue_religions"
+	trade_goods="dye"
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9415={ #汉安
+	terrain="hills"
+	culture="bo"
+	religion="baiyue_religions"
+	trade_goods="silk"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9416={ #汾关山
+	terrain="impassable_terrain"
+	culture="ba"
+	religion="baiyue_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9609={ #汉昌
+	terrain="hills"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9610={ #安汉
+	terrain="forest"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9611={ #充国
+	terrain="forest"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="earthware"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9612={ #平都
+	terrain="hills"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9613={ #刚氐
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9614={ #甸氐
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9615={ #蚕陵
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9623={ #沔阳
+	terrain="mountain"
+	culture="di_qiang"
+	religion="bon_religion"
+	trade_goods="iron"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9624={ #长利
+	terrain="mountain"
+	culture="ba"
+	religion="bon_religion"
+	trade_goods="hemp"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+

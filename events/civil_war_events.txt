@@ -806,3 +806,91 @@ civil_war.8 = {
 		}
 	}
 }
+
+namespace = china_civil_war
+china_civil_war.1 = { #中原王朝内战后改朝换代
+	type = country_event
+	title = "china_civil_war.1.t"
+	desc = "china_civil_war.1.desc"
+	left_portrait = root.current_ruler
+	right_portrait = scope:target
+
+	trigger = {
+		country_culture_group = chinese
+		government = chinese_empire
+	}
+
+	immediate = {
+		hidden_effect = {
+			remove_country_modifier = tudijianbing1_buff
+			remove_country_modifier = tudijianbing2_buff
+		}
+	}
+
+	option = {
+		name = "china_civil_war.1.a" #改国号为晋
+		change_country_name = "JIN"
+		hidden_effect = {
+			change_country_adjective = "JIN_ADJ"
+			change_country_flag = JIN
+			change_country_color = phoenicia_color
+		}
+	}
+
+	option = {
+		name = "china_civil_war.1.b" #改国号为周
+		change_country_name = "ZHO"
+		hidden_effect = {
+			change_country_adjective = "ZHO_ADJ"
+			change_country_flag = ZHO
+			change_country_color = pure_white
+		}
+	}
+
+	option = {
+		name = "china_civil_war.1.c" #改国号为鲁
+		change_country_name = "LUU"
+		hidden_effect = {
+			change_country_adjective = "LUU_ADJ"
+			change_country_flag = LUU
+			change_country_color = sun_yellow
+		}
+	}
+
+	option = {
+		name = "china_civil_war.1.d" #改国号为宋
+		change_country_name = "SNG"
+		hidden_effect = {
+			change_country_adjective = "SNG_ADJ"
+			change_country_flag = SNG
+			change_country_color = euboean_blue
+		}
+	}
+
+	option = {
+		name = "china_civil_war.1.e" #改国号为魏
+		change_country_name = "WEI"
+		hidden_effect = {
+			change_country_adjective = "WEI_ADJ"
+			change_country_flag = WEI
+			change_country_color = blood_red
+		}
+	}
+}
+
+china_civil_war.2 = { #中原诸侯内战后换国号
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		country_culture_group = chinese
+		NOT = {
+			government = chinese_empire
+			has_variable = china_is_unified
+		}
+	}
+
+	immediate = {
+		remove_variable = chinese_country_named
+	}
+}

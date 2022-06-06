@@ -1,0 +1,437 @@
+﻿9207={ #西卷
+	terrain="jungle"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+9208={ #比景
+	terrain="jungle"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+9209={ #朱吾
+	terrain="jungle"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods="incense"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9210={ #卢容
+	terrain="jungle"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods="dye"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=7
+	}
+}
+
+9211={ #象林
+	terrain="forest"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods="elephants"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=8
+	}
+}
+
+9427={ #安乐
+	terrain="jungle"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+9428={ #象浦
+	terrain="jungle"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=6
+	}
+}
+
+9429={ #金山
+	terrain="jungle"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+9430={ #交江
+	terrain="hills"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods="earthware"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+9431={ #南极
+	terrain="hills"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods="honey"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+9816={ #参半
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="salt"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9817={ #屈都昆南
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9818={ #屈都昆北
+	terrain="hills"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="wine"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9819={ #屈都昆东
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9820={ #壶海西
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="silk"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9821={ #吴哥
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="marble"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9822={ #室丽萨他补罗
+	terrain="forest"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9823={ #真腊中
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="elephants"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9824={ #真腊东
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="dye"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9825={ #真腊南
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9826={ #伊赏那补罗
+	terrain="forest"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9827={ #壶海南
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="hemp"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9828={ #毗耶陀补罗
+	terrain="forest"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="honey"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9829={ #扶南北
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9830={ #扶南西
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9831={ #扶南南
+	terrain="jungle"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="incense"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+9832={ #扶南东
+	terrain="forest"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9833={ #拜高尔
+	terrain="hills"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9834={ #湄公河北
+	terrain="marsh"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="salt"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9835={ #湄公河南
+	terrain="marsh"
+	culture="phnom"
+	religion="baiyue_religions"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9836={ #林邑海岸
+	terrain="jungle"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9837={ #林邑海岸
+	terrain="jungle"
+	culture="linyi"
+	religion="baiyue_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+

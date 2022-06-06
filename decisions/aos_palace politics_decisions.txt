@@ -104,32 +104,18 @@
 		}
 	}
 	
-	aos_jianlixiyuduhu = {
+	ai_aos_jianlixiyuduhu = {
 		
 		potential = {
-			NOT = {
-			has_country_modifier = xiyuduhu_buff
-			}
 			government = chinese_empire
+			is_ai = yes
 		}
 
 		allow = {
-			owns = 8226
-			owns = 8212
 			owns = 8210
-			owns = 8216
-			owns = 8222
-			owns = 8208
-			owns = 6755
-			owns = 6753
-			owns = 6744
-			owns = 6742
-			owns = 6741
-			owns = 6747
-			owns = 6748
-			owns = 6749
-			owns = 8306
-			owns = 8213
+			owns = 8228
+			owns = 8243
+			owns = 8249
 		}
 		
 		effect = {
@@ -145,6 +131,35 @@
 		
 		ai_will_do = {
 			factor = 1000
+		}
+	}
+
+	aos_jianlixiyuduhu = {
+		
+		potential = {
+			government = chinese_empire
+			
+		}
+
+		allow = {
+			owns = 8210
+			owns = 8228
+			owns = 8243
+			owns = 8249
+			owns = 6741
+			owns = 7184
+			owns = 6761
+		}
+		
+		effect = {
+			region:xiyu_region = { formable_region_province_effect = yes }
+			trigger_event = {
+				id = sheli_xiyuduhu.1
+			}
+			add_country_modifier = {
+   			name = xiyuduhu_buff
+   			duration = -1
+   		    }
 		}
 	}
 	

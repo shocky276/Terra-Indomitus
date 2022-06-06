@@ -1,0 +1,2784 @@
+﻿1674={ #库曼尼亚
+	terrain="mountain"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+5866={ #匝本得耳
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="earthware"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5867={ #苏特览得耳
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="stone"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+}
+
+5868={ #洛廷
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5869={ #马格赖
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5870={ #库雷马
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5871={ #匝壬
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5872={ #什耶奇
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5873={ #摩利乌奇
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5874={ #雷克拉西亚
+	terrain="marsh"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_argimpasa
+}
+
+5875={ #阿绍姆
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5876={ #瑟克特拉
+	terrain="marsh"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="salt"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+5877={ #厄尼姆
+	terrain="marsh"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+5878={ #阿塔耳
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="salt"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5884={ #卡堤斯
+	terrain="marsh"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="hemp"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+5885={ #穆伊克西塔
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5886={ #阿刻
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="iron"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5887={ #巴什克拉
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5888={ #忒奇卡
+	terrain="marsh"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5889={ #多诺勒
+	terrain="forest"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5890={ #密孔
+	terrain="forest"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="hemp"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_api
+}
+
+5891={ #阿夫剌尔
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+5892={ #瑟辰
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+5893={ #克雷阿施
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+}
+
+5894={ #居塔
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+5895={ #维尼卡
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5896={ #萨耳敦
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+5897={ #宇耳本特
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5898={ #沙柴勒
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5899={ #古拉
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+5900={ #德律纳
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+5901={ #波拉奇
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5902={ #雷阿马
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+5903={ #贡涅马
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5904={ #密拉
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+5905={ #伊斯卡
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5906={ #沃雷纳
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5907={ #塔克萨堤
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+5908={ #吉亚谢奇
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+5909={ #诺罗姆
+	terrain="marsh"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5910={ #乌夫拉
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5917={ #雍纳夫
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5918={ #克罗达
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5919={ #库耳恩斯克
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+5920={ #厄耳墨尔
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+5921={ #阿巴奇
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5922={ #库墨塔
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5923={ #阿克塔布
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+5924={ #沃尔纳
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+5925={ #克赖恩
+	terrain="steppe"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5926={ #杜泽阿
+	terrain="steppe"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+5927={ #瓦律耳
+	terrain="steppe"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5928={ #涅柴克
+	terrain="steppe"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5929={ #卓丁
+	terrain="steppe"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5930={ #胡鲁伊耳
+	terrain="steppe"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5931={ #斯卡塔耳
+	terrain="forest"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+5932={ #马纳耳
+	terrain="forest"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5933={ #帷尔达
+	terrain="steppe"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6132={ #索尔约特斯
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6133={ #迪尔盖特
+	terrain="forest"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6134={ #安尼凯
+	terrain="forest"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6135={ #滕塞
+	terrain="forest"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6136={ #斯库尔蒂斯克
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6137={ #沃伊诺尔
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6138={ #加尔特
+	terrain="forest"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6140={ #塔亨特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6143={ #阿戈诺尔
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6148={ #宁特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6149={ #加赫科
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6150={ #基赫基恩格拉
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6151={ #阿尔基恩特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6152={ #基尔加德
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6153={ #乌尔丹
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6154={ #里内克
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6155={ #基斯科
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6156={ #艾赫科纳
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6157={ #什加里塔特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6158={ #乌尼杰
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6159={ #斯塔特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6160={ #韦尔欣
+	terrain="forest"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6161={ #亚坎特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6162={ #伊加斯特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6163={ #维约诺特斯
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6164={ #什乔尔
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6165={ #韦尔
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6166={ #基罗内斯
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6167={ #斯泰塔
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6168={ #乌什坎
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6169={ #韦里伊
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6170={ #多洛姆
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6171={ #加利格
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6172={ #乌龙
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6173={ #西塔奇卡
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6174={ #斯奇泰
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6175={ #沙什恰
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6176={ #摩隆
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6177={ #伊什肯克
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6178={ #甘卡
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cloth"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6179={ #岳洛
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6180={ #维格里亚
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6181={ #阿奇卡奇
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6182={ #伊格科伊
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6183={ #尤蒂
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6184={ #约沃拉特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6185={ #奥罗
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="salt"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6186={ #乌尔真克
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cloth"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6187={ #茹蒂卡
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6188={ #维尔尼
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="base_metals"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+6189={ #阿恩
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6190={ #基奇帕
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="earthware"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=7
+	}
+}
+
+6191={ #坎格
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=6
+	}
+}
+
+6192={ #西尤特尼奇
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+6193={ #热夫
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+6194={ #乌尔热夫
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6195={ #乌尔沃拉特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6196={ #沃拉特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6197={ #乌尔格诺
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6198={ #乌尔加斯特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+6199={ #伊多洛格
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6200={ #乌尔韦尔
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6201={ #阿加里泰
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6202={ #伊尔坎特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6203={ #加拉特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6204={ #乌尔加拉特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6205={ #乌约罗
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6206={ #凯特斯克
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6207={ #乌尔维伊格拉
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6208={ #科基
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6209={ #伊多莫尔
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6210={ #根纳尔恰
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6211={ #乌尔杰纳尔洽
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="iron"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6212={ #伊格雷
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6213={ #阿奇卡克什
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6214={ #茹纳
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6215={ #乌尔加特
+	terrain="steppe"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6216={ #维亚尔凯
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="iron"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6217={ #奥格龙
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6218={ #门尼洽克
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="earthware"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+6219={ #乌耶尼克
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6220={ #乌尔耶尼克
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6221={ #热尔克
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6222={ #阿尔扎赫克
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6223={ #科罗拉特斯
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6224={ #温加德
+	terrain="marsh"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6225={ #莫诺克
+	terrain="marsh"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6226={ #乌尔莫诺克
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6227={ #扎莱
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6228={ #阿尔扎莱
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6229={ #孔特
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6230={ #阿尔孔特
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6231={ #芦名
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6232={ #谢拉特斯
+	terrain="steppe"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7600={ #萨比拉农
+	terrain="forest"
+	culture="sindi"
+	religion="caucasian_religion"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7602={ #恩德扎拉
+	terrain="mountain"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		religion="indo_iranian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7604={ #特祖耳
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7605={ #乌尔特塞吉
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="iron"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7606={ #赫尼亚特
+	terrain="mountain"
+	culture="abasgoi"
+	religion="caucasian_religion"
+	trade_goods="cattle"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7607={ #阿巴斯格里亚
+	terrain="mountain"
+	culture="abasgoi"
+	religion="caucasian_religion"
+	trade_goods="fur"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7608={ #海帕内拉
+	terrain="forest"
+	culture="sindi"
+	religion="caucasian_religion"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7609={ #海帕尼斯帕
+	terrain="steppe"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7610={ #西纳德
+	terrain="steppe"
+	culture="sindi"
+	religion="caucasian_religion"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7611={ #阿拉尼斯
+	terrain="forest"
+	culture="sindi"
+	religion="caucasian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7612={ #马览
+	terrain="forest"
+	culture="sindi"
+	religion="caucasian_religion"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7613={ #耶尔萨
+	terrain="forest"
+	culture="sindi"
+	religion="caucasian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7614={ #萨拉帷
+	terrain="forest"
+	culture="sindi"
+	religion="caucasian_religion"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7615={ #厄尔夫鲁兹
+	terrain="forest"
+	culture="sindi"
+	religion="caucasian_religion"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7616={ #特马克拉特
+	terrain="hills"
+	culture="sindi"
+	religion="caucasian_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7617={ #斯忒普纳
+	terrain="forest"
+	culture="maeotian"
+	religion="caucasian_religion"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7618={ #罗戈宇
+	terrain="forest"
+	culture="maeotian"
+	religion="caucasian_religion"
+	trade_goods="hemp"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7619={ #拉普拉
+	terrain="forest"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7620={ #卡尔克律
+	terrain="steppe"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7621={ #瓦楞特
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="stone"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7622={ #斯卡林
+	terrain="mountain"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7623={ #特勒卡塔
+	terrain="mountain"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7624={ #孔塔尼
+	terrain="mountain"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7625={ #迪戴
+	terrain="mountain"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7626={ #阿卢凯
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="iron"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7627={ #维尔克斯
+	terrain="mountain"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7628={ #马吕特斯
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="leather"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7629={ #戈拉特
+	terrain="mountain"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7630={ #卡弗卢尔
+	terrain="forest"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7631={ #伊尔卡特
+	terrain="forest"
+	culture="siraci"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7632={ #伊耳马纳
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7633={ #卡伊特
+	terrain="forest"
+	culture="legian"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7634={ #库洛尔
+	terrain="forest"
+	culture="maeotian"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+7635={ #亚多斯
+	terrain="forest"
+	culture="maeotian"
+	religion="caucasian_religion"
+	trade_goods="vegetables"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7636={ #伽壬
+	terrain="forest"
+	culture="maeotian"
+	religion="caucasian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7637={ #耶亚塔
+	terrain="marsh"
+	culture="maeotian"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+8050={ #乌耳拉
+	terrain="marsh"
+	culture="thyssagetaen"
+	religion="indo_iranian_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+

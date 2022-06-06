@@ -1,0 +1,1477 @@
+﻿600={ #佩赫尔塞
+	terrain="plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="spices"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=16
+	}
+	freemen={
+		amount=11
+	}
+	slaves={
+		amount=9
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+601={ #塞拉
+	terrain="plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+602={ #塔玛尼亚
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+603={ #玻翁
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+604={ #努比亚的森那
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+605={ #诺亚
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cloth"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+606={ #萨耶
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+607={ #顾戈
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+608={ #帕洛亚
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+609={ #阿喀纳
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="spices"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+610={ #普鲁穆
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="stone"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+611={ #俄耳宋
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+612={ #狄雷拉
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cloth"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+613={ #帕提加
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="spices"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=9
+	}
+	freemen={
+		amount=13
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+614={ #巴加达
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+615={ #帕戈
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+616={ #密隆
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+}
+
+617={ #布柔厄斯
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+618={ #乌耳秉
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="horses"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+619={ #塞加萨
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+}
+
+620={ #阿耳卡斯
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="hemp"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+}
+
+621={ #忒耳根东
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+}
+
+622={ #赞涅斯
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+623={ #杜穆那
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+624={ #曼比勒
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="spices"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+625={ #科耳同
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="stone"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+626={ #纳帕塔
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cloth"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+627={ #马鲁
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="spices"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+628={ #阿拉纳
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cloth"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+629={ #珊科勒
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+630={ #斯坎摩斯
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+631={ #戈拉
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+632={ #阿巴勒
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+633={ #德鲁卡
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+}
+
+634={ #达卢
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cloth"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=10
+	}
+	slaves={
+		amount=8
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+635={ #加里姆
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+636={ #塞塞雷姆
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+637={ #马洛
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+638={ #萨科尔刻
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="earthware"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+639={ #塔杜
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="earthware"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+640={ #厄庇斯
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+641={ #梅罗埃
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cloth"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=15
+	}
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=3
+	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=3
+	}
+	freemen={
+		amount=16
+	}
+	slaves={
+		amount=14
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+642={ #宋玛戎
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=1
+	}
+}
+
+643={ #阿拉巴
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+644={ #那喀
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+645={ #库尔古斯
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+646={ #第四瀑布
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+651={ #苏米塔
+	terrain="hills"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="aksumite"
+		religion="arabian_pantheon"
+		amount=1
+	}
+}
+
+3310={ #阿墨塔
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3311={ #托普拉忒
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="gems"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+}
+
+3312={ #佩塔
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3313={ #索巴
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="honey"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3314={ #阿尔瓦
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="gems"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=9
+	}
+	freemen={
+		amount=11
+	}
+	slaves={
+		amount=7
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+3315={ #古尔纳
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3317={ #阿特拉赫
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="earthware"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3318={ #库里亚
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="spices"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3319={ #斯语塔
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="grain"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+}
+
+3320={ #科林
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+}
+
+3321={ #罗卡特
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+}
+
+3322={ #玻拉斯萨
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="spices"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+}
+
+3323={ #杜赖
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3328={ #塔纳
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="olive"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+3331={ #齐塔阿
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7579={ #菲尔克
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7580={ #提拉
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="earthware"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7581={ #普得耳墨
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+}
+
+7582={ #索勒布
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7583={ #科杜尔马
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="iron"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7584={ #哈希姆
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="iron"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7585={ #努里
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+7586={ #库鲁
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="stone"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7587={ #阿纳克
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7588={ #德穆特
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+}
+
+7589={ #阿布利亚塔
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="hemp"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7590={ #得摩拉
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="fur"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7591={ #阿克拉诺伊
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7592={ #伽纳伽拉斯
+	terrain="dry_plains"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="iron"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7593={ #塔纳克塔拉
+	terrain="hills"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="earthware"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+

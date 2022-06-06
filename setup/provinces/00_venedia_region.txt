@@ -1,0 +1,1491 @@
+﻿3908={ #维里提翁
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="earthware"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4003={ #卢吉杜农
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4004={ #迪杜尼亚
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4005={ #斯特拉戈纳
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4006={ #马耳西格尼亚
+	terrain="hills"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4007={ #楼卡拉
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4010={ #卡苏耳吉斯
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4011={ #科格尼亚
+	terrain="hills"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4012={ #维亚德里亚
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4013={ #卡雷杜农
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4014={ #厄部戎
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4015={ #哥特尼亚
+	terrain="hills"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4750={ #吕根
+	terrain="forest"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+4751={ #鲁吉翁
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4752={ #维亚德鲁斯
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+4753={ #赫尔维科尼亚的鲁提克利亚
+	terrain="plains"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4754={ #图耳基林吉亚
+	terrain="plains"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4755={ #鲁吉亚的斯基里亚
+	terrain="forest"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4756={ #欧古姆
+	terrain="forest"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4757={ #勒摩维亚纳
+	terrain="forest"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4758={ #叟耳吉翁
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+4759={ #亚杜阿
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4760={ #坎庇亚
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4761={ #阿斯考卡利斯
+	terrain="forest"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4762={ #部贡提亚
+	terrain="forest"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="horses"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4763={ #赫尔维科尼亚
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4764={ #赫尔维科尼亚纳
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4765={ #卡里尼亚
+	terrain="plains"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4766={ #卡里尼亚纳
+	terrain="plains"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4767={ #部贡提亚纳
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4768={ #厄耳比亚
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	holy_site=omen_alcis
+}
+
+4769={ #马尼弥亚
+	terrain="plains"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4770={ #温杜阿
+	terrain="forest"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4771={ #楼卡里斯图斯
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4772={ #卡利西亚
+	terrain="forest"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="base_metals"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4773={ #厄吕西亚
+	terrain="plains"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4774={ #厄吕西亚纳
+	terrain="forest"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4775={ #瑟提得瓦
+	terrain="plains"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4776={ #纳哈耳瓦洛戎
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4777={ #瓦耳提亚
+	terrain="plains"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4778={ #吕吉亚
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4862={ #维斯图利亚纳
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4863={ #沃雷宇尼卡
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4864={ #维涅迪卡
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4865={ #维涅迪卡纳
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_perkunas
+}
+
+4894={ #阿耳索尼斯
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4897={ #勒克罗提亚纳
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4898={ #维克提亚
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4899={ #西达里斯
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4900={ #阿姆比翁
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4901={ #萨拉塔
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4902={ #阿墨卢阿
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4903={ #厄克西塔涅斯
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4904={ #劳迪孔
+	terrain="forest"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6267={ #马拉诺特
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6268={ #韦尼德瓦
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6269={ #维涅狄亚的顾拉拉
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6270={ #曼托拉
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6271={ #腓林
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6272={ #维涅狄亚的卡维拉
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6273={ #索法
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6274={ #库涅格里亚
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6275={ #科罗坦
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6276={ #维涅迪卡尼亚
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6277={ #杜雷提卡
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	holy_site=omen_televelis
+}
+
+6278={ #摩耳纳尔
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6279={ #瓦迪纳
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6280={ #布里加雷
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6281={ #福利亚
+	terrain="plains"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6282={ #库雷塔
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6283={ #阿纳库雷塔
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6284={ #阿纳维涅迪卡
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6285={ #努利卡
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6286={ #马罗涅
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6287={ #阿纳维拉
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="hemp"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6288={ #古里纳
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6289={ #托尔
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6290={ #厄格拉迪亚
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6293={ #马克卡忒
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7298={ #南维涅狄亚
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7804={ #西俄西俄伊亚
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7805={ #苏狄诺亚
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7806={ #北苏狄诺亚
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7807={ #萨洛亚
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_medeine
+}
+
+7808={ #鲁玻尼亚
+	terrain="taiga"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7809={ #西鲁玻尼亚
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7810={ #南图戎提亚
+	terrain="taiga"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7811={ #图戎提亚
+	terrain="taiga"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+7812={ #北图戎提亚
+	terrain="taiga"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7813={ #南维尔泰亚
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7814={ #维尔泰亚
+	terrain="taiga"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7815={ #北维尔泰亚
+	terrain="taiga"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	holy_site=omen_saulia
+}
+
+7816={ #西卡耳玻尼亚
+	terrain="taiga"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7817={ #卡耳玻尼亚
+	terrain="taiga"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7818={ #北卡雷俄泰亚
+	terrain="taiga"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+7819={ #南卡雷俄泰亚
+	terrain="taiga"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7830={ #西伽林狄亚
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="amber"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+7831={ #东伽林狄亚
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7832={ #北维涅狄亚
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7833={ #维涅狄亚
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7834={ #北克罗诺尼亚
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7835={ #克罗诺尼亚
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7836={ #南克罗诺尼亚
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+

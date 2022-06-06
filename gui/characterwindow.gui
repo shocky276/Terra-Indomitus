@@ -21,7 +21,7 @@ base_window = {
 	
 	parentanchor = top|left
 	size = { 755 900 }
-	movable = no
+	movable = yes
 	using = main_window_template
 	
 	vbox = {
@@ -185,7 +185,7 @@ base_window = {
 							}
 							
 						}
-
+						
 						margin_widget = {
 							size = { 0 538 }
 							layoutpolicy_horizontal = expanding
@@ -198,7 +198,44 @@ base_window = {
 									position = { -2 0 }
 									blockoverride "Title_text" { text = "FAMILY" }
 								}
-								
+
+								icon_button_square = { #打开族谱
+									position = { 97 2 }
+									size = { 28 28 }
+									tooltip = "family_tree_tooltip"
+									blockoverride "On_click" { #必须要把该级窗口中所有按钮显示必须的前置条件变量通过onclick写入，该按钮才会显示
+										onclick = "[GetVariableSystem.Set( 'show_family_tree', 'yes' )]"
+										onclick = "[GetVariableSystem.Set( 'show_family_tree_grandparent', 'no' )]"
+										onclick = "[GetVariableSystem.Set( 'show_family_tree_zengparent', 'no' )]"
+										onclick = "[GetVariableSystem.Set( 'show_family_tree_current_family', 'no' )]"
+										onclick = "[GetVariableSystem.Set( 'show_family_tree_gaoparent', 'no' )]"
+										onclick = "[GetVariableSystem.Set( 'show_family_tree_tianparent', 'no' )]"
+										onclick = "[GetVariableSystem.Set( 'show_family_tree_lieparent', 'no' )]"
+										onclick = "[GetVariableSystem.Set( 'show_family_tree_detailed', 'no' )]"
+										datacontext = "[CharacterWindow.GetCharacter]"
+									}
+									blockoverride "Icon" { 
+										texture = "gfx/interface/icons/shared_icons/icon_family_tree.dds" 
+										size = { 28 28 }
+									}
+								}
+
+								icon_button_square = { #关闭族谱
+									position = { 97 2 }
+									size = { 28 28 }
+									tooltip = "close_family_tree_tooltip"
+									visible =  "[GetVariableSystem.HasValue( 'show_family_tree', 'yes' )]"
+									blockoverride "On_click" { 
+										onclick = "[GetVariableSystem.Set( 'show_family_tree', 'no' )]"
+										
+										datacontext = "[CharacterWindow.GetCharacter]"
+									}
+									blockoverride "Icon" { 
+										texture = "gfx/interface/icons/shared_icons/icon_family_tree.dds" 
+										size = { 28 28 }
+									}
+								}
+
 								margin_widget = {
 									size = { 478 106 }
 									position = { 0 32 }
@@ -218,7 +255,7 @@ base_window = {
 										}
 										using = border_slightly_torn_alpha
 									}
-
+									
 									textbox = {
 										position = { 6 -2 }
 										size = { 82 30 }
@@ -775,5 +812,1264 @@ base_window = {
 		visible = "[And( And( CharacterWindow.GetCharacter.CanHavePreferredHeir, LessThanOrEqualTo_CFixedPoint( CharacterWindow.GetCharacter.GetSuccessionScore, '(CFixedPoint)3' ) ), CharacterWindow.GetCharacter.IsAlive )]"
 	}
 	
-}
+	base_window = { #简略人物家谱
+		name = "family_tree_window"
+		size = { 485 520 }
+		position = { 8 375 }
+		movable = no
+		visible = "[GetVariableSystem.HasValue( 'show_family_tree', 'yes' )]"
+		
+		#打开详细家谱按钮
+		icon_button_square = { #打开详细族谱
+			position = { 2 473 }
+			size = { 40 40 }
+			tooltip = "family_tree_detailed_tooltip"
+			blockoverride "On_click" { #必须要把该级窗口中所有按钮显示必须的前置条件变量通过onclick写入，该按钮才会显示
+				onclick = "[GetVariableSystem.Set( 'show_family_tree_detailed', 'yes' )]"
+				onclick = "[GetVariableSystem.Set( 'show_family_tree', 'no' )]"
+				datacontext = "[CharacterWindow.GetCharacter]"
+			}
+			blockoverride "Icon" { 
+				texture = "gfx/interface/icons/shared_icons/icon_family_tree.dds" 
+				size = { 40 40 }
+			}
+		}
 
+		icon_button_square = { #关闭详细族谱
+			position = { 2 473 }
+			size = { 40 40 }
+			tooltip = "close_family_tree_detailed_tooltip"
+			visible =  "[GetVariableSystem.HasValue( 'show_family_tree_detailed', 'yes' )]"
+			blockoverride "On_click" { 
+				onclick = "[GetVariableSystem.Set( 'show_family_tree_detailed', 'no' )]"
+				
+				datacontext = "[CharacterWindow.GetCharacter]"
+			}
+			blockoverride "Icon" { 
+				texture = "gfx/interface/icons/shared_icons/icon_family_tree.dds" 
+				size = { 40 40 }
+			}
+		}
+
+		vbox = {#人物祖父母
+			layoutpolicy_horizontal = expanding
+			position = { 1 -180 }
+			category_drop = {#关闭的小三角展架 祖父母
+				name = "close_button_dip_family_tree_grandparent"
+				layoutpolicy_horizontal = expanding
+				size = { 0 32 }
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text" { text = "family_tree_grandparent" }
+				blockoverride "On_click" { 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_grandparent', 'yes' )]" 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_current_family', 'no' )]"
+				}
+
+				blockoverride "Down" { visible = no }
+				blockoverride "Right" { visible = yes }
+				blockoverride "RightArrowVisible" { visible = yes }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_grandparent', 'no' )]"
+			}
+
+			category_drop = {#展开的小三角展架 祖父母
+				layoutpolicy_horizontal = expanding
+				size = { 0 88 }
+
+				flowcontainer = {
+					spacing = 2
+					position = { 88 6 }
+					cpt_button = {#祖父
+						name = "GrandFather"
+						blockoverride "ShowIcons" { visible = no }
+						size = { @extended_family_width @extended_family_height }
+						blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather]" }
+						visible = "[Character.IsValid]"
+					}
+
+					cpt_button = {#祖母
+						name = "GrandMather"
+						blockoverride "ShowIcons" { visible = no }
+						size = { @extended_family_width @extended_family_height }
+						blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetSpouse]" }
+						visible = "[Character.IsValid]"
+					}
+				}
+
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text"
+				{
+					text = "family_tree_grandparent"
+				}
+				blockoverride "On_click" { onclick = "[GetVariableSystem.Set( 'show_family_tree_grandparent', 'no' )]" }
+				blockoverride "Down" { visible = yes }
+				blockoverride "Right" { visible = no }
+				blockoverride "RightArrowVisible" { visible = no }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_grandparent', 'yes' )]"
+			}
+		}
+
+		vbox = {#人物曾父母
+			layoutpolicy_horizontal = expanding
+			position = { 1 -95 }
+			category_drop = {#关闭的小三角展架 曾父母
+				name = "close_button_dip_family_tree_zengparent"
+				layoutpolicy_horizontal = expanding
+				size = { 0 32 }
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text" { text = "family_tree_zengparent" }
+				blockoverride "On_click" { 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_zengparent', 'yes' )]" 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_current_family', 'no' )]"
+				}
+
+				blockoverride "Down" { visible = no }
+				blockoverride "Right" { visible = yes }
+				blockoverride "RightArrowVisible" { visible = yes }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_zengparent', 'no' )]"
+			}
+
+			category_drop = {#展开的小三角展架 曾父母
+				layoutpolicy_horizontal = expanding
+				size = { 0 88 }
+
+				flowcontainer = {
+					spacing = 2
+					position = { 88 6 }
+					cpt_button = {#曾父
+						name = "ZengFather"
+						blockoverride "ShowIcons" { visible = no }
+						size = { @extended_family_width @extended_family_height }
+						blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather]" }
+						visible = "[Character.IsValid]"
+					}
+
+					cpt_button = {#曾母
+						name = "ZengMather"
+						blockoverride "ShowIcons" { visible = no }
+						size = { @extended_family_width @extended_family_height }
+						blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetSpouse]" }
+						visible = "[Character.IsValid]"
+					}
+				}
+
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text"
+				{
+					text = "family_tree_zengparent"
+				}
+				blockoverride "On_click" { onclick = "[GetVariableSystem.Set( 'show_family_tree_zengparent', 'no' )]" }
+				blockoverride "Down" { visible = yes }
+				blockoverride "Right" { visible = no }
+				blockoverride "RightArrowVisible" { visible = no }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_zengparent', 'yes' )]"
+			}
+		}
+
+		vbox = {#人物高父母
+			layoutpolicy_horizontal = expanding
+			position = { 1 -10 }
+			category_drop = {#关闭的小三角展架 高父母
+				name = "close_button_dip_family_tree_gaoparent"
+				layoutpolicy_horizontal = expanding
+				size = { 0 32 }
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text" { text = "family_tree_gaoparent" }
+				blockoverride "On_click" { 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_gaoparent', 'yes' )]" 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_current_family', 'no' )]"
+				}
+
+				blockoverride "Down" { visible = no }
+				blockoverride "Right" { visible = yes }
+				blockoverride "RightArrowVisible" { visible = yes }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_gaoparent', 'no' )]"
+			}
+
+			category_drop = {#展开的小三角展架 高父母
+				layoutpolicy_horizontal = expanding
+				size = { 0 88 }
+
+				flowcontainer = {
+					spacing = 2
+					position = { 88 6 }
+					cpt_button = {#高父
+						name = "gaoFather"
+						blockoverride "ShowIcons" { visible = no }
+						size = { @extended_family_width @extended_family_height }
+						blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather]" }
+						visible = "[Character.IsValid]"
+					}
+
+					cpt_button = {#高母
+						name = "gaoMather"
+						blockoverride "ShowIcons" { visible = no }
+						size = { @extended_family_width @extended_family_height }
+						blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+						visible = "[Character.IsValid]"
+					}
+				}
+
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text"
+				{
+					text = "family_tree_gaoparent"
+				}
+				blockoverride "On_click" { onclick = "[GetVariableSystem.Set( 'show_family_tree_gaoparent', 'no' )]" }
+				blockoverride "Down" { visible = yes }
+				blockoverride "Right" { visible = no }
+				blockoverride "RightArrowVisible" { visible = no }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_gaoparent', 'yes' )]"
+			}
+		}
+
+		vbox = {#人物天父母
+			layoutpolicy_horizontal = expanding
+			position = { 1 77 }
+			category_drop = {#关闭的小三角展架 天父母
+				name = "close_button_dip_family_tree_tianparent"
+				layoutpolicy_horizontal = expanding
+				size = { 0 32 }
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text" { text = "family_tree_tianparent" }
+				blockoverride "On_click" { 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_tianparent', 'yes' )]" 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_current_family', 'no' )]"
+				}
+
+				blockoverride "Down" { visible = no }
+				blockoverride "Right" { visible = yes }
+				blockoverride "RightArrowVisible" { visible = yes }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_tianparent', 'no' )]"
+			}
+
+			category_drop = {#展开的小三角展架 天父母
+				layoutpolicy_horizontal = expanding
+				size = { 0 88 }
+
+				flowcontainer = {
+					spacing = 2
+					position = { 88 6 }
+					cpt_button = {#天父
+						name = "tianFather"
+						blockoverride "ShowIcons" { visible = no }
+						size = { @extended_family_width @extended_family_height }
+						blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+						visible = "[Character.IsValid]"
+					}
+
+					cpt_button = {#天母
+						name = "tianMather"
+						blockoverride "ShowIcons" { visible = no }
+						size = { @extended_family_width @extended_family_height }
+						blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+						visible = "[Character.IsValid]"
+					}
+				}
+
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text"
+				{
+					text = "family_tree_tianparent"
+				}
+				blockoverride "On_click" { onclick = "[GetVariableSystem.Set( 'show_family_tree_tianparent', 'no' )]" }
+				blockoverride "Down" { visible = yes }
+				blockoverride "Right" { visible = no }
+				blockoverride "RightArrowVisible" { visible = no }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_tianparent', 'yes' )]"
+			}
+		}
+
+		vbox = {#人物烈父母
+			layoutpolicy_horizontal = expanding
+			position = { 1 163 }
+			category_drop = {#关闭的小三角展架 烈父母
+				name = "close_button_dip_family_tree_tianparent"
+				layoutpolicy_horizontal = expanding
+				size = { 0 32 }
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text" { text = "family_tree_lieparent" }
+				blockoverride "On_click" { 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_lieparent', 'yes' )]" 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_current_family', 'no' )]"
+				}
+
+				blockoverride "Down" { visible = no }
+				blockoverride "Right" { visible = yes }
+				blockoverride "RightArrowVisible" { visible = yes }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_lieparent', 'no' )]"
+			}
+
+			category_drop = {#展开的小三角展架 烈父母
+				layoutpolicy_horizontal = expanding
+				size = { 0 88 }
+
+				flowcontainer = {
+					spacing = 2
+					position = { 88 6 }
+					cpt_button = {#烈父
+						name = "lieFather"
+						blockoverride "ShowIcons" { visible = no }
+						size = { @extended_family_width @extended_family_height }
+						blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+						visible = "[Character.IsValid]"
+					}
+
+					cpt_button = {#烈母
+						name = "lieMather"
+						blockoverride "ShowIcons" { visible = no }
+						size = { @extended_family_width @extended_family_height }
+						blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+						visible = "[Character.IsValid]"
+					}
+				}
+
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text"
+				{
+					text = "family_tree_lieparent"
+				}
+				blockoverride "On_click" { onclick = "[GetVariableSystem.Set( 'show_family_tree_lieparent', 'no' )]" }
+				blockoverride "Down" { visible = yes }
+				blockoverride "Right" { visible = no }
+				blockoverride "RightArrowVisible" { visible = no }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_lieparent', 'yes' )]"
+			}
+		}
+
+
+		vbox = {#关闭的小三角展架 人物目前家庭
+			layoutpolicy_horizontal = expanding
+			position = { 1 -240 }
+			category_drop = {#关闭的小三角展架 人物目前家庭
+				name = "close_button_dip_family_tree_current_family"
+				layoutpolicy_horizontal = expanding
+				size = { 0 32 }
+				blockoverride "Text_alignment"
+				{
+					parentanchor = left|vcenter
+					align = left
+					position = { 16 -2 }
+					max_width = 310
+				}
+				blockoverride "Text" { text = "family_tree_current_family" }
+				blockoverride "On_click" { 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_current_family', 'yes' )]" 
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_grandparent', 'no' )]"
+					onclick = "[GetVariableSystem.Set( 'show_family_tree_zengparent', 'no' )]"
+				}
+				blockoverride "Down" { visible = no }
+				blockoverride "Right" { visible = yes }
+				blockoverride "RightArrowVisible" { visible = yes }
+				visible = "[GetVariableSystem.HasValue( 'show_family_tree_current_family', 'no' )]"
+			}
+		}
+
+		vbox = {#展开的小三角展架 人物目前家庭
+			layoutpolicy_horizontal = expanding
+			position = { 1 0 }
+			category_drop = {#展开的小三角展架 人物目前家庭
+			layoutpolicy_horizontal = expanding
+			size = { 0 520 }
+
+			textbox = { #兄妹文字显示
+				using = BaseFontM
+				using = Black_FontColor
+				text = "current_Siblings"
+				parentanchor = vcenter
+				align = center
+				position = { -38 -30 }
+				size = { 120 24 }
+				elide = right
+				fontsize_min = 8
+			}
+
+			textbox = {#子女文字显示
+				using = BaseFontM
+				using = Black_FontColor
+				text = "current_children"
+				parentanchor = vcenter
+				align = center
+				position = { -38 -128 }
+				size = { 120 24 }
+				elide = right
+				fontsize_min = 8
+			}
+
+			textbox = {#父母文字显示
+				using = BaseFontM
+				using = Black_FontColor
+				text = "current_father_mother"
+				parentanchor = vcenter
+				align = center
+				position = { 310 -235 }
+				size = { 120 24 }
+				elide = right
+				fontsize_min = 8
+			}
+
+			cpt_button = {#配偶
+				position = { 5 45 }
+				name = "current_family_Spouse"
+				blockoverride "ShowIcons" { visible = no }
+				size = { @immediate_family_width @immediate_family_height }
+				blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetSpouse]" }
+				visible = "[Character.IsValid]"
+				textbox = {
+					using = BaseFontM
+					using = Black_FontColor
+					text = "current_spouse"
+					parentanchor = vcenter
+					align = center
+					position = { -40 -50 }
+					size = { 120 24 }
+					elide = right
+					fontsize_min = 8
+				}
+			}
+
+			flowcontainer = { #子女
+				margin_top = 6
+				name = "current_family_Children"
+				position = { 4 140 }
+				datamodel = "[CharacterWindow.GetCharacter.GetChildren]"
+				spacing = -10
+				item = {
+					cpt_button = {
+						name = "current_family_Child"
+						size = { 45 65 }
+						blockoverride "ShowIcons" { visible = no }
+					}
+				}
+			}
+
+			flowcontainer = { #兄妹
+				name = "current_family_Siblings"
+				position = { 5 245 }
+				datamodel = "[CharacterWindow.GetSiblings]"
+				spacing = -13
+				item = {
+					cpt_button = {
+						blockoverride "ShowIcons" { visible = no }
+						name = "current_family_Sibling"
+						size = { 45 65 }
+					}
+				}
+			}
+
+			flowcontainer = {#父母
+				spacing = 6
+				position = { 350 45 }
+				cpt_button = {
+					name = "Father"
+					blockoverride "ShowIcons" { visible = no }
+					size = { @extended_family_width @extended_family_height }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "Mother"
+					blockoverride "ShowIcons" { visible = no }
+					size = { @extended_family_width @extended_family_height }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetMother]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+
+			blockoverride "Text_alignment"
+			{
+				align = left
+				position = { 2 0 }
+				max_width = 310
+			}
+			blockoverride "Text"
+			{
+				text = "family_tree_current_family"
+			}
+			blockoverride "On_click" { onclick = "[GetVariableSystem.Set( 'show_family_tree_current_family', 'no' )]" }
+			blockoverride "Down" { visible = yes }
+			blockoverride "Right" { visible = no }
+			blockoverride "RightArrowVisible" { visible = no }
+			visible = "[GetVariableSystem.HasValue( 'show_family_tree_current_family', 'yes' )]"
+			}
+		}
+	}
+
+	base_sub_window = { #详细人物家谱 1-11代
+		name = "family_tree_detailed_window"
+		size = { 755 900 }
+		position = { 0 0 }
+		movable = no
+		visible = "[GetVariableSystem.HasValue( 'show_family_tree_detailed', 'yes' )]"
+		blockoverride "Title_text" { text = "family_tree_detailed_window" }
+		blockoverride "White_buttons"
+		{
+			button_close = { #关闭按钮
+				tooltip = "CLOSE"
+				onclick = "[GetVariableSystem.Set( 'show_family_tree_detailed', 'no' )]"
+				onclick = "[GetVariableSystem.Set( 'show_family_tree', 'yes' )]"
+			}
+		}
+
+		textbox = { #说明
+			using = BaseFontM
+			using = Black_FontColor
+			text = "family_tree_explain_title"
+			parentanchor = vcenter
+			align = center
+			position = { 50 -320 }
+			size = { 120 24 }
+			elide = right
+			fontsize = 24
+		}
+
+		textbox = { #说明 正文1
+			using = BaseFontM
+			using = Black_FontColor
+			text = "family_tree_explain_desc1"
+			parentanchor = vcenter
+			align = center
+			position = { -135 -295 }
+			size = { 500 240 }
+			elide = right
+			fontsize = 20
+		}
+
+		textbox = { #说明 正文2
+			using = BaseFontM
+			using = Black_FontColor
+			text = "family_tree_explain_desc2"
+			parentanchor = vcenter
+			align = center
+			position = { -360 -275 }
+			size = { 1000 240 }
+			elide = right
+			fontsize = 14
+		}
+		
+		textbox = { #说明 正文3
+			using = BaseFontM
+			using = Black_FontColor
+			text = "family_tree_explain_desc3"
+			parentanchor = vcenter
+			align = center
+			position = { -110 -255 }
+			size = { 500 240 }
+			elide = right
+			fontsize = 14
+		}
+
+		icon_button_square = { #第1页下一页按钮
+			position = { 20 50 }
+			size = { 40 40 }
+			tooltip = "family_tree_detailed_tooltip"
+			blockoverride "On_click" { #必须要把该级窗口中所有按钮显示必须的前置条件变量通过onclick写入，该按钮才会显示
+				onclick = "[GetVariableSystem.Set( 'show_family_tree_detailed2', 'yes' )]"
+				onclick = "[GetVariableSystem.Set( 'show_family_tree_detailed', 'no' )]"
+				onclick = "[GetVariableSystem.Set( 'show_family_tree', 'no' )]"
+				datacontext = "[CharacterWindow.GetCharacter]"
+			}
+			blockoverride "Icon" { 
+				texture = "gfx/interface/icons/shared_icons/arrow_up.dds" 
+				size = { 40 40 }
+			}
+			textbox = { #下一页文字提示
+				using = BaseFontM
+				using = Black_FontColor
+				text = "next_page"
+				parentanchor = vcenter
+				align = center
+				position = { -38 -30 }
+				size = { 120 24 }
+				elide = right
+				fontsize = 24
+			}
+		}
+
+		vbox = { #当前人物家庭 玩家
+			position = { -43 285 }
+			cpt_button = {#玩家
+				name = "current_family_player"
+				blockoverride "ShowIcons" { visible = no }
+				size = { 30 50 }
+				blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter]" }
+				visible = "[Character.IsValid]"
+				textbox = {
+					using = BaseFontM
+					using = Black_FontColor
+					text = "current_player"
+					parentanchor = vcenter
+					align = center
+					position = { -100 -5 }
+					size = { 120 24 }
+					elide = right
+					fontsize_min = 8
+				}
+			}
+		}
+
+		vbox = {
+			size = { 0 0 }
+			position = { -80 -220 }
+			textbox = {#父文字显示
+				position = { 0 0 }
+				using = BaseFontM
+				using = Black_FontColor
+				text = "current_father"
+				parentanchor = vcenter
+				align = center
+				elide = right
+				fontsize_min = 8
+			}
+		}
+
+		vbox = {
+			position = { 40 -220 }
+			size = { 0 0 }
+			textbox = {#母文字显示
+				position = { 0 0 }
+				using = BaseFontM
+				using = Black_FontColor
+				text = "current_mather"
+				parentanchor = vcenter
+				align = center
+				elide = right
+				fontsize_min = 8
+			}
+		}
+
+		vbox = {
+			position = { 2 285 }
+			cpt_button = {#配偶
+				name = "current_family_Spouse"
+				blockoverride "ShowIcons" { visible = no }
+				size = { 30 50 }
+				blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetSpouse]" }
+				visible = "[Character.IsValid]"
+				textbox = {
+					using = BaseFontM
+					using = Black_FontColor
+					text = "current_spouse"
+					parentanchor = vcenter
+					align = center
+					position = { -10 0 }
+					size = { 120 24 }
+					elide = right
+					fontsize_min = 8
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 -73 }
+			size = { 0 0 }
+			textbox = {#兄妹文字显示
+				position = { 0 0 }
+				using = BaseFontM
+				using = Black_FontColor
+				text = "current_Siblings"
+				parentanchor = vcenter
+				align = center
+				elide = right
+				fontsize_min = 8
+			}
+		}
+
+		vbox = {
+			position = { -10 415 }
+			flowcontainer = { #兄妹
+				name = "current_family_Siblings"
+				datamodel = "[CharacterWindow.GetSiblings]"
+				spacing = 1
+				item = {
+					cpt_button = {
+						blockoverride "ShowIcons" { visible = no }
+						name = "current_family_Sibling"
+						size = { 30 50 }
+					}
+				}
+			}
+		}
+
+		vbox = {
+			position = { -80 -153 }
+			size = { 0 0 }
+			textbox = {#子女文字显示
+				using = BaseFontM
+				using = Black_FontColor
+				text = "current_children"
+				parentanchor = vcenter
+				align = center
+				elide = right
+				fontsize_min = 8
+			}
+		}
+
+		vbox = {
+			position = { -10 340 }
+			size = { 0 0 }
+			flowcontainer = { #子女
+				margin_top = 6
+				name = "current_family_Children"
+				datamodel = "[CharacterWindow.GetCharacter.GetChildren]"
+				spacing = 1
+				item = {
+					cpt_button = {
+						name = "current_family_Child"
+						size = { 30 50 }
+						blockoverride "ShowIcons" { visible = no }
+					}
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 -375 }
+			flowcontainer = {#前11代父母
+				spacing = 15
+				cpt_button = {
+					name = "11f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "11m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 -320 }
+			flowcontainer = {#前10代父母
+				spacing = 15
+				cpt_button = {
+					name = "10f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "10m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 -265 }
+			flowcontainer = {#前9代父母
+				spacing = 15
+				cpt_button = {
+					name = "9f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "9m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 -210 }
+			flowcontainer = {#前8代父母
+				spacing = 15
+				cpt_button = {
+					name = "8f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "8m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 -155 }
+			flowcontainer = {#前7代父母
+				spacing = 15
+				cpt_button = {
+					name = "7f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "7m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 -100 }
+			flowcontainer = {#前6代父母
+				spacing = 15
+				cpt_button = {
+					name = "6f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "6m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 -45 }
+			flowcontainer = {#前5代父母
+				spacing = 15
+				cpt_button = {
+					name = "5f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "5m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 15 }
+			flowcontainer = {#前4代父母
+				spacing = 15
+				cpt_button = {
+					name = "4f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "4m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 65 }
+			flowcontainer = {#前3代父母
+				spacing = 15
+				cpt_button = {
+					name = "3f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "3m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 120 }
+			flowcontainer = {#前2代父母
+				spacing = 15
+				cpt_button = {
+					name = "2f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "2m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 175 }
+			flowcontainer = {#前1代父母
+				spacing = 15
+				cpt_button = {
+					name = "1f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "1m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = { #人物当前父母
+			position = { -20 230 }
+			flowcontainer = {
+				spacing = 15
+				cpt_button = {
+					name = "f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetMother]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+	}
+
+	base_sub_window = { #详细人物家谱 前16代-12代
+		name = "family_tree_detailed_window2"
+		size = { 755 900 }
+		position = { 0 0 }
+		movable = no
+		visible = "[GetVariableSystem.HasValue( 'show_family_tree_detailed2', 'yes' )]"
+		blockoverride "Title_text" { text = "family_tree_detailed_window" }
+		blockoverride "White_buttons"
+		{
+			button_close = { #关闭按钮
+				tooltip = "CLOSE"
+				onclick = "[GetVariableSystem.Set( 'show_family_tree_detailed2', 'no' )]"
+				onclick = "[GetVariableSystem.Set( 'show_family_tree', 'yes' )]"
+			}
+		}
+
+		icon_button_square = { #第2页上一页按钮
+			position = { 20 50 }
+			size = { 40 40 }
+			tooltip = "family_tree_detailed_tooltip"
+			blockoverride "On_click" { #必须要把该级窗口中所有按钮显示必须的前置条件变量通过onclick写入，该按钮才会显示
+				onclick = "[GetVariableSystem.Set( 'show_family_tree_detailed2', 'no' )]"
+				onclick = "[GetVariableSystem.Set( 'show_family_tree_detailed', 'yes' )]"
+				onclick = "[GetVariableSystem.Set( 'show_family_tree', 'no' )]"
+				datacontext = "[CharacterWindow.GetCharacter]"
+			}
+			blockoverride "Icon" { 
+				texture = "gfx/interface/icons/shared_icons/arrow_down.dds" 
+				size = { 40 40 }
+			}
+			textbox = { #上一页文字提示
+				using = BaseFontM
+				using = Black_FontColor
+				text = "previous_page"
+				parentanchor = vcenter
+				align = center
+				position = { -38 -30 }
+				size = { 120 24 }
+				elide = right
+				fontsize = 24
+			}
+		}
+
+		vbox = {
+			position = { -20 -40 }
+
+			flowcontainer = {#前20代父母
+				spacing = 15
+				cpt_button = {
+					name = "20f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "20m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 15 }
+
+			flowcontainer = {#前19代父母
+				spacing = 15
+				cpt_button = {
+					name = "19f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "19m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 70 }
+
+			flowcontainer = {#前18代父母
+				spacing = 15
+				cpt_button = {
+					name = "18f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "18m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 125 }
+
+			flowcontainer = {#前17代父母
+				spacing = 15
+				cpt_button = {
+					name = "17f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "17m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 180 }
+
+			flowcontainer = {#前16代父母
+				spacing = 15
+				cpt_button = {
+					name = "16f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "16m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 235 }
+			flowcontainer = {#前15代父母
+				spacing = 15
+				cpt_button = {
+					name = "15f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "15m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 290 }
+			flowcontainer = {#前14代父母
+				spacing = 15
+				cpt_button = {
+					name = "14f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "14m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 345 }
+			flowcontainer = {#前13代父母
+				spacing = 15
+				cpt_button = {
+					name = "13f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "13m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+
+		vbox = {
+			position = { -20 400 }
+			flowcontainer = {#前12代父母
+				spacing = 15
+				cpt_button = {
+					name = "12f"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather]" }
+					visible = "[Character.IsValid]"
+				}
+				cpt_button = {
+					name = "12m"
+					blockoverride "ShowIcons" { visible = no }
+					size = { 30 50 }
+					blockoverride "Context" { datacontext = "[CharacterWindow.GetCharacter.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetFather.GetSpouse]" }
+					visible = "[Character.IsValid]"
+				}
+			}
+		}
+	}
+}

@@ -22,6 +22,12 @@ aos_ai_chinese_declare_war.1 = {
 		trigger_event = {
 			id = aos_ai_chinese_declare_war.5
 		}
+		trigger_event = {
+			id = aos_ai_chinese_declare_war.6
+		}
+		trigger_event = {
+			id = aos_ai_chinese_declare_war.7
+		}
 	}
 
 }
@@ -86,7 +92,7 @@ aos_ai_chinese_declare_war.3 = { #所有华夏文化组国家自动相互宣战
 			current_date > 504.1.1
 			has_civil_war = no
 			war = no
-			has_war_exhaustion < 13
+			has_war_exhaustion < 20
 			is_subject = no
 		}
 		any_neighbour_country = {
@@ -107,18 +113,7 @@ aos_ai_chinese_declare_war.3 = { #所有华夏文化组国家自动相互宣战
 	}
 
 	immediate = {
-		random_country = {
-			limit = {
-				is_ai = yes
-				country_culture_group = chinese
-				has_land = yes
-				num_of_cities > 130
-				current_date > 504.1.1
-				has_civil_war = no
-				war = no
-				has_war_exhaustion < 13
-				is_subject = no
-			}
+		root = {
 			save_scope_as = chinese_unify_war_country
 		}
 		every_neighbour_country = {
@@ -153,10 +148,9 @@ aos_ai_chinese_declare_war.4 = { #所有华夏文化组国家自动开疆西南
 			has_land = yes
 			num_of_cities > 130
 			current_date > 644.1.1
-			current_date < 704.1.1
 			has_civil_war = no
 			war = no
-			has_war_exhaustion < 13
+			has_war_exhaustion < 20
 			is_subject = no
 		}
 		any_neighbour_country = {
@@ -165,6 +159,7 @@ aos_ai_chinese_declare_war.4 = { #所有华夏文化组国家自动开疆西南
 				country_culture_group = pu
 			}
 			has_land = yes
+			is_ai = yes
 			NOT = {
 				is_subject_of = root
 				has_truce_with = root
@@ -174,18 +169,7 @@ aos_ai_chinese_declare_war.4 = { #所有华夏文化组国家自动开疆西南
 	}
 
 	immediate = {
-		random_country = {
-			limit = {
-				is_ai = yes
-				country_culture_group = chinese
-				has_land = yes
-				num_of_cities > 130
-				current_date > 504.1.1
-				has_civil_war = no
-				war = no
-				has_war_exhaustion < 13
-				is_subject = no
-			}
+		root = {
 			save_scope_as = attack_southern_chinese_country
 		}
 		every_neighbour_country = {
@@ -205,7 +189,7 @@ aos_ai_chinese_declare_war.4 = { #所有华夏文化组国家自动开疆西南
 		}
 		scope:attack_southern_chinese_country = {
 			declare_war_with_wargoal = {
-				war_goal = unify_china_wargoal
+				war_goal = only_ai_can_use_wargoal
 				target = scope:chinese_southern_war_attack_target_country
 			}
 		}
@@ -224,10 +208,9 @@ aos_ai_chinese_declare_war.5 = { #所有华夏文化组国家自动开疆西域
 			has_land = yes
 			num_of_cities > 130
 			current_date > 644.1.1
-			current_date < 704.1.1
 			has_civil_war = no
 			war = no
-			has_war_exhaustion < 13
+			has_war_exhaustion < 20
 			is_subject = no
 		}
 		any_neighbour_country = {
@@ -237,6 +220,7 @@ aos_ai_chinese_declare_war.5 = { #所有华夏文化组国家自动开疆西域
 				country_culture_group = bactrian
 			}
 			has_land = yes
+			is_ai = yes
 			NOT = {
 				is_subject_of = root
 				has_truce_with = root
@@ -246,18 +230,7 @@ aos_ai_chinese_declare_war.5 = { #所有华夏文化组国家自动开疆西域
 	}
 
 	immediate = {
-		random_country = {
-			limit = {
-				is_ai = yes
-				country_culture_group = chinese
-				has_land = yes
-				num_of_cities > 130
-				current_date > 504.1.1
-				has_civil_war = no
-				war = no
-				has_war_exhaustion < 13
-				is_subject = no
-			}
+		root = {
 			save_scope_as = attack_western_chinese_country
 		}
 		every_neighbour_country = {
@@ -278,8 +251,121 @@ aos_ai_chinese_declare_war.5 = { #所有华夏文化组国家自动开疆西域
 		}
 		scope:attack_western_chinese_country = {
 			declare_war_with_wargoal = {
-				war_goal = unify_china_wargoal
+				war_goal = only_ai_can_use_wargoal
 				target = scope:chinese_western_war_attack_target_country
+			}
+		}
+	}
+}
+
+aos_ai_chinese_declare_war.6 = { #所有西域文化组国家自动宣战AI中华帝国
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			OR = {
+				country_culture_group = xiyu
+				country_culture_group = bactrian
+			}
+			has_land = yes
+			is_subject = no
+			is_ai = yes
+			war = no
+		}
+
+		any_neighbour_country = {
+			has_variable = china_is_unified
+			is_ai = yes
+			country_culture_group = chinese
+			has_land = yes
+			num_of_cities > 130
+			current_date > 644.1.1
+			NOT = {
+				is_subject_of = root
+				has_truce_with = root
+				alliance_with = root
+			}
+		}
+	}
+
+	immediate = {
+		root = {
+			save_scope_as = attack_chinese_western_country
+		}
+		every_neighbour_country = {
+			limit = {
+				has_variable = china_is_unified
+				is_ai = yes
+				country_culture_group = chinese
+				has_land = yes
+				num_of_cities > 130
+				current_date > 644.1.1
+				NOT = {
+					is_subject_of = root
+					has_truce_with = root
+					alliance_with = root
+				}
+			}
+			save_scope_as = chinese_western_war_attack_target_country
+		}
+		scope:attack_chinese_western_country = {
+			declare_war_with_wargoal = {
+				war_goal = only_ai_can_use_wargoal
+				target = scope:chinese_western_war_attack_target_country
+			}
+		}
+	}
+}
+
+aos_ai_chinese_declare_war.7 = { #所有西域文化组国家自动宣战西域都护
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			OR = {
+				country_culture_group = xiyu
+				country_culture_group = bactrian
+			}
+			has_land = yes
+			is_subject = no
+			is_ai = yes
+			war = no
+		}
+
+		any_neighbour_country = {
+			is_subject_type = duhufu
+			is_ai = yes
+			has_land = yes
+			NOT = {
+				is_subject_of = root
+				has_truce_with = root
+				alliance_with = root
+			}
+		}
+	}
+
+	immediate = {
+		root = {
+			save_scope_as = attack_duhufu_western_country
+		}
+		every_neighbour_country = {
+			limit = {
+				is_subject_type = duhufu
+				has_land = yes
+				NOT = {
+					is_subject_of = root
+					has_truce_with = root
+					alliance_with = root
+				}
+			}
+			save_scope_as = chinese_western_war_attack_target_duhufu
+		}
+		scope:attack_duhufu_western_country = {
+			declare_war_with_wargoal = {
+				war_goal = only_ai_can_use_wargoal
+				target = scope:chinese_western_war_attack_target_duhufu
 			}
 		}
 	}

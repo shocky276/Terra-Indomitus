@@ -1,0 +1,1142 @@
+﻿7500={ #忒戎的托勒密斯
+	terrain="dry_plains"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods="elephants"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+7501={ #象镇
+	terrain="desert"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods="elephants"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7502={ #阿拉莱乌
+	terrain="desert"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="gems"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	citizen={
+		culture="pasargadi"
+		religion="zoroaster"
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7503={ #阿杜利
+	terrain="desert"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="stone"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		religion="egyptian_pantheon"
+		amount=2
+	}
+	freemen={
+		amount=10
+	}
+	slaves={
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=6
+	}
+	port_building=1
+}
+
+7504={ #科洛伊
+	terrain="mountain"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="wood"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7505={ #耶哈
+	terrain="dry_plains"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="cloth"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=9
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7506={ #阿克宋
+	terrain="hills"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="earthware"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	citizen={
+		culture="meroitic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	citizen={
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	freemen={
+		culture="meroitic"
+		religion="egyptian_pantheon"
+		amount=2
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		culture="meroitic"
+		amount=2
+	}
+	tribesmen={
+		amount=10
+	}
+}
+
+7507={ #俄雷涅
+	terrain="desert"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="salt"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+}
+
+7508={ #于克剌
+	terrain="hills"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7509={ #萨齐拉
+	terrain="dry_hills"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7510={ #马塔拉
+	terrain="dry_hills"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7511={ #罗哈
+	terrain="mountain"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=4
+	}
+}
+
+7512={ #墨刻莱
+	terrain="mountain"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="elephants"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7513={ #阿迪格拉特
+	terrain="mountain"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+7514={ #艾谢塔
+	terrain="mountain"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7515={ #阿克宋的阿齐里斯
+	terrain="dry_hills"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7516={ #斯密耳诺福洛斯镇
+	terrain="dry_plains"
+	culture="puntic"
+	religion="arabian_pantheon"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7517={ #蓬提亚的俄尔比亚
+	terrain="dry_hills"
+	culture="puntic"
+	religion="arabian_pantheon"
+	trade_goods="salt"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7518={ #得雷
+	terrain="dry_hills"
+	culture="puntic"
+	religion="arabian_pantheon"
+	trade_goods="camel"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+7519={ #阿巴塞尼亚
+	terrain="hills"
+	culture="puntic"
+	religion="arabian_pantheon"
+	trade_goods="stone"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=8
+	}
+	citizen={
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	freemen={
+		religion="egyptian_pantheon"
+		amount=2
+	}
+	freemen={
+		amount=11
+	}
+	slaves={
+		culture="aksumite"
+		amount=1
+	}
+	slaves={
+		amount=6
+	}
+	slaves={
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+	tribesmen={
+		culture="aksumite"
+		amount=2
+	}
+}
+
+7520={ #安基泰亚
+	terrain="dry_hills"
+	culture="puntic"
+	religion="arabian_pantheon"
+	trade_goods="dates"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		religion="egyptian_pantheon"
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	slaves={
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7521={ #阿图勒
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="fish"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="arabian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		religion="arabian_pantheon"
+		amount=1
+	}
+	port_building=1
+}
+
+7522={ #马拉俄
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7523={ #摩叙隆的恩波里翁
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="incense"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7524={ #摩叙隆
+	terrain="dry_plains"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="gems"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=9
+	}
+	port_building=1
+}
+
+7525={ #厄勒方同港
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="elephants"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7526={ #阿罗马塔
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7527={ #蒙杜斯
+	terrain="dry_plains"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="salt"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+	port_building=1
+}
+
+7528={ #俄波涅
+	terrain="dry_plains"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="salt"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+7529={ #耶塔
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7530={ #迪俄斯科里杜斯
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="gems"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7531={ #帕诺
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7532={ #迪亚蒂卡
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="salt"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7533={ #摩叙利俄尼亚的摩塔
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="incense"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7534={ #阿迈泰亚
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="incense"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="arabian_pantheon"
+		amount=2
+	}
+}
+
+7535={ #玛福里斯
+	terrain="desert"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="incense"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7536={ #格瓦拉
+	terrain="hills"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7537={ #阿得法
+	terrain="mountain"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7538={ #阿加未
+	terrain="hills"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="horses"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7539={ #德巴尔克
+	terrain="hills"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7540={ #锡雷
+	terrain="hills"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="fur"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7541={ #撒刻切尼亚
+	terrain="dry_hills"
+	culture="puntic"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7542={ #览玛尼泰
+	terrain="dry_hills"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7543={ #刻布拉尼提亚
+	terrain="dry_hills"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7544={ #卡尔米勒
+	terrain="forest"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7545={ #阿瓦什
+	terrain="mountain"
+	culture="cushite"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7546={ #蓬特沙漠
+	terrain="desert"
+	culture="puntic"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7547={ #蓬特沙漠
+	terrain="desert"
+	culture="puntic"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7548={ #蓬特沙漠
+	terrain="desert"
+	culture="puntic"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7549={ #蓬特沙漠
+	terrain="desert"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7550={ #蓬特沙漠
+	terrain="desert"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7551={ #蓬特沙漠
+	terrain="desert"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7552={ #蓬特沙漠
+	terrain="desert"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7553={ #蓬特沙漠
+	terrain="desert"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7594={ #萨布赖同
+	terrain="desert"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7595={ #阿拉科斯
+	terrain="desert"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods="incense"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+}
+
+7596={ #卡纳耳比斯
+	terrain="desert"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods="fish"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7597={ #厄拉斯孔
+	terrain="desert"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7598={ #萨巴斯忒
+	terrain="desert"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods="elephants"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7599={ #瑟特罗农
+	terrain="desert"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
+	trade_goods="gems"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+

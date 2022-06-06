@@ -6025,6 +6025,16 @@ diadochi_flavor.100 = {#NS
 	option = {
 		name = "diadochi_flavor.100.a"
 		custom_tooltip = "parthians_on_the_warpath"
+		if = {
+			limit = {
+				is_ai = yes
+				tag = PAR
+			}
+			add_country_modifier = {
+				name = parthia_ai_rise_buff
+				duration = 51100
+			}
+		}
 		show_as_tooltip = {
 			set_variable = {
 				name = horde_invasion_origin

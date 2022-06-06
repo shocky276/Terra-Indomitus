@@ -15,7 +15,7 @@ wcwjhzhg_events.1 = { #文臣武将还是皇族
 	immediate = {
 		trigger_event = {
 			id = dynasty_end_continuation.1
-			days = {21900 31025}
+			days = {65700 71175}
 		}
 	}
 	
@@ -374,6 +374,9 @@ dynasty_end_continuation.1 = {
 
 	trigger = {
 	has_variable = china_is_unified
+		NOT = {
+			num_of_cities < 50
+		}
 	}
 	
 	option = {
@@ -506,5 +509,34 @@ dynasty_end_continuation.3 = {
 		add_stability = -15
 		add_treasury = -500
 		add_political_influence = -35
+	}
+}
+
+dynasty_end_continuation.4 = { #领土缩小，土地问题解决
+	type = country_event
+	title = "dynasty_end_continuation.4.t"
+	desc = "dynasty_end_continuation.4.desc"
+	picture = china_political
+	goto_location = root
+	left_portrait = current_ruler
+
+	trigger = {
+		num_of_cities < 50
+		OR = {
+			has_country_modifier = tudijianbing2_buff
+			has_country_modifier = tudijianbing1_buff
+		}
+	}
+
+	option = {
+		name = dynasty_end_continuation.4.a
+		hidden_effect = {
+			remove_country_modifier = tudijianbing2_buff
+			remove_country_modifier = tudijianbing1_buff
+			trigger_event = {
+				id = dynasty_end_continuation.1 #30-50年后回到第一个事件抑制豪强崛起
+				days = {10950 18250}
+			}
+		}
 	}
 }

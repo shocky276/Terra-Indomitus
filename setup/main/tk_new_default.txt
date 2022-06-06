@@ -1,0 +1,480 @@
+
+diplomacy = {
+	dependency = { first = SEL second = PES subject_type = client_state }
+	dependency = { first = SEL second = DRA subject_type = tributary }
+	dependency = { first = ARM second = TSN subject_type = tributary }
+	dependency = { first = ARM second = COZ subject_type = tributary }
+	dependency = { first = ARM second = SOP subject_type = tributary }
+	dependency = { first = CAR second = AVR subject_type = tributary }
+	dependency = { first = CAR second = GYZ subject_type = tributary }
+	dependency = { first = CAR second = MSL subject_type = tributary }
+	dependency = { first = CAR second = ELY subject_type = tributary }
+	dependency = { first = MRY second = LUM subject_type = tributary }
+}
+country = {
+	countries = {
+		
+		AAB = {
+			government = tribal_kingdom
+			primary_culture = carnian
+			religion = druidism
+			centralization=10
+
+			capital = 4135 
+		
+			own_control_core = 	{
+				4031 4135 3672 3673 4131 4048 4047
+			}
+		}
+		
+		ABD = {
+			government = tribal_kingdom
+			primary_culture = letobician
+			religion = druidism
+			centralization=10
+
+			capital = 4136 
+		
+			own_control_core = 	{
+			 	4133 4140 4137 4136 4143 4134 4141 4139 4132
+			}
+		}
+		
+		VRC = {
+			government = tribal_kingdom
+			primary_culture = celtic_pannonian
+			religion = druidism
+			centralization=10
+
+			capital = 4174 
+		
+			own_control_core = 	{
+				4174 4173 4165 4179 4182 4180 4184 4172 4167 4166 
+			}
+		}
+		
+		VLC = {
+			government = tribal_kingdom
+			primary_culture = helvetian
+			religion = druidism
+			centralization=0
+
+			capital = 3803
+
+			own_control_core = 	{
+				3805 3801 3804 3800 3803 3806 3807 3809 3808
+			}
+		}
+		
+		VGN = {
+			government = tribal_kingdom
+			primary_culture = treverian
+			religion = druidism
+			centralization=0
+
+			capital = 3798
+
+			own_control_core = 	{
+				3798 3802 3737 3702 7732 3055 3056 3701 3700 3797
+			}
+		}
+		
+		SOP = {
+			government = despotic_monarchy
+			primary_culture = sophene
+			religion = zoroaster
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+		
+			capital = 858
+			own_control_core = 	{
+				858 859 860 1855 8009 235 8007 #sophene_region
+				1856 1857 8008 8010 1858 1769
+			}
+		}
+		
+		PES = {
+			government = aristocratic_monarchy
+			primary_culture = pasargadi
+			religion = zoroaster
+			
+			capital = 4799
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4799 4948 4949 4798 4951 3405 3406 6511 4978 #persepolis
+				4956 4957 4955 3409 3402 3400 3401 3404 3403#utia
+				4781 4796 4792 4794 4795 4788 4789 4793 4790 4797 4962 #veshapur
+			}
+			
+		
+		}
+		
+		DRA = {
+			government = tribal_kingdom
+			primary_culture = carmanian
+			religion = zoroaster
+			
+			capital = 6552
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				6574 6586 6584 6577 6575 6585 6589 6591 6588 6590 6607 6560 #Drangiana
+				6551 6561 6552 6570 #pactya_area
+				6562 6605 6566 #sagartia
+			}
+			
+		
+		}
+		
+		BAT = {
+			government = tribal_kingdom
+			primary_culture = ingvaeonic
+			religion = germanic_religion
+			centralization=-30
+			
+			capital = 3847
+			
+			own_control_core = {
+				3847 3851 3850 3848
+			}
+		}
+		
+		TEN = {
+			government = tribal_kingdom
+			primary_culture = istvaeonic
+			religion = germanic_religion
+			centralization=-20
+			
+			capital = 3787
+			
+			own_control_core = {
+				3787 3785 3790 3788 3699 3789 3793
+			}
+		}
+		
+		BEK = {
+			government = tribal_kingdom
+			centralization = 35
+			primary_culture = bekhyrian
+			religion = caucasian_religion
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 1730
+
+			own_control_core = 	{
+				1727 1729 1730 1731 #bekhyria_region
+			}
+		}
+		
+		SUA = {
+			government = tribal_kingdom
+			centralization = 35
+			primary_culture = colchian
+			religion = caucasian_religion
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 1707
+
+			own_control_core = 	{
+				1705 1707 1746 1748 1706 1703 1704 #suaneti_region
+			}
+		}
+		
+		TSN = {
+			government = tribal_kingdom
+			centralization = 35
+			primary_culture = ibero
+			religion = caucasian_religion
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 1702
+
+			own_control_core = 	{
+				1586 1587 1702 #gugark_region
+				1754 1755
+			}
+		}
+		
+		COZ = {
+			government = tribal_kingdom
+			centralization = 35
+			primary_culture = sasperires
+			religion = caucasian_religion
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 1752
+
+			own_control_core = 	{
+				1752 1753 1756 #tayk_region
+				1728 1757 1758
+			}
+		}
+		
+		ARN = {
+			government = tribal_kingdom
+			primary_culture = albanian
+			religion = caucasian_religion
+
+			capital = 1670
+
+			own_control_core = 	{
+				1584 1608 1637 1646 1661 1670 1671 1672 #arran_region
+			}
+		}
+		
+		BAZ = {
+			government = tribal_kingdom
+			primary_culture = caspian
+			religion = caucasian_religion
+
+			capital = 1644
+
+			own_control_core = 	{
+				1633 1642 1647 1644 1651 1652
+			}
+		}
+		
+		CAS = {
+			government = tribal_kingdom
+			primary_culture = caspian
+			religion = zoroaster
+
+			capital = 1631
+
+			own_control_core = 	{
+				1630 1631 1632 1638 1648 1649 1654 #paytankert_region 
+			}
+		}
+		
+		YNC = {
+			government = tribal_chiefdom
+			primary_culture = massagetaen
+			religion = indo_iranian_religion
+			centralization = -20
+			
+			capital = 5496
+			
+			own_control_core = {
+				5496 5493 5471
+			}
+		}
+		
+		IAZ = {
+			government = tribal_chiefdom
+			primary_culture = agathyrsian
+			religion = indo_iranian_religion
+			
+			capital = 6248 
+			centralization = -30
+			
+			own_control_core = {
+				6248 6247 6245 6244
+			}
+		}
+		
+		ROX = {
+			government = tribal_chiefdom
+			primary_culture = agathyrsian
+			religion = indo_iranian_religion
+			centralization = -20
+			
+			capital = 6087 
+			
+			own_control_core = {
+				6087 6096 6088
+			}
+		}
+		
+		THY = {
+			government = tribal_chiefdom
+			primary_culture = thyssagetaen
+			religion = indo_iranian_religion
+			centralization = -20
+			
+			capital = 5908 
+			
+			own_control_core = {
+				8050 5877 5908 5909
+			}
+		}
+		
+		SIC = {
+			government = tribal_kingdom
+			primary_culture = sicanian
+			religion = roman_pantheon
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 90 
+			
+			own_control_core = {
+				90 7841 7843 
+			}
+		}
+		
+		ELY = {
+			government = tribal_kingdom
+			primary_culture = elymian
+			religion = roman_pantheon
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 95 
+			
+			own_control_core = {
+				92 95
+			}
+		}
+		
+		GYZ = {
+			government = tribal_kingdom
+			primary_culture = massylian
+			religion = berber_religion
+			capital = 3286
+			centralization=20
+
+			own_control_core = 	{
+				3241 3240 3242 3272 3274
+				3212 3273 3200 3201 3202 3290 3292
+				3279 3286 1470
+			}
+		}
+		
+		AVR = {
+			government = tribal_kingdom
+			primary_culture = massylian
+			religion = berber_religion
+			capital = 3234
+			centralization=20
+
+			own_control_core = 	{
+				3234 3233 3269 3268 3231 3232 3217 3218 3221 3223 3224 3270 3267 3271 3265
+			}
+		}
+		
+		QUI = {
+			government = tribal_kingdom
+			primary_culture = massaesylian
+			religion = berber_religion
+			capital = 3135
+			centralization=20
+
+			own_control_core = 	{
+				3135 3141 3142 3132 3136 3131 3137 3130 3129 3133 3134 3139 3140 
+				3124 3144 3143 3146 3147 3151 3157 3158
+			}
+		}
+		
+		MXT = {
+			government = tribal_kingdom
+			primary_culture = massaesylian
+			religion = berber_religion
+			capital = 3114
+			centralization=20
+
+			own_control_core = 	{
+				3115 3119 3117 3114 
+				3106 3110 3112 3111 
+			}
+		}
+		
+		SOA = { #Soma
+			government = tribal_kingdom
+			primary_culture = himalayan
+			religion = buddhism
+			capital = 7384
+		
+			own_control_core = 	{ 
+				7489 4458 7384
+			}
+		}
+		
+		LUM = { #Lumbini
+			government = oligarchic_republic
+			primary_culture = magadhi
+			religion = buddhism
+			capital = 4457
+		
+			own_control_core = 	{ 
+				4450 4457 5584
+			}
+		}
+		
+		ANT = {
+			government = tribal_chiefdom
+			primary_culture = slavian
+			religion = matrist_religion
+			centralization=-50
+
+			capital = 6240 
+		
+			own_control_core = 	{
+				6240
+			}
+		}
+		
+		SCL = {
+			government = tribal_chiefdom
+			primary_culture = slavian
+			religion = matrist_religion
+			centralization=-50
+
+			capital = 6298 
+		
+			own_control_core = 	{
+				6298 6292
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,761 @@
+﻿5586={ #芒域达莫宗
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+5588={ #拉域
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5589={ #布玛
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="cloth"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5590={ #藏拉
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="wild_game"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5605={ #达戈
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="hemp"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+5606={ #雅藏
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5607={ #琼钦宗
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5608={ #当惹
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5610={ #江布
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="iron"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5611={ #久禄
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5613={ #朗沃
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="salt"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5618={ #拉萨
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="earthware"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	holy_site=omen_insight
+}
+
+5619={ #唐古拉
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="wild_game"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5620={ #噶泽
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="wild_game"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5621={ #桑耶
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="cloth"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+5622={ #曲德
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5623={ #钟巴甘
+	terrain="mountain"
+	culture="tsang"
+	religion="bon_religion"
+	trade_goods="leather"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5624={ #念孜
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="base_metals"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5625={ #内萨
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="wild_game"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5626={ #藏张
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5627={ #达余尼
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+5629={ #考伊
+	terrain="mountain"
+	culture="himalayan"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+5630={ #雄雄
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5631={ #不丹
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="gems"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+}
+
+5632={ #考庭
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5633={ #措昊
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="cloth"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+5634={ #香波山
+	terrain="mountain"
+	culture="himalayan"
+	religion="bon_religion"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+5635={ #罗扎
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="cloth"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5636={ #琼结
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5637={ #钦补余
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="gems"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5638={ #琼号
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5639={ #珠杰
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="hemp"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5640={ #念青
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5641={ #月康
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="leather"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+5642={ #日当
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5643={ #布久
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5644={ #工布
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5645={ #利山
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+}
+
+5646={ #擦絨
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="base_metals"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5647={ #日那
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+}
+
+5648={ #丹珠
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5649={ #藏波
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5650={ #地东
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5651={ #西日
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5652={ #普龙
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5653={ #索索
+	terrain="mountain"
+	culture="yarlung"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5654={ #贡余
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+5655={ #薪那迦
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5656={ #娘
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5657={ #贡嘎
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="cloth"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5658={ #鲁玛
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="iron"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5659={ #夫戈
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+5660={ #苏毗夷
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	holy_site=omen_spirits_inspiration
+}
+
+5661={ #饶登
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+5662={ #吐蕃
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5663={ #那迦雪
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5664={ #绕龙
+	terrain="mountain"
+	culture="sumpa"
+	religion="bon_religion"
+	trade_goods="wild_game"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+

@@ -1,0 +1,1349 @@
+﻿4640={ #阿克墨
+	terrain="dry_plains"
+	culture="minaean"
+	religion="arabian_pantheon"
+	trade_goods="fur"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+4641={ #巴得俄
+	terrain="dry_plains"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="dye"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4642={ #阿得杜科墨
+	terrain="dry_plains"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+4643={ #劳帕斯
+	terrain="dry_plains"
+	culture="himjar"
+	religion="arabian_pantheon"
+	trade_goods="honey"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4644={ #阿利俄斯科墨
+	terrain="dry_plains"
+	culture="himjar"
+	religion="arabian_pantheon"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4645={ #穆扎的恩波里翁
+	terrain="dry_plains"
+	culture="himjar"
+	religion="arabian_pantheon"
+	trade_goods="salt"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		religion="judaism"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4646={ #俄刻利斯
+	terrain="dry_plains"
+	culture="himjar"
+	religion="arabian_pantheon"
+	trade_goods="spices"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+4647={ #萨维
+	terrain="hills"
+	culture="himjar"
+	religion="arabian_pantheon"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4648={ #萨拉卡
+	terrain="hills"
+	culture="himjar"
+	religion="judaism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4649={ #墨达
+	terrain="hills"
+	culture="himjar"
+	religion="judaism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4650={ #欧代蒙
+	terrain="dry_plains"
+	culture="himjar"
+	religion="arabian_pantheon"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+4651={ #凯瓦
+	terrain="dry_plains"
+	culture="himjar"
+	religion="arabian_pantheon"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4652={ #卡塔巴的孔佛卢恩提亚
+	terrain="dry_plains"
+	culture="himjar"
+	religion="arabian_pantheon"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4654={ #墨萨拉
+	terrain="dry_plains"
+	culture="qatabanian"
+	religion="arabian_pantheon"
+	trade_goods="salt"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4655={ #阿比萨马
+	terrain="dry_plains"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	port_building=1
+}
+
+4656={ #得拉
+	terrain="hills"
+	culture="qatabanian"
+	religion="judaism"
+	trade_goods="hemp"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="arabian_pantheon"
+		amount=1
+	}
+}
+
+4657={ #腓赖
+	terrain="dry_plains"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="salt"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4658={ #迈法
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4659={ #萨鲁翁
+	terrain="desert"
+	culture="qatabanian"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4660={ #马库阿
+	terrain="hills"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="hemp"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4661={ #马里马塔
+	terrain="desert"
+	culture="qatabanian"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		religion="judaism"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4662={ #坦纳
+	terrain="desert"
+	culture="qatabanian"
+	religion="judaism"
+	trade_goods="woad"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4663={ #卡里佩塔
+	terrain="desert"
+	culture="sheban"
+	religion="judaism"
+	trade_goods="leather"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4664={ #诺萨
+	terrain="dry_hills"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4665={ #纳吉亚
+	terrain="desert"
+	culture="sheban"
+	religion="judaism"
+	trade_goods="leather"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4666={ #马里亚巴
+	terrain="desert"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4667={ #阿特鲁拉
+	terrain="desert"
+	culture="minaean"
+	religion="arabian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4668={ #卡弥纳孔
+	terrain="desert"
+	culture="minaean"
+	religion="arabian_pantheon"
+	trade_goods="camel"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4670={ #福达
+	terrain="desert"
+	culture="minaean"
+	religion="arabian_pantheon"
+	trade_goods="woad"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4671={ #阿纳格拉纳
+	terrain="desert"
+	culture="minaean"
+	religion="arabian_pantheon"
+	trade_goods="horses"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+}
+
+4672={ #拉柏塔
+	terrain="desert"
+	culture="minaean"
+	religion="arabian_pantheon"
+	trade_goods="cloth"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4673={ #卡耳达瓦
+	terrain="desert"
+	culture="minaean"
+	religion="arabian_pantheon"
+	trade_goods="fur"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4674={ #咖耳纳
+	terrain="dry_plains"
+	culture="minaean"
+	religion="arabian_pantheon"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4675={ #特雷托斯
+	terrain="dry_plains"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+4676={ #沙卜瓦
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4677={ #哈赖
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="horses"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+}
+
+4678={ #萨巴塔
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="earthware"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4679={ #扫
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+}
+
+4680={ #萨法耳
+	terrain="hills"
+	culture="himjar"
+	religion="arabian_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4681={ #赖达
+	terrain="hills"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="judaism"
+		amount=1
+	}
+}
+
+4682={ #萨纳阿
+	terrain="hills"
+	culture="sheban"
+	religion="judaism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4683={ #西尔瓦
+	terrain="dry_plains"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="judaism"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	holy_site=omen_talab
+}
+
+4684={ #希弥亚拉
+	terrain="hills"
+	culture="himjar"
+	religion="arabian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4685={ #加纳
+	terrain="hills"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4686={ #萨比耶
+	terrain="hills"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4687={ #卡塔比亚
+	terrain="hills"
+	culture="qatabanian"
+	religion="arabian_pantheon"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="judaism"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4688={ #阿姆览
+	terrain="hills"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4689={ #哈剌兹
+	terrain="hills"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="gems"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="judaism"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4690={ #纳沙克
+	terrain="hills"
+	culture="sheban"
+	religion="judaism"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="minaean"
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4691={ #哈拉齐亚谷
+	terrain="hills"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4692={ #马刻达
+	terrain="hills"
+	culture="qatabanian"
+	religion="judaism"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4693={ #萨巴提亚
+	terrain="desert"
+	culture="sheban"
+	religion="judaism"
+	trade_goods="stone"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4694={ #俄刻利亚
+	terrain="hills"
+	culture="qatabanian"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4695={ #荷墨拉
+	terrain="hills"
+	culture="qatabanian"
+	religion="arabian_pantheon"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4696={ #哈兹马
+	terrain="dry_hills"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4697={ #达马耳
+	terrain="dry_plains"
+	culture="sheban"
+	religion="judaism"
+	trade_goods="precious_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4698={ #斐利基塔
+	terrain="dry_plains"
+	culture="qatabanian"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4700={ #亚提尔
+	terrain="desert"
+	culture="minaean"
+	religion="judaism"
+	trade_goods="horses"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4701={ #豪德
+	terrain="hills"
+	culture="minaean"
+	religion="judaism"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4702={ #阿法
+	terrain="hills"
+	culture="minaean"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4703={ #提亚勒马特
+	terrain="dry_plains"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4704={ #基珊
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4705={ #哈德拉姆特的奥萨剌
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+4706={ #涅俄吉拉
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4707={ #摩斯察
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4708={ #萨利耶
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4709={ #西德
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="salt"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4710={ #拉朋
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="camel"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4711={ #莫赫尔塔
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="fur"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+}
+
+4712={ #哈德拉玛
+	terrain="hills"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7568={ #阿拉伯荒地
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7569={ #阿拉伯荒地
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7570={ #阿拉伯荒地
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7571={ #阿拉伯荒地
+	terrain="desert"
+	culture="hadhrami"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+

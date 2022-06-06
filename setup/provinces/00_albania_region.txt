@@ -1,0 +1,1387 @@
+﻿1502={ #塔苏克
+	terrain="hills"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1503={ #萨拉马斯
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="armenian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1504={ #加兹里克
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="armenian_religion"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="armenian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1505={ #阿尔齐耶亚德山
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="fish"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1506={ #俄耳弥
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1507={ #索尔玛纳巴德山
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1508={ #巴拉柱山
+	terrain="hills"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1509={ #西拉伽农
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1510={ #什诺
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1511={ #咖拉特伽
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1512={ #谢塔纳巴德
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1513={ #剌素赫山
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1514={ #法克里迦
+	terrain="dry_plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1515={ #甘扎克
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		culture="pasargadi"
+		amount=1
+	}
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=6
+	}
+}
+
+1516={ #沙阿山
+	terrain="dry_plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1517={ #齐尔山
+	terrain="dry_plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="fish"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1518={ #绰尔布拉奇山
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1519={ #咖拉特
+	terrain="hills"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="fish"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1520={ #博纳卜堡
+	terrain="dry_plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1521={ #阿克剌鲁兹
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1522={ #戈杰尔
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1523={ #佛剌斯帕
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1524={ #咖剌谢申
+	terrain="dry_plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1525={ #古尔堡
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1526={ #大不里士
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1527={ #亚尼克山
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1552={ #阿贾卢
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1553={ #达什梵德
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1554={ #齐韦业
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1555={ #阿杜尔古什纳斯普
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	holy_site=omen_adur_gushnasp
+}
+
+1556={ #吉亚乌耳
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wine"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1557={ #古察哈尔
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wine"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1558={ #卡拉弗图
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1565={ #沙希岛
+	terrain="dry_plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="fish"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1574={ #刻利兴山口
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1593={ #弥亚纳
+	terrain="dry_plains"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="honey"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=9
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=10
+	}
+}
+
+1618={ #密什
+	terrain="hills"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+1619={ #迪什
+	terrain="hills"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+1620={ #阿哈剌万
+	terrain="dry_plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1621={ #阿尔万杰
+	terrain="dry_plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1622={ #塞钦得勒
+	terrain="hills"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1624={ #察哈尔拉
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="stone"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1625={ #博拉格山
+	terrain="dry_plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1626={ #密什钦沙赫尔
+	terrain="dry_plains"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1627={ #阿尔达庇勒
+	terrain="hills"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	holy_site=omen_zoroaster
+}
+
+1628={ #庇里
+	terrain="hills"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1629={ #朔尔布拉克
+	terrain="dry_plains"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1630={ #阑加尔咖难
+	terrain="hills"
+	culture="caspian"
+	religion="zoroaster"
+	trade_goods="fish"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1631={ #斯潘达兰
+	terrain="hills"
+	culture="caspian"
+	religion="zoroaster"
+	trade_goods="hemp"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1632={ #巴阑罗特
+	terrain="plains"
+	culture="caspian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1638={ #瓦尔叁
+	terrain="plains"
+	culture="caspian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="armenian"
+		religion="armenian_religion"
+		amount=1
+	}
+	tribesmen={
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1648={ #吉齐勒阿加杰
+	terrain="plains"
+	culture="caspian"
+	religion="zoroaster"
+	trade_goods="fish"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+1649={ #马萨拉斯
+	terrain="plains"
+	culture="caspian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+1652={ #塔利什
+	terrain="plains"
+	culture="caspian"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=8
+	}
+}
+
+1654={ #摩基
+	terrain="plains"
+	culture="caspian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3383={ #奢帕
+	terrain="dry_plains"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3384={ #库勒
+	terrain="dry_plains"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="hemp"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3385={ #阿巴
+	terrain="dry_plains"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="incense"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="pasargadi"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3386={ #比勒咖
+	terrain="hills"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="fur"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3387={ #米底亚纳
+	terrain="dry_plains"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	citizen={
+		culture="pasargadi"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3388={ #厄卡纳
+	terrain="hills"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="honey"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3389={ #锡剌姆
+	terrain="hills"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	citizen={
+		culture="pasargadi"
+		amount=3
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+3390={ #法拉卜
+	terrain="hills"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4984={ #卡斯品
+	terrain="dry_plains"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="base_metals"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="pasargadi"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4985={ #居洛波利斯
+	terrain="hills"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="incense"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		culture="pasargadi"
+		amount=2
+	}
+	citizen={
+		amount=6
+	}
+	citizen={
+		culture="pasargadi"
+		amount=2
+	}
+	freemen={
+		amount=8
+	}
+	freemen={
+		culture="pasargadi"
+		amount=3
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		amount=10
+	}
+}
+
+4986={ #帕剌察特罗亚斯
+	terrain="farmland"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="pasargadi"
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4987={ #锡曼
+	terrain="mountain"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="stone"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4988={ #阿甘扎纳
+	terrain="dry_plains"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4989={ #艾库尔
+	terrain="dry_plains"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4990={ #摩拉
+	terrain="hills"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="base_metals"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+

@@ -9,9 +9,6 @@
 				country_culture_group = chinese
 				religion = chinese_religions
 			}
-			OR = {
-				num_of_cities >= 40
-			}
 			NOT = {
 				has_variable = china_is_unified
 				tag = QII
@@ -48,6 +45,7 @@
 			custom_tooltip = {
 				text = "china_is_not_yet_unified"
 			}
+			num_of_cities >= 550
 			owns = 8313
 			owns = 8972
 			owns = 8446
@@ -110,9 +108,6 @@
 			OR = {
 				country_culture_group = chinese
 				religion = chinese_religions
-			}
-			OR = {
-				num_of_cities >= 40
 			}
 			NOT = {
 				has_variable = china_is_unified
@@ -243,9 +238,6 @@
 				country_culture_group = chinese
 				religion = chinese_religions
 			}
-			OR = {
-				num_of_cities >= 40
-			}
 			NOT = {
 				has_variable = china_is_unified
 			}
@@ -374,9 +366,6 @@
 			OR = {
 				country_culture_group = chinese
 				religion = chinese_religions
-			}
-			OR = {
-				num_of_cities >= 40
 			}
 			NOT = {
 				has_variable = china_is_unified
@@ -507,9 +496,6 @@
 				country_culture_group = chinese
 				religion = chinese_religions
 			}
-			OR = {
-				num_of_cities >= 40
-			}
 			NOT = {
 				has_variable = china_is_unified
 			}
@@ -638,9 +624,6 @@
 			OR = {
 				country_culture_group = chinese
 				religion = chinese_religions
-			}
-			OR = {
-				num_of_cities >= 40
 			}
 			NOT = {
 				has_variable = china_is_unified
@@ -771,9 +754,6 @@
 				country_culture_group = chinese
 				religion = chinese_religions
 			}
-			OR = {
-				num_of_cities >= 40
-			}
 			NOT = {
 				has_variable = china_is_unified
 			}
@@ -903,9 +883,6 @@
 				country_culture_group = chinese
 				religion = chinese_religions
 			}
-			OR = {
-				num_of_cities >= 40
-			}
 			NOT = {
 				has_variable = china_is_unified
 			}
@@ -1023,5 +1000,75 @@
 			factor = 1000
 		}
 		
+	}
+
+	#Ai Unification of China
+	ai_unificate_china = {
+		
+		potential = {
+			is_ai = yes
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = chinese
+				religion = chinese_religions
+			}
+			NOT = {
+				has_variable = china_is_unified
+			}
+		}
+		
+		allow = {
+			num_of_cities >= 550
+			OR = {
+				owns = 8313
+				owns = 8972
+				owns = 8446
+				owns = 8384
+				owns = 8504
+				owns = 8379
+				owns = 8381
+				owns = 8380
+				owns = 8433
+				owns = 8533
+				owns = 8681
+				owns = 8742
+				owns = 9651
+			}
+		}
+		
+		effect = {
+			trigger_event = {
+				id = china_unification.1
+			}
+			add_country_modifier = {
+				name = china_unified
+				duration = -1
+			}
+			set_variable = china_is_unified
+			custom_tooltip = chinese_claims_tooltip
+			hidden_effect = {
+				region:yu_region = { formable_region_province_effect = yes }
+				region:you_region = { formable_region_province_effect = yes }
+				region:yi_region = { formable_region_province_effect = yes }
+				region:yan_region = { formable_region_province_effect = yes }
+				region:xu_region = { formable_region_province_effect = yes }
+				region:qing_region = { formable_region_province_effect = yes }
+				region:jing_region = { formable_region_province_effect = yes }
+				region:ji_region = { formable_region_province_effect = yes }
+				region:bing_region = { formable_region_province_effect = yes }
+				region:yong_region = { formable_region_province_effect = yes }
+				region:liang_region = { formable_region_province_effect = yes }
+				region:shuofang_region = { formable_region_province_effect = yes }
+				region:jiao_region = { formable_region_province_effect = yes }
+				region:yang_region = { formable_region_province_effect = yes }
+				region:nanzhong_region = { formable_region_province_effect = yes }
+			}
+			add_5_free_province_investments = yes
+			change_government = chinese_empire
+		}
+		
+		ai_will_do = {
+			factor = 1000
+		}
 	}
 }

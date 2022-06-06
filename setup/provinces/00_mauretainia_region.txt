@@ -1,0 +1,1385 @@
+﻿3061={ #廷伽
+	terrain="forest"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="earthware"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		culture="socossian"
+		religion="berber_religion"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="socossian"
+		religion="berber_religion"
+		amount=3
+	}
+	tribesmen={
+		culture="socossian"
+		religion="berber_religion"
+		amount=7
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+3062={ #拉基什
+	terrain="forest"
+	culture="carthaginian"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+3063={ #塔穆西达
+	terrain="forest"
+	culture="carthaginian"
+	religion="berber_religion"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3064={ #阿耳泽拉
+	terrain="forest"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3065={ #佛里吉达
+	terrain="forest"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="socossian"
+		amount=2
+	}
+}
+
+3066={ #俄卡宋
+	terrain="forest"
+	culture="carthaginian"
+	religion="berber_religion"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3067={ #沃卢比利斯
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3068={ #沙拉特
+	terrain="forest"
+	culture="carthaginian"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+3069={ #托科洛西达
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3070={ #巴纳萨
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="cloth"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3071={ #南塔穆西达
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3072={ #达契亚的阿库亚
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="spices"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3073={ #吉尔达
+	terrain="plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3074={ #埃利亚
+	terrain="plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3075={ #维波斯基亚奈
+	terrain="plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="elephants"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3076={ #特雷穆莱
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3077={ #新俄庇冬
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3078={ #墨耳库里
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3079={ #瑟弥塔山
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3080={ #鲁萨迪耳
+	terrain="forest"
+	culture="carthaginian"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	port_building=1
+}
+
+3081={ #维宋蒙提斯
+	terrain="mountain"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	holy_site=omen_shaheded
+}
+
+3082={ #安部拉提斯山
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+3083={ #楞尼斯
+	terrain="forest"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3084={ #叙洛戎
+	terrain="forest"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="elephants"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3085={ #塔穆达
+	terrain="forest"
+	culture="carthaginian"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+3086={ #西伽
+	terrain="forest"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+3087={ #波马里亚
+	terrain="dry_plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="gems"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3088={ #阿尔部莱
+	terrain="hills"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="elephants"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3089={ #阿尔塔瓦
+	terrain="desert"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3090={ #忒庇戴
+	terrain="plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3091={ #浦厄戎兵营
+	terrain="plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="salt"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3092={ #迪维努斯港
+	terrain="plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="fish"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+3093={ #雷吉埃
+	terrain="dry_plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="olive"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3094={ #卡浦塔萨科拉
+	terrain="desert"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3095={ #马格努斯港
+	terrain="plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	port_building=1
+}
+
+3096={ #塔萨科拉
+	terrain="hills"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3097={ #卢库
+	terrain="dry_plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3098={ #西壬瑟斯的阿库亚
+	terrain="dry_plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="wine"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3099={ #阿拉 弥利阿里亚
+	terrain="dry_plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="elephants"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3100={ #新卡斯特拉
+	terrain="plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3101={ #奎匝 克塞尼塔纳
+	terrain="plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3102={ #弥纳
+	terrain="plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3103={ #布娄科戎
+	terrain="dry_plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3104={ #刻纳维孔
+	terrain="dry_plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3105={ #科隆纳塔
+	terrain="dry_plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3106={ #阿耳森纳里亚
+	terrain="hills"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="olive"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3107={ #考冬兵营
+	terrain="hills"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3108={ #迦坦
+	terrain="hills"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="spices"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	port_building=1
+}
+
+3109={ #马顾卢斯港
+	terrain="plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="olive"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	port_building=1
+}
+
+3110={ #廷吉塔农
+	terrain="plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3111={ #卡耳提利
+	terrain="hills"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="elephants"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3112={ #日耳曼兵营
+	terrain="plains"
+	culture="massaesylian"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6301={ #卢图比斯
+	terrain="dry_plains"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="dye"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+6302={ #泽穆尔
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+6470={ #罗布阿
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6471={ #穆萨
+	terrain="plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6472={ #阿墨尔
+	terrain="plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6473={ #瓦拉迪格
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6474={ #墨斯基涅
+	terrain="plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="spices"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6475={ #安法
+	terrain="dry_plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+6476={ #刻迪斯
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6477={ #弗雷杰
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+6478={ #阿摩尔
+	terrain="dry_plains"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="fish"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6479={ #玻乌泽耳拉拉
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6480={ #阿姆拉涅
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6481={ #豪乌齐亚
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6484={ #伊夫兰
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6485={ #提夫莱特
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="elephants"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6486={ #齐亚伊达
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6487={ #姆达克拉
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6489={ #姆扎姆扎
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6490={ #萨菲姆
+	terrain="dry_plains"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="spices"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="socossian"
+		religion="berber_religion"
+		amount=1
+	}
+	port_building=1
+}
+
+6491={ #阿扎马
+	terrain="dry_plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="spices"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6492={ #扎克纳
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7221={ #米扎卜
+	terrain="dry_plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+

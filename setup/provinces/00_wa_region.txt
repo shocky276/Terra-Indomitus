@@ -1,0 +1,1938 @@
+﻿9303={ #末卢
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9304={ #一支
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9305={ #对马
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9306={ #伊都
+	terrain="farmland"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="salt"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9307={ #奴
+	terrain="plains"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="incense"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9308={ #不弥
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="cattle"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9309={ #不呼
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="amber"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9310={ #卑牟古
+	terrain="plains"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9311={ #邅婼
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9312={ #筑紫山脉
+	terrain="impassable_terrain"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9313={ #伊邪
+	terrain="forest"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9314={ #对苏
+	terrain="forest"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9315={ #华奴苏奴
+	terrain="forest"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="incense"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9316={ #苏奴
+	terrain="plains"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="dye"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9317={ #伊邪山脉
+	terrain="impassable_terrain"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9318={ #于般提
+	terrain="forest"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9319={ #投马
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9320={ #乌奴
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="precious_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9321={ #支惟
+	terrain="forest"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="earthware"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9322={ #巴百支
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9323={ #巴利
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9324={ #丹偶
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="woad"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9325={ #躬臣
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="earthware"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9326={ #隐伎
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9327={ #投马山脉
+	terrain="impassable_terrain"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9328={ #邪马台
+	terrain="farmland"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+9329={ #邪马
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="dye"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+9330={ #为吾
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="honey"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9331={ #斯马
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9332={ #鬼奴
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="leather"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9333={ #弥奴
+	terrain="jungle"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9334={ #狗奴
+	terrain="jungle"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="honey"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9672={ #都支
+	terrain="mountain"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9673={ #好古都
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="salt"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9674={ #姐奴
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="vegetables"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9675={ #呼邑
+	terrain="plains"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+}
+
+9676={ #邅蒲
+	terrain="forest"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9677={ #华呼苏
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="salt"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9678={ #著无
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="earthware"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9679={ #因蒲
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="earthware"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9680={ #新奴
+	terrain="mountain"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9681={ #区巴利
+	terrain="plains"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="salt"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9682={ #伊斯
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="dye"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9683={ #区弥
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9684={ #古巴堤
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=4
+	}
+}
+
+9685={ #于支
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9686={ #洒夫
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9687={ #弥苏沽
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="vegetables"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9688={ #伊巴弥
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="woad"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9689={ #蓖奴
+	terrain="plains"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9690={ #躬马苏
+	terrain="forest"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="earthware"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9691={ #兜邪
+	terrain="farmland"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="woad"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9692={ #兜皋斯
+	terrain="forest"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="cloth"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9693={ #跗付弥
+	terrain="forest"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9694={ #跗跗支都
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="cloth"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9695={ #中支
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+}
+
+9696={ #亢投闾支
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+}
+
+9697={ #褒 
+	terrain="plains"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="salt"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9698={ #兜跗
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9699={ #先吾
+	terrain="plains"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="woad"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9700={ #洒吾
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9701={ #伊卜巴闾
+	terrain="plains"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="vegetables"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9702={ #因投
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9703={ #古卑
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9704={ #仙奴吾
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="dye"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9705={ #桑吾牟
+	terrain="plains"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9706={ #彻蒲
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9707={ #牟素
+	terrain="plains"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="salt"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9708={ #于巴
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9709={ #亢豆
+	terrain="plains"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="woad"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9710={ #纤谩附
+	terrain="plains"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9711={ #卑妲
+	terrain="forest"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9712={ #谢 
+	terrain="farmland"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="vegetables"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9713={ #牟住
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9714={ #牟絜
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9715={ #支须
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9716={ #滨图
+	terrain="mountain"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9717={ #西逋
+	terrain="mountain"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="earthware"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9718={ #古弥兜基奴
+	terrain="mountain"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9719={ #斯牟兜基奴
+	terrain="forest"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9720={ #怒 
+	terrain="forest"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9721={ #弥低奴奥
+	terrain="mountain"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9722={ #屯浓吾
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="earthware"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9723={ #弥昆
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9724={ #句 
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9725={ #燕马
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9726={ #亢吾
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9727={ #巴皋卑
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="woad"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9728={ #奴兜
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9729={ #伊民投
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9730={ #军比支
+	terrain="hills"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9731={ #句奴褒古易
+	terrain="forest"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9732={ #斯闾古巴
+	terrain="mountain"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="amber"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9733={ #褒都古都
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9734={ #于故
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9735={ #亢牟
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="cloth"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9736={ #古邪
+	terrain="farmland"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9737={ #乌奴
+	terrain="plains"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9738={ #封牟堤
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9739={ #古苏
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="woad"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9740={ #斯牟兜弥堤
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="cloth"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9741={ #巴皋支
+	terrain="forest"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9742={ #屯 
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9743={ #焉牟
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9744={ #昆马奴
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="marble"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9745={ #于巴
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9746={ #囊吾
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9747={ #区堤
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9748={ #浓马
+	terrain="hills"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9749={ #昆弥
+	terrain="forest"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9750={ #亢斯巴邪
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9751={ #巴都
+	terrain="forest"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9752={ #优写
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9753={ #皋婼苏支
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9754={ #卑都
+	terrain="forest"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="amber"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9755={ #兜皋斯弥都
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="earthware"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9756={ #封逸
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="cloth"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9757={ #坞区
+	terrain="forest"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9758={ #坞支都
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9759={ #安莫苏
+	terrain="hills"
+	culture="kumaso"
+	religion="wa_religions"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9760={ #东山山脉
+	terrain="impassable_terrain"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9761={ #东山山脉
+	terrain="impassable_terrain"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9762={ #东山山脉
+	terrain="impassable_terrain"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9763={ #北陆山脉
+	terrain="impassable_terrain"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9764={ #东海山脉
+	terrain="impassable_terrain"
+	culture="aduma"
+	religion="wa_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9765={ #支惟山脉
+	terrain="impassable_terrain"
+	culture="wa"
+	religion="wa_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+

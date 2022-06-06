@@ -1,0 +1,1340 @@
+﻿1079={ #维肯宋
+	terrain="plains"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="olive"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+2253={ #孔索览尼
+	terrain="plains"
+	culture="aquitani"
+	religion="animism"
+	trade_goods="stone"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2254={ #塔鲁斯科
+	terrain="plains"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="olive"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2255={ #卡耳卡索
+	terrain="plains"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2256={ #纳耳玻
+	terrain="plains"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+	port_building=1
+}
+
+2257={ #鲁斯基诺
+	terrain="plains"
+	culture="indiketian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2258={ #乌苏厄耳瓦
+	terrain="plains"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="marble"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+2259={ #柏忒赖
+	terrain="plains"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2260={ #阿伽忒
+	terrain="plains"
+	culture="massalian"
+	religion="roman_pantheon"
+	trade_goods="stone"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="volcae"
+		religion="druidism"
+		amount=1
+	}
+	tribesmen={
+		culture="salluvian"
+		religion="druidism"
+		amount=2
+	}
+}
+
+2261={ #卢忒瓦
+	terrain="forest"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2262={ #瑟戈杜农
+	terrain="forest"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2263={ #阿尔比加
+	terrain="forest"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2265={ #托洛萨
+	terrain="plains"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2266={ #西卡的阿库亚
+	terrain="plains"
+	culture="aquitani"
+	religion="animism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2267={ #厄卢西翁
+	terrain="hills"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2280={ #马里纳瓦斯
+	terrain="plains"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2297={ #刻本尼亚
+	terrain="forest"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2301={ #卢格杜农
+	terrain="plains"
+	culture="helvetian"
+	religion="druidism"
+	trade_goods="cloth"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2302={ #瑟顾斯拉沃戎
+	terrain="forest"
+	culture="arverni"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2303={ #俄克塔武斯
+	terrain="plains"
+	culture="helvetian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2304={ #维恩纳
+	terrain="plains"
+	culture="helvetian"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2305={ #阿罗布洛吉亚
+	terrain="plains"
+	culture="helvetian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2306={ #腓格利奈
+	terrain="plains"
+	culture="helvetian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2307={ #摩耳堇农
+	terrain="plains"
+	culture="helvetian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2308={ #瓦伦提亚
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2309={ #巴提亚纳
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2310={ #刻雷贝利阿卡
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2311={ #赫尔维的阿尔巴
+	terrain="hills"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="marble"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+2312={ #安杜西亚
+	terrain="hills"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2313={ #瑟克斯坦提翁
+	terrain="farmland"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+2314={ #涅毛苏斯
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2315={ #布里堇农
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2316={ #斯塔图耳奈
+	terrain="hills"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2317={ #乌刻提亚
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2318={ #洛达努西亚
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2319={ #阿雷拉提斯
+	terrain="farmland"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+2320={ #阿烙西翁
+	terrain="farmland"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2321={ #阿文尼翁
+	terrain="farmland"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="cloth"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=6
+	}
+	holy_site=omen_glanis
+}
+
+2322={ #卡耳彭托拉忒
+	terrain="farmland"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2323={ #庇萨维
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2324={ #武尔吉恩提翁
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2325={ #马赛利亚
+	terrain="plains"
+	culture="massalian"
+	religion="roman_pantheon"
+	trade_goods="stone"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=9
+	}
+	freemen={
+		amount=9
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="salluvian"
+		religion="druidism"
+		amount=2
+	}
+	tribesmen={
+		culture="salluvian"
+		religion="druidism"
+		amount=3
+	}
+	tribesmen={
+		culture="ligurian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	port_building=1
+}
+
+2356={ #卢德纳
+	terrain="plains"
+	culture="helvetian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2357={ #布里俄拉提斯
+	terrain="plains"
+	culture="helvetian"
+	religion="druidism"
+	trade_goods="iron"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3517={ #陶罗恩提翁
+	terrain="forest"
+	culture="massalian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="salluvian"
+		religion="druidism"
+		amount=2
+	}
+	tribesmen={
+		culture="ligurian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	port_building=1
+}
+
+3518={ #格里瑟利卡
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3519={ #瓦西翁
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+3520={ #瑟顾斯忒戎
+	terrain="forest"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3521={ #忒顾拉塔
+	terrain="forest"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+}
+
+3522={ #萨尼提翁
+	terrain="hills"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3523={ #维鲁尼亚
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3524={ #瓦品孔
+	terrain="forest"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3525={ #沃孔提俄戎
+	terrain="hills"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3526={ #达壬提亚卡
+	terrain="hills"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3527={ #沃洛伽泰
+	terrain="farmland"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+3528={ #塞琉古山
+	terrain="plains"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3529={ #里戈马顾斯
+	terrain="forest"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3530={ #穆斯提埃 卡尔墨斯
+	terrain="mountain"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="ligurian"
+		amount=2
+	}
+}
+
+3531={ #库拉罗
+	terrain="mountain"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="marble"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+3532={ #卡托里西翁
+	terrain="mountain"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3533={ #穆里萨
+	terrain="hills"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3534={ #斯金戈马顾斯
+	terrain="mountain"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="iron"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3536={ #厄部罗杜农
+	terrain="mountain"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="marble"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		culture="ligurian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		culture="ligurian"
+		religion="roman_pantheon"
+		amount=2
+	}
+}
+
+3540={ #佩耳甘提翁
+	terrain="forest"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="ligurian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="ligurian"
+		religion="roman_pantheon"
+		amount=2
+	}
+}
+
+3541={ #阿伽托姆
+	terrain="forest"
+	culture="ligurian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="salluvian"
+		religion="druidism"
+		amount=2
+	}
+}
+
+3542={ #马塔沃
+	terrain="forest"
+	culture="salluvian"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="ligurian"
+		religion="roman_pantheon"
+		amount=3
+	}
+}
+
+3543={ #安提波利斯
+	terrain="plains"
+	culture="massalian"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="ligurian"
+		religion="roman_pantheon"
+		amount=3
+	}
+	port_building=1
+}
+
+3544={ #纳维利斯
+	terrain="plains"
+	culture="ligurian"
+	religion="roman_pantheon"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+

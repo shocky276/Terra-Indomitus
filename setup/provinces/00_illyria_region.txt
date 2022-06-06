@@ -1,0 +1,1454 @@
+﻿1144={ #斯科德拉
+	terrain="forest"
+	culture="taulantian"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4018={ #的尔戈斯特
+	terrain="plains"
+	culture="histrian"
+	religion="roman_pantheon"
+	trade_goods="wine"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4019={ #帕壬提翁
+	terrain="farmland"
+	culture="histrian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4020={ #波拉
+	terrain="farmland"
+	culture="histrian"
+	religion="roman_pantheon"
+	trade_goods="wine"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+4021={ #佛拉诺纳
+	terrain="forest"
+	culture="histrian"
+	religion="roman_pantheon"
+	trade_goods="wine"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4022={ #庇昆同
+	terrain="hills"
+	culture="histrian"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4023={ #塔耳萨提卡
+	terrain="hills"
+	culture="histrian"
+	religion="roman_pantheon"
+	trade_goods="cloth"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4024={ #厄摩纳
+	terrain="mountain"
+	culture="carnian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4025={ #卡耳尼翁
+	terrain="mountain"
+	culture="carnian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+4026={ #隆加提孔
+	terrain="hills"
+	culture="carnian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4032={ #库里孔
+	terrain="hills"
+	culture="histrian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4033={ #瑟尼亚
+	terrain="hills"
+	culture="histrian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4034={ #刻耳索斯
+	terrain="hills"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		culture="histrian"
+		religion="roman_pantheon"
+		amount=2
+	}
+	slaves={
+		culture="histrian"
+		religion="roman_pantheon"
+		amount=1
+	}
+}
+
+4035={ #俄耳托普拉
+	terrain="hills"
+	culture="liburnian_culture"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4036={ #墨图隆
+	terrain="forest"
+	culture="catari"
+	religion="roman_pantheon"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4040={ #卡塔里亚的腓涅斯
+	terrain="forest"
+	culture="catari"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4042={ #赖提尼翁
+	terrain="forest"
+	culture="catari"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4043={ #克兰达忒
+	terrain="forest"
+	culture="deurian"
+	religion="roman_pantheon"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4044={ #克鲁基翁
+	terrain="hills"
+	culture="catari"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4045={ #科拉庇亚
+	terrain="forest"
+	culture="catari"
+	religion="roman_pantheon"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4046={ #瓦尔达苏斯
+	terrain="farmland"
+	culture="catari"
+	religion="roman_pantheon"
+	trade_goods="horses"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4049={ #维吉翁
+	terrain="hills"
+	culture="liburnian_culture"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4050={ #阿鲁庇翁
+	terrain="hills"
+	culture="liburnian_culture"
+	religion="roman_pantheon"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4051={ #安库斯
+	terrain="forest"
+	culture="liburnian_culture"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4052={ #基萨
+	terrain="plains"
+	culture="liburnian_culture"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4053={ #埃诺纳
+	terrain="farmland"
+	culture="liburnian_culture"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4054={ #亚得耳
+	terrain="plains"
+	culture="liburnian_culture"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+4055={ #阿耳具戎同
+	terrain="hills"
+	culture="liburnian_culture"
+	religion="roman_pantheon"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4056={ #阿瑟里亚
+	terrain="farmland"
+	culture="liburnian_culture"
+	religion="roman_pantheon"
+	trade_goods="grain"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4057={ #部耳尼翁
+	terrain="farmland"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4058={ #斯卡耳冬
+	terrain="plains"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4059={ #叙诺狄翁
+	terrain="farmland"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4060={ #特拉顾里翁
+	terrain="farmland"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="hemp"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+4061={ #斯普劳农
+	terrain="mountain"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="fur"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4062={ #萨罗奈
+	terrain="hills"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="marble"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4063={ #俄西尼翁
+	terrain="forest"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4064={ #珀尔巴
+	terrain="forest"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4065={ #萨路亚
+	terrain="hills"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4066={ #得尔弥尼翁
+	terrain="forest"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4067={ #巴里杜翁
+	terrain="forest"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4068={ #新比斯图阿
+	terrain="forest"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4069={ #马特里肯
+	terrain="forest"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4070={ #巴洛亚
+	terrain="hills"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4071={ #楼萨巴
+	terrain="hills"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4072={ #埃马忒
+	terrain="forest"
+	culture="deurian"
+	religion="roman_pantheon"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4075={ #卡斯特拉
+	terrain="plains"
+	culture="deurian"
+	religion="roman_pantheon"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4078={ #贝耳刻隆
+	terrain="hills"
+	culture="deraemestian"
+	religion="roman_pantheon"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4079={ #斯塔涅克利
+	terrain="forest"
+	culture="deraemestian"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4080={ #苏尔孚赖的阿库亚
+	terrain="forest"
+	culture="deraemestian"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4081={ #厄狄塞斯
+	terrain="hills"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4082={ #纳罗纳
+	terrain="farmland"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4083={ #狄楞同
+	terrain="farmland"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4084={ #法罗斯
+	terrain="hills"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		culture="greco_illyrian"
+		amount=2
+	}
+	slaves={
+		culture="greco_illyrian"
+		amount=2
+	}
+	port_building=1
+}
+
+4085={ #伊利里亚的厄庇道洛斯
+	terrain="hills"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="taulantian"
+		amount=1
+	}
+	tribesmen={
+		culture="taulantian"
+		amount=1
+	}
+	tribesmen={
+		culture="greco_illyrian"
+		amount=2
+	}
+	port_building=1
+}
+
+4086={ #萨尔图亚
+	terrain="forest"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="wine"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4087={ #安得耳巴
+	terrain="forest"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4088={ #里宗
+	terrain="hills"
+	culture="taulantian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4089={ #墨忒翁
+	terrain="forest"
+	culture="taulantian"
+	religion="roman_pantheon"
+	trade_goods="earthware"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4090={ #部托厄
+	terrain="hills"
+	culture="taulantian"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	port_building=1
+}
+
+4091={ #阿斯克里比翁
+	terrain="hills"
+	culture="taulantian"
+	religion="roman_pantheon"
+	trade_goods="wine"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+}
+
+4092={ #拉柏亚同
+	terrain="mountain"
+	culture="taulantian"
+	religion="roman_pantheon"
+	trade_goods="leather"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4094={ #伽部勒翁
+	terrain="forest"
+	culture="dardanian"
+	religion="roman_pantheon"
+	trade_goods="fur"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4102={ #格拉拜翁
+	terrain="mountain"
+	culture="taulantian"
+	religion="roman_pantheon"
+	trade_goods="stone"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+}
+
+4103={ #瑟瓦斯同
+	terrain="mountain"
+	culture="deraemestian"
+	religion="roman_pantheon"
+	trade_goods="horses"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+}
+
+4104={ #勒乌西尼翁
+	terrain="mountain"
+	culture="greco_illyrian"
+	religion="roman_pantheon"
+	trade_goods="stone"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4105={ #佩基纳
+	terrain="mountain"
+	culture="deraemestian"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4106={ #里瑟提亚
+	terrain="hills"
+	culture="deraemestian"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=5
+	}
+}
+
+4107={ #海冬
+	terrain="forest"
+	culture="deraemestian"
+	religion="roman_pantheon"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4121={ #格拉杜斯
+	terrain="hills"
+	culture="deraemestian"
+	religion="roman_pantheon"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4122={ #帕耳提尼亚
+	terrain="plains"
+	culture="celtic_pannonian"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4125={ #多马维亚
+	terrain="hills"
+	culture="deurian"
+	religion="roman_pantheon"
+	trade_goods="horses"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4127={ #马尔维西亚
+	terrain="hills"
+	culture="deraemestian"
+	religion="roman_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+8026={ #伊萨
+	terrain="hills"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="wine"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		culture="greco_illyrian"
+		amount=1
+	}
+	slaves={
+		culture="greco_illyrian"
+		amount=3
+	}
+	port_building=1
+}
+
+8027={ #黑科基拉
+	terrain="hills"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		culture="greco_illyrian"
+		amount=2
+	}
+	slaves={
+		culture="greco_illyrian"
+		amount=1
+	}
+	port_building=1
+}
+

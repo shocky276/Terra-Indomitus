@@ -1,0 +1,19 @@
+﻿"YMT" = {
+	country = "YMT"
+	1443 = {
+		#邪馬台領袖
+		female = yes
+		culture = wa
+		religion = wa_religions
+		no_stats = yes
+		add_martial = 3
+		add_charisma = 10
+		add_finesse = 10
+		add_zeal = 12
+		add_gold = 284
+		add_popularity = 98
+		c:YMT = {
+			set_as_ruler = char:1443
+		}
+	}
+}

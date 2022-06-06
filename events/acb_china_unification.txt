@@ -8,6 +8,18 @@ china_unification.1 = {
 		trigger_event = {
 			id = china_unified.1
 		}
+		hidden_effect = {
+			remove_country_modifier = jieshouyizuwenhua_tzjj
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				add_country_modifier = {
+					name = ai_china_unification_strengthen_buff
+					duration = 36500
+				}
+			}
+		}
 	}
 	option = {
 		name = "china_unification.1.a"		#咸阳
@@ -88,6 +100,11 @@ china_unification.1 = {
 	}
 	option = {
 		name = "china_unification.1.e"		#临淄
+		ai_chance = {
+			modifier = {
+				factor = 0
+			}
+		}
 		trigger = {
 			owns = 8504
 			NOT = {

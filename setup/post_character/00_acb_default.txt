@@ -1,0 +1,10 @@
+country = {
+	countries = {
+		QIN = {
+			governorship = {
+				region = "yi_region"
+				governor = 1414
+			}
+		}
+	}
+}

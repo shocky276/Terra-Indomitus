@@ -1,0 +1,1651 @@
+﻿1276={ #巴里亚
+	terrain="plains"
+	culture="bastetanian"
+	religion="animism"
+	trade_goods="wine"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	port_building=1
+}
+
+1278={ #乌尔基
+	terrain="hills"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="bastetanian"
+		religion="animism"
+		amount=10
+	}
+	port_building=1
+}
+
+1282={ #穆耳吉
+	terrain="hills"
+	culture="bastetanian"
+	religion="animism"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+1283={ #阿卜达拉特
+	terrain="hills"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="wood"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="bastetanian"
+		religion="animism"
+		amount=1
+	}
+	port_building=1
+}
+
+1284={ #阿部拉
+	terrain="plains"
+	culture="bastetanian"
+	religion="animism"
+	trade_goods="base_metals"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+1285={ #阿基斯
+	terrain="hills"
+	culture="bastetanian"
+	religion="animism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1286={ #伊卢戈
+	terrain="hills"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="precious_metals"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1287={ #萨拉里亚
+	terrain="hills"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="precious_metals"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	holy_site=omen_semnocosus
+}
+
+1339={ #普赖西迪翁
+	terrain="plains"
+	culture="turdetanian"
+	religion="carthaginian_pantheon"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1340={ #鲁布拉斯
+	terrain="plains"
+	culture="turdetanian"
+	religion="carthaginian_pantheon"
+	trade_goods="olive"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1341={ #塔耳忒索斯
+	terrain="plains"
+	culture="turdetanian"
+	religion="carthaginian_pantheon"
+	trade_goods="salt"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+	port_building=1
+}
+
+1342={ #墨涅斯忒俄斯门
+	terrain="marsh"
+	culture="massalian"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="turdetanian"
+		religion="animism"
+		amount=3
+	}
+	port_building=1
+}
+
+1343={ #纳布里萨
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="grain"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1344={ #阿伽迪尔
+	terrain="plains"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="spices"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=6
+	}
+	port_building=1
+}
+
+1345={ #墨耳伽比伦
+	terrain="plains"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="cattle"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1346={ #阿西多
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1347={ #柏洛
+	terrain="plains"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="fish"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+1348={ #迦太
+	terrain="hills"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="dye"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	tribesmen={
+		culture="turdetanian"
+		religion="animism"
+		amount=2
+	}
+	port_building=1
+}
+
+1349={ #俄诺巴
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1350={ #拉基波
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1351={ #图里雷基纳
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1352={ #俄库里
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+1353={ #乌耳吉亚
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="earthware"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1354={ #卡里萨
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1355={ #希斯帕利斯
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="grain"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1356={ #伊塔利卡
+	terrain="farmland"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1357={ #俄瑟特
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="horses"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1358={ #俄隆提吉
+	terrain="farmland"
+	culture="turdetanian"
+	religion="carthaginian_pantheon"
+	trade_goods="leather"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1359={ #伊尔浦拉
+	terrain="farmland"
+	culture="turdetanian"
+	religion="carthaginian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1360={ #卢库耳根同
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="wine"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1361={ #苏厄尔
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="dye"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1362={ #马拉卡
+	terrain="hills"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="salt"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	citizen={
+		culture="massalian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		culture="bastetanian"
+		religion="animism"
+		amount=2
+	}
+	port_building=1
+}
+
+1363={ #卡耳提马
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1364={ #阿戎达
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1365={ #涅斯卡尼亚
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1366={ #迈纳刻
+	terrain="hills"
+	culture="bastetanian"
+	religion="animism"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1367={ #塞克西
+	terrain="hills"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
+	trade_goods="iron"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="bastetanian"
+		religion="animism"
+		amount=2
+	}
+}
+
+1368={ #伊耳尼
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="stone"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1369={ #乌耳索
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="wood"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1370={ #巴西利波
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="wood"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1371={ #阿斯提吉
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1372={ #瑟吉达
+	terrain="farmland"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="stone"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1373={ #奈瓦
+	terrain="farmland"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1374={ #卡耳摩
+	terrain="farmland"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1375={ #劳罗
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="stone"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1376={ #萨贝塔农
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1377={ #科耳杜巴
+	terrain="farmland"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="grain"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1378={ #厄波拉
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="grain"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1379={ #苏基亚
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="cattle"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1380={ #伊西图耳吉斯
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="fish"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1381={ #卡斯图洛
+	terrain="plains"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1382={ #维瓦提亚
+	terrain="hills"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="precious_metals"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1383={ #伊利图耳吉斯
+	terrain="plains"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1384={ #柏库拉
+	terrain="hills"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="leather"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1385={ #厄尔维拉
+	terrain="hills"
+	culture="bastetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1386={ #尤利乌斯的克拉里塔斯
+	terrain="farmland"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="grain"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1387={ #伊图基
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="base_metals"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1388={ #安提卡里亚
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="stone"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1389={ #革墨拉斯
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1390={ #伊加布戎
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1391={ #基辛布里翁
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1392={ #安忒卡里亚
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1393={ #伊波科部尔科拉
+	terrain="hills"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="wine"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1394={ #伊利图耳吉科拉
+	terrain="hills"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="spices"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1395={ #图基
+	terrain="hills"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="leather"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1396={ #维耳吉利亚
+	terrain="hills"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1397={ #厄部拉
+	terrain="hills"
+	culture="bastetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1398={ #卡勒库拉
+	terrain="hills"
+	culture="bastetanian"
+	religion="animism"
+	trade_goods="wine"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1399={ #柏苏基
+	terrain="hills"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="wood"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1401={ #乌顾尔图尼亚
+	terrain="hills"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1402={ #佩耳刻亚纳
+	terrain="plains"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="cloth"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1403={ #卡斯庇亚纳
+	terrain="plains"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="cloth"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1404={ #佛拉维翁 维拉雷斯
+	terrain="hills"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="vegetables"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1405={ #雷吉纳
+	terrain="hills"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1407={ #尤利帕
+	terrain="plains"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1408={ #福耳纳基斯
+	terrain="plains"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="grain"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1409={ #穆尼瓜
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1410={ #库里伽
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="iron"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1411={ #伊波耳卡
+	terrain="farmland"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1412={ #拉库尼斯
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="wine"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1414={ #福迪奈
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="wine"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1415={ #塔耳西斯
+	terrain="farmland"
+	culture="turdetanian"
+	religion="carthaginian_pantheon"
+	trade_goods="iron"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1416={ #西库斯泉
+	terrain="forest"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1417={ #阿鲁基
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="olive"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1418={ #瑟里亚
+	terrain="hills"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="horses"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1419={ #下图耳杜利亚
+	terrain="forest"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1420={ #瓦耳纳
+	terrain="plains"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+1421={ #卢瑟里翁
+	terrain="plains"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1424={ #迪波
+	terrain="plains"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1429={ #下凯尔特卡
+	terrain="plains"
+	culture="celtician"
+	religion="druidism"
+	trade_goods="olive"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1436={ #墨忒利农
+	terrain="plains"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="cloth"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1441={ #墨拉里亚
+	terrain="hills"
+	culture="turdulian"
+	religion="animism"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1442={ #贝提卡的马里亚纳
+	terrain="plains"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="vegetables"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1446={ #得西蒙
+	terrain="hills"
+	culture="turdetanian"
+	religion="animism"
+	trade_goods="marble"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1447={ #马里亚努斯山
+	terrain="hills"
+	culture="oretanian"
+	religion="animism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+

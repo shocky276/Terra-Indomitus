@@ -14,3 +14,12 @@
  enfeoffment_zhourites_consort:0 "王后"
  enfeoffment_zhourites_ruler:0 "天子"
  enfeoffment_zhourites_ruler_female:0 "天子"
+ #chinese_duhufu
+ chinese_duhufu:0 "都护府"
+ chinese_duhufu_desc:0 "都护府是中原王朝为监护边境各民族而设置的军事机关，都护府长官称为都护。“都护”一词为汉语，“都”为全部，“护”为带兵监护，“都护”即为“总监护”之意。"
+ chinese_duhufu_consort:0 "都护"
+ chinese_duhufu_ruler:0 "都护"
+ chinese_duhufu_governor:0 "校尉"
+ chinese_empire_ruler_female:0 "都护"
+ chinese_empire_general:0 "校尉"
+ chinese_empire_admiral:0 "水军校尉"

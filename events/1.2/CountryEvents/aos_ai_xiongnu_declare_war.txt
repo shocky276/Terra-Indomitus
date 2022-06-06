@@ -254,12 +254,10 @@ aos_ai_xiongnu_declare_war.5 = {
 	picture = xiongnu_cavalry
 
 	trigger = {
-		scope:xiongnu_declare_war_loop_target_country = {
-			NOT = {
-				has_variable = tribute_to_nomads
-				has_variable = nomads_loop_event_triggered
-				war_with = scope:xiongnu_country
-			}
+		NOT = {
+			has_variable = tribute_to_nomads
+			has_variable = nomads_loop_event_triggered
+			war_with = scope:xiongnu_country
 		}
 	}
 

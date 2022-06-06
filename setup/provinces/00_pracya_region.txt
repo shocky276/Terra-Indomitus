@@ -1,0 +1,1844 @@
+﻿4440={ #波多利弗多罗
+	terrain="farmland"
+	culture="magadhi"
+	religion="buddhism"
+	trade_goods="silk"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city_metropolis"
+	nobles={
+		amount=8
+	}
+	citizen={
+		amount=31
+	}
+	freemen={
+		amount=14
+	}
+	slaves={
+		amount=19
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+4442={ #那烂陀
+	terrain="plains"
+	culture="magadhi"
+	religion="buddhism"
+	trade_goods="papyrus"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4443={ #捺提迦笈摩
+	terrain="farmland"
+	culture="magadhi"
+	religion="buddhism"
+	trade_goods="silk"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=7
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4444={ #伽耶
+	terrain="jungle"
+	culture="magadhi"
+	religion="buddhism"
+	trade_goods="papyrus"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_bodh
+}
+
+4445={ #王舍城
+	terrain="jungle"
+	culture="magadhi"
+	religion="buddhism"
+	trade_goods="iron"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=9
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4446={ #瞻波
+	terrain="jungle"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="precious_metals"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=11
+	}
+	freemen={
+		amount=12
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4447={ #羯朱嗢祗罗
+	terrain="jungle"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="precious_metals"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=11
+	}
+	freemen={
+		amount=10
+	}
+	slaves={
+		amount=8
+	}
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+4448={ #毗舍离
+	terrain="farmland"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="cloth"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=14
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		amount=10
+	}
+}
+
+4459={ #钵多那
+	terrain="mountain"
+	culture="himalayan"
+	religion="buddhism"
+	trade_goods="earthware"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=12
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4460={ #苏乔那
+	terrain="jungle"
+	culture="himalayan"
+	religion="hindu"
+	trade_goods="wild_game"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4461={ #陀伐槃伽
+	terrain="plains"
+	culture="magadhi"
+	religion="buddhism"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4462={ #母陀伽祇梨
+	terrain="farmland"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="base_metals"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=13
+	}
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4463={ #末利尼
+	terrain="jungle"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="leather"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_mahavir_jayanti
+}
+
+4464={ #提婆钵罗湿他 
+	terrain="jungle"
+	culture="himalayan"
+	religion="hindu"
+	trade_goods="elephants"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+5587={ #珠穆朗玛
+	terrain="mountain"
+	culture="himalayan"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+5628={ #巴卓 吉珠
+	terrain="mountain"
+	culture="himalayan"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7322={ #补梨那
+	terrain="farmland"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7323={ #吉拉狄亚
+	terrain="jungle"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7324={ #婆梨补罗
+	terrain="plains"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="silk"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7325={ #奔陀罗
+	terrain="farmland"
+	culture="bangli"
+	religion="buddhism"
+	trade_goods="earthware"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7326={ #朅帝伐娑
+	terrain="farmland"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="earthware"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7327={ #羯罗拏苏伐剌那
+	terrain="jungle"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="silk"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=14
+	}
+	freemen={
+		amount=18
+	}
+	slaves={
+		amount=17
+	}
+}
+
+7328={ #筏驮摩那
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7329={ #阐陀罗鸡都揭诃
+	terrain="marsh"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7330={ #跋祇尸
+	terrain="marsh"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="cloth"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=10
+	}
+}
+
+7331={ #遮多瞿罗摩
+	terrain="marsh"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="fish"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+7332={ #娑罗梨伽
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="wild_game"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+7333={ #室利诃多
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="incense"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=10
+	}
+}
+
+7334={ #毘拘岚补罗
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="wine"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7335={ #苏槃那瞿罗
+	terrain="plains"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="cloth"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7336={ #奢蓝补罗
+	terrain="jungle"
+	culture="bangli"
+	religion="buddhism"
+	trade_goods="wine"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7337={ #阿伽那揭罗
+	terrain="jungle"
+	culture="bangli"
+	religion="buddhism"
+	trade_goods="grain"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7338={ #提乌袪梨
+	terrain="jungle"
+	culture="magadhi"
+	religion="jainism"
+	trade_goods="iron"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7339={ #钵洛殊帝湿补罗
+	terrain="hills"
+	culture="kamarupi"
+	religion="hindu"
+	trade_goods="incense"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+7340={ #苏诃摩
+	terrain="plains"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="wine"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+7341={ #舍尼多补罗
+	terrain="jungle"
+	culture="kamarupi"
+	religion="bon_religion"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7342={ #诃殊
+	terrain="jungle"
+	culture="kamarupi"
+	religion="hindu"
+	trade_goods="vegetables"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7343={ #杜布里
+	terrain="jungle"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7344={ #戈尔帕拉
+	terrain="jungle"
+	culture="kamarupi"
+	religion="hindu"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7345={ #那婆陀鼻波
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="dye"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=11
+	}
+	freemen={
+		amount=11
+	}
+	slaves={
+		amount=13
+	}
+}
+
+7346={ #跋伽婆
+	terrain="jungle"
+	culture="kamarupi"
+	religion="bon_religion"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+7347={ #薄罗迦
+	terrain="hills"
+	culture="kamarupi"
+	religion="bon_religion"
+	trade_goods="incense"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7348={ #踏博迦
+	terrain="hills"
+	culture="kamarupi"
+	religion="hindu"
+	trade_goods="incense"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7349={ #瞿剌迷罗
+	terrain="jungle"
+	culture="kamarupi"
+	religion="hindu"
+	trade_goods="elephants"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=11
+	}
+}
+
+7350={ #瞿湿罗
+	terrain="jungle"
+	culture="kamarupi"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7351={ #阇波
+	terrain="jungle"
+	culture="kamarupi"
+	religion="bon_religion"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+7352={ #都卢波
+	terrain="jungle"
+	culture="kamarupi"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7353={ #鞞因瞿摩罗
+	terrain="jungle"
+	culture="kamarupi"
+	religion="bon_religion"
+	trade_goods="elephants"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7354={ #娑提耶
+	terrain="hills"
+	culture="kamarupi"
+	religion="bon_religion"
+	trade_goods="incense"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+7355={ #度蓊伽
+	terrain="mountain"
+	culture="kamarupi"
+	religion="bon_religion"
+	trade_goods="vegetables"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+7356={ #羯曼多
+	terrain="marsh"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="incense"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=7
+	}
+	port_building=1
+}
+
+7358={ #拘呼利那
+	terrain="marsh"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="cloth"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7359={ #牟军陀
+	terrain="plains"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7360={ #悉多
+	terrain="plains"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7364={ #曼浮喃
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="wood"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
+	}
+	holy_site=omen_parshvanatha
+}
+
+7365={ #罗达
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="spices"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=4
+	}
+}
+
+7367={ #薄伽陀多补岚
+	terrain="farmland"
+	culture="magadhi"
+	religion="buddhism"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7368={ #耶槃那
+	terrain="jungle"
+	culture="magadhi"
+	religion="jainism"
+	trade_goods="elephants"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=4
+	}
+}
+
+7383={ #基闪
+	terrain="jungle"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="elephants"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7392={ #伐折罗
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="elephants"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=6
+	}
+}
+
+7393={ #迦湿补罗
+	terrain="marsh"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="fish"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7394={ #筏他婆陀
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="cloth"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+7395={ #跋梨萨利
+	terrain="marsh"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="earthware"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=8
+	}
+	tribesmen={
+		amount=11
+	}
+}
+
+7396={ #婆祇梨诃多
+	terrain="marsh"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="fur"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7397={ #逝输丽
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="vegetables"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7398={ #拘湿帝耶
+	terrain="plains"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="cloth"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7400={ #阇耶补罗
+	terrain="jungle"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="iron"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7401={ #岚伽帝
+	terrain="marsh"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="fish"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7479={ #娑摩湿帝补罗
+	terrain="farmland"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7480={ #索喝罗娑
+	terrain="farmland"
+	culture="magadhi"
+	religion="buddhism"
+	trade_goods="cloth"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7481={ #苏褒罗
+	terrain="plains"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="dye"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7486={ #弥絺罗
+	terrain="jungle"
+	culture="himalayan"
+	religion="hindu"
+	trade_goods="earthware"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7487={ #毘阇利补罗
+	terrain="hills"
+	culture="himalayan"
+	religion="hindu"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7488={ #吠他提波
+	terrain="plains"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="cloth"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7489={ #毘梨健夷
+	terrain="jungle"
+	culture="himalayan"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7490={ #那揭补罗
+	terrain="plains"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+7491={ #室利弗
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7493={ #婆烂陀罗
+	terrain="farmland"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="earthware"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=7
+	}
+	tribesmen={
+		amount=7
+	}
+	port_building=1
+}
+
+7494={ #度剌伽补罗
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="incense"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7495={ #医揭缕信度罗
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7496={ #薄露迦
+	terrain="jungle"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="wild_game"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7497={ #掊帝耶
+	terrain="farmland"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7498={ #末陀
+	terrain="farmland"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7499={ #布罗舍
+	terrain="farmland"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7650={ #伊塔哈尔
+	terrain="plains"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7651={ #婆露罗袪多
+	terrain="farmland"
+	culture="bangli"
+	religion="hindu"
+	trade_goods="vegetables"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7652={ #瞿娑尼末梨
+	terrain="jungle"
+	culture="kamarupi"
+	religion="hindu"
+	trade_goods="incense"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7653={ #迦末多的摩那舍
+	terrain="hills"
+	culture="kamarupi"
+	religion="hindu"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7654={ #托俱洛笈伐
+	terrain="plains"
+	culture="magadhi"
+	religion="hindu"
+	trade_goods="cloth"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7655={ #徙利惧梨
+	terrain="jungle"
+	culture="himalayan"
+	religion="hindu"
+	trade_goods="elephants"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7656={ #陀莫
+	terrain="hills"
+	culture="himalayan"
+	religion="hindu"
+	trade_goods="incense"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7659={ #末檀补罗
+	terrain="jungle"
+	culture="magadhi"
+	religion="buddhism"
+	trade_goods="grain"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9776={ #娑提耶东
+	terrain="jungle"
+	culture="pubu"
+	religion="bon_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+

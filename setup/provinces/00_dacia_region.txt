@@ -1,0 +1,2066 @@
+﻿4210={ #迪厄耳纳
+	terrain="hills"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="iron"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4211={ #德罗贝塔
+	terrain="marsh"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4260={ #阿耳基达瓦兵营
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4261={ #浦忒阿
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4262={ #潘诺尼俄斯
+	terrain="hills"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4263={ #斯科耳孚拉斯
+	terrain="hills"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="iron"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4264={ #提比斯孔
+	terrain="hills"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4265={ #部巴利的卡浦特
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4266={ #萨尔敦西亚的罗穆拉
+	terrain="forest"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4267={ #新卡斯特里斯
+	terrain="forest"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4268={ #阿基达瓦
+	terrain="forest"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4269={ #鲁西达瓦
+	terrain="marsh"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4270={ #佩楞达瓦
+	terrain="forest"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4271={ #孔佛卢恩提亚纳
+	terrain="marsh"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4272={ #阿卢提桥
+	terrain="marsh"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="base_metals"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4273={ #部里达瓦
+	terrain="marsh"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="base_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=9
+	}
+}
+
+4274={ #马尔文西斯的孔佛卢恩提亚
+	terrain="marsh"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4275={ #穆特里翁
+	terrain="hills"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4276={ #比斯特里塔兵营
+	terrain="forest"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4277={ #萨尔基亚
+	terrain="marsh"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4278={ #阿穆特里亚
+	terrain="forest"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4279={ #冬布拉瓦
+	terrain="farmland"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="base_metals"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4280={ #阿鲁忒拉
+	terrain="hills"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4281={ #斯忒纳戎的卡浦特
+	terrain="farmland"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4282={ #萨耳弥泽革图萨
+	terrain="forest"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4283={ #伊斯克罗尼亚
+	terrain="hills"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4284={ #部基翁
+	terrain="hills"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4285={ #佩特里斯
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4286={ #布兰迪亚纳
+	terrain="hills"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4287={ #得基达瓦
+	terrain="hills"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4288={ #弥基亚
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="iron"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4289={ #安佩隆
+	terrain="hills"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="iron"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4290={ #齐里达瓦
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4291={ #阿浦隆
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="precious_metals"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+4292={ #科弥达瓦
+	terrain="hills"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4293={ #拉弥达瓦
+	terrain="hills"
+	culture="ratacensi"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+4294={ #安顾斯提亚
+	terrain="hills"
+	culture="ratacensi"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4295={ #刻多尼亚
+	terrain="forest"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4296={ #齐达瓦
+	terrain="farmland"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="gems"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4297={ #波罗利森西斯的萨利奈
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4298={ #米底亚
+	terrain="forest"
+	culture="ratacensi"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4299={ #阿浦楞西斯的得瓦
+	terrain="forest"
+	culture="buridavensi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4500={ #哈耳吉塔
+	terrain="forest"
+	culture="ratacensi"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4501={ #斯忒纳戎的卡浦特
+	terrain="forest"
+	culture="ratacensi"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4502={ #山达瓦
+	terrain="hills"
+	culture="ratacensi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4503={ #马耳科达瓦
+	terrain="farmland"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4504={ #布览科纳
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="salt"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4505={ #波泰萨
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4506={ #纳波卡
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4507={ #阿耳科巴拉
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="salt"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4508={ #萨蒙
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4509={ #波罗利宋
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4510={ #雷斯库隆
+	terrain="hills"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+4511={ #俄普塔提亚纳
+	terrain="forest"
+	culture="caucoensi"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4801={ #波隆达瓦
+	terrain="plains"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4802={ #阿伽鲁西亚
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4803={ #剌密达瓦
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4804={ #布里托拉吉亚
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+4805={ #科忒西亚
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4806={ #科忒西亚纳
+	terrain="marsh"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4807={ #伊斯忒里亚
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4808={ #伊斯忒里亚纳
+	terrain="marsh"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4809={ #庇厄腓吉亚
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4810={ #庇厄腓吉亚纳
+	terrain="farmland"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4811={ #索耳努斯
+	terrain="farmland"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="honey"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4812={ #森西亚
+	terrain="plains"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4813={ #森西亚纳
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4814={ #涅廷达瓦
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4815={ #庇戎
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+4816={ #纳浦卡
+	terrain="plains"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4817={ #提亚宋
+	terrain="plains"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4818={ #庇尼翁
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4819={ #俄耳得西亚
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4820={ #基亚吉西亚
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4821={ #阿耳得斯库斯
+	terrain="hills"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4822={ #基亚吉西亚纳
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4823={ #提里斯孔
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4824={ #罗克索拉尼亚的孔佛卢恩提亚
+	terrain="hills"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4825={ #蒙提部斯
+	terrain="hills"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4826={ #特里科弥翁
+	terrain="plains"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4827={ #勒得拉塔
+	terrain="plains"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4828={ #罗马之墙
+	terrain="plains"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4829={ #浦忒阿的肯同
+	terrain="plains"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4830={ #马斯基亚奈
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4831={ #瑟克斯同
+	terrain="farmland"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4832={ #提比耳西亚
+	terrain="farmland"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4833={ #贝耳索维亚
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4834={ #利克西西斯
+	terrain="plains"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4835={ #阿尔玻肯西亚
+	terrain="plains"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4836={ #伊阿卒吉亚的齐里达瓦
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4837={ #波图拉屯西亚
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4838={ #波图拉屯西亚纳
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4839={ #格里西亚
+	terrain="hills"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4840={ #祖洛巴拉
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4841={ #马里西亚
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4851={ #克里西亚
+	terrain="forest"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4853={ #阿纳耳提亚
+	terrain="forest"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4856={ #克里西亚纳
+	terrain="forest"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4857={ #提西亚
+	terrain="forest"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4858={ #墨塔纳斯提亚
+	terrain="forest"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4859={ #墨塔纳斯提亚纳
+	terrain="forest"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4860={ #达契亚的奥拉里亚
+	terrain="forest"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4861={ #斯塔图亚
+	terrain="hills"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	holy_site=omen_zalmoxis
+}
+
+4875={ #安提亚
+	terrain="hills"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4876={ #俄巴提斯
+	terrain="plains"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+4877={ #墨巴图农
+	terrain="forest"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4878={ #阿玻里西亚
+	terrain="hills"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4879={ #马巴托戎
+	terrain="hills"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4880={ #比拉提斯
+	terrain="plains"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4881={ #伊科涅亚
+	terrain="forest"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4882={ #俄拉忒
+	terrain="forest"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4883={ #沃科尼斯
+	terrain="plains"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4884={ #阿克罗诺杜弥亚
+	terrain="plains"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4885={ #托利同
+	terrain="plains"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4886={ #俄部托拉
+	terrain="hills"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4888={ #多隆
+	terrain="hills"
+	culture="biephi"
+	religion="shamanism"
+	trade_goods="precious_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4905={ #帕特里达瓦
+	terrain="hills"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4906={ #佩特罗达瓦
+	terrain="hills"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="precious_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4907={ #维达瓦
+	terrain="forest"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4908={ #马利忒斯
+	terrain="hills"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4909={ #乌提达瓦
+	terrain="hills"
+	culture="ratacensi"
+	religion="shamanism"
+	trade_goods="hemp"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4910={ #阿提达瓦
+	terrain="hills"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4911={ #塔马西达瓦
+	terrain="hills"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	holy_site=omen_bendis
+}
+
+4913={ #庇罗玻里达瓦
+	terrain="forest"
+	culture="getian"
+	religion="shamanism"
+	trade_goods="hemp"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4926={ #杜雷
+	terrain="hills"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4927={ #弥塔里翁
+	terrain="hills"
+	culture="costoboci"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+

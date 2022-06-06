@@ -1,0 +1,1927 @@
+﻿2000={ #得文提亚斯忒诺
+	terrain="forest"
+	culture="dumnonian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2001={ #福耳提斯之墙
+	terrain="forest"
+	culture="dumnonian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2002={ #赫拉克琉斯海角
+	terrain="forest"
+	culture="dumnonian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2003={ #冬诺尼亚的伊斯卡
+	terrain="plains"
+	culture="dumnonian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=9
+	}
+	port_building=1
+}
+
+2004={ #涅墨提亚
+	terrain="forest"
+	culture="dumnonian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2005={ #伊斯卡利斯
+	terrain="forest"
+	culture="dumnonian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2006={ #俄尔科农
+	terrain="farmland"
+	culture="dumnonian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2007={ #杜耳诺瓦里亚
+	terrain="forest"
+	culture="durotrigan"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+2008={ #林迪尼斯
+	terrain="plains"
+	culture="dumnonian"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2009={ #苏利斯的阿库埃
+	terrain="farmland"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2010={ #温多克拉迪亚
+	terrain="forest"
+	culture="durotrigan"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2011={ #索耳维俄杜农
+	terrain="farmland"
+	culture="durotrigan"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2012={ #库涅提翁
+	terrain="plains"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2013={ #文塔
+	terrain="forest"
+	culture="durotrigan"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+2014={ #维克提斯
+	terrain="forest"
+	culture="durotrigan"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2015={ #楼科马顾斯
+	terrain="farmland"
+	culture="durotrigan"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2016={ #卡勒瓦
+	terrain="plains"
+	culture="durotrigan"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2017={ #杜罗特里吉奥鲁姆的诺维俄马顾斯
+	terrain="plains"
+	culture="durotrigan"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2018={ #蓬忒斯
+	terrain="marsh"
+	culture="trinovantian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2019={ #新波耳图斯
+	terrain="forest"
+	culture="cantian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2020={ #安得里同
+	terrain="forest"
+	culture="cantian"
+	religion="druidism"
+	trade_goods="iron"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2021={ #杜罗维耳农
+	terrain="plains"
+	culture="cantian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=8
+	}
+	port_building=1
+}
+
+2022={ #隆迪尼翁
+	terrain="farmland"
+	culture="trinovantian"
+	religion="druidism"
+	trade_goods="wild_game"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+	port_building=1
+}
+
+2023={ #瓦格尼亚基斯
+	terrain="forest"
+	culture="cantian"
+	religion="druidism"
+	trade_goods="amber"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2024={ #阿玻纳
+	terrain="plains"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2025={ #维耳卢克基翁
+	terrain="plains"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2026={ #杜罗科耳诺维翁
+	terrain="plains"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2027={ #维鲁拉弥翁
+	terrain="plains"
+	culture="trinovantian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2028={ #卡穆洛杜农
+	terrain="forest"
+	culture="trinovantian"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+2029={ #科姆布雷托维翁
+	terrain="plains"
+	culture="trinovantian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2030={ #西诺马顾斯
+	terrain="plains"
+	culture="trinovantian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2031={ #布拉诺杜农
+	terrain="plains"
+	culture="iceni"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2032={ #爱西尼亚的文塔
+	terrain="plains"
+	culture="iceni"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+2033={ #伽里亚诺农
+	terrain="plains"
+	culture="iceni"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2034={ #坎玻里同
+	terrain="marsh"
+	culture="iceni"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2035={ #布拉穆洛维翁
+	terrain="marsh"
+	culture="iceni"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2036={ #阿斯帕利托戎
+	terrain="plains"
+	culture="trinovantian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2037={ #得涅维亚
+	terrain="marsh"
+	culture="iceni"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2038={ #诺维俄马顾斯
+	terrain="farmland"
+	culture="cantian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2039={ #科里尼翁
+	terrain="plains"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="iron"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2040={ #格勒翁
+	terrain="forest"
+	culture="demetian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+	port_building=1
+}
+
+2041={ #阿拉乌纳
+	terrain="plains"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2042={ #温多弥斯
+	terrain="farmland"
+	culture="cantian"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2043={ #马吉俄维尼翁
+	terrain="farmland"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2044={ #拉克托多戎
+	terrain="forest"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2045={ #班纳文塔
+	terrain="farmland"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2046={ #墨迪俄拉农
+	terrain="plains"
+	culture="cornovian"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2047={ #得瓦
+	terrain="farmland"
+	culture="cornovian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+2048={ #阿劳纳
+	terrain="farmland"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2049={ #维耳提斯
+	terrain="plains"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+2050={ #俄耳多维基亚的孔达忒
+	terrain="plains"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2051={ #杜罗利蓬忒
+	terrain="plains"
+	culture="iceni"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2052={ #杜罗维顾同
+	terrain="marsh"
+	culture="iceni"
+	religion="druidism"
+	trade_goods="iron"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2053={ #杜罗布里外
+	terrain="marsh"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2054={ #拉泰
+	terrain="plains"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2055={ #曼杜厄斯瑟杜姆
+	terrain="plains"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2056={ #勒托刻同
+	terrain="plains"
+	culture="cornovian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2057={ #班诺瓦隆
+	terrain="plains"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2058={ #林冬
+	terrain="plains"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2059={ #维罗科尼翁
+	terrain="plains"
+	culture="cornovian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2060={ #萨维孔
+	terrain="plains"
+	culture="cornovian"
+	religion="druidism"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2061={ #多耳恩
+	terrain="farmland"
+	culture="dobunnian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2062={ #维耳涅墨同
+	terrain="forest"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2063={ #考森奈
+	terrain="marsh"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2064={ #科耳诺维亚的萨利奈
+	terrain="farmland"
+	culture="cornovian"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2065={ #得耳本提俄
+	terrain="forest"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2066={ #阿耳涅墨提亚的阿库亚
+	terrain="forest"
+	culture="cornovian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2067={ #达农
+	terrain="marsh"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2068={ #佩图阿里亚
+	terrain="plains"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2069={ #拉根提翁
+	terrain="marsh"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2070={ #马穆基翁
+	terrain="farmland"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2071={ #科基翁
+	terrain="plains"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2072={ #布雷墨屯纳孔
+	terrain="hills"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2073={ #瑟坦提俄戎港
+	terrain="forest"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2074={ #维耳柏亚
+	terrain="hills"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2075={ #厄玻拉孔
+	terrain="marsh"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+2076={ #得耳文提翁
+	terrain="marsh"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2077={ #伊苏里翁
+	terrain="marsh"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2078={ #卡塔拉克托尼翁
+	terrain="forest"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2079={ #迪克提翁
+	terrain="plains"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="cloth"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2080={ #卡卢尼翁
+	terrain="hills"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2081={ #加拉瓦
+	terrain="forest"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2082={ #加布罗森同
+	terrain="forest"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2083={ #卢顾瓦利翁
+	terrain="forest"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2084={ #布罗卡翁
+	terrain="hills"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2085={ #维诺维亚
+	terrain="forest"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="iron"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2087={ #温多拉瓦
+	terrain="forest"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2088={ #维罗西冬
+	terrain="hills"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2092={ #部耳里翁
+	terrain="forest"
+	culture="demetian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2093={ #玻耳尼翁
+	terrain="forest"
+	culture="demetian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2094={ #尼冬
+	terrain="forest"
+	culture="demetian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2095={ #摩里杜农
+	terrain="forest"
+	culture="demetian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2096={ #多劳科提
+	terrain="forest"
+	culture="demetian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2097={ #基库基翁
+	terrain="hills"
+	culture="demetian"
+	religion="druidism"
+	trade_goods="cloth"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2098={ #戈班尼翁
+	terrain="plains"
+	culture="demetian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2099={ #俄克塔庇塔戎海角
+	terrain="forest"
+	culture="demetian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2100={ #马格尼斯
+	terrain="forest"
+	culture="ordovitian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2101={ #布拉沃尼翁
+	terrain="hills"
+	culture="ordovitian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2102={ #勒沃布林塔
+	terrain="hills"
+	culture="ordovitian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2103={ #卡罗纳
+	terrain="forest"
+	culture="ordovitian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2104={ #干伽农海角
+	terrain="forest"
+	culture="ordovitian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2105={ #瑟贡提翁
+	terrain="forest"
+	culture="ordovitian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+	holy_site=omen_toutatis
+}
+
+2106={ #卡诺维翁
+	terrain="plains"
+	culture="ordovitian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2107={ #普莱尼翁
+	terrain="hills"
+	culture="ordovitian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3057={ #赫苏隆
+	terrain="marsh"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+3058={ #卡尔卡里亚
+	terrain="forest"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3059={ #布拉沃尼亚孔
+	terrain="hills"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3060={ #温多兰达
+	terrain="hills"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5432={ #拉瓦特赖
+	terrain="mountain"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5433={ #卢图达戎
+	terrain="hills"
+	culture="coritani"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5434={ #里戈杜农
+	terrain="mountain"
+	culture="brigantic"
+	religion="druidism"
+	trade_goods="wild_game"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+

@@ -1,4 +1,4 @@
-version="1.7.0"
+version="0.01"
 tags={
 	"Characters"
 	"Flags"
@@ -10,6 +10,6 @@ tags={
 	"Unit Graphics"
 	"Unit Types"
 }
-name="直到世界尽头"
+name="Terra Indomitus"
 supported_version="2.0.3"
-remote_file_id="2501265160"
+remote_file_id=""

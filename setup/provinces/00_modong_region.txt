@@ -1,0 +1,805 @@
+﻿8652={ #且如
+	terrain="steppe"
+	culture="chanlan"
+	religion="hu_religions"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+8751={ #造阳南
+	terrain="steppe"
+	culture="chanlan"
+	religion="hu_religions"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8760={ #白檀
+	terrain="hills"
+	culture="donghu"
+	religion="hu_religions"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8766={ #白狼
+	terrain="hills"
+	culture="donghu"
+	religion="hu_religions"
+	trade_goods="iron"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+8767={ #字
+	terrain="hills"
+	culture="donghu"
+	religion="hu_religions"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8768={ #平刚
+	terrain="dry_hills"
+	culture="donghu"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9382={ #漠南
+	terrain="impassable_terrain"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9383={ #东胡
+	terrain="impassable_terrain"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9384={ #大鲜卑山
+	terrain="impassable_terrain"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9386={ #北沃沮
+	terrain="impassable_terrain"
+	culture="woju"
+	religion="yi_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9521={ #黑水上游
+	terrain="steppe"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9522={ #大鲜卑山西麓北
+	terrain="taiga"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9523={ #大鲜卑山西麓中
+	terrain="steppe"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9524={ #大鲜卑山西麓南
+	terrain="steppe"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="cloth"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9526={ #饶乐
+	terrain="hills"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="base_metals"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9527={ #饶乐水西
+	terrain="hills"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9528={ #饶乐水东
+	terrain="steppe"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9529={ #饶乐水北
+	terrain="steppe"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9530={ #大辽水北
+	terrain="steppe"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9531={ #辽东草原
+	terrain="impassable_terrain"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9532={ #饶乐山脉
+	terrain="impassable_terrain"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9533={ #大泽南
+	terrain="steppe"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="earthware"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9534={ #大泽北
+	terrain="steppe"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9535={ #乌桓山北
+	terrain="steppe"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9536={ #乌桓山南
+	terrain="steppe"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9538={ #大漠东
+	terrain="desert"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="spices"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9539={ #饶乐南
+	terrain="steppe"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="amber"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9540={ #参柳北
+	terrain="steppe"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="earthware"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9541={ #扶余
+	terrain="plains"
+	culture="fuyu"
+	religion="yi_religions"
+	trade_goods="spices"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9542={ #粟末
+	terrain="mountain"
+	culture="huifa"
+	religion="yi_religions"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9543={ #徒太
+	terrain="mountain"
+	culture="huifa"
+	religion="yi_religions"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9544={ #白山
+	terrain="mountain"
+	culture="sushen"
+	religion="yi_religions"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9545={ #伯咄
+	terrain="forest"
+	culture="fuyu"
+	religion="yi_religions"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9546={ #安车骨
+	terrain="taiga"
+	culture="sushen"
+	religion="yi_religions"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9547={ #拂涅
+	terrain="taiga"
+	culture="sushen"
+	religion="yi_religions"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9548={ #扶余东
+	terrain="forest"
+	culture="fuyu"
+	religion="yi_religions"
+	trade_goods="earthware"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9549={ #粟末北
+	terrain="forest"
+	culture="fuyu"
+	religion="yi_religions"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9550={ #粟末南
+	terrain="mountain"
+	culture="huifa"
+	religion="yi_religions"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9551={ #号室
+	terrain="taiga"
+	culture="sushen"
+	religion="yi_religions"
+	trade_goods="fish"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9552={ #拂涅南
+	terrain="taiga"
+	culture="sushen"
+	religion="yi_religions"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9553={ #湄沱南
+	terrain="taiga"
+	culture="sushen"
+	religion="yi_religions"
+	trade_goods="stone"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9554={ #伯咄西
+	terrain="steppe"
+	culture="fuyu"
+	religion="yi_religions"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9555={ #难河上游
+	terrain="steppe"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9556={ #北室韦
+	terrain="steppe"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="fur"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9557={ #难河中游
+	terrain="steppe"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+9558={ #难河中下游
+	terrain="steppe"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9559={ #难河下游
+	terrain="steppe"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9560={ #南室韦
+	terrain="steppe"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9561={ #大鲜卑山
+	terrain="mountain"
+	culture="xianbei"
+	religion="hu_religions"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9562={ #黑水
+	terrain="taiga"
+	culture="sushen"
+	religion="yi_religions"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9563={ #黑水南
+	terrain="taiga"
+	culture="sushen"
+	religion="yi_religions"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9564={ #黑水东南
+	terrain="taiga"
+	culture="sushen"
+	religion="yi_religions"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9872={ #平刚山
+	terrain="impassable_terrain"
+	culture="donghu"
+	religion="hu_religions"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9873={ #濡水
+	terrain="hills"
+	culture="donghu"
+	religion="hu_religions"
+	trade_goods="stone"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9874={ #广成
+	terrain="hills"
+	culture="donghu"
+	religion="hu_religions"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9875={ #参柳
+	terrain="hills"
+	culture="donghu"
+	religion="hu_religions"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9876={ #侯水
+	terrain="hills"
+	culture="donghu"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9881={ #造阳
+	terrain="steppe"
+	culture="chanlan"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9882={ #濡水
+	terrain="steppe"
+	culture="chanlan"
+	religion="hu_religions"
+	trade_goods="cloth"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9883={ #要阳
+	terrain="hills"
+	culture="chanlan"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9887={ #大鲜卑山
+	terrain="steppe"
+	culture="wuhuan"
+	religion="hu_religions"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+

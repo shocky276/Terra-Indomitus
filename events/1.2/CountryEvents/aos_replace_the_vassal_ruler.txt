@@ -7,8 +7,8 @@ aos_replace_the_vassal_ruler.1 = {
 		scope:recipient = {
 			set_as_ruler = scope:target
 		}
-		new_family_generation_effect = {
-			FAMILY_CANDIDATE = target 
+		trigger_event = {
+			id = governor_rebellion.4
 		}
 	}
 }

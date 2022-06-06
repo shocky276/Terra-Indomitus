@@ -1,0 +1,1066 @@
+﻿2086={ #法农 科基迪
+	terrain="forest"
+	culture="votadinian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2089={ #哈比坦孔
+	terrain="forest"
+	culture="votadinian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+2090={ #布雷墨尼翁
+	terrain="plains"
+	culture="votadinian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	holy_site=omen_brigantia
+}
+
+2091={ #布拉托部尔吉翁
+	terrain="plains"
+	culture="damnonian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+2108={ #马纳维亚
+	terrain="plains"
+	culture="manavian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+2109={ #诺万泰
+	terrain="forest"
+	culture="damnonian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2110={ #瑟尔戈外
+	terrain="plains"
+	culture="damnonian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+2111={ #俄塔迪尼
+	terrain="plains"
+	culture="votadinian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2112={ #丹诺尼伊
+	terrain="forest"
+	culture="damnonian"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2113={ #特里蒙提翁
+	terrain="forest"
+	culture="votadinian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2114={ #维卢尼亚忒
+	terrain="plains"
+	culture="votadinian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+2115={ #维尼科涅斯
+	terrain="plains"
+	culture="taexalian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2116={ #泰克萨利
+	terrain="forest"
+	culture="taexalian"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2117={ #厄庇迪伊
+	terrain="forest"
+	culture="damnonian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2118={ #北克雷俄涅斯
+	terrain="marsh"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2119={ #卡耳诺纳恺
+	terrain="forest"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2120={ #喀里多尼
+	terrain="mountain"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+2121={ #恺雷尼
+	terrain="forest"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+2122={ #科耳纳维伊
+	terrain="marsh"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2123={ #瓦科马吉
+	terrain="forest"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2124={ #林冬
+	terrain="forest"
+	culture="damnonian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2125={ #泰克萨隆海角
+	terrain="forest"
+	culture="taexalian"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+2126={ #厄庇迪翁海角
+	terrain="forest"
+	culture="damnonian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+2127={ #马莱俄斯
+	terrain="forest"
+	culture="damnonian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2128={ #斯基提斯
+	terrain="marsh"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2129={ #北冬纳
+	terrain="marsh"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2130={ #南冬纳
+	terrain="forest"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2131={ #维鲁厄德戎海角
+	terrain="marsh"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2132={ #俄耳卡得斯
+	terrain="forest"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2133={ #品纳塔兵营
+	terrain="forest"
+	culture="taexalian"
+	religion="druidism"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2161={ #伊维耳尼亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+2162={ #西乌斯迪亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2163={ #南维拉玻里亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2164={ #北布里甘提亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2165={ #北科里翁迪亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+2166={ #甘加尼亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+2167={ #北马纳庇亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2168={ #考基亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+2169={ #南奥忒尼亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2170={ #厄布拉尼亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+2171={ #西纳格纳提亚
+	terrain="hills"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2172={ #东沃隆提亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+2173={ #北达里尼亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2174={ #西罗玻格迪亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2175={ #南维尼克尼亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2176={ #北伊维耳尼亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2177={ #南伊维耳尼亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2178={ #东乌斯迪亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+2179={ #西维拉玻里亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2180={ #北维拉玻里亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2181={ #东维拉玻里亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2182={ #维拉玻里亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2183={ #南甘加尼亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2184={ #北甘加尼亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+2185={ #东甘加尼亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2186={ #南布里甘提亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+	port_building=1
+}
+
+2187={ #布里甘提亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=6
+	}
+}
+
+2188={ #南科里翁迪亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2189={ #科里翁迪亚
+	terrain="hills"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2190={ #东马纳庇亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+2191={ #西马纳庇亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2192={ #南马纳庇亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+2193={ #东考基亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2194={ #西考基亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2195={ #伊山尼翁
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+2196={ #西厄布拉尼亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2197={ #北奥忒尼亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2198={ #东奥忒尼亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2199={ #奥忒尼亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+2200={ #西奥忒尼亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+2201={ #南纳格纳提亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2202={ #东纳格纳提亚
+	terrain="hills"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2203={ #东维尼克尼亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2204={ #北维尼克尼亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2205={ #西沃隆提亚
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2206={ #北沃隆提亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2207={ #东罗玻格迪亚
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+2208={ #南达里尼亚
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6311={ #奥斯特拉勒斯的克雷俄涅斯
+	terrain="plains"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+7739={ #卢吉
+	terrain="forest"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7740={ #奥斯特拉利斯的泰克萨利亚
+	terrain="forest"
+	culture="taexalian"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+

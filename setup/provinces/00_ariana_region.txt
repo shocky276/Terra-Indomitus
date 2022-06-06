@@ -1,0 +1,1140 @@
+﻿3460={ #佩耳西刻的塔柏
+	terrain="dry_hills"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="camel"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3470={ #帕尔瓦得
+	terrain="dry_hills"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="spices"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3471={ #奈梵德
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="woad"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3472={ #登梵德
+	terrain="desert"
+	culture="carmanian"
+	religion="zoroaster"
+	trade_goods="fur"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="pasargadi"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3474={ #马吉亚斯的厄克巴塔纳
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="spices"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3475={ #察多尔玛卢
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cloth"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+5436={ #大卡维尔
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5438={ #大卡维尔
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5444={ #卢特沙漠
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5446={ #卢特沙漠
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+6500={ #马莱克
+	terrain="desert"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+6501={ #库帕南
+	terrain="desert"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="base_metals"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6502={ #库尔
+	terrain="desert"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="honey"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6503={ #帕格洛斯
+	terrain="desert"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6504={ #剌巴特
+	terrain="desert"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6505={ #巴兹亚卜
+	terrain="desert"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="precious_metals"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+6518={ #普洛佛塔西亚
+	terrain="hills"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="precious_metals"
+	civilization_value=39
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="macedonian"
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6541={ #阿拉科西亚的亚历山大里亚
+	terrain="desert"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="honey"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	citizen={
+		culture="pactyan"
+		religion="zoroaster"
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=3
+	}
+	slaves={
+		culture="pactyan"
+		religion="zoroaster"
+		amount=7
+	}
+	tribesmen={
+		culture="pactyan"
+		religion="zoroaster"
+		amount=5
+	}
+}
+
+6546={ #阿拉科托斯
+	terrain="desert"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=3
+	}
+}
+
+6547={ #贾勒达克
+	terrain="hills"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6548={ #伊图阿
+	terrain="hills"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="spices"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6549={ #帕拉柏斯忒
+	terrain="desert"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6550={ #阿里亚斯佩
+	terrain="desert"
+	culture="carmanian"
+	religion="zoroaster"
+	trade_goods="glass"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6551={ #厄堤曼德里亚
+	terrain="desert"
+	culture="carmanian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6552={ #萨喀斯特涅斯的亚历山大里亚
+	terrain="desert"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="cloth"
+	civilization_value=43
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6553={ #卡鲁拉
+	terrain="mountain"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="marble"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6554={ #巴伽瑟
+	terrain="hills"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6555={ #阿拉科西亚的得墨特里亚斯
+	terrain="hills"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6557={ #阿瑞亚的亚历山大里亚
+	terrain="hills"
+	culture="parthian"
+	religion="zoroaster"
+	trade_goods="marble"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+}
+
+6558={ #阿雷俄伊斯的亚历山大雷亚
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="cloth"
+	civilization_value=44
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="pasargadi"
+		religion="zoroaster"
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="sattagydian"
+		religion="zoroaster"
+		amount=2
+	}
+}
+
+6559={ #阿耳塔卡巴纳
+	terrain="hills"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6561={ #沙赫里斯坦
+	terrain="desert"
+	culture="carmanian"
+	religion="zoroaster"
+	trade_goods="honey"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6562={ #咖尔库亚
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	holy_site=omen_atar
+}
+
+6563={ #齐密拉
+	terrain="dry_plains"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+}
+
+6564={ #素尔克
+	terrain="desert"
+	culture="parthian"
+	religion="zoroaster"
+	trade_goods="marble"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6565={ #咖迪斯
+	terrain="hills"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6566={ #福拉纳
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6567={ #阿斯塔萨纳
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="pasargadi"
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+}
+
+6568={ #帕耳西亚
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6569={ #伽里
+	terrain="desert"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="spices"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+6570={ #比吉斯
+	terrain="desert"
+	culture="carmanian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6572={ #科特里卡
+	terrain="dry_hills"
+	culture="parecanian"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6573={ #咖尔兹
+	terrain="desert"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6594={ #玻斯特
+	terrain="desert"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="cloth"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6595={ #得拉剌姆
+	terrain="hills"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="hemp"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6596={ #阿纳耳
+	terrain="hills"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="pasargadi"
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6597={ #玛扎耳
+	terrain="dry_hills"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="pasargadi"
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6598={ #达里翁
+	terrain="dry_hills"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="honey"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6599={ #庇里安德
+	terrain="dry_hills"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="base_metals"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="pasargadi"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6600={ #沙赫尔
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="precious_metals"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6601={ #戈纳巴德
+	terrain="dry_hills"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="pasargadi"
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6603={ #弥拉
+	terrain="dry_hills"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+6604={ #马西纳
+	terrain="dry_hills"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="pasargadi"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6605={ #巴耳达
+	terrain="desert"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="hemp"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="pasargadi"
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6606={ #赫西达
+	terrain="dry_hills"
+	culture="sagartian"
+	religion="zoroaster"
+	trade_goods="base_metals"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="pasargadi"
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6610={ #穆赛
+	terrain="hills"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="hemp"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6622={ #福克利斯
+	terrain="mountain"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6632={ #科班
+	terrain="mountain"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="precious_metals"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6633={ #科剌
+	terrain="mountain"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="iron"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6646={ #阿扎夫
+	terrain="hills"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6647={ #古勒
+	terrain="hills"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7224={ #比塔哈
+	terrain="desert"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+7225={ #博加迪亚
+	terrain="desert"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+

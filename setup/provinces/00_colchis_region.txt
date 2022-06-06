@@ -1,0 +1,1900 @@
+﻿1584={ #乌提多耳西
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1586={ #荷克米克
+	terrain="forest"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="iron"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1587={ #瓦尔德巴奇
+	terrain="forest"
+	culture="armenian"
+	religion="armenian_religion"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1607={ #伊杰万
+	terrain="hills"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="armenian"
+		religion="armenian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1608={ #贝耳德
+	terrain="hills"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="leather"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+1609={ #卡里格卢克
+	terrain="hills"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="armenian"
+		religion="armenian_religion"
+		amount=1
+	}
+}
+
+1610={ #萨里山
+	terrain="forest"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1611={ #萨加雷乔
+	terrain="forest"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="iron"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1612={ #第比里斯
+	terrain="plains"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="cloth"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1633={ #巴加万
+	terrain="plains"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="incense"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="zoroaster"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1634={ #卡马基亚
+	terrain="mountain"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	holy_site=omen_ga
+}
+
+1635={ #尼尤迪
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="honey"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1636={ #卡巴拉
+	terrain="mountain"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="leather"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+1637={ #明革考尔
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="cattle"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+1641={ #贡巴提
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="leather"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1642={ #阿卜谢容
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="fish"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1643={ #萨穆克
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1644={ #派塔咖兰
+	terrain="plains"
+	culture="caspian"
+	religion="caucasian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="zoroaster"
+		amount=1
+	}
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		culture="albanian"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="albanian"
+		amount=1
+	}
+}
+
+1645={ #沙基
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="vegetables"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1646={ #加尔德曼
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1647={ #萨利阎
+	terrain="plains"
+	culture="caspian"
+	religion="caucasian_religion"
+	trade_goods="salt"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+1651={ #沙哈尔伽
+	terrain="plains"
+	culture="caspian"
+	religion="caucasian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		culture="albanian"
+		amount=4
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=2
+	}
+}
+
+1655={ #卡拉达什特
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1656={ #扎咖塔拉
+	terrain="mountain"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1657={ #忒拉维
+	terrain="mountain"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1658={ #锡勒达
+	terrain="mountain"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1659={ #拉戈得基
+	terrain="mountain"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1660={ #坎彼瑟涅
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+1661={ #阿拉什
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="vegetables"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+1662={ #卢佩尼亚
+	terrain="mountain"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1670={ #帕尔陶
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="armenian_religion"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="armenian"
+		religion="armenian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1671={ #西南阿尔兰
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="leather"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=2
+	}
+}
+
+1672={ #东南阿尔兰
+	terrain="plains"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="armenian"
+		religion="armenian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+1673={ #伊比利亚之门
+	terrain="mountain"
+	culture="scythian"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+1676={ #梅锡斯撒哈尔摩齐刻
+	terrain="plains"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="earthware"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=11
+	}
+	tribesmen={
+		amount=5
+	}
+	holy_site=omen_armazi
+}
+
+1677={ #阿尔革提
+	terrain="hills"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="armenian_religion"
+		amount=1
+	}
+}
+
+1678={ #叟萨摩拉
+	terrain="plains"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1679={ #卡夫提斯刻维
+	terrain="hills"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1680={ #匝利萨
+	terrain="mountain"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1681={ #阿拉格维斯庇里
+	terrain="mountain"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="honey"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+	holy_site=omen_kopala
+}
+
+1683={ #阿加亚尼
+	terrain="plains"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="cloth"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1685={ #乌普里斯齐刻
+	terrain="hills"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1686={ #珊什韦勒得
+	terrain="hills"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="iron"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1687={ #津瓦利
+	terrain="mountain"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1689={ #乌耳卜尼西
+	terrain="plains"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1690={ #兹古得里
+	terrain="hills"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1691={ #得多普利斯
+	terrain="plains"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1692={ #茨钦瓦利
+	terrain="hills"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1694={ #苏里翁
+	terrain="plains"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1695={ #博尔乔密
+	terrain="forest"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1696={ #琉科忒亚
+	terrain="forest"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="grain"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="armenian_religion"
+		amount=1
+	}
+	holy_site=omen_ghmerti
+}
+
+1697={ #阿卡勒齐刻
+	terrain="plains"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		religion="armenian_religion"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1699={ #姆泽檀泽
+	terrain="hills"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1700={ #泽咖里山口
+	terrain="hills"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1701={ #戈得耳齐山口
+	terrain="hills"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1702={ #贾瓦刻提
+	terrain="forest"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="iron"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1703={ #玻里
+	terrain="forest"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1704={ #萨拉帕尼斯
+	terrain="plains"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="cloth"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1705={ #斯坎迪斯
+	terrain="mountain"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1706={ #罗德波利斯
+	terrain="plains"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1707={ #科泰斯
+	terrain="mountain"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1711={ #忒勒腓斯
+	terrain="plains"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1714={ #俄诺顾里斯
+	terrain="forest"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="grain"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1715={ #阿耳恺俄波利斯
+	terrain="forest"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="base_metals"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=8
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1717={ #卡拉迪迪
+	terrain="forest"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="earthware"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1720={ #发西斯
+	terrain="plains"
+	culture="greco_pontic"
+	religion="roman_pantheon"
+	trade_goods="cloth"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=8
+	}
+	citizen={
+		culture="colchian"
+		religion="caucasian_religion"
+		amount=1
+	}
+	citizen={
+		culture="colchian"
+		amount=1
+	}
+	freemen={
+		culture="colchian"
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		culture="colchian"
+		religion="caucasian_religion"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	port_building=1
+}
+
+1722={ #瓦什纳里
+	terrain="forest"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1723={ #彼克夫纳里
+	terrain="forest"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="fish"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="greco_pontic"
+		religion="roman_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1724={ #阿帕西达姆
+	terrain="forest"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="cloth"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1725={ #巴堤斯港
+	terrain="forest"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+1726={ #阿普萨罗斯
+	terrain="forest"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="leather"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1727={ #喀萨
+	terrain="forest"
+	culture="bekhyrian"
+	religion="caucasian_religion"
+	trade_goods="fish"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+}
+
+1728={ #摩耳图拉
+	terrain="hills"
+	culture="sasperires"
+	religion="caucasian_religion"
+	trade_goods="honey"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="armenian_religion"
+		amount=1
+	}
+}
+
+1735={ #厄耳革塔
+	terrain="forest"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1737={ #齐甘涅
+	terrain="forest"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="fish"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="greco_pontic"
+		religion="roman_pantheon"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="greco_pontic"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1738={ #具厄诺斯
+	terrain="forest"
+	culture="greco_pontic"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="colchian"
+		religion="caucasian_religion"
+		amount=1
+	}
+	port_building=1
+}
+
+1739={ #特克瓦尔柴利
+	terrain="mountain"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="precious_metals"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+1740={ #齐庇肋
+	terrain="mountain"
+	culture="abasgoi"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1741={ #狄俄斯库利亚斯
+	terrain="hills"
+	culture="abasgoi"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="colchian"
+		religion="caucasian_religion"
+		amount=1
+	}
+}
+
+1742={ #阿那科彼亚
+	terrain="hills"
+	culture="abasgoi"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1743={ #庇堤乌斯
+	terrain="hills"
+	culture="abasgoi"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+1745={ #马塞提刻
+	terrain="hills"
+	culture="abasgoi"
+	religion="caucasian_religion"
+	trade_goods="fish"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1746={ #伊克维西
+	terrain="plains"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1748={ #摩迪纳刻
+	terrain="mountain"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	holy_site=omen_dali
+}
+
+1749={ #布里利
+	terrain="mountain"
+	culture="colchian"
+	religion="caucasian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+1750={ #克卢科尔山口
+	terrain="mountain"
+	culture="abasgoi"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+1752={ #科耳泽涅
+	terrain="plains"
+	culture="sasperires"
+	religion="armenian_religion"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1753={ #科拉
+	terrain="plains"
+	culture="sasperires"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1754={ #阿尔塔汉
+	terrain="plains"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1755={ #科利特
+	terrain="plains"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="leather"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1756={ #阿尔塔努吉
+	terrain="hills"
+	culture="sasperires"
+	religion="armenian_religion"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1757={ #卡巴拉
+	terrain="hills"
+	culture="sasperires"
+	religion="caucasian_religion"
+	trade_goods="vegetables"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1758={ #法览吉翁
+	terrain="hills"
+	culture="sasperires"
+	religion="armenian_religion"
+	trade_goods="leather"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4567={ #托里科斯
+	terrain="plains"
+	culture="sindi"
+	religion="caucasian_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_papaios
+}
+
+4568={ #阿凯亚的帕莱亚
+	terrain="hills"
+	culture="abasgoi"
+	religion="caucasian_religion"
+	trade_goods="wine"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+5435={ #库鲁斯
+	terrain="forest"
+	culture="ibero"
+	religion="caucasian_religion"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_adgilis_deda
+}
+
+7603={ #得耳本特
+	terrain="forest"
+	culture="albanian"
+	religion="caucasian_religion"
+	trade_goods="fish"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+

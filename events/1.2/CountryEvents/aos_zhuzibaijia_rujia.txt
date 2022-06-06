@@ -1907,6 +1907,7 @@ aos_use_die_to_advice.1 = { #沉溺酒色死谏
 				has_trait = stubborn
 			}
 			is_female = no
+			is_ruler = no
 		}
 	}
 
@@ -1922,6 +1923,7 @@ aos_use_die_to_advice.1 = { #沉溺酒色死谏
 					has_trait = stubborn
 				}
 				is_female = no
+				is_ruler = no
 			}
 			save_scope_as = use_die_to_advice_minister
 		}
