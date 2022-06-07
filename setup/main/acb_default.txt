@@ -1548,7 +1548,7 @@ country = {
 		}
 		JSN = {
 			#古朝鲜
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = joseon
 			religion = yi_religions
 			capital = 8781

@@ -183,6 +183,13 @@
  ainu_malename:0 "$NICKNAME$ $FAMILY_MALE$ $NAME_MALE$"
  ainu_femalename:1 "$NICKNAME$ $FAMILY_MALE$ $NAME_MALE$"
 #
+ARMY_NAME_tyrrhenian:0 "$ORDER$$NUM$ Army"
+NAVY_NAME_tyrrhenian:0 "$ORDER$$NUM$ Navy"
+COHORT_NAME_tyrrhenian:0 "$ORDER$$NUM$ Cohort"
+tyrrhenian_malename:0 "$NICKNAME$ $FAMILY_MALE$ $NAME_MALE$"
+tyrrhenian_femalename:1 "$NICKNAME$ $FAMILY_MALE$ $NAME_MALE$"
+
+
  XULIANTI:0 "Xulianti"
  HUNYI:0 "Hunyi"
  TIELE:0 "Tiele"
@@ -287,3 +294,5 @@
  FUDAN:0 "Fudan"
  #
  EMISI:0 "Emisi"
+
+

@@ -2017,362 +2017,12 @@ JominiMultiplayerLobby = {
 	}
 	
 	window = {
-		position = { 390 16 }
+		position = { 338 10 }
 		
 		flowcontainer = {
 			ignoreinvisible = yes
 			visible = "[Not(IsSaveGame)]"
-			spacing = 4
-			direction = vertical
-			resizeparent = yes
-			
-			country_flag = {
-				name = "Qin"
-				tooltip = "QININTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('QIN').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('QIN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('QIN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('QIN')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Qi"
-				tooltip = "QIIINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('QII').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('QII').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('QII').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('QII')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Chu"
-				tooltip = "CHUINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CHU').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('CHU').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('CHU').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('CHU')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Yan"
-				tooltip = "YANINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('YAN').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('YAN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('YAN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('YAN')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Zhao"
-				tooltip = "ZHAINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ZHA').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('ZHA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ZHA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('ZHA')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Wei"
-				tooltip = "WEIINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('WEI').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('WEI').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('WEI').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('WEI')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Han"
-				tooltip = "HANINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('HAN').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('HAN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('HAN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('HAN')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Zhou"
-				tooltip = "ZHOINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ZHO').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('ZHO').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ZHO').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('ZHO')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Saro"
-				tooltip = "SROINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SRO').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('SRO').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('SRO').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('SRO')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Baekje"
-				tooltip = "BAEINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('BAE').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('BAE').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('BAE').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('BAE')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Goguryeo"
-				tooltip = "GAYINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('GAY').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('GAY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('GAY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('GAY')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Guya"
-				tooltip = "GYAINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('GYA').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('GYA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('GYA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('GYA')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Yamato"
-				tooltip = "YMTINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('YMT').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('YMT').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('YMT').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('YMT')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-		}
-	}
-	
-	window = {
-		position = { 340 16 }
-		
-		flowcontainer = {
-			ignoreinvisible = yes
-			visible = "[Not(IsSaveGame)]"
-			spacing = 4
+			spacing = 9
 			direction = vertical
 			resizeparent = yes
 			
@@ -2997,7 +2647,239 @@ JominiMultiplayerLobby = {
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
 				}
 			}
+			country_flag = {
+				name = "Qin"
+				tooltip = "QININTRO" #
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('QIN').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('QIN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('QIN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('QIN')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
 			
+			country_flag = {
+				name = "Qi"
+				tooltip = "QIIINTRO" #
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('QII').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('QII').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('QII').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('QII')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "Chu"
+				tooltip = "CHUINTRO" #
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CHU').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('CHU').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('CHU').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('CHU')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "Yan"
+				tooltip = "YANINTRO" #
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('YAN').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('YAN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('YAN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('YAN')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "Zhao"
+				tooltip = "ZHAINTRO" #
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ZHA').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('ZHA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('ZHA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('ZHA')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "Wei"
+				tooltip = "WEIINTRO" #
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('WEI').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('WEI').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('WEI').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('WEI')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "Joseon"
+				tooltip = "JOSEONINTRO" #
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('JSN').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('JSN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('JSN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('JSN')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "Yamato"
+				tooltip = "YAMATOINTRO" #
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('YMT').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('YMT').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('YMT').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('YMT')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "Wusun"
+				tooltip = "WUSUNINTRO" #
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('WUS').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('WUS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('WUS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('WUS')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}			
 		}
 	}
 	

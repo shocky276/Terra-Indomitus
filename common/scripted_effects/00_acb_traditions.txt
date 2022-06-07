@@ -1,6 +1,0 @@
-﻿chinese_unlock_effect {
-	custom_tooltip = "unlocks_chinese_traditions_tt"	
-}
-diyi_unlock_effect {
-	custom_tooltip = "unlocks_diyi_traditions_tt"	
-}
