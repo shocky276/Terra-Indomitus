@@ -129,7 +129,7 @@
 			}
 			trigger_else = {
 				custom_tooltip = {
-					text = "tradition_unlock_requirement_diyi"
+					text = "tradition_unlock_requirement_short"
 					any_country_culture = {
 						is_integrated = yes
 						country_culture_pop_count >= percent_size_culture_group_comparison
@@ -146,9 +146,6 @@
 					}
 				}
 			}
-		}
-		on_activate = {
-			diyi_unlock_effect = yes
 		}
 	}
 	chinese_path_follow_the_example_of_rong = { ###效法西戎
@@ -201,7 +198,7 @@
 			}
 			trigger_else = {
 				custom_tooltip = {
-					text = "tradition_unlock_requirement_steppe"
+					text = "tradition_unlock_requirement_short"
 					any_country_culture = {
 						is_integrated = yes
 						country_culture_pop_count >= percent_size_culture_group_comparison

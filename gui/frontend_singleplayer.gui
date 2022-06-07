@@ -3,12 +3,12 @@
 widget = {
 	name = "mainmenu_single_player"
 	size = { 100% 100% }
-	
+
 	proportional_icon = {
-		texture = "gfx/loadingscreens/load_14.dds"
+		texture = "gfx/interface/end_game/greatest_empire.dds"
 		size = { 100% 100% }
 	}
-	
+
 	icon = {
 		name = "cloud_save_indicator"
 		position = { -180 5 }
@@ -39,15 +39,15 @@ widget = {
 	widget = {
 		name "main_menu_banner_bit_sp"
 		size = { 398 886 }
-		position = { 252 0 }
+		position = { 65 0 }
 		scissor = yes
-		
+
 		background = {
 			shaderfile = "gfx/FX/pdxgui_default.shader"
 			texture = "gfx/interface/base_parts/background_black_texture.dds"
 			spriteType = Corneredtiled
 			alpha = 0.8
-			
+
 			modify_texture = {
 				name = "Alpha"
 				texture = "gfx/interface/base_parts/background_x60bd_alpha.dds"
@@ -56,7 +56,7 @@ widget = {
 				spriteborder = { 60 60 }
 			}
 		}
-		
+
 		icon = {
 			texture = "gfx/interface/base_parts/background_black_texture.dds"
 			size = { 388 10 }
@@ -80,7 +80,7 @@ widget = {
 
 		flowcontainer = {
 			parentanchor = hcenter
-			direction = vertical 
+			direction = vertical
 			position = { 0 120 }
 			spacing = 28
 
@@ -103,16 +103,18 @@ widget = {
 				direction = vertical
 				spacing = 30
 				parentanchor = hcenter
-			
+
 				margin_widget = {
 					visible = "[FrontEndSinglePlayerView.ContinuePossible]"
 					size = { 376 48 }
 					parentanchor = hcenter
-					
+
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "CONTINUE" }
-						blockoverride "On_click" { onclick = "[FrontEndSinglePlayerView.OnContinue]" }
+						blockoverride "On_click" { shortcut = "confirm" onclick = "[FrontEndSinglePlayerView.OnContinue]" }
+						shortcut = "confirm"
+						# tooltip = "CONTINUE"
 					}
 				}
 
@@ -121,14 +123,14 @@ widget = {
 					size = { 376 48 }
 					parentanchor = hcenter
 					tooltip = "TUTORIAL_RECOMMENDED_TT"
-					
+
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "TUTORIAL" }
 						blockoverride "On_click" { onclick = "[FrontEndSinglePlayerView.OnTutorial]" }
 					}
 				}
-				
+
 				margin_widget = {
 					size = { 376 48 }
 					parentanchor = hcenter
@@ -136,33 +138,35 @@ widget = {
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "NEW_GAME" }
-						blockoverride "On_click" { onclick = "[FrontEndSinglePlayerView.OnNewGame]" }
+						blockoverride "On_click" { shortcut = "macro_builder" onclick = "[FrontEndSinglePlayerView.OnNewGame]" }
 						blockoverride "ClickSound" { clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_new_game" }
+						shortcut = "macro_builder"
+						# tooltip = "NEW_GAME"
 					}
-				}		
-				
+				}
+
 				margin_widget = {
 					size = { 376 48 }
-					parentanchor = hcenter	
-					
+					parentanchor = hcenter
+
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "LOAD" }
 						blockoverride "On_click" { onclick = "[FrontEndSinglePlayerView.OnLoad]" }
 					}
-					
+
 				}
 
 				margin_widget = {
 					visible = "[Not(FrontEndSinglePlayerView.ContinuePossible)]"
 					size = { 376 48 }
 					parentanchor = hcenter
-					
+
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "CONTINUE" }
-						blockoverride "On_click" { 
-							onclick = "[FrontEndSinglePlayerView.OnContinue]" 
+						blockoverride "On_click" {
+							onclick = "[FrontEndSinglePlayerView.OnContinue]"
 							enabled = "[FrontEndSinglePlayerView.ContinuePossible]"
 						}
 						enabled = "[FrontEndSinglePlayerView.ContinuePossible]"
@@ -173,40 +177,43 @@ widget = {
 					visible = "[FrontEndSinglePlayerView.ContinuePossible]"
 					size = { 376 48 }
 					parentanchor = hcenter
-					
+
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "TUTORIAL" }
-						blockoverride "On_click" { 
+						blockoverride "On_click" {
 							onclick = "[FrontEndSinglePlayerView.OnTutorial]"
 						}
 					}
-				}	
+				}
 
 				margin_widget = {
 					size = { 376 48 }
 					parentanchor = hcenter
-					
+
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "BACK" }
-						blockoverride "On_click" { 
+						blockoverride "On_click" {
+							shortcut = "close_window"
 							onclick = "[FrontEndSinglePlayerView.OnBack]"
 						}
 					}
-				}	
+				}
 			}
+
+
 		}
 
-		icon = { 
+		icon = {
 			position = { 0 278 }
 			parentanchor = hcenter
 			texture = "gfx/interface/base_parts/start_menu_horizontal_line_medium.dds"
 			alpha = @decoration_alpha
 			scale = 0.93
 		}
-		
-		icon = { 
+
+		icon = {
 			position = { 0 290 }
 			parentanchor = hcenter
 			texture = "gfx/interface/base_parts/start_menu_horizontal_line_small.dds"
@@ -215,7 +222,7 @@ widget = {
 			scale = 0.93
 		}
 
-		icon = { 
+		icon = {
 			position = { 0 724 }
 			parentanchor = hcenter
 			texture = "gfx/interface/base_parts/start_menu_horizontal_line_small.dds"
@@ -223,7 +230,7 @@ widget = {
 			scale = 0.93
 		}
 
-		icon = { 
+		icon = {
 			position = { 0 736 }
 			parentanchor = hcenter
 			texture = "gfx/interface/base_parts/start_menu_horizontal_line_medium.dds"
@@ -232,7 +239,7 @@ widget = {
 			scale = 0.93
 		}
 
-		icon = { 
+		icon = {
 			position = { 14 0 }
 			parentanchor = vcenter
 			texture = "gfx/interface/base_parts/start_menu_vertical_line.dds"
@@ -240,7 +247,7 @@ widget = {
 			scale = 0.98
 		}
 
-		icon = { 
+		icon = {
 			position = { -14 0 }
 			parentanchor = right|vcenter
 			texture = "gfx/interface/base_parts/start_menu_vertical_line.dds"
@@ -248,7 +255,7 @@ widget = {
 			mirror = horizontal
 			scale = 0.98
 		}
-		icon = { 
+		icon = {
 			position = { 0 40 }
 			parentanchor = bottom|hcenter
 			texture = "gfx/interface/base_parts/wheel_start_menu.dds"
@@ -262,9 +269,8 @@ widget = {
 			parentanchor = bottom|hcenter
 		}
 	}
-	
+
 	textbox = {
-		visible = "[Not(IsLiveBuild)]"
 		parentanchor = bottom|right
 		widgetanchor = bottom|right
 		position = { -280 6 }

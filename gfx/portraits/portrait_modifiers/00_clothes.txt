@@ -555,10 +555,7 @@ clothes = {
 				add = 100
 				is_female = no
 				has_religion = zoroaster
-				OR = {
-					has_trait = zoroaster_trait
-					has_variable = is_religious_tech
-				}
+				has_trait = zoroaster_trait
 			}
 		}
 	}

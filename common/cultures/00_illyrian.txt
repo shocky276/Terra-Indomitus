@@ -81,6 +81,7 @@
 		deurian = {}
 		messapian = {}
         paeonian = {}
+        liburnian = {}
 	}
 
 	barbarian_names = {

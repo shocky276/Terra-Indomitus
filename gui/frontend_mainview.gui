@@ -1,6 +1,6 @@
 ﻿types Frontend
 {
-	
+
 	type frontend_bottom_right_spacer = widget {
 		size = { 20 0 }
 	}
@@ -11,10 +11,10 @@
 widget = {
 	name = "mainmenu_panel_bottom"
 	size = { 100% 100% }
-	
+
 	proportional_icon = {
-		texture = "gfx/loadingscreens/load_14.dds"
-		size = { 100% 100% } 
+		texture = "gfx/interface/end_game/greatest_empire.dds"
+		size = { 100% 100% }
 	}
 
 	icon = {
@@ -27,7 +27,7 @@ widget = {
 		visible = "[GameIsCloudStorageOperationInProgress]"
 	}
 
-	
+
 	icon = {
 		name = "clausewitz_logo"
 		position = { -160 0 }
@@ -36,7 +36,7 @@ widget = {
 		scale = 0.9
 		shaderfile = "gfx/FX/pdxgui_glow_game.shader"
 	}
-	
+
 	icon = {
 		name = "pdx_dev_logo"
 		position = { -40 0 }
@@ -45,11 +45,11 @@ widget = {
 		scale = 0.9
 		shaderfile = "gfx/FX/pdxgui_glow_game.shader"
 	}
-	
+
 	widget = {
 		name "main_menu_banner_bit"
 		size = { 398 886 }
-		position = { 252 0 }
+		position = { 65 0 }
 		scissor = yes
 
 		background = {
@@ -57,7 +57,7 @@ widget = {
 			texture = "gfx/interface/base_parts/background_black_texture.dds"
 			spriteType = Corneredtiled
 			alpha = 0.8
-			
+
 			modify_texture = {
 				name = "Alpha"
 				texture = "gfx/interface/base_parts/background_x60bd_alpha.dds"
@@ -88,10 +88,19 @@ widget = {
 			blockoverride "Title_text" { visible = no }
 		}
 
+		icon = {
+			position = { 0 40 }
+			parentanchor = bottom|hcenter
+			texture = "gfx/interface/base_parts/wheel_start_menu.dds"
+			mirror = vertical
+			alpha = @decoration_alpha
+			scale = 0.78
+		}
+
 		flowcontainer = {
 			parentanchor = hcenter
 			position = { 0 120 }
-			direction = vertical 
+			direction = vertical
 			spacing = 28
 
 			icon = {
@@ -112,25 +121,30 @@ widget = {
 				direction = vertical
 				spacing = 30
 				parentanchor = hcenter
-				
+
 				margin_widget = {
 					size = { 376 48 }
 					parentanchor = hcenter
-					
+
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "SINGLE_PLAYER" }
-						blockoverride "On_click" { onclick = "[FrontEndMainView.OnSinglePlayer]" }
+						blockoverride "On_click" {
+							onclick = "[FrontEndMainView.OnSinglePlayer]"
+							shortcut = "confirm"
+						}
+						shortcut = "confirm"
+						# tooltip = "SINGLE_PLAYER"
 					}
 				}
 				margin_widget = {
 					size = { 376 48 }
 					parentanchor = hcenter
-					
+
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "MULTI_PLAYER" }
-						blockoverride "On_click" { 
+						blockoverride "On_click" {
 							onclick = "[FrontEndMainView.OnMultiPlayer]"
 							enabled = "[JominiIsMultiplayerAccessible]"
 						}
@@ -138,49 +152,57 @@ widget = {
 						tooltip = "[JominiGetMultiplayerAccessibleString]"
 					}
 				}
-				
+
 				margin_widget = {
 					size = { 376 48 }
 					parentanchor = hcenter
-					
+
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "SETTINGS_FRONTEND" }
 						blockoverride "On_click" { onclick = "[FrontEndMainView.OnSettings]" }
 					}
 				}
-				
+
 				margin_widget = {
 					size = { 376 48 }
 					parentanchor = hcenter
-					
+
 					frontend_button = {
 						size = { 100% 100% }
 						blockoverride "Text" { text = "CREDITS" }
 						blockoverride "On_click" { onclick = "[FrontEndMainView.OnCredits]" }
 					}
 				}
-				
+
 				margin_widget = {
 					size = { 376 48 }
 					parentanchor = hcenter
-					
+
 					frontend_button = {
 						size = { 100% 100% }
-						blockoverride "Text" 
-						{ 
-							text = "EXIT_FRONTEND" 
+						blockoverride "Text"
+						{
+							text = "EXIT_FRONTEND"
 						}
-						blockoverride "On_click" 
-						{ 
-							onclick = "[FrontEndMainView.OnQuit]" 
+						blockoverride "On_click"
+						{
+							onclick = "[FrontEndMainView.OnQuit]"
 						}
 					}
 				}
 			}
+
+			widget = {
+				size = { 0 15 }
+			}
+
+			pops_status_widget = {
+				name = "pops_test"
+			}
 		}
 
-		icon = { 
+		icon = {
 			position = { 0 278 }
 			parentanchor = hcenter
 			texture = "gfx/interface/base_parts/start_menu_horizontal_line_medium.dds"
@@ -188,7 +210,7 @@ widget = {
 			alpha = @decoration_alpha
 		}
 
-		icon = { 
+		icon = {
 			position = { 0 290 }
 			parentanchor = hcenter
 			texture = "gfx/interface/base_parts/start_menu_horizontal_line_small.dds"
@@ -197,7 +219,7 @@ widget = {
 			scale = 0.93
 		}
 
-		icon = { 
+		icon = {
 			position = { 0 724 }
 			parentanchor = hcenter
 			texture = "gfx/interface/base_parts/start_menu_horizontal_line_small.dds"
@@ -205,7 +227,7 @@ widget = {
 			scale = 0.93
 		}
 
-		icon = { 
+		icon = {
 			position = { 0 736 }
 			parentanchor = hcenter
 			texture = "gfx/interface/base_parts/start_menu_horizontal_line_medium.dds"
@@ -214,7 +236,7 @@ widget = {
 			scale = 0.93
 		}
 
-		icon = { 
+		icon = {
 			position = { 14 0 }
 			parentanchor = vcenter
 			texture = "gfx/interface/base_parts/start_menu_vertical_line.dds"
@@ -222,7 +244,7 @@ widget = {
 			scale = 0.98
 		}
 
-		icon = { 
+		icon = {
 			position = { -14 0 }
 			parentanchor = right|vcenter
 			texture = "gfx/interface/base_parts/start_menu_vertical_line.dds"
@@ -231,21 +253,13 @@ widget = {
 			scale = 0.98
 		}
 
-		icon = { 
-			position = { 0 40 }
-			parentanchor = bottom|hcenter
-			texture = "gfx/interface/base_parts/wheel_start_menu.dds"
-			mirror = vertical
-			alpha = @decoration_alpha
-			scale = 0.78
-		}
 
 		menu_footer = {
 			size = { 398 40 }
 			parentanchor = bottom|hcenter
 		}
 	}
-	
+
 	textbox = {
 		parentanchor = bottom|right
 		widgetanchor = bottom|right
@@ -259,27 +273,4 @@ widget = {
 		fontsize = 16
 		align = right
 	}
-	
-	container = {
-		position = { 28 -8 }
-		background = {
-			shaderfile = "gfx/FX/pdxgui_default.shader"
-			using = flat_background_white
-			spriteType = Corneredtiled
-			alpha = 0.95
-			
-			modify_texture = {
-				name = "Alpha"
-				texture = "gfx/interface/base_parts/background_x60bd_alpha.dds"
-				blend_mode = alphamultiply
-				spriteType = Corneredtiled
-				spriteborder = { 60 60 }
-			}
-		}
-		
-		pops_status_widget = {
-			name = "pops_test"
-		}
-	}
 }
-
