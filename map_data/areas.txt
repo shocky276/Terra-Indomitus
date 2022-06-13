@@ -3168,26 +3168,30 @@ halin_area = { #汗林
     provinces = { 9791 9792 9793 9794 9795 9796 }
 }
 
-shenli_area = { #谌离
+shenli_area = { #6
     provinces = { 9797 9798 9799 9800 9801 9802 }
 }
 
-tenasserim_area = { #顿逊
+tenasserim_area = { #5
     provinces = { 9803 9804 9805 9806 9807 }
 }
 
-dvaravati_area = { #陀罗钵底
+dvaravati_area = { #8
     provinces = { 9808 9809 9810 9811 9812 9813 9814 9815 }
 }
 
-chenla_area = { #真腊
+chenla_area = { #6
 provinces = { 9822 9823 9824 9825 9826 9827 }
 }
 
-funan_area = { #扶南
+funan_area = { #10
 provinces = { 9828 9829 9830 9831 9832 9833 9834 9835 9836 9837 }
 }
 
-kualadungun_area = { #屈都昆
+kualadungun_area = { #6
 provinces = { 9816 9817 9818 9819 9820 9821 }
+}
+
+bayuda_area = { #8
+	provinces = { 9888 9889 9890 9891 9892 9893 9894 9895 }
 }

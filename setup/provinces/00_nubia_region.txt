@@ -1475,3 +1475,152 @@
 	}
 }
 
+9888={ #Tulih
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9889={ #Fura
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="blemmyan"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9890={ #Kurmut
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="earthware"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+9891={ #Halfa
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="blemmyan"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+9892={ #Kalas
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+9893={ #Kuweib
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="stone"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="blemmyan"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9894={ #Khafur
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="blemmyan"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9895={ #Barkol
+	terrain="desert"
+	culture="meroitic"
+	religion="egyptian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+		culture="blemmyan"
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=1
+		culture="blemmyan"
+	}
+}
