@@ -463,7 +463,6 @@ clothes = {
 					has_culture = xu 
 					has_culture = huaxia 
 					has_variable = chinese_ruler
-					has_trait = shihao_trait
 				}
 			}
 		}	
@@ -487,10 +486,7 @@ clothes = {
 			
 			modifier = {
 				add = 100 
-				OR = {
-					has_variable = chinese_ruler
-					has_trait = shihao_trait
-				}
+				has_variable = chinese_ruler
 				is_female = no
 			}
 		}	
@@ -552,10 +548,9 @@ clothes = {
 			base = 0	#if weight is >= 100, this one will be picked without ever doing the weighted random selection
 			
 			modifier = {
-				add = 100
+				add = 5
 				is_female = no
 				has_religion = zoroaster
-				has_trait = zoroaster_trait
 			}
 		}
 	}

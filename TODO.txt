@@ -1,0 +1,14 @@
+Everything that needs localization should be put in 00_TODO_l_english
+
+Eventually everything in that file will need locs.
+
+
+GFX that needs to be replaced:
+	
+1. Chinese deities need icons
+
+2. Chinese military traditions need icons
+
+3. Chinese bloodlines all need icons
+
+4. Chinese flags, we need a lot of these.

@@ -163,11 +163,3 @@ zhaoxian_bloodline = {
 	prominence = 20
 	finesse = 1
 }
-
-shihao_trait = {
-	type = status
-}
-
-zoroaster_trait = {
-	type = status
-}

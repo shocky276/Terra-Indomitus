@@ -26,7 +26,6 @@
 					has_culture = xu 
 					has_culture = huaxia 
 					has_variable = chinese_ruler
-					has_trait = shihao_trait
 				}
 			}
 		}	
@@ -46,11 +45,7 @@
 			modifier = {
 				add = 100 
 				is_female = no
-				OR = {
-					has_variable = chinese_ruler
-					has_trait = shihao_trait
-				}
-				
+				has_variable = chinese_ruler
 			}
 		}	
 	}
@@ -116,7 +111,6 @@
 					has_culture = xu 
 					has_culture = huaxia 
 					has_variable = chinese_ruler
-					has_trait = shihao_trait
 				}
 			}
 		}	
@@ -196,10 +190,9 @@
 			base = 0	#if weight is >= 100, this one will be picked without ever doing the weighted random selection
 			
 			modifier = {
-				add = 100 
+				add = 5 
 				is_female = no
 				has_religion = zoroaster
-				has_trait = zoroaster_trait
 			}
 		}	
 	}
