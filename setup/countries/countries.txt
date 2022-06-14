@@ -1016,6 +1016,9 @@ ELY = "setup/countries/italia_tk/elymia.txt"
 SOA = "setup/countries/india_tk/soma.txt"
 LUM = "setup/countries/india_tk/lumbini.txt"
 
+#TI New
+GAE = "setup/countries/ti_africa/gaetulia.txt"
+
 #SEA
 TGU = "setup/countries/acb_others/taguang.txt"
 HAL = "setup/countries/acb_others/halin.txt"
