@@ -15,4 +15,7 @@ bactrian_gfx = {}
 barbarian_gfx = {}
 numidian_gfx = {}
 anatolian_gfx = {}
+dacian_gfx = {}
+thracian_gfx = {}
+illyrian_gfx = {}
 chinese_gfx = {}

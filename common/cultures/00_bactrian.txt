@@ -45,6 +45,7 @@
 		saka = {}
 		shule = {}
 		bactrian = {}
+		slavian = {}
 	}
 	
 	barbarian_names = { 

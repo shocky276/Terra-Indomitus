@@ -1,8 +1,16 @@
+####################################
+Invictus things that still need to be added: 
+
+1. All Barbaricum missions aren't in yet.
+
+2. Kush missions aren't in because they aren't done yet.
+
+####################################
 Everything that needs localization should be put in 00_TODO_l_english
 
 Eventually everything in that file will need locs.
 
-
+####################################
 GFX that needs to be replaced:
 	
 1. Chinese deities need icons
