@@ -1,4 +1,4 @@
-﻿1470={ #科叙拉
+﻿1470={ #Yermena
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -18,7 +18,7 @@
 	port_building=1
 }
 
-3190={ #提根斯
+3190={ #Thiges
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -34,7 +34,7 @@
 	}
 }
 
-3191={ #涅普提塔纳兵营
+3191={ #Castra Neptitana
 	terrain="dry_plains"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -53,7 +53,7 @@
 	}
 }
 
-3194={ #忒勒普忒
+3194={ #Thelepte
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -75,7 +75,7 @@
 	}
 }
 
-3195={ #革墨利亚
+3195={ #Gemellia
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -94,7 +94,7 @@
 	}
 }
 
-3196={ #尤斯提尼安的卡普萨
+3196={ #Capsa Iustiniana
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -110,7 +110,7 @@
 	}
 }
 
-3197={ #苏斐图拉
+3197={ #Sufetula
 	terrain="dry_hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -132,7 +132,7 @@
 	}
 }
 
-3198={ #基利翁
+3198={ #Cillium
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -154,7 +154,7 @@
 	}
 }
 
-3199={ #马克叙厄西亚的纳拉
+3199={ #Nara Maxyesia
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -173,7 +173,7 @@
 	}
 }
 
-3200={ #俄维斯恺
+3200={ #Vashka
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -192,7 +192,7 @@
 	}
 }
 
-3201={ #塔比拉
+3201={ #Tabira
 	terrain="plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -214,7 +214,7 @@
 	}
 }
 
-3202={ #西勒斯瓦
+3202={ #Silesva
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -233,7 +233,7 @@
 	}
 }
 
-3205={ #墨涅革宋
+3205={ #Menegesum
 	terrain="dry_hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -252,7 +252,7 @@
 	}
 }
 
-3209={ #穆苏拉弥亚的塔拉
+3209={ #Thala Musulamia
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -268,7 +268,7 @@
 	}
 }
 
-3210={ #苏斐斯
+3210={ #Sufes
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -287,7 +287,7 @@
 	}
 }
 
-3211={ #马斯克利奈
+3211={ #Masclinae
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -309,7 +309,7 @@
 	}
 }
 
-3212={ #雷吉亚的阿库亚
+3212={ #Aramon
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -331,7 +331,7 @@
 	}
 }
 
-3230={ #塔布拉卡
+3230={ #Tabarkon
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -364,7 +364,7 @@
 	port_building=1
 }
 
-3233={ #雷吉亚的部拉
+3233={ #Bulla Regia
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -389,7 +389,7 @@
 	}
 }
 
-3234={ #西卡
+3234={ #Sika
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -411,7 +411,7 @@
 	}
 }
 
-3235={ #拉雷斯
+3235={ #Lares
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -430,7 +430,7 @@
 	}
 }
 
-3236={ #阿苏拉斯
+3236={ #Ashur
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -449,7 +449,7 @@
 	}
 }
 
-3237={ #俄巴
+3237={ #Obba
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -465,7 +465,7 @@
 	}
 }
 
-3238={ #王者的扎马
+3238={ #Zama
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -487,7 +487,7 @@
 	}
 }
 
-3239={ #乌匝帕
+3239={ #Usfa
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -518,7 +518,7 @@
 	}
 }
 
-3240={ #瑟雷西
+3240={ #Sars
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -542,7 +542,7 @@
 	}
 }
 
-3241={ #迈乌斯的孚耳诺斯
+3241={ #Farnas
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -565,7 +565,7 @@
 	}
 }
 
-3242={ #阿布图格尼
+3242={ #Aptbagon
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -583,7 +583,7 @@
 	}
 }
 
-3243={ #迈乌斯的斐拉迪
+3243={ #Fardmas
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -610,7 +610,7 @@
 	port_building=1
 }
 
-3244={ #提尼苏特
+3244={ #Thinissut
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -635,7 +635,7 @@
 	holy_site=omen_baal_hammon
 }
 
-3245={ #库鲁比斯
+3245={ #Karash
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -670,7 +670,7 @@
 	port_building=1
 }
 
-3246={ #马克塔里斯
+3246={ #Mactaris
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -692,7 +692,7 @@
 	}
 }
 
-3247={ #阿尔提部罗斯
+3247={ #Althiburos
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -711,7 +711,7 @@
 	}
 }
 
-3248={ #图加 忒雷本提纳
+3248={ #Thugga Terebenthina
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -730,7 +730,7 @@
 	}
 }
 
-3249={ #齐夸
+3249={ #Zika
 	terrain="hills"
 	culture="massylian"
 	religion="carthaginian_pantheon"
@@ -753,7 +753,7 @@
 	}
 }
 
-3250={ #乌德那
+3250={ #Oudna
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -774,7 +774,7 @@
 	}
 }
 
-3251={ #门布雷斯萨
+3251={ #Mamirash
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -798,7 +798,7 @@
 	}
 }
 
-3252={ #卡耳庇斯
+3252={ #Karfus
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -822,7 +822,7 @@
 	}
 }
 
-3253={ #涅斐里斯
+3253={ #Nafaras
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -848,7 +848,7 @@
 	}
 }
 
-3254={ #刻耳库阿涅
+3254={ #Kerkouane
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -877,7 +877,7 @@
 	}
 }
 
-3255={ #弥苏阿
+3255={ #Masva
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -907,7 +907,7 @@
 	port_building=1
 }
 
-3256={ #迦太基
+3256={ #Qart Hadasht
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -970,7 +970,7 @@
 	town_hall_building=1
 }
 
-3257={ #阿提克
+3257={ #Atiq
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1002,7 +1002,7 @@
 	}
 }
 
-3258={ #乌朋
+3258={ #Ubon
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1024,7 +1024,7 @@
 	port_building=1
 }
 
-3259={ #乌匝利 萨耳
+3259={ #Uzali Sar
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1048,7 +1048,7 @@
 	}
 }
 
-3260={ #马塔耳
+3260={ #Matar
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1072,7 +1072,7 @@
 	}
 }
 
-3261={ #提齐卡
+3261={ #Tazka
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1101,7 +1101,7 @@
 	}
 }
 
-3262={ #塔布拉卡尼亚的基纳
+3262={ #Kinna Thabracania
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1127,7 +1127,7 @@
 	}
 }
 
-3263={ #鲁库马
+3263={ #Rucuma
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1150,7 +1150,7 @@
 	}
 }
 
-3264={ #瓦伽
+3264={ #Vaga
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1179,7 +1179,7 @@
 	}
 }
 
-3265={ #部雷的提弥达
+3265={ #Tamda
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1211,7 +1211,7 @@
 	}
 }
 
-3266={ #乌娄
+3266={ #Ureu
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1235,7 +1235,7 @@
 	}
 }
 
-3267={ #农卢利
+3267={ #Tarsaka
 	terrain="forest"
 	culture="massylian"
 	religion="carthaginian_pantheon"
@@ -1261,7 +1261,7 @@
 	}
 }
 
-3268={ #奥诺巴里斯
+3268={ #Aunobaris
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1292,7 +1292,7 @@
 	}
 }
 
-3269={ #图伽
+3269={ #Thugga
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -1321,7 +1321,7 @@
 	holy_site=omen_tannit
 }
 
-3270={ #比西卡 卢卡纳
+3270={ #Riska
 	terrain="forest"
 	culture="massylian"
 	religion="carthaginian_pantheon"
@@ -1349,7 +1349,7 @@
 	}
 }
 
-3271={ #提格尼卡
+3271={ #Tinsa
 	terrain="hills"
 	culture="massylian"
 	religion="carthaginian_pantheon"
@@ -1383,7 +1383,7 @@
 	}
 }
 
-3272={ #穆祖克
+3272={ #Muzuk
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1408,7 +1408,7 @@
 	}
 }
 
-3273={ #卡萨的阿库亚
+3273={ #Qart Mayim
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1427,7 +1427,7 @@
 	}
 }
 
-3274={ #墨迪刻拉
+3274={ #Madakra
 	terrain="farmland"
 	culture="massylian"
 	religion="berber_religion"
@@ -1448,7 +1448,7 @@
 	}
 }
 
-3275={ #乌利齐比拉
+3275={ #Ulizibbira
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1472,7 +1472,7 @@
 	}
 }
 
-3276={ #阿德拉玛特
+3276={ #Adramat
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1502,7 +1502,7 @@
 	port_building=1
 }
 
-3277={ #拉普基
+3277={ #Lapki
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1534,7 +1534,7 @@
 	}
 }
 
-3278={ #塔普萨
+3278={ #Tapsa
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1562,7 +1562,7 @@
 	port_building=1
 }
 
-3279={ #奥古斯都村
+3279={ #Vaga
 	terrain="plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1590,7 +1590,7 @@
 	}
 }
 
-3280={ #亚科拉
+3280={ #A'qola
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1623,7 +1623,7 @@
 	port_building=1
 }
 
-3281={ #巴拉鲁斯
+3281={ #Arras
 	terrain="plains"
 	culture="massylian"
 	religion="carthaginian_pantheon"
@@ -1647,7 +1647,7 @@
 	}
 }
 
-3282={ #堤斯德鲁斯
+3282={ #Shtapshar
 	terrain="plains"
 	culture="massylian"
 	religion="carthaginian_pantheon"
@@ -1671,7 +1671,7 @@
 	}
 }
 
-3283={ #乌苏拉
+3283={ #Usla
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1698,7 +1698,7 @@
 	}
 }
 
-3284={ #迦尔克那
+3284={ #Qarkna
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1714,7 +1714,7 @@
 	}
 }
 
-3285={ #泰奈
+3285={ #Tainat
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1743,7 +1743,7 @@
 	port_building=1
 }
 
-3286={ #埃利亚
+3286={ #Aeliae
 	terrain="plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1772,7 +1772,7 @@
 	}
 }
 
-3287={ #塔帕鲁拉
+3287={ #Tafrar
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1796,7 +1796,7 @@
 	}
 }
 
-3288={ #玛科姆哈达什
+3288={ #Makom Hadash
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1827,7 +1827,7 @@
 	}
 }
 
-3289={ #本纳法
+3289={ #Bennafa
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1859,7 +1859,7 @@
 	}
 }
 
-3290={ #塔马勒尼塔
+3290={ #Aves
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1878,7 +1878,7 @@
 	}
 }
 
-3291={ #塔卡佩斯
+3291={ #Takapes
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1913,7 +1913,7 @@
 	port_building=1
 }
 
-3292={ #柏泽雷俄斯
+3292={ #Arelliorum
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="berber_religion"
@@ -1931,7 +1931,7 @@
 	}
 }
 
-3293={ #吉格提斯
+3293={ #Gigthis
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1963,7 +1963,7 @@
 	}
 }
 
-3294={ #提帕扎
+3294={ #Tipaza
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1985,7 +1985,7 @@
 	port_building=1
 }
 
-3295={ #杰尔吉斯
+3295={ #Gergis
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2009,7 +2009,7 @@
 	}
 }
 
-3296={ #齐塔
+3296={ #Zitha
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2031,7 +2031,7 @@
 	port_building=1
 }
 
-3297={ #帕勒涅的浦忒阿
+3297={ #Putea Pallene
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2052,7 +2052,7 @@
 	}
 }
 
-3298={ #祖基斯
+3298={ #Zouchis
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2076,7 +2076,7 @@
 	}
 }
 
-3299={ #庇西达
+3299={ #Pisida
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2103,7 +2103,7 @@
 	}
 }
 
-3300={ #洛克里
+3300={ #Lokri
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2127,7 +2127,7 @@
 	}
 }
 
-3301={ #查布拉坦
+3301={ #Tsabratan
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2160,7 +2160,7 @@
 	holy_site=omen_nanna_tala
 }
 
-3302={ #匝纳齐亚
+3302={ #Zanazia
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2176,7 +2176,7 @@
 	}
 }
 
-3303={ #俄雅特
+3303={ #Oyat
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2214,7 +2214,7 @@
 	port_building=1
 }
 
-3304={ #阿马雷亚
+3304={ #Amarea
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2235,7 +2235,7 @@
 	}
 }
 
-3305={ #伽法拉
+3305={ #Gaphara
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2251,7 +2251,7 @@
 	}
 }
 
-3306={ #拉普基
+3306={ #Lapki
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2278,7 +2278,7 @@
 	}
 }
 
-3324={ #金倪普斯
+3324={ #Kinyps
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2294,7 +2294,7 @@
 	}
 }
 
-3325={ #图巴克提斯
+3325={ #Takash
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2312,7 +2312,7 @@
 	port_building=1
 }
 
-3326={ #巴瑟
+3326={ #Base
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2335,7 +2335,7 @@
 	}
 }
 
-3327={ #忒朋忒
+3327={ #Thebunte
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2356,7 +2356,7 @@
 	}
 }
 
-3329={ #安涅瑟尔
+3329={ #Annesel
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2377,7 +2377,7 @@
 	}
 }
 
-3330={ #奥克西乌
+3330={ #Auxiu
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2400,7 +2400,7 @@
 	}
 }
 
-3332={ #底索蓬
+3332={ #Dysopon
 	terrain="desert"
 	culture="garamantic"
 	religion="berber_religion"
@@ -2419,7 +2419,7 @@
 	}
 }
 
-3333={ #欧佛览塔
+3333={ #Euphranta
 	terrain="desert"
 	culture="garamantic"
 	religion="berber_religion"
@@ -2441,7 +2441,7 @@
 	}
 }
 
-3334={ #伊斯基纳
+3334={ #Iscina
 	terrain="desert"
 	culture="garamantic"
 	religion="berber_religion"
@@ -2460,7 +2460,7 @@
 	}
 }
 
-3335={ #奥拉宗
+3335={ #Aulazon
 	terrain="desert"
 	culture="garamantic"
 	religion="berber_religion"
@@ -2479,7 +2479,7 @@
 	}
 }
 
-3336={ #帕尔马
+3336={ #Ad Palmam
 	terrain="desert"
 	culture="garamantic"
 	religion="berber_religion"
@@ -2501,7 +2501,7 @@
 	}
 }
 
-3337={ #迪格迪达 瑟洛戎
+3337={ #Digdida Selorum
 	terrain="desert"
 	culture="garamantic"
 	religion="berber_religion"
@@ -2520,7 +2520,7 @@
 	}
 }
 
-3338={ #腓莱尼亚的阿赖
+3338={ #Arae Philaenorum
 	terrain="desert"
 	culture="garamantic"
 	religion="berber_religion"
@@ -2539,7 +2539,7 @@
 	}
 }
 
-3339={ #奥托马拉克斯
+3339={ #Automalax
 	terrain="desert"
 	culture="garamantic"
 	religion="berber_religion"

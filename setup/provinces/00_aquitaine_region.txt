@@ -1,4 +1,4 @@
-﻿1719={ #阿维塔孔
+﻿1719={ #Avitacum
 	terrain="forest"
 	culture="arverni"
 	religion="druidism"
@@ -14,7 +14,7 @@
 	}
 }
 
-1721={ #腓涅斯
+1721={ #Fines
 	terrain="forest"
 	culture="lemovician"
 	religion="druidism"
@@ -27,7 +27,7 @@
 	}
 }
 
-2225={ #南庇克塔维亚
+2225={ #Pictavia Australis
 	terrain="forest"
 	culture="pictonian"
 	religion="druidism"
@@ -43,7 +43,7 @@
 	}
 }
 
-2226={ #贝基亚孔
+2226={ #Becciacum
 	terrain="forest"
 	culture="santonian"
 	religion="druidism"
@@ -59,7 +59,7 @@
 	}
 }
 
-2228={ #庇克托尼亚
+2228={ #Pictonia
 	terrain="forest"
 	culture="pictonian"
 	religion="druidism"
@@ -75,7 +75,7 @@
 	}
 }
 
-2229={ #山托农的诺维俄雷贡
+2229={ #Novioregum Santonum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -97,7 +97,7 @@
 	}
 }
 
-2230={ #山托农的墨迪俄拉农
+2230={ #Mediolanum Santonum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -113,7 +113,7 @@
 	}
 }
 
-2231={ #兰农
+2231={ #Lamnum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -129,7 +129,7 @@
 	}
 }
 
-2232={ #坦农
+2232={ #Tannum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -145,7 +145,7 @@
 	}
 }
 
-2233={ #阿基坦尼亚的诺维俄马顾斯
+2233={ #Noviomagus Aquitanum
 	terrain="marsh"
 	culture="santonian"
 	religion="druidism"
@@ -161,7 +161,7 @@
 	}
 }
 
-2234={ #部耳顾斯
+2234={ #Burgus
 	terrain="marsh"
 	culture="santonian"
 	religion="druidism"
@@ -180,7 +180,7 @@
 	}
 }
 
-2235={ #阿克洛忒里翁
+2235={ #Akroterion
 	terrain="forest"
 	culture="santonian"
 	religion="druidism"
@@ -196,7 +196,7 @@
 	}
 }
 
-2236={ #部耳迪加拉
+2236={ #Burdigala
 	terrain="marsh"
 	culture="santonian"
 	religion="druidism"
@@ -213,7 +213,7 @@
 	port_building=1
 }
 
-2237={ #洛萨
+2237={ #Losa
 	terrain="forest"
 	culture="aquitani"
 	religion="animism"
@@ -230,7 +230,7 @@
 	port_building=1
 }
 
-2238={ #瑟戈萨
+2238={ #Segosa
 	terrain="forest"
 	culture="aquitani"
 	religion="animism"
@@ -246,7 +246,7 @@
 	}
 }
 
-2239={ #摩斯孔农
+2239={ #Mosconnum
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -262,7 +262,7 @@
 	}
 }
 
-2240={ #拉浦耳冬
+2240={ #Lapurdum
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -281,7 +281,7 @@
 	}
 }
 
-2241={ #忒隆农
+2241={ #Telonnum
 	terrain="forest"
 	culture="aquitani"
 	religion="animism"
@@ -297,7 +297,7 @@
 	}
 }
 
-2242={ #科伊阔萨
+2242={ #Coequosa
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -313,7 +313,7 @@
 	}
 }
 
-2243={ #塔耳贝卡的阿库亚
+2243={ #Aquae Tarbellicae
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -329,7 +329,7 @@
 	}
 }
 
-2244={ #卡拉萨
+2244={ #Carasa
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -345,7 +345,7 @@
 	}
 }
 
-2245={ #斯托马塔斯
+2245={ #Stomatas
 	terrain="forest"
 	culture="aquitani"
 	religion="animism"
@@ -361,7 +361,7 @@
 	}
 }
 
-2246={ #伊卢罗
+2246={ #Iluro
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -377,7 +377,7 @@
 	}
 }
 
-2247={ #贝涅哈耳农
+2247={ #Bene Harnum
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -393,7 +393,7 @@
 	}
 }
 
-2248={ #新俄庇冬
+2248={ #Novum Oppidum
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -412,7 +412,7 @@
 	}
 }
 
-2249={ #塔耳巴
+2249={ #Tarba
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -428,7 +428,7 @@
 	}
 }
 
-2250={ #阿图拉
+2250={ #Atura
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -444,7 +444,7 @@
 	}
 }
 
-2251={ #孔维纳的的阿库亚
+2251={ #Aquae Convenarum
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -460,7 +460,7 @@
 	}
 }
 
-2252={ #孔维努斯的卢格杜农
+2252={ #Lugdunum Convenarum
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -479,7 +479,7 @@
 	}
 }
 
-2268={ #卡览托马顾斯
+2268={ #Carantomagus
 	terrain="forest"
 	culture="volcae"
 	religion="druidism"
@@ -495,7 +495,7 @@
 	}
 }
 
-2269={ #迪沃纳
+2269={ #Divona
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -514,7 +514,7 @@
 	}
 }
 
-2270={ #阿堇农
+2270={ #Aginnum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -533,7 +533,7 @@
 	}
 }
 
-2271={ #拉克托拉
+2271={ #Lactora
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -552,7 +552,7 @@
 	}
 }
 
-2272={ #科西翁
+2272={ #Cossium
 	terrain="forest"
 	culture="aquitani"
 	religion="animism"
@@ -574,7 +574,7 @@
 	}
 }
 
-2273={ #厄楼萨
+2273={ #Eleusa
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -590,7 +590,7 @@
 	}
 }
 
-2274={ #萨维尼亚戈
+2274={ #Saviniago
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -609,7 +609,7 @@
 	}
 }
 
-2275={ #厄林贝戎
+2275={ #Elimberrum
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -628,7 +628,7 @@
 	}
 }
 
-2276={ #卡拉戈里斯
+2276={ #Calagorris
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -641,7 +641,7 @@
 	}
 }
 
-2277={ #贝尔西农
+2277={ #Belsinum
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -657,7 +657,7 @@
 	}
 }
 
-2278={ #卡西诺马顾斯
+2278={ #Casinomagus
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -673,7 +673,7 @@
 	}
 }
 
-2279={ #萨耳纳利
+2279={ #Sarnali
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -692,7 +692,7 @@
 	}
 }
 
-2281={ #乌苏比翁
+2281={ #Ussubium
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -708,7 +708,7 @@
 	}
 }
 
-2282={ #维宋纳
+2282={ #Vesunna
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -730,7 +730,7 @@
 	}
 }
 
-2283={ #奥古斯都里同
+2283={ #Augustoritum
 	terrain="forest"
 	culture="santonian"
 	religion="druidism"
@@ -749,7 +749,7 @@
 	}
 }
 
-2284={ #革耳戈维亚
+2284={ #Gergovia
 	terrain="plains"
 	culture="arverni"
 	religion="druidism"
@@ -765,7 +765,7 @@
 	}
 }
 
-2285={ #加巴隆
+2285={ #Gabalum
 	terrain="forest"
 	culture="volcae"
 	religion="druidism"
@@ -781,7 +781,7 @@
 	}
 }
 
-2286={ #维拉沃戎
+2286={ #Vellavorum
 	terrain="forest"
 	culture="volcae"
 	religion="druidism"
@@ -800,7 +800,7 @@
 	}
 }
 
-2287={ #科耳忒拉忒
+2287={ #Corterate
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -816,7 +816,7 @@
 	}
 }
 
-2288={ #普赖弥亚孔
+2288={ #Praemiacum
 	terrain="forest"
 	culture="aquitani"
 	religion="animism"
@@ -835,7 +835,7 @@
 	}
 }
 
-2289={ #卢卡尼亚孔
+2289={ #Lucaniacum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -851,7 +851,7 @@
 	}
 }
 
-2290={ #伊库利斯马
+2290={ #Iculisma
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -870,7 +870,7 @@
 	}
 }
 
-2291={ #萨耳戎
+2291={ #Sarrum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -886,7 +886,7 @@
 	}
 }
 
-2292={ #庞培吉亚科
+2292={ #Pompegiaco
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -902,7 +902,7 @@
 	}
 }
 
-2293={ #厄克斯基宋
+2293={ #Excisum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -918,7 +918,7 @@
 	}
 }
 
-2294={ #特拉维克图斯
+2294={ #Travectus
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -934,7 +934,7 @@
 	}
 }
 
-2295={ #西拉农
+2295={ #Ad Silanum
 	terrain="forest"
 	culture="volcae"
 	religion="druidism"
@@ -950,7 +950,7 @@
 	}
 }
 
-2296={ #阿耳维耳尼亚的孔达忒
+2296={ #Condate Arvernorum
 	terrain="forest"
 	culture="volcae"
 	religion="druidism"
@@ -969,7 +969,7 @@
 	}
 }
 
-2298={ #布里瓦斯
+2298={ #Brivas
 	terrain="forest"
 	culture="arverni"
 	religion="druidism"
@@ -985,7 +985,7 @@
 	}
 }
 
-2326={ #得卡尼亚孔
+2326={ #Decaniacum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -1001,7 +1001,7 @@
 	}
 }
 
-2327={ #阿库基亚贡
+2327={ #Acuciago
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -1020,7 +1020,7 @@
 	}
 }
 
-2328={ #布里瓦
+2328={ #Briva
 	terrain="forest"
 	culture="santonian"
 	religion="druidism"
@@ -1039,7 +1039,7 @@
 	}
 }
 
-2329={ #农尼亚库斯
+2329={ #Nonniacus
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -1055,7 +1055,7 @@
 	}
 }
 
-2330={ #乌瑟耳卡
+2330={ #Userca
 	terrain="forest"
 	culture="santonian"
 	religion="druidism"
@@ -1074,7 +1074,7 @@
 	}
 }
 
-2331={ #革弥利阿孔
+2331={ #Gemilliacum
 	terrain="forest"
 	culture="santonian"
 	religion="druidism"
@@ -1090,7 +1090,7 @@
 	}
 }
 
-2332={ #涅吉亚孔
+2332={ #Negiacum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -1106,7 +1106,7 @@
 	}
 }
 
-2333={ #卡纳维亚孔
+2333={ #Canaviacum
 	terrain="forest"
 	culture="santonian"
 	religion="druidism"
@@ -1122,7 +1122,7 @@
 	}
 }
 
-2334={ #卡姆帕尼亚孔
+2334={ #Campaniacum
 	terrain="farmland"
 	culture="santonian"
 	religion="druidism"
@@ -1138,7 +1138,7 @@
 	}
 }
 
-2335={ #马耳刻利阿戈
+2335={ #Marcelliago
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -1154,7 +1154,7 @@
 	}
 }
 
-2337={ #阿耳根塔
+2337={ #Argenta
 	terrain="forest"
 	culture="santonian"
 	religion="druidism"
@@ -1170,7 +1170,7 @@
 	}
 }
 
-2338={ #欧斯特里亚孔
+2338={ #Eustriacum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -1189,7 +1189,7 @@
 	}
 }
 
-2339={ #乌克塞洛杜农
+2339={ #Uxellodunum
 	terrain="forest"
 	culture="volcae"
 	religion="druidism"
@@ -1205,7 +1205,7 @@
 	}
 }
 
-2340={ #提尼亚孔
+2340={ #Tiniacum
 	terrain="forest"
 	culture="santonian"
 	religion="druidism"
@@ -1218,7 +1218,7 @@
 	}
 }
 
-2341={ #库里西亚孔
+2341={ #Curisiacum
 	terrain="forest"
 	culture="santonian"
 	religion="druidism"
@@ -1234,7 +1234,7 @@
 	}
 }
 
-2343={ #萨尔维亚孔
+2343={ #Salviacum
 	terrain="plains"
 	culture="lemovician"
 	religion="druidism"
@@ -1256,7 +1256,7 @@
 	}
 }
 
-2344={ #杜罗廷孔
+2344={ #Durotincum
 	terrain="forest"
 	culture="lemovician"
 	religion="druidism"
@@ -1272,7 +1272,7 @@
 	}
 }
 
-2345={ #利摩农
+2345={ #Limonum
 	terrain="plains"
 	culture="pictonian"
 	religion="druidism"
@@ -1294,7 +1294,7 @@
 	}
 }
 
-2346={ #阿耳根托马顾斯
+2346={ #Argentomagus
 	terrain="forest"
 	culture="lemovician"
 	religion="druidism"
@@ -1316,7 +1316,7 @@
 	}
 }
 
-2382={ #伊杜农
+2382={ #Idunum
 	terrain="forest"
 	culture="lemovician"
 	religion="druidism"
@@ -1332,7 +1332,7 @@
 	}
 }
 
-2383={ #斐鲁基亚孔
+2383={ #Ferruciacum
 	terrain="forest"
 	culture="lemovician"
 	religion="druidism"
@@ -1354,7 +1354,7 @@
 	}
 }
 
-2384={ #沃萨贡
+2384={ #Vosagum
 	terrain="forest"
 	culture="lemovician"
 	religion="druidism"
@@ -1370,7 +1370,7 @@
 	}
 }
 
-2385={ #安得卡穆隆
+2385={ #Andecamulum
 	terrain="forest"
 	culture="lemovician"
 	religion="druidism"
@@ -1389,7 +1389,7 @@
 	}
 }
 
-2386={ #阿姆比亚孔
+2386={ #Ambiacum
 	terrain="plains"
 	culture="lemovician"
 	religion="druidism"
@@ -1405,7 +1405,7 @@
 	}
 }
 
-2387={ #厄克西杜阿隆
+2387={ #Exidualum
 	terrain="forest"
 	culture="lemovician"
 	religion="druidism"
@@ -1421,7 +1421,7 @@
 	}
 }
 
-2388={ #科摩多利亚库斯
+2388={ #Comodoliacus
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -1437,7 +1437,7 @@
 	}
 }
 
-2389={ #卡斯西诺马贡
+2389={ #Cassinomagum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -1456,7 +1456,7 @@
 	}
 }
 
-2390={ #烙拉农
+2390={ #Rauranum
 	terrain="forest"
 	culture="pictonian"
 	religion="druidism"
@@ -1472,7 +1472,7 @@
 	}
 }
 
-2391={ #布里吉俄宋
+2391={ #Brigiosum
 	terrain="plains"
 	culture="pictonian"
 	religion="druidism"
@@ -1488,7 +1488,7 @@
 	}
 }
 
-2392={ #奥恩涅多纳孔
+2392={ #Aunnedonacum
 	terrain="plains"
 	culture="santonian"
 	religion="druidism"
@@ -1504,7 +1504,7 @@
 	}
 }
 
-2393={ #沃格拉达
+2393={ #Voglada
 	terrain="plains"
 	culture="pictonian"
 	religion="druidism"
@@ -1517,7 +1517,7 @@
 	}
 }
 
-2396={ #克林诺
+2396={ #Clinno
 	terrain="plains"
 	culture="pictonian"
 	religion="druidism"
@@ -1533,7 +1533,7 @@
 	}
 }
 
-2397={ #武尔塔科农
+2397={ #Vultaconum
 	terrain="plains"
 	culture="pictonian"
 	religion="druidism"
@@ -1549,7 +1549,7 @@
 	}
 }
 
-2399={ #托阿耳基乌斯
+2399={ #Toarcius
 	terrain="plains"
 	culture="pictonian"
 	religion="druidism"
@@ -1566,7 +1566,7 @@
 	holy_site=omen_lugus
 }
 
-2404={ #西斯基亚孔
+2404={ #Sisciacum
 	terrain="forest"
 	culture="lemovician"
 	religion="druidism"
@@ -1582,7 +1582,7 @@
 	}
 }
 
-2405={ #蓬提尼亚孔
+2405={ #Pontiniacum
 	terrain="forest"
 	culture="biturigan"
 	religion="druidism"
@@ -1598,7 +1598,7 @@
 	}
 }
 
-2419={ #克劳迪俄马顾斯
+2419={ #Claudiomagus
 	terrain="forest"
 	culture="biturigan"
 	religion="druidism"
@@ -1614,7 +1614,7 @@
 	}
 }
 
-2420={ #伊基俄多罗
+2420={ #Iciodoro
 	terrain="forest"
 	culture="pictonian"
 	religion="druidism"
@@ -1630,7 +1630,7 @@
 	}
 }
 
-3000={ #瑟耳马尼科马贡
+3000={ #Sermanicomago
 	terrain="farmland"
 	culture="santonian"
 	religion="druidism"
@@ -1646,7 +1646,7 @@
 	}
 }
 
-3307={ #孔佛卢恩塔
+3307={ #Confluenta
 	terrain="forest"
 	culture="lemovician"
 	religion="druidism"
@@ -1659,7 +1659,7 @@
 	}
 }
 
-3309={ #坎尼亚科
+3309={ #Canniaco
 	terrain="forest"
 	culture="volcae"
 	religion="druidism"

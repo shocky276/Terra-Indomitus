@@ -1,4 +1,4 @@
-﻿3407={ #锡剌甘
+﻿3407={ #Sirganon
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -20,7 +20,7 @@
 	}
 }
 
-3412={ #阿尔达锡尔
+3412={ #Karmana
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -36,7 +36,7 @@
 	}
 }
 
-3413={ #马多马斯提刻
+3413={ #Madomastike
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -55,7 +55,7 @@
 	}
 }
 
-3414={ #斯塔柏亚
+3414={ #Stabaia
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -74,7 +74,7 @@
 	}
 }
 
-3415={ #特洛阿斯卡
+3415={ #Throaska
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -90,7 +90,7 @@
 	}
 }
 
-3416={ #扎兰德
+3416={ #Zarand
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -106,7 +106,7 @@
 	}
 }
 
-3421={ #赫迦
+3421={ #Rhapses
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -128,7 +128,7 @@
 	}
 }
 
-3422={ #咖卜尔
+3422={ #Nepista
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -147,7 +147,7 @@
 	}
 }
 
-3423={ #考马塔
+3423={ #Kaumata
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -169,7 +169,7 @@
 	}
 }
 
-3424={ #玛锡兹
+3424={ #Pantyene
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -185,7 +185,7 @@
 	}
 }
 
-3425={ #塔洛乌阿纳
+3425={ #Tarouana
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -201,7 +201,7 @@
 	}
 }
 
-3426={ #科方塔
+3426={ #Kophanta
 	terrain="mountain"
 	culture="utian"
 	religion="zoroaster"
@@ -217,7 +217,7 @@
 	}
 }
 
-3427={ #弥卡戴
+3427={ #Mikadai
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -233,7 +233,7 @@
 	}
 }
 
-3429={ #佩拉什
+3429={ #Paradana
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -249,7 +249,7 @@
 	}
 }
 
-3473={ #剌瓦尔
+3473={ #Ravar
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -271,7 +271,7 @@
 	}
 }
 
-4791={ #霍尔密扎德
+4791={ #Armozeia
 	terrain="dry_plains"
 	culture="utian"
 	religion="zoroaster"
@@ -302,7 +302,7 @@
 	port_building=1
 }
 
-4958={ #瓦拉什革尔德
+4958={ #Valashgerd
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -318,7 +318,7 @@
 	}
 }
 
-4959={ #卡耳马尼亚伊的亚历山大雷亚
+4959={ #Alexandreia Karmanias
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -358,7 +358,7 @@
 	}
 }
 
-4960={ #萨卜泽瓦兰
+4960={ #Sabzevaran
 	terrain="hills"
 	culture="utian"
 	religion="zoroaster"
@@ -377,7 +377,7 @@
 	}
 }
 
-4961={ #巴姆
+4961={ #Bam
 	terrain="dry_hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -400,7 +400,7 @@
 	}
 }
 
-6512={ #哈耳摩泽亚
+6512={ #Anchindana
 	terrain="dry_plains"
 	culture="utian"
 	religion="zoroaster"
@@ -416,7 +416,7 @@
 	}
 }
 
-6513={ #浦剌
+6513={ #Poura
 	terrain="hills"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -432,7 +432,7 @@
 	}
 }
 
-6514={ #马迪斯
+6514={ #Badis
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -448,7 +448,7 @@
 	}
 }
 
-6515={ #厄图耳
+6515={ #Dagaseira
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -468,7 +468,7 @@
 	}
 }
 
-6516={ #特洛厄索斯
+6516={ #Troesos
 	terrain="desert"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -484,7 +484,7 @@
 	}
 }
 
-6517={ #卡纳西达
+6517={ #Kanasida
 	terrain="desert"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -500,7 +500,7 @@
 	}
 }
 
-6520={ #墨法斯
+6520={ #Mephas
 	terrain="desert"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -516,7 +516,7 @@
 	}
 }
 
-6521={ #巴达拉
+6521={ #Barna
 	terrain="desert"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -532,7 +532,7 @@
 	}
 }
 
-6522={ #摩萨耳纳
+6522={ #Mosarna
 	terrain="desert"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -548,7 +548,7 @@
 	}
 }
 
-6523={ #科拉墨
+6523={ #Kolame
 	terrain="desert"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -564,7 +564,7 @@
 	}
 }
 
-6524={ #马拉纳
+6524={ #Malana
 	terrain="dry_hills"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -580,7 +580,7 @@
 	}
 }
 
-6525={ #卡巴纳
+6525={ #Kabana
 	terrain="dry_hills"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -599,7 +599,7 @@
 	}
 }
 
-6526={ #波揭罗
+6526={ #Alexandreia Makarene
 	terrain="desert"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -619,7 +619,7 @@
 	port_building=1
 }
 
-6528={ #拉法涅的阿帕墨亚
+6528={ #Apameia Raphana
 	terrain="hills"
 	culture="utian"
 	religion="zoroaster"
@@ -638,7 +638,7 @@
 	}
 }
 
-6529={ #科达
+6529={ #Chodda
 	terrain="dry_hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -660,7 +660,7 @@
 	}
 }
 
-6530={ #派西
+6530={ #Paise
 	terrain="dry_hills"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -676,7 +676,7 @@
 	}
 }
 
-6531={ #科卡拉
+6531={ #Kokala
 	terrain="dry_hills"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -695,7 +695,7 @@
 	}
 }
 
-6532={ #阿耳比斯
+6532={ #Arbis
 	terrain="dry_hills"
 	culture="parecanian"
 	religion="zoroaster"
@@ -714,7 +714,7 @@
 	}
 }
 
-6533={ #览那
+6533={ #Rhamna
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -733,7 +733,7 @@
 	}
 }
 
-6534={ #泽提斯
+6534={ #Zetis
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -749,7 +749,7 @@
 	}
 }
 
-6535={ #俄斯卡纳
+6535={ #Oskana
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -768,7 +768,7 @@
 	}
 }
 
-6536={ #阿耳比提
+6536={ #Arbiti
 	terrain="dry_hills"
 	culture="parecanian"
 	religion="zoroaster"
@@ -787,7 +787,7 @@
 	}
 }
 
-6537={ #索克塞特拉
+6537={ #Soxetra
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -806,7 +806,7 @@
 	}
 }
 
-6538={ #帕雷卡尼亚的巴达拉
+6538={ #Badara
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -825,7 +825,7 @@
 	}
 }
 
-6539={ #穆萨耳纳
+6539={ #Mosarna
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -841,7 +841,7 @@
 	}
 }
 
-6540={ #科塔部拉
+6540={ #Kottabura
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -860,7 +860,7 @@
 	}
 }
 
-6560={ #兹兰咖
+6560={ #Zarang
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -889,7 +889,7 @@
 	}
 }
 
-6571={ #玛斯同
+6571={ #Pharsaga
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -905,7 +905,7 @@
 	}
 }
 
-6574={ #咖什
+6574={ #Khash
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -918,7 +918,7 @@
 	}
 }
 
-6575={ #巴斯马
+6575={ #Basma
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -937,7 +937,7 @@
 	}
 }
 
-6576={ #阿巴德
+6576={ #Abis
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -953,7 +953,7 @@
 	}
 }
 
-6577={ #梵菩尔
+6577={ #Bampur
 	terrain="dry_plains"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -969,7 +969,7 @@
 	}
 }
 
-6578={ #帕耳西刻亚
+6578={ #Parsikeia
 	terrain="dry_hills"
 	culture="utian"
 	religion="zoroaster"
@@ -985,7 +985,7 @@
 	}
 }
 
-6579={ #萨密戴
+6579={ #Samydai
 	terrain="desert"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -1004,7 +1004,7 @@
 	}
 }
 
-6580={ #萨拉洛乌斯
+6580={ #Salarous
 	terrain="hills"
 	culture="utian"
 	religion="zoroaster"
@@ -1023,7 +1023,7 @@
 	}
 }
 
-6581={ #卡纳忒
+6581={ #Kanate
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -1042,7 +1042,7 @@
 	}
 }
 
-6582={ #塔洛乌卡涅
+6582={ #Taroukane
 	terrain="hills"
 	culture="utian"
 	religion="zoroaster"
@@ -1061,7 +1061,7 @@
 	}
 }
 
-6583={ #卡玻乌勒亚
+6583={ #Kabouleia
 	terrain="dry_hills"
 	culture="utian"
 	religion="zoroaster"
@@ -1080,7 +1080,7 @@
 	}
 }
 
-6584={ #卡诺
+6584={ #Kano
 	terrain="desert"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -1096,7 +1096,7 @@
 	}
 }
 
-6585={ #塔夫坦
+6585={ #Taftan
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1112,7 +1112,7 @@
 	}
 }
 
-6586={ #部吕亚
+6586={ #Bulya
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1131,7 +1131,7 @@
 	}
 }
 
-6587={ #卡巴得涅
+6587={ #Kabadene
 	terrain="mountain"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1154,7 +1154,7 @@
 	}
 }
 
-6588={ #哉丹
+6588={ #Euergetae
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1167,7 +1167,7 @@
 	}
 }
 
-6589={ #塔瓦卡勒
+6589={ #Tavakkal
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1183,7 +1183,7 @@
 	}
 }
 
-6590={ #萨喀斯忒尼亚纳
+6590={ #Sacasteniana
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1199,7 +1199,7 @@
 	}
 }
 
-6591={ #舒鲁
+6591={ #Shuru
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1215,7 +1215,7 @@
 	}
 }
 
-6592={ #希德里亚科斯
+6592={ #Hydriakos
 	terrain="hills"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -1231,7 +1231,7 @@
 	}
 }
 
-6593={ #革德罗西亚纳
+6593={ #Gedrosiana
 	terrain="hills"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -1247,7 +1247,7 @@
 	}
 }
 
-6607={ #瑟图耳
+6607={ #Sethur
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1266,7 +1266,7 @@
 	}
 }
 
-6616={ #科阿雷涅
+6616={ #Koarene
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -1282,7 +1282,7 @@
 	}
 }
 
-6617={ #帕耳狄亚伊
+6617={ #Pardiai
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -1301,7 +1301,7 @@
 	}
 }
 
-6618={ #俄尔托斯
+6618={ #Oltos
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -1317,7 +1317,7 @@
 	}
 }
 
-6619={ #阿耳比亚
+6619={ #Arbia
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -1336,7 +1336,7 @@
 	}
 }
 
-6620={ #然巴喀亚
+6620={ #Alexandreia Rhambakias
 	terrain="dry_hills"
 	culture="gedrosian"
 	religion="zoroaster"

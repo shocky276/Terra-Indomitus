@@ -1,4 +1,4 @@
-﻿7884={ #阿尔比斯
+﻿7884={ #Albis
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-7885={ #阿尔比斯
+7885={ #Albis
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-7886={ #阿尔比斯
+7886={ #Albis
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-7887={ #阿尔比斯
+7887={ #Albis
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-7888={ #阿尔比斯
+7888={ #Albis
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

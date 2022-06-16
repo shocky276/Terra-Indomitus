@@ -1,4 +1,4 @@
-﻿10={ #伊耳那
+﻿10={ #Irna
 	terrain="plains"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -17,7 +17,7 @@
 	}
 }
 
-11={ #派斯同
+11={ #Paestum
 	terrain="hills"
 	culture="lucanian"
 	religion="roman_pantheon"
@@ -62,7 +62,7 @@
 	}
 }
 
-12={ #厄勒亚
+12={ #Elea
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -92,7 +92,7 @@
 	port_building=1
 }
 
-13={ #布兰达
+13={ #Blanda
 	terrain="hills"
 	culture="lucanian"
 	religion="roman_pantheon"
@@ -114,7 +114,7 @@
 	}
 }
 
-36={ #伊阿皮吉亚的忒阿农
+36={ #Teanum Apulum
 	terrain="hills"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -136,7 +136,7 @@
 	}
 }
 
-37={ #卢刻里亚
+37={ #Luceria
 	terrain="plains"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -163,7 +163,7 @@
 	}
 }
 
-38={ #西庇乌斯
+38={ #Sipious
 	terrain="plains"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -201,7 +201,7 @@
 	port_building=1
 }
 
-39={ #卡努西翁
+39={ #Canusium
 	terrain="farmland"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -223,11 +223,11 @@
 	}
 }
 
-42={ #维努西亚
+42={ #Venusia
 	terrain="farmland"
 	culture="samnite"
 	religion="roman_pantheon"
-	trade_goods="wine"
+	trade_goods="fruits"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -250,7 +250,7 @@
 	}
 }
 
-43={ #孔普萨
+43={ #Compsa
 	terrain="hills"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -272,7 +272,7 @@
 	}
 }
 
-44={ #图提孔
+44={ #Tuticum
 	terrain="plains"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -302,7 +302,7 @@
 	}
 }
 
-45={ #奥斯库隆
+45={ #Ausculum
 	terrain="plains"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -332,7 +332,7 @@
 	}
 }
 
-46={ #波屯提亚
+46={ #Potentia
 	terrain="hills"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -354,11 +354,11 @@
 	}
 }
 
-47={ #沃尔刻伊
+47={ #Volcei
 	terrain="hills"
 	culture="lucanian"
 	religion="roman_pantheon"
-	trade_goods="wine"
+	trade_goods="fruits"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
@@ -376,7 +376,7 @@
 	}
 }
 
-50={ #乌里翁
+50={ #Urium
 	terrain="hills"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -398,7 +398,7 @@
 	}
 }
 
-51={ #拉乌斯
+51={ #Laus
 	terrain="hills"
 	culture="bruttian"
 	religion="roman_pantheon"
@@ -420,7 +420,7 @@
 	}
 }
 
-52={ #图里伊
+52={ #Thourioi
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -453,7 +453,7 @@
 	port_building=1
 }
 
-53={ #格鲁门同
+53={ #Grumentum
 	terrain="hills"
 	culture="lucanian"
 	religion="roman_pantheon"
@@ -475,7 +475,7 @@
 	}
 }
 
-54={ #赫拉克利亚
+54={ #Herakleia
 	terrain="farmland"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -513,7 +513,7 @@
 	port_building=1
 }
 
-55={ #墨塔彭提翁
+55={ #Metapontion
 	terrain="forest"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -550,7 +550,7 @@
 	}
 }
 
-56={ #塔拉斯
+56={ #Taras
 	terrain="farmland"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -588,7 +588,7 @@
 	port_building=1
 }
 
-57={ #赫拉克莱亚
+57={ #Brentesion
 	terrain="plains"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -620,7 +620,7 @@
 	port_building=1
 }
 
-58={ #巴耳杜洛斯
+58={ #Bardoulos
 	terrain="farmland"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -642,7 +642,7 @@
 	}
 }
 
-59={ #孔西利农
+59={ #Consilinum
 	terrain="hills"
 	culture="lucanian"
 	religion="roman_pantheon"
@@ -664,7 +664,7 @@
 	}
 }
 
-60={ #班提亚
+60={ #Bantium
 	terrain="plains"
 	culture="lucanian"
 	religion="roman_pantheon"
@@ -694,7 +694,7 @@
 	}
 }
 
-61={ #西里斯
+61={ #Siris
 	terrain="plains"
 	culture="lucanian"
 	religion="roman_pantheon"
@@ -721,7 +721,7 @@
 	}
 }
 
-62={ #曼堤里翁
+62={ #Mandyrion
 	terrain="forest"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -753,7 +753,7 @@
 	}
 }
 
-63={ #卡利波利斯
+63={ #Kallipolis
 	terrain="farmland"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -775,7 +775,7 @@
 	}
 }
 
-64={ #许德卢斯
+64={ #Hydrous
 	terrain="farmland"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -798,7 +798,7 @@
 	port_building=1
 }
 
-65={ #路庇埃
+65={ #Loupiai
 	terrain="farmland"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -820,7 +820,7 @@
 	}
 }
 
-66={ #巴里翁
+66={ #Barion
 	terrain="farmland"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -842,7 +842,7 @@
 	}
 }
 
-67={ #厄格那提亚
+67={ #Egnatia
 	terrain="plains"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -865,7 +865,7 @@
 	port_building=1
 }
 
-68={ #堤戎
+68={ #Thyron
 	terrain="forest"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -895,7 +895,7 @@
 	}
 }
 
-69={ #涅提翁
+69={ #Netion
 	terrain="forest"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -917,7 +917,7 @@
 	}
 }
 
-70={ #西尔维翁
+70={ #Silvium
 	terrain="farmland"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -951,7 +951,7 @@
 	}
 }
 
-71={ #斯提格利亚农
+71={ #Stiglianum
 	terrain="hills"
 	culture="lucanian"
 	religion="roman_pantheon"
@@ -973,7 +973,7 @@
 	}
 }
 
-72={ #雷吉翁
+72={ #Rhegion
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -1001,7 +1001,7 @@
 	port_building=1
 }
 
-73={ #厄庇泽费洛斯的罗克洛伊
+73={ #Lokroi Epizephyrioi
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -1035,7 +1035,7 @@
 	port_building=1
 }
 
-74={ #斯蒂拉基翁
+74={ #Stylacium
 	terrain="hills"
 	culture="bruttian"
 	religion="roman_pantheon"
@@ -1062,7 +1062,7 @@
 	}
 }
 
-75={ #希波尼翁
+75={ #Hipponion
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -1095,7 +1095,7 @@
 	port_building=1
 }
 
-76={ #屯普萨
+76={ #Tempsa
 	terrain="hills"
 	culture="bruttian"
 	religion="roman_pantheon"
@@ -1117,7 +1117,7 @@
 	}
 }
 
-77={ #孔森提亚
+77={ #Consentia
 	terrain="hills"
 	culture="bruttian"
 	religion="roman_pantheon"
@@ -1139,7 +1139,7 @@
 	}
 }
 
-78={ #克洛同
+78={ #Kroton
 	terrain="farmland"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -1172,7 +1172,7 @@
 	port_building=1
 }
 
-79={ #佩忒利亚
+79={ #Petelia
 	terrain="farmland"
 	culture="bruttian"
 	religion="roman_pantheon"
@@ -1204,7 +1204,7 @@
 	}
 }
 
-80={ #墨塞纳
+80={ #Messene
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1234,7 +1234,7 @@
 	port_building=1
 }
 
-81={ #陶洛墨尼翁
+81={ #Tauromenion
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1261,7 +1261,7 @@
 	}
 }
 
-82={ #卡塔那
+82={ #Katane
 	terrain="farmland"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1296,7 +1296,7 @@
 	port_building=1
 }
 
-83={ #勒翁提尼
+83={ #Leontinoi
 	terrain="forest"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1322,7 +1322,7 @@
 	}
 }
 
-84={ #叙拉古
+84={ #Syrakousai
 	terrain="plains"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1357,7 +1357,7 @@
 	port_building=3
 }
 
-85={ #革拉斯
+85={ #Gela
 	terrain="forest"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1387,7 +1387,7 @@
 	}
 }
 
-86={ #阿克拉迦斯
+86={ #Akragas
 	terrain="farmland"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1422,7 +1422,7 @@
 	port_building=1
 }
 
-87={ #阿克赖
+87={ #Akrai
 	terrain="mountain"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1444,7 +1444,7 @@
 	}
 }
 
-88={ #摩耳干提那
+88={ #Morgantina
 	terrain="hills"
 	culture="siculian"
 	religion="roman_pantheon"
@@ -1463,7 +1463,7 @@
 	}
 }
 
-89={ #恩纳
+89={ #Enna
 	terrain="forest"
 	culture="siculian"
 	religion="roman_pantheon"
@@ -1501,7 +1501,7 @@
 	}
 }
 
-90={ #希帕纳
+90={ #Hippana
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1538,7 +1538,7 @@
 	}
 }
 
-91={ #米诺斯的赫拉克利亚
+91={ #Herakleia Minoa
 	terrain="farmland"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1573,7 +1573,7 @@
 	}
 }
 
-92={ #厄革斯塔
+92={ #Egesta
 	terrain="hills"
 	culture="elymian"
 	religion="roman_pantheon"
@@ -1601,7 +1601,7 @@
 	}
 }
 
-93={ #塞林努斯
+93={ #Selinous
 	terrain="forest"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1646,7 +1646,7 @@
 	}
 }
 
-94={ #利里拜昂
+94={ #Lilibaya
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1674,7 +1674,7 @@
 	port_building=1
 }
 
-95={ #厄律克斯
+95={ #Eryx
 	terrain="plains"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1700,7 +1700,7 @@
 	}
 }
 
-96={ #济兹
+96={ #Ziz
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1728,7 +1728,7 @@
 	port_building=1
 }
 
-97={ #忒耳马
+97={ #Thermai
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1760,7 +1760,7 @@
 	}
 }
 
-98={ #刻法罗狄翁
+98={ #Kephaloidion
 	terrain="plains"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1782,7 +1782,7 @@
 	}
 }
 
-99={ #丁达里斯
+99={ #Tyndaris
 	terrain="plains"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1815,7 +1815,7 @@
 	}
 }
 
-100={ #卡拉克塔
+100={ #Kalakta
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1837,7 +1837,7 @@
 	}
 }
 
-101={ #卡马林那
+101={ #Kamarina
 	terrain="farmland"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1867,7 +1867,7 @@
 	}
 }
 
-1471={ #姆列特
+1471={ #Mliet
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1886,7 +1886,7 @@
 	}
 }
 
-1472={ #利帕拉
+1472={ #Lipara
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1899,7 +1899,7 @@
 	}
 }
 
-7837={ #许布莱亚的墨伽拉
+7837={ #Megara Hyblaia
 	terrain="plains"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1918,7 +1918,7 @@
 	}
 }
 
-7838={ #肯托里帕
+7838={ #Kentoripa
 	terrain="farmland"
 	culture="siculian"
 	religion="roman_pantheon"
@@ -1940,7 +1940,7 @@
 	}
 }
 
-7839={ #卡庇提翁
+7839={ #Capitium
 	terrain="hills"
 	culture="siculian"
 	religion="roman_pantheon"
@@ -1962,7 +1962,7 @@
 	}
 }
 
-7840={ #墨奈
+7840={ #Menai
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1983,7 +1983,7 @@
 	}
 }
 
-7841={ #密提斯特拉同
+7841={ #Myttistraton
 	terrain="hills"
 	culture="sicanian"
 	religion="roman_pantheon"
@@ -2002,7 +2002,7 @@
 	}
 }
 
-7842={ #卡帕拉
+7842={ #Qapara
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2047,7 +2047,7 @@
 	}
 }
 
-7843={ #阿德拉农
+7843={ #Adranon
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"

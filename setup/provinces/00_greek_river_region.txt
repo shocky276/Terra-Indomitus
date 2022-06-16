@@ -1,4 +1,4 @@
-﻿7709={ #厄刻多洛斯
+﻿7709={ #Echedoros
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

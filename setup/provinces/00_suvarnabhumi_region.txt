@@ -1,4 +1,4 @@
-﻿9797={ #直通
+﻿9797={ #D PROV9797!
 	terrain="hills"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -14,11 +14,11 @@
 	}
 }
 
-9798={ #磨地勃
+9798={ #D PROV9798!
 	terrain="hills"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
-	trade_goods="fish"
+	trade_goods="sugar"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -27,7 +27,7 @@
 	}
 }
 
-9799={ #禄羽
+9799={ #D PROV9799!
 	terrain="hills"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -40,7 +40,7 @@
 	}
 }
 
-9800={ #谌离北
+9800={ #D PROV9800!
 	terrain="hills"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -56,8 +56,8 @@
 	}
 }
 
-9801={ #谌离中
-	terrain="marsh"
+9801={ #D PROV9801!
+	terrain="flood_plain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
 	trade_goods="elephants"
@@ -69,8 +69,8 @@
 	}
 }
 
-9802={ #谌离南
-	terrain="marsh"
+9802={ #D PROV9802!
+	terrain="flood_plain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
 	trade_goods="salt"
@@ -82,11 +82,11 @@
 	}
 }
 
-9803={ #陀洹
+9803={ #D PROV9803!
 	terrain="jungle"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
-	trade_goods="elephants"
+	trade_goods="base_metals"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -98,7 +98,7 @@
 	}
 }
 
-9804={ #邑卢没
+9804={ #D PROV9804!
 	terrain="hills"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -114,7 +114,7 @@
 	}
 }
 
-9805={ #顿逊北
+9805={ #D PROV9805!
 	terrain="jungle"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -127,11 +127,11 @@
 	}
 }
 
-9806={ #顿逊
+9806={ #D PROV9806!
 	terrain="jungle"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
-	trade_goods="fish"
+	trade_goods="sugar"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -143,7 +143,7 @@
 	}
 }
 
-9807={ #顿逊南
+9807={ #D PROV9807!
 	terrain="jungle"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -156,7 +156,7 @@
 	}
 }
 
-9808={ #陀罗钵底
+9808={ #D PROV9808!
 	terrain="hills"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -172,7 +172,7 @@
 	}
 }
 
-9809={ #白头
+9809={ #D PROV9809!
 	terrain="jungle"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -185,8 +185,8 @@
 	}
 }
 
-9810={ #佛统
-	terrain="marsh"
+9810={ #D PROV9810!
+	terrain="flood_plain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
 	trade_goods="fish"
@@ -201,8 +201,8 @@
 	}
 }
 
-9811={ #金邻大湾
-	terrain="marsh"
+9811={ #D PROV9811!
+	terrain="flood_plain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
 	trade_goods="elephants"
@@ -214,7 +214,7 @@
 	}
 }
 
-9812={ #罗斛
+9812={ #D PROV9812!
 	terrain="forest"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -227,7 +227,7 @@
 	}
 }
 
-9813={ #金邻
+9813={ #D PROV9813!
 	terrain="forest"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -243,7 +243,7 @@
 	}
 }
 
-9814={ #金邻西
+9814={ #D PROV9814!
 	terrain="mountain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -256,7 +256,7 @@
 	}
 }
 
-9815={ #金邻南
+9815={ #D PROV9815!
 	terrain="jungle"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"

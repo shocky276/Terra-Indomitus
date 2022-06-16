@@ -1,4 +1,4 @@
-﻿3113={ #顾努顾
+﻿3113={ #Gunugu
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -20,7 +20,7 @@
 	}
 }
 
-3114={ #得腓农的俄庇冬
+3114={ #Oppidum Definum
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -36,7 +36,7 @@
 	}
 }
 
-3115={ #祖卡巴耳
+3115={ #Zucchabar
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -49,7 +49,7 @@
 	}
 }
 
-3116={ #伊俄尔
+3116={ #Iol
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -79,7 +79,7 @@
 	port_building=1
 }
 
-3117={ #苏法萨耳
+3117={ #Sufasar
 	terrain="desert"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -92,7 +92,7 @@
 	}
 }
 
-3118={ #阿维卡叁
+3118={ #Awikasam
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -111,7 +111,7 @@
 	port_building=1
 }
 
-3119={ #拉姆布迪亚
+3119={ #Lambdia
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -130,7 +130,7 @@
 	}
 }
 
-3120={ #鲁什古奈
+3120={ #Rushgunay
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -151,7 +151,7 @@
 	}
 }
 
-3121={ #基希
+3121={ #Qishi
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -186,7 +186,7 @@
 	port_building=1
 }
 
-3122={ #阿雅曼
+3122={ #Ayaman
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -204,7 +204,7 @@
 	}
 }
 
-3123={ #鲁沙兹
+3123={ #Rushaz
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -220,7 +220,7 @@
 	}
 }
 
-3124={ #比达
+3124={ #Bida
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -237,7 +237,7 @@
 	holy_site=omen_sinifere
 }
 
-3126={ #扎尔达
+3126={ #Zalda
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -261,7 +261,7 @@
 	port_building=1
 }
 
-3127={ #金纳巴山
+3127={ #Cinnaba Mons
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -280,7 +280,7 @@
 	}
 }
 
-3128={ #佛鲁赖西乌斯山
+3128={ #Phruraesius Mons
 	terrain="desert"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -293,7 +293,7 @@
 	}
 }
 
-3129={ #塔纳拉穆萨兵营
+3129={ #Thanaramusa Castra
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -312,7 +312,7 @@
 	}
 }
 
-3130={ #拉庇冬
+3130={ #Rapidum
 	terrain="desert"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -328,7 +328,7 @@
 	}
 }
 
-3131={ #奥齐亚
+3131={ #Auzia
 	terrain="desert"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -344,7 +344,7 @@
 	}
 }
 
-3132={ #塔提利提
+3132={ #Tatiliti
 	terrain="desert"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -357,11 +357,11 @@
 	}
 }
 
-3133={ #匝比
+3133={ #Zabi
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
@@ -379,7 +379,7 @@
 	}
 }
 
-3134={ #厄奎泽同
+3134={ #Equizeto
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -398,7 +398,7 @@
 	}
 }
 
-3135={ #图部苏克图
+3135={ #Tubusuctu
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -420,7 +420,7 @@
 	}
 }
 
-3136={ #奥宋
+3136={ #Ausum
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -439,7 +439,7 @@
 	}
 }
 
-3137={ #贝瑟弥翁
+3137={ #Bessemium
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -458,7 +458,7 @@
 	}
 }
 
-3138={ #北贝瑟弥翁
+3138={ #
 	terrain="impassable_terrain"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -468,7 +468,7 @@
 	province_rank=""
 }
 
-3139={ #瓦尼斯涅西
+3139={ #Vanisnesi
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -487,7 +487,7 @@
 	}
 }
 
-3140={ #萨瓦 穆尼基庇翁
+3140={ #Ad Sava Municipium
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -503,7 +503,7 @@
 	}
 }
 
-3141={ #瑟耳忒
+3141={ #Sertei
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -522,7 +522,7 @@
 	}
 }
 
-3142={ #阿拉斯
+3142={ #Aras
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -541,7 +541,7 @@
 	}
 }
 
-3143={ #勒斯比亚
+3143={ #Lesbia
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -560,7 +560,7 @@
 	}
 }
 
-3144={ #穆斯卢比翁
+3144={ #Muslubium
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -581,7 +581,7 @@
 	}
 }
 
-3145={ #科巴
+3145={ #Choba
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -614,7 +614,7 @@
 	port_building=1
 }
 
-3146={ #萨塔腓斯
+3146={ #Satafis
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -644,7 +644,7 @@
 	}
 }
 
-3147={ #西提腓斯
+3147={ #Sitifis
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -666,7 +666,7 @@
 	}
 }
 
-3148={ #摩普特
+3148={ #Mopth
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -685,7 +685,7 @@
 	}
 }
 
-3149={ #库伊库尔
+3149={ #Cuicul
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -707,7 +707,7 @@
 	}
 }
 
-3150={ #伊吉尔吉里
+3150={ #Igilgili
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -735,11 +735,11 @@
 	port_building=1
 }
 
-3151={ #马克里
+3151={ #Macri
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
@@ -754,7 +754,7 @@
 	}
 }
 
-3152={ #图部奈
+3152={ #Thubunae
 	terrain="desert"
 	culture="massylian"
 	religion="berber_religion"
@@ -776,7 +776,7 @@
 	}
 }
 
-3153={ #墨萨里厄塔
+3153={ #Mesarietta
 	terrain="forest"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -792,7 +792,7 @@
 	}
 }
 
-3154={ #革墨拉厄
+3154={ #Gemellae
 	terrain="forest"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -808,7 +808,7 @@
 	}
 }
 
-3155={ #维瓦的阿库亚
+3155={ #Aqua Viva
 	terrain="dry_plains"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -827,8 +827,8 @@
 	}
 }
 
-3156={ #尼基维部斯
-	terrain="dry_hills"
+3156={ #Nicivibus
+	terrain="desert_hills"
 	culture="massylian"
 	religion="berber_religion"
 	trade_goods="vegetables"
@@ -843,8 +843,8 @@
 	}
 }
 
-3157={ #勒墨利亚
-	terrain="dry_hills"
+3157={ #Lemellia
+	terrain="desert_hills"
 	culture="massylian"
 	religion="berber_religion"
 	trade_goods="elephants"
@@ -859,7 +859,7 @@
 	}
 }
 
-3158={ #洛布里尼亚
+3158={ #Lobrinia
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -878,11 +878,11 @@
 	}
 }
 
-3159={ #匝赖
+3159={ #Zarai
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
@@ -897,7 +897,7 @@
 	}
 }
 
-3160={ #图卡
+3160={ #Tuka
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -918,7 +918,7 @@
 	}
 }
 
-3161={ #库卢
+3161={ #Chullu
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -942,7 +942,7 @@
 	}
 }
 
-3162={ #弥勒翁
+3162={ #Milevum
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -958,7 +958,7 @@
 	}
 }
 
-3163={ #喀耳塔
+3163={ #Kirta
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -980,7 +980,7 @@
 	}
 }
 
-3164={ #提比利斯
+3164={ #Thibilis
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1002,7 +1002,7 @@
 	}
 }
 
-3165={ #纳塔部同
+3165={ #Nattabutum
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1024,7 +1024,7 @@
 	}
 }
 
-3166={ #加迪奥法拉
+3166={ #Gadiaufala
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1040,7 +1040,7 @@
 	}
 }
 
-3167={ #马科马得斯
+3167={ #Macomades
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1059,7 +1059,7 @@
 	}
 }
 
-3168={ #提伯里亚的马斯库拉
+3168={ #Mascula Tiberia
 	terrain="dry_hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1075,7 +1075,7 @@
 	}
 }
 
-3169={ #巴迪亚斯
+3169={ #Badias
 	terrain="forest"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -1097,7 +1097,7 @@
 	}
 }
 
-3170={ #兰巴丰迪
+3170={ #Lambafundi
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1116,7 +1116,7 @@
 	}
 }
 
-3171={ #塔部迪翁
+3171={ #Tabudium
 	terrain="forest"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -1135,7 +1135,7 @@
 	}
 }
 
-3172={ #上奥拉西乌斯
+3172={ #Aurasius Superior
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -1154,7 +1154,7 @@
 	}
 }
 
-3173={ #盖图利亚的部耳顾斯
+3173={ #Burgus Gaetulia
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1170,7 +1170,7 @@
 	}
 }
 
-3174={ #克劳迪
+3174={ #Claudi
 	terrain="dry_hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1189,7 +1189,7 @@
 	}
 }
 
-3176={ #下奥拉西乌斯
+3176={ #Aurasius Inferior
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -1208,7 +1208,7 @@
 	}
 }
 
-3177={ #拉马斯巴
+3177={ #Lamasba
 	terrain="dry_hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1227,7 +1227,7 @@
 	}
 }
 
-3178={ #老迪亚纳
+3178={ #Diana Veteranorum
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1246,11 +1246,11 @@
 	}
 }
 
-3179={ #维雷孔达
+3179={ #Verecunda
 	terrain="dry_hills"
 	culture="massylian"
 	religion="berber_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
@@ -1259,7 +1259,7 @@
 	}
 }
 
-3180={ #忒涅布雷斯提亚
+3180={ #Thenebrestia
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1278,7 +1278,7 @@
 	}
 }
 
-3181={ #西贵斯
+3181={ #Sigus
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1294,11 +1294,11 @@
 	}
 }
 
-3182={ #巴盖
+3182={ #Bagai
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
@@ -1310,7 +1310,7 @@
 	}
 }
 
-3183={ #苏布祖阿里塔农
+3183={ #Subzuaritanum
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1326,7 +1326,7 @@
 	}
 }
 
-3184={ #塔拉得斯
+3184={ #Thalades
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1339,7 +1339,7 @@
 	}
 }
 
-3185={ #大勒革斯
+3185={ #Leges Maiores
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1358,7 +1358,7 @@
 	}
 }
 
-3186={ #乌巴匝兵营
+3186={ #Ubaza Castellum
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1377,7 +1377,7 @@
 	}
 }
 
-3187={ #弥迪利
+3187={ #Midili
 	terrain="desert"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -1399,7 +1399,7 @@
 	}
 }
 
-3188={ #黑卡赛
+3188={ #Casae Nigrae
 	terrain="dry_plains"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -1415,7 +1415,7 @@
 	}
 }
 
-3189={ #斯佩库隆
+3189={ #Ad Speculum
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1434,7 +1434,7 @@
 	}
 }
 
-3193={ #刻耳瓦
+3193={ #Cerva
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1453,7 +1453,7 @@
 	}
 }
 
-3203={ #特贝萨
+3203={ #Tbessa
 	terrain="dry_hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1472,7 +1472,7 @@
 	}
 }
 
-3204={ #瓦塔里
+3204={ #Vatari
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1491,7 +1491,7 @@
 	}
 }
 
-3206={ #恺撒里斯的阿库亚
+3206={ #Ad Aquas Caesaris
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1507,7 +1507,7 @@
 	}
 }
 
-3207={ #维革瑟拉
+3207={ #Vegesela
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1526,7 +1526,7 @@
 	}
 }
 
-3208={ #安迈达拉
+3208={ #Ammaedara
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -1545,7 +1545,7 @@
 	}
 }
 
-3213={ #瓦山浦斯
+3213={ #Vasampus
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1561,7 +1561,7 @@
 	}
 }
 
-3214={ #泰萨克同
+3214={ #Thaesactum
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1580,7 +1580,7 @@
 	}
 }
 
-3215={ #卡赛亚
+3215={ #Casaea
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1599,7 +1599,7 @@
 	}
 }
 
-3216={ #丰达 塔瓦伽楞西斯
+3216={ #Funda Thavagalensis
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -1615,7 +1615,7 @@
 	}
 }
 
-3217={ #马道洛斯
+3217={ #Madauros
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1634,7 +1634,7 @@
 	}
 }
 
-3218={ #提帕扎
+3218={ #Tipaza
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1653,7 +1653,7 @@
 	}
 }
 
-3219={ #马耳基墨尼
+3219={ #Marcimeni
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1672,7 +1672,7 @@
 	}
 }
 
-3220={ #萨尔图斯 索罗屯西斯
+3220={ #Saltus Sorothensis
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"
@@ -1691,7 +1691,7 @@
 	}
 }
 
-3221={ #匝塔拉
+3221={ #Zattara
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1713,7 +1713,7 @@
 	}
 }
 
-3223={ #卡拉马
+3223={ #Calama
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1749,7 +1749,7 @@
 	}
 }
 
-3224={ #阿苏库里斯
+3224={ #Asuccuris
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -1769,7 +1769,7 @@
 	}
 }
 
-3225={ #马叙利亚的乌朋
+3225={ #Ubon Massylia
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1797,7 +1797,7 @@
 	port_building=1
 }
 
-3226={ #库卢基塔尼斯
+3226={ #Kulukaton
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1828,7 +1828,7 @@
 	}
 }
 
-3227={ #鲁希卡德
+3227={ #Rushikad
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1856,7 +1856,7 @@
 	port_building=1
 }
 
-3228={ #刻尔提亚尼斯
+3228={ #Celtianis
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1878,7 +1878,7 @@
 	}
 }
 
-3229={ #图尼匝
+3229={ #Tuniza
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1907,7 +1907,7 @@
 	}
 }
 
-3231={ #马拉壬西翁的帕顾斯
+3231={ #Pagus Malarensium
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1930,7 +1930,7 @@
 	}
 }
 
-3232={ #西弥图斯
+3232={ #Simitthus
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1949,7 +1949,7 @@
 	}
 }
 
-3355={ #法巴提亚农
+3355={ #Fabatianum
 	terrain="dry_plains"
 	culture="massylian"
 	religion="berber_religion"

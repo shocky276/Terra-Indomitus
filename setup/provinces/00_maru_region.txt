@@ -1,4 +1,4 @@
-﻿4352={ #洛卢卡
+﻿4352={ #Roruka
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -21,7 +21,7 @@
 	port_building=1
 }
 
-4353={ #梵摩拏迦
+4353={ #Brahmanaka
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -46,7 +46,7 @@
 	}
 }
 
-4354={ #骚毘罗的弥因那伽罗
+4354={ #Min
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -68,7 +68,7 @@
 	}
 }
 
-4355={ #身毒摩那
+4355={ #Sindhimana
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -93,7 +93,7 @@
 	}
 }
 
-4356={ #迦呼-殊-陀卢
+4356={ #Kahu-Jo-Darro
 	terrain="dry_plains"
 	culture="sindhi"
 	religion="hindu"
@@ -112,7 +112,7 @@
 	}
 }
 
-4357={ #乌末拘
+4357={ #Umarkot
 	terrain="desert"
 	culture="sindhi"
 	religion="hindu"
@@ -128,7 +128,7 @@
 	}
 }
 
-4358={ #信伽哀
+4358={ #Singai
 	terrain="desert"
 	culture="sindhi"
 	religion="hindu"
@@ -144,7 +144,7 @@
 	}
 }
 
-4359={ #娑摩罗婆梨哀
+4359={ #Samarabriai
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -163,7 +163,7 @@
 	}
 }
 
-4360={ #萨罗法革斯
+4360={ #Sarophages
 	terrain="desert"
 	culture="sindhi"
 	religion="hindu"
@@ -182,7 +182,7 @@
 	}
 }
 
-4361={ #墨伽洛伊
+4361={ #Megaroi
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -204,7 +204,7 @@
 	}
 }
 
-4362={ #珊菩斯
+4362={ #Azaika
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -223,7 +223,7 @@
 	}
 }
 
-4363={ #奢喃婆罗鸡笯伊
+4363={ #Sembrakenoi
 	terrain="dry_plains"
 	culture="sindhi"
 	religion="hindu"
@@ -245,7 +245,7 @@
 	}
 }
 
-4364={ #俄翁布赖
+4364={ #Oumbrai
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -264,7 +264,7 @@
 	}
 }
 
-4365={ #泥丽哀
+4365={ #Nereai
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -283,7 +283,7 @@
 	}
 }
 
-4366={ #拘恭陀哀
+4366={ #Kokondai
 	terrain="desert"
 	culture="parecanian"
 	religion="zoroaster"
@@ -302,7 +302,7 @@
 	}
 }
 
-4368={ #阿槃多
+4368={ #Avanta
 	terrain="dry_hills"
 	culture="parecanian"
 	religion="zoroaster"
@@ -318,7 +318,7 @@
 	}
 }
 
-4369={ #健陀婆
+4369={ #Gandava
 	terrain="mountain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -334,7 +334,7 @@
 	}
 }
 
-4372={ #毘夷笯多
+4372={ #Vijnot
 	terrain="dry_plains"
 	culture="sindhi"
 	religion="hindu"
@@ -350,7 +350,7 @@
 	}
 }
 
-4374={ #牟式迦笯伊
+4374={ #Mousikanoi
 	terrain="dry_plains"
 	culture="sindhi"
 	religion="hindu"
@@ -366,7 +366,7 @@
 	}
 }
 
-4375={ #墨赛
+4375={ #Mesai
 	terrain="desert"
 	culture="sindhi"
 	religion="hindu"
@@ -385,7 +385,7 @@
 	}
 }
 
-4376={ #涅赖
+4376={ #Nerai
 	terrain="dry_plains"
 	culture="sindhi"
 	religion="hindu"
@@ -404,9 +404,9 @@
 	}
 }
 
-4489={ #阿难陀补罗
+4489={ #Anandpura
 	terrain="forest"
-	culture="saurashtran"
+	culture="kaccha"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=24
@@ -423,7 +423,7 @@
 	}
 }
 
-4494={ #旃檀那弗多洛迦
+4494={ #Candanaputraka
 	terrain="plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -442,7 +442,7 @@
 	}
 }
 
-6527={ #苏阿遮罗
+6527={ #Suacala
 	terrain="desert"
 	culture="sindhi"
 	religion="hindu"
@@ -461,7 +461,7 @@
 	}
 }
 
-6813={ #堕罗迦
+6813={ #Dvaraka
 	terrain="plains"
 	culture="saurashtran"
 	religion="jainism"
@@ -485,7 +485,7 @@
 	port_building=1
 }
 
-6814={ #阿乌都牟罗
+6814={ #Automula
 	terrain="forest"
 	culture="saurashtran"
 	religion="hindu"
@@ -504,7 +504,7 @@
 	}
 }
 
-6815={ #钵呾罗
+6815={ #Thatta
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -529,7 +529,7 @@
 	port_building=1
 }
 
-6816={ #钵罗薄娑
+6816={ #Prabhasa
 	terrain="plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -553,7 +553,7 @@
 	port_building=1
 }
 
-6817={ #舍那
+6817={ #Sana
 	terrain="plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -572,10 +572,10 @@
 	}
 }
 
-6818={ #祇梨那伽罗
+6818={ #Girinagara
 	terrain="hills"
 	culture="saurashtran"
-	religion="hindu"
+	religion="jainism"
 	trade_goods="fur"
 	civilization_value=29
 	barbarian_power=0
@@ -595,7 +595,7 @@
 	holy_site=omen_neminatha
 }
 
-6819={ #乌夷阇延多
+6819={ #Ujjayanta
 	terrain="hills"
 	culture="saurashtran"
 	religion="hindu"
@@ -614,7 +614,7 @@
 	}
 }
 
-6820={ #筏罗毘
+6820={ #Valabhi
 	terrain="forest"
 	culture="saurashtran"
 	religion="hindu"
@@ -636,7 +636,7 @@
 	}
 }
 
-6821={ #亚历山大港
+6821={ #Debal
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -661,7 +661,7 @@
 	port_building=1
 }
 
-6822={ #跋婆梨恭
+6822={ #Makli
 	terrain="dry_plains"
 	culture="sindhi"
 	religion="hindu"
@@ -677,7 +677,7 @@
 	}
 }
 
-6823={ #母笯瞿卢输蓊
+6823={ #Monoglosson
 	terrain="plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -696,7 +696,7 @@
 	}
 }
 
-6824={ #阿湿多迦钵罗
+6824={ #Satrunavha
 	terrain="plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -715,7 +715,7 @@
 	}
 }
 
-6825={ #健絺
+6825={ #Kanthi
 	terrain="marsh"
 	culture="saurashtran"
 	religion="roman_pantheon"
@@ -728,9 +728,9 @@
 	}
 }
 
-6826={ #安达乌
+6826={ #Andhau
 	terrain="marsh"
-	culture="saurashtran"
+	culture="kaccha"
 	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=22
@@ -747,7 +747,7 @@
 	}
 }
 
-6827={ #佉陀卢
+6827={ #Khadro
 	terrain="dry_plains"
 	culture="sindhi"
 	religion="hindu"
@@ -766,7 +766,7 @@
 	}
 }
 
-6828={ #拘鸠梨罗
+6828={ #Kukurra
 	terrain="forest"
 	culture="saurashtran"
 	religion="jainism"
@@ -788,7 +788,7 @@
 	}
 }
 
-6829={ #阿那梨多
+6829={ #Anartta
 	terrain="plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -807,7 +807,7 @@
 	}
 }
 
-6830={ #悉婆勃罗
+6830={ #Svabhra
 	terrain="farmland"
 	culture="saurashtran"
 	religion="hindu"
@@ -826,7 +826,7 @@
 	}
 }
 
-6831={ #娑多卢纳诃
+6831={ #Hastakavapra
 	terrain="plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -847,7 +847,7 @@
 	port_building=1
 }
 
-6832={ #佉喃婆梨陀
+6832={ #Khambalida
 	terrain="forest"
 	culture="saurashtran"
 	religion="hindu"
@@ -866,7 +866,7 @@
 	}
 }
 
-6833={ #婆罗遮
+6833={ #Baraca
 	terrain="dry_plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -882,7 +882,7 @@
 	}
 }
 
-6834={ #揭腊婆陀
+6834={ #Kalavad
 	terrain="forest"
 	culture="saurashtran"
 	religion="hindu"
@@ -901,7 +901,7 @@
 	}
 }
 
-6835={ #末利耶
+6835={ #Malia
 	terrain="marsh"
 	culture="saurashtran"
 	religion="hindu"
@@ -920,7 +920,7 @@
 	}
 }
 
-6836={ #弹都迦
+6836={ #Dhanduka
 	terrain="plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -939,7 +939,7 @@
 	}
 }
 
-6837={ #筏驮摩泥
+6837={ #Vardhamane
 	terrain="plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -961,7 +961,7 @@
 	}
 }
 
-6838={ #折诃罗
+6838={ #Jhala
 	terrain="forest"
 	culture="saurashtran"
 	religion="hindu"
@@ -980,7 +980,7 @@
 	}
 }
 
-6839={ #拘婆陀
+6839={ #Kuvada
 	terrain="forest"
 	culture="saurashtran"
 	religion="hindu"
@@ -999,7 +999,7 @@
 	}
 }
 
-6840={ #末谛珠梨耶
+6840={ #Maltecoria
 	terrain="dry_plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -1022,7 +1022,7 @@
 	port_building=1
 }
 
-6841={ #婆苫
+6841={ #Bacchav
 	terrain="marsh"
 	culture="saurashtran"
 	religion="hindu"
@@ -1038,7 +1038,7 @@
 	}
 }
 
-6842={ #契吒
+6842={ #Kaccha
 	terrain="dry_plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -1057,7 +1057,7 @@
 	}
 }
 
-6844={ #陀烂祇耶
+6844={ #Darangia
 	terrain="desert"
 	culture="saurashtran"
 	religion="hindu"
@@ -1073,7 +1073,7 @@
 	}
 }
 
-6845={ #毘世
+6845={ #Bissai
 	terrain="marsh"
 	culture="saurashtran"
 	religion="hindu"
@@ -1089,7 +1089,7 @@
 	}
 }
 
-6846={ #呼梨罗伊
+6846={ #Horrai
 	terrain="forest"
 	culture="saurashtran"
 	religion="hindu"
@@ -1108,7 +1108,7 @@
 	}
 }
 
-6847={ #卢徙耶
+6847={ #Rusia
 	terrain="plains"
 	culture="saurashtran"
 	religion="hindu"
@@ -1127,7 +1127,7 @@
 	}
 }
 
-6848={ #商伽摩
+6848={ #Sangama
 	terrain="dry_plains"
 	culture="sindhi"
 	religion="hindu"
@@ -1143,7 +1143,7 @@
 	}
 }
 
-6849={ #毘婆迦多
+6849={ #Bibakta
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -1163,7 +1163,7 @@
 	port_building=1
 }
 
-6850={ #苏罗
+6850={ #Sura
 	terrain="desert"
 	culture="sindhi"
 	religion="hindu"
@@ -1179,9 +1179,9 @@
 	}
 }
 
-6851={ #陀梨耶
+6851={ #Daria
 	terrain="marsh"
-	culture="sindhi"
+	culture="kaccha"
 	religion="hindu"
 	trade_goods="fish"
 	civilization_value=22
@@ -1195,7 +1195,7 @@
 	}
 }
 
-6852={ #娑摩罗婆梨伐
+6852={ #Samarabriva
 	terrain="desert"
 	culture="sindhi"
 	religion="hindu"
@@ -1214,9 +1214,9 @@
 	}
 }
 
-6853={ #揭利多
+6853={ #Gallita
 	terrain="marsh"
-	culture="saurashtran"
+	culture="kaccha"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=22
@@ -1233,9 +1233,9 @@
 	}
 }
 
-6856={ #筏罗伊
+6856={ #Vallai
 	terrain="marsh"
-	culture="saurashtran"
+	culture="kaccha"
 	religion="hindu"
 	trade_goods="salt"
 	civilization_value=22
@@ -1249,9 +1249,9 @@
 	}
 }
 
-6857={ #提多
+6857={ #Detta
 	terrain="desert"
-	culture="saurashtran"
+	culture="kaccha"
 	religion="hindu"
 	trade_goods="salt"
 	civilization_value=28
@@ -1271,7 +1271,7 @@
 	}
 }
 
-7220={ #娑罗湿婆多
+7220={ #Saraswata
 	terrain="desert"
 	culture="sindhi"
 	religion="hindu"
@@ -1287,9 +1287,9 @@
 	}
 }
 
-7412={ #娑帝耶补罗
+7412={ #Satyapura
 	terrain="desert"
-	culture="saurashtran"
+	culture="kaccha"
 	religion="hindu"
 	trade_goods="camel"
 	civilization_value=23
@@ -1303,9 +1303,9 @@
 	}
 }
 
-7414={ #钵旦
+7414={ #Patan
 	terrain="forest"
-	culture="saurashtran"
+	culture="kaccha"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=24
@@ -1322,9 +1322,9 @@
 	}
 }
 
-7415={ #迷诃娑那
+7415={ #Mehsana
 	terrain="plains"
-	culture="saurashtran"
+	culture="kaccha"
 	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=31
@@ -1341,7 +1341,7 @@
 	}
 }
 
-7660={ #骚毘罗的阿婆陀
+7660={ #Abad Sauvira
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"

@@ -1,6 +1,6 @@
-﻿6883={ #阿医祇提
+﻿6883={ #Aegidi
 	terrain="hills"
-	culture="maharashtran"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="iron"
 	civilization_value=9
@@ -20,9 +20,9 @@
 	}
 }
 
-6884={ #婆那伐徙的刻耳索涅索斯
+6884={ #Chersonesos Vanavasi
 	terrain="hills"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="salt"
 	civilization_value=14
@@ -55,9 +55,9 @@
 	port_building=1
 }
 
-6885={ #笯伊罗
+6885={ #Suvarnabhumi
 	terrain="jungle"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="fish"
 	civilization_value=9
@@ -86,9 +86,9 @@
 	port_building=1
 }
 
-6886={ #乌洛佉乌伊罗
+6886={ #Olokhoira
 	terrain="jungle"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="fish"
 	civilization_value=9
@@ -102,9 +102,9 @@
 	}
 }
 
-6887={ #卑罗
+6887={ #Pira
 	terrain="hills"
-	culture="kannadan"
+	culture="alupan"
 	religion="buddhism"
 	trade_goods="wood"
 	civilization_value=9
@@ -136,9 +136,9 @@
 	}
 }
 
-6888={ #泥帝罗
+6888={ #Mangaluru
 	terrain="jungle"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=9
@@ -152,10 +152,10 @@
 	}
 }
 
-6889={ #母输钵丽
+6889={ #Mousopalle
 	terrain="jungle"
-	culture="kannadan"
-	religion="hindu"
+	culture="alupan"
+	religion="buddhism"
 	trade_goods="salt"
 	civilization_value=14
 	barbarian_power=0
@@ -175,9 +175,9 @@
 	port_building=1
 }
 
-6890={ #那乌罗
+6890={ #Naura
 	terrain="hills"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="spices"
 	civilization_value=9
@@ -197,9 +197,9 @@
 	}
 }
 
-6891={ #婆舍伊
+6891={ #Basai
 	terrain="hills"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="incense"
 	civilization_value=9
@@ -219,9 +219,9 @@
 	}
 }
 
-6892={ #珠罗
+6892={ #Coula
 	terrain="jungle"
-	culture="kannadan"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="gems"
 	civilization_value=19
@@ -239,9 +239,9 @@
 	port_building=1
 }
 
-6893={ #点提悉
+6893={ #Thikkodi
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="spices"
 	civilization_value=19
@@ -273,9 +273,9 @@
 	}
 }
 
-6894={ #拘丽乌罗
+6894={ #Koreoura
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="leather"
 	civilization_value=24
@@ -307,9 +307,9 @@
 	}
 }
 
-6895={ #母支梨湿
+6895={ #Kodungallur
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="spices"
 	civilization_value=24
@@ -330,9 +330,9 @@
 	port_building=1
 }
 
-6896={ #普修多斯托摩斯
+6896={ #Peryiar
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="fish"
 	civilization_value=19
@@ -352,11 +352,11 @@
 	}
 }
 
-6897={ #泥离支因陀
+6897={ #Nelcynda
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
-	trade_goods="wood"
+	trade_goods="fruits"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
@@ -374,9 +374,9 @@
 	}
 }
 
-6898={ #婆折丽
+6898={ #Bacare
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="spices"
 	civilization_value=19
@@ -396,9 +396,9 @@
 	}
 }
 
-6899={ #朅底耶罗
+6899={ #Kottiara
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="incense"
 	civilization_value=19
@@ -415,9 +415,9 @@
 	}
 }
 
-6900={ #医兰恭
+6900={ #Elankon
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="gems"
 	civilization_value=24
@@ -437,9 +437,9 @@
 	}
 }
 
-6901={ #钵梨多
+6901={ #Balita
 	terrain="plains"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="dye"
 	civilization_value=26
@@ -459,9 +459,9 @@
 	}
 }
 
-6902={ #拘摩梨
+6902={ #Kanyakumari
 	terrain="plains"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="fish"
 	civilization_value=21
@@ -480,9 +480,9 @@
 	port_building=1
 }
 
-6904={ #阿罗厄
+6904={ #Aloe
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="leather"
 	civilization_value=19
@@ -502,9 +502,9 @@
 	}
 }
 
-6905={ #迦洛羯梨湿
+6905={ #Kalakaris
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="woad"
 	civilization_value=19
@@ -521,9 +521,9 @@
 	}
 }
 
-6906={ #医夷耶利
+6906={ #Eyyal
 	terrain="jungle"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="base_metals"
 	civilization_value=19
@@ -551,9 +551,9 @@
 	}
 }
 
-6907={ #布都闭鲁罗
+6907={ #Podoperoura
 	terrain="hills"
-	culture="tamil"
+	culture="cheran"
 	religion="jainism"
 	trade_goods="cattle"
 	civilization_value=18
@@ -578,9 +578,9 @@
 	}
 }
 
-6908={ #帕卢拉
+6908={ #Paloura
 	terrain="hills"
-	culture="tamil"
+	culture="cheran"
 	religion="jainism"
 	trade_goods="wood"
 	civilization_value=19
@@ -609,9 +609,9 @@
 	}
 }
 
-6909={ #特洛庇亚那
+6909={ #Tropiana
 	terrain="hills"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="spices"
 	civilization_value=19
@@ -631,9 +631,9 @@
 	}
 }
 
-6910={ #旦提
+6910={ #Tandi
 	terrain="hills"
-	culture="kannadan"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="stone"
 	civilization_value=19
@@ -662,9 +662,9 @@
 	}
 }
 
-6911={ #哀俱提
+6911={ #Aykudi
 	terrain="hills"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="dye"
 	civilization_value=24
@@ -684,9 +684,9 @@
 	}
 }
 
-6916={ #槃支
+6916={ #Vanci
 	terrain="hills"
-	culture="tamil"
+	culture="cheran"
 	religion="hindu"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -709,7 +709,7 @@
 	}
 }
 
-6937={ #谛拏瞿罗
+6937={ #Tennagora
 	terrain="jungle"
 	culture="tamil"
 	religion="hindu"
@@ -744,7 +744,7 @@
 	}
 }
 
-6940={ #拘丽露罗
+6940={ #Korelloura
 	terrain="hills"
 	culture="tamil"
 	religion="jainism"
@@ -771,7 +771,7 @@
 	}
 }
 
-6943={ #羯傥
+6943={ #Kathan
 	terrain="hills"
 	culture="tamil"
 	religion="buddhism"
@@ -807,11 +807,11 @@
 	}
 }
 
-6944={ #吠罗卢丽
+6944={ #Vellalore
 	terrain="jungle"
 	culture="tamil"
 	religion="jainism"
-	trade_goods="woad"
+	trade_goods="fruits"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -846,7 +846,7 @@
 	}
 }
 
-6949={ #恭瞿
+6949={ #Kongu
 	terrain="jungle"
 	culture="tamil"
 	religion="hindu"
@@ -884,7 +884,7 @@
 	}
 }
 
-6989={ #多伽都罗
+6989={ #Tagadur
 	terrain="hills"
 	culture="tamil"
 	religion="hindu"
@@ -906,7 +906,7 @@
 	}
 }
 
-6990={ #梨遮婆多
+6990={ #Ricavatta
 	terrain="hills"
 	culture="tamil"
 	religion="hindu"
@@ -922,9 +922,9 @@
 	}
 }
 
-7004={ #安陀洛补罗
+7004={ #Andalapura
 	terrain="jungle"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="base_metals"
 	civilization_value=8
@@ -944,7 +944,7 @@
 	}
 }
 
-7005={ #梵摩祇梨
+7005={ #Brahmagiri
 	terrain="plains"
 	culture="telugu"
 	religion="hindu"
@@ -966,7 +966,7 @@
 	}
 }
 
-7006={ #乌遮室利因祇
+7006={ #Uccasrngi
 	terrain="plains"
 	culture="kannadan"
 	religion="hindu"
@@ -988,9 +988,9 @@
 	}
 }
 
-7007={ #难陀祇梨
+7007={ #Nandagiri
 	terrain="plains"
-	culture="telugu"
+	culture="kannadan"
 	religion="hindu"
 	trade_goods="wood"
 	civilization_value=10
@@ -1010,7 +1010,7 @@
 	}
 }
 
-7008={ #支因多摩尼
+7008={ #Chintamani
 	terrain="plains"
 	culture="tamil"
 	religion="hindu"
@@ -1032,7 +1032,7 @@
 	}
 }
 
-7009={ #呾腊槃那补罗
+7009={ #Talavanapura
 	terrain="hills"
 	culture="tamil"
 	religion="hindu"
@@ -1054,7 +1054,7 @@
 	}
 }
 
-7010={ #钵拉阰补罗
+7010={ #Paravipura
 	terrain="plains"
 	culture="telugu"
 	religion="hindu"
@@ -1076,7 +1076,7 @@
 	}
 }
 
-7011={ #帝梨钵罗婆多
+7011={ #Triparvata
 	terrain="jungle"
 	culture="kannadan"
 	religion="hindu"
@@ -1098,7 +1098,7 @@
 	}
 }
 
-7014={ #闭笯恭陀
+7014={ #Penugonda
 	terrain="plains"
 	culture="telugu"
 	religion="hindu"
@@ -1120,9 +1120,9 @@
 	}
 }
 
-7015={ #婆那伐徙
+7015={ #Vanavasi
 	terrain="jungle"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="fur"
 	civilization_value=14
@@ -1158,7 +1158,7 @@
 	}
 }
 
-7016={ #室利梨因伽钵多那
+7016={ #Sriringapatna
 	terrain="hills"
 	culture="kannadan"
 	religion="hindu"
@@ -1180,7 +1180,7 @@
 	}
 }
 
-7017={ #健伽
+7017={ #Ganga
 	terrain="hills"
 	culture="kannadan"
 	religion="hindu"
@@ -1202,9 +1202,9 @@
 	}
 }
 
-7018={ #拘陀婆
+7018={ #Kodava
 	terrain="hills"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="iron"
 	civilization_value=9
@@ -1224,7 +1224,7 @@
 	}
 }
 
-7020={ #伊湿罗
+7020={ #Isila
 	terrain="plains"
 	culture="kannadan"
 	religion="hindu"
@@ -1246,7 +1246,7 @@
 	}
 }
 
-7021={ #苏伐罗那祇梨
+7021={ #Suvarnagiri
 	terrain="jungle"
 	culture="telugu"
 	religion="hindu"
@@ -1265,7 +1265,7 @@
 	}
 }
 
-7022={ #闭利瞿罗
+7022={ #Belgola
 	terrain="plains"
 	culture="kannadan"
 	religion="hindu"
@@ -1288,9 +1288,9 @@
 	holy_site=omen_bhadrabahu
 }
 
-7023={ #室利因瞿梨
+7023={ #Srnguri
 	terrain="hills"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=9
@@ -1322,7 +1322,7 @@
 	}
 }
 
-7024={ #曼揭腊婆陀
+7024={ #Mangalavada
 	terrain="plains"
 	culture="telugu"
 	religion="hindu"
@@ -1344,7 +1344,7 @@
 	}
 }
 
-7029={ #闭因铎迦露娄
+7029={ #Bendakaluru
 	terrain="hills"
 	culture="tamil"
 	religion="hindu"
@@ -1366,7 +1366,7 @@
 	}
 }
 
-7030={ #摩醯沙
+7030={ #Mahisha
 	terrain="hills"
 	culture="kannadan"
 	religion="hindu"
@@ -1388,7 +1388,7 @@
 	}
 }
 
-7031={ #鸠伐落砢缡补罗
+7031={ #Kuvalalapura
 	terrain="jungle"
 	culture="tamil"
 	religion="hindu"
@@ -1404,11 +1404,11 @@
 	}
 }
 
-7032={ #帝娄闭楼罗
+7032={ #Tiruperur
 	terrain="jungle"
 	culture="tamil"
 	religion="hindu"
-	trade_goods="hemp"
+	trade_goods="fruits"
 	civilization_value=23
 	barbarian_power=0
 	province_rank="city"
@@ -1426,7 +1426,7 @@
 	}
 }
 
-7033={ #末陀那
+7033={ #Madana
 	terrain="plains"
 	culture="telugu"
 	religion="hindu"
@@ -1442,7 +1442,7 @@
 	}
 }
 
-7034={ #迦提梨
+7034={ #Kadiri
 	terrain="plains"
 	culture="telugu"
 	religion="hindu"
@@ -1464,9 +1464,9 @@
 	}
 }
 
-7035={ #羯利祇梨湿
+7035={ #Kalligeris
 	terrain="hills"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="fur"
 	civilization_value=9
@@ -1486,7 +1486,7 @@
 	}
 }
 
-7036={ #呼离耶罗
+7036={ #Huliyar
 	terrain="plains"
 	culture="kannadan"
 	religion="hindu"
@@ -1508,7 +1508,7 @@
 	}
 }
 
-7037={ #支侘都罗伽
+7037={ #Chitradurga
 	terrain="plains"
 	culture="kannadan"
 	religion="hindu"
@@ -1530,9 +1530,9 @@
 	}
 }
 
-7038={ #阐陀罗伐离
+7038={ #Chandravalli
 	terrain="jungle"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="honey"
 	civilization_value=9
@@ -1552,9 +1552,9 @@
 	}
 }
 
-7072={ #钵利枳郡陀
+7072={ #Palkigunda
 	terrain="plains"
-	culture="kannadan"
+	culture="kuntalan"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=11
@@ -1568,7 +1568,7 @@
 	}
 }
 
-7073={ #悉陀补罗
+7073={ #Siddapura
 	terrain="plains"
 	culture="kannadan"
 	religion="hindu"
@@ -1590,9 +1590,9 @@
 	}
 }
 
-7088={ #阿枳鲁洛
+7088={ #Akkilur
 	terrain="jungle"
-	culture="kannadan"
+	culture="alupan"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=9
@@ -1612,9 +1612,9 @@
 	}
 }
 
-7090={ #槃那钵罗
+7090={ #Panapala
 	terrain="jungle"
-	culture="kannadan"
+	culture="kuntalan"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=9

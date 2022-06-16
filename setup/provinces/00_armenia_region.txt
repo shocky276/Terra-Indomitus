@@ -1,4 +1,4 @@
-﻿235={ #托弥萨
+﻿235={ #Tomisa
 	terrain="hills"
 	culture="sophene"
 	religion="zoroaster"
@@ -20,7 +20,7 @@
 	}
 }
 
-483={ #阿耳塔勒斯
+483={ #Artales
 	terrain="mountain"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -36,7 +36,7 @@
 	}
 }
 
-846={ #居弥匝
+846={ #Cymiza
 	terrain="hills"
 	culture="van"
 	religion="armenian_religion"
@@ -58,7 +58,7 @@
 	}
 }
 
-858={ #朗代亚
+858={ #Rhandeia
 	terrain="hills"
 	culture="sophene"
 	religion="armenian_religion"
@@ -87,7 +87,7 @@
 	}
 }
 
-859={ #达狄马
+859={ #Dadima
 	terrain="hills"
 	culture="sophene"
 	religion="zoroaster"
@@ -109,7 +109,7 @@
 	}
 }
 
-860={ #安兹特内
+860={ #Anzitene
 	terrain="hills"
 	culture="sophene"
 	religion="zoroaster"
@@ -129,7 +129,7 @@
 	}
 }
 
-978={ #塔赖基耶
+978={ #Taraichiya
 	terrain="hills"
 	culture="van"
 	religion="armenian_religion"
@@ -148,7 +148,7 @@
 	}
 }
 
-987={ #琐阿兰达
+987={ #Zoaranda
 	terrain="hills"
 	culture="van"
 	religion="armenian_religion"
@@ -170,7 +170,7 @@
 	}
 }
 
-988={ #托斯庇亚
+988={ #Thospia
 	terrain="forest"
 	culture="van"
 	religion="armenian_religion"
@@ -189,7 +189,7 @@
 	}
 }
 
-989={ #宁淮翁
+989={ #Nymphaeum
 	terrain="hills"
 	culture="van"
 	religion="armenian_religion"
@@ -208,7 +208,7 @@
 	}
 }
 
-990={ #厄勒戈阿纳
+990={ #Elegoana
 	terrain="plains"
 	culture="van"
 	religion="armenian_religion"
@@ -230,11 +230,11 @@
 	}
 }
 
-991={ #阿雷斯特
+991={ #Arest
 	terrain="forest"
 	culture="van"
 	religion="armenian_religion"
-	trade_goods="honey"
+	trade_goods="fruits"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -249,7 +249,7 @@
 	}
 }
 
-992={ #巴拉勒斯山口
+992={ #Balales Pass
 	terrain="mountain"
 	culture="van"
 	religion="armenian_religion"
@@ -272,7 +272,7 @@
 	}
 }
 
-993={ #卡拉塔
+993={ #Calata
 	terrain="plains"
 	culture="van"
 	religion="armenian_religion"
@@ -294,7 +294,7 @@
 	}
 }
 
-994={ #阿什提沙特
+994={ #Ashtishat
 	terrain="plains"
 	culture="van"
 	religion="armenian_religion"
@@ -311,7 +311,7 @@
 	holy_site=omen_vahagn
 }
 
-995={ #摩尔基亚
+995={ #Molchia
 	terrain="forest"
 	culture="van"
 	religion="armenian_religion"
@@ -327,7 +327,7 @@
 	}
 }
 
-996={ #阿尔瓦卡
+996={ #Alouaka
 	terrain="hills"
 	culture="van"
 	religion="armenian_religion"
@@ -343,7 +343,7 @@
 	}
 }
 
-997={ #科托罗兹
+997={ #Kotorodz
 	terrain="mountain"
 	culture="armenian"
 	religion="armenian_religion"
@@ -366,7 +366,7 @@
 	}
 }
 
-998={ #瓦斯浦拉坎的阿耳忒弥塔
+998={ #Artemita Vaspurakan
 	terrain="hills"
 	culture="van"
 	religion="armenian_religion"
@@ -385,7 +385,7 @@
 	}
 }
 
-999={ #哈伊克
+999={ #Hayk
 	terrain="forest"
 	culture="van"
 	religion="armenian_religion"
@@ -404,7 +404,7 @@
 	}
 }
 
-1500={ #考翁
+1500={ #Chauon
 	terrain="dry_plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -423,7 +423,7 @@
 	}
 }
 
-1501={ #纳克苏阿纳
+1501={ #Naxouana
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -446,7 +446,7 @@
 	}
 }
 
-1528={ #摩戎达
+1528={ #Morounda
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -465,7 +465,7 @@
 	}
 }
 
-1529={ #达耳曼
+1529={ #Darman
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -484,7 +484,7 @@
 	}
 }
 
-1530={ #哈拉库堡
+1530={ #Halaqu Qal'eh
 	terrain="mountain"
 	culture="armenian"
 	religion="zoroaster"
@@ -503,7 +503,7 @@
 	}
 }
 
-1531={ #马肋津
+1531={ #Malejin
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -522,7 +522,7 @@
 	}
 }
 
-1532={ #扎剌万德
+1532={ #Zarawand
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -541,7 +541,7 @@
 	}
 }
 
-1533={ #咖剌齐亚德丁山
+1533={ #Qara Zia Eddin tepe
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -561,7 +561,7 @@
 	}
 }
 
-1534={ #巴斯塔姆
+1534={ #Bastam
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -580,7 +580,7 @@
 	}
 }
 
-1535={ #基兹察克卢
+1535={ #Qiz Chakhlu
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -599,7 +599,7 @@
 	}
 }
 
-1536={ #刻泽尔卢堡
+1536={ #Khezerlu Qal'eh
 	terrain="mountain"
 	culture="armenian"
 	religion="armenian_religion"
@@ -618,7 +618,7 @@
 	}
 }
 
-1537={ #努尔萨克
+1537={ #Nuarsak
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -637,7 +637,7 @@
 	}
 }
 
-1538={ #萨诺拉
+1538={ #Sanora
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -667,7 +667,7 @@
 	}
 }
 
-1539={ #加乌尔堡
+1539={ #Gavur Qal'eh
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -686,7 +686,7 @@
 	}
 }
 
-1540={ #帕剌坎
+1540={ #Parakan
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -710,7 +710,7 @@
 	}
 }
 
-1541={ #俄格鲁堡
+1541={ #Oghlu Qal'eh
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -733,7 +733,7 @@
 	}
 }
 
-1542={ #阿耳克萨塔
+1542={ #Arxata
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -752,7 +752,7 @@
 	}
 }
 
-1543={ #西耶堡
+1543={ #Siah Qal'eh
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -779,7 +779,7 @@
 	}
 }
 
-1544={ #卡提斯庇
+1544={ #Catispi
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -806,7 +806,7 @@
 	}
 }
 
-1545={ #巴仑堡
+1545={ #Barun Qal'eh
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -829,7 +829,7 @@
 	}
 }
 
-1546={ #沙瓦尔闪
+1546={ #Shawarshan
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -849,7 +849,7 @@
 	}
 }
 
-1547={ #刻什美什
+1547={ #Keshmesh
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -865,7 +865,7 @@
 	}
 }
 
-1548={ #珊加尔堡
+1548={ #Sangar Qal'eh
 	terrain="mountain"
 	culture="armenian"
 	religion="armenian_religion"
@@ -888,7 +888,7 @@
 	}
 }
 
-1549={ #忒鲁阿
+1549={ #Teroua
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -907,7 +907,7 @@
 	}
 }
 
-1550={ #维腊兰堡
+1550={ #Verahram Qal'eh
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -926,7 +926,7 @@
 	}
 }
 
-1551={ #哈捷斯坦堡
+1551={ #Hajestan Qal'eh
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -949,7 +949,7 @@
 	}
 }
 
-1559={ #阿拉达格堡
+1559={ #Aladagh Qal'eh
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -968,7 +968,7 @@
 	}
 }
 
-1560={ #安泽瓦齐克
+1560={ #Andzevatsik
 	terrain="hills"
 	culture="van"
 	religion="armenian_religion"
@@ -987,7 +987,7 @@
 	}
 }
 
-1561={ #马尔达斯坦
+1561={ #Mardastan
 	terrain="hills"
 	culture="van"
 	religion="armenian_religion"
@@ -1006,11 +1006,11 @@
 	}
 }
 
-1562={ #伊宋玻
+1562={ #Isumbo
 	terrain="forest"
 	culture="van"
 	religion="armenian_religion"
-	trade_goods="wood"
+	trade_goods="fruits"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1025,7 +1025,7 @@
 	}
 }
 
-1563={ #阿卡基亚
+1563={ #Acachia
 	terrain="forest"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -1044,7 +1044,7 @@
 	}
 }
 
-1564={ #科尔喀翁
+1564={ #Colchion
 	terrain="forest"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -1060,11 +1060,11 @@
 	}
 }
 
-1566={ #迪迪玛
+1566={ #Didima
 	terrain="forest"
 	culture="phasiane"
 	religion="armenian_religion"
-	trade_goods="wine"
+	trade_goods="fruits"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1076,11 +1076,11 @@
 	}
 }
 
-1567={ #巴高纳
+1567={ #Bagauna
 	terrain="forest"
 	culture="phasiane"
 	religion="armenian_religion"
-	trade_goods="wine"
+	trade_goods="fruits"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1092,7 +1092,7 @@
 	}
 }
 
-1568={ #哈里扎
+1568={ #Hariza
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1111,7 +1111,7 @@
 	}
 }
 
-1569={ #帕拉卡塔
+1569={ #Paracata
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1138,7 +1138,7 @@
 	}
 }
 
-1570={ #阿耳马维拉
+1570={ #Armaouira
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1164,7 +1164,7 @@
 	holy_site=omen_khaldi
 }
 
-1571={ #阿耳塔克萨塔
+1571={ #Artaxata
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -1199,7 +1199,7 @@
 	holy_site=omen_tir
 }
 
-1572={ #杜比俄斯
+1572={ #Doubios
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1221,7 +1221,7 @@
 	}
 }
 
-1573={ #戈耳涅埃
+1573={ #Gorneae
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1237,7 +1237,7 @@
 	}
 }
 
-1575={ #厄雷部尼
+1575={ #Erebuni
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1257,7 +1257,7 @@
 	holy_site=omen_theispas
 }
 
-1576={ #叙拉刻涅的开涅波利斯
+1576={ #Kainepolis Syracene
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1276,7 +1276,7 @@
 	}
 }
 
-1577={ #摩忒涅
+1577={ #Motene
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1298,7 +1298,7 @@
 	}
 }
 
-1579={ #阿什纳克
+1579={ #Ashnak
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1317,7 +1317,7 @@
 	}
 }
 
-1580={ #卡特纳克普尤尔
+1580={ #Katnakhpyur
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1333,7 +1333,7 @@
 	}
 }
 
-1581={ #叶鲁安达沙特
+1581={ #Eruandashat
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1349,7 +1349,7 @@
 	}
 }
 
-1582={ #阿尼
+1582={ #Ani
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1368,7 +1368,7 @@
 	}
 }
 
-1583={ #杰剌彼
+1583={ #Dzhrapi
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1390,7 +1390,7 @@
 	}
 }
 
-1585={ #锡剌咖万
+1585={ #Shirakavan
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1409,7 +1409,7 @@
 	}
 }
 
-1588={ #咖摩
+1588={ #Kamo
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1428,7 +1428,7 @@
 	}
 }
 
-1589={ #阿塔尔贝吉安
+1589={ #Atarbegian
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1447,7 +1447,7 @@
 	}
 }
 
-1590={ #杰剌剌特
+1590={ #Dzhrarat
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1466,7 +1466,7 @@
 	}
 }
 
-1591={ #咖尔察克普尤尔
+1591={ #Karchakhpyur
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1483,7 +1483,7 @@
 	holy_site=omen_tsovinar
 }
 
-1592={ #阿崑克
+1592={ #Akunk
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1502,7 +1502,7 @@
 	}
 }
 
-1605={ #革兹卢
+1605={ #Gezlu
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1521,7 +1521,7 @@
 	}
 }
 
-1606={ #贝尔达忒克
+1606={ #Berdatekh
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1542,7 +1542,7 @@
 	}
 }
 
-1613={ #沙拉特
+1613={ #Shalat
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1561,7 +1561,7 @@
 	}
 }
 
-1614={ #西甘
+1614={ #Sigan
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1580,7 +1580,7 @@
 	}
 }
 
-1615={ #巴拉贝耳德
+1615={ #Balaberd
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1599,7 +1599,7 @@
 	}
 }
 
-1616={ #咖潘
+1616={ #Kapan
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1615,7 +1615,7 @@
 	}
 }
 
-1617={ #纳科尔赞
+1617={ #Nakorzan
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1631,7 +1631,7 @@
 	}
 }
 
-1623={ #阿雷韦克
+1623={ #Arevik
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1658,7 +1658,7 @@
 	}
 }
 
-1639={ #阿马拉斯
+1639={ #Amaras
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1674,7 +1674,7 @@
 	}
 }
 
-1640={ #蒂格剌纳刻尔特
+1640={ #Tigranakert
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1706,7 +1706,7 @@
 	}
 }
 
-1650={ #下西萨坎
+1650={ #Sisakan Inferior
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1725,7 +1725,7 @@
 	}
 }
 
-1663={ #外库尼克
+1663={ #Vaykunik
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1744,7 +1744,7 @@
 	}
 }
 
-1664={ #阿兰克
+1664={ #Arank
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1766,7 +1766,7 @@
 	}
 }
 
-1665={ #帕尔萨坎克
+1665={ #Parsakank
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1785,7 +1785,7 @@
 	}
 }
 
-1666={ #科格特
+1666={ #Koght
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1807,7 +1807,7 @@
 	}
 }
 
-1667={ #阿加黑奇克
+1667={ #Aghahechk
 	terrain="mountain"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1829,7 +1829,7 @@
 	}
 }
 
-1668={ #瓦约茨乔尔
+1668={ #Vayots Dzor
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1852,7 +1852,7 @@
 	}
 }
 
-1669={ #察胡克
+1669={ #Chahuk
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1875,7 +1875,7 @@
 	}
 }
 
-1698={ #西纳拉
+1698={ #Sinara
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -1897,7 +1897,7 @@
 	}
 }
 
-1736={ #瓦加尔沙刻尔特
+1736={ #Vagharshakert
 	terrain="forest"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -1913,7 +1913,7 @@
 	}
 }
 
-1744={ #卡拉那
+1744={ #Karana
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -1935,7 +1935,7 @@
 	}
 }
 
-1747={ #艮尼亚斯
+1747={ #Gymnias
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -1954,7 +1954,7 @@
 	}
 }
 
-1751={ #巴览忒亚
+1751={ #Barantea
 	terrain="forest"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -1973,7 +1973,7 @@
 	}
 }
 
-1759={ #斯佩耳
+1759={ #Sper
 	terrain="hills"
 	culture="sasperires"
 	religion="caucasian_religion"
@@ -1992,7 +1992,7 @@
 	}
 }
 
-1760={ #西诺里亚
+1760={ #Sinoria
 	terrain="mountain"
 	culture="sasperires"
 	religion="caucasian_religion"
@@ -2016,7 +2016,7 @@
 	}
 }
 
-1761={ #卡耳同
+1761={ #Charton
 	terrain="hills"
 	culture="sasperires"
 	religion="caucasian_religion"
@@ -2042,7 +2042,7 @@
 	}
 }
 
-1762={ #巴伽里匝
+1762={ #Bagariza
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -2062,7 +2062,7 @@
 	holy_site=omen_mihr
 }
 
-1763={ #塔瑞那
+1763={ #Tareina
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -2089,7 +2089,7 @@
 	}
 }
 
-1764={ #比匝纳
+1764={ #Bizana
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -2105,11 +2105,11 @@
 	}
 }
 
-1765={ #库比那
+1765={ #Koubina
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
-	trade_goods="vegetables"
+	trade_goods="fruits"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -2121,7 +2121,7 @@
 	}
 }
 
-1770={ #萨塔拉
+1770={ #Satala
 	terrain="mountain"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -2144,7 +2144,7 @@
 	}
 }
 
-1855={ #伽瑞那
+1855={ #Gareina
 	terrain="forest"
 	culture="sophene"
 	religion="zoroaster"
@@ -2160,7 +2160,7 @@
 	}
 }
 
-1856={ #安齐塔
+1856={ #Anzita
 	terrain="hills"
 	culture="sophene"
 	religion="armenian_religion"
@@ -2176,7 +2176,7 @@
 	}
 }
 
-1857={ #索斐涅的希拉波利斯
+1857={ #Hierapolis Sophenias
 	terrain="hills"
 	culture="sophene"
 	religion="armenian_religion"
@@ -2192,7 +2192,7 @@
 	}
 }
 
-4037={ #基塔里宗
+4037={ #Kitharizon
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -2215,7 +2215,7 @@
 	}
 }
 
-8007={ #哈卢拉斯
+8007={ #Halouras
 	terrain="hills"
 	culture="sophene"
 	religion="armenian_religion"
@@ -2228,7 +2228,7 @@
 	}
 }
 
-8008={ #帕利俄斯
+8008={ #Palios
 	terrain="hills"
 	culture="phasiane"
 	religion="anatolian_religion"
@@ -2250,7 +2250,7 @@
 	}
 }
 
-8009={ #巴利斯比加
+8009={ #Balisbiga
 	terrain="hills"
 	culture="sophene"
 	religion="armenian_religion"
@@ -2272,7 +2272,7 @@
 	}
 }
 
-8010={ #科卢亚
+8010={ #Koloua
 	terrain="hills"
 	culture="phasiane"
 	religion="anatolian_religion"

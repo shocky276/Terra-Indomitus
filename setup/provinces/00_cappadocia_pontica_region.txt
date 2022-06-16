@@ -1,4 +1,4 @@
-﻿156={ #弥拉
+﻿156={ #Myra
 	terrain="hills"
 	culture="lycian"
 	religion="roman_pantheon"
@@ -36,7 +36,7 @@
 	port_building=1
 }
 
-159={ #科玛
+159={ #Choma
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -62,11 +62,11 @@
 	}
 }
 
-160={ #阿律坎达
+160={ #Arykanda
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="city"
@@ -99,7 +99,7 @@
 	}
 }
 
-161={ #利弥拉
+161={ #Limyra
 	terrain="hills"
 	culture="lycian"
 	religion="roman_pantheon"
@@ -127,7 +127,7 @@
 	}
 }
 
-162={ #奥林波斯
+162={ #Olympos
 	terrain="hills"
 	culture="lycian"
 	religion="roman_pantheon"
@@ -154,7 +154,7 @@
 	}
 }
 
-164={ #法塞利斯
+164={ #Phaselis
 	terrain="hills"
 	culture="pamphylian"
 	religion="roman_pantheon"
@@ -191,7 +191,7 @@
 	port_building=1
 }
 
-165={ #潘菲利亚的俄尔比亚
+165={ #Olbia Pamphylias
 	terrain="plains"
 	culture="pamphylian"
 	religion="roman_pantheon"
@@ -219,7 +219,7 @@
 	}
 }
 
-166={ #珀尔革
+166={ #Perge
 	terrain="plains"
 	culture="pamphylian"
 	religion="roman_pantheon"
@@ -255,7 +255,7 @@
 	}
 }
 
-167={ #珀德涅利索斯
+167={ #Pednelissos
 	terrain="hills"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -287,7 +287,7 @@
 	}
 }
 
-168={ #阿斯彭多斯
+168={ #Aspendos
 	terrain="plains"
 	culture="pamphylian"
 	religion="roman_pantheon"
@@ -315,7 +315,7 @@
 	}
 }
 
-169={ #拉然达
+169={ #Laranda
 	terrain="plains"
 	culture="isaurian"
 	religion="anatolian_religion"
@@ -349,7 +349,7 @@
 	}
 }
 
-170={ #忒耳墨索斯
+170={ #Termessos
 	terrain="mountain"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -384,7 +384,7 @@
 	}
 }
 
-171={ #伊辛达
+171={ #Isinda
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -415,7 +415,7 @@
 	}
 }
 
-1780={ #阿耳塔那达
+1780={ #Artanada
 	terrain="hills"
 	culture="isaurian"
 	religion="anatolian_religion"
@@ -442,7 +442,7 @@
 	}
 }
 
-1784={ #克利巴诺斯
+1784={ #Klibanos
 	terrain="hills"
 	culture="lalasian"
 	religion="anatolian_religion"
@@ -472,7 +472,7 @@
 	}
 }
 
-1785={ #伊利斯特拉
+1785={ #Ilistra
 	terrain="dry_plains"
 	culture="isaurian"
 	religion="anatolian_religion"
@@ -492,7 +492,7 @@
 	}
 }
 
-1885={ #瑟尔革
+1885={ #Selge
 	terrain="hills"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -524,7 +524,7 @@
 	}
 }
 
-1905={ #科拉刻西翁
+1905={ #Korakesion
 	terrain="hills"
 	culture="pamphylian"
 	religion="roman_pantheon"
@@ -553,7 +553,7 @@
 	}
 }
 
-1906={ #莱耳忒斯
+1906={ #Laertes
 	terrain="hills"
 	culture="lalasian"
 	religion="anatolian_religion"
@@ -584,7 +584,7 @@
 	}
 }
 
-1908={ #科吕布拉索斯
+1908={ #Kolybrassos
 	terrain="hills"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -616,7 +616,7 @@
 	}
 }
 
-1910={ #西得
+1910={ #Side
 	terrain="plains"
 	culture="pamphylian"
 	religion="roman_pantheon"
@@ -666,7 +666,7 @@
 	port_building=1
 }
 
-1911={ #西吕翁
+1911={ #Sillyon
 	terrain="plains"
 	culture="pamphylian"
 	religion="roman_pantheon"
@@ -698,7 +698,7 @@
 	}
 }
 
-1918={ #荷摩那得斯
+1918={ #Homonadeis
 	terrain="plains"
 	culture="isaurian"
 	religion="anatolian_religion"
@@ -724,7 +724,7 @@
 	}
 }
 
-1919={ #伊扫拉
+1919={ #Isaura
 	terrain="plains"
 	culture="isaurian"
 	religion="anatolian_religion"
@@ -758,7 +758,7 @@
 	}
 }
 
-1920={ #瓦萨达
+1920={ #Ouasada
 	terrain="plains"
 	culture="oroandian"
 	religion="anatolian_religion"
@@ -788,7 +788,7 @@
 	}
 }
 
-1921={ #安布拉达
+1921={ #Amblada
 	terrain="hills"
 	culture="oroandian"
 	religion="anatolian_religion"
@@ -818,7 +818,7 @@
 	}
 }
 
-1922={ #弥斯忒亚
+1922={ #Misteia
 	terrain="plains"
 	culture="oroandian"
 	religion="anatolian_religion"
@@ -841,7 +841,7 @@
 	}
 }
 
-1927={ #提堤亚索斯
+1927={ #Tityassos
 	terrain="hills"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -864,7 +864,7 @@
 	}
 }
 
-1931={ #阿达达
+1931={ #Adada
 	terrain="hills"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -883,7 +883,7 @@
 	}
 }
 
-1933={ #科那涅
+1933={ #Konane
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -910,7 +910,7 @@
 	}
 }
 
-1935={ #巴里斯
+1935={ #Baris
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -933,7 +933,7 @@
 	}
 }
 
-1949={ #萨加拉索斯
+1949={ #Sagalassos
 	terrain="hills"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -963,7 +963,7 @@
 	}
 }
 
-1955={ #忒巴萨
+1955={ #Thebasa
 	terrain="plains"
 	culture="isaurian"
 	religion="anatolian_religion"
@@ -986,7 +986,7 @@
 	}
 }
 
-1958={ #基彼拉
+1958={ #Kibyra
 	terrain="hills"
 	culture="cabalian"
 	religion="anatolian_religion"
@@ -1016,7 +1016,7 @@
 	}
 }
 
-1959={ #塔基那
+1959={ #Takina
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -1039,7 +1039,7 @@
 	}
 }
 
-1960={ #拉格柏
+1960={ #Lagbe
 	terrain="hills"
 	culture="cabalian"
 	religion="anatolian_religion"
@@ -1066,7 +1066,7 @@
 	}
 }
 
-1961={ #俄尔巴萨
+1961={ #Olbasa
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -1096,7 +1096,7 @@
 	}
 }
 
-1986={ #克雷托波利斯
+1986={ #Kretopolis
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -1135,7 +1135,7 @@
 	}
 }
 
-1988={ #克壬纳
+1988={ #Kremna
 	terrain="hills"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -1154,11 +1154,11 @@
 	}
 }
 
-1990={ #奥伊诺安达
+1990={ #Oinoanda
 	terrain="hills"
 	culture="cabalian"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="city"
@@ -1188,7 +1188,7 @@
 	}
 }
 
-1991={ #波达利亚
+1991={ #Podalia
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -1207,7 +1207,7 @@
 	}
 }
 
-1992={ #忒尔墨索斯
+1992={ #Telmessos
 	terrain="hills"
 	culture="lycian"
 	religion="roman_pantheon"
@@ -1255,11 +1255,11 @@
 	port_building=1
 }
 
-1993={ #特罗斯
+1993={ #Tlos
 	terrain="hills"
 	culture="lycian"
 	religion="roman_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
@@ -1310,7 +1310,7 @@
 	}
 }
 
-1995={ #克珊托斯
+1995={ #Xanthos
 	terrain="hills"
 	culture="lycian"
 	religion="roman_pantheon"
@@ -1348,11 +1348,11 @@
 	}
 }
 
-1997={ #部朋
+1997={ #Boubon
 	terrain="hills"
 	culture="cabalian"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
@@ -1374,7 +1374,7 @@
 	}
 }
 
-1998={ #帕塔拉
+1998={ #Patara
 	terrain="hills"
 	culture="lycian"
 	religion="roman_pantheon"
@@ -1403,11 +1403,11 @@
 	port_building=1
 }
 
-7760={ #普洛斯坦那
+7760={ #Prostanna
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
@@ -1430,7 +1430,7 @@
 	}
 }
 
-7942={ #代达拉
+7942={ #Daidala
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -1464,7 +1464,7 @@
 	}
 }
 
-7947={ #巴尔部拉
+7947={ #Balboura
 	terrain="hills"
 	culture="cabalian"
 	religion="anatolian_religion"
@@ -1494,7 +1494,7 @@
 	}
 }
 
-7948={ #卡底安达
+7948={ #Kadyanda
 	terrain="hills"
 	culture="lycian"
 	religion="roman_pantheon"
@@ -1521,7 +1521,7 @@
 	}
 }
 
-7949={ #坎底巴
+7949={ #Kandyba
 	terrain="hills"
 	culture="lycian"
 	religion="roman_pantheon"
@@ -1550,7 +1550,7 @@
 	}
 }
 
-7951={ #基塔瑙拉
+7951={ #Kitanaura
 	terrain="hills"
 	culture="pamphylian"
 	religion="anatolian_religion"
@@ -1580,7 +1580,7 @@
 	}
 }
 
-7954={ #科耳马萨
+7954={ #Kormasa
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -1604,7 +1604,7 @@
 	}
 }
 
-7956={ #阿里亚索斯
+7956={ #Ariassos
 	terrain="hills"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -1628,11 +1628,11 @@
 	}
 }
 
-7958={ #科屯那
+7958={ #Kotenna
 	terrain="hills"
 	culture="pisidian"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
@@ -1659,7 +1659,7 @@
 	}
 }
 
-7961={ #卡格赖
+7961={ #Kagrai
 	terrain="hills"
 	culture="oroandian"
 	religion="anatolian_religion"
@@ -1686,7 +1686,7 @@
 	}
 }
 
-7962={ #科特剌狄斯
+7962={ #Ano Kotradis
 	terrain="hills"
 	culture="lalasian"
 	religion="anatolian_religion"
@@ -1715,7 +1715,7 @@
 	}
 }
 
-7963={ #阿德拉索斯
+7963={ #Adrasos
 	terrain="hills"
 	culture="lalasian"
 	religion="anatolian_religion"
@@ -1738,7 +1738,7 @@
 	}
 }
 
-7964={ #科洛庇索斯
+7964={ #Koropissos
 	terrain="mountain"
 	culture="isaurian"
 	religion="anatolian_religion"
@@ -1761,7 +1761,7 @@
 	}
 }
 
-7971={ #卡里亚的厄里匝
+7971={ #Eriza Karias
 	terrain="hills"
 	culture="cabalian"
 	religion="anatolian_religion"

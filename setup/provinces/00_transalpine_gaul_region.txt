@@ -1,4 +1,4 @@
-﻿1079={ #维肯宋
+﻿1079={ #Ad Vicensi
 	terrain="plains"
 	culture="volcae"
 	religion="druidism"
@@ -14,7 +14,7 @@
 	}
 }
 
-2253={ #孔索览尼
+2253={ #Consoranni
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -30,7 +30,7 @@
 	}
 }
 
-2254={ #塔鲁斯科
+2254={ #Tarusco
 	terrain="plains"
 	culture="volcae"
 	religion="druidism"
@@ -46,7 +46,7 @@
 	}
 }
 
-2255={ #卡耳卡索
+2255={ #Carcasso
 	terrain="plains"
 	culture="volcae"
 	religion="druidism"
@@ -62,7 +62,7 @@
 	}
 }
 
-2256={ #纳耳玻
+2256={ #Narbo
 	terrain="plains"
 	culture="volcae"
 	religion="druidism"
@@ -85,7 +85,7 @@
 	port_building=1
 }
 
-2257={ #鲁斯基诺
+2257={ #Ruscino
 	terrain="plains"
 	culture="indiketian"
 	religion="druidism"
@@ -107,7 +107,7 @@
 	}
 }
 
-2258={ #乌苏厄耳瓦
+2258={ #Usuerva
 	terrain="plains"
 	culture="volcae"
 	religion="druidism"
@@ -126,7 +126,7 @@
 	}
 }
 
-2259={ #柏忒赖
+2259={ #Baeterrae
 	terrain="plains"
 	culture="volcae"
 	religion="druidism"
@@ -142,7 +142,7 @@
 	}
 }
 
-2260={ #阿伽忒
+2260={ #Agathe
 	terrain="plains"
 	culture="massalian"
 	religion="roman_pantheon"
@@ -171,7 +171,7 @@
 	}
 }
 
-2261={ #卢忒瓦
+2261={ #Luteva
 	terrain="forest"
 	culture="volcae"
 	religion="druidism"
@@ -190,7 +190,7 @@
 	}
 }
 
-2262={ #瑟戈杜农
+2262={ #Segodunum
 	terrain="forest"
 	culture="volcae"
 	religion="druidism"
@@ -209,7 +209,7 @@
 	}
 }
 
-2263={ #阿尔比加
+2263={ #Albiga
 	terrain="forest"
 	culture="volcae"
 	religion="druidism"
@@ -225,7 +225,7 @@
 	}
 }
 
-2265={ #托洛萨
+2265={ #Tolosa
 	terrain="plains"
 	culture="volcae"
 	religion="druidism"
@@ -247,7 +247,7 @@
 	}
 }
 
-2266={ #西卡的阿库亚
+2266={ #Aquae Siccae
 	terrain="plains"
 	culture="aquitani"
 	religion="animism"
@@ -263,7 +263,7 @@
 	}
 }
 
-2267={ #厄卢西翁
+2267={ #Elusio
 	terrain="hills"
 	culture="volcae"
 	religion="druidism"
@@ -279,7 +279,7 @@
 	}
 }
 
-2280={ #马里纳瓦斯
+2280={ #Marinavas
 	terrain="plains"
 	culture="volcae"
 	religion="druidism"
@@ -295,7 +295,7 @@
 	}
 }
 
-2297={ #刻本尼亚
+2297={ #Cebennia
 	terrain="forest"
 	culture="salluvian"
 	religion="druidism"
@@ -311,7 +311,7 @@
 	}
 }
 
-2301={ #卢格杜农
+2301={ #Lugdunum
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -327,7 +327,7 @@
 	}
 }
 
-2302={ #瑟顾斯拉沃戎
+2302={ #Seguslavorum
 	terrain="forest"
 	culture="arverni"
 	religion="druidism"
@@ -346,7 +346,7 @@
 	}
 }
 
-2303={ #俄克塔武斯
+2303={ #Octavus
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -362,7 +362,7 @@
 	}
 }
 
-2304={ #维恩纳
+2304={ #Vienna
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -381,7 +381,7 @@
 	}
 }
 
-2305={ #阿罗布洛吉亚
+2305={ #Allobrogia
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -397,7 +397,7 @@
 	}
 }
 
-2306={ #腓格利奈
+2306={ #Figlinae
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -413,7 +413,7 @@
 	}
 }
 
-2307={ #摩耳堇农
+2307={ #Morginnum
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -429,7 +429,7 @@
 	}
 }
 
-2308={ #瓦伦提亚
+2308={ #Valentia
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -448,7 +448,7 @@
 	}
 }
 
-2309={ #巴提亚纳
+2309={ #Batiana
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -464,7 +464,7 @@
 	}
 }
 
-2310={ #刻雷贝利阿卡
+2310={ #Cerebelliaca
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -480,7 +480,7 @@
 	}
 }
 
-2311={ #赫尔维的阿尔巴
+2311={ #Alba Helviorum
 	terrain="hills"
 	culture="salluvian"
 	religion="druidism"
@@ -502,7 +502,7 @@
 	}
 }
 
-2312={ #安杜西亚
+2312={ #Andusia
 	terrain="hills"
 	culture="salluvian"
 	religion="druidism"
@@ -521,7 +521,7 @@
 	}
 }
 
-2313={ #瑟克斯坦提翁
+2313={ #Sextantio
 	terrain="farmland"
 	culture="salluvian"
 	religion="druidism"
@@ -544,7 +544,7 @@
 	port_building=1
 }
 
-2314={ #涅毛苏斯
+2314={ #Nemausus
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -563,7 +563,7 @@
 	}
 }
 
-2315={ #布里堇农
+2315={ #Briginnum
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -579,7 +579,7 @@
 	}
 }
 
-2316={ #斯塔图耳奈
+2316={ #Staturnae
 	terrain="hills"
 	culture="salluvian"
 	religion="druidism"
@@ -601,7 +601,7 @@
 	}
 }
 
-2317={ #乌刻提亚
+2317={ #Ucetia
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -620,7 +620,7 @@
 	}
 }
 
-2318={ #洛达努西亚
+2318={ #Rhodanousia
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -636,7 +636,7 @@
 	}
 }
 
-2319={ #阿雷拉提斯
+2319={ #Arelatis
 	terrain="farmland"
 	culture="salluvian"
 	religion="druidism"
@@ -653,7 +653,7 @@
 	port_building=1
 }
 
-2320={ #阿烙西翁
+2320={ #Arausio
 	terrain="farmland"
 	culture="salluvian"
 	religion="druidism"
@@ -672,7 +672,7 @@
 	}
 }
 
-2321={ #阿文尼翁
+2321={ #Avennio
 	terrain="farmland"
 	culture="salluvian"
 	religion="druidism"
@@ -689,7 +689,7 @@
 	holy_site=omen_glanis
 }
 
-2322={ #卡耳彭托拉忒
+2322={ #Carpentorate
 	terrain="farmland"
 	culture="salluvian"
 	religion="druidism"
@@ -705,7 +705,7 @@
 	}
 }
 
-2323={ #庇萨维
+2323={ #Pisavi
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -724,7 +724,7 @@
 	}
 }
 
-2324={ #武尔吉恩提翁
+2324={ #Vulgientium
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -743,7 +743,7 @@
 	}
 }
 
-2325={ #马赛利亚
+2325={ #Massalia
 	terrain="plains"
 	culture="massalian"
 	religion="roman_pantheon"
@@ -781,7 +781,7 @@
 	port_building=1
 }
 
-2356={ #卢德纳
+2356={ #Ludna
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -797,7 +797,7 @@
 	}
 }
 
-2357={ #布里俄拉提斯
+2357={ #Brioratis
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -813,7 +813,7 @@
 	}
 }
 
-3517={ #陶罗恩提翁
+3517={ #Tauroention
 	terrain="forest"
 	culture="massalian"
 	religion="roman_pantheon"
@@ -843,7 +843,7 @@
 	port_building=1
 }
 
-3518={ #格里瑟利卡
+3518={ #Griselica
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -865,7 +865,7 @@
 	}
 }
 
-3519={ #瓦西翁
+3519={ #Vasio
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -887,7 +887,7 @@
 	}
 }
 
-3520={ #瑟顾斯忒戎
+3520={ #Segustero
 	terrain="forest"
 	culture="salluvian"
 	religion="druidism"
@@ -909,7 +909,7 @@
 	}
 }
 
-3521={ #忒顾拉塔
+3521={ #Tegulata
 	terrain="forest"
 	culture="salluvian"
 	religion="druidism"
@@ -925,7 +925,7 @@
 	}
 }
 
-3522={ #萨尼提翁
+3522={ #Sanitium
 	terrain="hills"
 	culture="salluvian"
 	religion="druidism"
@@ -944,7 +944,7 @@
 	}
 }
 
-3523={ #维鲁尼亚
+3523={ #Verunia
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -963,7 +963,7 @@
 	}
 }
 
-3524={ #瓦品孔
+3524={ #Vappincum
 	terrain="forest"
 	culture="salluvian"
 	religion="druidism"
@@ -982,7 +982,7 @@
 	}
 }
 
-3525={ #沃孔提俄戎
+3525={ #Vocontiorum
 	terrain="hills"
 	culture="salluvian"
 	religion="druidism"
@@ -1001,7 +1001,7 @@
 	}
 }
 
-3526={ #达壬提亚卡
+3526={ #Darentiaca
 	terrain="hills"
 	culture="salluvian"
 	religion="druidism"
@@ -1023,7 +1023,7 @@
 	}
 }
 
-3527={ #沃洛伽泰
+3527={ #Vologatae
 	terrain="farmland"
 	culture="salluvian"
 	religion="druidism"
@@ -1045,7 +1045,7 @@
 	}
 }
 
-3528={ #塞琉古山
+3528={ #Mons Seleucus
 	terrain="plains"
 	culture="salluvian"
 	religion="druidism"
@@ -1064,7 +1064,7 @@
 	}
 }
 
-3529={ #里戈马顾斯
+3529={ #Rigomagus
 	terrain="forest"
 	culture="salluvian"
 	religion="druidism"
@@ -1086,7 +1086,7 @@
 	}
 }
 
-3530={ #穆斯提埃 卡尔墨斯
+3530={ #Mustiae Calmes
 	terrain="mountain"
 	culture="salluvian"
 	religion="druidism"
@@ -1112,7 +1112,7 @@
 	}
 }
 
-3531={ #库拉罗
+3531={ #Cularo
 	terrain="mountain"
 	culture="salluvian"
 	religion="druidism"
@@ -1131,7 +1131,7 @@
 	}
 }
 
-3532={ #卡托里西翁
+3532={ #Catorissium
 	terrain="mountain"
 	culture="salluvian"
 	religion="druidism"
@@ -1150,7 +1150,7 @@
 	}
 }
 
-3533={ #穆里萨
+3533={ #Murissa
 	terrain="hills"
 	culture="salluvian"
 	religion="druidism"
@@ -1169,7 +1169,7 @@
 	}
 }
 
-3534={ #斯金戈马顾斯
+3534={ #Scingomagus
 	terrain="mountain"
 	culture="salluvian"
 	religion="druidism"
@@ -1188,7 +1188,7 @@
 	}
 }
 
-3536={ #厄部罗杜农
+3536={ #Eburodunum
 	terrain="mountain"
 	culture="salluvian"
 	religion="druidism"
@@ -1214,7 +1214,7 @@
 	}
 }
 
-3540={ #佩耳甘提翁
+3540={ #Pergantion
 	terrain="forest"
 	culture="salluvian"
 	religion="druidism"
@@ -1243,7 +1243,7 @@
 	}
 }
 
-3541={ #阿伽托姆
+3541={ #Agathom
 	terrain="forest"
 	culture="ligurian"
 	religion="roman_pantheon"
@@ -1270,7 +1270,7 @@
 	}
 }
 
-3542={ #马塔沃
+3542={ #Matavo
 	terrain="forest"
 	culture="salluvian"
 	religion="druidism"
@@ -1294,7 +1294,7 @@
 	}
 }
 
-3543={ #安提波利斯
+3543={ #Antipolis
 	terrain="plains"
 	culture="massalian"
 	religion="roman_pantheon"
@@ -1319,7 +1319,7 @@
 	port_building=1
 }
 
-3544={ #纳维利斯
+3544={ #Navelis
 	terrain="plains"
 	culture="ligurian"
 	religion="roman_pantheon"

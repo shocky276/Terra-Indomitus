@@ -1,4 +1,4 @@
-﻿3810={ #医喃婆提那
+﻿3810={ #Embadina
 	terrain="mountain"
 	culture="gandhari"
 	religion="buddhism"
@@ -20,7 +20,7 @@
 	}
 }
 
-4300={ #布色羯逻伐底
+4300={ #Pushkalavati
 	terrain="mountain"
 	culture="gandhari"
 	religion="hindu"
@@ -42,7 +42,7 @@
 	}
 }
 
-4301={ #那竭
+4301={ #Nagarahara
 	terrain="dry_plains"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -61,7 +61,7 @@
 	}
 }
 
-4308={ #遮拘拉婆罗
+4308={ #Cakravala
 	terrain="dry_plains"
 	culture="gandhari"
 	religion="hindu"
@@ -80,9 +80,9 @@
 	}
 }
 
-4315={ #尼开亚的亚历山大里亚
+4315={ #Dyrte
 	terrain="forest"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=24
@@ -102,11 +102,11 @@
 	}
 }
 
-4316={ #部刻法利亚
+4316={ #Mong
 	terrain="forest"
 	culture="macedonian"
 	religion="roman_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=39
 	barbarian_power=0
 	province_rank="city"
@@ -124,7 +124,7 @@
 	}
 }
 
-4317={ #阵朅
+4317={ #Dinkot
 	terrain="hills"
 	culture="gandhari"
 	religion="hindu"
@@ -146,7 +146,7 @@
 	}
 }
 
-4318={ #阿钵梨多斯
+4318={ #Apritas
 	terrain="mountain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -165,7 +165,7 @@
 	}
 }
 
-4319={ #萨塔吉地亚
+4319={ #Gorydale
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -184,7 +184,7 @@
 	}
 }
 
-4320={ #信袪补罗
+4320={ #Singhapura
 	terrain="dry_plains"
 	culture="gandhari"
 	religion="buddhism"
@@ -206,7 +206,7 @@
 	}
 }
 
-4321={ #拘谛 摩罗
+4321={ #Kutte Mar
 	terrain="forest"
 	culture="gandhari"
 	religion="hindu"
@@ -225,11 +225,11 @@
 	}
 }
 
-4322={ #摩尼迦利
+4322={ #Manikyal
 	terrain="forest"
 	culture="macedonian"
 	religion="roman_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=39
 	barbarian_power=0
 	province_rank="city"
@@ -247,7 +247,7 @@
 	}
 }
 
-4323={ #多拘诃-伊-婆希
+4323={ #Takht-i-Bahi
 	terrain="hills"
 	culture="gandhari"
 	religion="buddhism"
@@ -263,7 +263,7 @@
 	}
 }
 
-4324={ #阇摩罗 揭希
+4324={ #Gorya
 	terrain="mountain"
 	culture="gandhari"
 	religion="hindu"
@@ -282,7 +282,7 @@
 	}
 }
 
-4325={ #末檀
+4325={ #Mardan
 	terrain="forest"
 	culture="gandhari"
 	religion="hindu"
@@ -301,7 +301,7 @@
 	}
 }
 
-4326={ #摩尼迦罗
+4326={ #Manikyala
 	terrain="forest"
 	culture="gandhari"
 	religion="buddhism"
@@ -323,7 +323,7 @@
 	}
 }
 
-4327={ #健恃补罗
+4327={ #Kaspira
 	terrain="forest"
 	culture="gandhari"
 	religion="buddhism"
@@ -345,7 +345,7 @@
 	}
 }
 
-4328={ #拘诃多
+4328={ #Plagira
 	terrain="hills"
 	culture="gandhari"
 	religion="hindu"
@@ -367,7 +367,7 @@
 	}
 }
 
-4329={ #那罗
+4329={ #Nara
 	terrain="dry_plains"
 	culture="gandhari"
 	religion="buddhism"
@@ -389,7 +389,7 @@
 	}
 }
 
-4330={ #戈伽赖俄伊
+4330={ #Gogaraioi
 	terrain="dry_plains"
 	culture="gandhari"
 	religion="hindu"
@@ -411,9 +411,9 @@
 	}
 }
 
-4331={ #拘呼悉诃婆
+4331={ #Khushab
 	terrain="forest"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="dates"
 	civilization_value=24
@@ -433,7 +433,7 @@
 	}
 }
 
-4332={ #补罗那提悉傥那
+4332={ #Puranadisthana
 	terrain="forest"
 	culture="dardic"
 	religion="hindu"
@@ -452,7 +452,7 @@
 	}
 }
 
-4333={ #呼湿迦补罗
+4333={ #Huskapura
 	terrain="forest"
 	culture="dardic"
 	religion="hindu"
@@ -468,7 +468,7 @@
 	}
 }
 
-4334={ #诃罗槃
+4334={ #Harvan
 	terrain="mountain"
 	culture="dardic"
 	religion="hindu"
@@ -487,7 +487,7 @@
 	}
 }
 
-4335={ #罗婆迦
+4335={ #Labaka
 	terrain="mountain"
 	culture="dardic"
 	religion="hindu"
@@ -506,7 +506,7 @@
 	}
 }
 
-4336={ #婆罗诃世罗山口
+4336={ #Varahasaila Pass
 	terrain="mountain"
 	culture="dardic"
 	religion="hindu"
@@ -528,7 +528,7 @@
 	}
 }
 
-4337={ #罽宾的乌罗娑
+4337={ #Embolima
 	terrain="mountain"
 	culture="dardic"
 	religion="hindu"
@@ -550,7 +550,7 @@
 	}
 }
 
-4338={ #阿难多那伽
+4338={ #Anantanaga
 	terrain="forest"
 	culture="dardic"
 	religion="hindu"
@@ -572,7 +572,7 @@
 	}
 }
 
-4339={ #难提
+4339={ #Nandi
 	terrain="forest"
 	culture="dardic"
 	religion="hindu"
@@ -591,9 +591,9 @@
 	}
 }
 
-4340={ #奢羯罗
+4340={ #Sakala
 	terrain="farmland"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=28
@@ -613,7 +613,7 @@
 	}
 }
 
-4341={ #阿弃笯罗
+4341={ #Akhnur
 	terrain="mountain"
 	culture="dardic"
 	religion="hindu"
@@ -635,11 +635,11 @@
 	}
 }
 
-4342={ #钵婆多
+4342={ #Parvata
 	terrain="hills"
 	culture="dardic"
 	religion="hindu"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -654,7 +654,7 @@
 	}
 }
 
-4343={ #婆尼诃利山口
+4343={ #Banihal Pass
 	terrain="mountain"
 	culture="dardic"
 	religion="hindu"
@@ -667,7 +667,7 @@
 	}
 }
 
-4344={ #支亘婆
+4344={ #Chhamb
 	terrain="marsh"
 	culture="dardic"
 	religion="hindu"
@@ -686,9 +686,9 @@
 	}
 }
 
-4345={ #折醯腊
+4345={ #Jhelum
 	terrain="hills"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="elephants"
 	civilization_value=8
@@ -708,9 +708,9 @@
 	}
 }
 
-4346={ #摩陀罗
+4346={ #Madra
 	terrain="farmland"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="silk"
 	civilization_value=33
@@ -730,7 +730,7 @@
 	}
 }
 
-4347={ #乌多罗 摩陀罗
+4347={ #Magaris
 	terrain="marsh"
 	culture="dardic"
 	religion="hindu"
@@ -752,9 +752,9 @@
 	}
 }
 
-4348={ #尸陛补罗
+4348={ #Sibipura
 	terrain="plains"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=26
@@ -771,9 +771,9 @@
 	}
 }
 
-4349={ #摩罗婆
+4349={ #Malava
 	terrain="farmland"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="dates"
 	civilization_value=28
@@ -790,9 +790,9 @@
 	}
 }
 
-4350={ #牟罗悉他那补罗
+4350={ #Mulasthanapura
 	terrain="farmland"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="earthware"
 	civilization_value=28
@@ -810,9 +810,9 @@
 	holy_site=omen_samba
 }
 
-4351={ #阿波迦罗
+4351={ #Apakara
 	terrain="dry_plains"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=23
@@ -829,7 +829,7 @@
 	}
 }
 
-4367={ #阿里盖翁
+4367={ #Arigaion
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -848,11 +848,11 @@
 	}
 }
 
-4370={ #摩娑迦
+4370={ #Massaka
 	terrain="mountain"
 	culture="gandhari"
 	religion="hindu"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
@@ -870,7 +870,7 @@
 	}
 }
 
-4371={ #印度的亚历山大里亚
+4371={ #Deogarh
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -897,7 +897,7 @@
 	port_building=1
 }
 
-4373={ #西贝赖
+4373={ #Siberai
 	terrain="dry_plains"
 	culture="sindhi"
 	religion="hindu"
@@ -910,9 +910,9 @@
 	}
 }
 
-4377={ #比萨姆布里泰
+4377={ #Bisambritai
 	terrain="dry_plains"
-	culture="sindhi"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=23
@@ -926,9 +926,9 @@
 	}
 }
 
-4378={ #俄西俄伊
+4378={ #Osioi
 	terrain="plains"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="horses"
 	civilization_value=26
@@ -945,9 +945,9 @@
 	}
 }
 
-4379={ #斐顾斯
+4379={ #Phegas
 	terrain="farmland"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=28
@@ -967,9 +967,9 @@
 	}
 }
 
-4380={ #马洛伊
+4380={ #Mallava
 	terrain="plains"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -989,9 +989,9 @@
 	}
 }
 
-4381={ #海德拉凯
+4381={ #Hydrakai
 	terrain="plains"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="horses"
 	civilization_value=26
@@ -1011,9 +1011,9 @@
 	}
 }
 
-4382={ #冬布里泰
+4382={ #Anatachara
 	terrain="farmland"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=28
@@ -1027,9 +1027,9 @@
 	}
 }
 
-4383={ #阿玻耳泰
+4383={ #Abortai
 	terrain="dry_plains"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=23
@@ -1049,9 +1049,9 @@
 	}
 }
 
-4384={ #鸡迦耶
+4384={ #Kekaya
 	terrain="plains"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="horses"
 	civilization_value=26
@@ -1071,9 +1071,9 @@
 	}
 }
 
-4385={ #尸毗
+4385={ #Shivai
 	terrain="plains"
-	culture="sindhi"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=26
@@ -1090,9 +1090,9 @@
 	}
 }
 
-4386={ #赡补罗
+4386={ #Jadamapura
 	terrain="dry_plains"
-	culture="sindhi"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=23
@@ -1106,9 +1106,9 @@
 	}
 }
 
-4388={ #般遮补罗
+4388={ #Pancapura
 	terrain="plains"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="horses"
 	civilization_value=26
@@ -1128,9 +1128,9 @@
 	}
 }
 
-4389={ #露菩拘罗
+4389={ #Iravatyavar
 	terrain="farmland"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="earthware"
 	civilization_value=28
@@ -1150,9 +1150,9 @@
 	}
 }
 
-4390={ #阇兰达罗
+4390={ #Jalandhara
 	terrain="farmland"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=28
@@ -1169,7 +1169,7 @@
 	}
 }
 
-4391={ #乌陀喃薄罗
+4391={ #Udambhara
 	terrain="hills"
 	culture="dardic"
 	religion="hindu"
@@ -1188,9 +1188,9 @@
 	}
 }
 
-4392={ #萨婆摩那补罗
+4392={ #Sarvamanapura
 	terrain="farmland"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="base_metals"
 	civilization_value=28
@@ -1210,9 +1210,9 @@
 	}
 }
 
-4393={ #乌迦罗
+4393={ #Okara
 	terrain="plains"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -1232,9 +1232,9 @@
 	}
 }
 
-4394={ #阿德雷斯泰
+4394={ #Adrestai
 	terrain="forest"
-	culture="dardic"
+	culture="purus"
 	religion="hindu"
 	trade_goods="elephants"
 	civilization_value=8
@@ -1254,9 +1254,9 @@
 	}
 }
 
-4395={ #都梨婆舍
+4395={ #Turvasa
 	terrain="plains"
-	culture="gandhari"
+	culture="sivi"
 	religion="hindu"
 	trade_goods="dates"
 	civilization_value=26
@@ -1276,9 +1276,9 @@
 	}
 }
 
-4396={ #提婆耶拘多
+4396={ #Chandaniot
 	terrain="farmland"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=28
@@ -1298,9 +1298,9 @@
 	}
 }
 
-4397={ #毘钵舍
+4397={ #Vipasa
 	terrain="farmland"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=28
@@ -1320,9 +1320,9 @@
 	}
 }
 
-4398={ #薄帝耶诃
+4398={ #Bhatiah
 	terrain="plains"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="wine"
 	civilization_value=26
@@ -1342,9 +1342,9 @@
 	}
 }
 
-4399={ #阇伊补罗
+4399={ #Jayapura
 	terrain="farmland"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=28
@@ -1364,9 +1364,9 @@
 	}
 }
 
-4400={ #多鸡
+4400={ #Taki
 	terrain="farmland"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=28
@@ -1386,11 +1386,11 @@
 	}
 }
 
-4401={ #娄波
+4401={ #Rupar
 	terrain="forest"
 	culture="dardic"
 	religion="hindu"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -1408,9 +1408,9 @@
 	}
 }
 
-4409={ #迦烂补罗
+4409={ #Arispara
 	terrain="forest"
-	culture="shauraseni"
+	culture="kuru"
 	religion="buddhism"
 	trade_goods="grain"
 	civilization_value=24
@@ -1430,9 +1430,9 @@
 	}
 }
 
-4410={ #多跋醯因达
+4410={ #Tabarhindh
 	terrain="forest"
-	culture="shauraseni"
+	culture="kuru"
 	religion="hindu"
 	trade_goods="camel"
 	civilization_value=24
@@ -1452,9 +1452,9 @@
 	}
 }
 
-4414={ #曼娑
+4414={ #Mansa
 	terrain="plains"
-	culture="shauraseni"
+	culture="kuru"
 	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=26
@@ -1474,9 +1474,9 @@
 	}
 }
 
-4415={ #玺梨舍
+4415={ #Sirsa
 	terrain="plains"
-	culture="shauraseni"
+	culture="kuru"
 	religion="hindu"
 	trade_goods="horses"
 	civilization_value=26
@@ -1493,9 +1493,9 @@
 	}
 }
 
-4416={ #苏难
+4416={ #Sunam
 	terrain="forest"
-	culture="shauraseni"
+	culture="kuru"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=24
@@ -1515,9 +1515,9 @@
 	}
 }
 
-4418={ #娑多陀娄
+4418={ #Satadru
 	terrain="plains"
-	culture="shauraseni"
+	culture="kuru"
 	religion="hindu"
 	trade_goods="base_metals"
 	civilization_value=26
@@ -1537,7 +1537,7 @@
 	}
 }
 
-4490={ #巴齐里亚
+4490={ #Baziria
 	terrain="mountain"
 	culture="gandhari"
 	religion="hindu"
@@ -1559,9 +1559,9 @@
 	}
 }
 
-5445={ #格罗达卡
+5445={ #Grodaka
 	terrain="plains"
-	culture="shauraseni"
+	culture="purus"
 	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=0
@@ -1572,7 +1572,7 @@
 	}
 }
 
-6751={ #犍陀卫的婆罗那
+6751={ #Varana Gandhara
 	terrain="mountain"
 	culture="gandhari"
 	religion="hindu"
@@ -1594,7 +1594,7 @@
 	}
 }
 
-6997={ #俄拉
+6997={ #Ora
 	terrain="mountain"
 	culture="gandhari"
 	religion="buddhism"
@@ -1616,7 +1616,7 @@
 	}
 }
 
-7314={ #奢叉尸罗
+7314={ #Taksasila
 	terrain="dry_plains"
 	culture="gandhari"
 	religion="buddhism"
@@ -1652,7 +1652,7 @@
 	holy_site=omen_saraswati
 }
 
-7319={ #阿多迦
+7319={ #Ataka
 	terrain="hills"
 	culture="gandhari"
 	religion="hindu"
@@ -1674,7 +1674,7 @@
 	}
 }
 
-7361={ #娑露多罗
+7361={ #Salutara
 	terrain="mountain"
 	culture="gandhari"
 	religion="hindu"
@@ -1696,9 +1696,9 @@
 	}
 }
 
-7399={ #王舍城
+7399={ #Rajagrha
 	terrain="forest"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=24
@@ -1718,9 +1718,9 @@
 	}
 }
 
-7485={ #输陀利
+7485={ #Sodal
 	terrain="plains"
-	culture="gandhari"
+	culture="purus"
 	religion="hindu"
 	trade_goods="dates"
 	civilization_value=36
@@ -1740,7 +1740,7 @@
 	}
 }
 
-7492={ #筏奴
+7492={ #Aspakora
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -1759,7 +1759,7 @@
 	}
 }
 
-7657={ #富楼沙城
+7657={ #Purushapura
 	terrain="hills"
 	culture="gandhari"
 	religion="hindu"

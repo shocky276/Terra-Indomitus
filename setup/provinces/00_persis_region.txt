@@ -1,4 +1,4 @@
-﻿943={ #赫德律丰的塞琉刻亚
+﻿943={ #Seleukeia Hedyphonte
 	terrain="dry_plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -17,8 +17,8 @@
 	}
 }
 
-945={ #塔尔亚纳
-	terrain="marsh"
+945={ #Tareiana
+	terrain="flood_plain"
 	culture="elamite"
 	religion="zoroaster"
 	trade_goods="leather"
@@ -39,7 +39,7 @@
 	}
 }
 
-946={ #苏萨
+946={ #Seleukeia Eulaios
 	terrain="dry_plains"
 	culture="elamite"
 	religion="zoroaster"
@@ -81,7 +81,7 @@
 	holy_site=omen_daniel
 }
 
-947={ #苏西亚纳的沙菩尔
+947={ #Choaspes
 	terrain="dry_plains"
 	culture="elamite"
 	religion="zoroaster"
@@ -112,7 +112,7 @@
 	}
 }
 
-948={ #得兹孚勒
+948={ #Sakrone
 	terrain="hills"
 	culture="elamite"
 	religion="zoroaster"
@@ -148,7 +148,7 @@
 	}
 }
 
-949={ #本多萨玻戎
+949={ #Bendosaboron
 	terrain="dry_plains"
 	culture="elamite"
 	religion="zoroaster"
@@ -167,7 +167,7 @@
 	}
 }
 
-950={ #索斯特拉忒
+950={ #Sostrate
 	terrain="dry_plains"
 	culture="elamite"
 	religion="zoroaster"
@@ -189,7 +189,7 @@
 	}
 }
 
-951={ #沙密
+951={ #Arsiana
 	terrain="hills"
 	culture="uxian"
 	religion="zoroaster"
@@ -208,7 +208,7 @@
 	}
 }
 
-952={ #蒂西阎
+952={ #Taxiana
 	terrain="hills"
 	culture="uxian"
 	religion="zoroaster"
@@ -227,7 +227,7 @@
 	}
 }
 
-966={ #剌姆胡尔密兹德
+966={ #Chaltapitis
 	terrain="hills"
 	culture="uxian"
 	religion="zoroaster"
@@ -246,7 +246,7 @@
 	}
 }
 
-967={ #罗斯塔格 咖瓦德
+967={ #Anouchtha
 	terrain="dry_plains"
 	culture="elamite"
 	religion="zoroaster"
@@ -268,8 +268,8 @@
 	}
 }
 
-970={ #玛扎尔
-	terrain="marsh"
+970={ #Abara
+	terrain="flood_plain"
 	culture="elamite"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
@@ -295,8 +295,8 @@
 	}
 }
 
-972={ #阿拉卡
-	terrain="marsh"
+972={ #Arakka
+	terrain="flood_plain"
 	culture="elamite"
 	religion="zoroaster"
 	trade_goods="dates"
@@ -321,8 +321,8 @@
 	}
 }
 
-975={ #基西亚
-	terrain="marsh"
+975={ #Kissia
+	terrain="flood_plain"
 	culture="elamite"
 	religion="zoroaster"
 	trade_goods="cattle"
@@ -348,7 +348,7 @@
 	}
 }
 
-980={ #达什蒂
+980={ #Dorista
 	terrain="dry_plains"
 	culture="elamite"
 	religion="mesopotamian_religion"
@@ -375,7 +375,7 @@
 	}
 }
 
-3400={ #尼里兹
+3400={ #Niriz
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -394,7 +394,7 @@
 	}
 }
 
-3401={ #帕萨
+3401={ #Pasa
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -417,7 +417,7 @@
 	holy_site=omen_adur_farnbag
 }
 
-3402={ #达剌卜吉尔德
+3402={ #Darabgird
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -436,7 +436,7 @@
 	}
 }
 
-3403={ #巴克忒赫甘
+3403={ #Baktehgan
 	terrain="dry_plains"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -455,7 +455,7 @@
 	}
 }
 
-3404={ #塔什克
+3404={ #Tashk
 	terrain="dry_plains"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -471,7 +471,7 @@
 	}
 }
 
-3405={ #咖丹伽
+3405={ #Qadamgah
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -490,7 +490,7 @@
 	}
 }
 
-3406={ #马塔赫尔
+3406={ #Matahr
 	terrain="dry_plains"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -509,7 +509,7 @@
 	}
 }
 
-3408={ #耶业
+3408={ #Arkiotes
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -528,7 +528,7 @@
 	}
 }
 
-3409={ #咖特雷
+3409={ #Qatre
 	terrain="hills"
 	culture="utian"
 	religion="zoroaster"
@@ -550,7 +550,7 @@
 	}
 }
 
-3410={ #巴咖特
+3410={ #Thospis
 	terrain="mountain"
 	culture="utian"
 	religion="zoroaster"
@@ -569,7 +569,7 @@
 	}
 }
 
-3411={ #法耳西耳
+3411={ #Achindana
 	terrain="mountain"
 	culture="utian"
 	religion="zoroaster"
@@ -588,8 +588,8 @@
 	}
 }
 
-4779={ #亨戴安
-	terrain="marsh"
+4779={ #Aginis
+	terrain="flood_plain"
 	culture="uxian"
 	religion="zoroaster"
 	trade_goods="salt"
@@ -611,7 +611,7 @@
 	port_building=1
 }
 
-4780={ #阿拉甘
+4780={ #Margastana
 	terrain="hills"
 	culture="uxian"
 	religion="zoroaster"
@@ -633,7 +633,7 @@
 	}
 }
 
-4781={ #维沙菩尔
+4781={ #Kazerun
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -655,7 +655,7 @@
 	}
 }
 
-4782={ #素拉万
+4782={ #Suravan
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -677,7 +677,7 @@
 	}
 }
 
-4784={ #阿拉喀亚
+4784={ #Arakkia
 	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -699,7 +699,7 @@
 	}
 }
 
-4785={ #弥洛尼亚
+4785={ #Methone Persikai
 	terrain="hills"
 	culture="uxian"
 	religion="zoroaster"
@@ -721,7 +721,7 @@
 	}
 }
 
-4786={ #塔俄刻
+4786={ #Taoke
 	terrain="dry_plains"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -743,7 +743,7 @@
 	}
 }
 
-4787={ #波斯的安条刻亚
+4787={ #Antiocheia Persidos
 	terrain="desert"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -766,7 +766,7 @@
 	port_building=1
 }
 
-4788={ #希厄拉提斯
+4788={ #Parsha
 	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -779,7 +779,7 @@
 	}
 }
 
-4789={ #戈加纳
+4789={ #Dayya
 	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -795,7 +795,7 @@
 	}
 }
 
-4790={ #西剌弗
+4790={ #Siraf
 	terrain="dry_plains"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -815,7 +815,7 @@
 	port_building=1
 }
 
-4792={ #顾耳
+4792={ #Gur
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -834,7 +834,7 @@
 	}
 }
 
-4793={ #阿卜冬
+4793={ #Abdun
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -853,7 +853,7 @@
 	}
 }
 
-4794={ #法里耶
+4794={ #Fariyah
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -872,7 +872,7 @@
 	}
 }
 
-4795={ #卡纳特
+4795={ #Kanat
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -891,7 +891,7 @@
 	}
 }
 
-4796={ #赛法
+4796={ #Saifa
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -907,7 +907,7 @@
 	}
 }
 
-4797={ #设拉子
+4797={ #Shirrazish
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -926,7 +926,7 @@
 	}
 }
 
-4798={ #图克剌什
+4798={ #Tukrash
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -948,7 +948,7 @@
 	}
 }
 
-4799={ #波斯波利斯
+4799={ #Parsa
 	terrain="farmland"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -974,7 +974,7 @@
 	holy_site=omen_anahita
 }
 
-4948={ #顾尤姆
+4948={ #Guyum
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -990,7 +990,7 @@
 	}
 }
 
-4949={ #考彼里什
+4949={ #Kaupirrish
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1006,7 +1006,7 @@
 	}
 }
 
-4950={ #波斯得斯
+4950={ #Persides
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1028,7 +1028,7 @@
 	}
 }
 
-4951={ #帕萨耳伽戴
+4951={ #Batrakatash
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1054,7 +1054,7 @@
 	holy_site=omen_asha
 }
 
-4953={ #克罗阿提斯
+4953={ #Kroatis
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1076,7 +1076,7 @@
 	}
 }
 
-4955={ #奥拉卡塔
+4955={ #Oarakta
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -1099,7 +1099,7 @@
 	port_building=1
 }
 
-4956={ #基沙尔
+4956={ #Kish
 	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1121,7 +1121,7 @@
 	}
 }
 
-4957={ #楞革赫
+4957={ #Lengeh
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -1143,7 +1143,7 @@
 	}
 }
 
-4962={ #伽班迪
+4962={ #Gabandi
 	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1165,7 +1165,7 @@
 	}
 }
 
-4969={ #麦摩
+4969={ #Andamaska
 	terrain="hills"
 	culture="cossian"
 	religion="zoroaster"
@@ -1178,7 +1178,7 @@
 	}
 }
 
-4978={ #布勒山
+4978={ #Kuh-e-Bul
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1200,7 +1200,7 @@
 	}
 }
 
-6511={ #哈剌特
+6511={ #Harat
 	terrain="dry_plains"
 	culture="pasargadi"
 	religion="zoroaster"

@@ -1,4 +1,4 @@
-﻿885={ #拉朔姆
+﻿885={ #Kyparisson
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -14,7 +14,7 @@
 	}
 }
 
-888={ #拉希尔
+888={ #Lair
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -36,7 +36,7 @@
 	}
 }
 
-889={ #墨屠尔纳特
+889={ #Physkon
 	terrain="dry_plains"
 	culture="babylonian"
 	religion="zoroaster"
@@ -56,7 +56,7 @@
 	}
 }
 
-890={ #顾巴丘陵
+890={ #Gouba
 	terrain="dry_plains"
 	culture="babylonian"
 	religion="zoroaster"
@@ -80,7 +80,7 @@
 	}
 }
 
-894={ #玛斯钦
+894={ #Apameia Archidos
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -93,7 +93,7 @@
 	}
 }
 
-895={ #阿瓦纳
+895={ #Apollonia Tigridos
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -109,7 +109,7 @@
 	}
 }
 
-896={ #阿耳忒弥塔
+896={ #Artemita
 	terrain="dry_plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -138,11 +138,11 @@
 	}
 }
 
-897={ #达斯卡剌
+897={ #Daskara
 	terrain="dry_plains"
 	culture="babylonian"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="fruits"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="settlement"
@@ -165,7 +165,7 @@
 	}
 }
 
-898={ #纳剌万
+898={ #Nikatoropolis
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -181,7 +181,7 @@
 	}
 }
 
-899={ #巴格达塔
+899={ #Antiocheia Opida
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -200,7 +200,7 @@
 	}
 }
 
-900={ #库里加勒祖边境
+900={ #Symbra
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -216,7 +216,7 @@
 	}
 }
 
-901={ #阿斯瓦德丘陵
+901={ #Kounaxa
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -232,7 +232,7 @@
 	}
 }
 
-902={ #弥西刻
+902={ #Misiche
 	terrain="desert"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -248,7 +248,7 @@
 	}
 }
 
-903={ #乌恺齐尔丘陵
+903={ #Karbela
 	terrain="desert"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -264,7 +264,7 @@
 	}
 }
 
-904={ #伊杜
+904={ #Isiopolis
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -290,7 +290,7 @@
 	}
 }
 
-909={ #纳尔达
+909={ #Neardea
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -309,7 +309,7 @@
 	}
 }
 
-910={ #西帕尔
+910={ #Seleukeia Euphratos
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -326,7 +326,7 @@
 	holy_site=omen_shamash
 }
 
-911={ #大塞琉刻亚
+911={ #Seleukeia
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -348,7 +348,7 @@
 	}
 }
 
-912={ #泰西封
+912={ #Ktesiphon
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -374,7 +374,7 @@
 	port_building=1
 }
 
-913={ #沃洛革西亚斯
+913={ #Meinas Sabattha
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -393,7 +393,7 @@
 	}
 }
 
-914={ #俄庇斯
+914={ #Opis
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -412,7 +412,7 @@
 	}
 }
 
-915={ #库塔
+915={ #Koutha
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -431,7 +431,7 @@
 	}
 }
 
-916={ #吉鲁穆
+916={ #Barophtas
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -447,8 +447,8 @@
 	}
 }
 
-917={ #基什
-	terrain="farmland"
+917={ #Pakoria
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
@@ -466,7 +466,7 @@
 	}
 }
 
-918={ #巴布吕翁
+918={ #Babylon
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -500,8 +500,8 @@
 	port_building=1
 }
 
-919={ #玻耳西帕
-	terrain="farmland"
+919={ #Borsippa
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="cloth"
@@ -535,11 +535,11 @@
 	holy_site=omen_nabu
 }
 
-920={ #迪勒巴特
+920={ #Soura
 	terrain="dry_plains"
 	culture="babylonian"
 	religion="mesopotamian_religion"
-	trade_goods="wine"
+	trade_goods="fruits"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="settlement"
@@ -555,8 +555,8 @@
 	}
 }
 
-921={ #马剌德
-	terrain="farmland"
+921={ #Belgynaia
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
@@ -574,7 +574,7 @@
 	}
 }
 
-922={ #阿科拉
+922={ #Alexandreia Pallakotas
 	terrain="desert"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -600,7 +600,7 @@
 	holy_site=omen_ezekiel
 }
 
-923={ #咖迪西耶
+923={ #Pharga
 	terrain="desert"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -620,7 +620,7 @@
 	}
 }
 
-924={ #阿贝耳塔
+924={ #Baliktanor
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -633,7 +633,7 @@
 	}
 }
 
-925={ #谢玛利
+925={ #Laodikeia Chaldaia
 	terrain="dry_plains"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -657,7 +657,7 @@
 	}
 }
 
-926={ #素玛咖
+926={ #Diadochoupolis
 	terrain="farmland"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -673,8 +673,8 @@
 	}
 }
 
-927={ #西塔刻
-	terrain="farmland"
+927={ #Sittake
+	terrain="flood_plain"
 	culture="macedonian"
 	religion="roman_pantheon"
 	trade_goods="grain"
@@ -689,7 +689,7 @@
 	}
 }
 
-928={ #得鲁
+928={ #Derou
 	terrain="hills"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -705,11 +705,11 @@
 	}
 }
 
-929={ #尼普尔
-	terrain="farmland"
+929={ #Nippour
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
-	trade_goods="glass"
+	trade_goods="horses"
 	civilization_value=38
 	barbarian_power=0
 	province_rank="city"
@@ -740,11 +740,11 @@
 	holy_site=omen_enlil
 }
 
-930={ #拉汉丘陵
-	terrain="farmland"
+930={ #Balagaia
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
-	trade_goods="horses"
+	trade_goods="fruits"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="settlement"
@@ -756,8 +756,8 @@
 	}
 }
 
-931={ #伊辛
-	terrain="farmland"
+931={ #Kolarina
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
@@ -772,8 +772,8 @@
 	}
 }
 
-932={ #达布戎
-	terrain="farmland"
+932={ #Dabron
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="horses"
@@ -788,8 +788,8 @@
 	}
 }
 
-933={ #底格里斯的阿帕墨亚
-	terrain="farmland"
+933={ #Apameia Tigridos
+	terrain="flood_plain"
 	culture="macedonian"
 	religion="roman_pantheon"
 	trade_goods="dates"
@@ -828,8 +828,8 @@
 	}
 }
 
-934={ #咖什咖尔
-	terrain="marsh"
+934={ #Apameia Selaios
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="wine"
@@ -848,8 +848,8 @@
 	}
 }
 
-935={ #吉尔素
-	terrain="marsh"
+935={ #Pantibiblos
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="steppe_horses"
@@ -868,8 +868,8 @@
 	}
 }
 
-936={ #墨戴因
-	terrain="marsh"
+936={ #Antiocheia Inannos
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
@@ -891,8 +891,8 @@
 	}
 }
 
-937={ #俄耳科厄
-	terrain="marsh"
+937={ #Orchoe
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="base_metals"
@@ -921,8 +921,8 @@
 	holy_site=omen_ishtar
 }
 
-938={ #尼纳
-	terrain="marsh"
+938={ #Nina
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="spices"
@@ -941,8 +941,8 @@
 	}
 }
 
-939={ #拉尔萨
-	terrain="marsh"
+939={ #Alexandreia Euphratos
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="earthware"
@@ -985,8 +985,8 @@
 	}
 }
 
-940={ #苏西亚那的亚历山大里亚
-	terrain="farmland"
+940={ #Antiocheia Sousianes
+	terrain="flood_plain"
 	culture="macedonian"
 	religion="roman_pantheon"
 	trade_goods="cloth"
@@ -1036,8 +1036,8 @@
 	port_building=3
 }
 
-941={ #佛剌特
-	terrain="farmland"
+941={ #Oratha
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="zoroaster"
 	trade_goods="dates"
@@ -1072,8 +1072,8 @@
 	}
 }
 
-942={ #阿波洛戈斯
-	terrain="marsh"
+942={ #Apologou Emporion
+	terrain="flood_plain"
 	culture="macedonian"
 	religion="roman_pantheon"
 	trade_goods="dates"
@@ -1092,7 +1092,7 @@
 	holy_site=omen_ezra
 }
 
-944={ #阿喀兹
+944={ #Akkaz
 	terrain="desert"
 	culture="makan"
 	religion="zoroaster"
@@ -1111,7 +1111,7 @@
 	}
 }
 
-959={ #沙剌祖尔
+959={ #Siasouron
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1127,8 +1127,8 @@
 	}
 }
 
-960={ #阿耳珊丘陵
-	terrain="farmland"
+960={ #Theboura
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="horses"
@@ -1146,8 +1146,8 @@
 	}
 }
 
-961={ #庇斯玛耶丘陵
-	terrain="farmland"
+961={ #Doumatha
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
@@ -1174,11 +1174,11 @@
 	}
 }
 
-962={ #恺伊丘陵
-	terrain="farmland"
+962={ #Saouara
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
-	trade_goods="grain"
+	trade_goods="fruits"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="settlement"
@@ -1202,7 +1202,7 @@
 	}
 }
 
-963={ #伊卡洛斯
+963={ #Ikaros
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -1221,8 +1221,8 @@
 	}
 }
 
-964={ #忒雷冬
-	terrain="marsh"
+964={ #Diridotis
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="zoroaster"
 	trade_goods="earthware"
@@ -1238,8 +1238,8 @@
 	port_building=1
 }
 
-965={ #阿法那
-	terrain="marsh"
+965={ #Apphana
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="zoroaster"
 	trade_goods="dates"
@@ -1257,7 +1257,7 @@
 	}
 }
 
-968={ #埃里杜
+968={ #Eridou
 	terrain="desert"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1285,8 +1285,8 @@
 	holy_site=omen_ea
 }
 
-969={ #达剌克
-	terrain="marsh"
+969={ #Seleukeia Erythraia
+	terrain="flood_plain"
 	culture="elamite"
 	religion="zoroaster"
 	trade_goods="dates"
@@ -1304,8 +1304,8 @@
 	}
 }
 
-971={ #安佩
-	terrain="marsh"
+971={ #Ampe
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="zoroaster"
 	trade_goods="vegetables"
@@ -1320,7 +1320,7 @@
 	}
 }
 
-973={ #巴库萨耶
+973={ #Kissia
 	terrain="dry_plains"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1340,7 +1340,7 @@
 	}
 }
 
-974={ #科赛亚
+974={ #Kossaia
 	terrain="hills"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1356,7 +1356,7 @@
 	}
 }
 
-976={ #拉瓦密
+976={ #Sabdata
 	terrain="dry_plains"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1372,7 +1372,7 @@
 	}
 }
 
-977={ #奢剌梵
+977={ #Boubia
 	terrain="dry_plains"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1388,11 +1388,11 @@
 	}
 }
 
-979={ #曼达利
+979={ #Charra
 	terrain="dry_plains"
 	culture="babylonian"
 	religion="mesopotamian_religion"
-	trade_goods="wild_game"
+	trade_goods="fruits"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="settlement"
@@ -1419,7 +1419,7 @@
 	}
 }
 
-981={ #刻洛奈
+981={ #Chala
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -1471,7 +1471,7 @@
 	}
 }
 
-982={ #雅兹迪吉尔德
+982={ #Zagros
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1493,7 +1493,7 @@
 	}
 }
 
-983={ #派库利
+983={ #Paikoulis
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1506,7 +1506,7 @@
 	}
 }
 
-1603={ #匝格鲁·皮莱
+1603={ #Zagrou Pylai
 	terrain="mountain"
 	culture="cossian"
 	religion="zoroaster"
@@ -1523,7 +1523,7 @@
 	}
 }
 
-4970={ #伽拉墨亚的柴什美
+4970={ #Zaranis
 	terrain="mountain"
 	culture="cossian"
 	religion="zoroaster"
@@ -1536,7 +1536,7 @@
 	}
 }
 
-4971={ #萨巴提卡
+4971={ #Sabatika
 	terrain="mountain"
 	culture="cossian"
 	religion="zoroaster"
@@ -1558,7 +1558,7 @@
 	}
 }
 
-5399={ #阿拉伯沙漠
+5399={ #Arabia Deserta
 	terrain="desert"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1568,7 +1568,7 @@
 	province_rank=""
 }
 
-5400={ #阿拉伯沙漠
+5400={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1578,7 +1578,7 @@
 	province_rank=""
 }
 
-5401={ #阿拉伯沙漠
+5401={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1588,7 +1588,7 @@
 	province_rank=""
 }
 
-7566={ #阿拉伯沙漠
+7566={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1598,7 +1598,7 @@
 	province_rank=""
 }
 
-7567={ #阿拉伯沙漠
+7567={ #Arabia Deserta
 	terrain="desert"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1608,8 +1608,8 @@
 	province_rank=""
 }
 
-7723={ #杜仑
-	terrain="marsh"
+7723={ #Charmande
+	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="dates"

@@ -1,4 +1,4 @@
-﻿7500={ #忒戎的托勒密斯
+﻿7500={ #Ptolemais Theron
 	terrain="dry_plains"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -15,7 +15,7 @@
 	port_building=1
 }
 
-7501={ #象镇
+7501={ #Elephanton Chora
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -34,7 +34,7 @@
 	}
 }
 
-7502={ #阿拉莱乌
+7502={ #Alalaiou
 	terrain="desert"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -61,7 +61,7 @@
 	}
 }
 
-7503={ #阿杜利
+7503={ #Adouli
 	terrain="desert"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -92,11 +92,11 @@
 	port_building=1
 }
 
-7504={ #科洛伊
+7504={ #Koloe
 	terrain="mountain"
 	culture="aksumite"
 	religion="arabian_pantheon"
-	trade_goods="wood"
+	trade_goods="myrrh"
 	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
@@ -111,7 +111,7 @@
 	}
 }
 
-7505={ #耶哈
+7505={ #Yeha
 	terrain="dry_plains"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -133,7 +133,7 @@
 	}
 }
 
-7506={ #阿克宋
+7506={ #Aksum
 	terrain="hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -173,7 +173,7 @@
 	}
 }
 
-7507={ #俄雷涅
+7507={ #Oreine
 	terrain="desert"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -189,7 +189,7 @@
 	}
 }
 
-7508={ #于克剌
+7508={ #Uikra
 	terrain="hills"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -211,7 +211,7 @@
 	}
 }
 
-7509={ #萨齐拉
+7509={ #Sazila
 	terrain="dry_hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -230,7 +230,7 @@
 	}
 }
 
-7510={ #马塔拉
+7510={ #Adi Gelamo
 	terrain="dry_hills"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -249,7 +249,7 @@
 	}
 }
 
-7511={ #罗哈
+7511={ #Roha
 	terrain="mountain"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -268,7 +268,7 @@
 	}
 }
 
-7512={ #墨刻莱
+7512={ #Mekele
 	terrain="mountain"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -290,7 +290,7 @@
 	}
 }
 
-7513={ #阿迪格拉特
+7513={ #Adigrat
 	terrain="mountain"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -309,7 +309,7 @@
 	}
 }
 
-7514={ #艾谢塔
+7514={ #Esheta
 	terrain="mountain"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -328,7 +328,7 @@
 	}
 }
 
-7515={ #阿克宋的阿齐里斯
+7515={ #Aziris Aksum
 	terrain="dry_hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -351,7 +351,7 @@
 	}
 }
 
-7516={ #斯密耳诺福洛斯镇
+7516={ #Smyrnophoros Chora
 	terrain="dry_plains"
 	culture="puntic"
 	religion="arabian_pantheon"
@@ -370,7 +370,7 @@
 	}
 }
 
-7517={ #蓬提亚的俄尔比亚
+7517={ #Olbia Pount
 	terrain="dry_hills"
 	culture="puntic"
 	religion="arabian_pantheon"
@@ -389,7 +389,7 @@
 	}
 }
 
-7518={ #得雷
+7518={ #Deire
 	terrain="dry_hills"
 	culture="puntic"
 	religion="arabian_pantheon"
@@ -412,7 +412,7 @@
 	port_building=1
 }
 
-7519={ #阿巴塞尼亚
+7519={ #Abasenia
 	terrain="hills"
 	culture="puntic"
 	religion="arabian_pantheon"
@@ -454,7 +454,7 @@
 	}
 }
 
-7520={ #安基泰亚
+7520={ #Anchitaia
 	terrain="dry_hills"
 	culture="puntic"
 	religion="arabian_pantheon"
@@ -488,7 +488,7 @@
 	}
 }
 
-7521={ #阿图勒
+7521={ #Aualites
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -516,7 +516,7 @@
 	port_building=1
 }
 
-7522={ #马拉俄
+7522={ #Malao
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -538,11 +538,11 @@
 	}
 }
 
-7523={ #摩叙隆的恩波里翁
+7523={ #Emporion Mosylon
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
-	trade_goods="incense"
+	trade_goods="myrrh"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -560,7 +560,7 @@
 	}
 }
 
-7524={ #摩叙隆
+7524={ #Macajilayn
 	terrain="dry_plains"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -580,7 +580,7 @@
 	port_building=1
 }
 
-7525={ #厄勒方同港
+7525={ #Elephanton Limen
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -599,7 +599,7 @@
 	}
 }
 
-7526={ #阿罗马塔
+7526={ #Aromata
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -621,7 +621,7 @@
 	}
 }
 
-7527={ #蒙杜斯
+7527={ #Khoor Shoora
 	terrain="dry_plains"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -644,7 +644,7 @@
 	port_building=1
 }
 
-7528={ #俄波涅
+7528={ #Opone
 	terrain="dry_plains"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -664,7 +664,7 @@
 	port_building=1
 }
 
-7529={ #耶塔
+7529={ #Yehta
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -686,7 +686,7 @@
 	}
 }
 
-7530={ #迪俄斯科里杜斯
+7530={ #Dioscoridus
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -708,7 +708,7 @@
 	}
 }
 
-7531={ #帕诺
+7531={ #Pano
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -727,7 +727,7 @@
 	}
 }
 
-7532={ #迪亚蒂卡
+7532={ #Diattica
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -743,11 +743,11 @@
 	}
 }
 
-7533={ #摩叙利俄尼亚的摩塔
+7533={ #Motta Mosylionia
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
-	trade_goods="incense"
+	trade_goods="myrrh"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -765,11 +765,11 @@
 	}
 }
 
-7534={ #阿迈泰亚
+7534={ #Amaitaia
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
-	trade_goods="incense"
+	trade_goods="myrrh"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -788,11 +788,11 @@
 	}
 }
 
-7535={ #玛福里斯
+7535={ #Maphoris
 	terrain="desert"
 	culture="puntic"
 	religion="egyptian_pantheon"
-	trade_goods="incense"
+	trade_goods="myrrh"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -807,7 +807,7 @@
 	}
 }
 
-7536={ #格瓦拉
+7536={ #Gwara
 	terrain="hills"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -829,7 +829,7 @@
 	}
 }
 
-7537={ #阿得法
+7537={ #Adefa
 	terrain="mountain"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -842,7 +842,7 @@
 	}
 }
 
-7538={ #阿加未
+7538={ #Agawe
 	terrain="hills"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -855,7 +855,7 @@
 	}
 }
 
-7539={ #德巴尔克
+7539={ #D'bark
 	terrain="hills"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -877,7 +877,7 @@
 	}
 }
 
-7540={ #锡雷
+7540={ #Shire
 	terrain="hills"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -896,7 +896,7 @@
 	}
 }
 
-7541={ #撒刻切尼亚
+7541={ #Handoga
 	terrain="dry_hills"
 	culture="puntic"
 	religion="egyptian_pantheon"
@@ -909,7 +909,7 @@
 	}
 }
 
-7542={ #览玛尼泰
+7542={ #Rhammanitai
 	terrain="dry_hills"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -922,7 +922,7 @@
 	}
 }
 
-7543={ #刻布拉尼提亚
+7543={ #Kebranitia
 	terrain="dry_hills"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -935,7 +935,7 @@
 	}
 }
 
-7544={ #卡尔米勒
+7544={ #Karmille
 	terrain="forest"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -948,7 +948,7 @@
 	}
 }
 
-7545={ #阿瓦什
+7545={ #Awash
 	terrain="mountain"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -961,7 +961,7 @@
 	}
 }
 
-7546={ #蓬特沙漠
+7546={ #Beilul
 	terrain="desert"
 	culture="puntic"
 	religion="arabian_pantheon"
@@ -971,7 +971,7 @@
 	province_rank=""
 }
 
-7547={ #蓬特沙漠
+7547={ #Punt Desert
 	terrain="desert"
 	culture="puntic"
 	religion="arabian_pantheon"
@@ -981,7 +981,7 @@
 	province_rank=""
 }
 
-7548={ #蓬特沙漠
+7548={ #Punt Desert
 	terrain="desert"
 	culture="puntic"
 	religion="arabian_pantheon"
@@ -991,7 +991,7 @@
 	province_rank=""
 }
 
-7549={ #蓬特沙漠
+7549={ #Punt Desert
 	terrain="desert"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -1001,7 +1001,7 @@
 	province_rank=""
 }
 
-7550={ #蓬特沙漠
+7550={ #Imberimi
 	terrain="desert"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -1011,7 +1011,7 @@
 	province_rank=""
 }
 
-7551={ #蓬特沙漠
+7551={ #Gulbub
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -1021,7 +1021,7 @@
 	province_rank=""
 }
 
-7552={ #蓬特沙漠
+7552={ #Deresa
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -1031,7 +1031,7 @@
 	province_rank=""
 }
 
-7553={ #蓬特沙漠
+7553={ #Aqiq
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -1050,7 +1050,7 @@
 	}
 }
 
-7594={ #萨布赖同
+7594={ #Sabraiton
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -1066,7 +1066,7 @@
 	}
 }
 
-7595={ #阿拉科斯
+7595={ #Arachos
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -1079,7 +1079,7 @@
 	}
 }
 
-7596={ #卡纳耳比斯
+7596={ #Canarbis
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -1095,7 +1095,7 @@
 	}
 }
 
-7597={ #厄拉斯孔
+7597={ #Erascum
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -1111,7 +1111,7 @@
 	}
 }
 
-7598={ #萨巴斯忒
+7598={ #Sabaste
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -1127,7 +1127,7 @@
 	}
 }
 
-7599={ #瑟特罗农
+7599={ #Setronon
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"

@@ -1,4 +1,4 @@
-﻿2618={ #赫勒斯蓬图斯
+﻿2618={ #Hellespontus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-2623={ #普罗庞提斯
+2623={ #Propontis
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-2731={ #黑海
+2731={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-2732={ #黑海
+2732={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-2733={ #黑海
+2733={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-2734={ #黑海
+2734={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-2735={ #黑海
+2735={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-2736={ #黑海
+2736={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-2737={ #黑海
+2737={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -88,7 +88,7 @@
 	province_rank=""
 }
 
-2738={ #黑海
+2738={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -98,7 +98,7 @@
 	province_rank=""
 }
 
-2739={ #黑海
+2739={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -108,7 +108,7 @@
 	province_rank=""
 }
 
-2740={ #黑海
+2740={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -118,7 +118,7 @@
 	province_rank=""
 }
 
-2741={ #黑海
+2741={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -128,7 +128,7 @@
 	province_rank=""
 }
 
-2742={ #黑海
+2742={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -138,7 +138,7 @@
 	province_rank=""
 }
 
-2743={ #黑海
+2743={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -148,7 +148,7 @@
 	province_rank=""
 }
 
-2744={ #黑海
+2744={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -158,7 +158,7 @@
 	province_rank=""
 }
 
-2745={ #黑海
+2745={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -168,7 +168,7 @@
 	province_rank=""
 }
 
-2746={ #黑海
+2746={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -178,7 +178,7 @@
 	province_rank=""
 }
 
-2747={ #黑海
+2747={ #Pontus Euxinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -188,7 +188,7 @@
 	province_rank=""
 }
 
-2748={ #博斯普鲁斯海峡
+2748={ #Bosporus Cimmerius
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -198,7 +198,7 @@
 	province_rank=""
 }
 
-2749={ #迈俄提亚沼泽
+2749={ #Palus Maeotica
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -208,7 +208,7 @@
 	province_rank=""
 }
 
-2750={ #迈俄提亚沼泽
+2750={ #Palus Maeotica
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -218,7 +218,7 @@
 	province_rank=""
 }
 
-2751={ #迈俄提亚沼泽
+2751={ #Palus Maeotica
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -228,7 +228,7 @@
 	province_rank=""
 }
 
-2752={ #迈俄提亚沼泽
+2752={ #Palus Maeotica
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -238,7 +238,7 @@
 	province_rank=""
 }
 
-2753={ #迈俄提亚沼泽
+2753={ #Palus Maeotica
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -248,7 +248,7 @@
 	province_rank=""
 }
 
-2754={ #黑海
+2754={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -258,7 +258,7 @@
 	province_rank=""
 }
 
-2755={ #黑海
+2755={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -268,7 +268,7 @@
 	province_rank=""
 }
 
-2756={ #黑海
+2756={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -278,7 +278,7 @@
 	province_rank=""
 }
 
-2757={ #黑海
+2757={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -288,7 +288,7 @@
 	province_rank=""
 }
 
-2758={ #黑海
+2758={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -298,7 +298,7 @@
 	province_rank=""
 }
 
-2759={ #黑海
+2759={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -308,7 +308,7 @@
 	province_rank=""
 }
 
-2760={ #黑海
+2760={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -318,7 +318,7 @@
 	province_rank=""
 }
 
-2761={ #黑海
+2761={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -328,7 +328,7 @@
 	province_rank=""
 }
 
-2762={ #黑海
+2762={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -338,7 +338,7 @@
 	province_rank=""
 }
 
-2763={ #黑海
+2763={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -348,7 +348,7 @@
 	province_rank=""
 }
 
-2764={ #黑海
+2764={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -358,7 +358,7 @@
 	province_rank=""
 }
 
-2765={ #黑海
+2765={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -368,7 +368,7 @@
 	province_rank=""
 }
 
-2766={ #黑海
+2766={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -378,7 +378,7 @@
 	province_rank=""
 }
 
-2767={ #黑海
+2767={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -388,7 +388,7 @@
 	province_rank=""
 }
 
-2768={ #黑海
+2768={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -398,7 +398,7 @@
 	province_rank=""
 }
 
-2769={ #黑海
+2769={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -408,7 +408,7 @@
 	province_rank=""
 }
 
-2770={ #黑海
+2770={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -418,7 +418,7 @@
 	province_rank=""
 }
 
-2771={ #黑海
+2771={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -428,7 +428,7 @@
 	province_rank=""
 }
 
-2772={ #黑海
+2772={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -438,7 +438,7 @@
 	province_rank=""
 }
 
-2773={ #黑海
+2773={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -448,7 +448,7 @@
 	province_rank=""
 }
 
-2774={ #黑海
+2774={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -458,7 +458,7 @@
 	province_rank=""
 }
 
-2775={ #黑海
+2775={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -468,7 +468,7 @@
 	province_rank=""
 }
 
-2776={ #黑海
+2776={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -478,7 +478,7 @@
 	province_rank=""
 }
 
-2777={ #黑海
+2777={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -488,7 +488,7 @@
 	province_rank=""
 }
 
-2778={ #黑海
+2778={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -498,7 +498,7 @@
 	province_rank=""
 }
 
-2779={ #黑海
+2779={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -508,7 +508,7 @@
 	province_rank=""
 }
 
-8019={ #黑海
+8019={ #Pontus Euxinus
 	terrain="ocean"
 	culture=""
 	religion=""

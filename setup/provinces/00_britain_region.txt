@@ -1,4 +1,4 @@
-﻿2000={ #得文提亚斯忒诺
+﻿2000={ #Deventiasteno
 	terrain="forest"
 	culture="dumnonian"
 	religion="druidism"
@@ -17,7 +17,7 @@
 	}
 }
 
-2001={ #福耳提斯之墙
+2001={ #Fortis Vallum
 	terrain="forest"
 	culture="dumnonian"
 	religion="druidism"
@@ -36,7 +36,7 @@
 	}
 }
 
-2002={ #赫拉克琉斯海角
+2002={ #Herakleous Akron
 	terrain="forest"
 	culture="dumnonian"
 	religion="druidism"
@@ -55,7 +55,7 @@
 	}
 }
 
-2003={ #冬诺尼亚的伊斯卡
+2003={ #Isca Dumnoniorum
 	terrain="plains"
 	culture="dumnonian"
 	religion="druidism"
@@ -78,7 +78,7 @@
 	port_building=1
 }
 
-2004={ #涅墨提亚
+2004={ #Nemetia
 	terrain="forest"
 	culture="dumnonian"
 	religion="druidism"
@@ -97,7 +97,7 @@
 	}
 }
 
-2005={ #伊斯卡利斯
+2005={ #Iscalis
 	terrain="forest"
 	culture="dumnonian"
 	religion="druidism"
@@ -113,7 +113,7 @@
 	}
 }
 
-2006={ #俄尔科农
+2006={ #Olconum
 	terrain="farmland"
 	culture="dumnonian"
 	religion="druidism"
@@ -135,7 +135,7 @@
 	}
 }
 
-2007={ #杜耳诺瓦里亚
+2007={ #Durnovaria
 	terrain="forest"
 	culture="durotrigan"
 	religion="druidism"
@@ -155,7 +155,7 @@
 	port_building=1
 }
 
-2008={ #林迪尼斯
+2008={ #Lindinis
 	terrain="plains"
 	culture="dumnonian"
 	religion="druidism"
@@ -172,7 +172,7 @@
 	port_building=1
 }
 
-2009={ #苏利斯的阿库埃
+2009={ #Aquae Sulis
 	terrain="farmland"
 	culture="dobunnian"
 	religion="druidism"
@@ -188,7 +188,7 @@
 	}
 }
 
-2010={ #温多克拉迪亚
+2010={ #Vindocladia
 	terrain="forest"
 	culture="durotrigan"
 	religion="druidism"
@@ -204,7 +204,7 @@
 	}
 }
 
-2011={ #索耳维俄杜农
+2011={ #Sorviodunum
 	terrain="farmland"
 	culture="durotrigan"
 	religion="druidism"
@@ -223,7 +223,7 @@
 	}
 }
 
-2012={ #库涅提翁
+2012={ #Cunetio
 	terrain="plains"
 	culture="dobunnian"
 	religion="druidism"
@@ -242,7 +242,7 @@
 	}
 }
 
-2013={ #文塔
+2013={ #Venta
 	terrain="forest"
 	culture="durotrigan"
 	religion="druidism"
@@ -264,7 +264,7 @@
 	}
 }
 
-2014={ #维克提斯
+2014={ #Vectis
 	terrain="forest"
 	culture="durotrigan"
 	religion="druidism"
@@ -286,7 +286,7 @@
 	}
 }
 
-2015={ #楼科马顾斯
+2015={ #Leucomagus
 	terrain="farmland"
 	culture="durotrigan"
 	religion="druidism"
@@ -308,7 +308,7 @@
 	}
 }
 
-2016={ #卡勒瓦
+2016={ #Calleva
 	terrain="plains"
 	culture="durotrigan"
 	religion="druidism"
@@ -330,7 +330,7 @@
 	}
 }
 
-2017={ #杜罗特里吉奥鲁姆的诺维俄马顾斯
+2017={ #Noviomagus Durotrigiorum
 	terrain="plains"
 	culture="durotrigan"
 	religion="druidism"
@@ -350,7 +350,7 @@
 	port_building=1
 }
 
-2018={ #蓬忒斯
+2018={ #Pontes
 	terrain="marsh"
 	culture="trinovantian"
 	religion="druidism"
@@ -366,7 +366,7 @@
 	}
 }
 
-2019={ #新波耳图斯
+2019={ #Novus Portus
 	terrain="forest"
 	culture="cantian"
 	religion="druidism"
@@ -382,7 +382,7 @@
 	}
 }
 
-2020={ #安得里同
+2020={ #Anderitum
 	terrain="forest"
 	culture="cantian"
 	religion="druidism"
@@ -401,7 +401,7 @@
 	}
 }
 
-2021={ #杜罗维耳农
+2021={ #Durovernum
 	terrain="plains"
 	culture="cantian"
 	religion="druidism"
@@ -421,7 +421,7 @@
 	port_building=1
 }
 
-2022={ #隆迪尼翁
+2022={ #Londinium
 	terrain="farmland"
 	culture="trinovantian"
 	religion="druidism"
@@ -444,7 +444,7 @@
 	port_building=1
 }
 
-2023={ #瓦格尼亚基斯
+2023={ #Vagniacis
 	terrain="forest"
 	culture="cantian"
 	religion="druidism"
@@ -463,7 +463,7 @@
 	}
 }
 
-2024={ #阿玻纳
+2024={ #Abona
 	terrain="plains"
 	culture="dobunnian"
 	religion="druidism"
@@ -479,7 +479,7 @@
 	}
 }
 
-2025={ #维耳卢克基翁
+2025={ #Verluccio
 	terrain="plains"
 	culture="dobunnian"
 	religion="druidism"
@@ -495,7 +495,7 @@
 	}
 }
 
-2026={ #杜罗科耳诺维翁
+2026={ #Durocornovium
 	terrain="plains"
 	culture="dobunnian"
 	religion="druidism"
@@ -514,7 +514,7 @@
 	}
 }
 
-2027={ #维鲁拉弥翁
+2027={ #Verulamium
 	terrain="plains"
 	culture="trinovantian"
 	religion="druidism"
@@ -533,7 +533,7 @@
 	}
 }
 
-2028={ #卡穆洛杜农
+2028={ #Camulodunum
 	terrain="forest"
 	culture="trinovantian"
 	religion="druidism"
@@ -555,7 +555,7 @@
 	}
 }
 
-2029={ #科姆布雷托维翁
+2029={ #Combretovium
 	terrain="plains"
 	culture="trinovantian"
 	religion="druidism"
@@ -574,7 +574,7 @@
 	}
 }
 
-2030={ #西诺马顾斯
+2030={ #Sinomagus
 	terrain="plains"
 	culture="trinovantian"
 	religion="druidism"
@@ -590,7 +590,7 @@
 	}
 }
 
-2031={ #布拉诺杜农
+2031={ #Branodunum
 	terrain="plains"
 	culture="iceni"
 	religion="druidism"
@@ -610,7 +610,7 @@
 	port_building=1
 }
 
-2032={ #爱西尼亚的文塔
+2032={ #Venta Icenorum
 	terrain="plains"
 	culture="iceni"
 	religion="druidism"
@@ -629,7 +629,7 @@
 	}
 }
 
-2033={ #伽里亚诺农
+2033={ #Garrianonum
 	terrain="plains"
 	culture="iceni"
 	religion="druidism"
@@ -645,7 +645,7 @@
 	}
 }
 
-2034={ #坎玻里同
+2034={ #Camboritum
 	terrain="marsh"
 	culture="iceni"
 	religion="druidism"
@@ -661,7 +661,7 @@
 	}
 }
 
-2035={ #布拉穆洛维翁
+2035={ #Bramulovium
 	terrain="marsh"
 	culture="iceni"
 	religion="druidism"
@@ -677,7 +677,7 @@
 	}
 }
 
-2036={ #阿斯帕利托戎
+2036={ #Aspallitorum
 	terrain="plains"
 	culture="trinovantian"
 	religion="druidism"
@@ -693,7 +693,7 @@
 	}
 }
 
-2037={ #得涅维亚
+2037={ #Denevia
 	terrain="marsh"
 	culture="iceni"
 	religion="druidism"
@@ -709,7 +709,7 @@
 	}
 }
 
-2038={ #诺维俄马顾斯
+2038={ #Noviomagus
 	terrain="farmland"
 	culture="cantian"
 	religion="druidism"
@@ -725,7 +725,7 @@
 	}
 }
 
-2039={ #科里尼翁
+2039={ #Corinium
 	terrain="plains"
 	culture="dobunnian"
 	religion="druidism"
@@ -741,7 +741,7 @@
 	}
 }
 
-2040={ #格勒翁
+2040={ #Glevum
 	terrain="forest"
 	culture="demetian"
 	religion="druidism"
@@ -761,7 +761,7 @@
 	port_building=1
 }
 
-2041={ #阿拉乌纳
+2041={ #Alavna
 	terrain="plains"
 	culture="dobunnian"
 	religion="druidism"
@@ -777,7 +777,7 @@
 	}
 }
 
-2042={ #温多弥斯
+2042={ #Vindomis
 	terrain="farmland"
 	culture="cantian"
 	religion="druidism"
@@ -793,7 +793,7 @@
 	}
 }
 
-2043={ #马吉俄维尼翁
+2043={ #Magiovinium
 	terrain="farmland"
 	culture="dobunnian"
 	religion="druidism"
@@ -809,7 +809,7 @@
 	}
 }
 
-2044={ #拉克托多戎
+2044={ #Lactodorum
 	terrain="forest"
 	culture="coritani"
 	religion="druidism"
@@ -825,7 +825,7 @@
 	}
 }
 
-2045={ #班纳文塔
+2045={ #Bannaventa
 	terrain="farmland"
 	culture="dobunnian"
 	religion="druidism"
@@ -841,7 +841,7 @@
 	}
 }
 
-2046={ #墨迪俄拉农
+2046={ #Mediolanum
 	terrain="plains"
 	culture="cornovian"
 	religion="druidism"
@@ -857,7 +857,7 @@
 	}
 }
 
-2047={ #得瓦
+2047={ #Deva
 	terrain="farmland"
 	culture="cornovian"
 	religion="druidism"
@@ -874,7 +874,7 @@
 	port_building=1
 }
 
-2048={ #阿劳纳
+2048={ #Alauna
 	terrain="farmland"
 	culture="dobunnian"
 	religion="druidism"
@@ -890,7 +890,7 @@
 	}
 }
 
-2049={ #维耳提斯
+2049={ #Vertis
 	terrain="plains"
 	culture="dobunnian"
 	religion="druidism"
@@ -909,7 +909,7 @@
 	}
 }
 
-2050={ #俄耳多维基亚的孔达忒
+2050={ #Condate Ordovicia
 	terrain="plains"
 	culture="dobunnian"
 	religion="druidism"
@@ -925,7 +925,7 @@
 	}
 }
 
-2051={ #杜罗利蓬忒
+2051={ #Duroliponte
 	terrain="plains"
 	culture="iceni"
 	religion="druidism"
@@ -941,7 +941,7 @@
 	}
 }
 
-2052={ #杜罗维顾同
+2052={ #Durovigutum
 	terrain="marsh"
 	culture="iceni"
 	religion="druidism"
@@ -957,7 +957,7 @@
 	}
 }
 
-2053={ #杜罗布里外
+2053={ #Durobrivae
 	terrain="marsh"
 	culture="coritani"
 	religion="druidism"
@@ -976,7 +976,7 @@
 	}
 }
 
-2054={ #拉泰
+2054={ #Ratae
 	terrain="plains"
 	culture="coritani"
 	religion="druidism"
@@ -992,7 +992,7 @@
 	}
 }
 
-2055={ #曼杜厄斯瑟杜姆
+2055={ #Manduessedum
 	terrain="plains"
 	culture="coritani"
 	religion="druidism"
@@ -1008,7 +1008,7 @@
 	}
 }
 
-2056={ #勒托刻同
+2056={ #Letocetum
 	terrain="plains"
 	culture="cornovian"
 	religion="druidism"
@@ -1024,7 +1024,7 @@
 	}
 }
 
-2057={ #班诺瓦隆
+2057={ #Bannovallum
 	terrain="plains"
 	culture="coritani"
 	religion="druidism"
@@ -1040,7 +1040,7 @@
 	}
 }
 
-2058={ #林冬
+2058={ #Lindum
 	terrain="plains"
 	culture="coritani"
 	religion="druidism"
@@ -1056,7 +1056,7 @@
 	}
 }
 
-2059={ #维罗科尼翁
+2059={ #Viroconium
 	terrain="plains"
 	culture="cornovian"
 	religion="druidism"
@@ -1072,7 +1072,7 @@
 	}
 }
 
-2060={ #萨维孔
+2060={ #Savicum
 	terrain="plains"
 	culture="cornovian"
 	religion="druidism"
@@ -1088,7 +1088,7 @@
 	}
 }
 
-2061={ #多耳恩
+2061={ #Dorn
 	terrain="farmland"
 	culture="dobunnian"
 	religion="druidism"
@@ -1104,7 +1104,7 @@
 	}
 }
 
-2062={ #维耳涅墨同
+2062={ #Vernemetum
 	terrain="forest"
 	culture="coritani"
 	religion="druidism"
@@ -1120,7 +1120,7 @@
 	}
 }
 
-2063={ #考森奈
+2063={ #Causennae
 	terrain="marsh"
 	culture="coritani"
 	religion="druidism"
@@ -1136,7 +1136,7 @@
 	}
 }
 
-2064={ #科耳诺维亚的萨利奈
+2064={ #Salinae Cornoviorum
 	terrain="farmland"
 	culture="cornovian"
 	religion="druidism"
@@ -1152,7 +1152,7 @@
 	}
 }
 
-2065={ #得耳本提俄
+2065={ #Derbentio
 	terrain="forest"
 	culture="coritani"
 	religion="druidism"
@@ -1168,7 +1168,7 @@
 	}
 }
 
-2066={ #阿耳涅墨提亚的阿库亚
+2066={ #Aquae Arnemetiae
 	terrain="forest"
 	culture="cornovian"
 	religion="druidism"
@@ -1184,7 +1184,7 @@
 	}
 }
 
-2067={ #达农
+2067={ #Danum
 	terrain="marsh"
 	culture="coritani"
 	religion="druidism"
@@ -1200,7 +1200,7 @@
 	}
 }
 
-2068={ #佩图阿里亚
+2068={ #Petuaria
 	terrain="plains"
 	culture="coritani"
 	religion="druidism"
@@ -1216,7 +1216,7 @@
 	}
 }
 
-2069={ #拉根提翁
+2069={ #Lagentium
 	terrain="marsh"
 	culture="coritani"
 	religion="druidism"
@@ -1232,7 +1232,7 @@
 	}
 }
 
-2070={ #马穆基翁
+2070={ #Mamucium
 	terrain="farmland"
 	culture="brigantic"
 	religion="druidism"
@@ -1248,7 +1248,7 @@
 	}
 }
 
-2071={ #科基翁
+2071={ #Coccium
 	terrain="plains"
 	culture="brigantic"
 	religion="druidism"
@@ -1264,7 +1264,7 @@
 	}
 }
 
-2072={ #布雷墨屯纳孔
+2072={ #Bremetennacum
 	terrain="hills"
 	culture="brigantic"
 	religion="druidism"
@@ -1280,7 +1280,7 @@
 	}
 }
 
-2073={ #瑟坦提俄戎港
+2073={ #Portus Setantiorum
 	terrain="forest"
 	culture="brigantic"
 	religion="druidism"
@@ -1297,7 +1297,7 @@
 	port_building=1
 }
 
-2074={ #维耳柏亚
+2074={ #Verbeia
 	terrain="hills"
 	culture="brigantic"
 	religion="druidism"
@@ -1313,7 +1313,7 @@
 	}
 }
 
-2075={ #厄玻拉孔
+2075={ #Eboracum
 	terrain="marsh"
 	culture="brigantic"
 	religion="druidism"
@@ -1330,7 +1330,7 @@
 	port_building=1
 }
 
-2076={ #得耳文提翁
+2076={ #Derventio
 	terrain="marsh"
 	culture="brigantic"
 	religion="druidism"
@@ -1347,7 +1347,7 @@
 	port_building=1
 }
 
-2077={ #伊苏里翁
+2077={ #Isurium
 	terrain="marsh"
 	culture="brigantic"
 	religion="druidism"
@@ -1366,7 +1366,7 @@
 	}
 }
 
-2078={ #卡塔拉克托尼翁
+2078={ #Cataractonium
 	terrain="forest"
 	culture="brigantic"
 	religion="druidism"
@@ -1382,7 +1382,7 @@
 	}
 }
 
-2079={ #迪克提翁
+2079={ #Dictium
 	terrain="plains"
 	culture="brigantic"
 	religion="druidism"
@@ -1401,7 +1401,7 @@
 	}
 }
 
-2080={ #卡卢尼翁
+2080={ #Calunium
 	terrain="hills"
 	culture="brigantic"
 	religion="druidism"
@@ -1417,7 +1417,7 @@
 	}
 }
 
-2081={ #加拉瓦
+2081={ #Galava
 	terrain="forest"
 	culture="brigantic"
 	religion="druidism"
@@ -1436,7 +1436,7 @@
 	}
 }
 
-2082={ #加布罗森同
+2082={ #Gabrosentum
 	terrain="forest"
 	culture="brigantic"
 	religion="druidism"
@@ -1452,7 +1452,7 @@
 	}
 }
 
-2083={ #卢顾瓦利翁
+2083={ #Luguvalium
 	terrain="forest"
 	culture="brigantic"
 	religion="druidism"
@@ -1469,7 +1469,7 @@
 	port_building=1
 }
 
-2084={ #布罗卡翁
+2084={ #Brocavum
 	terrain="hills"
 	culture="brigantic"
 	religion="druidism"
@@ -1488,7 +1488,7 @@
 	}
 }
 
-2085={ #维诺维亚
+2085={ #Vinovia
 	terrain="forest"
 	culture="brigantic"
 	religion="druidism"
@@ -1504,7 +1504,7 @@
 	}
 }
 
-2087={ #温多拉瓦
+2087={ #Vindolava
 	terrain="forest"
 	culture="brigantic"
 	religion="druidism"
@@ -1520,7 +1520,7 @@
 	}
 }
 
-2088={ #维罗西冬
+2088={ #Virosidum
 	terrain="hills"
 	culture="brigantic"
 	religion="druidism"
@@ -1539,7 +1539,7 @@
 	}
 }
 
-2092={ #部耳里翁
+2092={ #Burrium
 	terrain="forest"
 	culture="demetian"
 	religion="druidism"
@@ -1555,7 +1555,7 @@
 	}
 }
 
-2093={ #玻耳尼翁
+2093={ #Bornium
 	terrain="forest"
 	culture="demetian"
 	religion="druidism"
@@ -1571,7 +1571,7 @@
 	}
 }
 
-2094={ #尼冬
+2094={ #Nidum
 	terrain="forest"
 	culture="demetian"
 	religion="druidism"
@@ -1587,7 +1587,7 @@
 	}
 }
 
-2095={ #摩里杜农
+2095={ #Moridunum
 	terrain="forest"
 	culture="demetian"
 	religion="druidism"
@@ -1604,7 +1604,7 @@
 	port_building=1
 }
 
-2096={ #多劳科提
+2096={ #Dolaucothi
 	terrain="forest"
 	culture="demetian"
 	religion="druidism"
@@ -1620,7 +1620,7 @@
 	}
 }
 
-2097={ #基库基翁
+2097={ #Cicucium
 	terrain="hills"
 	culture="demetian"
 	religion="druidism"
@@ -1636,7 +1636,7 @@
 	}
 }
 
-2098={ #戈班尼翁
+2098={ #Gobannium
 	terrain="plains"
 	culture="demetian"
 	religion="druidism"
@@ -1652,7 +1652,7 @@
 	}
 }
 
-2099={ #俄克塔庇塔戎海角
+2099={ #Oktapitaron Akron
 	terrain="forest"
 	culture="demetian"
 	religion="druidism"
@@ -1668,7 +1668,7 @@
 	}
 }
 
-2100={ #马格尼斯
+2100={ #Magnis
 	terrain="forest"
 	culture="ordovitian"
 	religion="druidism"
@@ -1684,7 +1684,7 @@
 	}
 }
 
-2101={ #布拉沃尼翁
+2101={ #Bravonium
 	terrain="hills"
 	culture="ordovitian"
 	religion="druidism"
@@ -1700,7 +1700,7 @@
 	}
 }
 
-2102={ #勒沃布林塔
+2102={ #Levobrinta
 	terrain="hills"
 	culture="ordovitian"
 	religion="druidism"
@@ -1719,7 +1719,7 @@
 	}
 }
 
-2103={ #卡罗纳
+2103={ #Carona
 	terrain="forest"
 	culture="ordovitian"
 	religion="druidism"
@@ -1741,7 +1741,7 @@
 	}
 }
 
-2104={ #干伽农海角
+2104={ #Ganganon Akron
 	terrain="forest"
 	culture="ordovitian"
 	religion="druidism"
@@ -1757,7 +1757,7 @@
 	}
 }
 
-2105={ #瑟贡提翁
+2105={ #Seguntium
 	terrain="forest"
 	culture="ordovitian"
 	religion="druidism"
@@ -1774,7 +1774,7 @@
 	holy_site=omen_toutatis
 }
 
-2106={ #卡诺维翁
+2106={ #Canovium
 	terrain="plains"
 	culture="ordovitian"
 	religion="druidism"
@@ -1790,7 +1790,7 @@
 	}
 }
 
-2107={ #普莱尼翁
+2107={ #Plaenium
 	terrain="hills"
 	culture="ordovitian"
 	religion="druidism"
@@ -1806,7 +1806,7 @@
 	}
 }
 
-3057={ #赫苏隆
+3057={ #Hessulum
 	terrain="marsh"
 	culture="coritani"
 	religion="druidism"
@@ -1823,7 +1823,7 @@
 	port_building=1
 }
 
-3058={ #卡尔卡里亚
+3058={ #Calcaria
 	terrain="forest"
 	culture="brigantic"
 	religion="druidism"
@@ -1839,7 +1839,7 @@
 	}
 }
 
-3059={ #布拉沃尼亚孔
+3059={ #Bravoniacum
 	terrain="hills"
 	culture="brigantic"
 	religion="druidism"
@@ -1855,7 +1855,7 @@
 	}
 }
 
-3060={ #温多兰达
+3060={ #Vindolanda
 	terrain="hills"
 	culture="brigantic"
 	religion="druidism"
@@ -1871,7 +1871,7 @@
 	}
 }
 
-5432={ #拉瓦特赖
+5432={ #Lavatrae
 	terrain="mountain"
 	culture="brigantic"
 	religion="druidism"
@@ -1890,7 +1890,7 @@
 	}
 }
 
-5433={ #卢图达戎
+5433={ #Lutudarum
 	terrain="hills"
 	culture="coritani"
 	religion="druidism"
@@ -1906,7 +1906,7 @@
 	}
 }
 
-5434={ #里戈杜农
+5434={ #Rigodounon
 	terrain="mountain"
 	culture="brigantic"
 	religion="druidism"

@@ -1,4 +1,4 @@
-﻿1049={ #卢西塔尼亚的弥罗布里伽
+﻿1049={ #Mirobriga Lusitania
 	terrain="plains"
 	culture="lusitanian"
 	religion="druidism"
@@ -14,7 +14,7 @@
 	}
 }
 
-1158={ #科贝尔科戎
+1158={ #Cobelcorum
 	terrain="plains"
 	culture="lusitanian"
 	religion="druidism"
@@ -30,7 +30,7 @@
 	}
 }
 
-1159={ #波利贝敦瑟斯
+1159={ #Polibedenses
 	terrain="plains"
 	culture="lusitanian"
 	religion="druidism"
@@ -46,7 +46,7 @@
 	}
 }
 
-1160={ #森提刻
+1160={ #Sentice
 	terrain="plains"
 	culture="lusitanian"
 	religion="druidism"
@@ -62,7 +62,7 @@
 	}
 }
 
-1162={ #布勒特西马
+1162={ #Bletsima
 	terrain="plains"
 	culture="vettonian"
 	religion="druidism"
@@ -78,7 +78,7 @@
 	}
 }
 
-1198={ #科洛里孔
+1198={ #Coloricum
 	terrain="hills"
 	culture="lusitanian"
 	religion="druidism"
@@ -97,7 +97,7 @@
 	}
 }
 
-1290={ #阿拉沃戎
+1290={ #Aravorum
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -113,7 +113,7 @@
 	}
 }
 
-1291={ #兰戈布里加
+1291={ #Langobriga
 	terrain="forest"
 	culture="turdulian"
 	religion="druidism"
@@ -129,7 +129,7 @@
 	}
 }
 
-1292={ #维瑟里亚
+1292={ #Visseria
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -145,7 +145,7 @@
 	}
 }
 
-1293={ #埃弥尼翁
+1293={ #Aeminium
 	terrain="plains"
 	culture="turdulian"
 	religion="druidism"
@@ -162,7 +162,7 @@
 	port_building=1
 }
 
-1294={ #科宁布里加
+1294={ #Conimbriga
 	terrain="plains"
 	culture="turdulian"
 	religion="druidism"
@@ -184,7 +184,7 @@
 	}
 }
 
-1295={ #阿雷俄刻隆
+1295={ #Areocelum
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -200,7 +200,7 @@
 	}
 }
 
-1296={ #厄尔玻科尼斯
+1296={ #Elboconis
 	terrain="hills"
 	culture="lusitanian"
 	religion="druidism"
@@ -216,7 +216,7 @@
 	}
 }
 
-1297={ #科利波
+1297={ #Collippo
 	terrain="plains"
 	culture="turdulian"
 	religion="druidism"
@@ -232,7 +232,7 @@
 	}
 }
 
-1298={ #瑟利翁
+1298={ #Sellium
 	terrain="hills"
 	culture="lusitanian"
 	religion="druidism"
@@ -248,7 +248,7 @@
 	}
 }
 
-1299={ #肯同·刻拉斯
+1299={ #Centum Cellas
 	terrain="hills"
 	culture="lusitanian"
 	religion="druidism"
@@ -264,7 +264,7 @@
 	}
 }
 
-1300={ #维尼恩西斯村
+1300={ #Vicus Veniensis
 	terrain="hills"
 	culture="lusitanian"
 	religion="druidism"
@@ -280,7 +280,7 @@
 	}
 }
 
-1301={ #伊盖迪塔尼亚
+1301={ #Igaeditania
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -296,7 +296,7 @@
 	}
 }
 
-1302={ #俄刻隆
+1302={ #Ocelum
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -312,7 +312,7 @@
 	}
 }
 
-1303={ #赫耳弥尼翁
+1303={ #Herminium
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -328,7 +328,7 @@
 	}
 }
 
-1304={ #恺洛尼科
+1304={ #Caellonico
 	terrain="hills"
 	culture="lusitanian"
 	religion="druidism"
@@ -344,7 +344,7 @@
 	}
 }
 
-1305={ #卡佩拉
+1305={ #Capera
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -360,7 +360,7 @@
 	}
 }
 
-1306={ #拉马
+1306={ #Lama
 	terrain="plains"
 	culture="lusitanian"
 	religion="druidism"
@@ -376,7 +376,7 @@
 	}
 }
 
-1307={ #考里翁
+1307={ #Caurium
 	terrain="plains"
 	culture="lusitanian"
 	religion="druidism"
@@ -392,7 +392,7 @@
 	}
 }
 
-1308={ #阿里提翁
+1308={ #Aritium
 	terrain="hills"
 	culture="lusitanian"
 	religion="druidism"
@@ -408,7 +408,7 @@
 	}
 }
 
-1309={ #卡耳纳洛肯西斯村
+1309={ #Vicus Carnalocensis
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -424,7 +424,7 @@
 	}
 }
 
-1310={ #安迈亚
+1310={ #Ammaia
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -440,7 +440,7 @@
 	}
 }
 
-1311={ #同戈里贡
+1311={ #Tongorigum
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -456,7 +456,7 @@
 	}
 }
 
-1312={ #刻基利亚兵营
+1312={ #Castra Cecilia
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -472,7 +472,7 @@
 	}
 }
 
-1313={ #图部基
+1313={ #Tubucci
 	terrain="plains"
 	culture="lusitanian"
 	religion="druidism"
@@ -488,7 +488,7 @@
 	}
 }
 
-1314={ #斯卡拉比斯
+1314={ #Scallabis
 	terrain="plains"
 	culture="lusitanian"
 	religion="druidism"
@@ -507,7 +507,7 @@
 	}
 }
 
-1315={ #阿里提翁总督府
+1315={ #Aritium Praetorium
 	terrain="plains"
 	culture="lusitanian"
 	religion="druidism"
@@ -523,7 +523,7 @@
 	}
 }
 
-1316={ #厄部罗布里基俄
+1316={ #Eburobricio
 	terrain="plains"
 	culture="turdulian"
 	religion="druidism"
@@ -539,7 +539,7 @@
 	}
 }
 
-1317={ #阿拉布里加
+1317={ #Arabriga
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -555,7 +555,7 @@
 	}
 }
 
-1318={ #巴巴里翁
+1318={ #Barbarion
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -572,7 +572,7 @@
 	port_building=1
 }
 
-1319={ #俄利西波
+1319={ #Olisipo
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -592,7 +592,7 @@
 	port_building=1
 }
 
-1320={ #马拉忒卡
+1320={ #Malateca
 	terrain="forest"
 	culture="celtician"
 	religion="druidism"
@@ -608,7 +608,7 @@
 	}
 }
 
-1321={ #恺托布里加
+1321={ #Caetobriga
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -624,7 +624,7 @@
 	}
 }
 
-1322={ #萨拉基亚
+1322={ #Salacia
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -643,7 +643,7 @@
 	}
 }
 
-1323={ #厄玻拉
+1323={ #Ebora
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -665,7 +665,7 @@
 	}
 }
 
-1324={ #科乌涅亚的弥罗布里伽
+1324={ #Mirobriga Couneia
 	terrain="plains"
 	culture="couneian"
 	religion="animism"
@@ -681,7 +681,7 @@
 	}
 }
 
-1325={ #尤利乌斯的帕克斯
+1325={ #Pax Iulia
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -700,7 +700,7 @@
 	}
 }
 
-1326={ #墨塔隆 维佩斯肯瑟
+1326={ #Metallum Vipescense
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -716,7 +716,7 @@
 	}
 }
 
-1327={ #卡兰塔
+1327={ #Calanta
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -732,7 +732,7 @@
 	}
 }
 
-1328={ #瑟腓亚纳
+1328={ #Sefiana
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -748,7 +748,7 @@
 	}
 }
 
-1329={ #塔波里亚
+1329={ #Taporia
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -764,7 +764,7 @@
 	}
 }
 
-1330={ #帕图卢斯港
+1330={ #Patulus Portus
 	terrain="plains"
 	culture="couneian"
 	religion="animism"
@@ -781,7 +781,7 @@
 	port_building=1
 }
 
-1331={ #阿览迪斯
+1331={ #Arandis
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -797,7 +797,7 @@
 	}
 }
 
-1332={ #密耳提利斯
+1332={ #Myrtilis
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -820,7 +820,7 @@
 	holy_site=omen_ataecina
 }
 
-1333={ #拉科布里加
+1333={ #Lacobriga
 	terrain="hills"
 	culture="couneian"
 	religion="animism"
@@ -836,7 +836,7 @@
 	}
 }
 
-1334={ #俄索诺巴
+1334={ #Ossonoba
 	terrain="plains"
 	culture="couneian"
 	religion="animism"
@@ -859,7 +859,7 @@
 	port_building=1
 }
 
-1335={ #巴尔萨
+1335={ #Baesuri
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -881,7 +881,7 @@
 	}
 }
 
-1336={ #弥罗比根西亚
+1336={ #Mirobigensia
 	terrain="plains"
 	culture="couneian"
 	religion="animism"
@@ -897,7 +897,7 @@
 	}
 }
 
-1337={ #库涅亚
+1337={ #Couneia
 	terrain="plains"
 	culture="couneian"
 	religion="animism"
@@ -913,7 +913,7 @@
 	}
 }
 
-1338={ #塔耳忒西亚
+1338={ #Tartessia
 	terrain="farmland"
 	culture="turdetanian"
 	religion="animism"
@@ -929,7 +929,7 @@
 	}
 }
 
-1400={ #奥古斯塔 厄墨里塔
+1400={ #Augusta Emerita
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -951,7 +951,7 @@
 	}
 }
 
-1413={ #塞尔彭同
+1413={ #Serpentum
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -967,7 +967,7 @@
 	}
 }
 
-1422={ #穆拉同
+1422={ #Ad Muratum
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -983,7 +983,7 @@
 	}
 }
 
-1423={ #厄万德里亚纳
+1423={ #Evandriana
 	terrain="forest"
 	culture="celtician"
 	religion="druidism"
@@ -999,7 +999,7 @@
 	}
 }
 
-1425={ #阿特戎河畔
+1425={ #Ad Atrum Flumen
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -1018,7 +1018,7 @@
 	}
 }
 
-1426={ #部杜阿
+1426={ #Budua
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -1034,7 +1034,7 @@
 	}
 }
 
-1427={ #马特苏阿戎
+1427={ #Matsuarum
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -1053,7 +1053,7 @@
 	}
 }
 
-1428={ #上凯尔特卡
+1428={ #Celtica Superioris
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -1069,7 +1069,7 @@
 	}
 }
 
-1430={ #伊比利亚的腓涅斯
+1430={ #Ad Fines Hiberiae
 	terrain="forest"
 	culture="lusitanian"
 	religion="druidism"
@@ -1088,7 +1088,7 @@
 	}
 }
 
-1431={ #索罗雷斯
+1431={ #Ad Sorores
 	terrain="forest"
 	culture="celtician"
 	religion="druidism"
@@ -1104,7 +1104,7 @@
 	}
 }
 
-1432={ #诺耳巴
+1432={ #Norba
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"
@@ -1123,7 +1123,7 @@
 	}
 }
 
-1433={ #图耳摩贡
+1433={ #Tourmogon
 	terrain="plains"
 	culture="lusitanian"
 	religion="druidism"
@@ -1139,7 +1139,7 @@
 	}
 }
 
-1435={ #拉基佩亚
+1435={ #Lacipea
 	terrain="plains"
 	culture="celtician"
 	religion="druidism"

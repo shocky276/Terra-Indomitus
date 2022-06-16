@@ -1,4 +1,4 @@
-﻿2500={ #第勒尼安海
+﻿2500={ #Mare Tyrrenum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-2501={ #西西里海峡
+2501={ #Fretum Siculum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-2502={ #派斯同湾
+2502={ #Sinus Paestanus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-2503={ #第勒尼安海
+2503={ #Mare Tyrrhenum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-2504={ #第勒尼安海
+2504={ #Mare Tyrrhenum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-2505={ #第勒尼安海
+2505={ #Mare Tyrrhenum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-2506={ #第勒尼安海
+2506={ #Mare Tyrrhenum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-2507={ #威尼提库斯湾
+2507={ #Sinus Veneticus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-2508={ #亚得里亚海
+2508={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -88,7 +88,7 @@
 	province_rank=""
 }
 
-2509={ #亚得里亚海
+2509={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -98,7 +98,7 @@
 	province_rank=""
 }
 
-2510={ #爱奥尼亚海
+2510={ #Mare Ionium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -108,7 +108,7 @@
 	province_rank=""
 }
 
-2511={ #爱奥尼亚海
+2511={ #Mare Ionium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -118,7 +118,7 @@
 	province_rank=""
 }
 
-2512={ #利柏耳努斯湾
+2512={ #Sinus Liburnus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -128,7 +128,7 @@
 	province_rank=""
 }
 
-2513={ #爱奥尼亚海
+2513={ #Mare Ionium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -138,7 +138,7 @@
 	province_rank=""
 }
 
-2514={ #爱奥尼亚海
+2514={ #Mare Ionium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -148,7 +148,7 @@
 	province_rank=""
 }
 
-2515={ #威尼提库斯湾
+2515={ #Sinus Veneticus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -158,7 +158,7 @@
 	province_rank=""
 }
 
-2516={ #马耳他海峡
+2516={ #Fretum Melitense
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -168,7 +168,7 @@
 	province_rank=""
 }
 
-2517={ #西西里海峡
+2517={ #Fretum Siculum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -178,7 +178,7 @@
 	province_rank=""
 }
 
-2518={ #爱奥尼亚海
+2518={ #Mare Ionium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -188,7 +188,7 @@
 	province_rank=""
 }
 
-2519={ #马耳他海峡
+2519={ #Fretum Melitense
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -198,7 +198,7 @@
 	province_rank=""
 }
 
-2520={ #西西里海峡
+2520={ #Fretum Siculum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -208,7 +208,7 @@
 	province_rank=""
 }
 
-2521={ #第勒尼安海
+2521={ #Mare Tyrrhenum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -218,7 +218,7 @@
 	province_rank=""
 }
 
-2522={ #塔林敦湾
+2522={ #Sinus Tarentinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -228,7 +228,7 @@
 	province_rank=""
 }
 
-2523={ #伊比利亚海
+2523={ #Mare Hibericum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -238,7 +238,7 @@
 	province_rank=""
 }
 
-2524={ #巴利阿里海
+2524={ #Mare Balearium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -248,7 +248,7 @@
 	province_rank=""
 }
 
-2525={ #伊比利亚海
+2525={ #Mare Hibericum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -258,7 +258,7 @@
 	province_rank=""
 }
 
-2527={ #亚得里亚海
+2527={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -268,7 +268,7 @@
 	province_rank=""
 }
 
-2528={ #亚得里亚海
+2528={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -278,7 +278,7 @@
 	province_rank=""
 }
 
-2529={ #亚得里亚海
+2529={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -288,7 +288,7 @@
 	province_rank=""
 }
 
-2530={ #西蓬同湾
+2530={ #Sinus Sipontinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -298,7 +298,7 @@
 	province_rank=""
 }
 
-2531={ #亚得里亚海
+2531={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -308,7 +308,7 @@
 	province_rank=""
 }
 
-2532={ #亚得里亚海
+2532={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -318,7 +318,7 @@
 	province_rank=""
 }
 
-2533={ #许德伦提斯海峡
+2533={ #Fretum Hydruntis
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -328,7 +328,7 @@
 	province_rank=""
 }
 
-2534={ #亚得里亚海
+2534={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -338,7 +338,7 @@
 	province_rank=""
 }
 
-2535={ #亚得里亚海
+2535={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -348,7 +348,7 @@
 	province_rank=""
 }
 
-2536={ #亚得里亚海
+2536={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -358,7 +358,7 @@
 	province_rank=""
 }
 
-2537={ #亚得里亚海
+2537={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -368,7 +368,7 @@
 	province_rank=""
 }
 
-2538={ #亚得里亚海
+2538={ #Mare Superum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -378,7 +378,7 @@
 	province_rank=""
 }
 
-2539={ #亚得里亚海
+2539={ #Mare Superum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -388,7 +388,7 @@
 	province_rank=""
 }
 
-2540={ #亚得里亚海
+2540={ #Mare Superum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -398,7 +398,7 @@
 	province_rank=""
 }
 
-2541={ #亚得里亚海
+2541={ #Mare Superum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -408,7 +408,7 @@
 	province_rank=""
 }
 
-2542={ #亚得里亚海
+2542={ #Mare Superum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -418,7 +418,7 @@
 	province_rank=""
 }
 
-2544={ #亚得里亚海
+2544={ #Mare Superum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -428,7 +428,7 @@
 	province_rank=""
 }
 
-2545={ #亚得里亚海
+2545={ #Mare Superum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -438,7 +438,7 @@
 	province_rank=""
 }
 
-2546={ #第勒尼安海
+2546={ #Mare Tyrrhenum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -448,7 +448,7 @@
 	province_rank=""
 }
 
-2547={ #利古里亚海
+2547={ #Mare Ligusticum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -458,7 +458,7 @@
 	province_rank=""
 }
 
-2548={ #革努阿湾
+2548={ #Sinus Genuensis
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -468,7 +468,7 @@
 	province_rank=""
 }
 
-2549={ #利古里亚海
+2549={ #Mare Ligusticum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -478,7 +478,7 @@
 	province_rank=""
 }
 
-2550={ #撒耳多姆海
+2550={ #Mare Sardoum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -488,7 +488,7 @@
 	province_rank=""
 }
 
-2551={ #高卢湾
+2551={ #Sinus Gallicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -498,7 +498,7 @@
 	province_rank=""
 }
 
-2552={ #高卢湾
+2552={ #Sinus Gallicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -508,7 +508,7 @@
 	province_rank=""
 }
 
-2553={ #地中海
+2553={ #Mare Internum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -518,7 +518,7 @@
 	province_rank=""
 }
 
-2554={ #伊比利亚海
+2554={ #Mare Hibericum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -528,7 +528,7 @@
 	province_rank=""
 }
 
-2555={ #伊比利亚海
+2555={ #Mare Hibericum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -538,7 +538,7 @@
 	province_rank=""
 }
 
-2556={ #伊比利亚海
+2556={ #Mare Hibericum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -548,7 +548,7 @@
 	province_rank=""
 }
 
-2557={ #伊比利亚海
+2557={ #Mare Hibericum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -558,7 +558,7 @@
 	province_rank=""
 }
 
-2558={ #伊比利亚海
+2558={ #Mare Hibericum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -568,7 +568,7 @@
 	province_rank=""
 }
 
-2559={ #伊比利亚海
+2559={ #Mare Hibericum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -578,7 +578,7 @@
 	province_rank=""
 }
 
-2560={ #伊比利亚海
+2560={ #Mare Hibericum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -588,7 +588,7 @@
 	province_rank=""
 }
 
-2561={ #伊比利亚海
+2561={ #Mare Hibericum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -598,7 +598,7 @@
 	province_rank=""
 }
 
-2562={ #地中海
+2562={ #Mare Internum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -608,7 +608,7 @@
 	province_rank=""
 }
 
-2563={ #希波尼翁湾
+2563={ #Sinus Hipponensis
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -618,7 +618,7 @@
 	province_rank=""
 }
 
-2564={ #乌提卡湾
+2564={ #Sinus Uticensis
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -628,7 +628,7 @@
 	province_rank=""
 }
 
-2565={ #西西里海峡
+2565={ #Fretum Siculum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -638,7 +638,7 @@
 	province_rank=""
 }
 
-2566={ #涅亚波利斯湾
+2566={ #Sinus Neapolitanus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -648,7 +648,7 @@
 	province_rank=""
 }
 
-2567={ #利比亚海
+2567={ #Mare Libycum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -658,7 +658,7 @@
 	province_rank=""
 }
 
-2568={ #小叙耳提斯
+2568={ #Syrtis Minor
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -668,7 +668,7 @@
 	province_rank=""
 }
 
-2569={ #利比亚海
+2569={ #Mare Libycum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -678,7 +678,7 @@
 	province_rank=""
 }
 
-2570={ #利比亚海
+2570={ #Mare Libycum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -688,7 +688,7 @@
 	province_rank=""
 }
 
-2571={ #大叙耳提斯
+2571={ #Syrtis Maior
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -698,7 +698,7 @@
 	province_rank=""
 }
 
-2572={ #大叙耳提斯
+2572={ #Syrtis Maior
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -708,7 +708,7 @@
 	province_rank=""
 }
 
-2573={ #大叙耳提斯
+2573={ #Syrtis Maior
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -718,7 +718,7 @@
 	province_rank=""
 }
 
-2574={ #埃及海
+2574={ #Mare Aegyptium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -728,7 +728,7 @@
 	province_rank=""
 }
 
-2575={ #埃及海
+2575={ #Mare Aegyptium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -738,7 +738,7 @@
 	province_rank=""
 }
 
-2576={ #埃及海
+2576={ #Mare Aegyptium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -748,7 +748,7 @@
 	province_rank=""
 }
 
-2577={ #埃及海
+2577={ #Mare Aegyptium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -758,7 +758,7 @@
 	province_rank=""
 }
 
-2578={ #尼罗河三角洲
+2578={ #Delta Nili
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -768,7 +768,7 @@
 	province_rank=""
 }
 
-2579={ #尼罗河三角洲
+2579={ #Delta Nili
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -778,7 +778,7 @@
 	province_rank=""
 }
 
-2580={ #腓尼基海
+2580={ #Mare Phoenicium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -788,7 +788,7 @@
 	province_rank=""
 }
 
-2581={ #腓尼基海
+2581={ #Mare Phoenicium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -798,7 +798,7 @@
 	province_rank=""
 }
 
-2582={ #腓尼基海
+2582={ #Mare Phoenicium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -808,7 +808,7 @@
 	province_rank=""
 }
 
-2583={ #腓尼基海
+2583={ #Mare Phoenicium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -818,7 +818,7 @@
 	province_rank=""
 }
 
-2584={ #腓尼基海
+2584={ #Mare Phoenicium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -828,7 +828,7 @@
 	province_rank=""
 }
 
-2585={ #奇里乞亚海
+2585={ #Mare Cilicium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -838,7 +838,7 @@
 	province_rank=""
 }
 
-2586={ #奇里乞亚海
+2586={ #Mare Cilicium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -848,7 +848,7 @@
 	province_rank=""
 }
 
-2587={ #吕基亚海
+2587={ #Mare Lycium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -858,7 +858,7 @@
 	province_rank=""
 }
 
-2588={ #吕基亚海
+2588={ #Mare Lycium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -868,7 +868,7 @@
 	province_rank=""
 }
 
-2589={ #吕基亚海
+2589={ #Mare Lycium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -878,7 +878,7 @@
 	province_rank=""
 }
 
-2590={ #伊卡里亚海
+2590={ #Mare Icarium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -888,7 +888,7 @@
 	province_rank=""
 }
 
-2591={ #吕基亚海
+2591={ #Mare Lycium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -898,7 +898,7 @@
 	province_rank=""
 }
 
-2592={ #卡帕提亚海
+2592={ #Mare Carpathium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -908,7 +908,7 @@
 	province_rank=""
 }
 
-2593={ #伊卡里亚海
+2593={ #Mare Icarium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -918,7 +918,7 @@
 	province_rank=""
 }
 
-2594={ #伊卡里亚海
+2594={ #Mare Icarium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -928,7 +928,7 @@
 	province_rank=""
 }
 
-2595={ #伊卡里亚海
+2595={ #Mare Icarium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -938,7 +938,7 @@
 	province_rank=""
 }
 
-2596={ #埃及海
+2596={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -948,7 +948,7 @@
 	province_rank=""
 }
 
-2597={ #埃及海
+2597={ #Mare Aegyptium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -958,7 +958,7 @@
 	province_rank=""
 }
 
-2598={ #克里特海
+2598={ #Mare Creticum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -968,7 +968,7 @@
 	province_rank=""
 }
 
-2599={ #克里特海
+2599={ #Mare Creticum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -978,7 +978,7 @@
 	province_rank=""
 }
 
-2600={ #埃及海
+2600={ #Mare Aegyptium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -988,7 +988,7 @@
 	province_rank=""
 }
 
-2601={ #埃及海
+2601={ #Mare Aegyptium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -998,7 +998,7 @@
 	province_rank=""
 }
 
-2602={ #克里特海
+2602={ #Mare Creticum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1008,7 +1008,7 @@
 	province_rank=""
 }
 
-2603={ #阿戈利库斯湾
+2603={ #Sinus Argolicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1018,7 +1018,7 @@
 	province_rank=""
 }
 
-2604={ #萨隆尼库斯湾
+2604={ #Sinus Saronicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1028,7 +1028,7 @@
 	province_rank=""
 }
 
-2605={ #卡律斯图海峡
+2605={ #Fretum Carysteum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1038,7 +1038,7 @@
 	province_rank=""
 }
 
-2606={ #克里特海
+2606={ #Mare Creticum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1048,7 +1048,7 @@
 	province_rank=""
 }
 
-2607={ #米尔托翁海
+2607={ #Mare Myrtoum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1058,7 +1058,7 @@
 	province_rank=""
 }
 
-2608={ #爱琴海
+2608={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1068,7 +1068,7 @@
 	province_rank=""
 }
 
-2609={ #爱琴海
+2609={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1078,7 +1078,7 @@
 	province_rank=""
 }
 
-2610={ #爱奥尼亚海
+2610={ #Mare Ionium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1088,7 +1088,7 @@
 	province_rank=""
 }
 
-2611={ #爱奥尼亚海
+2611={ #Mare Ionium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1098,7 +1098,7 @@
 	province_rank=""
 }
 
-2612={ #伊俄尼翁海
+2612={ #Mare Ionium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1108,7 +1108,7 @@
 	province_rank=""
 }
 
-2613={ #爱奥尼亚海
+2613={ #Mare Ionium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1118,7 +1118,7 @@
 	province_rank=""
 }
 
-2614={ #阿耳忒弥西翁海峡
+2614={ #Fretum Artemisium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1128,7 +1128,7 @@
 	province_rank=""
 }
 
-2615={ #塞尔迈湾
+2615={ #Sinus Thermaeus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1138,7 +1138,7 @@
 	province_rank=""
 }
 
-2616={ #色雷斯海
+2616={ #Mare Thracum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1148,7 +1148,7 @@
 	province_rank=""
 }
 
-2617={ #爱琴海
+2617={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1158,7 +1158,7 @@
 	province_rank=""
 }
 
-2619={ #爱琴海
+2619={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1168,7 +1168,7 @@
 	province_rank=""
 }
 
-2620={ #爱琴海
+2620={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1178,7 +1178,7 @@
 	province_rank=""
 }
 
-2621={ #爱琴海
+2621={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1188,7 +1188,7 @@
 	province_rank=""
 }
 
-2622={ #爱琴海
+2622={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1198,7 +1198,7 @@
 	province_rank=""
 }
 
-2624={ #西西里海峡
+2624={ #Fretum Siculum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1208,7 +1208,7 @@
 	province_rank=""
 }
 
-2625={ #西西里海峡
+2625={ #Fretum Siculum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1218,7 +1218,7 @@
 	province_rank=""
 }
 
-2626={ #利比亚海
+2626={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1228,7 +1228,7 @@
 	province_rank=""
 }
 
-2627={ #利比亚海
+2627={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1238,7 +1238,7 @@
 	province_rank=""
 }
 
-2628={ #利比亚海
+2628={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1248,7 +1248,7 @@
 	province_rank=""
 }
 
-2629={ #利比亚海
+2629={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1258,7 +1258,7 @@
 	province_rank=""
 }
 
-2630={ #马耳他海峡
+2630={ #Fretum Melitense
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1268,7 +1268,7 @@
 	province_rank=""
 }
 
-2631={ #利比亚海
+2631={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1278,7 +1278,7 @@
 	province_rank=""
 }
 
-2632={ #利比亚海
+2632={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1288,7 +1288,7 @@
 	province_rank=""
 }
 
-2633={ #利比亚海
+2633={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1298,7 +1298,7 @@
 	province_rank=""
 }
 
-2634={ #利比亚海
+2634={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1308,7 +1308,7 @@
 	province_rank=""
 }
 
-2635={ #利比亚海
+2635={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1318,7 +1318,7 @@
 	province_rank=""
 }
 
-2636={ #利比亚海
+2636={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1328,7 +1328,7 @@
 	province_rank=""
 }
 
-2637={ #利比亚海
+2637={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1338,7 +1338,7 @@
 	province_rank=""
 }
 
-2638={ #爱奥尼亚海
+2638={ #Mare Ionium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1348,7 +1348,7 @@
 	province_rank=""
 }
 
-2639={ #爱奥尼亚海
+2639={ #Mare Ionium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1358,7 +1358,7 @@
 	province_rank=""
 }
 
-2640={ #利比亚海
+2640={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1368,7 +1368,7 @@
 	province_rank=""
 }
 
-2641={ #利比亚海
+2641={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1378,7 +1378,7 @@
 	province_rank=""
 }
 
-2642={ #利比亚海
+2642={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1388,7 +1388,7 @@
 	province_rank=""
 }
 
-2643={ #大叙耳提斯
+2643={ #Syrtis Maior
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1398,7 +1398,7 @@
 	province_rank=""
 }
 
-2644={ #大叙耳提斯
+2644={ #Syrtis Maior
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1408,7 +1408,7 @@
 	province_rank=""
 }
 
-2645={ #利比亚海
+2645={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1418,7 +1418,7 @@
 	province_rank=""
 }
 
-2646={ #利比亚海
+2646={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1428,7 +1428,7 @@
 	province_rank=""
 }
 
-2647={ #爱奥尼亚海
+2647={ #Mare Ionium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1438,7 +1438,7 @@
 	province_rank=""
 }
 
-2648={ #爱奥尼亚海
+2648={ #Mare Ionium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1448,7 +1448,7 @@
 	province_rank=""
 }
 
-2649={ #爱奥尼亚海
+2649={ #Mare Ionium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1458,7 +1458,7 @@
 	province_rank=""
 }
 
-2650={ #爱奥尼亚海
+2650={ #Mare Ionium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1468,7 +1468,7 @@
 	province_rank=""
 }
 
-2651={ #爱奥尼亚海
+2651={ #Mare Ionium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1478,7 +1478,7 @@
 	province_rank=""
 }
 
-2652={ #爱奥尼亚海
+2652={ #Mare Ionium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1488,7 +1488,7 @@
 	province_rank=""
 }
 
-2653={ #利比亚海
+2653={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1498,7 +1498,7 @@
 	province_rank=""
 }
 
-2654={ #利比亚海
+2654={ #Mare Libycum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1508,7 +1508,7 @@
 	province_rank=""
 }
 
-2655={ #爱奥尼亚海
+2655={ #Mare Ionium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1518,7 +1518,7 @@
 	province_rank=""
 }
 
-2656={ #埃及海
+2656={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1528,7 +1528,7 @@
 	province_rank=""
 }
 
-2657={ #爱奥尼亚海
+2657={ #Mare Ionium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1538,7 +1538,7 @@
 	province_rank=""
 }
 
-2658={ #埃及海
+2658={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1548,7 +1548,7 @@
 	province_rank=""
 }
 
-2659={ #埃及海
+2659={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1558,7 +1558,7 @@
 	province_rank=""
 }
 
-2660={ #埃及海
+2660={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1568,7 +1568,7 @@
 	province_rank=""
 }
 
-2661={ #埃及海
+2661={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1578,7 +1578,7 @@
 	province_rank=""
 }
 
-2662={ #埃及海
+2662={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1588,7 +1588,7 @@
 	province_rank=""
 }
 
-2663={ #埃及海
+2663={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1598,7 +1598,7 @@
 	province_rank=""
 }
 
-2664={ #埃及海
+2664={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1608,7 +1608,7 @@
 	province_rank=""
 }
 
-2665={ #埃及海
+2665={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1618,7 +1618,7 @@
 	province_rank=""
 }
 
-2666={ #埃及海
+2666={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1628,7 +1628,7 @@
 	province_rank=""
 }
 
-2667={ #埃及海
+2667={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1638,7 +1638,7 @@
 	province_rank=""
 }
 
-2668={ #埃及海
+2668={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1648,7 +1648,7 @@
 	province_rank=""
 }
 
-2669={ #腓尼基海
+2669={ #Mare Phoenicium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1658,7 +1658,7 @@
 	province_rank=""
 }
 
-2670={ #埃及海
+2670={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1668,7 +1668,7 @@
 	province_rank=""
 }
 
-2671={ #腓尼基海
+2671={ #Mare Phoenicium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1678,7 +1678,7 @@
 	province_rank=""
 }
 
-2672={ #腓尼基海
+2672={ #Mare Phoenicium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1688,7 +1688,7 @@
 	province_rank=""
 }
 
-2673={ #埃及海
+2673={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1698,7 +1698,7 @@
 	province_rank=""
 }
 
-2674={ #地中海
+2674={ #Mare Internum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1708,7 +1708,7 @@
 	province_rank=""
 }
 
-2675={ #埃及海
+2675={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1718,7 +1718,7 @@
 	province_rank=""
 }
 
-2676={ #埃及海
+2676={ #Mare Aegyptium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1728,7 +1728,7 @@
 	province_rank=""
 }
 
-2677={ #腓尼基海
+2677={ #Mare Phoenicium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1738,7 +1738,7 @@
 	province_rank=""
 }
 
-2678={ #吕基亚海
+2678={ #Mare Lycium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1748,7 +1748,7 @@
 	province_rank=""
 }
 
-2679={ #腓尼基海
+2679={ #Mare Phoenicium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1758,7 +1758,7 @@
 	province_rank=""
 }
 
-2680={ #奇里乞亚海
+2680={ #Mare Cilicium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1768,7 +1768,7 @@
 	province_rank=""
 }
 
-2681={ #第勒尼安海
+2681={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1778,7 +1778,7 @@
 	province_rank=""
 }
 
-2682={ #第勒尼安海
+2682={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1788,7 +1788,7 @@
 	province_rank=""
 }
 
-2683={ #第勒尼安海
+2683={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1798,7 +1798,7 @@
 	province_rank=""
 }
 
-2684={ #第勒尼安海
+2684={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1808,7 +1808,7 @@
 	province_rank=""
 }
 
-2685={ #第勒尼安海
+2685={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1818,7 +1818,7 @@
 	province_rank=""
 }
 
-2686={ #第勒尼安海
+2686={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1828,7 +1828,7 @@
 	province_rank=""
 }
 
-2687={ #第勒尼安海
+2687={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1838,7 +1838,7 @@
 	province_rank=""
 }
 
-2688={ #撒耳多姆海
+2688={ #Mare Sardoum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1848,7 +1848,7 @@
 	province_rank=""
 }
 
-2689={ #第勒尼安海
+2689={ #Mare Tyrrhenum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1858,7 +1858,7 @@
 	province_rank=""
 }
 
-2690={ #撒耳多姆海
+2690={ #Mare Sardoum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1868,7 +1868,7 @@
 	province_rank=""
 }
 
-2691={ #第勒尼安海
+2691={ #Mare Tyrrhenum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1878,7 +1878,7 @@
 	province_rank=""
 }
 
-2692={ #撒耳多姆海
+2692={ #Mare Sardoum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1888,7 +1888,7 @@
 	province_rank=""
 }
 
-2693={ #第勒尼安海
+2693={ #Mare Tyrrhenum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1898,7 +1898,7 @@
 	province_rank=""
 }
 
-2694={ #利古里亚海
+2694={ #Mare Ligusticum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -1908,7 +1908,7 @@
 	province_rank=""
 }
 
-2695={ #利古里亚海
+2695={ #Mare Ligusticum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1918,7 +1918,7 @@
 	province_rank=""
 }
 
-2696={ #利古里亚海
+2696={ #Mare Ligusticum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1928,7 +1928,7 @@
 	province_rank=""
 }
 
-2697={ #第勒尼安海
+2697={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1938,7 +1938,7 @@
 	province_rank=""
 }
 
-2698={ #第勒尼安海
+2698={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1948,7 +1948,7 @@
 	province_rank=""
 }
 
-2699={ #第勒尼安海
+2699={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1958,7 +1958,7 @@
 	province_rank=""
 }
 
-2700={ #第勒尼安海
+2700={ #Mare Tyrrhenum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1968,7 +1968,7 @@
 	province_rank=""
 }
 
-2701={ #地中海
+2701={ #Mare Internum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1978,7 +1978,7 @@
 	province_rank=""
 }
 
-2702={ #地中海
+2702={ #Mare Internum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1988,7 +1988,7 @@
 	province_rank=""
 }
 
-2703={ #撒耳多姆海
+2703={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -1998,7 +1998,7 @@
 	province_rank=""
 }
 
-2704={ #撒耳多姆海
+2704={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2008,7 +2008,7 @@
 	province_rank=""
 }
 
-2705={ #地中海
+2705={ #Mare Internum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2018,7 +2018,7 @@
 	province_rank=""
 }
 
-2706={ #撒耳多姆海
+2706={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2028,7 +2028,7 @@
 	province_rank=""
 }
 
-2707={ #高卢湾
+2707={ #Sinus Gallicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2038,7 +2038,7 @@
 	province_rank=""
 }
 
-2708={ #撒耳多姆海
+2708={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2048,7 +2048,7 @@
 	province_rank=""
 }
 
-2709={ #撒耳多姆海
+2709={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2058,7 +2058,7 @@
 	province_rank=""
 }
 
-2710={ #撒耳多姆海
+2710={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2068,7 +2068,7 @@
 	province_rank=""
 }
 
-2711={ #撒耳多姆海
+2711={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2078,7 +2078,7 @@
 	province_rank=""
 }
 
-2712={ #撒耳多姆海
+2712={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2088,7 +2088,7 @@
 	province_rank=""
 }
 
-2713={ #撒耳多姆海
+2713={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2098,7 +2098,7 @@
 	province_rank=""
 }
 
-2714={ #撒耳多姆海
+2714={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2108,7 +2108,7 @@
 	province_rank=""
 }
 
-2715={ #巴利阿里海
+2715={ #Mare Balearium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2118,7 +2118,7 @@
 	province_rank=""
 }
 
-2716={ #伊比利亚海
+2716={ #Mare Hibericum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2128,7 +2128,7 @@
 	province_rank=""
 }
 
-2717={ #撒耳多姆海
+2717={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2138,7 +2138,7 @@
 	province_rank=""
 }
 
-2718={ #伊比利亚海
+2718={ #Mare Hibericum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2148,7 +2148,7 @@
 	province_rank=""
 }
 
-2719={ #巴利阿里海
+2719={ #Mare Balearium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2158,7 +2158,7 @@
 	province_rank=""
 }
 
-2720={ #撒耳多姆海
+2720={ #Mare Sardoum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2168,7 +2168,7 @@
 	province_rank=""
 }
 
-2721={ #巴利阿里海
+2721={ #Mare Balearium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2178,7 +2178,7 @@
 	province_rank=""
 }
 
-2722={ #巴利阿里海
+2722={ #Mare Balearium
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2188,7 +2188,7 @@
 	province_rank=""
 }
 
-2723={ #伊比利亚海
+2723={ #Mare Hibericum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2198,7 +2198,7 @@
 	province_rank=""
 }
 
-2724={ #伊比利亚海
+2724={ #Mare Hibericum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2208,7 +2208,7 @@
 	province_rank=""
 }
 
-2725={ #伊比利亚海
+2725={ #Mare Hibericum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2218,7 +2218,7 @@
 	province_rank=""
 }
 
-2726={ #伊比利亚海
+2726={ #Mare Hibericum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2228,7 +2228,7 @@
 	province_rank=""
 }
 
-2727={ #伊比利亚海
+2727={ #Mare Hibericum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2238,7 +2238,7 @@
 	province_rank=""
 }
 
-2728={ #伊比利亚海
+2728={ #Mare Hibericum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2248,7 +2248,7 @@
 	province_rank=""
 }
 
-2729={ #伊比利亚海
+2729={ #Mare Hibericum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -2258,7 +2258,7 @@
 	province_rank=""
 }
 
-2730={ #加迪塔农海峡
+2730={ #Fretum Gaditanum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2268,7 +2268,7 @@
 	province_rank=""
 }
 
-4723={ #墨塞尼亚湾
+4723={ #Sinus Messenius
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2278,7 +2278,7 @@
 	province_rank=""
 }
 
-4724={ #拉哥尼亚湾
+4724={ #Sinus Laconicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2288,7 +2288,7 @@
 	province_rank=""
 }
 
-5865={ #米尔托翁海
+5865={ #Mare Myrtoum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2298,7 +2298,7 @@
 	province_rank=""
 }
 
-6418={ #塞尔迈湾
+6418={ #Sinus Thermaeus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2308,7 +2308,7 @@
 	province_rank=""
 }
 
-6436={ #爱琴海
+6436={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2318,7 +2318,7 @@
 	province_rank=""
 }
 
-6437={ #爱琴海
+6437={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2328,7 +2328,7 @@
 	province_rank=""
 }
 
-7747={ #帕特赖库斯湾
+7747={ #Sinus Patraicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2338,7 +2338,7 @@
 	province_rank=""
 }
 
-7748={ #科林斯湾
+7748={ #Sinus Corinthius
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2348,7 +2348,7 @@
 	province_rank=""
 }
 
-7749={ #米尔托翁海
+7749={ #Mare Myrtoum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2358,7 +2358,7 @@
 	province_rank=""
 }
 
-7750={ #米尔托翁海
+7750={ #Mare Myrtoum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2368,7 +2368,7 @@
 	province_rank=""
 }
 
-7906={ #帕伽赛乌斯湾
+7906={ #Pagasaeus Sinus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2378,7 +2378,7 @@
 	province_rank=""
 }
 
-7907={ #马利亚努斯湾
+7907={ #Sinus Malianus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2388,7 +2388,7 @@
 	province_rank=""
 }
 
-8020={ #色雷斯湾
+8020={ #Mare Thracum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""

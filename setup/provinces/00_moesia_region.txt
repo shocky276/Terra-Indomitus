@@ -1,4 +1,4 @@
-﻿477={ #塞耳狄卡
+﻿477={ #Serdica
 	terrain="hills"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -20,7 +20,7 @@
 	}
 }
 
-4093={ #西帕览同
+4093={ #Siparanton
 	terrain="forest"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -39,7 +39,7 @@
 	}
 }
 
-4095={ #忒览达
+4095={ #Theranda
 	terrain="forest"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -58,7 +58,7 @@
 	}
 }
 
-4096={ #斯库波伊
+4096={ #Skoupoi
 	terrain="farmland"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -77,7 +77,7 @@
 	}
 }
 
-4098={ #乌尔庇亚纳
+4098={ #Oulipiana
 	terrain="hills"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -96,7 +96,7 @@
 	}
 }
 
-4099={ #维基亚农
+4099={ #Ouikianon
 	terrain="forest"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -115,7 +115,7 @@
 	}
 }
 
-4100={ #达耳达尼亚的穆尼基庇翁
+4100={ #Dardaneia
 	terrain="farmland"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -134,7 +134,7 @@
 	}
 }
 
-4101={ #阿耳西亚
+4101={ #Arsia
 	terrain="hills"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -153,7 +153,7 @@
 	}
 }
 
-4108={ #维齐尼亚
+4108={ #Ouizinia
 	terrain="hills"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -172,7 +172,7 @@
 	}
 }
 
-4109={ #阿瑙萨罗
+4109={ #Anausaron
 	terrain="hills"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -191,7 +191,7 @@
 	}
 }
 
-4110={ #陶雷西翁
+4110={ #Tauresion
 	terrain="hills"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -210,7 +210,7 @@
 	}
 }
 
-4111={ #汉墨翁
+4111={ #Hammeum
 	terrain="farmland"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -226,7 +226,7 @@
 	}
 }
 
-4112={ #奈苏斯
+4112={ #Naissus
 	terrain="farmland"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -245,7 +245,7 @@
 	}
 }
 
-4113={ #温得尼斯
+4113={ #Ouindenis
 	terrain="hills"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -264,7 +264,7 @@
 	}
 }
 
-4114={ #达耳达尼亚的腓涅斯
+4114={ #Synora Dardanias
 	terrain="hills"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -283,7 +283,7 @@
 	}
 }
 
-4115={ #雷墨西亚纳
+4115={ #Remesiana
 	terrain="hills"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -305,7 +305,7 @@
 	}
 }
 
-4116={ #巴兰斯特拉
+4116={ #Ballanstra
 	terrain="hills"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -327,7 +327,7 @@
 	}
 }
 
-4118={ #格拉姆里亚奈
+4118={ #Gramrianae
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -346,7 +346,7 @@
 	}
 }
 
-4119={ #刻勒革罗戎
+4119={ #Kelegereion
 	terrain="hills"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -365,7 +365,7 @@
 	}
 }
 
-4120={ #伊利里亚的普赖西迪翁
+4120={ #Praesidium Illyricum
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -384,7 +384,7 @@
 	}
 }
 
-4199={ #马耳贡
+4199={ #Margum
 	terrain="farmland"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -403,7 +403,7 @@
 	}
 }
 
-4200={ #摩厄西亚的维弥纳基翁
+4200={ #Viminacium Moesiacum
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -419,7 +419,7 @@
 	}
 }
 
-4201={ #穆尼基庇翁
+4201={ #Municipium
 	terrain="plains"
 	culture="triballoi"
 	religion="shamanism"
@@ -438,7 +438,7 @@
 	}
 }
 
-4202={ #达斯弥尼翁
+4202={ #Dasminium
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -454,7 +454,7 @@
 	}
 }
 
-4203={ #马耳吉的霍雷翁
+4203={ #Horreum Margi
 	terrain="forest"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -473,7 +473,7 @@
 	}
 }
 
-4204={ #伊迪蒙
+4204={ #Idimum
 	terrain="forest"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -492,7 +492,7 @@
 	}
 }
 
-4205={ #奥雷乌斯山
+4205={ #Aureus Mons
 	terrain="forest"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -511,7 +511,7 @@
 	}
 }
 
-4206={ #班涅亚
+4206={ #Bannea
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -527,7 +527,7 @@
 	}
 }
 
-4207={ #库派
+4207={ #Cuppae
 	terrain="plains"
 	culture="dacian"
 	religion="shamanism"
@@ -546,7 +546,7 @@
 	}
 }
 
-4208={ #塔利亚塔
+4208={ #Taliata
 	terrain="plains"
 	culture="dacian"
 	religion="shamanism"
@@ -565,7 +565,7 @@
 	}
 }
 
-4209={ #厄革塔
+4209={ #Egeta
 	terrain="plains"
 	culture="dacian"
 	religion="shamanism"
@@ -584,7 +584,7 @@
 	}
 }
 
-4212={ #巴俄
+4212={ #Bao
 	terrain="hills"
 	culture="triballoi"
 	religion="shamanism"
@@ -603,7 +603,7 @@
 	}
 }
 
-4213={ #罗穆利亚纳
+4213={ #Romuliana
 	terrain="hills"
 	culture="celtic_pannonian"
 	religion="shamanism"
@@ -619,7 +619,7 @@
 	}
 }
 
-4214={ #克勒沃拉
+4214={ #Clevora
 	terrain="plains"
 	culture="dacian"
 	religion="shamanism"
@@ -638,7 +638,7 @@
 	}
 }
 
-4215={ #多耳提翁
+4215={ #Dortium
 	terrain="farmland"
 	culture="dacian"
 	religion="shamanism"
@@ -657,7 +657,7 @@
 	}
 }
 
-4216={ #摩厄西亚的玻诺尼亚
+4216={ #Dunonia
 	terrain="farmland"
 	culture="triballoi"
 	religion="shamanism"
@@ -676,7 +676,7 @@
 	}
 }
 
-4217={ #拉提亚里亚
+4217={ #Ratiaria
 	terrain="plains"
 	culture="triballoi"
 	religion="shamanism"
@@ -692,7 +692,7 @@
 	}
 }
 
-4218={ #马耳提斯
+4218={ #Castra Martis
 	terrain="plains"
 	culture="triballoi"
 	religion="shamanism"
@@ -711,7 +711,7 @@
 	}
 }
 
-4219={ #提马孔
+4219={ #Timacum
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -730,7 +730,7 @@
 	}
 }
 
-4220={ #孔部斯提卡
+4220={ #Combustica
 	terrain="plains"
 	culture="triballoi"
 	religion="shamanism"
@@ -749,7 +749,7 @@
 	}
 }
 
-4221={ #蒙塔纳
+4221={ #Montana
 	terrain="hills"
 	culture="triballoi"
 	religion="shamanism"
@@ -765,7 +765,7 @@
 	}
 }
 
-4222={ #图雷斯
+4222={ #Turres
 	terrain="hills"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -784,7 +784,7 @@
 	}
 }
 
-4223={ #阿尔穆斯
+4223={ #Almus
 	terrain="plains"
 	culture="triballoi"
 	religion="shamanism"
@@ -806,7 +806,7 @@
 	}
 }
 
-4224={ #刻布鲁斯
+4224={ #Cebrus
 	terrain="plains"
 	culture="triballoi"
 	religion="shamanism"
@@ -822,7 +822,7 @@
 	}
 }
 
-4225={ #陶提俄摩西斯
+4225={ #Tautiomosis
 	terrain="hills"
 	culture="triballoi"
 	religion="shamanism"
@@ -841,7 +841,7 @@
 	}
 }
 
-4226={ #西亚穆斯村
+4226={ #Vicus Siamus
 	terrain="forest"
 	culture="triballoi"
 	religion="shamanism"
@@ -860,7 +860,7 @@
 	}
 }
 
-4227={ #俄伊斯库斯
+4227={ #Oescus
 	terrain="forest"
 	culture="triballoi"
 	religion="shamanism"
@@ -879,7 +879,7 @@
 	}
 }
 
-4228={ #特鲁楞西翁
+4228={ #Trullensium
 	terrain="forest"
 	culture="triballoi"
 	religion="shamanism"
@@ -895,7 +895,7 @@
 	}
 }
 
-4229={ #隆吉诺帕拉
+4229={ #Longinopara
 	terrain="plains"
 	culture="triballoi"
 	religion="shamanism"
@@ -914,7 +914,7 @@
 	}
 }
 
-4230={ #斯克雷提斯卡
+4230={ #Scretisca
 	terrain="hills"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -933,7 +933,7 @@
 	}
 }
 
-4231={ #阿萨穆斯
+4231={ #Asamus
 	terrain="forest"
 	culture="triballoi"
 	religion="shamanism"
@@ -949,7 +949,7 @@
 	}
 }
 
-4232={ #浦忒阿
+4232={ #Ad Putea
 	terrain="plains"
 	culture="triballoi"
 	religion="shamanism"
@@ -962,7 +962,7 @@
 	}
 }
 
-4233={ #斯托耳戈西亚
+4233={ #Storgosia
 	terrain="forest"
 	culture="triballoi"
 	religion="shamanism"
@@ -978,7 +978,7 @@
 	}
 }
 
-4234={ #墨尔塔
+4234={ #Melta
 	terrain="plains"
 	culture="triballoi"
 	religion="shamanism"
@@ -1000,7 +1000,7 @@
 	}
 }
 
-4235={ #索斯特拉
+4235={ #Sostra
 	terrain="hills"
 	culture="odrysi"
 	religion="shamanism"
@@ -1022,7 +1022,7 @@
 	}
 }
 
-4236={ #迪斯科杜拉忒赖的恩波里翁
+4236={ #Emporium Discoduraterae
 	terrain="hills"
 	culture="triballoi"
 	religion="shamanism"
@@ -1035,7 +1035,7 @@
 	}
 }
 
-4237={ #尼科波利斯
+4237={ #Nikopolis
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -1051,7 +1051,7 @@
 	}
 }
 
-4238={ #诺外
+4238={ #Novae
 	terrain="forest"
 	culture="triballoi"
 	religion="shamanism"
@@ -1070,7 +1070,7 @@
 	}
 }
 
-4239={ #特里曼弥翁
+4239={ #Trimammium
 	terrain="plains"
 	culture="moesi"
 	religion="shamanism"
@@ -1089,7 +1089,7 @@
 	}
 }
 
-4240={ #普里斯塔
+4240={ #Prista
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -1111,7 +1111,7 @@
 	}
 }
 
-4241={ #阿庇阿拉
+4241={ #Appiara
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -1133,7 +1133,7 @@
 	}
 }
 
-4242={ #特览斯马里斯卡
+4242={ #Transmarisca
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -1152,7 +1152,7 @@
 	}
 }
 
-4243={ #阿布里图斯
+4243={ #Abritus
 	terrain="plains"
 	culture="moesi"
 	religion="shamanism"
@@ -1171,7 +1171,7 @@
 	}
 }
 
-4244={ #堤利斯
+4244={ #Tylis
 	terrain="plains"
 	culture="moesi"
 	religion="shamanism"
@@ -1187,7 +1187,7 @@
 	}
 }
 
-4245={ #海弥亚纳
+4245={ #Haemiana
 	terrain="hills"
 	culture="moesi"
 	religion="shamanism"
@@ -1209,7 +1209,7 @@
 	}
 }
 
-4246={ #杜罗斯托戎
+4246={ #Durostorum
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -1225,7 +1225,7 @@
 	}
 }
 
-4247={ #厄里忒
+4247={ #Erite
 	terrain="plains"
 	culture="moesi"
 	religion="roman_pantheon"
@@ -1246,7 +1246,7 @@
 	}
 }
 
-4248={ #奥得索斯
+4248={ #Odessos
 	terrain="plains"
 	culture="bosporan"
 	religion="roman_pantheon"
@@ -1280,7 +1280,7 @@
 	port_building=1
 }
 
-4249={ #库卢诺伊
+4249={ #Krounoi
 	terrain="plains"
 	culture="moesi"
 	religion="roman_pantheon"
@@ -1305,7 +1305,7 @@
 	}
 }
 
-4250={ #提里齐斯
+4250={ #Tirizis
 	terrain="plains"
 	culture="moesi"
 	religion="roman_pantheon"
@@ -1325,7 +1325,7 @@
 	}
 }
 
-4251={ #马耳基亚诺波利斯
+4251={ #Marcianopolis
 	terrain="plains"
 	culture="moesi"
 	religion="shamanism"
@@ -1344,7 +1344,7 @@
 	}
 }
 
-4252={ #赫利斯
+4252={ #Helis
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -1360,7 +1360,7 @@
 	}
 }
 
-4253={ #帕尔马提斯
+4253={ #Palmatis
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -1379,7 +1379,7 @@
 	}
 }
 
-4254={ #卡拉提斯
+4254={ #Kallatis
 	terrain="plains"
 	culture="bosporan"
 	religion="roman_pantheon"
@@ -1411,7 +1411,7 @@
 	port_building=1
 }
 
-4255={ #托弥斯
+4255={ #Tomis
 	terrain="plains"
 	culture="bosporan"
 	religion="roman_pantheon"
@@ -1436,7 +1436,7 @@
 	}
 }
 
-4256={ #特赖安的特罗派翁
+4256={ #Tropaeum
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -1455,7 +1455,7 @@
 	}
 }
 
-4257={ #萨基达瓦
+4257={ #Sacidava
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -1474,7 +1474,7 @@
 	}
 }
 
-4258={ #帕尼苏斯
+4258={ #Panissus
 	terrain="hills"
 	culture="moesi"
 	religion="shamanism"
@@ -1490,7 +1490,7 @@
 	}
 }
 
-4259={ #齐喀得巴
+4259={ #Zikideba
 	terrain="plains"
 	culture="moesi"
 	religion="shamanism"
@@ -1512,7 +1512,7 @@
 	}
 }
 
-4512={ #阿克西俄波利斯
+4512={ #Axiopolis
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -1525,7 +1525,7 @@
 	}
 }
 
-4513={ #伊斯特洛斯
+4513={ #Istros
 	terrain="plains"
 	culture="bosporan"
 	religion="roman_pantheon"
@@ -1558,7 +1558,7 @@
 	port_building=1
 }
 
-4514={ #斯基泰的基俄斯
+4514={ #Kios Skythike
 	terrain="marsh"
 	culture="scythian"
 	religion="roman_pantheon"
@@ -1572,7 +1572,7 @@
 	}
 }
 
-4515={ #斯刻诺普西斯
+4515={ #Skenopsis
 	terrain="forest"
 	culture="scythian"
 	religion="roman_pantheon"
@@ -1589,7 +1589,7 @@
 	}
 }
 
-4516={ #俄耳伽墨
+4516={ #Orgame
 	terrain="forest"
 	culture="scythian"
 	religion="roman_pantheon"
@@ -1614,7 +1614,7 @@
 	}
 }
 
-4517={ #利比达
+4517={ #Libida
 	terrain="forest"
 	culture="scythian"
 	religion="indo_iranian_religion"
@@ -1634,7 +1634,7 @@
 	}
 }
 
-4518={ #斯基泰的贝罗厄
+4518={ #Beroe Skythike
 	terrain="marsh"
 	culture="scythian"
 	religion="indo_iranian_religion"
@@ -1656,7 +1656,7 @@
 	}
 }
 
-4519={ #哈尔密里斯
+4519={ #Almyris
 	terrain="forest"
 	culture="scythian"
 	religion="roman_pantheon"
@@ -1680,7 +1680,7 @@
 	port_building=1
 }
 
-4520={ #特洛伊斯弥斯
+4520={ #Troismos
 	terrain="marsh"
 	culture="scythian"
 	religion="roman_pantheon"

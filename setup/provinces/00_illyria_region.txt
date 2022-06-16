@@ -1,4 +1,4 @@
-﻿1144={ #斯科德拉
+﻿1144={ #Skodra
 	terrain="forest"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -14,7 +14,7 @@
 	}
 }
 
-4018={ #的尔戈斯特
+4018={ #Tergeste
 	terrain="plains"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -33,7 +33,7 @@
 	}
 }
 
-4019={ #帕壬提翁
+4019={ #Parentium
 	terrain="farmland"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -55,7 +55,7 @@
 	}
 }
 
-4020={ #波拉
+4020={ #Pola
 	terrain="farmland"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -75,7 +75,7 @@
 	port_building=1
 }
 
-4021={ #佛拉诺纳
+4021={ #Flanona
 	terrain="forest"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -94,7 +94,7 @@
 	}
 }
 
-4022={ #庇昆同
+4022={ #Piquentum
 	terrain="hills"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -116,7 +116,7 @@
 	}
 }
 
-4023={ #塔耳萨提卡
+4023={ #Tarsatica
 	terrain="hills"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -138,7 +138,7 @@
 	}
 }
 
-4024={ #厄摩纳
+4024={ #Emona
 	terrain="mountain"
 	culture="carnian"
 	religion="druidism"
@@ -157,11 +157,11 @@
 	}
 }
 
-4025={ #卡耳尼翁
+4025={ #Carnium
 	terrain="mountain"
 	culture="carnian"
 	religion="druidism"
-	trade_goods="cattle"
+	trade_goods="cinnabar"
 	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
@@ -179,7 +179,7 @@
 	}
 }
 
-4026={ #隆加提孔
+4026={ #Longaticum
 	terrain="hills"
 	culture="carnian"
 	religion="druidism"
@@ -198,7 +198,7 @@
 	}
 }
 
-4032={ #库里孔
+4032={ #Curicum
 	terrain="hills"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -220,7 +220,7 @@
 	}
 }
 
-4033={ #瑟尼亚
+4033={ #Senia
 	terrain="hills"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -242,7 +242,7 @@
 	}
 }
 
-4034={ #刻耳索斯
+4034={ #Chersos
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -268,7 +268,7 @@
 	}
 }
 
-4035={ #俄耳托普拉
+4035={ #Ortopla
 	terrain="hills"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -290,7 +290,7 @@
 	}
 }
 
-4036={ #墨图隆
+4036={ #Metulum
 	terrain="forest"
 	culture="catari"
 	religion="roman_pantheon"
@@ -309,7 +309,7 @@
 	}
 }
 
-4040={ #卡塔里亚的腓涅斯
+4040={ #Kataraia
 	terrain="forest"
 	culture="catari"
 	religion="roman_pantheon"
@@ -328,7 +328,7 @@
 	}
 }
 
-4042={ #赖提尼翁
+4042={ #Rhaitinion
 	terrain="forest"
 	culture="catari"
 	religion="roman_pantheon"
@@ -347,7 +347,7 @@
 	}
 }
 
-4043={ #克兰达忒
+4043={ #Klandate
 	terrain="forest"
 	culture="deurian"
 	religion="roman_pantheon"
@@ -366,7 +366,7 @@
 	}
 }
 
-4044={ #克鲁基翁
+4044={ #Kroukion
 	terrain="hills"
 	culture="catari"
 	religion="roman_pantheon"
@@ -382,7 +382,7 @@
 	}
 }
 
-4045={ #科拉庇亚
+4045={ #Kolapia
 	terrain="forest"
 	culture="catari"
 	religion="roman_pantheon"
@@ -401,7 +401,7 @@
 	}
 }
 
-4046={ #瓦尔达苏斯
+4046={ #Oualdasos
 	terrain="farmland"
 	culture="catari"
 	religion="roman_pantheon"
@@ -420,7 +420,7 @@
 	}
 }
 
-4049={ #维吉翁
+4049={ #Vegium
 	terrain="hills"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -436,7 +436,7 @@
 	}
 }
 
-4050={ #阿鲁庇翁
+4050={ #Arupium
 	terrain="hills"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -455,7 +455,7 @@
 	}
 }
 
-4051={ #安库斯
+4051={ #Ancus
 	terrain="forest"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -471,7 +471,7 @@
 	}
 }
 
-4052={ #基萨
+4052={ #Cissa
 	terrain="plains"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -493,7 +493,7 @@
 	}
 }
 
-4053={ #埃诺纳
+4053={ #Aenona
 	terrain="farmland"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -515,7 +515,7 @@
 	}
 }
 
-4054={ #亚得耳
+4054={ #Iader
 	terrain="plains"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -535,7 +535,7 @@
 	port_building=1
 }
 
-4055={ #阿耳具戎同
+4055={ #Argyruntum
 	terrain="hills"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -557,7 +557,7 @@
 	}
 }
 
-4056={ #阿瑟里亚
+4056={ #Asseria
 	terrain="farmland"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -576,7 +576,7 @@
 	}
 }
 
-4057={ #部耳尼翁
+4057={ #Bournion
 	terrain="farmland"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -595,7 +595,7 @@
 	}
 }
 
-4058={ #斯卡耳冬
+4058={ #Skardon
 	terrain="plains"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -611,7 +611,7 @@
 	}
 }
 
-4059={ #叙诺狄翁
+4059={ #Synodion
 	terrain="farmland"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -630,7 +630,7 @@
 	}
 }
 
-4060={ #特拉顾里翁
+4060={ #Tragourion
 	terrain="farmland"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -647,7 +647,7 @@
 	port_building=1
 }
 
-4061={ #斯普劳农
+4061={ #Splaunon
 	terrain="mountain"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -663,7 +663,7 @@
 	}
 }
 
-4062={ #萨罗奈
+4062={ #Salona
 	terrain="hills"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -685,7 +685,7 @@
 	}
 }
 
-4063={ #俄西尼翁
+4063={ #Osinion
 	terrain="forest"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -704,7 +704,7 @@
 	}
 }
 
-4064={ #珀尔巴
+4064={ #Pelba
 	terrain="forest"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -723,7 +723,7 @@
 	}
 }
 
-4065={ #萨路亚
+4065={ #Salouia
 	terrain="hills"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -742,7 +742,7 @@
 	}
 }
 
-4066={ #得尔弥尼翁
+4066={ #Delminion
 	terrain="forest"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -761,7 +761,7 @@
 	}
 }
 
-4067={ #巴里杜翁
+4067={ #Baridouon
 	terrain="forest"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -783,7 +783,7 @@
 	}
 }
 
-4068={ #新比斯图阿
+4068={ #Nea Bistoua
 	terrain="forest"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -802,7 +802,7 @@
 	}
 }
 
-4069={ #马特里肯
+4069={ #Ad Matricem
 	terrain="forest"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -821,7 +821,7 @@
 	}
 }
 
-4070={ #巴洛亚
+4070={ #Baloia
 	terrain="hills"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -843,7 +843,7 @@
 	}
 }
 
-4071={ #楼萨巴
+4071={ #Leusaba
 	terrain="hills"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -862,7 +862,7 @@
 	}
 }
 
-4072={ #埃马忒
+4072={ #Aimate
 	terrain="forest"
 	culture="deurian"
 	religion="roman_pantheon"
@@ -884,7 +884,7 @@
 	}
 }
 
-4075={ #卡斯特拉
+4075={ #Kastra
 	terrain="plains"
 	culture="deurian"
 	religion="roman_pantheon"
@@ -903,7 +903,7 @@
 	}
 }
 
-4078={ #贝耳刻隆
+4078={ #Berkellon
 	terrain="hills"
 	culture="deraemestian"
 	religion="roman_pantheon"
@@ -919,7 +919,7 @@
 	}
 }
 
-4079={ #斯塔涅克利
+4079={ #Stanekloi
 	terrain="forest"
 	culture="deraemestian"
 	religion="roman_pantheon"
@@ -935,7 +935,7 @@
 	}
 }
 
-4080={ #苏尔孚赖的阿库亚
+4080={ #Hydata Theiika
 	terrain="forest"
 	culture="deraemestian"
 	religion="roman_pantheon"
@@ -954,7 +954,7 @@
 	}
 }
 
-4081={ #厄狄塞斯
+4081={ #Angeliai
 	terrain="hills"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -976,7 +976,7 @@
 	}
 }
 
-4082={ #纳罗纳
+4082={ #Narona
 	terrain="farmland"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -995,7 +995,7 @@
 	}
 }
 
-4083={ #狄楞同
+4083={ #Dilenton
 	terrain="farmland"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -1017,7 +1017,7 @@
 	}
 }
 
-4084={ #法罗斯
+4084={ #Pharos
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -1042,7 +1042,7 @@
 	port_building=1
 }
 
-4085={ #伊利里亚的厄庇道洛斯
+4085={ #Epidauros Illyrias
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -1074,7 +1074,7 @@
 	port_building=1
 }
 
-4086={ #萨尔图亚
+4086={ #Salthoua
 	terrain="forest"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -1090,7 +1090,7 @@
 	}
 }
 
-4087={ #安得耳巴
+4087={ #Anderba
 	terrain="forest"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -1109,7 +1109,7 @@
 	}
 }
 
-4088={ #里宗
+4088={ #Rhizon
 	terrain="hills"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1125,7 +1125,7 @@
 	}
 }
 
-4089={ #墨忒翁
+4089={ #Medeon
 	terrain="forest"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1144,7 +1144,7 @@
 	}
 }
 
-4090={ #部托厄
+4090={ #Bouthoe
 	terrain="hills"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1161,7 +1161,7 @@
 	port_building=1
 }
 
-4091={ #阿斯克里比翁
+4091={ #Askrebion
 	terrain="hills"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1177,7 +1177,7 @@
 	}
 }
 
-4092={ #拉柏亚同
+4092={ #Labeiaton
 	terrain="mountain"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1196,7 +1196,7 @@
 	}
 }
 
-4094={ #伽部勒翁
+4094={ #Gabouleion
 	terrain="forest"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -1215,7 +1215,7 @@
 	}
 }
 
-4102={ #格拉拜翁
+4102={ #Grabaion
 	terrain="mountain"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1231,7 +1231,7 @@
 	}
 }
 
-4103={ #瑟瓦斯同
+4103={ #Seuaston
 	terrain="mountain"
 	culture="deraemestian"
 	religion="roman_pantheon"
@@ -1247,7 +1247,7 @@
 	}
 }
 
-4104={ #勒乌西尼翁
+4104={ #Leousinion
 	terrain="mountain"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -1266,7 +1266,7 @@
 	}
 }
 
-4105={ #佩基纳
+4105={ #Pekina
 	terrain="mountain"
 	culture="deraemestian"
 	religion="roman_pantheon"
@@ -1285,7 +1285,7 @@
 	}
 }
 
-4106={ #里瑟提亚
+4106={ #Rhisetia
 	terrain="hills"
 	culture="deraemestian"
 	religion="roman_pantheon"
@@ -1304,7 +1304,7 @@
 	}
 }
 
-4107={ #海冬
+4107={ #Haidon
 	terrain="forest"
 	culture="deraemestian"
 	religion="roman_pantheon"
@@ -1323,7 +1323,7 @@
 	}
 }
 
-4121={ #格拉杜斯
+4121={ #Gradus
 	terrain="hills"
 	culture="deraemestian"
 	religion="roman_pantheon"
@@ -1342,7 +1342,7 @@
 	}
 }
 
-4122={ #帕耳提尼亚
+4122={ #Parthinia
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="roman_pantheon"
@@ -1361,7 +1361,7 @@
 	}
 }
 
-4125={ #多马维亚
+4125={ #Domavia
 	terrain="hills"
 	culture="deurian"
 	religion="roman_pantheon"
@@ -1380,7 +1380,7 @@
 	}
 }
 
-4127={ #马尔维西亚
+4127={ #Malouesia
 	terrain="hills"
 	culture="deraemestian"
 	religion="roman_pantheon"
@@ -1402,7 +1402,7 @@
 	}
 }
 
-8026={ #伊萨
+8026={ #Issa
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -1427,7 +1427,7 @@
 	port_building=1
 }
 
-8027={ #黑科基拉
+8027={ #Korkyra Melaina
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"

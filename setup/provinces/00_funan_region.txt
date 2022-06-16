@@ -1,4 +1,4 @@
-﻿9207={ #西卷
+﻿9207={ #Tay Quyen
 	terrain="jungle"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -14,7 +14,7 @@
 	}
 }
 
-9208={ #比景
+9208={ #Bi Canh
 	terrain="jungle"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -27,7 +27,7 @@
 	}
 }
 
-9209={ #朱吾
+9209={ #Chu Ngo
 	terrain="jungle"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -40,7 +40,7 @@
 	}
 }
 
-9210={ #卢容
+9210={ #Lo Dong
 	terrain="jungle"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -53,7 +53,7 @@
 	}
 }
 
-9211={ #象林
+9211={ #Tuong Lam
 	terrain="forest"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -66,7 +66,7 @@
 	}
 }
 
-9427={ #安乐
+9427={ #An Lac
 	terrain="jungle"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -79,7 +79,7 @@
 	}
 }
 
-9428={ #象浦
+9428={ #Tuong Pho
 	terrain="jungle"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -92,7 +92,7 @@
 	}
 }
 
-9429={ #金山
+9429={ #Kim Son
 	terrain="jungle"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -105,7 +105,7 @@
 	}
 }
 
-9430={ #交江
+9430={ #Giao Giang
 	terrain="hills"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -118,7 +118,7 @@
 	}
 }
 
-9431={ #南极
+9431={ #Nam Cuc
 	terrain="hills"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -131,7 +131,7 @@
 	}
 }
 
-9816={ #参半
+9816={ #D PROV9816!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -147,7 +147,7 @@
 	}
 }
 
-9817={ #屈都昆南
+9817={ #D PROV9817!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -160,7 +160,7 @@
 	}
 }
 
-9818={ #屈都昆北
+9818={ #D PROV9818!
 	terrain="hills"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -173,7 +173,7 @@
 	}
 }
 
-9819={ #屈都昆东
+9819={ #D PROV9819!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -189,7 +189,7 @@
 	}
 }
 
-9820={ #壶海西
+9820={ #D PROV9820!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -202,7 +202,7 @@
 	}
 }
 
-9821={ #吴哥
+9821={ #D PROV9821!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -218,7 +218,7 @@
 	}
 }
 
-9822={ #室丽萨他补罗
+9822={ #D PROV9822!
 	terrain="forest"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -234,7 +234,7 @@
 	}
 }
 
-9823={ #真腊中
+9823={ #D PROV9823!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -247,7 +247,7 @@
 	}
 }
 
-9824={ #真腊东
+9824={ #D PROV9824!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -260,7 +260,7 @@
 	}
 }
 
-9825={ #真腊南
+9825={ #D PROV9825!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -273,7 +273,7 @@
 	}
 }
 
-9826={ #伊赏那补罗
+9826={ #D PROV9826!
 	terrain="forest"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -289,7 +289,7 @@
 	}
 }
 
-9827={ #壶海南
+9827={ #D PROV9827!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -302,7 +302,7 @@
 	}
 }
 
-9828={ #毗耶陀补罗
+9828={ #D PROV9828!
 	terrain="forest"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -318,7 +318,7 @@
 	}
 }
 
-9829={ #扶南北
+9829={ #D PROV9829!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -331,7 +331,7 @@
 	}
 }
 
-9830={ #扶南西
+9830={ #D PROV9830!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -344,7 +344,7 @@
 	}
 }
 
-9831={ #扶南南
+9831={ #D PROV9831!
 	terrain="jungle"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -357,7 +357,7 @@
 	}
 }
 
-9832={ #扶南东
+9832={ #D PROV9832!
 	terrain="forest"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -373,11 +373,11 @@
 	}
 }
 
-9833={ #拜高尔
+9833={ #D PROV9833!
 	terrain="hills"
 	culture="phnom"
 	religion="baiyue_religions"
-	trade_goods="wood"
+	trade_goods="sugar"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -389,11 +389,11 @@
 	}
 }
 
-9834={ #湄公河北
-	terrain="marsh"
+9834={ #D PROV9834!
+	terrain="flood_plain"
 	culture="phnom"
 	religion="baiyue_religions"
-	trade_goods="salt"
+	trade_goods="sugar"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -402,11 +402,11 @@
 	}
 }
 
-9835={ #湄公河南
-	terrain="marsh"
+9835={ #D PROV9835!
+	terrain="flood_plain"
 	culture="phnom"
 	religion="baiyue_religions"
-	trade_goods="fish"
+	trade_goods="sugar"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -415,7 +415,7 @@
 	}
 }
 
-9836={ #林邑海岸
+9836={ #D PROV9836!
 	terrain="jungle"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -425,7 +425,7 @@
 	province_rank=""
 }
 
-9837={ #林邑海岸
+9837={ #D PROV9837!
 	terrain="jungle"
 	culture="linyi"
 	religion="baiyue_religions"

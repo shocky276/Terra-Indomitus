@@ -1,7 +1,7 @@
-﻿5557={ #琼隆
+﻿5557={ #Khyunglung
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="wild_game"
 	civilization_value=8
 	barbarian_power=0
@@ -20,7 +20,7 @@
 	}
 }
 
-5558={ #阿曲
+5558={ #Achuk
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -33,7 +33,7 @@
 	}
 }
 
-5559={ #塔觉宗
+5559={ #Tachok Dzong
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -46,7 +46,7 @@
 	}
 }
 
-5560={ #信杜
+5560={ #Sindhu
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -62,7 +62,7 @@
 	}
 }
 
-5561={ #拉达克
+5561={ #Ladakh
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -78,7 +78,7 @@
 	}
 }
 
-5562={ #日土
+5562={ #Rutok
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -94,7 +94,7 @@
 	}
 }
 
-5563={ #拉谢僧格宗
+5563={ #Rabzhi Senge Dzong
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -107,7 +107,7 @@
 	}
 }
 
-5564={ #额钦喀
+5564={ #Echen Khar
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -123,7 +123,7 @@
 	}
 }
 
-5565={ #阿波仁
+5565={ #Aparing
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -139,7 +139,7 @@
 	}
 }
 
-5566={ #拉相
+5566={ #Lashang
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -161,7 +161,7 @@
 	}
 }
 
-5567={ #赤类
+5567={ #Tiret
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -177,7 +177,7 @@
 	}
 }
 
-5568={ #牟泥
+5568={ #Mune
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -193,7 +193,7 @@
 	}
 }
 
-5569={ #扎布让
+5569={ #Tsaparang
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -209,7 +209,7 @@
 	}
 }
 
-5570={ #喀域
+5570={ #Khayu
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -225,7 +225,7 @@
 	}
 }
 
-5571={ #乌姆喀
+5571={ #Nghulmo Khar
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -244,7 +244,7 @@
 	}
 }
 
-5572={ #上台拉
+5572={ #Upper Terai
 	terrain="mountain"
 	culture="himalayan"
 	religion="bon_religion"
@@ -254,7 +254,7 @@
 	province_rank="settlement"
 }
 
-5574={ #布玛仁
+5574={ #Pumaring
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -273,7 +273,7 @@
 	}
 }
 
-5575={ #江日
+5575={ #Gyangri
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -292,7 +292,7 @@
 	}
 }
 
-5576={ #冈仁波齐
+5576={ #Kailash
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -312,7 +312,7 @@
 	holy_site=omen_rishabhanatha_moksha
 }
 
-5577={ #乌额
+5577={ #Nguot
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -331,7 +331,7 @@
 	}
 }
 
-5578={ #喀月
+5578={ #Khakyor
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -344,7 +344,7 @@
 	}
 }
 
-5579={ #吉那
+5579={ #Tsina
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -357,7 +357,7 @@
 	}
 }
 
-5580={ #玛旁
+5580={ #Mapam
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -370,7 +370,7 @@
 	}
 }
 
-5581={ #云措
+5581={ #Yumtso
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -383,7 +383,7 @@
 	}
 }
 
-5582={ #桑嘉
+5582={ #Sangya
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -402,7 +402,7 @@
 	}
 }
 
-5583={ #色日珠穆宗
+5583={ #Serip Drukmo Dzong
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -415,7 +415,7 @@
 	}
 }
 
-5585={ #钵巴
+5585={ #Pakpa
 	terrain="mountain"
 	culture="himalayan"
 	religion="bon_religion"
@@ -425,7 +425,7 @@
 	province_rank="settlement"
 }
 
-5591={ #列城
+5591={ #Leh
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -444,7 +444,7 @@
 	}
 }
 
-5592={ #噶卓
+5592={ #Skardo
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -457,7 +457,7 @@
 	}
 }
 
-5593={ #达罗陀
+5593={ #Darada
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -476,7 +476,7 @@
 	}
 }
 
-5594={ #波伦
+5594={ #Gilgit
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -492,7 +492,7 @@
 	}
 }
 
-5595={ #罕萨
+5595={ #Hunza
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -508,11 +508,11 @@
 	}
 }
 
-5596={ #珠谢雅
+5596={ #Druzhiya
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
@@ -524,7 +524,7 @@
 	}
 }
 
-5597={ #喀尔噶
+5597={ #Kargah
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -540,7 +540,7 @@
 	}
 }
 
-5598={ #穆尔贝克
+5598={ #Mulbek
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -556,7 +556,7 @@
 	}
 }
 
-5599={ #忒克拉斯
+5599={ #Teclas
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -569,7 +569,7 @@
 	}
 }
 
-5600={ #波萨尼
+5600={ #Parsni
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -588,7 +588,7 @@
 	}
 }
 
-5602={ #岗多哥罗山口
+5602={ #Gondogoro Pass
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -598,7 +598,7 @@
 	province_rank=""
 }
 
-5609={ #达洛
+5609={ #Tarok
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -611,7 +611,7 @@
 	}
 }
 
-5612={ #苏庇马
+5612={ #Supima
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -624,7 +624,7 @@
 	}
 }
 
-5614={ #额摩冈
+5614={ #Ormogang
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -643,7 +643,7 @@
 	}
 }
 
-5615={ #巴玛
+5615={ #Barma
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -659,7 +659,7 @@
 	}
 }
 
-5616={ #江腾
+5616={ #Jangteng
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -672,7 +672,7 @@
 	}
 }
 
-5617={ #错那
+5617={ #Chunak
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"

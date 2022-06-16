@@ -1,4 +1,4 @@
-﻿3061={ #廷伽
+﻿3061={ #Tinga
 	terrain="forest"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -36,7 +36,7 @@
 	port_building=1
 }
 
-3062={ #拉基什
+3062={ #Lakish
 	terrain="forest"
 	culture="carthaginian"
 	religion="berber_religion"
@@ -63,7 +63,7 @@
 	}
 }
 
-3063={ #塔穆西达
+3063={ #Tamusida
 	terrain="forest"
 	culture="carthaginian"
 	religion="berber_religion"
@@ -83,7 +83,7 @@
 	}
 }
 
-3064={ #阿耳泽拉
+3064={ #Arzeila
 	terrain="forest"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -102,7 +102,7 @@
 	}
 }
 
-3065={ #佛里吉达
+3065={ #Frigida
 	terrain="forest"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -122,7 +122,7 @@
 	}
 }
 
-3066={ #俄卡宋
+3066={ #Occasum
 	terrain="forest"
 	culture="carthaginian"
 	religion="berber_religion"
@@ -149,7 +149,7 @@
 	}
 }
 
-3067={ #沃卢比利斯
+3067={ #Volubilis
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -168,7 +168,7 @@
 	}
 }
 
-3068={ #沙拉特
+3068={ #Shalat
 	terrain="forest"
 	culture="carthaginian"
 	religion="berber_religion"
@@ -199,7 +199,7 @@
 	port_building=1
 }
 
-3069={ #托科洛西达
+3069={ #Tocolosida
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -218,7 +218,7 @@
 	}
 }
 
-3070={ #巴纳萨
+3070={ #Banasa
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -237,7 +237,7 @@
 	}
 }
 
-3071={ #南塔穆西达
+3071={ #Thamusida Australis
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -259,7 +259,7 @@
 	}
 }
 
-3072={ #达契亚的阿库亚
+3072={ #Aquae Dacicae
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -278,7 +278,7 @@
 	}
 }
 
-3073={ #吉尔达
+3073={ #Gilda
 	terrain="plains"
 	culture="socossian"
 	religion="berber_religion"
@@ -297,7 +297,7 @@
 	}
 }
 
-3074={ #埃利亚
+3074={ #Aelia
 	terrain="plains"
 	culture="socossian"
 	religion="berber_religion"
@@ -316,7 +316,7 @@
 	}
 }
 
-3075={ #维波斯基亚奈
+3075={ #Viposcianae
 	terrain="plains"
 	culture="socossian"
 	religion="berber_religion"
@@ -335,7 +335,7 @@
 	}
 }
 
-3076={ #特雷穆莱
+3076={ #Tremulae
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -354,7 +354,7 @@
 	}
 }
 
-3077={ #新俄庇冬
+3077={ #Oppidum Novum
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -376,7 +376,7 @@
 	}
 }
 
-3078={ #墨耳库里
+3078={ #Ad Mercuri
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -395,7 +395,7 @@
 	}
 }
 
-3079={ #瑟弥塔山
+3079={ #Mons Semita
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -414,7 +414,7 @@
 	}
 }
 
-3080={ #鲁萨迪耳
+3080={ #Rusaddir
 	terrain="forest"
 	culture="carthaginian"
 	religion="berber_religion"
@@ -439,7 +439,7 @@
 	port_building=1
 }
 
-3081={ #维宋蒙提斯
+3081={ #Visum Montis
 	terrain="mountain"
 	culture="socossian"
 	religion="berber_religion"
@@ -453,7 +453,7 @@
 	holy_site=omen_shaheded
 }
 
-3082={ #安部拉提斯山
+3082={ #Mons Ambulatis
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -466,7 +466,7 @@
 	}
 }
 
-3083={ #楞尼斯
+3083={ #Lemnis
 	terrain="forest"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -488,7 +488,7 @@
 	}
 }
 
-3084={ #叙洛戎
+3084={ #Syrorum
 	terrain="forest"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -510,7 +510,7 @@
 	}
 }
 
-3085={ #塔穆达
+3085={ #Tamuda
 	terrain="forest"
 	culture="carthaginian"
 	religion="berber_religion"
@@ -534,7 +534,7 @@
 	}
 }
 
-3086={ #西伽
+3086={ #Siga
 	terrain="forest"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -554,7 +554,7 @@
 	port_building=1
 }
 
-3087={ #波马里亚
+3087={ #Pomaria
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -576,8 +576,8 @@
 	}
 }
 
-3088={ #阿尔部莱
-	terrain="hills"
+3088={ #Albulae
+	terrain="desert_hills"
 	culture="massaesylian"
 	religion="berber_religion"
 	trade_goods="elephants"
@@ -598,7 +598,7 @@
 	}
 }
 
-3089={ #阿尔塔瓦
+3089={ #Altava
 	terrain="desert"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -614,7 +614,7 @@
 	}
 }
 
-3090={ #忒庇戴
+3090={ #Tepidae
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -633,7 +633,7 @@
 	}
 }
 
-3091={ #浦厄戎兵营
+3091={ #Castra Puerorum
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -655,7 +655,7 @@
 	}
 }
 
-3092={ #迪维努斯港
+3092={ #Portus Divinus
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -679,7 +679,7 @@
 	port_building=1
 }
 
-3093={ #雷吉埃
+3093={ #Regiae
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -695,7 +695,7 @@
 	}
 }
 
-3094={ #卡浦塔萨科拉
+3094={ #Caputtasaccora
 	terrain="desert"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -714,7 +714,7 @@
 	}
 }
 
-3095={ #马格努斯港
+3095={ #Portus Magnus
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -733,8 +733,8 @@
 	port_building=1
 }
 
-3096={ #塔萨科拉
-	terrain="hills"
+3096={ #Tasaccora
+	terrain="desert_hills"
 	culture="massaesylian"
 	religion="berber_religion"
 	trade_goods="wine"
@@ -749,7 +749,7 @@
 	}
 }
 
-3097={ #卢库
+3097={ #Lucu
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -765,7 +765,7 @@
 	}
 }
 
-3098={ #西壬瑟斯的阿库亚
+3098={ #Aquae Sirenses
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -784,7 +784,7 @@
 	}
 }
 
-3099={ #阿拉 弥利阿里亚
+3099={ #Ala Miliaria
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -800,7 +800,7 @@
 	}
 }
 
-3100={ #新卡斯特拉
+3100={ #Castra Nova
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -816,7 +816,7 @@
 	}
 }
 
-3101={ #奎匝 克塞尼塔纳
+3101={ #Quiza Xenitana
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -838,7 +838,7 @@
 	}
 }
 
-3102={ #弥纳
+3102={ #Mina
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -854,7 +854,7 @@
 	}
 }
 
-3103={ #布娄科戎
+3103={ #Breucorum
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -870,7 +870,7 @@
 	}
 }
 
-3104={ #刻纳维孔
+3104={ #Cenavicum
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -886,7 +886,7 @@
 	}
 }
 
-3105={ #科隆纳塔
+3105={ #Columnata
 	terrain="dry_plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -908,7 +908,7 @@
 	}
 }
 
-3106={ #阿耳森纳里亚
+3106={ #Arsennaria
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -927,8 +927,8 @@
 	}
 }
 
-3107={ #考冬兵营
-	terrain="hills"
+3107={ #Caudium Castra
+	terrain="desert_hills"
 	culture="massaesylian"
 	religion="berber_religion"
 	trade_goods="base_metals"
@@ -949,7 +949,7 @@
 	}
 }
 
-3108={ #迦坦
+3108={ #Qartan
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -968,7 +968,7 @@
 	port_building=1
 }
 
-3109={ #马顾卢斯港
+3109={ #Portus Magulus
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -988,7 +988,7 @@
 	port_building=1
 }
 
-3110={ #廷吉塔农
+3110={ #Tingitanum
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -1007,7 +1007,7 @@
 	}
 }
 
-3111={ #卡耳提利
+3111={ #Cartili
 	terrain="hills"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -1029,7 +1029,7 @@
 	}
 }
 
-3112={ #日耳曼兵营
+3112={ #Castra Germanorum
 	terrain="plains"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -1045,7 +1045,7 @@
 	}
 }
 
-6301={ #卢图比斯
+6301={ #Rutubis
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1066,7 +1066,7 @@
 	port_building=1
 }
 
-6302={ #泽穆尔
+6302={ #Zemour
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -1079,7 +1079,7 @@
 	}
 }
 
-6470={ #罗布阿
+6470={ #Rob'a
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -1092,11 +1092,11 @@
 	}
 }
 
-6471={ #穆萨
+6471={ #Mousa
 	terrain="plains"
 	culture="socossian"
 	religion="berber_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1105,7 +1105,7 @@
 	}
 }
 
-6472={ #阿墨尔
+6472={ #Amer
 	terrain="plains"
 	culture="socossian"
 	religion="berber_religion"
@@ -1118,7 +1118,7 @@
 	}
 }
 
-6473={ #瓦拉迪格
+6473={ #Ouardigha
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -1131,7 +1131,7 @@
 	}
 }
 
-6474={ #墨斯基涅
+6474={ #Meskine
 	terrain="plains"
 	culture="socossian"
 	religion="berber_religion"
@@ -1144,7 +1144,7 @@
 	}
 }
 
-6475={ #安法
+6475={ #Anfa
 	terrain="dry_plains"
 	culture="socossian"
 	religion="berber_religion"
@@ -1160,7 +1160,7 @@
 	}
 }
 
-6476={ #刻迪斯
+6476={ #Khedis
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -1173,7 +1173,7 @@
 	}
 }
 
-6477={ #弗雷杰
+6477={ #Frej
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -1186,7 +1186,7 @@
 	}
 }
 
-6478={ #阿摩尔
+6478={ #Amar
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1209,11 +1209,11 @@
 	}
 }
 
-6479={ #玻乌泽耳拉拉
+6479={ #Bouzerrara
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
-	trade_goods="hemp"
+	trade_goods="cedar"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1222,7 +1222,7 @@
 	}
 }
 
-6480={ #阿姆拉涅
+6480={ #Amrane
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -1235,7 +1235,7 @@
 	}
 }
 
-6481={ #豪乌齐亚
+6481={ #Haouzia
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -1248,7 +1248,7 @@
 	}
 }
 
-6484={ #伊夫兰
+6484={ #Ifran
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -1261,7 +1261,7 @@
 	}
 }
 
-6485={ #提夫莱特
+6485={ #Tiflet
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -1274,11 +1274,11 @@
 	}
 }
 
-6486={ #齐亚伊达
+6486={ #Ziaida
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1287,11 +1287,11 @@
 	}
 }
 
-6487={ #姆达克拉
+6487={ #Mdakra
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1303,7 +1303,7 @@
 	}
 }
 
-6489={ #姆扎姆扎
+6489={ #Mzamza
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -1316,7 +1316,7 @@
 	}
 }
 
-6490={ #萨菲姆
+6490={ #Safim
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1341,7 +1341,7 @@
 	port_building=1
 }
 
-6491={ #阿扎马
+6491={ #Azama
 	terrain="dry_plains"
 	culture="socossian"
 	religion="berber_religion"
@@ -1354,7 +1354,7 @@
 	}
 }
 
-6492={ #扎克纳
+6492={ #Zaakna
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -1367,7 +1367,7 @@
 	}
 }
 
-7221={ #米扎卜
+7221={ #Mizab
 	terrain="dry_plains"
 	culture="socossian"
 	religion="berber_religion"

@@ -1,4 +1,4 @@
-﻿648={ #根涅撒尔
+﻿648={ #Tarichaia
 	terrain="forest"
 	culture="hebrew"
 	religion="judaism"
@@ -14,7 +14,7 @@
 	}
 }
 
-657={ #比堤利翁
+657={ #Bitylion
 	terrain="dry_plains"
 	culture="philistine"
 	religion="carthaginian_pantheon"
@@ -34,7 +34,7 @@
 	}
 }
 
-658={ #拉腓亚
+658={ #Rhaphia
 	terrain="plains"
 	culture="philistine"
 	religion="carthaginian_pantheon"
@@ -57,7 +57,7 @@
 	}
 }
 
-659={ #加沙
+659={ #Gaza
 	terrain="plains"
 	culture="philistine"
 	religion="carthaginian_pantheon"
@@ -85,7 +85,7 @@
 	port_building=1
 }
 
-660={ #阿斯卡隆
+660={ #Askalon
 	terrain="plains"
 	culture="philistine"
 	religion="carthaginian_pantheon"
@@ -112,7 +112,7 @@
 	}
 }
 
-661={ #阿左托斯
+661={ #Azotos
 	terrain="plains"
 	culture="philistine"
 	religion="carthaginian_pantheon"
@@ -134,7 +134,7 @@
 	}
 }
 
-662={ #伊安涅亚
+662={ #Iamneia
 	terrain="plains"
 	culture="philistine"
 	religion="carthaginian_pantheon"
@@ -153,7 +153,7 @@
 	}
 }
 
-663={ #伊俄珀
+663={ #Iope
 	terrain="plains"
 	culture="philistine"
 	religion="carthaginian_pantheon"
@@ -175,7 +175,7 @@
 	}
 }
 
-664={ #巴勒斯坦的阿波罗尼亚
+664={ #Apollonia Palaistinas
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -198,7 +198,7 @@
 	port_building=1
 }
 
-665={ #斯特拉托诺斯高塔
+665={ #Stratonos Pyrgos
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -214,7 +214,7 @@
 	}
 }
 
-666={ #叙卡弥那
+666={ #Sykamina
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -233,7 +233,7 @@
 	}
 }
 
-667={ #多拉
+667={ #Dora
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -252,7 +252,7 @@
 	}
 }
 
-668={ #部科隆波利斯
+668={ #Boukolonpolis
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -268,7 +268,7 @@
 	}
 }
 
-669={ #杰勒迈
+669={ #Gaba
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -287,7 +287,7 @@
 	}
 }
 
-670={ #阿刻
+670={ #Ake
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -310,7 +310,7 @@
 	port_building=1
 }
 
-671={ #科法尔舒尼
+671={ #Gaba Philippon
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -329,7 +329,7 @@
 	}
 }
 
-672={ #伊兹雷勒
+672={ #Iezreela
 	terrain="hills"
 	culture="hebrew"
 	religion="judaism"
@@ -348,7 +348,7 @@
 	}
 }
 
-673={ #斯居托波利斯
+673={ #Skythopolis
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -367,7 +367,7 @@
 	}
 }
 
-674={ #腓洛忒里亚
+674={ #Philoteria
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -383,7 +383,7 @@
 	}
 }
 
-675={ #巴勒斯坦的珀拉
+675={ #Pella Palaistinas
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -407,7 +407,7 @@
 	}
 }
 
-676={ #萨勒姆
+676={ #Salem
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -423,7 +423,7 @@
 	}
 }
 
-677={ #塞福里斯
+677={ #Sepphoris
 	terrain="hills"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -439,7 +439,7 @@
 	}
 }
 
-678={ #纳尔巴塔
+678={ #Narbata
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -458,7 +458,7 @@
 	}
 }
 
-679={ #撒马利亚
+679={ #Samaria
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -484,7 +484,7 @@
 	}
 }
 
-680={ #谢克姆
+680={ #Shekhem
 	terrain="hills"
 	culture="hebrew"
 	religion="judaism"
@@ -507,7 +507,7 @@
 	holy_site=omen_joseph
 }
 
-681={ #卡拉克摩巴
+681={ #Qer Harreseth
 	terrain="hills"
 	culture="hebrew"
 	religion="judaism"
@@ -526,7 +526,7 @@
 	}
 }
 
-682={ #安提帕特里斯
+682={ #Aphek
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -545,7 +545,7 @@
 	}
 }
 
-683={ #以法莲
+683={ #Efrayim
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -562,7 +562,7 @@
 	holy_site=omen_caleb_joshua
 }
 
-684={ #耶里科
+684={ #Yeriho
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -584,7 +584,7 @@
 	}
 }
 
-685={ #吕大
+685={ #Lod
 	terrain="plains"
 	culture="philistine"
 	religion="judaism"
@@ -600,7 +600,7 @@
 	}
 }
 
-686={ #厄马俄乌斯
+686={ #Emmaom
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -622,7 +622,7 @@
 	}
 }
 
-687={ #耶路撒冷
+687={ #Yerushalayim
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -648,7 +648,7 @@
 	holy_site=omen_samuel
 }
 
-688={ #忒科亚
+688={ #Thekoa
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -667,7 +667,7 @@
 	}
 }
 
-689={ #柏塔耳
+689={ #Bethar
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -683,7 +683,7 @@
 	}
 }
 
-690={ #马里萨
+690={ #Marisa
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -705,7 +705,7 @@
 	}
 }
 
-691={ #希伯伦
+691={ #Hebron
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -725,7 +725,7 @@
 	holy_site=omen_abraham
 }
 
-692={ #阿多拉
+692={ #Adora
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -748,7 +748,7 @@
 	}
 }
 
-693={ #塔拉
+693={ #Thala
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -772,7 +772,7 @@
 	}
 }
 
-694={ #玛翁
+694={ #Maor
 	terrain="plains"
 	culture="philistine"
 	religion="arabian_pantheon"
@@ -788,7 +788,7 @@
 	}
 }
 
-695={ #厄路萨
+695={ #Chellous
 	terrain="dry_plains"
 	culture="hebrew"
 	religion="judaism"
@@ -814,7 +814,7 @@
 	}
 }
 
-696={ #柏托摩拉孔
+696={ #Betomolachon
 	terrain="dry_plains"
 	culture="philistine"
 	religion="arabian_pantheon"
@@ -835,7 +835,7 @@
 	}
 }
 
-697={ #涅萨那
+697={ #Nessana
 	terrain="desert"
 	culture="philistine"
 	religion="arabian_pantheon"
@@ -855,7 +855,7 @@
 	}
 }
 
-698={ #索巴塔
+698={ #Sobata
 	terrain="dry_plains"
 	culture="hebrew"
 	religion="arabian_pantheon"
@@ -874,7 +874,7 @@
 	}
 }
 
-699={ #厄玻达
+699={ #Eboda
 	terrain="dry_plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -893,7 +893,7 @@
 	}
 }
 
-700={ #曼普西斯
+700={ #Mampsis
 	terrain="hills"
 	culture="hebrew"
 	religion="arabian_pantheon"
@@ -916,7 +916,7 @@
 	}
 }
 
-702={ #胡赛玛
+702={ #Quseima
 	terrain="hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -937,7 +937,7 @@
 	}
 }
 
-703={ #吉普萨里亚
+703={ #Gypsaria
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -950,7 +950,7 @@
 	}
 }
 
-704={ #埃拉纳
+704={ #Aelana
 	terrain="dry_plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -968,7 +968,7 @@
 	port_building=1
 }
 
-705={ #萨布卡
+705={ #Sabkah
 	terrain="dry_plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -984,7 +984,7 @@
 	}
 }
 
-706={ #玻西亚
+706={ #Bossia
 	terrain="dry_plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1003,7 +1003,7 @@
 	}
 }
 
-707={ #阿里厄尔得拉
+707={ #Arieldela
 	terrain="dry_plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1022,7 +1022,7 @@
 	}
 }
 
-708={ #卡尔顾亚
+708={ #Kalgouia
 	terrain="dry_plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1038,7 +1038,7 @@
 	}
 }
 
-709={ #托洛哈
+709={ #Toloha
 	terrain="dry_plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1060,7 +1060,7 @@
 	}
 }
 
-710={ #左亚拉
+710={ #Zoara
 	terrain="dry_plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1084,7 +1084,7 @@
 	}
 }
 
-711={ #马萨达
+711={ #Matsada
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1103,7 +1103,7 @@
 	}
 }
 
-712={ #阿洛厄斯
+712={ #Rabbat Moab
 	terrain="dry_plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1125,7 +1125,7 @@
 	}
 }
 
-713={ #利维亚斯
+713={ #Betheran
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1144,7 +1144,7 @@
 	}
 }
 
-714={ #堤罗斯
+714={ #Tyros
 	terrain="dry_plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1170,7 +1170,7 @@
 	}
 }
 
-715={ #犹地亚的加达拉
+715={ #Gezer
 	terrain="hills"
 	culture="hebrew"
 	religion="judaism"
@@ -1189,7 +1189,7 @@
 	}
 }
 
-716={ #厄斯部斯
+716={ #Hisban
 	terrain="dry_plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1215,7 +1215,7 @@
 	}
 }
 
-717={ #米底巴
+717={ #Medvah
 	terrain="dry_plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1234,7 +1234,7 @@
 	}
 }
 
-718={ #拉巴亚扪
+718={ #Ammana
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="judaism"
@@ -1253,7 +1253,7 @@
 	}
 }
 
-719={ #阿克拉巴
+719={ #Akraba
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1269,7 +1269,7 @@
 	}
 }
 
-720={ #阿索丰
+720={ #Asophon
 	terrain="hills"
 	culture="hebrew"
 	religion="judaism"
@@ -1292,7 +1292,7 @@
 	}
 }
 
-721={ #革拉萨
+721={ #Gerasa
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="judaism"
@@ -1316,7 +1316,7 @@
 	}
 }
 
-722={ #加达拉
+722={ #Gadara
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1335,7 +1335,7 @@
 	}
 }
 
-723={ #希波斯
+723={ #Hippos
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1363,7 +1363,7 @@
 	}
 }
 
-727={ #阿拉毛亚
+727={ #Aramaua
 	terrain="dry_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1379,7 +1379,7 @@
 	}
 }
 
-728={ #奥阿拉
+728={ #Auara
 	terrain="dry_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1398,7 +1398,7 @@
 	}
 }
 
-729={ #佩特拉
+729={ #Petra
 	terrain="hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1424,7 +1424,7 @@
 	holy_site=omen_al_qaum
 }
 
-730={ #阿德卢
+730={ #Adrou
 	terrain="dry_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1440,7 +1440,7 @@
 	}
 }
 
-731={ #麦伊
+731={ #Mhai
 	terrain="desert"
 	culture="hebrew"
 	religion="judaism"
@@ -1456,7 +1456,7 @@
 	}
 }
 
-732={ #阿德拉哈
+732={ #Adraa
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1479,7 +1479,7 @@
 	}
 }
 
-733={ #得卡波利斯的阿比拉
+733={ #Abila Dekapoleos
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="judaism"
@@ -1503,7 +1503,7 @@
 	}
 }
 
-734={ #玻斯特拉
+734={ #Bostra
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1534,7 +1534,7 @@
 	}
 }
 
-735={ #卡那塔
+735={ #Kanatha
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1550,7 +1550,7 @@
 	}
 }
 
-736={ #摩塔那
+736={ #Mothana
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1566,7 +1566,7 @@
 	}
 }
 
-737={ #拉丰
+737={ #Rhaphana
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1603,7 +1603,7 @@
 	}
 }
 
-739={ #卡耳奈亚
+739={ #Karnaia
 	terrain="dry_plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1627,7 +1627,7 @@
 	}
 }
 
-7554={ #阿拉伯沙漠
+7554={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="carthaginian_pantheon"

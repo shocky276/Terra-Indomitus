@@ -100,7 +100,7 @@ treasure_manager = {
 			key = "treasure_stone_of_sinifere"
 			icon = "treasure_sarcophagus"
 			state_modifier = {
-				local_tribesmen_output = 0.15
+				local_tribesmen_output = 0.15 #
 			}
 		}
 		15 = { # Arcus - Bicha of Balazote
@@ -112,7 +112,7 @@ treasure_manager = {
 		}
 		16 = { # Rome
 			key = "treasure_tomb_of_romulus"
-			icon = "treasure_sarcophagus"
+			icon = "treasure_sarcophagus" #
 			state_modifier = {
 				local_pop_assimilation_speed = 0.15
 			}

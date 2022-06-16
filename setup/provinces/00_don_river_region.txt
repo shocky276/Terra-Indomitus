@@ -1,4 +1,4 @@
-﻿8042={ #塔奈斯河
+﻿8042={ #Tanais
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-8043={ #塔奈斯河
+8043={ #Tanais
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-8044={ #塔奈斯河
+8044={ #Tanais
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-8045={ #塔奈斯河
+8045={ #Tanais
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-8046={ #塔奈斯河
+8046={ #Tanais
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-8047={ #拉河
+8047={ #Rha
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-8048={ #拉河
+8048={ #Rha
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-8049={ #拉河
+8049={ #Rha
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

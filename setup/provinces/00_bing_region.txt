@@ -1,4 +1,4 @@
-﻿8625={ #高都
+﻿8625={ #Azraq
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -17,7 +17,7 @@
 	}
 }
 
-8626={ #泫氏
+8626={ #Ghorani
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -38,7 +38,7 @@
 	}
 }
 
-8627={ #猗氏
+8627={ #Fao
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -56,7 +56,7 @@
 	}
 }
 
-8628={ #长子
+8628={ #Singda
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -75,7 +75,7 @@
 	}
 }
 
-8629={ #屯留
+8629={ #Qadarif
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -96,7 +96,7 @@
 	}
 }
 
-8630={ #余吾
+8630={ #Dinder
 	terrain="hills"
 	culture="chidi"
 	religion="chinese_religions"
@@ -114,7 +114,7 @@
 	}
 }
 
-8631={ #虒
+8631={ #Qalbi
 	terrain="plains"
 	culture="chidi"
 	religion="chinese_religions"
@@ -132,7 +132,7 @@
 	}
 }
 
-8632={ #襄垣
+8632={ #Simsim
 	terrain="plains"
 	culture="chidi"
 	religion="chinese_religions"
@@ -150,7 +150,7 @@
 	}
 }
 
-8633={ #涅
+8633={ #Nie
 	terrain="plains"
 	culture="jin"
 	religion="chinese_religions"
@@ -163,7 +163,7 @@
 	}
 }
 
-8634={ #潞
+8634={ #Gamal
 	terrain="mountain"
 	culture="chidi"
 	religion="chinese_religions"
@@ -181,7 +181,7 @@
 	}
 }
 
-8635={ #沾
+8635={ #Matamir
 	terrain="mountain"
 	culture="chidi"
 	religion="chinese_religions"
@@ -199,7 +199,7 @@
 	}
 }
 
-8636={ #晋阳
+8636={ #Jinyang
 	terrain="farmland"
 	culture="jin"
 	religion="chinese_religions"
@@ -226,7 +226,7 @@
 	}
 }
 
-8637={ #邬
+8637={ #Hagiz
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -245,7 +245,7 @@
 	}
 }
 
-8638={ #平陶
+8638={ #Gash
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -264,7 +264,7 @@
 	}
 }
 
-8639={ #榆次
+8639={ #Taragaga
 	terrain="plains"
 	culture="jin"
 	religion="chinese_religions"
@@ -283,7 +283,7 @@
 	}
 }
 
-8640={ #上艾
+8640={ #Shang ai
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -304,7 +304,7 @@
 	}
 }
 
-8641={ #盂
+8641={ #Kalakoy
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -328,7 +328,7 @@
 	}
 }
 
-8642={ #阳曲
+8642={ #Baqbaqah
 	terrain="hills"
 	culture="baidi"
 	religion="hu_religions"
@@ -350,7 +350,7 @@
 	}
 }
 
-8643={ #虑虒
+8643={ #Gabub
 	terrain="mountain"
 	culture="baidi"
 	religion="hu_religions"
@@ -371,7 +371,7 @@
 	}
 }
 
-8644={ #葰人
+8644={ #Barakit
 	terrain="hills"
 	culture="baidi"
 	religion="hu_religions"
@@ -392,7 +392,7 @@
 	}
 }
 
-8645={ #汾阳
+8645={ #Boval
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -413,7 +413,7 @@
 	}
 }
 
-8646={ #代
+8646={ #Dai
 	terrain="dry_plains"
 	culture="shanrong"
 	religion="hu_religions"
@@ -434,7 +434,7 @@
 	}
 }
 
-8647={ #广昌
+8647={ #Guangchang
 	terrain="hills"
 	culture="shanrong"
 	religion="hu_religions"
@@ -455,7 +455,7 @@
 	}
 }
 
-8648={ #卤
+8648={ #Gherma
 	terrain="hills"
 	culture="shanrong"
 	religion="hu_religions"
@@ -471,7 +471,7 @@
 	}
 }
 
-8649={ #狋氏
+8649={ #Haria
 	terrain="dry_plains"
 	culture="shanrong"
 	religion="hu_religions"
@@ -490,7 +490,7 @@
 	}
 }
 
-8650={ #当城
+8650={ #Dangcheng
 	terrain="hills"
 	culture="shanrong"
 	religion="hu_religions"
@@ -510,7 +510,7 @@
 	}
 }
 
-8651={ #高柳
+8651={ #Gaoliu
 	terrain="hills"
 	culture="shanrong"
 	religion="hu_religions"
@@ -526,7 +526,7 @@
 	}
 }
 
-8653={ #平城
+8653={ #Mai Adrasha
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -547,7 +547,7 @@
 	}
 }
 
-8654={ #繁畤
+8654={ #Fanzhi
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -566,7 +566,7 @@
 	}
 }
 
-8655={ #楼烦
+8655={ #Gijet
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -582,7 +582,7 @@
 	}
 }
 
-8656={ #善无
+8656={ #Shanwu
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -595,7 +595,7 @@
 	}
 }
 
-8657={ #沃阳
+8657={ #Tsirhan
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -608,7 +608,7 @@
 	}
 }
 
-8658={ #强阴
+8658={ #Mezber
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -621,7 +621,7 @@
 	}
 }
 
-8659={ #骆
+8659={ #Luo
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -634,7 +634,7 @@
 	}
 }
 
-8660={ #成乐
+8660={ #Adi Ugri
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -647,7 +647,7 @@
 	}
 }
 
-8661={ #定襄
+8661={ #Debarwa
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -660,7 +660,7 @@
 	}
 }
 
-8662={ #武城
+8662={ #Taille
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -673,7 +673,7 @@
 	}
 }
 
-8663={ #云中
+8663={ #Akordat
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -692,7 +692,7 @@
 	}
 }
 
-8664={ #原阳
+8664={ #Tucul
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -708,7 +708,7 @@
 	}
 }
 
-8665={ #犊和
+8665={ #Duhe
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -721,7 +721,7 @@
 	}
 }
 
-8666={ #沙陵
+8666={ #Shaling
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -734,7 +734,7 @@
 	}
 }
 
-8667={ #沙南
+8667={ #Isis
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -747,7 +747,7 @@
 	}
 }
 
-9393={ #太行山
+9393={ #Impassable
 	terrain="impassable_terrain"
 	culture="jin"
 	religion="chinese_religions"
@@ -757,7 +757,7 @@
 	province_rank=""
 }
 
-9394={ #西山
+9394={ #Impassable
 	terrain="impassable_terrain"
 	culture="jin"
 	religion="chinese_religions"
@@ -767,7 +767,7 @@
 	province_rank=""
 }
 
-9395={ #云中山
+9395={ #Impassable
 	terrain="impassable_terrain"
 	culture="jin"
 	religion="chinese_religions"
@@ -777,7 +777,7 @@
 	province_rank=""
 }
 
-9396={ #五台山
+9396={ #Impassable
 	terrain="impassable_terrain"
 	culture="jin"
 	religion="chinese_religions"
@@ -787,7 +787,7 @@
 	province_rank=""
 }
 
-9398={ #句注山
+9398={ #Impassable
 	terrain="impassable_terrain"
 	culture="jin"
 	religion="chinese_religions"
@@ -797,7 +797,7 @@
 	province_rank=""
 }
 
-9399={ #恒山
+9399={ #Impassable
 	terrain="impassable_terrain"
 	culture="jin"
 	religion="chinese_religions"
@@ -807,7 +807,7 @@
 	province_rank=""
 }
 
-9400={ #恒山
+9400={ #Impassable
 	terrain="impassable_terrain"
 	culture="jin"
 	religion="chinese_religions"
@@ -817,7 +817,7 @@
 	province_rank=""
 }
 
-9570={ #白登山
+9570={ #Impassable
 	terrain="impassable_terrain"
 	culture="donghu"
 	religion="hu_religions"
@@ -827,7 +827,7 @@
 	province_rank=""
 }
 
-9575={ #阴山
+9575={ #Impassable
 	terrain="impassable_terrain"
 	culture="loufan"
 	religion="hu_religions"
@@ -837,7 +837,7 @@
 	province_rank=""
 }
 
-9588={ #马城
+9588={ #Macheng
 	terrain="hills"
 	culture="shanrong"
 	religion="hu_religions"
@@ -853,7 +853,7 @@
 	}
 }
 
-9880={ #中陵
+9880={ #Zhongling
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"

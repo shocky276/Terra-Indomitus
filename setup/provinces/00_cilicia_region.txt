@@ -1,4 +1,4 @@
-﻿330={ #卡耳帕西翁
+﻿330={ #Karpaseia
 	terrain="hills"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -17,7 +17,7 @@
 	}
 }
 
-331={ #塞浦路斯的萨拉米斯
+331={ #Salamis Kyprias
 	terrain="plains"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -50,11 +50,11 @@
 	port_building=1
 }
 
-332={ #喀提翁
+332={ #Kition
 	terrain="forest"
 	culture="cypriot"
 	religion="roman_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -90,7 +90,7 @@
 	port_building=1
 }
 
-333={ #塞浦路斯的索罗伊
+333={ #Soloi Kypriai
 	terrain="hills"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -106,11 +106,11 @@
 	}
 }
 
-334={ #帕福斯
+334={ #Paphos
 	terrain="hills"
 	culture="cypriot"
 	religion="roman_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
@@ -137,7 +137,7 @@
 	port_building=1
 }
 
-335={ #居雷尼亚
+335={ #Keryneia
 	terrain="hills"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -162,7 +162,7 @@
 	port_building=1
 }
 
-336={ #塔玛索斯
+336={ #Tamassos
 	terrain="hills"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -181,7 +181,7 @@
 	}
 }
 
-338={ #阿玛图斯
+338={ #Amathous
 	terrain="hills"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -197,7 +197,7 @@
 	}
 }
 
-795={ #密里安德洛斯
+795={ #Alexandreia Issos
 	terrain="plains"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -239,7 +239,7 @@
 	port_building=1
 }
 
-796={ #伊索斯
+796={ #Issos
 	terrain="plains"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -271,7 +271,7 @@
 	}
 }
 
-1870={ #阿耳马尼亚之门
+1870={ #Amanian Gates
 	terrain="mountain"
 	culture="kennataian"
 	religion="anatolian_religion"
@@ -281,7 +281,7 @@
 	province_rank=""
 }
 
-1872={ #帕诺耳摩斯
+1872={ #Panormos
 	terrain="mountain"
 	culture="kennataian"
 	religion="anatolian_religion"
@@ -309,7 +309,7 @@
 	}
 }
 
-1873={ #厄拉那
+1873={ #Erana
 	terrain="hills"
 	culture="kennataian"
 	religion="anatolian_religion"
@@ -333,7 +333,7 @@
 	}
 }
 
-1874={ #俄尼安多斯
+1874={ #Oiniandos
 	terrain="farmland"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -365,7 +365,7 @@
 	}
 }
 
-1875={ #卡斯塔巴拉
+1875={ #Hierapolis Kastabala
 	terrain="plains"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -402,7 +402,7 @@
 	}
 }
 
-1877={ #阿纳匝耳玻斯
+1877={ #Anazarbos
 	terrain="plains"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -441,7 +441,7 @@
 	}
 }
 
-1878={ #品得尼宋
+1878={ #Sipha
 	terrain="hills"
 	culture="kennataian"
 	religion="anatolian_religion"
@@ -483,7 +483,7 @@
 	}
 }
 
-1879={ #埃盖埃
+1879={ #Aigaiai
 	terrain="plains"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -511,7 +511,7 @@
 	}
 }
 
-1880={ #摩普绥提亚
+1880={ #Mopsou Hestia
 	terrain="farmland"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -540,7 +540,7 @@
 	port_building=1
 }
 
-1881={ #马罗斯
+1881={ #Mallos
 	terrain="farmland"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -603,7 +603,7 @@
 	port_building=1
 }
 
-1882={ #阿达诺斯
+1882={ #Adana
 	terrain="plains"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -670,7 +670,7 @@
 	}
 }
 
-1883={ #塔耳索斯
+1883={ #Tarsos
 	terrain="plains"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -731,7 +731,7 @@
 	port_building=1
 }
 
-1887={ #索罗伊
+1887={ #Soloi
 	terrain="hills"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -764,7 +764,7 @@
 	}
 }
 
-1889={ #马伽耳萨
+1889={ #Magarsa
 	terrain="marsh"
 	culture="cilician"
 	religion="roman_pantheon"
@@ -791,11 +791,11 @@
 	}
 }
 
-1890={ #霍尔摩伊
+1890={ #Holmoi
 	terrain="plains"
 	culture="lalasian"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
@@ -830,11 +830,11 @@
 	}
 }
 
-1892={ #厄拉尤萨
+1892={ #Elaioussa
 	terrain="hills"
 	culture="cilician"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
@@ -863,11 +863,11 @@
 	port_building=1
 }
 
-1894={ #俄尔柏
+1894={ #Olbe
 	terrain="hills"
 	culture="lalasian"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
@@ -900,7 +900,7 @@
 	}
 }
 
-1896={ #尼尼卡
+1896={ #Ninika
 	terrain="hills"
 	culture="lalasian"
 	religion="anatolian_religion"
@@ -932,7 +932,7 @@
 	}
 }
 
-1897={ #刻楞得里斯
+1897={ #Kelenderis
 	terrain="hills"
 	culture="lalasian"
 	religion="anatolian_religion"
@@ -956,11 +956,11 @@
 	}
 }
 
-1901={ #阿涅穆里翁
+1901={ #Anemourion
 	terrain="hills"
 	culture="lalasian"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
@@ -975,11 +975,11 @@
 	}
 }
 
-1904={ #奇里乞亚的塞林努斯
+1904={ #Selinous Kilikias
 	terrain="hills"
 	culture="lalasian"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
@@ -1015,7 +1015,7 @@
 	port_building=1
 }
 
-1917={ #拉开涅
+1917={ #Lakaine
 	terrain="mountain"
 	culture="lalasian"
 	religion="anatolian_religion"
@@ -1031,7 +1031,7 @@
 	}
 }
 
-6431={ #马里翁
+6431={ #Marion
 	terrain="hills"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -1051,7 +1051,7 @@
 	port_building=1
 }
 
-6433={ #居特洛伊
+6433={ #Chythroi
 	terrain="plains"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -1070,7 +1070,7 @@
 	}
 }
 
-7968={ #库印达
+7968={ #Kyinda
 	terrain="mountain"
 	culture="cilician"
 	religion="anatolian_religion"
@@ -1100,7 +1100,7 @@
 	}
 }
 
-7986={ #孔马革涅之门
+7986={ #Commagenian Gates
 	terrain="mountain"
 	culture="kennataian"
 	religion="anatolian_religion"
@@ -1110,11 +1110,11 @@
 	province_rank=""
 }
 
-7990={ #库里翁
+7990={ #Kourion
 	terrain="forest"
 	culture="cypriot"
 	religion="roman_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1126,7 +1126,7 @@
 	}
 }
 
-7991={ #伊达利翁
+7991={ #Idalion
 	terrain="plains"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -1150,7 +1150,7 @@
 	}
 }
 
-8021={ #叙利亚之门
+8021={ #Syrian Gates
 	terrain="mountain"
 	culture="kennataian"
 	religion="anatolian_religion"
@@ -1160,7 +1160,7 @@
 	province_rank=""
 }
 
-8022={ #奇里乞亚之门
+8022={ #Cilician Gates
 	terrain="mountain"
 	culture="kennataian"
 	religion="anatolian_religion"

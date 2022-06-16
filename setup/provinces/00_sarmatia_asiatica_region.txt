@@ -1,4 +1,4 @@
-﻿1674={ #库曼尼亚
+﻿1674={ #Cumania
 	terrain="mountain"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -14,7 +14,7 @@
 	}
 }
 
-5866={ #匝本得耳
+5866={ #Zabender
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -30,7 +30,7 @@
 	}
 }
 
-5867={ #苏特览得耳
+5867={ #Suthrander
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -43,7 +43,7 @@
 	}
 }
 
-5868={ #洛廷
+5868={ #Lotin
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -65,7 +65,7 @@
 	}
 }
 
-5869={ #马格赖
+5869={ #Magrai
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -78,7 +78,7 @@
 	}
 }
 
-5870={ #库雷马
+5870={ #Kurema
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -94,7 +94,7 @@
 	}
 }
 
-5871={ #匝壬
+5871={ #Zarem
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -107,7 +107,7 @@
 	}
 }
 
-5872={ #什耶奇
+5872={ #Shiech
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -120,7 +120,7 @@
 	}
 }
 
-5873={ #摩利乌奇
+5873={ #Molliuch
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -136,7 +136,7 @@
 	}
 }
 
-5874={ #雷克拉西亚
+5874={ #Recrassia
 	terrain="marsh"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -150,7 +150,7 @@
 	holy_site=omen_argimpasa
 }
 
-5875={ #阿绍姆
+5875={ #Ashawm
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -166,7 +166,7 @@
 	}
 }
 
-5876={ #瑟克特拉
+5876={ #Sechtra
 	terrain="marsh"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -179,7 +179,7 @@
 	}
 }
 
-5877={ #厄尼姆
+5877={ #Enim
 	terrain="marsh"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -192,7 +192,7 @@
 	}
 }
 
-5878={ #阿塔耳
+5878={ #Atar
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -211,7 +211,7 @@
 	}
 }
 
-5884={ #卡堤斯
+5884={ #Katys
 	terrain="marsh"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -227,7 +227,7 @@
 	}
 }
 
-5885={ #穆伊克西塔
+5885={ #Muiksita
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -243,7 +243,7 @@
 	}
 }
 
-5886={ #阿刻
+5886={ #Akkei
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -259,7 +259,7 @@
 	}
 }
 
-5887={ #巴什克拉
+5887={ #Bashkra
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -275,7 +275,7 @@
 	}
 }
 
-5888={ #忒奇卡
+5888={ #Techka
 	terrain="marsh"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -291,7 +291,7 @@
 	}
 }
 
-5889={ #多诺勒
+5889={ #Donol
 	terrain="forest"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -307,7 +307,7 @@
 	}
 }
 
-5890={ #密孔
+5890={ #Mykon
 	terrain="forest"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -324,7 +324,7 @@
 	holy_site=omen_api
 }
 
-5891={ #阿夫剌尔
+5891={ #Avrar
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -340,7 +340,7 @@
 	}
 }
 
-5892={ #瑟辰
+5892={ #Sechem
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -353,7 +353,7 @@
 	}
 }
 
-5893={ #克雷阿施
+5893={ #Creasch
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -366,7 +366,7 @@
 	}
 }
 
-5894={ #居塔
+5894={ #Kyta
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -379,7 +379,7 @@
 	}
 }
 
-5895={ #维尼卡
+5895={ #Vynikka
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -398,7 +398,7 @@
 	}
 }
 
-5896={ #萨耳敦
+5896={ #Sarden
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -414,7 +414,7 @@
 	}
 }
 
-5897={ #宇耳本特
+5897={ #Yrbent
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -430,7 +430,7 @@
 	}
 }
 
-5898={ #沙柴勒
+5898={ #Shachel
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -443,7 +443,7 @@
 	}
 }
 
-5899={ #古拉
+5899={ #Gura
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -456,7 +456,7 @@
 	}
 }
 
-5900={ #德律纳
+5900={ #Dryna
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -469,7 +469,7 @@
 	}
 }
 
-5901={ #波拉奇
+5901={ #Porach
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -482,7 +482,7 @@
 	}
 }
 
-5902={ #雷阿马
+5902={ #Reama
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -495,7 +495,7 @@
 	}
 }
 
-5903={ #贡涅马
+5903={ #Gonnema
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -508,7 +508,7 @@
 	}
 }
 
-5904={ #密拉
+5904={ #Mylla
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -521,7 +521,7 @@
 	}
 }
 
-5905={ #伊斯卡
+5905={ #Iska
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -534,7 +534,7 @@
 	}
 }
 
-5906={ #沃雷纳
+5906={ #Vorena
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -547,7 +547,7 @@
 	}
 }
 
-5907={ #塔克萨堤
+5907={ #Taksaty
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -560,7 +560,7 @@
 	}
 }
 
-5908={ #吉亚谢奇
+5908={ #Gyashech
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -576,7 +576,7 @@
 	}
 }
 
-5909={ #诺罗姆
+5909={ #Norom
 	terrain="marsh"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -592,7 +592,7 @@
 	}
 }
 
-5910={ #乌夫拉
+5910={ #Uvra
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -605,7 +605,7 @@
 	}
 }
 
-5917={ #雍纳夫
+5917={ #Yonnav
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -618,7 +618,7 @@
 	}
 }
 
-5918={ #克罗达
+5918={ #Chroda
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -634,7 +634,7 @@
 	}
 }
 
-5919={ #库耳恩斯克
+5919={ #Kurnsck
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -650,7 +650,7 @@
 	}
 }
 
-5920={ #厄耳墨尔
+5920={ #Ermel
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -663,7 +663,7 @@
 	}
 }
 
-5921={ #阿巴奇
+5921={ #Abach
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -679,7 +679,7 @@
 	}
 }
 
-5922={ #库墨塔
+5922={ #Kumetta
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -692,7 +692,7 @@
 	}
 }
 
-5923={ #阿克塔布
+5923={ #Achtab
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -705,7 +705,7 @@
 	}
 }
 
-5924={ #沃尔纳
+5924={ #Volna
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -718,7 +718,7 @@
 	}
 }
 
-5925={ #克赖恩
+5925={ #Krayn
 	terrain="steppe"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -737,7 +737,7 @@
 	}
 }
 
-5926={ #杜泽阿
+5926={ #Duzea
 	terrain="steppe"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -750,7 +750,7 @@
 	}
 }
 
-5927={ #瓦律耳
+5927={ #Varyr
 	terrain="steppe"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -766,7 +766,7 @@
 	}
 }
 
-5928={ #涅柴克
+5928={ #Nechek
 	terrain="steppe"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -779,7 +779,7 @@
 	}
 }
 
-5929={ #卓丁
+5929={ #Zhodyn
 	terrain="steppe"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -795,7 +795,7 @@
 	}
 }
 
-5930={ #胡鲁伊耳
+5930={ #Huruir
 	terrain="steppe"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -811,7 +811,7 @@
 	}
 }
 
-5931={ #斯卡塔耳
+5931={ #Skatar
 	terrain="forest"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -824,7 +824,7 @@
 	}
 }
 
-5932={ #马纳耳
+5932={ #Manar
 	terrain="forest"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -837,7 +837,7 @@
 	}
 }
 
-5933={ #帷尔达
+5933={ #Vylda
 	terrain="steppe"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -853,7 +853,7 @@
 	}
 }
 
-6132={ #索尔约特斯
+6132={ #Solyots
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -866,7 +866,7 @@
 	}
 }
 
-6133={ #迪尔盖特
+6133={ #Dyrghet
 	terrain="forest"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -882,7 +882,7 @@
 	}
 }
 
-6134={ #安尼凯
+6134={ #Annike
 	terrain="forest"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -895,7 +895,7 @@
 	}
 }
 
-6135={ #滕塞
+6135={ #Thense
 	terrain="forest"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -908,7 +908,7 @@
 	}
 }
 
-6136={ #斯库尔蒂斯克
+6136={ #Skurtisk
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -921,7 +921,7 @@
 	}
 }
 
-6137={ #沃伊诺尔
+6137={ #Voynor
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -937,7 +937,7 @@
 	}
 }
 
-6138={ #加尔特
+6138={ #Ghart
 	terrain="forest"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -950,7 +950,7 @@
 	}
 }
 
-6140={ #塔亨特
+6140={ #Tahent
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -966,7 +966,7 @@
 	}
 }
 
-6143={ #阿戈诺尔
+6143={ #Aghonor
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -979,7 +979,7 @@
 	}
 }
 
-6148={ #宁特
+6148={ #Nynt
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -998,7 +998,7 @@
 	}
 }
 
-6149={ #加赫科
+6149={ #Ghahko
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1017,7 +1017,7 @@
 	}
 }
 
-6150={ #基赫基恩格拉
+6150={ #Kihkyengra
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1030,7 +1030,7 @@
 	}
 }
 
-6151={ #阿尔基恩特
+6151={ #Alkhyent
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1043,7 +1043,7 @@
 	}
 }
 
-6152={ #基尔加德
+6152={ #Kilgad
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1056,7 +1056,7 @@
 	}
 }
 
-6153={ #乌尔丹
+6153={ #Uldan
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1078,7 +1078,7 @@
 	}
 }
 
-6154={ #里内克
+6154={ #Rynek
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1094,7 +1094,7 @@
 	}
 }
 
-6155={ #基斯科
+6155={ #Kisko
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1107,7 +1107,7 @@
 	}
 }
 
-6156={ #艾赫科纳
+6156={ #Aihkohna
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1120,7 +1120,7 @@
 	}
 }
 
-6157={ #什加里塔特
+6157={ #Shgaritat
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1136,7 +1136,7 @@
 	}
 }
 
-6158={ #乌尼杰
+6158={ #Unige
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1149,7 +1149,7 @@
 	}
 }
 
-6159={ #斯塔特
+6159={ #Stat
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1162,7 +1162,7 @@
 	}
 }
 
-6160={ #韦尔欣
+6160={ #Verhyn
 	terrain="forest"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1175,7 +1175,7 @@
 	}
 }
 
-6161={ #亚坎特
+6161={ #Yakkant
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1188,7 +1188,7 @@
 	}
 }
 
-6162={ #伊加斯特
+6162={ #Ygast
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1201,7 +1201,7 @@
 	}
 }
 
-6163={ #维约诺特斯
+6163={ #Vyonots
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1217,7 +1217,7 @@
 	}
 }
 
-6164={ #什乔尔
+6164={ #Shchor
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1233,7 +1233,7 @@
 	}
 }
 
-6165={ #韦尔
+6165={ #Vel
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1246,7 +1246,7 @@
 	}
 }
 
-6166={ #基罗内斯
+6166={ #Gyrones
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1259,7 +1259,7 @@
 	}
 }
 
-6167={ #斯泰塔
+6167={ #Stetta
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1272,7 +1272,7 @@
 	}
 }
 
-6168={ #乌什坎
+6168={ #Ushkan
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1285,7 +1285,7 @@
 	}
 }
 
-6169={ #韦里伊
+6169={ #Veryi
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1298,7 +1298,7 @@
 	}
 }
 
-6170={ #多洛姆
+6170={ #Dolom
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1311,7 +1311,7 @@
 	}
 }
 
-6171={ #加利格
+6171={ #Galligh
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1324,7 +1324,7 @@
 	}
 }
 
-6172={ #乌龙
+6172={ #Uron
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1337,7 +1337,7 @@
 	}
 }
 
-6173={ #西塔奇卡
+6173={ #Sythachka
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1350,7 +1350,7 @@
 	}
 }
 
-6174={ #斯奇泰
+6174={ #Scytte
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1363,7 +1363,7 @@
 	}
 }
 
-6175={ #沙什恰
+6175={ #Shashcha
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1376,7 +1376,7 @@
 	}
 }
 
-6176={ #摩隆
+6176={ #Molon
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1389,7 +1389,7 @@
 	}
 }
 
-6177={ #伊什肯克
+6177={ #Ishkenk
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1405,7 +1405,7 @@
 	}
 }
 
-6178={ #甘卡
+6178={ #Ganka
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1421,7 +1421,7 @@
 	}
 }
 
-6179={ #岳洛
+6179={ #Yoro
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1434,7 +1434,7 @@
 	}
 }
 
-6180={ #维格里亚
+6180={ #Vygriya
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1447,7 +1447,7 @@
 	}
 }
 
-6181={ #阿奇卡奇
+6181={ #Achkach
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1460,7 +1460,7 @@
 	}
 }
 
-6182={ #伊格科伊
+6182={ #Ighkoy
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1473,7 +1473,7 @@
 	}
 }
 
-6183={ #尤蒂
+6183={ #Yuty
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1486,7 +1486,7 @@
 	}
 }
 
-6184={ #约沃拉特
+6184={ #Yovolat
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1499,7 +1499,7 @@
 	}
 }
 
-6185={ #奥罗
+6185={ #Ollo
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1512,7 +1512,7 @@
 	}
 }
 
-6186={ #乌尔真克
+6186={ #Urgenkh
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1525,7 +1525,7 @@
 	}
 }
 
-6187={ #茹蒂卡
+6187={ #Zhutikka
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1538,7 +1538,7 @@
 	}
 }
 
-6188={ #维尔尼
+6188={ #Vyrni
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1554,7 +1554,7 @@
 	}
 }
 
-6189={ #阿恩
+6189={ #Arn
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1567,7 +1567,7 @@
 	}
 }
 
-6190={ #基奇帕
+6190={ #Kichpa
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1580,7 +1580,7 @@
 	}
 }
 
-6191={ #坎格
+6191={ #Khang
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1593,7 +1593,7 @@
 	}
 }
 
-6192={ #西尤特尼奇
+6192={ #Syutnich
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1606,7 +1606,7 @@
 	}
 }
 
-6193={ #热夫
+6193={ #Zhev
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1625,7 +1625,7 @@
 	}
 }
 
-6194={ #乌尔热夫
+6194={ #Urzhev
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1638,7 +1638,7 @@
 	}
 }
 
-6195={ #乌尔沃拉特
+6195={ #Urvolat
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1651,7 +1651,7 @@
 	}
 }
 
-6196={ #沃拉特
+6196={ #Volat
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1667,7 +1667,7 @@
 	}
 }
 
-6197={ #乌尔格诺
+6197={ #Urghno
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1680,7 +1680,7 @@
 	}
 }
 
-6198={ #乌尔加斯特
+6198={ #Urgast
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1693,7 +1693,7 @@
 	}
 }
 
-6199={ #伊多洛格
+6199={ #Ydologh
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1706,7 +1706,7 @@
 	}
 }
 
-6200={ #乌尔韦尔
+6200={ #Urvel
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1719,7 +1719,7 @@
 	}
 }
 
-6201={ #阿加里泰
+6201={ #Agharite
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1735,7 +1735,7 @@
 	}
 }
 
-6202={ #伊尔坎特
+6202={ #Irkant
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1748,7 +1748,7 @@
 	}
 }
 
-6203={ #加拉特
+6203={ #Ghalat
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1761,7 +1761,7 @@
 	}
 }
 
-6204={ #乌尔加拉特
+6204={ #Urghalat
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1777,7 +1777,7 @@
 	}
 }
 
-6205={ #乌约罗
+6205={ #Uyoro
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1793,7 +1793,7 @@
 	}
 }
 
-6206={ #凯特斯克
+6206={ #Ketsk
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1806,7 +1806,7 @@
 	}
 }
 
-6207={ #乌尔维伊格拉
+6207={ #Urviygra
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1822,7 +1822,7 @@
 	}
 }
 
-6208={ #科基
+6208={ #Khochy
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1835,7 +1835,7 @@
 	}
 }
 
-6209={ #伊多莫尔
+6209={ #Ydomor
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1848,7 +1848,7 @@
 	}
 }
 
-6210={ #根纳尔恰
+6210={ #Ghenarcha
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1864,7 +1864,7 @@
 	}
 }
 
-6211={ #乌尔杰纳尔洽
+6211={ #Urgenarcha
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -1877,7 +1877,7 @@
 	}
 }
 
-6212={ #伊格雷
+6212={ #Ygrre
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1890,7 +1890,7 @@
 	}
 }
 
-6213={ #阿奇卡克什
+6213={ #Achkhacsh
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -1909,7 +1909,7 @@
 	}
 }
 
-6214={ #茹纳
+6214={ #Zhuna
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1922,7 +1922,7 @@
 	}
 }
 
-6215={ #乌尔加特
+6215={ #Urghat
 	terrain="steppe"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -1935,7 +1935,7 @@
 	}
 }
 
-6216={ #维亚尔凯
+6216={ #Vyalke
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -1948,7 +1948,7 @@
 	}
 }
 
-6217={ #奥格龙
+6217={ #Ogron
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -1961,7 +1961,7 @@
 	}
 }
 
-6218={ #门尼洽克
+6218={ #Mennichak
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -1980,7 +1980,7 @@
 	}
 }
 
-6219={ #乌耶尼克
+6219={ #Uyennik
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -1996,7 +1996,7 @@
 	}
 }
 
-6220={ #乌尔耶尼克
+6220={ #Uryennik
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2012,7 +2012,7 @@
 	}
 }
 
-6221={ #热尔克
+6221={ #Zhelk
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2025,7 +2025,7 @@
 	}
 }
 
-6222={ #阿尔扎赫克
+6222={ #Arzhahk
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2038,7 +2038,7 @@
 	}
 }
 
-6223={ #科罗拉特斯
+6223={ #Khorolats
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2054,7 +2054,7 @@
 	}
 }
 
-6224={ #温加德
+6224={ #Vhingad
 	terrain="marsh"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2067,7 +2067,7 @@
 	}
 }
 
-6225={ #莫诺克
+6225={ #Monok
 	terrain="marsh"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2080,7 +2080,7 @@
 	}
 }
 
-6226={ #乌尔莫诺克
+6226={ #Urmonok
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2093,7 +2093,7 @@
 	}
 }
 
-6227={ #扎莱
+6227={ #Zale
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2109,7 +2109,7 @@
 	}
 }
 
-6228={ #阿尔扎莱
+6228={ #Arzhale
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2125,7 +2125,7 @@
 	}
 }
 
-6229={ #孔特
+6229={ #Khonnt
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2141,7 +2141,7 @@
 	}
 }
 
-6230={ #阿尔孔特
+6230={ #Arkhonnt
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2154,7 +2154,7 @@
 	}
 }
 
-6231={ #芦名
+6231={ #Ashina
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2167,7 +2167,7 @@
 	}
 }
 
-6232={ #谢拉特斯
+6232={ #Schelats
 	terrain="steppe"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -2180,7 +2180,7 @@
 	}
 }
 
-7600={ #萨比拉农
+7600={ #Sabiranum
 	terrain="forest"
 	culture="sindi"
 	religion="caucasian_religion"
@@ -2199,7 +2199,7 @@
 	}
 }
 
-7602={ #恩德扎拉
+7602={ #Endzhara
 	terrain="mountain"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2219,7 +2219,7 @@
 	}
 }
 
-7604={ #特祖耳
+7604={ #Tzur
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2238,7 +2238,7 @@
 	}
 }
 
-7605={ #乌尔特塞吉
+7605={ #Urtseki
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2257,7 +2257,7 @@
 	}
 }
 
-7606={ #赫尼亚特
+7606={ #Heniat
 	terrain="mountain"
 	culture="abasgoi"
 	religion="caucasian_religion"
@@ -2276,7 +2276,7 @@
 	}
 }
 
-7607={ #阿巴斯格里亚
+7607={ #Abasgria
 	terrain="mountain"
 	culture="abasgoi"
 	religion="caucasian_religion"
@@ -2292,7 +2292,7 @@
 	}
 }
 
-7608={ #海帕内拉
+7608={ #Hypanera
 	terrain="forest"
 	culture="sindi"
 	religion="caucasian_religion"
@@ -2308,7 +2308,7 @@
 	}
 }
 
-7609={ #海帕尼斯帕
+7609={ #Hypanispa
 	terrain="steppe"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -2324,7 +2324,7 @@
 	}
 }
 
-7610={ #西纳德
+7610={ #Sinad
 	terrain="steppe"
 	culture="sindi"
 	religion="caucasian_religion"
@@ -2340,7 +2340,7 @@
 	}
 }
 
-7611={ #阿拉尼斯
+7611={ #Alanis
 	terrain="forest"
 	culture="sindi"
 	religion="caucasian_religion"
@@ -2359,7 +2359,7 @@
 	}
 }
 
-7612={ #马览
+7612={ #Maran
 	terrain="forest"
 	culture="sindi"
 	religion="caucasian_religion"
@@ -2375,7 +2375,7 @@
 	}
 }
 
-7613={ #耶尔萨
+7613={ #Yelsa
 	terrain="forest"
 	culture="sindi"
 	religion="caucasian_religion"
@@ -2391,7 +2391,7 @@
 	}
 }
 
-7614={ #萨拉帷
+7614={ #Salavy
 	terrain="forest"
 	culture="sindi"
 	religion="caucasian_religion"
@@ -2410,7 +2410,7 @@
 	}
 }
 
-7615={ #厄尔夫鲁兹
+7615={ #Elvruz
 	terrain="forest"
 	culture="sindi"
 	religion="caucasian_religion"
@@ -2423,7 +2423,7 @@
 	}
 }
 
-7616={ #特马克拉特
+7616={ #Tmakrat
 	terrain="hills"
 	culture="sindi"
 	religion="caucasian_religion"
@@ -2433,7 +2433,7 @@
 	province_rank=""
 }
 
-7617={ #斯忒普纳
+7617={ #Stepna
 	terrain="forest"
 	culture="maeotian"
 	religion="caucasian_religion"
@@ -2446,7 +2446,7 @@
 	}
 }
 
-7618={ #罗戈宇
+7618={ #Rogoy
 	terrain="forest"
 	culture="maeotian"
 	religion="caucasian_religion"
@@ -2462,7 +2462,7 @@
 	}
 }
 
-7619={ #拉普拉
+7619={ #Lapra
 	terrain="forest"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -2481,7 +2481,7 @@
 	}
 }
 
-7620={ #卡尔克律
+7620={ #Kalkry
 	terrain="steppe"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -2497,7 +2497,7 @@
 	}
 }
 
-7621={ #瓦楞特
+7621={ #Valent
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2516,7 +2516,7 @@
 	}
 }
 
-7622={ #斯卡林
+7622={ #Skarin
 	terrain="mountain"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -2532,7 +2532,7 @@
 	}
 }
 
-7623={ #特勒卡塔
+7623={ #Terekata
 	terrain="mountain"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2548,7 +2548,7 @@
 	}
 }
 
-7624={ #孔塔尼
+7624={ #Contani
 	terrain="mountain"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2564,7 +2564,7 @@
 	}
 }
 
-7625={ #迪戴
+7625={ #Didai
 	terrain="mountain"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2580,7 +2580,7 @@
 	}
 }
 
-7626={ #阿卢凯
+7626={ #Arukai
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2596,7 +2596,7 @@
 	}
 }
 
-7627={ #维尔克斯
+7627={ #Verks
 	terrain="mountain"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2612,7 +2612,7 @@
 	}
 }
 
-7628={ #马吕特斯
+7628={ #Malyts
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2634,7 +2634,7 @@
 	}
 }
 
-7629={ #戈拉特
+7629={ #Gorat
 	terrain="mountain"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2650,7 +2650,7 @@
 	}
 }
 
-7630={ #卡弗卢尔
+7630={ #Kaflur
 	terrain="forest"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -2663,7 +2663,7 @@
 	}
 }
 
-7631={ #伊尔卡特
+7631={ #Irkat
 	terrain="forest"
 	culture="siraci"
 	religion="indo_iranian_religion"
@@ -2676,7 +2676,7 @@
 	}
 }
 
-7632={ #伊耳马纳
+7632={ #Irmana
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2689,7 +2689,7 @@
 	}
 }
 
-7633={ #卡伊特
+7633={ #Kayit
 	terrain="forest"
 	culture="legian"
 	religion="indo_iranian_religion"
@@ -2702,7 +2702,7 @@
 	}
 }
 
-7634={ #库洛尔
+7634={ #Khulor
 	terrain="forest"
 	culture="maeotian"
 	religion="caucasian_religion"
@@ -2715,7 +2715,7 @@
 	}
 }
 
-7635={ #亚多斯
+7635={ #Iados
 	terrain="forest"
 	culture="maeotian"
 	religion="caucasian_religion"
@@ -2734,7 +2734,7 @@
 	}
 }
 
-7636={ #伽壬
+7636={ #Garen
 	terrain="forest"
 	culture="maeotian"
 	religion="caucasian_religion"
@@ -2750,7 +2750,7 @@
 	}
 }
 
-7637={ #耶亚塔
+7637={ #Yeyata
 	terrain="marsh"
 	culture="maeotian"
 	religion="caucasian_religion"
@@ -2769,7 +2769,7 @@
 	}
 }
 
-8050={ #乌耳拉
+8050={ #Uyra
 	terrain="marsh"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"

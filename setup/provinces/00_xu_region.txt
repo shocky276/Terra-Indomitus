@@ -1,4 +1,4 @@
-﻿8479={ #城阳
+﻿8479={ #Belaya
 	terrain="plains"
 	culture="qilu"
 	religion="chinese_religions"
@@ -20,7 +20,7 @@
 	}
 }
 
-8523={ #东武
+8523={ #Dongwu
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -42,7 +42,7 @@
 	}
 }
 
-8524={ #不其
+8524={ #Buqi
 	terrain="forest"
 	culture="xu"
 	religion="chinese_religions"
@@ -64,7 +64,7 @@
 	}
 }
 
-8525={ #姑幕
+8525={ #Dyagili
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -86,7 +86,7 @@
 	}
 }
 
-8526={ #箕
+8526={ #Guta
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -108,7 +108,7 @@
 	}
 }
 
-8527={ #琅琊
+8527={ #Langya
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -151,7 +151,7 @@
 	}
 }
 
-8528={ #左桁
+8528={ #Yelnya
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -186,7 +186,7 @@
 	}
 }
 
-8531={ #沂山
+8531={ #Impassable
 	terrain="impassable_terrain"
 	culture="xu"
 	religion="chinese_religions"
@@ -196,7 +196,7 @@
 	province_rank=""
 }
 
-8532={ #郯
+8532={ #Tan
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -226,7 +226,7 @@
 	}
 }
 
-8533={ #曲阜
+8533={ #Dzyarzhynsk
 	terrain="farmland"
 	culture="xu"
 	religion="chinese_religions"
@@ -248,7 +248,7 @@
 	}
 }
 
-8534={ #卞
+8534={ #Berezina
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -267,7 +267,7 @@
 	}
 }
 
-8535={ #费
+8535={ #Fei
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -286,7 +286,7 @@
 	}
 }
 
-8536={ #合乡
+8536={ #Hexiang
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -305,7 +305,7 @@
 	}
 }
 
-8537={ #邹
+8537={ #Minsk
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -327,7 +327,7 @@
 	}
 }
 
-8538={ #倪
+8538={ #Byerazino
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -349,7 +349,7 @@
 	}
 }
 
-8539={ #薛
+8539={ #Smarhon
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -371,7 +371,7 @@
 	}
 }
 
-8540={ #彭城
+8540={ #Lunichno
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -394,7 +394,7 @@
 	}
 }
 
-8541={ #吕
+8541={ #Lyu
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -425,7 +425,7 @@
 	}
 }
 
-8542={ #梧
+8542={ #Lepiel
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -452,7 +452,7 @@
 	}
 }
 
-8543={ #游阳
+8543={ #Lukomlskoye
 	terrain="marsh"
 	culture="xu"
 	religion="chinese_religions"
@@ -476,7 +476,7 @@
 	}
 }
 
-8544={ #利成
+8544={ #Krasnaya
 	terrain="forest"
 	culture="xu"
 	religion="chinese_religions"
@@ -500,7 +500,7 @@
 	}
 }
 
-8545={ #司吾
+8545={ #Shlou
 	terrain="forest"
 	culture="xu"
 	religion="chinese_religions"
@@ -524,7 +524,7 @@
 	}
 }
 
-8546={ #启阳
+8546={ #Gory
 	terrain="forest"
 	culture="xu"
 	religion="chinese_religions"
@@ -543,7 +543,7 @@
 	}
 }
 
-8547={ #武城
+8547={ #Mogilev
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -562,7 +562,7 @@
 	}
 }
 
-8548={ #兰陵
+8548={ #Lanling
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -581,7 +581,7 @@
 	}
 }
 
-8549={ #襄贲
+8549={ #Chavusy
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -600,7 +600,7 @@
 	}
 }
 
-8550={ #承
+8550={ #Cheng
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -619,7 +619,7 @@
 	}
 }
 
-8551={ #傅阳
+8551={ #Fuyang
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -638,7 +638,7 @@
 	}
 }
 
-8552={ #下邳
+8552={ #Liska
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -661,7 +661,7 @@
 	}
 }
 
-8553={ #徐
+8553={ #Bazki
 	terrain="farmland"
 	culture="xu"
 	religion="chinese_religions"
@@ -711,7 +711,7 @@
 	}
 }
 
-8554={ #凌
+8554={ #Kalmykovskii
 	terrain="forest"
 	culture="huaiyi"
 	religion="chinese_religions"
@@ -742,7 +742,7 @@
 	}
 }
 
-8555={ #广陵
+8555={ #Bolshoi
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -784,7 +784,7 @@
 	}
 }
 
-8556={ #海阳
+8556={ #Berezovaya
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -813,7 +813,7 @@
 	}
 }
 
-8557={ #盐
+8557={ #Tikhaya
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -839,7 +839,7 @@
 	}
 }
 
-8558={ #东阳
+8558={ #Dongyang
 	terrain="forest"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -870,7 +870,7 @@
 	}
 }
 
-8559={ #堂
+8559={ #Bogucharka
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -897,7 +897,7 @@
 	}
 }
 
-8560={ #僮
+8560={ #Titarevka
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -932,7 +932,7 @@
 	}
 }
 
-8561={ #厹犹
+8561={ #Komyshna
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -960,7 +960,7 @@
 	}
 }
 
-8562={ #淮浦
+8562={ #Huaipu
 	terrain="marsh"
 	culture="huaiyi"
 	religion="chinese_religions"
@@ -982,7 +982,7 @@
 	}
 }
 
-9647={ #淮陵
+9647={ #Huailing
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -1005,7 +1005,7 @@
 	}
 }
 
-9648={ #富陵
+9648={ #Fuling
 	terrain="forest"
 	culture="huaiyi"
 	religion="chinese_religions"
@@ -1029,7 +1029,7 @@
 	}
 }
 
-9649={ #高邮
+9649={ #Gaoyou
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -1053,7 +1053,7 @@
 	}
 }
 
-9650={ #高乡
+9650={ #Gaoxiang
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"

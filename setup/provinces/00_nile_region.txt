@@ -1,4 +1,4 @@
-﻿6376={ #法老运河
+﻿6376={ #Canal of the Pharaohs
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-7666={ #法老运河
+7666={ #Canal of the Pharaohs
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-7667={ #法老运河
+7667={ #Canal of the Pharaohs
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-7669={ #佩卢西亚克河
+7669={ #Nile, the Pelusiac
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-7670={ #佩卢西亚克河
+7670={ #Nile, the Pelusiac
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-7671={ #佩卢西亚克河
+7671={ #Nile, the Pelusiac
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-7672={ #佩卢西亚克河
+7672={ #Nile, the Pelusiac
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-7673={ #佩卢西亚克河
+7673={ #Nile, the Pelusiac
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-7674={ #玻尔比提涅河
+7674={ #Nile, the Bolbitine
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -88,7 +88,7 @@
 	province_rank=""
 }
 
-7675={ #法特尼提克河
+7675={ #Nile, the Phatnitic
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -98,7 +98,7 @@
 	province_rank=""
 }
 
-7676={ #法特尼提克河
+7676={ #Nile, the Phatnitic
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -108,7 +108,7 @@
 	province_rank=""
 }
 
-7677={ #法特尼提克河
+7677={ #Nile, the Phatnitic
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -118,7 +118,7 @@
 	province_rank=""
 }
 
-7678={ #法特尼提克河
+7678={ #Nile, the Phatnitic
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -128,7 +128,7 @@
 	province_rank=""
 }
 
-7679={ #法特尼提克河
+7679={ #Nile, the Phatnitic
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -138,7 +138,7 @@
 	province_rank=""
 }
 
-7680={ #玻尔比提涅河
+7680={ #Nile, the Bolbitine
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -148,7 +148,7 @@
 	province_rank=""
 }
 
-7681={ #玻尔比提涅河
+7681={ #Nile, the Bolbitine
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -158,7 +158,7 @@
 	province_rank=""
 }
 
-7682={ #玻尔比提涅河
+7682={ #Nile, the Bolbitine
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -168,7 +168,7 @@
 	province_rank=""
 }
 
-7683={ #玻尔比提涅河
+7683={ #Nile, the Bolbitine
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -178,7 +178,7 @@
 	province_rank=""
 }
 
-7684={ #法老运河
+7684={ #Canal of the Pharaohs
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -188,7 +188,7 @@
 	province_rank=""
 }
 
-7685={ #法老运河
+7685={ #Canal of the Pharaohs
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -198,7 +198,7 @@
 	province_rank=""
 }
 
-7686={ #法老运河
+7686={ #Canal of the Pharaohs
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -208,7 +208,7 @@
 	province_rank=""
 }
 
-7687={ #尼罗河
+7687={ #Nile
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

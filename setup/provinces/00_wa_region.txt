@@ -1,4 +1,4 @@
-﻿9303={ #末卢
+﻿9303={ #Matsura
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -14,7 +14,7 @@
 	}
 }
 
-9304={ #一支
+9304={ #Iki
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -30,7 +30,7 @@
 	}
 }
 
-9305={ #对马
+9305={ #Tsushima
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -46,7 +46,7 @@
 	}
 }
 
-9306={ #伊都
+9306={ #Ito
 	terrain="farmland"
 	culture="kumaso"
 	religion="wa_religions"
@@ -62,7 +62,7 @@
 	}
 }
 
-9307={ #奴
+9307={ #Nanokuni
 	terrain="plains"
 	culture="kumaso"
 	religion="wa_religions"
@@ -78,7 +78,7 @@
 	}
 }
 
-9308={ #不弥
+9308={ #Fumi
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -94,7 +94,7 @@
 	}
 }
 
-9309={ #不呼
+9309={ #Fuko
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -107,7 +107,7 @@
 	}
 }
 
-9310={ #卑牟古
+9310={ #Himuka
 	terrain="plains"
 	culture="kumaso"
 	religion="wa_religions"
@@ -120,7 +120,7 @@
 	}
 }
 
-9311={ #邅婼
+9311={ #Tane
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -133,7 +133,7 @@
 	}
 }
 
-9312={ #筑紫山脉
+9312={ #Impassable
 	terrain="impassable_terrain"
 	culture="kumaso"
 	religion="wa_religions"
@@ -143,7 +143,7 @@
 	province_rank=""
 }
 
-9313={ #伊邪
+9313={ #Iya
 	terrain="forest"
 	culture="kumaso"
 	religion="wa_religions"
@@ -156,7 +156,7 @@
 	}
 }
 
-9314={ #对苏
+9314={ #Tosu
 	terrain="forest"
 	culture="kumaso"
 	religion="wa_religions"
@@ -169,7 +169,7 @@
 	}
 }
 
-9315={ #华奴苏奴
+9315={ #Wanasana
 	terrain="forest"
 	culture="wa"
 	religion="wa_religions"
@@ -182,7 +182,7 @@
 	}
 }
 
-9316={ #苏奴
+9316={ #Sanu
 	terrain="plains"
 	culture="wa"
 	religion="wa_religions"
@@ -195,7 +195,7 @@
 	}
 }
 
-9317={ #伊邪山脉
+9317={ #Impassable
 	terrain="impassable_terrain"
 	culture="kumaso"
 	religion="wa_religions"
@@ -205,7 +205,7 @@
 	province_rank=""
 }
 
-9318={ #于般提
+9318={ #Awaji
 	terrain="forest"
 	culture="wa"
 	religion="wa_religions"
@@ -218,7 +218,7 @@
 	}
 }
 
-9319={ #投马
+9319={ #Tsuma
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -234,7 +234,7 @@
 	}
 }
 
-9320={ #乌奴
+9320={ #Ana
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -250,7 +250,7 @@
 	}
 }
 
-9321={ #支惟
+9321={ #Kii
 	terrain="forest"
 	culture="wa"
 	religion="wa_religions"
@@ -266,7 +266,7 @@
 	}
 }
 
-9322={ #巴百支
+9322={ #Houki
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -282,7 +282,7 @@
 	}
 }
 
-9323={ #巴利
+9323={ #Hari
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -298,7 +298,7 @@
 	}
 }
 
-9324={ #丹偶
+9324={ #Wanasana
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -314,7 +314,7 @@
 	}
 }
 
-9325={ #躬臣
+9325={ #Kuga
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -330,7 +330,7 @@
 	}
 }
 
-9326={ #隐伎
+9326={ #Oki
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -346,7 +346,7 @@
 	}
 }
 
-9327={ #投马山脉
+9327={ #Impassable
 	terrain="impassable_terrain"
 	culture="wa"
 	religion="wa_religions"
@@ -356,7 +356,7 @@
 	province_rank=""
 }
 
-9328={ #邪马台
+9328={ #Yamato
 	terrain="farmland"
 	culture="wa"
 	religion="wa_religions"
@@ -372,7 +372,7 @@
 	}
 }
 
-9329={ #邪马
+9329={ #Yama
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -388,7 +388,7 @@
 	}
 }
 
-9330={ #为吾
+9330={ #Igo
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -404,7 +404,7 @@
 	}
 }
 
-9331={ #斯马
+9331={ #Shima
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -420,7 +420,7 @@
 	}
 }
 
-9332={ #鬼奴
+9332={ #Kina
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -436,7 +436,7 @@
 	}
 }
 
-9333={ #弥奴
+9333={ #Mino
 	terrain="jungle"
 	culture="aduma"
 	religion="wa_religions"
@@ -452,7 +452,7 @@
 	}
 }
 
-9334={ #狗奴
+9334={ #Kuna
 	terrain="jungle"
 	culture="aduma"
 	religion="wa_religions"
@@ -468,7 +468,7 @@
 	}
 }
 
-9672={ #都支
+9672={ #Toki
 	terrain="mountain"
 	culture="aduma"
 	religion="wa_religions"
@@ -484,7 +484,7 @@
 	}
 }
 
-9673={ #好古都
+9673={ #Nukata
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -500,7 +500,7 @@
 	}
 }
 
-9674={ #姐奴
+9674={ #Sana
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -516,7 +516,7 @@
 	}
 }
 
-9675={ #呼邑
+9675={ #Iwa
 	terrain="plains"
 	culture="wa"
 	religion="wa_religions"
@@ -532,7 +532,7 @@
 	}
 }
 
-9676={ #邅蒲
+9676={ #Tanba
 	terrain="forest"
 	culture="wa"
 	religion="wa_religions"
@@ -548,7 +548,7 @@
 	}
 }
 
-9677={ #华呼苏
+9677={ #Wakasa
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -564,7 +564,7 @@
 	}
 }
 
-9678={ #著无
+9678={ #Tajima
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -580,7 +580,7 @@
 	}
 }
 
-9679={ #因蒲
+9679={ #Inaba
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -596,7 +596,7 @@
 	}
 }
 
-9680={ #新奴
+9680={ #Sinano
 	terrain="mountain"
 	culture="aduma"
 	religion="wa_religions"
@@ -612,7 +612,7 @@
 	}
 }
 
-9681={ #区巴利
+9681={ #Owari
 	terrain="plains"
 	culture="aduma"
 	religion="wa_religions"
@@ -628,7 +628,7 @@
 	}
 }
 
-9682={ #伊斯
+9682={ #Ise
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -644,7 +644,7 @@
 	}
 }
 
-9683={ #区弥
+9683={ #Ohmi
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -660,7 +660,7 @@
 	}
 }
 
-9684={ #古巴堤
+9684={ #Kawati
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -676,7 +676,7 @@
 	}
 }
 
-9685={ #于支
+9685={ #Aki
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -692,7 +692,7 @@
 	}
 }
 
-9686={ #洒夫
+9686={ #Suo
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -708,7 +708,7 @@
 	}
 }
 
-9687={ #弥苏沽
+9687={ #Mimasaka
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -724,7 +724,7 @@
 	}
 }
 
-9688={ #伊巴弥
+9688={ #Iwami
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -740,7 +740,7 @@
 	}
 }
 
-9689={ #蓖奴
+9689={ #Hinokuni
 	terrain="plains"
 	culture="kumaso"
 	religion="wa_religions"
@@ -756,7 +756,7 @@
 	}
 }
 
-9690={ #躬马苏
+9690={ #Kumaso
 	terrain="forest"
 	culture="kumaso"
 	religion="wa_religions"
@@ -772,7 +772,7 @@
 	}
 }
 
-9691={ #兜邪
+9691={ #Toyo
 	terrain="farmland"
 	culture="kumaso"
 	religion="wa_religions"
@@ -788,7 +788,7 @@
 	}
 }
 
-9692={ #兜皋斯
+9692={ #Tukusi
 	terrain="forest"
 	culture="kumaso"
 	religion="wa_religions"
@@ -804,7 +804,7 @@
 	}
 }
 
-9693={ #跗付弥
+9693={ #Ohsumi
 	terrain="forest"
 	culture="kumaso"
 	religion="wa_religions"
@@ -820,7 +820,7 @@
 	}
 }
 
-9694={ #跗跗支都
+9694={ #Ohkita
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -836,7 +836,7 @@
 	}
 }
 
-9695={ #中支
+9695={ #Tuge
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -852,7 +852,7 @@
 	}
 }
 
-9696={ #亢投闾支
+9696={ #Kazuraki
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -868,7 +868,7 @@
 	}
 }
 
-9697={ #褒 
+9697={ #Honokuni
 	terrain="plains"
 	culture="aduma"
 	religion="wa_religions"
@@ -884,7 +884,7 @@
 	}
 }
 
-9698={ #兜跗
+9698={ #Tohtuo
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -900,7 +900,7 @@
 	}
 }
 
-9699={ #先吾
+9699={ #Soga
 	terrain="plains"
 	culture="aduma"
 	religion="wa_religions"
@@ -916,7 +916,7 @@
 	}
 }
 
-9700={ #洒吾
+9700={ #Suruga
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -932,7 +932,7 @@
 	}
 }
 
-9701={ #伊卜巴闾
+9701={ #Iohara
 	terrain="plains"
 	culture="aduma"
 	religion="wa_religions"
@@ -948,7 +948,7 @@
 	}
 }
 
-9702={ #因投
+9702={ #Izu
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -964,7 +964,7 @@
 	}
 }
 
-9703={ #古卑
+9703={ #Kai
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -980,7 +980,7 @@
 	}
 }
 
-9704={ #仙奴吾
+9704={ #Sinaga
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -996,7 +996,7 @@
 	}
 }
 
-9705={ #桑吾牟
+9705={ #Sagamu
 	terrain="plains"
 	culture="aduma"
 	religion="wa_religions"
@@ -1012,7 +1012,7 @@
 	}
 }
 
-9706={ #彻蒲
+9706={ #Titibu
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1028,7 +1028,7 @@
 	}
 }
 
-9707={ #牟素
+9707={ #Musasi
 	terrain="plains"
 	culture="aduma"
 	religion="wa_religions"
@@ -1044,7 +1044,7 @@
 	}
 }
 
-9708={ #于巴
+9708={ #Awa
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1060,7 +1060,7 @@
 	}
 }
 
-9709={ #亢豆
+9709={ #Kazusa
 	terrain="plains"
 	culture="aduma"
 	religion="wa_religions"
@@ -1076,7 +1076,7 @@
 	}
 }
 
-9710={ #纤谩附
+9710={ #Simobusa
 	terrain="plains"
 	culture="aduma"
 	religion="wa_religions"
@@ -1092,7 +1092,7 @@
 	}
 }
 
-9711={ #卑妲
+9711={ #Hitati
 	terrain="forest"
 	culture="aduma"
 	religion="wa_religions"
@@ -1108,7 +1108,7 @@
 	}
 }
 
-9712={ #谢 
+9712={ #Yasu
 	terrain="farmland"
 	culture="wa"
 	religion="wa_religions"
@@ -1124,7 +1124,7 @@
 	}
 }
 
-9713={ #牟住
+9713={ #Motosu
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1140,7 +1140,7 @@
 	}
 }
 
-9714={ #牟絜
+9714={ #Mugetu
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1156,7 +1156,7 @@
 	}
 }
 
-9715={ #支须
+9715={ #Kiso
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1172,7 +1172,7 @@
 	}
 }
 
-9716={ #滨图
+9716={ #Hida
 	terrain="mountain"
 	culture="aduma"
 	religion="wa_religions"
@@ -1188,7 +1188,7 @@
 	}
 }
 
-9717={ #西逋
+9717={ #Suwa
 	terrain="mountain"
 	culture="aduma"
 	religion="wa_religions"
@@ -1204,7 +1204,7 @@
 	}
 }
 
-9718={ #古弥兜基奴
+9718={ #Kaminotuke
 	terrain="mountain"
 	culture="aduma"
 	religion="wa_religions"
@@ -1220,7 +1220,7 @@
 	}
 }
 
-9719={ #斯牟兜基奴
+9719={ #Simotuke
 	terrain="forest"
 	culture="aduma"
 	religion="wa_religions"
@@ -1236,7 +1236,7 @@
 	}
 }
 
-9720={ #怒 
+9720={ #Nasu
 	terrain="forest"
 	culture="aduma"
 	religion="wa_religions"
@@ -1252,7 +1252,7 @@
 	}
 }
 
-9721={ #弥低奴奥
+9721={ #Mitinooku
 	terrain="mountain"
 	culture="ainu"
 	religion="yi_religions"
@@ -1268,7 +1268,7 @@
 	}
 }
 
-9722={ #屯浓吾
+9722={ #Tunuga
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1284,7 +1284,7 @@
 	}
 }
 
-9723={ #弥昆
+9723={ #Mikuni
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1300,7 +1300,7 @@
 	}
 }
 
-9724={ #句 
+9724={ #Kosi
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1316,7 +1316,7 @@
 	}
 }
 
-9725={ #燕马
+9725={ #Enuma
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1332,7 +1332,7 @@
 	}
 }
 
-9726={ #亢吾
+9726={ #Kaga
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1348,7 +1348,7 @@
 	}
 }
 
-9727={ #巴皋卑
+9727={ #Hakui
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1364,7 +1364,7 @@
 	}
 }
 
-9728={ #奴兜
+9728={ #Noto
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1380,7 +1380,7 @@
 	}
 }
 
-9729={ #伊民投
+9729={ #Imizu
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1396,7 +1396,7 @@
 	}
 }
 
-9730={ #军比支
+9730={ #Kubiki
 	terrain="hills"
 	culture="aduma"
 	religion="wa_religions"
@@ -1412,7 +1412,7 @@
 	}
 }
 
-9731={ #句奴褒古易
+9731={ #Kosinofukae
 	terrain="forest"
 	culture="ainu"
 	religion="yi_religions"
@@ -1428,7 +1428,7 @@
 	}
 }
 
-9732={ #斯闾古巴
+9732={ #Sirakawa
 	terrain="mountain"
 	culture="ainu"
 	religion="yi_religions"
@@ -1444,7 +1444,7 @@
 	}
 }
 
-9733={ #褒都古都
+9733={ #Futakata
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1460,7 +1460,7 @@
 	}
 }
 
-9734={ #于故
+9734={ #Akasi
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1476,7 +1476,7 @@
 	}
 }
 
-9735={ #亢牟
+9735={ #Harimanokamo
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1492,7 +1492,7 @@
 	}
 }
 
-9736={ #古邪
+9736={ #Kaya
 	terrain="farmland"
 	culture="wa"
 	religion="wa_religions"
@@ -1508,7 +1508,7 @@
 	}
 }
 
-9737={ #乌奴
+9737={ #Kibinoana
 	terrain="plains"
 	culture="wa"
 	religion="wa_religions"
@@ -1524,7 +1524,7 @@
 	}
 }
 
-9738={ #封牟堤
+9738={ #Kibinohomuti
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1540,7 +1540,7 @@
 	}
 }
 
-9739={ #古苏
+9739={ #Kasa
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1556,7 +1556,7 @@
 	}
 }
 
-9740={ #斯牟兜弥堤
+9740={ #Simotumiti
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1572,7 +1572,7 @@
 	}
 }
 
-9741={ #巴皋支
+9741={ #Hakuki
 	terrain="forest"
 	culture="wa"
 	religion="wa_religions"
@@ -1588,7 +1588,7 @@
 	}
 }
 
-9742={ #屯 
+9742={ #Tunu
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1604,7 +1604,7 @@
 	}
 }
 
-9743={ #焉牟
+9743={ #Amu
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1620,7 +1620,7 @@
 	}
 }
 
-9744={ #昆马奴
+9744={ #Kumano
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1636,7 +1636,7 @@
 	}
 }
 
-9745={ #于巴
+9745={ #Awa
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1652,7 +1652,7 @@
 	}
 }
 
-9746={ #囊吾
+9746={ #Naga
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1668,7 +1668,7 @@
 	}
 }
 
-9747={ #区堤
+9747={ #Oti
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1684,7 +1684,7 @@
 	}
 }
 
-9748={ #浓马
+9748={ #Numa
 	terrain="hills"
 	culture="wa"
 	religion="wa_religions"
@@ -1700,7 +1700,7 @@
 	}
 }
 
-9749={ #昆弥
+9749={ #Kumi
 	terrain="forest"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1716,7 +1716,7 @@
 	}
 }
 
-9750={ #亢斯巴邪
+9750={ #Kazehaya
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1732,7 +1732,7 @@
 	}
 }
 
-9751={ #巴都
+9751={ #Hata
 	terrain="forest"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1748,7 +1748,7 @@
 	}
 }
 
-9752={ #优写
+9752={ #Usa
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1764,7 +1764,7 @@
 	}
 }
 
-9753={ #皋婼苏支
+9753={ #Kunisaki
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1780,7 +1780,7 @@
 	}
 }
 
-9754={ #卑都
+9754={ #Hita
 	terrain="forest"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1796,7 +1796,7 @@
 	}
 }
 
-9755={ #兜皋斯弥都
+9755={ #Tukusimeta
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1812,7 +1812,7 @@
 	}
 }
 
-9756={ #封逸
+9756={ #Fuzitu
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1828,7 +1828,7 @@
 	}
 }
 
-9757={ #坞区
+9757={ #Aso
 	terrain="forest"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1844,7 +1844,7 @@
 	}
 }
 
-9758={ #坞支都
+9758={ #Asikita
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1860,7 +1860,7 @@
 	}
 }
 
-9759={ #安莫苏
+9759={ #Amakusa
 	terrain="hills"
 	culture="kumaso"
 	religion="wa_religions"
@@ -1876,7 +1876,7 @@
 	}
 }
 
-9760={ #东山山脉
+9760={ #D PROV9760!
 	terrain="impassable_terrain"
 	culture="aduma"
 	religion="wa_religions"
@@ -1886,7 +1886,7 @@
 	province_rank=""
 }
 
-9761={ #东山山脉
+9761={ #D PROV9761!
 	terrain="impassable_terrain"
 	culture="aduma"
 	religion="wa_religions"
@@ -1896,7 +1896,7 @@
 	province_rank=""
 }
 
-9762={ #东山山脉
+9762={ #D PROV9762!
 	terrain="impassable_terrain"
 	culture="aduma"
 	religion="wa_religions"
@@ -1906,7 +1906,7 @@
 	province_rank=""
 }
 
-9763={ #北陆山脉
+9763={ #D PROV9763!
 	terrain="impassable_terrain"
 	culture="wa"
 	religion="wa_religions"
@@ -1916,7 +1916,7 @@
 	province_rank=""
 }
 
-9764={ #东海山脉
+9764={ #D PROV9764!
 	terrain="impassable_terrain"
 	culture="aduma"
 	religion="wa_religions"
@@ -1926,7 +1926,7 @@
 	province_rank=""
 }
 
-9765={ #支惟山脉
+9765={ #D PROV9765!
 	terrain="impassable_terrain"
 	culture="wa"
 	religion="wa_religions"

@@ -1,4 +1,4 @@
-﻿4440={ #波多利弗多罗
+﻿4440={ #Pataliputra
 	terrain="farmland"
 	culture="magadhi"
 	religion="buddhism"
@@ -24,7 +24,7 @@
 	port_building=1
 }
 
-4442={ #那烂陀
+4442={ #Nalanda
 	terrain="plains"
 	culture="magadhi"
 	religion="buddhism"
@@ -46,7 +46,7 @@
 	}
 }
 
-4443={ #捺提迦笈摩
+4443={ #Nadikagama
 	terrain="farmland"
 	culture="magadhi"
 	religion="buddhism"
@@ -68,7 +68,7 @@
 	}
 }
 
-4444={ #伽耶
+4444={ #Gaya
 	terrain="jungle"
 	culture="magadhi"
 	religion="buddhism"
@@ -91,7 +91,7 @@
 	holy_site=omen_bodh
 }
 
-4445={ #王舍城
+4445={ #Rajagagrha
 	terrain="jungle"
 	culture="magadhi"
 	religion="buddhism"
@@ -113,7 +113,7 @@
 	}
 }
 
-4446={ #瞻波
+4446={ #Campa
 	terrain="jungle"
 	culture="magadhi"
 	religion="hindu"
@@ -135,7 +135,7 @@
 	}
 }
 
-4447={ #羯朱嗢祗罗
+4447={ #Kajangala
 	terrain="jungle"
 	culture="magadhi"
 	religion="hindu"
@@ -158,7 +158,7 @@
 	port_building=1
 }
 
-4448={ #毗舍离
+4448={ #Vaisali
 	terrain="farmland"
 	culture="magadhi"
 	religion="hindu"
@@ -180,7 +180,7 @@
 	}
 }
 
-4459={ #钵多那
+4459={ #Pattana
 	terrain="mountain"
 	culture="himalayan"
 	religion="buddhism"
@@ -202,7 +202,7 @@
 	}
 }
 
-4460={ #苏乔那
+4460={ #Sugauna
 	terrain="jungle"
 	culture="himalayan"
 	religion="hindu"
@@ -218,7 +218,7 @@
 	}
 }
 
-4461={ #陀伐槃伽
+4461={ #Dwarbanga
 	terrain="plains"
 	culture="magadhi"
 	religion="buddhism"
@@ -237,7 +237,7 @@
 	}
 }
 
-4462={ #母陀伽祇梨
+4462={ #Modgagiri
 	terrain="farmland"
 	culture="magadhi"
 	religion="hindu"
@@ -259,7 +259,7 @@
 	}
 }
 
-4463={ #末利尼
+4463={ #Malini
 	terrain="jungle"
 	culture="magadhi"
 	religion="hindu"
@@ -282,7 +282,7 @@
 	holy_site=omen_mahavir_jayanti
 }
 
-4464={ #提婆钵罗湿他 
+4464={ #Devaprastha
 	terrain="jungle"
 	culture="himalayan"
 	religion="hindu"
@@ -304,7 +304,7 @@
 	}
 }
 
-5587={ #珠穆朗玛
+5587={ #Chomolangma
 	terrain="mountain"
 	culture="himalayan"
 	religion="bon_religion"
@@ -317,7 +317,7 @@
 	}
 }
 
-5628={ #巴卓 吉珠
+5628={ #Paro Kerchu
 	terrain="mountain"
 	culture="himalayan"
 	religion="bon_religion"
@@ -330,7 +330,7 @@
 	}
 }
 
-7322={ #补梨那
+7322={ #Purnia
 	terrain="farmland"
 	culture="magadhi"
 	religion="hindu"
@@ -349,7 +349,7 @@
 	}
 }
 
-7323={ #吉拉狄亚
+7323={ #Kirrhadia
 	terrain="jungle"
 	culture="magadhi"
 	religion="hindu"
@@ -365,7 +365,7 @@
 	}
 }
 
-7324={ #婆梨补罗
+7324={ #Balipura
 	terrain="plains"
 	culture="magadhi"
 	religion="hindu"
@@ -387,7 +387,7 @@
 	}
 }
 
-7325={ #奔陀罗
+7325={ #Pundra
 	terrain="farmland"
 	culture="bangli"
 	religion="buddhism"
@@ -409,7 +409,7 @@
 	}
 }
 
-7326={ #朅帝伐娑
+7326={ #Kotivarsa
 	terrain="farmland"
 	culture="magadhi"
 	religion="hindu"
@@ -428,9 +428,9 @@
 	}
 }
 
-7327={ #羯罗拏苏伐剌那
+7327={ #Karnasuvarna
 	terrain="jungle"
-	culture="magadhi"
+	culture="pandra"
 	religion="hindu"
 	trade_goods="silk"
 	civilization_value=29
@@ -447,9 +447,9 @@
 	}
 }
 
-7328={ #筏驮摩那
+7328={ #Vardhamana
 	terrain="jungle"
-	culture="bangli"
+	culture="pandra"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=24
@@ -466,9 +466,9 @@
 	}
 }
 
-7329={ #阐陀罗鸡都揭诃
-	terrain="marsh"
-	culture="bangli"
+7329={ #Chandraketugarh
+	terrain="flood_plain"
+	culture="pandra"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=22
@@ -488,10 +488,10 @@
 	}
 }
 
-7330={ #跋祇尸
-	terrain="marsh"
+7330={ #Bargysi
+	terrain="flood_plain"
 	culture="bangli"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="cloth"
 	civilization_value=11
 	barbarian_power=0
@@ -510,8 +510,8 @@
 	}
 }
 
-7331={ #遮多瞿罗摩
-	terrain="marsh"
+7331={ #Chittagong
+	terrain="flood_plain"
 	culture="bangli"
 	religion="hindu"
 	trade_goods="fish"
@@ -530,7 +530,7 @@
 	port_building=1
 }
 
-7332={ #娑罗梨伽
+7332={ #Salariga
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -546,7 +546,7 @@
 	}
 }
 
-7333={ #室利诃多
+7333={ #Srihatta
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -568,7 +568,7 @@
 	}
 }
 
-7334={ #毘拘岚补罗
+7334={ #Bikrampur
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -590,7 +590,7 @@
 	}
 }
 
-7335={ #苏槃那瞿罗
+7335={ #Souannagoura
 	terrain="plains"
 	culture="bangli"
 	religion="hindu"
@@ -612,7 +612,7 @@
 	}
 }
 
-7336={ #奢蓝补罗
+7336={ #Selampoura
 	terrain="jungle"
 	culture="bangli"
 	religion="buddhism"
@@ -631,7 +631,7 @@
 	}
 }
 
-7337={ #阿伽那揭罗
+7337={ #Aganagara
 	terrain="jungle"
 	culture="bangli"
 	religion="buddhism"
@@ -653,7 +653,7 @@
 	}
 }
 
-7338={ #提乌袪梨
+7338={ #Deoghar
 	terrain="jungle"
 	culture="magadhi"
 	religion="jainism"
@@ -675,7 +675,7 @@
 	}
 }
 
-7339={ #钵洛殊帝湿补罗
+7339={ #Pragjyotishpura
 	terrain="hills"
 	culture="kamarupi"
 	religion="hindu"
@@ -694,7 +694,7 @@
 	}
 }
 
-7340={ #苏诃摩
+7340={ #Suhma
 	terrain="plains"
 	culture="bangli"
 	religion="hindu"
@@ -716,7 +716,7 @@
 	}
 }
 
-7341={ #舍尼多补罗
+7341={ #Sonitapur
 	terrain="jungle"
 	culture="kamarupi"
 	religion="bon_religion"
@@ -738,7 +738,7 @@
 	}
 }
 
-7342={ #诃殊
+7342={ #Hajo
 	terrain="jungle"
 	culture="kamarupi"
 	religion="hindu"
@@ -757,7 +757,7 @@
 	}
 }
 
-7343={ #杜布里
+7343={ #Dhuburi
 	terrain="jungle"
 	culture="magadhi"
 	religion="hindu"
@@ -776,7 +776,7 @@
 	}
 }
 
-7344={ #戈尔帕拉
+7344={ #Goalpara
 	terrain="jungle"
 	culture="kamarupi"
 	religion="hindu"
@@ -795,9 +795,9 @@
 	}
 }
 
-7345={ #那婆陀鼻波
+7345={ #Nabadwipa
 	terrain="jungle"
-	culture="bangli"
+	culture="pandra"
 	religion="hindu"
 	trade_goods="dye"
 	civilization_value=29
@@ -814,7 +814,7 @@
 	}
 }
 
-7346={ #跋伽婆
+7346={ #Bhargava
 	terrain="jungle"
 	culture="kamarupi"
 	religion="bon_religion"
@@ -833,7 +833,7 @@
 	}
 }
 
-7347={ #薄罗迦
+7347={ #Bhallaka
 	terrain="hills"
 	culture="kamarupi"
 	religion="bon_religion"
@@ -852,7 +852,7 @@
 	}
 }
 
-7348={ #踏博迦
+7348={ #Davaka
 	terrain="hills"
 	culture="kamarupi"
 	religion="hindu"
@@ -871,7 +871,7 @@
 	}
 }
 
-7349={ #瞿剌迷罗
+7349={ #Gramera
 	terrain="jungle"
 	culture="kamarupi"
 	religion="hindu"
@@ -890,7 +890,7 @@
 	}
 }
 
-7350={ #瞿湿罗
+7350={ #Gosira
 	terrain="jungle"
 	culture="kamarupi"
 	religion="bon_religion"
@@ -909,7 +909,7 @@
 	}
 }
 
-7351={ #阇波
+7351={ #Japa
 	terrain="jungle"
 	culture="kamarupi"
 	religion="bon_religion"
@@ -928,7 +928,7 @@
 	}
 }
 
-7352={ #都卢波
+7352={ #Turupa
 	terrain="jungle"
 	culture="kamarupi"
 	religion="bon_religion"
@@ -947,7 +947,7 @@
 	}
 }
 
-7353={ #鞞因瞿摩罗
+7353={ #Bengmara
 	terrain="jungle"
 	culture="kamarupi"
 	religion="bon_religion"
@@ -966,7 +966,7 @@
 	}
 }
 
-7354={ #娑提耶
+7354={ #Sadiya
 	terrain="hills"
 	culture="kamarupi"
 	religion="bon_religion"
@@ -985,7 +985,7 @@
 	}
 }
 
-7355={ #度蓊伽
+7355={ #Donga
 	terrain="mountain"
 	culture="kamarupi"
 	religion="bon_religion"
@@ -1001,8 +1001,8 @@
 	}
 }
 
-7356={ #羯曼多
-	terrain="marsh"
+7356={ #Karmanta
+	terrain="flood_plain"
 	culture="bangli"
 	religion="hindu"
 	trade_goods="incense"
@@ -1024,8 +1024,8 @@
 	port_building=1
 }
 
-7358={ #拘呼利那
-	terrain="marsh"
+7358={ #Khulna
+	terrain="flood_plain"
 	culture="bangli"
 	religion="hindu"
 	trade_goods="cloth"
@@ -1043,7 +1043,7 @@
 	}
 }
 
-7359={ #牟军陀
+7359={ #Mukund
 	terrain="plains"
 	culture="bangli"
 	religion="hindu"
@@ -1065,7 +1065,7 @@
 	}
 }
 
-7360={ #悉多
+7360={ #Sita
 	terrain="plains"
 	culture="magadhi"
 	religion="hindu"
@@ -1084,9 +1084,9 @@
 	}
 }
 
-7364={ #曼浮喃
+7364={ #Manbhum
 	terrain="jungle"
-	culture="bangli"
+	culture="pandra"
 	religion="hindu"
 	trade_goods="wood"
 	civilization_value=24
@@ -1104,9 +1104,9 @@
 	holy_site=omen_parshvanatha
 }
 
-7365={ #罗达
+7365={ #Ladha
 	terrain="jungle"
-	culture="bangli"
+	culture="pandra"
 	religion="hindu"
 	trade_goods="spices"
 	civilization_value=24
@@ -1123,7 +1123,7 @@
 	}
 }
 
-7367={ #薄伽陀多补岚
+7367={ #Bhagdatpuram
 	terrain="farmland"
 	culture="magadhi"
 	religion="buddhism"
@@ -1145,9 +1145,9 @@
 	}
 }
 
-7368={ #耶槃那
+7368={ #Yavana
 	terrain="jungle"
-	culture="magadhi"
+	culture="pandra"
 	religion="jainism"
 	trade_goods="elephants"
 	civilization_value=24
@@ -1164,7 +1164,7 @@
 	}
 }
 
-7383={ #基闪
+7383={ #Kishan
 	terrain="jungle"
 	culture="magadhi"
 	religion="hindu"
@@ -1183,9 +1183,9 @@
 	}
 }
 
-7392={ #伐折罗
+7392={ #Vajra
 	terrain="jungle"
-	culture="bangli"
+	culture="pandra"
 	religion="hindu"
 	trade_goods="elephants"
 	civilization_value=24
@@ -1202,11 +1202,11 @@
 	}
 }
 
-7393={ #迦湿补罗
-	terrain="marsh"
-	culture="bangli"
+7393={ #Kasipur
+	terrain="flood_plain"
+	culture="vanga"
 	religion="hindu"
-	trade_goods="fish"
+	trade_goods="sugar"
 	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
@@ -1224,10 +1224,10 @@
 	}
 }
 
-7394={ #筏他婆陀
+7394={ #Fathabad
 	terrain="jungle"
 	culture="bangli"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="cloth"
 	civilization_value=13
 	barbarian_power=0
@@ -1246,10 +1246,10 @@
 	}
 }
 
-7395={ #跋梨萨利
-	terrain="marsh"
+7395={ #Barisal
+	terrain="flood_plain"
 	culture="bangli"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="earthware"
 	civilization_value=11
 	barbarian_power=0
@@ -1268,10 +1268,10 @@
 	}
 }
 
-7396={ #婆祇梨诃多
-	terrain="marsh"
+7396={ #Bagerhat
+	terrain="flood_plain"
 	culture="bangli"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="fur"
 	civilization_value=6
 	barbarian_power=0
@@ -1290,7 +1290,7 @@
 	}
 }
 
-7397={ #逝输丽
+7397={ #Jessore
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -1309,7 +1309,7 @@
 	}
 }
 
-7398={ #拘湿帝耶
+7398={ #Kushtia
 	terrain="plains"
 	culture="bangli"
 	religion="hindu"
@@ -1328,7 +1328,7 @@
 	}
 }
 
-7400={ #阇耶补罗
+7400={ #Jayapura
 	terrain="jungle"
 	culture="magadhi"
 	religion="hindu"
@@ -1350,8 +1350,8 @@
 	}
 }
 
-7401={ #岚伽帝
-	terrain="marsh"
+7401={ #Ramgati
+	terrain="flood_plain"
 	culture="bangli"
 	religion="hindu"
 	trade_goods="fish"
@@ -1372,7 +1372,7 @@
 	}
 }
 
-7479={ #娑摩湿帝补罗
+7479={ #Samastipur
 	terrain="farmland"
 	culture="magadhi"
 	religion="hindu"
@@ -1391,7 +1391,7 @@
 	}
 }
 
-7480={ #索喝罗娑
+7480={ #Saharsa
 	terrain="farmland"
 	culture="magadhi"
 	religion="buddhism"
@@ -1413,7 +1413,7 @@
 	}
 }
 
-7481={ #苏褒罗
+7481={ #Supaul
 	terrain="plains"
 	culture="magadhi"
 	religion="hindu"
@@ -1432,7 +1432,7 @@
 	}
 }
 
-7486={ #弥絺罗
+7486={ #Mithila
 	terrain="jungle"
 	culture="himalayan"
 	religion="hindu"
@@ -1451,7 +1451,7 @@
 	}
 }
 
-7487={ #毘阇利补罗
+7487={ #Bijalpura
 	terrain="hills"
 	culture="himalayan"
 	religion="hindu"
@@ -1467,7 +1467,7 @@
 	}
 }
 
-7488={ #吠他提波
+7488={ #Bethadipa
 	terrain="plains"
 	culture="magadhi"
 	religion="hindu"
@@ -1486,7 +1486,7 @@
 	}
 }
 
-7489={ #毘梨健夷
+7489={ #Birganj
 	terrain="jungle"
 	culture="himalayan"
 	religion="hindu"
@@ -1505,7 +1505,7 @@
 	}
 }
 
-7490={ #那揭补罗
+7490={ #Nagarpur
 	terrain="plains"
 	culture="bangli"
 	religion="hindu"
@@ -1527,7 +1527,7 @@
 	}
 }
 
-7491={ #室利弗
+7491={ #Sripur
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -1546,7 +1546,7 @@
 	}
 }
 
-7493={ #婆烂陀罗
+7493={ #Varendra
 	terrain="farmland"
 	culture="bangli"
 	religion="hindu"
@@ -1569,7 +1569,7 @@
 	port_building=1
 }
 
-7494={ #度剌伽补罗
+7494={ #Durgapur
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -1588,7 +1588,7 @@
 	}
 }
 
-7495={ #医揭缕信度罗
+7495={ #Egarosindur
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -1607,7 +1607,7 @@
 	}
 }
 
-7496={ #薄露迦
+7496={ #Bhaluka
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -1629,7 +1629,7 @@
 	}
 }
 
-7497={ #掊帝耶
+7497={ #Puthia
 	terrain="farmland"
 	culture="bangli"
 	religion="hindu"
@@ -1651,7 +1651,7 @@
 	}
 }
 
-7498={ #末陀
+7498={ #Malda
 	terrain="farmland"
 	culture="bangli"
 	religion="hindu"
@@ -1667,7 +1667,7 @@
 	}
 }
 
-7499={ #布罗舍
+7499={ #Porsha
 	terrain="farmland"
 	culture="bangli"
 	religion="hindu"
@@ -1686,7 +1686,7 @@
 	}
 }
 
-7650={ #伊塔哈尔
+7650={ #Itahar
 	terrain="plains"
 	culture="magadhi"
 	religion="hindu"
@@ -1705,7 +1705,7 @@
 	}
 }
 
-7651={ #婆露罗袪多
+7651={ #Balurghat
 	terrain="farmland"
 	culture="bangli"
 	religion="hindu"
@@ -1724,7 +1724,7 @@
 	}
 }
 
-7652={ #瞿娑尼末梨
+7652={ #Gosanimari
 	terrain="jungle"
 	culture="kamarupi"
 	religion="hindu"
@@ -1743,7 +1743,7 @@
 	}
 }
 
-7653={ #迦末多的摩那舍
+7653={ #Manasa Kamata
 	terrain="hills"
 	culture="kamarupi"
 	religion="hindu"
@@ -1759,7 +1759,7 @@
 	}
 }
 
-7654={ #托俱洛笈伐
+7654={ #Thakurgaon
 	terrain="plains"
 	culture="magadhi"
 	religion="hindu"
@@ -1775,7 +1775,7 @@
 	}
 }
 
-7655={ #徙利惧梨
+7655={ #Siliguri
 	terrain="jungle"
 	culture="himalayan"
 	religion="hindu"
@@ -1794,7 +1794,7 @@
 	}
 }
 
-7656={ #陀莫
+7656={ #Damak
 	terrain="hills"
 	culture="himalayan"
 	religion="hindu"
@@ -1813,7 +1813,7 @@
 	}
 }
 
-7659={ #末檀补罗
+7659={ #Madanpur
 	terrain="jungle"
 	culture="magadhi"
 	religion="buddhism"
@@ -1832,7 +1832,7 @@
 	}
 }
 
-9776={ #娑提耶东
+9776={ #D PROV9776!
 	terrain="jungle"
 	culture="pubu"
 	religion="bon_religion"

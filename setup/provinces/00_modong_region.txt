@@ -1,4 +1,4 @@
-﻿8652={ #且如
+﻿8652={ #Enda Cherqos
 	terrain="steppe"
 	culture="chanlan"
 	religion="hu_religions"
@@ -11,7 +11,7 @@
 	}
 }
 
-8751={ #造阳南
+8751={ #Zaoyang
 	terrain="steppe"
 	culture="chanlan"
 	religion="hu_religions"
@@ -24,7 +24,7 @@
 	}
 }
 
-8760={ #白檀
+8760={ #Baitan
 	terrain="hills"
 	culture="donghu"
 	religion="hu_religions"
@@ -40,7 +40,7 @@
 	}
 }
 
-8766={ #白狼
+8766={ #Bailang
 	terrain="hills"
 	culture="donghu"
 	religion="hu_religions"
@@ -59,7 +59,7 @@
 	}
 }
 
-8767={ #字
+8767={ #Zi
 	terrain="hills"
 	culture="donghu"
 	religion="hu_religions"
@@ -75,7 +75,7 @@
 	}
 }
 
-8768={ #平刚
+8768={ #Pinggang
 	terrain="dry_hills"
 	culture="donghu"
 	religion="hu_religions"
@@ -91,7 +91,7 @@
 	}
 }
 
-9382={ #漠南
+9382={ #Impassable
 	terrain="impassable_terrain"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -101,7 +101,7 @@
 	province_rank=""
 }
 
-9383={ #东胡
+9383={ #Impassable
 	terrain="impassable_terrain"
 	culture="xianbei"
 	religion="hu_religions"
@@ -111,7 +111,7 @@
 	province_rank=""
 }
 
-9384={ #大鲜卑山
+9384={ #Impassable
 	terrain="impassable_terrain"
 	culture="xianbei"
 	religion="hu_religions"
@@ -121,7 +121,7 @@
 	province_rank=""
 }
 
-9386={ #北沃沮
+9386={ #Impassable
 	terrain="impassable_terrain"
 	culture="woju"
 	religion="yi_religions"
@@ -131,7 +131,7 @@
 	province_rank=""
 }
 
-9521={ #黑水上游
+9521={ #Upper Heishui
 	terrain="steppe"
 	culture="xianbei"
 	religion="hu_religions"
@@ -144,7 +144,7 @@
 	}
 }
 
-9522={ #大鲜卑山西麓北
+9522={ #Daxianbeishan North
 	terrain="taiga"
 	culture="xianbei"
 	religion="hu_religions"
@@ -157,7 +157,7 @@
 	}
 }
 
-9523={ #大鲜卑山西麓中
+9523={ #Daxianbeishan
 	terrain="steppe"
 	culture="xianbei"
 	religion="hu_religions"
@@ -170,7 +170,7 @@
 	}
 }
 
-9524={ #大鲜卑山西麓南
+9524={ #Daxianbeishan South
 	terrain="steppe"
 	culture="xianbei"
 	religion="hu_religions"
@@ -183,7 +183,7 @@
 	}
 }
 
-9526={ #饶乐
+9526={ #Raole
 	terrain="hills"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -202,7 +202,7 @@
 	}
 }
 
-9527={ #饶乐水西
+9527={ #West Raoleshui
 	terrain="hills"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -218,7 +218,7 @@
 	}
 }
 
-9528={ #饶乐水东
+9528={ #East Raoleshui
 	terrain="steppe"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -231,7 +231,7 @@
 	}
 }
 
-9529={ #饶乐水北
+9529={ #North Raoleshui
 	terrain="steppe"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -247,7 +247,7 @@
 	}
 }
 
-9530={ #大辽水北
+9530={ #North Daliaoshui
 	terrain="steppe"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -260,7 +260,7 @@
 	}
 }
 
-9531={ #辽东草原
+9531={ #Impassable
 	terrain="impassable_terrain"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -270,7 +270,7 @@
 	province_rank=""
 }
 
-9532={ #饶乐山脉
+9532={ #Impassable
 	terrain="impassable_terrain"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -280,7 +280,7 @@
 	province_rank=""
 }
 
-9533={ #大泽南
+9533={ #Daze South
 	terrain="steppe"
 	culture="xianbei"
 	religion="hu_religions"
@@ -296,7 +296,7 @@
 	}
 }
 
-9534={ #大泽北
+9534={ #Daze North
 	terrain="steppe"
 	culture="xianbei"
 	religion="hu_religions"
@@ -309,7 +309,7 @@
 	}
 }
 
-9535={ #乌桓山北
+9535={ #PASS
 	terrain="steppe"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -322,7 +322,7 @@
 	}
 }
 
-9536={ #乌桓山南
+9536={ #PASS
 	terrain="steppe"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -335,7 +335,7 @@
 	}
 }
 
-9538={ #大漠东
+9538={ #PASS
 	terrain="desert"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -348,7 +348,7 @@
 	}
 }
 
-9539={ #饶乐南
+9539={ #PASS
 	terrain="steppe"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -361,7 +361,7 @@
 	}
 }
 
-9540={ #参柳北
+9540={ #PASS
 	terrain="steppe"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -374,7 +374,7 @@
 	}
 }
 
-9541={ #扶余
+9541={ #Fuyu
 	terrain="plains"
 	culture="fuyu"
 	religion="yi_religions"
@@ -387,7 +387,7 @@
 	}
 }
 
-9542={ #粟末
+9542={ #Sumo
 	terrain="mountain"
 	culture="huifa"
 	religion="yi_religions"
@@ -400,7 +400,7 @@
 	}
 }
 
-9543={ #徒太
+9543={ #Tutai
 	terrain="mountain"
 	culture="huifa"
 	religion="yi_religions"
@@ -413,7 +413,7 @@
 	}
 }
 
-9544={ #白山
+9544={ #Baishan
 	terrain="mountain"
 	culture="sushen"
 	religion="yi_religions"
@@ -426,7 +426,7 @@
 	}
 }
 
-9545={ #伯咄
+9545={ #Boduo
 	terrain="forest"
 	culture="fuyu"
 	religion="yi_religions"
@@ -439,7 +439,7 @@
 	}
 }
 
-9546={ #安车骨
+9546={ #Anchegu
 	terrain="taiga"
 	culture="sushen"
 	religion="yi_religions"
@@ -452,7 +452,7 @@
 	}
 }
 
-9547={ #拂涅
+9547={ #Funie
 	terrain="taiga"
 	culture="sushen"
 	religion="yi_religions"
@@ -465,7 +465,7 @@
 	}
 }
 
-9548={ #扶余东
+9548={ #Fuyu East
 	terrain="forest"
 	culture="fuyu"
 	religion="yi_religions"
@@ -478,7 +478,7 @@
 	}
 }
 
-9549={ #粟末北
+9549={ #Sumo North
 	terrain="forest"
 	culture="fuyu"
 	religion="yi_religions"
@@ -491,7 +491,7 @@
 	}
 }
 
-9550={ #粟末南
+9550={ #Sumo South
 	terrain="mountain"
 	culture="huifa"
 	religion="yi_religions"
@@ -504,7 +504,7 @@
 	}
 }
 
-9551={ #号室
+9551={ #Haoshi
 	terrain="taiga"
 	culture="sushen"
 	religion="yi_religions"
@@ -517,7 +517,7 @@
 	}
 }
 
-9552={ #拂涅南
+9552={ #Funie South
 	terrain="taiga"
 	culture="sushen"
 	religion="yi_religions"
@@ -530,7 +530,7 @@
 	}
 }
 
-9553={ #湄沱南
+9553={ #Meituo Nan
 	terrain="taiga"
 	culture="sushen"
 	religion="yi_religions"
@@ -543,7 +543,7 @@
 	}
 }
 
-9554={ #伯咄西
+9554={ #Boduo West
 	terrain="steppe"
 	culture="fuyu"
 	religion="yi_religions"
@@ -556,7 +556,7 @@
 	}
 }
 
-9555={ #难河上游
+9555={ #Upper Lanhe
 	terrain="steppe"
 	culture="xianbei"
 	religion="hu_religions"
@@ -569,7 +569,7 @@
 	}
 }
 
-9556={ #北室韦
+9556={ #North Shiwei
 	terrain="steppe"
 	culture="xianbei"
 	religion="hu_religions"
@@ -582,7 +582,7 @@
 	}
 }
 
-9557={ #难河中游
+9557={ #Middle Nanhe
 	terrain="steppe"
 	culture="xianbei"
 	religion="hu_religions"
@@ -598,7 +598,7 @@
 	}
 }
 
-9558={ #难河中下游
+9558={ #Middle Lower Nanhe
 	terrain="steppe"
 	culture="xianbei"
 	religion="hu_religions"
@@ -611,7 +611,7 @@
 	}
 }
 
-9559={ #难河下游
+9559={ #Lower Nanhe
 	terrain="steppe"
 	culture="xianbei"
 	religion="hu_religions"
@@ -624,7 +624,7 @@
 	}
 }
 
-9560={ #南室韦
+9560={ #South Shiwei
 	terrain="steppe"
 	culture="wuhuan"
 	religion="hu_religions"
@@ -637,7 +637,7 @@
 	}
 }
 
-9561={ #大鲜卑山
+9561={ #PASS
 	terrain="mountain"
 	culture="xianbei"
 	religion="hu_religions"
@@ -650,7 +650,7 @@
 	}
 }
 
-9562={ #黑水
+9562={ #Heishui
 	terrain="taiga"
 	culture="sushen"
 	religion="yi_religions"
@@ -663,7 +663,7 @@
 	}
 }
 
-9563={ #黑水南
+9563={ #South Heishui
 	terrain="taiga"
 	culture="sushen"
 	religion="yi_religions"
@@ -676,7 +676,7 @@
 	}
 }
 
-9564={ #黑水东南
+9564={ #Southeast Heishui
 	terrain="taiga"
 	culture="sushen"
 	religion="yi_religions"
@@ -689,7 +689,7 @@
 	}
 }
 
-9872={ #平刚山
+9872={ #Impassable
 	terrain="impassable_terrain"
 	culture="donghu"
 	religion="hu_religions"
@@ -699,7 +699,7 @@
 	province_rank=""
 }
 
-9873={ #濡水
+9873={ #Rushui
 	terrain="hills"
 	culture="donghu"
 	religion="hu_religions"
@@ -712,7 +712,7 @@
 	}
 }
 
-9874={ #广成
+9874={ #Guangcheng
 	terrain="hills"
 	culture="donghu"
 	religion="hu_religions"
@@ -725,7 +725,7 @@
 	}
 }
 
-9875={ #参柳
+9875={ #Canliu
 	terrain="hills"
 	culture="donghu"
 	religion="hu_religions"
@@ -738,7 +738,7 @@
 	}
 }
 
-9876={ #侯水
+9876={ #Houshui
 	terrain="hills"
 	culture="donghu"
 	religion="hu_religions"
@@ -751,7 +751,7 @@
 	}
 }
 
-9881={ #造阳
+9881={ #Zaoyang North
 	terrain="steppe"
 	culture="chanlan"
 	religion="hu_religions"
@@ -764,7 +764,7 @@
 	}
 }
 
-9882={ #濡水
+9882={ #Rushui North
 	terrain="steppe"
 	culture="chanlan"
 	religion="hu_religions"
@@ -777,7 +777,7 @@
 	}
 }
 
-9883={ #要阳
+9883={ #Yaoyang
 	terrain="hills"
 	culture="chanlan"
 	religion="hu_religions"
@@ -790,7 +790,7 @@
 	}
 }
 
-9887={ #大鲜卑山
+9887={ #Daxianbeishan East
 	terrain="steppe"
 	culture="wuhuan"
 	religion="hu_religions"

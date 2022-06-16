@@ -1,4 +1,4 @@
-﻿8030={ #帕杜斯河
+﻿8030={ #Padus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-8031={ #帕杜斯河
+8031={ #Padus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-8032={ #帕杜斯河
+8032={ #Padus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-8033={ #帕杜斯河
+8033={ #Padus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-8034={ #帕杜斯河
+8034={ #Padus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

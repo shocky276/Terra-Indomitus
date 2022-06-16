@@ -1,4 +1,4 @@
-﻿7665={ #利古里亚湖
+﻿7665={ #Lacus Ligustinus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-7767={ #塔古斯河
+7767={ #Tagus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-7768={ #塔古斯河
+7768={ #Tagus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-7769={ #塔古斯河
+7769={ #Tagus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-7770={ #塔古斯河
+7770={ #Tagus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-7771={ #柏提斯
+7771={ #Baetis
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-7772={ #柏提斯
+7772={ #Baetis
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-7862={ #阿纳斯河
+7862={ #Flumen Anas
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-7863={ #阿纳斯河
+7863={ #Flumen Anas
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -88,7 +88,7 @@
 	province_rank=""
 }
 
-8037={ #伊贝鲁斯河
+8037={ #Iberus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -98,7 +98,7 @@
 	province_rank=""
 }
 
-8038={ #伊贝鲁斯河
+8038={ #Iberus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -108,7 +108,7 @@
 	province_rank=""
 }
 
-8039={ #伊贝鲁斯河
+8039={ #Iberus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

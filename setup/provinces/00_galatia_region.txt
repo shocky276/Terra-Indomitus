@@ -1,4 +1,4 @@
-﻿174={ #孔古斯托斯
+﻿174={ #Kongoustos
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -25,7 +25,7 @@
 	}
 }
 
-175={ #革耳马
+175={ #Germa
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -47,7 +47,7 @@
 	}
 }
 
-176={ #埃克道毛阿
+176={ #Ekdaumaua
 	terrain="dry_plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -74,7 +74,7 @@
 	}
 }
 
-177={ #金底里亚
+177={ #Kindyria
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -109,7 +109,7 @@
 	}
 }
 
-178={ #蒂里埃翁
+178={ #Tyriaion
 	terrain="plains"
 	culture="oroandian"
 	religion="anatolian_religion"
@@ -139,7 +139,7 @@
 	}
 }
 
-179={ #俄刻诺
+179={ #Okenoi
 	terrain="marsh"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -165,7 +165,7 @@
 	}
 }
 
-180={ #刻西亚
+180={ #Keissia
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -188,7 +188,7 @@
 	}
 }
 
-181={ #托拉斯托科拉
+181={ #Klaneos
 	terrain="dry_plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -211,7 +211,7 @@
 	}
 }
 
-182={ #奥洛克拉
+182={ #Aurokra
 	terrain="marsh"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -233,7 +233,7 @@
 	}
 }
 
-183={ #阿巴西翁
+183={ #Abbasion
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -255,7 +255,7 @@
 	}
 }
 
-184={ #多喀墨翁
+184={ #Dokimeion
 	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -299,7 +299,7 @@
 	}
 }
 
-185={ #伊普索斯
+185={ #Ipsos
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -318,7 +318,7 @@
 	}
 }
 
-186={ #欧卡耳庇亚
+186={ #Eukarpia
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -337,7 +337,7 @@
 	}
 }
 
-187={ #喀底厄索斯
+187={ #Kidyessos
 	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -356,7 +356,7 @@
 	}
 }
 
-188={ #珀西努斯
+188={ #Pessinous
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -379,7 +379,7 @@
 	holy_site=omen_cybele
 }
 
-189={ #戈耳狄翁
+189={ #Gordion
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -406,7 +406,7 @@
 	}
 }
 
-190={ #金那
+190={ #Kinna
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -429,7 +429,7 @@
 	}
 }
 
-191={ #乌厄提索斯
+191={ #Ouetissos
 	terrain="dry_plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -453,7 +453,7 @@
 	}
 }
 
-192={ #库巴隆
+192={ #Kybeleion
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -475,7 +475,7 @@
 	}
 }
 
-193={ #戈尔柏乌斯
+193={ #Gorbeous
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -494,7 +494,7 @@
 	}
 }
 
-194={ #安库拉
+194={ #Ankyra
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -538,7 +538,7 @@
 	}
 }
 
-195={ #马罗斯
+195={ #Malos
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -561,7 +561,7 @@
 	}
 }
 
-196={ #克罗萨玛
+196={ #Klossama
 	terrain="plains"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -584,7 +584,7 @@
 	}
 }
 
-197={ #萨耳马利俄斯
+197={ #Sarmalios
 	terrain="plains"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -607,7 +607,7 @@
 	}
 }
 
-202={ #杜杜萨
+202={ #Doudousa
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -638,7 +638,7 @@
 	}
 }
 
-204={ #阿斯波那
+204={ #Aspona
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -669,7 +669,7 @@
 	}
 }
 
-222={ #布卢喀翁
+222={ #Bloukion
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -696,7 +696,7 @@
 	}
 }
 
-226={ #谟涅左斯
+226={ #Mnezos
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -715,7 +715,7 @@
 	}
 }
 
-227={ #特洛克那
+227={ #Trokna
 	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -734,7 +734,7 @@
 	}
 }
 
-228={ #安德洛那
+228={ #Androna
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -756,7 +756,7 @@
 	}
 }
 
-229={ #俄尔巴那
+229={ #Orbana
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -775,7 +775,7 @@
 	}
 }
 
-230={ #廷布里翁
+230={ #Thymbrion
 	terrain="plains"
 	culture="oroandian"
 	religion="anatolian_religion"
@@ -802,7 +802,7 @@
 	}
 }
 
-231={ #阿林那
+231={ #Arinna
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -829,7 +829,7 @@
 	}
 }
 
-302={ #卡多伊
+302={ #Kadoi
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -873,7 +873,7 @@
 	holy_site=omen_attis
 }
 
-307={ #巴吉斯
+307={ #Bageis
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -900,7 +900,7 @@
 	}
 }
 
-308={ #布拉温多斯
+308={ #Blaoundos
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -927,7 +927,7 @@
 	}
 }
 
-309={ #阿克摩尼亚
+309={ #Akmoneia
 	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -966,7 +966,7 @@
 	}
 }
 
-311={ #珀浦匝
+311={ #Pepouza
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -993,7 +993,7 @@
 	}
 }
 
-312={ #阿庇亚
+312={ #Appia
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1012,7 +1012,7 @@
 	}
 }
 
-313={ #弗里吉亚的墨特罗波利斯
+313={ #Metropolis Phrygias
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1044,7 +1044,7 @@
 	}
 }
 
-314={ #那科利亚
+314={ #Nakoleia
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1066,7 +1066,7 @@
 	}
 }
 
-315={ #多律莱翁
+315={ #Dorylaion
 	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1098,7 +1098,7 @@
 	}
 }
 
-316={ #弥代翁
+316={ #Midaeion
 	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1117,7 +1117,7 @@
 	}
 }
 
-317={ #科堤埃翁
+317={ #Kotyaion
 	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1157,7 +1157,7 @@
 	}
 }
 
-318={ #墨洛斯
+318={ #Meiros
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1176,7 +1176,7 @@
 	}
 }
 
-319={ #埃匝诺伊
+319={ #Aizanoi
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1203,7 +1203,7 @@
 	}
 }
 
-328={ #俄耳喀斯托斯
+328={ #Orkistos
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1222,7 +1222,7 @@
 	}
 }
 
-339={ #厄路匝
+339={ #Elouza
 	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1241,7 +1241,7 @@
 	}
 }
 
-1777={ #克拉涅俄斯
+1777={ #Azareis
 	terrain="dry_plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1260,7 +1260,7 @@
 	}
 }
 
-1825={ #塔维翁
+1825={ #Taouion
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -1291,7 +1291,7 @@
 	}
 }
 
-1841={ #波斯达拉
+1841={ #Posdala
 	terrain="forest"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -1314,7 +1314,7 @@
 	}
 }
 
-1914={ #珀耳塔
+1914={ #Perta
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -1344,7 +1344,7 @@
 	}
 }
 
-1916={ #康纳
+1916={ #Kanna
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -1371,7 +1371,7 @@
 	}
 }
 
-1924={ #帕帕
+1924={ #Pappa
 	terrain="dry_plains"
 	culture="oroandian"
 	religion="anatolian_religion"
@@ -1390,7 +1390,7 @@
 	}
 }
 
-1925={ #廷布里亚达
+1925={ #Tymbriada
 	terrain="plains"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -1409,7 +1409,7 @@
 	}
 }
 
-1926={ #阿纳部拉
+1926={ #Anaboura
 	terrain="hills"
 	culture="oroandian"
 	religion="anatolian_religion"
@@ -1439,7 +1439,7 @@
 	}
 }
 
-1928={ #堤伊塔
+1928={ #Tyita
 	terrain="hills"
 	culture="pisidian"
 	religion="anatolian_religion"
@@ -1470,7 +1470,7 @@
 	holy_site=omen_men
 }
 
-1930={ #摩耳狄埃翁
+1930={ #Mordiaion
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -1505,7 +1505,7 @@
 	}
 }
 
-1934={ #伊科尼翁
+1934={ #Ikonion
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -1553,7 +1553,7 @@
 	}
 }
 
-1936={ #刻莱奈
+1936={ #Kelainai
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1608,7 +1608,7 @@
 	}
 }
 
-1937={ #欧福耳比翁
+1937={ #Euphorbion
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1643,7 +1643,7 @@
 	}
 }
 
-1939={ #普律涅索斯
+1939={ #Prymnessos
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1666,7 +1666,7 @@
 	}
 }
 
-1941={ #辛纳达
+1941={ #Synnada
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1712,7 +1712,7 @@
 	}
 }
 
-1942={ #珀尔泰
+1942={ #Peltai
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1731,7 +1731,7 @@
 	}
 }
 
-1943={ #萨那俄斯
+1943={ #Sanaos
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1763,7 +1763,7 @@
 	}
 }
 
-1944={ #洛翁达
+1944={ #Lounda
 	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1786,7 +1786,7 @@
 	}
 }
 
-1945={ #科罗赛
+1945={ #Kolossai
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1834,7 +1834,7 @@
 	}
 }
 
-1946={ #希厄拉波利斯
+1946={ #Hieropolis
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1868,7 +1868,7 @@
 	}
 }
 
-1950={ #得耳柏
+1950={ #Derbe
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -1898,7 +1898,7 @@
 	}
 }
 
-1965={ #吕斯特拉
+1965={ #Lystra
 	terrain="hills"
 	culture="isaurian"
 	religion="anatolian_religion"
@@ -1922,7 +1922,7 @@
 	}
 }
 
-1971={ #索阿特拉
+1971={ #Soatra
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -1945,7 +1945,7 @@
 	}
 }
 
-1975={ #巴拉塔
+1975={ #Barate
 	terrain="farmland"
 	culture="lycaonian"
 	religion="anatolian_religion"

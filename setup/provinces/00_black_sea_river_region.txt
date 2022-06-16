@@ -1,4 +1,4 @@
-﻿7773={ #伊斯忒耳河
+﻿7773={ #Ister
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-7774={ #伊斯忒耳河
+7774={ #Ister
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-7775={ #伊斯忒耳河
+7775={ #Ister
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-7776={ #伊斯忒耳河
+7776={ #Ister
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-7777={ #伊斯忒耳河
+7777={ #Ister
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-7778={ #伊斯忒耳河
+7778={ #Ister
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-7779={ #伊斯忒耳河
+7779={ #Ister
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-7780={ #伊斯忒耳河
+7780={ #Ister
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-7781={ #伊斯忒耳河
+7781={ #Ister
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -88,7 +88,7 @@
 	province_rank=""
 }
 
-7782={ #伊斯忒耳河
+7782={ #Ister
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -98,7 +98,7 @@
 	province_rank=""
 }
 
-7871={ #玻律斯忒涅斯
+7871={ #Borysthenes
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -108,7 +108,7 @@
 	province_rank=""
 }
 
-7872={ #玻律斯忒涅斯
+7872={ #Borysthenes
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -118,7 +118,7 @@
 	province_rank=""
 }
 
-7873={ #玻律斯忒涅斯
+7873={ #Borysthenes
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -128,7 +128,7 @@
 	province_rank=""
 }
 
-7874={ #玻律斯忒涅斯
+7874={ #Borysthenes
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -138,7 +138,7 @@
 	province_rank=""
 }
 
-7875={ #玻律斯忒涅斯
+7875={ #Borysthenes
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -148,7 +148,7 @@
 	province_rank=""
 }
 
-7876={ #玻律斯忒涅斯
+7876={ #Borysthenes
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -158,7 +158,7 @@
 	province_rank=""
 }
 
-7877={ #玻律斯忒涅斯
+7877={ #Borysthenes
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -168,7 +168,7 @@
 	province_rank=""
 }
 
-7878={ #玻律斯忒涅斯
+7878={ #Borysthenes
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -178,7 +178,7 @@
 	province_rank=""
 }
 
-7879={ #玻律斯忒涅斯
+7879={ #Borysthenes
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -188,7 +188,7 @@
 	province_rank=""
 }
 
-7880={ #玻律斯忒涅斯
+7880={ #Borysthenes
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -198,7 +198,7 @@
 	province_rank=""
 }
 
-7881={ #堤拉斯
+7881={ #Tyras
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -208,7 +208,7 @@
 	province_rank=""
 }
 
-7882={ #堤拉斯
+7882={ #Tyras
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -218,7 +218,7 @@
 	province_rank=""
 }
 
-7883={ #堤拉斯
+7883={ #Tyras
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

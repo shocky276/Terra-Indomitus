@@ -1,4 +1,4 @@
-﻿5396={ #戈雷
+﻿5396={ #Ghore
 	terrain="desert"
 	culture="kharesmian"
 	religion="indo_iranian_religion"
@@ -14,7 +14,7 @@
 	}
 }
 
-5397={ #谢尼亚
+5397={ #Shenia
 	terrain="desert"
 	culture="kharesmian"
 	religion="indo_iranian_religion"
@@ -42,7 +42,7 @@
 	}
 }
 
-6682={ #马拉坎达
+6682={ #Marakanda
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -89,7 +89,7 @@
 	}
 }
 
-6683={ #艾尔本德
+6683={ #Rhea
 	terrain="desert"
 	culture="margian"
 	religion="zoroaster"
@@ -118,7 +118,7 @@
 	}
 }
 
-6687={ #加扎巴
+6687={ #Gazaba
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -137,7 +137,7 @@
 	}
 }
 
-6698={ #伊克洛尼
+6698={ #Ikrone
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -163,7 +163,7 @@
 	}
 }
 
-6699={ #玛牢咖
+6699={ #Marouka
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -190,7 +190,7 @@
 	}
 }
 
-6700={ #岩城 科里厄诺乌
+6700={ #Petra Arimazou
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -214,7 +214,7 @@
 	}
 }
 
-6701={ #多山
+6701={ #Petra Chorianou
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -236,7 +236,7 @@
 	}
 }
 
-6702={ #舍羯履耶
+6702={ #Shakria
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -255,7 +255,7 @@
 	}
 }
 
-6703={ #居洛波利斯
+6703={ #Kyropolis
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -295,7 +295,7 @@
 	}
 }
 
-6704={ #绝域亚历山大里亚
+6704={ #Alexandreia Eschate
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -335,7 +335,7 @@
 	}
 }
 
-6705={ #蜜埵尸波
+6705={ #Matouaspa
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -365,11 +365,11 @@
 	}
 }
 
-6706={ #基斯
+6706={ #Nautaka
 	terrain="hills"
 	culture="sogdian"
 	religion="indo_iranian_religion"
-	trade_goods="hemp"
+	trade_goods="fruits"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
@@ -399,7 +399,7 @@
 	}
 }
 
-6707={ #特里巴克特拉
+6707={ #Buxoro
 	terrain="steppe"
 	culture="kharesmian"
 	religion="indo_iranian_religion"
@@ -421,7 +421,7 @@
 	}
 }
 
-6708={ #阿莫勒
+6708={ #Amul
 	terrain="dry_plains"
 	culture="kharesmian"
 	religion="indo_iranian_religion"
@@ -451,7 +451,7 @@
 	}
 }
 
-6709={ #拉佩忒
+6709={ #Rapete
 	terrain="desert"
 	culture="margian"
 	religion="zoroaster"
@@ -480,7 +480,7 @@
 	}
 }
 
-6710={ #计尼破
+6710={ #Xenippa
 	terrain="desert"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -499,7 +499,7 @@
 	}
 }
 
-6711={ #绰梨薄
+6711={ #Charva
 	terrain="steppe"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -523,7 +523,7 @@
 	}
 }
 
-6712={ #卡塔库尔干
+6712={ #Gaza Baktriane
 	terrain="hills"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -550,7 +550,7 @@
 	}
 }
 
-6713={ #刻耳弥涅
+6713={ #Ostobara
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -572,7 +572,7 @@
 	}
 }
 
-6714={ #羯那婆
+6714={ #Karnab
 	terrain="hills"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -591,7 +591,7 @@
 	}
 }
 
-6715={ #底喃
+6715={ #Naura
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -613,7 +613,7 @@
 	}
 }
 
-6716={ #瑙塔卡
+6716={ #Nautaka
 	terrain="hills"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -640,7 +640,7 @@
 	}
 }
 
-6717={ #都陀屈
+6717={ #Branchidai
 	terrain="desert"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -659,7 +659,7 @@
 	}
 }
 
-6718={ #卡甘
+6718={ #Kogon
 	terrain="dry_plains"
 	culture="kharesmian"
 	religion="indo_iranian_religion"
@@ -681,7 +681,7 @@
 	}
 }
 
-6719={ #岩城 西西弥特洛乌
+6719={ #Petra Sisimithrou
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -712,7 +712,7 @@
 	}
 }
 
-6720={ #巴斯卡塔
+6720={ #Baskata
 	terrain="mountain"
 	culture="sogdian"
 	religion="eastern_animism"
@@ -739,7 +739,7 @@
 	}
 }
 
-6721={ #德雷普西亚纳
+6721={ #Drepsiana
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -758,7 +758,7 @@
 	}
 }
 
-6722={ #伊秣剌尸
+6722={ #Imarash
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -787,11 +787,11 @@
 	}
 }
 
-6730={ #咖瓦坎德
+6730={ #Khavakand
 	terrain="plains"
 	culture="tayuan"
 	religion="eastern_animism"
-	trade_goods="grain"
+	trade_goods="fruits"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
@@ -822,7 +822,7 @@
 	}
 }
 
-6731={ #马萨革泰
+6731={ #Massagetia
 	terrain="farmland"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -864,7 +864,7 @@
 	}
 }
 
-6732={ #马克剌姆
+6732={ #Makhram
 	terrain="hills"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -912,7 +912,7 @@
 	}
 }
 
-6733={ #伊尸多拉薄
+6733={ #Istarava
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -939,7 +939,7 @@
 	}
 }
 
-6734={ #楚斯特
+6734={ #Damna
 	terrain="hills"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -961,7 +961,7 @@
 	}
 }
 
-6735={ #大宛
+6735={ #Dawan
 	terrain="hills"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -983,7 +983,7 @@
 	}
 }
 
-6736={ #奥什
+6736={ #Osh
 	terrain="mountain"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -1002,11 +1002,11 @@
 	}
 }
 
-6737={ #安集延
+6737={ #Andijan
 	terrain="hills"
 	culture="tayuan"
 	religion="eastern_animism"
-	trade_goods="steppe_horses"
+	trade_goods="fruits"
 	civilization_value=23
 	barbarian_power=0
 	province_rank="city"
@@ -1024,7 +1024,7 @@
 	}
 }
 
-6738={ #南末建
+6738={ #Namakan
 	terrain="hills"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -1046,7 +1046,7 @@
 	}
 }
 
-6739={ #阿赫斯克特
+6739={ #Akhsiket
 	terrain="plains"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -1086,7 +1086,7 @@
 	}
 }
 
-6740={ #沙克里坎
+6740={ #Shakrikhan
 	terrain="hills"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -1108,7 +1108,7 @@
 	}
 }
 
-6773={ #古尔卡
+6773={ #Gulka
 	terrain="mountain"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -1124,7 +1124,7 @@
 	}
 }
 
-6774={ #卡拉米克
+6774={ #Karamyk
 	terrain="mountain"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -1134,7 +1134,7 @@
 	province_rank=""
 }
 
-6775={ #卡比克
+6775={ #Kabyk
 	terrain="mountain"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -1153,7 +1153,7 @@
 	}
 }
 
-6802={ #塔赫里亚
+6802={ #Varakhsha
 	terrain="dry_plains"
 	culture="kharesmian"
 	religion="indo_iranian_religion"
@@ -1175,7 +1175,7 @@
 	}
 }
 
-7227={ #克尔基
+7227={ #Zamm
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="zoroaster"
@@ -1192,7 +1192,7 @@
 	}
 }
 
-7228={ #迪尔贝金
+7228={ #Ebousmou Anassa
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="zoroaster"
@@ -1209,7 +1209,7 @@
 	}
 }
 
-7230={ #凯尔基奇
+7230={ #Sourogana
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1222,7 +1222,7 @@
 	}
 }
 
-7231={ #布尔古奇
+7231={ #Burguchi
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1239,7 +1239,7 @@
 	}
 }
 
-7232={ #蒂尔利亚
+7232={ #Tarmantis
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -1252,7 +1252,7 @@
 	}
 }
 
-7233={ #查拉
+7233={ #Bazaria
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -1265,7 +1265,7 @@
 	}
 }
 
-7234={ #达比尔
+7234={ #Bazistris
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1282,7 +1282,7 @@
 	}
 }
 
-7235={ #德希克利
+7235={ #Choana Baktriane
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1295,7 +1295,7 @@
 	}
 }
 
-7236={ #迪利亚尔
+7236={ #Dilyar
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="zoroaster"
@@ -1315,7 +1315,7 @@
 	}
 }
 
-7237={ #阿格恰
+7237={ #Aqcha
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="zoroaster"
@@ -1331,7 +1331,7 @@
 	}
 }
 
-7238={ #马坦
+7238={ #Nikhshapaya
 	terrain="steppe"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1351,7 +1351,7 @@
 	}
 }
 
-7239={ #法拉卜
+7239={ #Phratroua
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1367,7 +1367,7 @@
 	}
 }
 
-7240={ #哈扎雷克德佩
+7240={ #Chomara
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1380,7 +1380,7 @@
 	}
 }
 
-7241={ #绍尔
+7241={ #Sourogana Phratrou
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1396,7 +1396,7 @@
 	}
 }
 
-7242={ #莱巴普
+7242={ #Lebap
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1412,7 +1412,7 @@
 	}
 }
 
-7243={ #贝兹达
+7243={ #Bezda
 	terrain="desert"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1428,7 +1428,7 @@
 	}
 }
 
-7244={ #阿木
+7244={ #Amu
 	terrain="desert"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1441,7 +1441,7 @@
 	}
 }
 
-7245={ #至那兹
+7245={ #Chinaz
 	terrain="hills"
 	culture="tayuan"
 	religion="indo_iranian_religion"
@@ -1459,7 +1459,7 @@
 	}
 }
 
-7263={ #药杀水
+7263={ #Jaxartes
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1472,7 +1472,7 @@
 	}
 }
 
-7264={ #梅檀车之
+7264={ #Maidanchach
 	terrain="hills"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1485,7 +1485,7 @@
 	}
 }
 
-7267={ #阿罗迦
+7267={ #Araq
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1498,7 +1498,7 @@
 	}
 }
 
-7268={ #乌尸多
+7268={ #Osht
 	terrain="steppe"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1511,7 +1511,7 @@
 	}
 }
 
-7270={ #迦尸岚
+7270={ #Kashram
 	terrain="steppe"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1524,7 +1524,7 @@
 	}
 }
 
-7273={ #破尸羯
+7273={ #Poshkar
 	terrain="steppe"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1537,7 +1537,7 @@
 	}
 }
 
-7274={ #迦柏
+7274={ #Gabae
 	terrain="hills"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1554,7 +1554,7 @@
 	}
 }
 
-7275={ #贾哈尔撒的沙赫尔
+7275={ #Shahr Jaxartha
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1571,7 +1571,7 @@
 	}
 }
 
-7276={ #乌斯季
+7276={ #Ust
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1584,7 +1584,7 @@
 	}
 }
 
-7277={ #阿剌珠喃
+7277={ #Arcum
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"
@@ -1597,7 +1597,7 @@
 	}
 }
 
-7278={ #钵梨
+7278={ #Padri
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="indo_iranian_religion"

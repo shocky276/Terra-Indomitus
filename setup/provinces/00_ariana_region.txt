@@ -1,4 +1,4 @@
-﻿3460={ #佩耳西刻的塔柏
+﻿3460={ #Tabai Persikai
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -14,7 +14,7 @@
 	}
 }
 
-3470={ #帕尔瓦得
+3470={ #Simpsimidoi
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -33,7 +33,7 @@
 	}
 }
 
-3471={ #奈梵德
+3471={ #Nayband
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -52,7 +52,7 @@
 	}
 }
 
-3472={ #登梵德
+3472={ #Denband
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -72,7 +72,7 @@
 	}
 }
 
-3474={ #马吉亚斯的厄克巴塔纳
+3474={ #Ekbatana Magias
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -94,7 +94,7 @@
 	}
 }
 
-3475={ #察多尔玛卢
+3475={ #Tadormalous
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -116,7 +116,7 @@
 	}
 }
 
-5436={ #大卡维尔
+5436={ #Great Kavir
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -126,7 +126,7 @@
 	province_rank=""
 }
 
-5438={ #大卡维尔
+5438={ #Great Kavir
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -136,7 +136,7 @@
 	province_rank=""
 }
 
-5444={ #卢特沙漠
+5444={ #Lut Desert
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -146,7 +146,7 @@
 	province_rank=""
 }
 
-5446={ #卢特沙漠
+5446={ #Lut Desert
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -156,7 +156,7 @@
 	province_rank=""
 }
 
-6500={ #马莱克
+6500={ #Ange
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -172,7 +172,7 @@
 	}
 }
 
-6501={ #库帕南
+6501={ #Palitas
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -185,7 +185,7 @@
 	}
 }
 
-6502={ #库尔
+6502={ #Khur
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -201,7 +201,7 @@
 	}
 }
 
-6503={ #帕格洛斯
+6503={ #Pagros
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -214,7 +214,7 @@
 	}
 }
 
-6504={ #剌巴特
+6504={ #Parhe
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -233,7 +233,7 @@
 	}
 }
 
-6505={ #巴兹亚卜
+6505={ #Bazyab
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -246,7 +246,7 @@
 	}
 }
 
-6518={ #普洛佛塔西亚
+6518={ #Alexandreia Prophthasia
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -266,7 +266,7 @@
 	}
 }
 
-6541={ #阿拉科西亚的亚历山大里亚
+6541={ #Alexandreia Arachosias
 	terrain="desert"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -300,7 +300,7 @@
 	}
 }
 
-6546={ #阿拉科托斯
+6546={ #Arachotos
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -313,7 +313,7 @@
 	}
 }
 
-6547={ #贾勒达克
+6547={ #Artoarta
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -329,7 +329,7 @@
 	}
 }
 
-6548={ #伊图阿
+6548={ #Itoua
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -348,7 +348,7 @@
 	}
 }
 
-6549={ #帕拉柏斯忒
+6549={ #Parabeste
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -364,7 +364,7 @@
 	}
 }
 
-6550={ #阿里亚斯佩
+6550={ #Ariaspe
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -380,7 +380,7 @@
 	}
 }
 
-6551={ #厄堤曼德里亚
+6551={ #Etymandria
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -396,7 +396,7 @@
 	}
 }
 
-6552={ #萨喀斯特涅斯的亚历山大里亚
+6552={ #Sigal
 	terrain="desert"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -418,7 +418,7 @@
 	}
 }
 
-6553={ #卡鲁拉
+6553={ #Karoura
 	terrain="mountain"
 	culture="pactyan"
 	religion="zoroaster"
@@ -434,7 +434,7 @@
 	}
 }
 
-6554={ #巴伽瑟
+6554={ #Bagasse
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -453,7 +453,7 @@
 	}
 }
 
-6555={ #阿拉科西亚的得墨特里亚斯
+6555={ #Dimitrias Arachosias
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -472,7 +472,7 @@
 	}
 }
 
-6557={ #阿瑞亚的亚历山大里亚
+6557={ #Artakoana
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -488,7 +488,7 @@
 	}
 }
 
-6558={ #阿雷俄伊斯的亚历山大雷亚
+6558={ #Alexandreia Areiois
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -517,7 +517,7 @@
 	}
 }
 
-6559={ #阿耳塔卡巴纳
+6559={ #Artakabana
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -539,7 +539,7 @@
 	}
 }
 
-6561={ #沙赫里斯坦
+6561={ #Shahristan
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -555,7 +555,7 @@
 	}
 }
 
-6562={ #咖尔库亚
+6562={ #Karkuya
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -572,7 +572,7 @@
 	holy_site=omen_atar
 }
 
-6563={ #齐密拉
+6563={ #Zimyra
 	terrain="dry_plains"
 	culture="sagartian"
 	religion="zoroaster"
@@ -591,7 +591,7 @@
 	}
 }
 
-6564={ #素尔克
+6564={ #Chaurina
 	terrain="desert"
 	culture="parthian"
 	religion="zoroaster"
@@ -607,7 +607,7 @@
 	}
 }
 
-6565={ #咖迪斯
+6565={ #Phoraoua
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -626,7 +626,7 @@
 	}
 }
 
-6566={ #福拉纳
+6566={ #Phorana
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -645,11 +645,11 @@
 	}
 }
 
-6567={ #阿斯塔萨纳
+6567={ #Astasana
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -662,7 +662,7 @@
 	}
 }
 
-6568={ #帕耳西亚
+6568={ #Parsia
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -678,7 +678,7 @@
 	}
 }
 
-6569={ #伽里
+6569={ #Gari
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -691,7 +691,7 @@
 	}
 }
 
-6570={ #比吉斯
+6570={ #Bigis
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -710,7 +710,7 @@
 	}
 }
 
-6572={ #科特里卡
+6572={ #Kotrika
 	terrain="dry_hills"
 	culture="parecanian"
 	religion="zoroaster"
@@ -726,7 +726,7 @@
 	}
 }
 
-6573={ #咖尔兹
+6573={ #Banagara
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -745,7 +745,7 @@
 	}
 }
 
-6594={ #玻斯特
+6594={ #Taharene
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -764,7 +764,7 @@
 	}
 }
 
-6595={ #得拉剌姆
+6595={ #Pharazana
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -783,7 +783,7 @@
 	}
 }
 
-6596={ #阿纳耳
+6596={ #Thoubrasene
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -806,7 +806,7 @@
 	}
 }
 
-6597={ #玛扎耳
+6597={ #Zamouchana
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -826,7 +826,7 @@
 	}
 }
 
-6598={ #达里翁
+6598={ #Darion
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -845,7 +845,7 @@
 	}
 }
 
-6599={ #庇里安德
+6599={ #Biriand
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -868,7 +868,7 @@
 	}
 }
 
-6600={ #沙赫尔
+6600={ #Ambrodax
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -887,7 +887,7 @@
 	}
 }
 
-6601={ #戈纳巴德
+6601={ #Saripha
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -910,7 +910,7 @@
 	}
 }
 
-6603={ #弥拉
+6603={ #Mila
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -932,7 +932,7 @@
 	}
 }
 
-6604={ #马西纳
+6604={ #Masina
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -955,7 +955,7 @@
 	}
 }
 
-6605={ #巴耳达
+6605={ #Barda
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -978,7 +978,7 @@
 	}
 }
 
-6606={ #赫西达
+6606={ #Tribazina
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -998,7 +998,7 @@
 	}
 }
 
-6610={ #穆赛
+6610={ #Mousai
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1017,7 +1017,7 @@
 	}
 }
 
-6622={ #福克利斯
+6622={ #Phoklis
 	terrain="mountain"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1036,7 +1036,7 @@
 	}
 }
 
-6632={ #科班
+6632={ #Kopan
 	terrain="mountain"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1055,7 +1055,7 @@
 	}
 }
 
-6633={ #科剌
+6633={ #Kora
 	terrain="mountain"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1074,7 +1074,7 @@
 	}
 }
 
-6646={ #阿扎夫
+6646={ #Soteira
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -1093,11 +1093,11 @@
 	}
 }
 
-6647={ #古勒
+6647={ #Nisibis
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1112,7 +1112,7 @@
 	}
 }
 
-7224={ #比塔哈
+7224={ #Bitaxa
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1125,7 +1125,7 @@
 	}
 }
 
-7225={ #博加迪亚
+7225={ #Bogadia
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"

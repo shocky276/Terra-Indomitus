@@ -1,4 +1,4 @@
-﻿3908={ #维里提翁
+﻿3908={ #Viritium
 	terrain="forest"
 	culture="vandal"
 	religion="germanic_religion"
@@ -14,7 +14,7 @@
 	}
 }
 
-4003={ #卢吉杜农
+4003={ #Lugidunum
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -27,7 +27,7 @@
 	}
 }
 
-4004={ #迪杜尼亚
+4004={ #Didunia
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -40,7 +40,7 @@
 	}
 }
 
-4005={ #斯特拉戈纳
+4005={ #Stragona
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -53,7 +53,7 @@
 	}
 }
 
-4006={ #马耳西格尼亚
+4006={ #Marsignia
 	terrain="hills"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -72,7 +72,7 @@
 	}
 }
 
-4007={ #楼卡拉
+4007={ #Leucara
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -85,7 +85,7 @@
 	}
 }
 
-4010={ #卡苏耳吉斯
+4010={ #Casurgis
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -104,7 +104,7 @@
 	}
 }
 
-4011={ #科格尼亚
+4011={ #Cognia
 	terrain="hills"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -117,7 +117,7 @@
 	}
 }
 
-4012={ #维亚德里亚
+4012={ #Viadria
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -136,7 +136,7 @@
 	}
 }
 
-4013={ #卡雷杜农
+4013={ #Carredunum
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -149,7 +149,7 @@
 	}
 }
 
-4014={ #厄部戎
+4014={ #Eburum
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -162,7 +162,7 @@
 	}
 }
 
-4015={ #哥特尼亚
+4015={ #Gothinia
 	terrain="hills"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -181,7 +181,7 @@
 	}
 }
 
-4750={ #吕根
+4750={ #Rugia
 	terrain="forest"
 	culture="gothonic"
 	religion="germanic_religion"
@@ -195,7 +195,7 @@
 	port_building=1
 }
 
-4751={ #鲁吉翁
+4751={ #Rhugium
 	terrain="plains"
 	culture="gothonic"
 	religion="germanic_religion"
@@ -208,7 +208,7 @@
 	}
 }
 
-4752={ #维亚德鲁斯
+4752={ #Viadrus
 	terrain="plains"
 	culture="gothonic"
 	religion="germanic_religion"
@@ -222,7 +222,7 @@
 	port_building=1
 }
 
-4753={ #赫尔维科尼亚的鲁提克利亚
+4753={ #Rhuticlia Helveconia
 	terrain="plains"
 	culture="vandal"
 	religion="germanic_religion"
@@ -238,7 +238,7 @@
 	}
 }
 
-4754={ #图耳基林吉亚
+4754={ #Turcilingia
 	terrain="plains"
 	culture="vandal"
 	religion="germanic_religion"
@@ -254,7 +254,7 @@
 	}
 }
 
-4755={ #鲁吉亚的斯基里亚
+4755={ #Sciria Rugia
 	terrain="forest"
 	culture="gothonic"
 	religion="germanic_religion"
@@ -267,7 +267,7 @@
 	}
 }
 
-4756={ #欧古姆
+4756={ #Eughum
 	terrain="forest"
 	culture="gothonic"
 	religion="germanic_religion"
@@ -280,7 +280,7 @@
 	}
 }
 
-4757={ #勒摩维亚纳
+4757={ #Lemoviana
 	terrain="forest"
 	culture="gothonic"
 	religion="germanic_religion"
@@ -293,7 +293,7 @@
 	}
 }
 
-4758={ #叟耳吉翁
+4758={ #Seurgium
 	terrain="forest"
 	culture="vandal"
 	religion="germanic_religion"
@@ -306,7 +306,7 @@
 	}
 }
 
-4759={ #亚杜阿
+4759={ #Iadua
 	terrain="forest"
 	culture="vandal"
 	religion="germanic_religion"
@@ -319,7 +319,7 @@
 	}
 }
 
-4760={ #坎庇亚
+4760={ #Campia
 	terrain="plains"
 	culture="gothonic"
 	religion="germanic_religion"
@@ -332,7 +332,7 @@
 	}
 }
 
-4761={ #阿斯考卡利斯
+4761={ #Ascaucalis
 	terrain="forest"
 	culture="bastarnae"
 	religion="germanic_religion"
@@ -345,7 +345,7 @@
 	}
 }
 
-4762={ #部贡提亚
+4762={ #Buguntia
 	terrain="forest"
 	culture="bastarnae"
 	religion="germanic_religion"
@@ -361,7 +361,7 @@
 	}
 }
 
-4763={ #赫尔维科尼亚
+4763={ #Helveconia
 	terrain="forest"
 	culture="vandal"
 	religion="germanic_religion"
@@ -374,7 +374,7 @@
 	}
 }
 
-4764={ #赫尔维科尼亚纳
+4764={ #Helveconiana
 	terrain="forest"
 	culture="vandal"
 	religion="germanic_religion"
@@ -390,7 +390,7 @@
 	}
 }
 
-4765={ #卡里尼亚
+4765={ #Carinia
 	terrain="plains"
 	culture="vandal"
 	religion="germanic_religion"
@@ -406,7 +406,7 @@
 	}
 }
 
-4766={ #卡里尼亚纳
+4766={ #Cariniana
 	terrain="plains"
 	culture="vandal"
 	religion="germanic_religion"
@@ -419,7 +419,7 @@
 	}
 }
 
-4767={ #部贡提亚纳
+4767={ #Buguntiana
 	terrain="forest"
 	culture="vandal"
 	religion="germanic_religion"
@@ -432,7 +432,7 @@
 	}
 }
 
-4768={ #厄耳比亚
+4768={ #Erbia
 	terrain="forest"
 	culture="vandal"
 	religion="germanic_religion"
@@ -446,7 +446,7 @@
 	holy_site=omen_alcis
 }
 
-4769={ #马尼弥亚
+4769={ #Manimia
 	terrain="plains"
 	culture="bastarnae"
 	religion="germanic_religion"
@@ -465,7 +465,7 @@
 	}
 }
 
-4770={ #温杜阿
+4770={ #Vindua
 	terrain="forest"
 	culture="bastarnae"
 	religion="germanic_religion"
@@ -481,7 +481,7 @@
 	}
 }
 
-4771={ #楼卡里斯图斯
+4771={ #Leucaristus
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -494,7 +494,7 @@
 	}
 }
 
-4772={ #卡利西亚
+4772={ #Calisia
 	terrain="forest"
 	culture="bastarnae"
 	religion="germanic_religion"
@@ -507,7 +507,7 @@
 	}
 }
 
-4773={ #厄吕西亚
+4773={ #Elysia
 	terrain="plains"
 	culture="bastarnae"
 	religion="germanic_religion"
@@ -520,7 +520,7 @@
 	}
 }
 
-4774={ #厄吕西亚纳
+4774={ #Elysiana
 	terrain="forest"
 	culture="bastarnae"
 	religion="germanic_religion"
@@ -533,7 +533,7 @@
 	}
 }
 
-4775={ #瑟提得瓦
+4775={ #Setideva
 	terrain="plains"
 	culture="bastarnae"
 	religion="germanic_religion"
@@ -546,7 +546,7 @@
 	}
 }
 
-4776={ #纳哈耳瓦洛戎
+4776={ #Naharvalorum
 	terrain="forest"
 	culture="vandal"
 	religion="germanic_religion"
@@ -562,7 +562,7 @@
 	}
 }
 
-4777={ #瓦耳提亚
+4777={ #Vartia
 	terrain="plains"
 	culture="bastarnae"
 	religion="germanic_religion"
@@ -578,7 +578,7 @@
 	}
 }
 
-4778={ #吕吉亚
+4778={ #Lygia
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -594,7 +594,7 @@
 	}
 }
 
-4862={ #维斯图利亚纳
+4862={ #Vistuliana
 	terrain="plains"
 	culture="gothonic"
 	religion="germanic_religion"
@@ -610,7 +610,7 @@
 	}
 }
 
-4863={ #沃雷宇尼卡
+4863={ #Voreynica
 	terrain="plains"
 	culture="gothonic"
 	religion="germanic_religion"
@@ -626,7 +626,7 @@
 	}
 }
 
-4864={ #维涅迪卡
+4864={ #Venedica
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -639,7 +639,7 @@
 	}
 }
 
-4865={ #维涅迪卡纳
+4865={ #Venedicana
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -656,7 +656,7 @@
 	holy_site=omen_perkunas
 }
 
-4894={ #阿耳索尼斯
+4894={ #Arsonis
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -672,7 +672,7 @@
 	}
 }
 
-4897={ #勒克罗提亚纳
+4897={ #Lecrotiana
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -685,7 +685,7 @@
 	}
 }
 
-4898={ #维克提亚
+4898={ #Vectia
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -698,7 +698,7 @@
 	}
 }
 
-4899={ #西达里斯
+4899={ #Sidaris
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -714,7 +714,7 @@
 	}
 }
 
-4900={ #阿姆比翁
+4900={ #Ambium
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -733,7 +733,7 @@
 	}
 }
 
-4901={ #萨拉塔
+4901={ #Salata
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -746,7 +746,7 @@
 	}
 }
 
-4902={ #阿墨卢阿
+4902={ #Amellua
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -765,7 +765,7 @@
 	}
 }
 
-4903={ #厄克西塔涅斯
+4903={ #Exitanes
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -781,7 +781,7 @@
 	}
 }
 
-4904={ #劳迪孔
+4904={ #Laudicum
 	terrain="forest"
 	culture="bastarnae"
 	religion="germanic_religion"
@@ -797,7 +797,7 @@
 	}
 }
 
-6267={ #马拉诺特
+6267={ #Maranot
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -810,7 +810,7 @@
 	}
 }
 
-6268={ #韦尼德瓦
+6268={ #Venideva
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -826,7 +826,7 @@
 	}
 }
 
-6269={ #维涅狄亚的顾拉拉
+6269={ #Gurala Venedia
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -842,7 +842,7 @@
 	}
 }
 
-6270={ #曼托拉
+6270={ #Mantora
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -858,7 +858,7 @@
 	}
 }
 
-6271={ #腓林
+6271={ #Filin
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -874,7 +874,7 @@
 	}
 }
 
-6272={ #维涅狄亚的卡维拉
+6272={ #Kavera Venedia
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -887,7 +887,7 @@
 	}
 }
 
-6273={ #索法
+6273={ #Sopha
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -900,7 +900,7 @@
 	}
 }
 
-6274={ #库涅格里亚
+6274={ #Kunegria
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -916,7 +916,7 @@
 	}
 }
 
-6275={ #科罗坦
+6275={ #Korotan
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -929,7 +929,7 @@
 	}
 }
 
-6276={ #维涅迪卡尼亚
+6276={ #Venedicania
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -942,7 +942,7 @@
 	}
 }
 
-6277={ #杜雷提卡
+6277={ #Duretica
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -956,7 +956,7 @@
 	holy_site=omen_televelis
 }
 
-6278={ #摩耳纳尔
+6278={ #Mornal
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -972,7 +972,7 @@
 	}
 }
 
-6279={ #瓦迪纳
+6279={ #Vadina
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -985,7 +985,7 @@
 	}
 }
 
-6280={ #布里加雷
+6280={ #Brigare
 	terrain="forest"
 	culture="vandal"
 	religion="germanic_religion"
@@ -1001,7 +1001,7 @@
 	}
 }
 
-6281={ #福利亚
+6281={ #Follia
 	terrain="plains"
 	culture="vandal"
 	religion="germanic_religion"
@@ -1020,7 +1020,7 @@
 	}
 }
 
-6282={ #库雷塔
+6282={ #Cureta
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1033,7 +1033,7 @@
 	}
 }
 
-6283={ #阿纳库雷塔
+6283={ #Anacureta
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1049,7 +1049,7 @@
 	}
 }
 
-6284={ #阿纳维涅迪卡
+6284={ #Anavenedica
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1065,7 +1065,7 @@
 	}
 }
 
-6285={ #努利卡
+6285={ #Nullica
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1081,7 +1081,7 @@
 	}
 }
 
-6286={ #马罗涅
+6286={ #Marone
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1094,7 +1094,7 @@
 	}
 }
 
-6287={ #阿纳维拉
+6287={ #Anavella
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1107,7 +1107,7 @@
 	}
 }
 
-6288={ #古里纳
+6288={ #Gurina
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1120,7 +1120,7 @@
 	}
 }
 
-6289={ #托尔
+6289={ #Toll
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1136,7 +1136,7 @@
 	}
 }
 
-6290={ #厄格拉迪亚
+6290={ #Egladia
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1149,7 +1149,7 @@
 	}
 }
 
-6293={ #马克卡忒
+6293={ #Makkate
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1162,7 +1162,7 @@
 	}
 }
 
-7298={ #南维涅狄亚
+7298={ #Venedia Australis
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1175,7 +1175,7 @@
 	}
 }
 
-7804={ #西俄西俄伊亚
+7804={ #Ossioia Occidentalis
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1188,7 +1188,7 @@
 	}
 }
 
-7805={ #苏狄诺亚
+7805={ #Sudinoia
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1201,7 +1201,7 @@
 	}
 }
 
-7806={ #北苏狄诺亚
+7806={ #Sudinoia Borealis
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1214,7 +1214,7 @@
 	}
 }
 
-7807={ #萨洛亚
+7807={ #Saloia
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1228,7 +1228,7 @@
 	holy_site=omen_medeine
 }
 
-7808={ #鲁玻尼亚
+7808={ #Rubonia
 	terrain="taiga"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1241,7 +1241,7 @@
 	}
 }
 
-7809={ #西鲁玻尼亚
+7809={ #Rubonia Occidentalis
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1254,7 +1254,7 @@
 	}
 }
 
-7810={ #南图戎提亚
+7810={ #Turuntia Australis
 	terrain="taiga"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1267,7 +1267,7 @@
 	}
 }
 
-7811={ #图戎提亚
+7811={ #Turuntia
 	terrain="taiga"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1277,7 +1277,7 @@
 	province_rank="settlement"
 }
 
-7812={ #北图戎提亚
+7812={ #Turuntia Borealis
 	terrain="taiga"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1290,7 +1290,7 @@
 	}
 }
 
-7813={ #南维尔泰亚
+7813={ #Veltaea Australis
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1303,7 +1303,7 @@
 	}
 }
 
-7814={ #维尔泰亚
+7814={ #Veltaea
 	terrain="taiga"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1316,7 +1316,7 @@
 	}
 }
 
-7815={ #北维尔泰亚
+7815={ #Veltaea Borealis
 	terrain="taiga"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1330,7 +1330,7 @@
 	holy_site=omen_saulia
 }
 
-7816={ #西卡耳玻尼亚
+7816={ #Carbonia Occidentalis
 	terrain="taiga"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1343,7 +1343,7 @@
 	}
 }
 
-7817={ #卡耳玻尼亚
+7817={ #Carbonia
 	terrain="taiga"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1356,7 +1356,7 @@
 	}
 }
 
-7818={ #北卡雷俄泰亚
+7818={ #Careotaia Borealis
 	terrain="taiga"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1366,7 +1366,7 @@
 	province_rank="settlement"
 }
 
-7819={ #南卡雷俄泰亚
+7819={ #Careotaia Australis
 	terrain="taiga"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1379,7 +1379,7 @@
 	}
 }
 
-7830={ #西伽林狄亚
+7830={ #Galindia Occidentalis
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1399,7 +1399,7 @@
 	port_building=1
 }
 
-7831={ #东伽林狄亚
+7831={ #Galindia Orientalis
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1415,7 +1415,7 @@
 	}
 }
 
-7832={ #北维涅狄亚
+7832={ #Venedia Borealis
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1431,7 +1431,7 @@
 	}
 }
 
-7833={ #维涅狄亚
+7833={ #Venedia
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1447,7 +1447,7 @@
 	}
 }
 
-7834={ #北克罗诺尼亚
+7834={ #Chrononia Borealis
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1460,7 +1460,7 @@
 	}
 }
 
-7835={ #克罗诺尼亚
+7835={ #Chrononia
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1473,7 +1473,7 @@
 	}
 }
 
-7836={ #南克罗诺尼亚
+7836={ #Chrononia Australis
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"

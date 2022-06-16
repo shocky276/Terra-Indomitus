@@ -1,4 +1,4 @@
-﻿7741={ #伽戎纳
+﻿7741={ #Garumna
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-7742={ #伽戎纳
+7742={ #Garumna
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-7766={ #伽戎纳
+7766={ #Garumna
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-7846={ #罗达努斯
+7846={ #Rhodanus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-7864={ #利革耳
+7864={ #Liger
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-7865={ #利革耳
+7865={ #Liger
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-7866={ #利革耳
+7866={ #Liger
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-7867={ #利革耳
+7867={ #Liger
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-7868={ #塞夸纳
+7868={ #Sequana
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -88,7 +88,7 @@
 	province_rank=""
 }
 
-7869={ #塞夸纳
+7869={ #Sequana
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -98,7 +98,7 @@
 	province_rank=""
 }
 
-7870={ #塞夸纳
+7870={ #Sequana
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

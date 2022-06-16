@@ -1,4 +1,4 @@
-﻿445={ #琉卡斯庇斯
+﻿445={ #Leukaspis
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -20,7 +20,7 @@
 	}
 }
 
-453={ #大塔波西里斯
+453={ #Taposiris Megale
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -42,8 +42,8 @@
 	}
 }
 
-500={ #孟斐斯
-	terrain="farmland"
+500={ #Memphis
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
@@ -75,8 +75,8 @@
 	holy_site=omen_ptah
 }
 
-501={ #赫利俄乌波利斯
-	terrain="farmland"
+501={ #Heliopolis
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
@@ -103,7 +103,7 @@
 	holy_site=omen_ra
 }
 
-502={ #赫洛俄波利斯
+502={ #Heroopolis
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -122,8 +122,8 @@
 	}
 }
 
-503={ #部巴斯托斯
-	terrain="farmland"
+503={ #Boubastis
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
@@ -141,8 +141,8 @@
 	}
 }
 
-504={ #勒翁托波利斯
-	terrain="farmland"
+504={ #Leontopolis
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
@@ -161,7 +161,7 @@
 	holy_site=omen_sekhmet
 }
 
-505={ #克吕斯玛
+505={ #Klysma
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -181,7 +181,7 @@
 	port_building=1
 }
 
-506={ #克勒俄帕特里斯
+506={ #Arsinoe
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -205,8 +205,8 @@
 	}
 }
 
-507={ #勒翁托波利斯
-	terrain="farmland"
+507={ #Leonton Polis
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
@@ -230,7 +230,7 @@
 	port_building=1
 }
 
-508={ #塔尼斯
+508={ #Tanis
 	terrain="marsh"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -249,7 +249,7 @@
 	}
 }
 
-509={ #庇路西翁
+509={ #Pilousion
 	terrain="marsh"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -277,8 +277,8 @@
 	port_building=1
 }
 
-510={ #达佛奈
-	terrain="farmland"
+510={ #Daphnai
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
@@ -301,8 +301,8 @@
 	}
 }
 
-511={ #法库赛
-	terrain="farmland"
+511={ #Phakousai
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -323,8 +323,8 @@
 	}
 }
 
-512={ #勒托波利斯
-	terrain="farmland"
+512={ #Letopolis
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
@@ -352,8 +352,8 @@
 	}
 }
 
-513={ #阿特里比斯
-	terrain="farmland"
+513={ #Athribis
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -376,8 +376,8 @@
 	}
 }
 
-514={ #尼基俄乌
-	terrain="farmland"
+514={ #Nikiou
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -395,8 +395,8 @@
 	}
 }
 
-515={ #瑙克拉提斯
-	terrain="farmland"
+515={ #Naukratis
+	terrain="flood_plain"
 	culture="macedonian"
 	religion="roman_pantheon"
 	trade_goods="glass"
@@ -426,7 +426,7 @@
 	}
 }
 
-516={ #亚历山大里亚
+516={ #Alexandreia
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -478,8 +478,8 @@
 	court_building=1
 }
 
-517={ #弥克拉的赫耳摩乌波利斯
-	terrain="farmland"
+517={ #Hermopolis Mikra
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="earthware"
@@ -498,7 +498,7 @@
 	port_building=1
 }
 
-518={ #部托斯
+518={ #Boutos
 	terrain="marsh"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -517,8 +517,8 @@
 	}
 }
 
-519={ #赛斯
-	terrain="farmland"
+519={ #Sais
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="wine"
@@ -537,8 +537,8 @@
 	port_building=1
 }
 
-520={ #克索伊斯
-	terrain="farmland"
+520={ #Xois
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -556,8 +556,8 @@
 	}
 }
 
-521={ #塞本倪托斯
-	terrain="farmland"
+521={ #Sebennytos
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="hemp"
@@ -576,7 +576,7 @@
 	port_building=1
 }
 
-522={ #卡托的狄俄斯波利斯
+522={ #Diospolis Kato
 	terrain="marsh"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -596,7 +596,7 @@
 	port_building=1
 }
 
-523={ #帕克涅穆尼斯
+523={ #Pachnemounis
 	terrain="marsh"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -615,8 +615,8 @@
 	}
 }
 
-524={ #法耳拜托斯
-	terrain="farmland"
+524={ #Pharbaithos
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -634,7 +634,7 @@
 	}
 }
 
-525={ #西勒
+525={ #Sile
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -653,8 +653,8 @@
 	}
 }
 
-526={ #阿诺的俄努腓斯
-	terrain="farmland"
+526={ #Onouphis Ano
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="dates"
@@ -672,8 +672,8 @@
 	}
 }
 
-527={ #摩门腓斯
-	terrain="farmland"
+527={ #Momemphis
+	terrain="flood_plain"
 	culture="macedonian"
 	religion="roman_pantheon"
 	trade_goods="grain"
@@ -691,8 +691,8 @@
 	}
 }
 
-528={ #伊瑟翁
-	terrain="farmland"
+528={ #Iseion
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -710,7 +710,7 @@
 	}
 }
 
-529={ #卡诺波斯
+529={ #Kanopos
 	terrain="farmland"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -730,7 +730,7 @@
 	port_building=1
 }
 
-530={ #玻尔比提农
+530={ #Bolbitine
 	terrain="marsh"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -749,8 +749,8 @@
 	}
 }
 
-531={ #塞嫩淮亚
-	terrain="farmland"
+531={ #Psenemphaia
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="dates"
@@ -768,7 +768,7 @@
 	}
 }
 
-532={ #开雷翁
+532={ #Chaireon
 	terrain="farmland"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -792,7 +792,7 @@
 	}
 }
 
-533={ #肯比斯
+533={ #Boutike Limne
 	terrain="marsh"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -811,8 +811,8 @@
 	}
 }
 
-534={ #门得斯
-	terrain="farmland"
+534={ #Mendes
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="earthware"
@@ -840,7 +840,7 @@
 	}
 }
 
-535={ #欧斯特拉吉内
+535={ #Ostrakine
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -871,8 +871,8 @@
 	}
 }
 
-536={ #埃及的巴比伦
-	terrain="farmland"
+536={ #Babylon Aigyptou
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="stone"
@@ -906,8 +906,8 @@
 	port_building=1
 }
 
-537={ #帕纳拉克提斯
-	terrain="farmland"
+537={ #Panarachthis
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
@@ -925,8 +925,8 @@
 	}
 }
 
-538={ #阿佛洛狄托波利斯
-	terrain="farmland"
+538={ #Aphroditopolis
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="dates"
@@ -947,8 +947,8 @@
 	}
 }
 
-539={ #欧厄耳革提斯的托勒密
-	terrain="farmland"
+539={ #Ptolemais Euergetis
+	terrain="oasis"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="marble"
@@ -985,8 +985,8 @@
 	holy_site=omen_sobek
 }
 
-540={ #狄俄倪西亚斯
-	terrain="farmland"
+540={ #Dionysias
+	terrain="oasis"
 	culture="macedonian"
 	religion="roman_pantheon"
 	trade_goods="dates"
@@ -1016,8 +1016,8 @@
 	}
 }
 
-541={ #卡拉尼斯
-	terrain="farmland"
+541={ #Karanis
+	terrain="oasis"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -1037,8 +1037,8 @@
 	}
 }
 
-542={ #安居戎波利斯
-	terrain="plains"
+542={ #Ankyronpolis
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -1056,8 +1056,8 @@
 	}
 }
 
-543={ #尼罗波利斯
-	terrain="plains"
+543={ #Neiloupolis
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="wine"
@@ -1075,8 +1075,8 @@
 	}
 }
 
-544={ #赫拉克勒俄波利斯
-	terrain="plains"
+544={ #Herakleopolis
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -1094,8 +1094,8 @@
 	}
 }
 
-545={ #俄克叙林科斯
-	terrain="plains"
+545={ #Oxyrrhynchos
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -1121,8 +1121,8 @@
 	}
 }
 
-546={ #居诺波利斯
-	terrain="plains"
+546={ #Kynopolis
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="stone"
@@ -1137,8 +1137,8 @@
 	}
 }
 
-547={ #科伊瑟俄斯
-	terrain="plains"
+547={ #Chysis
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -1156,8 +1156,8 @@
 	}
 }
 
-548={ #阿拉巴斯特戎波利斯
-	terrain="plains"
+548={ #Alabastronpolis
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="precious_metals"
@@ -1175,8 +1175,8 @@
 	}
 }
 
-550={ #彭塔利斯
-	terrain="plains"
+550={ #Peentalis
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -1197,7 +1197,7 @@
 	}
 }
 
-655={ #塞拉庇埃翁
+655={ #Serapieion
 	terrain="desert"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -1219,7 +1219,7 @@
 	}
 }
 
-656={ #里诺科路拉
+656={ #Rhinokoloura
 	terrain="desert"
 	culture="philistine"
 	religion="carthaginian_pantheon"
@@ -1247,7 +1247,7 @@
 	}
 }
 
-701={ #马加拉
+701={ #Maghara
 	terrain="desert"
 	culture="philistine"
 	religion="egyptian_pantheon"
@@ -1275,7 +1275,7 @@
 	}
 }
 
-1600={ #玛腊
+1600={ #Medeia
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1291,7 +1291,7 @@
 	}
 }
 
-1604={ #福伊尼孔
+1604={ #Phoinikon
 	terrain="desert"
 	culture="egyptian"
 	religion="arabian_pantheon"
@@ -1307,8 +1307,8 @@
 	}
 }
 
-1675={ #法兰
-	terrain="dry_hills"
+1675={ #Pharan
+	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="fish"
@@ -1326,7 +1326,7 @@
 	}
 }
 
-1682={ #赖图
+1682={ #Rhaithou
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1342,8 +1342,8 @@
 	}
 }
 
-1684={ #艾因胡得拉
-	terrain="dry_hills"
+1684={ #Ain Hudera
+	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="cattle"
@@ -1361,7 +1361,7 @@
 	}
 }
 
-1688={ #努维巴
+1688={ #Nuweiba
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1377,8 +1377,8 @@
 	}
 }
 
-1693={ #科里布山脉
-	terrain="dry_hills"
+1693={ #Oros Choreb
+	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="gems"
@@ -1394,8 +1394,8 @@
 	holy_site=omen_moses
 }
 
-1708={ #玛什剌巴丘陵
-	terrain="dry_hills"
+1708={ #Tell el-Mashraba
+	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="fish"
@@ -1407,7 +1407,7 @@
 	}
 }
 
-1709={ #纳克卜捷迪德
+1709={ #Naqb Jedid
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1420,7 +1420,7 @@
 	}
 }
 
-1710={ #北西奈
+1710={ #Sina Boreios
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1433,8 +1433,8 @@
 	}
 }
 
-5547={ #腓洛忒里斯
-	terrain="plains"
+5547={ #Philoteris
+	terrain="desert"
 	culture="macedonian"
 	religion="roman_pantheon"
 	trade_goods="grain"
@@ -1449,8 +1449,8 @@
 	}
 }
 
-5549={ #塔居里斯
-	terrain="plains"
+5549={ #Takiris
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="grain"
@@ -1468,8 +1468,8 @@
 	}
 }
 
-7668={ #比勒拜斯
-	terrain="farmland"
+7668={ #Bilbeis
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="earthware"
@@ -1487,7 +1487,7 @@
 	}
 }
 
-7688={ #忒尼索斯
+7688={ #Thenisos
 	terrain="marsh"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -1506,8 +1506,8 @@
 	}
 }
 
-7689={ #赫耳摩乌波利斯
-	terrain="farmland"
+7689={ #Ermou Polis
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
@@ -1525,7 +1525,7 @@
 	}
 }
 
-7690={ #塔弥亚提斯
+7690={ #Tamiathis
 	terrain="marsh"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -1544,7 +1544,7 @@
 	}
 }
 
-7691={ #佩耳瑟俄斯 斯科佩
+7691={ #Perseos Skope
 	terrain="marsh"
 	culture="egyptian"
 	religion="egyptian_pantheon"

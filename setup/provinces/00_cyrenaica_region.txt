@@ -1,4 +1,4 @@
-﻿3340={ #墨德里翁
+﻿3340={ #Medrion
 	terrain="desert"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -21,7 +21,7 @@
 	}
 }
 
-3341={ #阿斯特罗孔达
+3341={ #Astrochonda
 	terrain="desert"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -44,7 +44,7 @@
 	}
 }
 
-3342={ #开农
+3342={ #Kainon
 	terrain="desert"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -62,7 +62,7 @@
 	}
 }
 
-3343={ #科耳尼克拉农
+3343={ #Korniklanon
 	terrain="desert"
 	culture="libyan"
 	religion="berber_religion"
@@ -81,11 +81,11 @@
 	}
 }
 
-3344={ #塞拉珀翁
+3344={ #Serapeion
 	terrain="desert"
 	culture="cyrenaican"
 	religion="roman_pantheon"
-	trade_goods="olive"
+	trade_goods="silphium"
 	civilization_value=23
 	barbarian_power=0
 	province_rank="city"
@@ -106,7 +106,7 @@
 	port_building=1
 }
 
-3345={ #诺厄图
+3345={ #Chorotos
 	terrain="desert"
 	culture="libyan"
 	religion="berber_religion"
@@ -127,7 +127,7 @@
 	}
 }
 
-3346={ #阿马斯托耳
+3346={ #Amastor
 	terrain="dry_plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -143,7 +143,7 @@
 	}
 }
 
-3347={ #塔利阿穆涅拉
+3347={ #Chaminos
 	terrain="desert"
 	culture="libyan"
 	religion="berber_religion"
@@ -167,7 +167,7 @@
 	}
 }
 
-3348={ #刻耳西斯
+3348={ #Chersis
 	terrain="dry_plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -186,7 +186,7 @@
 	}
 }
 
-3349={ #兆 塔柏耳纳
+3349={ #Zaou Katastema
 	terrain="desert"
 	culture="libyan"
 	religion="berber_religion"
@@ -210,11 +210,11 @@
 	}
 }
 
-3350={ #欧厄斯佩里得斯
+3350={ #Euesperides
 	terrain="dry_plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
-	trade_goods="vegetables"
+	trade_goods="silphium"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
@@ -226,7 +226,7 @@
 	}
 }
 
-3351={ #开雷克拉
+3351={ #Chairekla
 	terrain="desert"
 	culture="libyan"
 	religion="berber_religion"
@@ -245,7 +245,7 @@
 	}
 }
 
-3352={ #考卡路科墨
+3352={ #Kaukalou Kome
 	terrain="plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -265,7 +265,7 @@
 	port_building=1
 }
 
-3353={ #陶刻拉
+3353={ #Taucheira
 	terrain="plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -284,7 +284,7 @@
 	}
 }
 
-3354={ #利马涅巴耳刻
+3354={ #Limane Barke
 	terrain="plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -307,7 +307,7 @@
 	port_building=1
 }
 
-3357={ #巴耳刻
+3357={ #Barke
 	terrain="desert"
 	culture="libyan"
 	religion="berber_religion"
@@ -326,7 +326,7 @@
 	}
 }
 
-3358={ #费库斯
+3358={ #Phykous
 	terrain="plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -345,7 +345,7 @@
 	}
 }
 
-3359={ #巴拉格赖
+3359={ #Balagrai
 	terrain="desert"
 	culture="libyan"
 	religion="berber_religion"
@@ -369,7 +369,7 @@
 	}
 }
 
-3360={ #昔兰尼
+3360={ #Kyrene
 	terrain="plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -395,7 +395,7 @@
 	port_building=1
 }
 
-3361={ #昔兰尼的阿波罗尼亚
+3361={ #Apollonia Kyrenaike
 	terrain="plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -414,7 +414,7 @@
 	}
 }
 
-3362={ #阿伽比斯
+3362={ #Agabis
 	terrain="desert"
 	culture="libyan"
 	religion="berber_religion"
@@ -433,11 +433,11 @@
 	}
 }
 
-3363={ #达耳尼斯
+3363={ #Darnis
 	terrain="plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
-	trade_goods="spices"
+	trade_goods="silphium"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
@@ -449,7 +449,7 @@
 	}
 }
 
-3364={ #马览迪斯
+3364={ #Marandis
 	terrain="desert"
 	culture="libyan"
 	religion="berber_religion"
@@ -475,11 +475,11 @@
 	}
 }
 
-3365={ #阿齐里斯
+3365={ #Aziris
 	terrain="plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
-	trade_goods="spices"
+	trade_goods="silphium"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
@@ -494,7 +494,7 @@
 	}
 }
 
-3366={ #帕利乌洛斯
+3366={ #Paliouros
 	terrain="dry_plains"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -514,7 +514,7 @@
 	port_building=1
 }
 
-3367={ #小佩特拉
+3367={ #Petra Mikra
 	terrain="desert"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -530,7 +530,7 @@
 	}
 }
 
-3368={ #巴特拉科斯
+3368={ #Batrachos
 	terrain="desert"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -551,7 +551,7 @@
 	}
 }
 
-3369={ #戈尼亚
+3369={ #Gonia
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -568,7 +568,7 @@
 	}
 }
 
-3370={ #安提皮耳戈斯
+3370={ #Antipyrgos
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -588,7 +588,7 @@
 	}
 }
 
-3371={ #克律塔尼翁
+3371={ #Krythanion
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -605,7 +605,7 @@
 	}
 }
 
-3372={ #墨涅拉俄斯
+3372={ #Menelaos
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -626,7 +626,7 @@
 	port_building=1
 }
 
-3373={ #普吕诺斯港
+3373={ #Plynos Limen
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -649,7 +649,7 @@
 	}
 }
 
-3374={ #埃涅西斯费拉
+3374={ #Ainesisphyra
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -665,7 +665,7 @@
 	}
 }
 
-3375={ #刻泰亚
+3375={ #Chettaia
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -684,7 +684,7 @@
 	}
 }
 
-3376={ #瑟勒尼斯
+3376={ #Selenis
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -700,7 +700,7 @@
 	}
 }
 
-3377={ #阿庇斯
+3377={ #Apis
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -716,7 +716,7 @@
 	}
 }
 
-3378={ #帕赖托尼翁
+3378={ #Paraitonion
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -736,7 +736,7 @@
 	port_building=1
 }
 
-3379={ #卡利亚斯海角
+3379={ #Kallias
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -752,7 +752,7 @@
 	}
 }
 
-3380={ #昔兰尼加的琉刻海岸
+3380={ #Leuke Akte Kyrenaike
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -768,7 +768,7 @@
 	}
 }
 
-3476={ #普尼革俄斯
+3476={ #Pnigeos
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -784,7 +784,7 @@
 	}
 }
 
-3477={ #佩多尼亚
+3477={ #Pedonia
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -800,7 +800,7 @@
 	}
 }
 
-3478={ #得拉斯
+3478={ #Derrhas
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -816,8 +816,8 @@
 	}
 }
 
-5514={ #锡瓦
-	terrain="dry_plains"
+5514={ #Siwa
+	terrain="oasis"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="salt"
@@ -835,7 +835,7 @@
 	}
 }
 
-5523={ #法拉佛拉
+5523={ #Pharaphra
 	terrain="desert"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -851,7 +851,7 @@
 	}
 }
 
-5524={ #比沙亚
+5524={ #Bishaya
 	terrain="desert"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -867,7 +867,7 @@
 	}
 }
 
-5525={ #塔瓦尔
+5525={ #Tawar
 	terrain="desert"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -883,7 +883,7 @@
 	}
 }
 
-5526={ #明咖尔
+5526={ #Minqar
 	terrain="desert"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -902,7 +902,7 @@
 	}
 }
 
-5527={ #塔布拉蒙
+5527={ #Tablamon
 	terrain="desert"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -915,7 +915,7 @@
 	}
 }
 
-5528={ #厄拉萨
+5528={ #Elassa
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -928,7 +928,7 @@
 	}
 }
 
-5529={ #波卡
+5529={ #Poka
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -941,7 +941,7 @@
 	}
 }
 
-5530={ #曼迪什
+5530={ #Mandish
 	terrain="desert"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -954,7 +954,7 @@
 	}
 }
 
-5531={ #泽斯泽斯
+5531={ #Oasis Deutera
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -967,7 +967,7 @@
 	}
 }
 
-5532={ #考姆纳姆鲁德
+5532={ #Kom Namrud
 	terrain="desert"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
@@ -983,7 +983,7 @@
 	}
 }
 
-5533={ #柏耳库
+5533={ #Berku
 	terrain="desert"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
@@ -999,7 +999,7 @@
 	}
 }
 
-5534={ #瓦剌姆
+5534={ #Varam
 	terrain="desert"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
@@ -1012,7 +1012,7 @@
 	}
 }
 
-5535={ #科利剌
+5535={ #Colira
 	terrain="desert"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
@@ -1028,7 +1028,7 @@
 	}
 }
 
-5536={ #西特拉
+5536={ #Sitra
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1044,8 +1044,8 @@
 	}
 }
 
-5537={ #阿蒙涅翁
-	terrain="dry_plains"
+5537={ #Ammoneion
+	terrain="oasis"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="dates"
@@ -1066,7 +1066,7 @@
 	}
 }
 
-5538={ #伽耳伽拉
+5538={ #Gargara
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1082,7 +1082,7 @@
 	}
 }
 
-5539={ #泽廷
+5539={ #Zethin
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1095,7 +1095,7 @@
 	}
 }
 
-5540={ #阿雷格
+5540={ #Areg
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1108,7 +1108,7 @@
 	}
 }
 
-5541={ #述内
+5541={ #Shunne
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1121,7 +1121,7 @@
 	}
 }
 
-5542={ #穆耳塔
+5542={ #Murta
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1137,7 +1137,7 @@
 	}
 }
 
-5543={ #马格剌卜
+5543={ #Magrab
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1150,7 +1150,7 @@
 	}
 }
 
-5544={ #革戎
+5544={ #Gheron
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1163,7 +1163,7 @@
 	}
 }
 
-5545={ #图马特
+5545={ #Thumat
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1179,7 +1179,7 @@
 	}
 }
 
-5546={ #那卡拉
+5546={ #Pseneros
 	terrain="desert"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
@@ -1192,7 +1192,7 @@
 	}
 }
 
-5548={ #刻耳刻托里斯
+5548={ #Kerkethoris
 	terrain="desert"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
@@ -1205,7 +1205,7 @@
 	}
 }
 
-5550={ #亚历山大洛乌 帕壬玻勒
+5550={ #Alexandrou Parembole
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1221,7 +1221,7 @@
 	}
 }
 
-5551={ #瓦里亚斯
+5551={ #Ouarias
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1234,7 +1234,7 @@
 	}
 }
 
-5552={ #克利马克斯
+5552={ #Klimax
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1253,7 +1253,7 @@
 	}
 }
 
-5553={ #格赖亚斯
+5553={ #Graias
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1269,7 +1269,7 @@
 	}
 }
 
-5554={ #萨诺斯
+5554={ #Sanos
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1282,7 +1282,7 @@
 	}
 }
 
-5555={ #卡耳那萨
+5555={ #Karnasa
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1295,7 +1295,7 @@
 	}
 }
 
-5556={ #阿比德
+5556={ #Abid
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"

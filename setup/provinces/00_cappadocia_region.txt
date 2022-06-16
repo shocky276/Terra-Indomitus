@@ -1,4 +1,4 @@
-﻿155={ #喀斯喀索斯
+﻿155={ #Kiskisos
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -25,7 +25,7 @@
 	}
 }
 
-157={ #乌尔萨帕
+157={ #Ouarsapa
 	terrain="forest"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -52,7 +52,7 @@
 	}
 }
 
-158={ #阿布拉斯塔
+158={ #Ablastha
 	terrain="forest"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -74,7 +74,7 @@
 	}
 }
 
-163={ #奥斯达拉
+163={ #Osdara
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -97,7 +97,7 @@
 	}
 }
 
-172={ #圣城科马那
+172={ #Komana Hierapolis
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -141,7 +141,7 @@
 	holy_site=omen_ma
 }
 
-173={ #科洛帕索斯
+173={ #Koropassos
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -175,7 +175,7 @@
 	}
 }
 
-205={ #泽拉
+205={ #Zeila
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -206,7 +206,7 @@
 	}
 }
 
-1729={ #本都的雅典
+1729={ #Athenai Pontikai
 	terrain="hills"
 	culture="bekhyrian"
 	religion="caucasian_religion"
@@ -225,7 +225,7 @@
 	}
 }
 
-1730={ #里宰翁
+1730={ #Rhizaion
 	terrain="hills"
 	culture="bekhyrian"
 	religion="caucasian_religion"
@@ -248,7 +248,7 @@
 	port_building=1
 }
 
-1731={ #俄腓斯
+1731={ #Ophis
 	terrain="hills"
 	culture="bekhyrian"
 	religion="caucasian_religion"
@@ -275,7 +275,7 @@
 	}
 }
 
-1732={ #许索斯
+1732={ #Hyssos
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -297,7 +297,7 @@
 	}
 }
 
-1733={ #庇辛伽剌
+1733={ #Pisingara
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -316,7 +316,7 @@
 	}
 }
 
-1734={ #特剌珀组斯
+1734={ #Trapezous
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -343,7 +343,7 @@
 	port_building=1
 }
 
-1766={ #阿拉涅
+1766={ #Arane
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -359,7 +359,7 @@
 	}
 }
 
-1767={ #厄里匝
+1767={ #Eriza
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -383,7 +383,7 @@
 	holy_site=omen_anahit
 }
 
-1768={ #提勒
+1768={ #Til
 	terrain="plains"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -402,7 +402,7 @@
 	}
 }
 
-1769={ #萨玻斯
+1769={ #Sabos
 	terrain="hills"
 	culture="sophene"
 	religion="armenian_religion"
@@ -425,7 +425,7 @@
 	}
 }
 
-1771={ #阿那利布那
+1771={ #Analibna
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -448,7 +448,7 @@
 	}
 }
 
-1772={ #塞狄斯卡
+1772={ #Sediska
 	terrain="hills"
 	culture="sasperires"
 	religion="caucasian_religion"
@@ -472,7 +472,7 @@
 	}
 }
 
-1773={ #齐加那
+1773={ #Zigana
 	terrain="hills"
 	culture="sasperires"
 	religion="roman_pantheon"
@@ -495,7 +495,7 @@
 	}
 }
 
-1775={ #马格纳纳
+1775={ #Magnana
 	terrain="hills"
 	culture="sasperires"
 	religion="roman_pantheon"
@@ -518,7 +518,7 @@
 	}
 }
 
-1776={ #阿劳拉卡
+1776={ #Arauraka
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -541,7 +541,7 @@
 	}
 }
 
-1778={ #科耳萨比亚
+1778={ #Chorsabia
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -568,7 +568,7 @@
 	}
 }
 
-1779={ #俄洛托厄达里匝
+1779={ #Olotoedariza
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -589,7 +589,7 @@
 	}
 }
 
-1781={ #巴斯戈达里匝
+1781={ #Basgoedariza
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -608,7 +608,7 @@
 	}
 }
 
-1782={ #达斯忒拉
+1782={ #Dasteira
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -632,7 +632,7 @@
 	}
 }
 
-1783={ #安尼亚卡
+1783={ #Anniaka
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -648,7 +648,7 @@
 	}
 }
 
-1786={ #扫罗尼瑟纳
+1786={ #Sauronisena
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -667,7 +667,7 @@
 	}
 }
 
-1787={ #达奈
+1787={ #Danai
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -690,7 +690,7 @@
 	}
 }
 
-1788={ #诺拉
+1788={ #Nora
 	terrain="mountain"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -713,7 +713,7 @@
 	}
 }
 
-1789={ #叙得洛斯
+1789={ #Syderos
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -740,7 +740,7 @@
 	}
 }
 
-1790={ #本都的科马纳
+1790={ #Komana Pontike
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -787,7 +787,7 @@
 	}
 }
 
-1791={ #伊玻拉
+1791={ #Ibora
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -815,7 +815,7 @@
 	holy_site=omen_nane
 }
 
-1792={ #卡贝拉
+1792={ #Kabeira
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -859,7 +859,7 @@
 	}
 }
 
-1793={ #本都的西得
+1793={ #Side Pontike
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -884,7 +884,7 @@
 	port_building=1
 }
 
-1794={ #科拉玛
+1794={ #Kyzistra
 	terrain="marsh"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -903,7 +903,7 @@
 	}
 }
 
-1795={ #科堤俄拉
+1795={ #Kotyora
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -930,7 +930,7 @@
 	}
 }
 
-1796={ #阿拉萨克萨
+1796={ #Arathia
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -972,7 +972,7 @@
 	}
 }
 
-1797={ #科拉拉
+1797={ #Koralla
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -991,7 +991,7 @@
 	}
 }
 
-1798={ #刻拉苏斯
+1798={ #Kerasous
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -1015,7 +1015,7 @@
 	}
 }
 
-1799={ #马匝卡
+1799={ #Mazaka
 	terrain="marsh"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1094,7 +1094,7 @@
 	}
 }
 
-1800={ #索安多斯
+1800={ #Soandos
 	terrain="marsh"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1117,11 +1117,11 @@
 	}
 }
 
-1801={ #马托乌阿斯科
+1801={ #Matouasko
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="wine"
+	trade_goods="fruits"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
@@ -1140,7 +1140,7 @@
 	}
 }
 
-1802={ #欧阿吉纳
+1802={ #Euagina
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1170,7 +1170,7 @@
 	}
 }
 
-1803={ #赫耳法
+1803={ #Herpha
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1197,7 +1197,7 @@
 	}
 }
 
-1804={ #玻伊纳萨
+1804={ #Boinasa
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1239,7 +1239,7 @@
 	}
 }
 
-1805={ #阿尼萨
+1805={ #Anisa
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1266,7 +1266,7 @@
 	}
 }
 
-1811={ #帕耳纳索斯
+1811={ #Parnassos
 	terrain="dry_plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -1293,7 +1293,7 @@
 	}
 }
 
-1813={ #倪萨
+1813={ #Nyssa
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -1328,7 +1328,7 @@
 	}
 }
 
-1817={ #左洛帕索斯
+1817={ #Zoropassos
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -1355,7 +1355,7 @@
 	}
 }
 
-1818={ #维纳萨
+1818={ #Ouenasa
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -1385,7 +1385,7 @@
 	}
 }
 
-1819={ #阿马瑟亚
+1819={ #Amaseia
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1432,7 +1432,7 @@
 	}
 }
 
-1820={ #俄多格拉
+1820={ #Odogra
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -1463,7 +1463,7 @@
 	}
 }
 
-1821={ #法泽蒙
+1821={ #Phazemon
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1490,7 +1490,7 @@
 	}
 }
 
-1822={ #厄托尼亚
+1822={ #Etonia
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1517,7 +1517,7 @@
 	}
 }
 
-1823={ #狄亚科帕
+1823={ #Diakopa
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -1544,7 +1544,7 @@
 	}
 }
 
-1824={ #安德拉帕
+1824={ #Andrapa
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1571,7 +1571,7 @@
 	}
 }
 
-1826={ #本都的普忒里亚
+1826={ #Pteria Pontias
 	terrain="forest"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -1598,7 +1598,7 @@
 	}
 }
 
-1831={ #庇摩利萨
+1831={ #Pimolisa
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -1617,7 +1617,7 @@
 	}
 }
 
-1832={ #萨拉罗斯
+1832={ #Saralos
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1648,7 +1648,7 @@
 	}
 }
 
-1833={ #达齐蒙
+1833={ #Dazimon
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1671,7 +1671,7 @@
 	}
 }
 
-1834={ #泽拉
+1834={ #Zela
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1713,7 +1713,7 @@
 	}
 }
 
-1836={ #普忒里亚
+1836={ #Pteria Kappadokias
 	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1757,7 +1757,7 @@
 	}
 }
 
-1837={ #欧开塔
+1837={ #Euchaita
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -1784,7 +1784,7 @@
 	}
 }
 
-1838={ #普楼拉弥斯
+1838={ #Pleuramis
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1807,7 +1807,7 @@
 	}
 }
 
-1839={ #卡拉那
+1839={ #Karana
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1826,7 +1826,7 @@
 	}
 }
 
-1840={ #维里萨
+1840={ #Ouerisa
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1845,7 +1845,7 @@
 	}
 }
 
-1842={ #匝拉
+1842={ #Zara
 	terrain="forest"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -1861,7 +1861,7 @@
 	}
 }
 
-1843={ #卡弥萨
+1843={ #Kamisa
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1893,7 +1893,7 @@
 	}
 }
 
-1844={ #塔劳拉
+1844={ #Talaura
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1930,7 +1930,7 @@
 	}
 }
 
-1845={ #腓亚拉
+1845={ #Phiara
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1957,7 +1957,7 @@
 	}
 }
 
-1846={ #珀达克托厄
+1846={ #Pedachthoe
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1984,7 +1984,7 @@
 	}
 }
 
-1848={ #左阿纳
+1848={ #Zoana
 	terrain="forest"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -2011,7 +2011,7 @@
 	}
 }
 
-1849={ #托诺萨
+1849={ #Tonosa
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -2038,7 +2038,7 @@
 	}
 }
 
-1850={ #贡杜萨
+1850={ #Goundousa
 	terrain="forest"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -2059,7 +2059,7 @@
 	}
 }
 
-1851={ #欧斯佩纳
+1851={ #Euspena
 	terrain="forest"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -2083,7 +2083,7 @@
 	}
 }
 
-1852={ #西尼斯波拉
+1852={ #Pisonos
 	terrain="mountain"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2110,7 +2110,7 @@
 	}
 }
 
-1853={ #基亚基斯
+1853={ #Kiakis
 	terrain="forest"
 	culture="sophene"
 	religion="armenian_religion"
@@ -2130,7 +2130,7 @@
 	}
 }
 
-1854={ #墨利提亚
+1854={ #Melitene
 	terrain="forest"
 	culture="cataonian"
 	religion="zoroaster"
@@ -2186,7 +2186,7 @@
 	}
 }
 
-1858={ #达斯库萨
+1858={ #Daskousa
 	terrain="hills"
 	culture="sophene"
 	religion="armenian_religion"
@@ -2202,7 +2202,7 @@
 	}
 }
 
-1859={ #阿耳卡
+1859={ #Arka
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2226,7 +2226,7 @@
 	}
 }
 
-1861={ #齐左阿特拉
+1861={ #Zizoatra
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2250,7 +2250,7 @@
 	}
 }
 
-1865={ #弥亚瑟纳
+1865={ #Miasena
 	terrain="hills"
 	culture="sophene"
 	religion="zoroaster"
@@ -2271,7 +2271,7 @@
 	}
 }
 
-1866={ #克尔内
+1866={ #Korne
 	terrain="mountain"
 	culture="sophene"
 	religion="zoroaster"
@@ -2290,7 +2290,7 @@
 	}
 }
 
-1886={ #达兰达
+1886={ #Dalanda
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2309,7 +2309,7 @@
 	}
 }
 
-1888={ #波丹多斯
+1888={ #Padyandos
 	terrain="hills"
 	culture="kennataian"
 	religion="anatolian_religion"
@@ -2341,7 +2341,7 @@
 	}
 }
 
-1891={ #卡尔纳利斯
+1891={ #Karnalis
 	terrain="plains"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2380,7 +2380,7 @@
 	}
 }
 
-1893={ #达斯门达
+1893={ #Dasmenda
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2435,7 +2435,7 @@
 	}
 }
 
-1898={ #高赖纳
+1898={ #Gauraina
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2464,7 +2464,7 @@
 	}
 }
 
-1899={ #马兰达拉
+1899={ #Malandara
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -2491,7 +2491,7 @@
 	}
 }
 
-1900={ #萨西马
+1900={ #Sasima
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -2521,7 +2521,7 @@
 	}
 }
 
-1902={ #科杜匝拉巴
+1902={ #Kodouzalaba
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2548,7 +2548,7 @@
 	}
 }
 
-1907={ #阿格拉奈
+1907={ #Argyrion
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -2571,7 +2571,7 @@
 	}
 }
 
-1909={ #西玻拉
+1909={ #Sibora
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -2594,7 +2594,7 @@
 	}
 }
 
-1912={ #卡穆利亚奈
+1912={ #Kamoulianai
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -2613,7 +2613,7 @@
 	}
 }
 
-1913={ #萨科伊纳
+1913={ #Sakoina
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -2639,7 +2639,7 @@
 	}
 }
 
-1923={ #索安达
+1923={ #Soanda
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -2670,7 +2670,7 @@
 	}
 }
 
-1929={ #孚法革那
+1929={ #Phouphagena
 	terrain="mountain"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2697,7 +2697,7 @@
 	}
 }
 
-1932={ #塞乌萨
+1932={ #Euaissa
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -2727,7 +2727,7 @@
 	}
 }
 
-1938={ #阿耳迪斯塔马
+1938={ #Ardistama
 	terrain="hills"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -2758,7 +2758,7 @@
 	}
 }
 
-1940={ #库彼斯特剌
+1940={ #Kybistra
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -2788,7 +2788,7 @@
 	}
 }
 
-1951={ #堤亚纳
+1951={ #Tyana
 	terrain="dry_plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -2867,7 +2867,7 @@
 	}
 }
 
-1954={ #伽耳扫拉
+1954={ #Garsaura
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -2928,7 +2928,7 @@
 	}
 }
 
-1976={ #科库索斯
+1976={ #Kokousos
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2955,7 +2955,7 @@
 	}
 }
 
-1978={ #萨兰布里埃
+1978={ #Salamboreia
 	terrain="hills"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -2982,7 +2982,7 @@
 	}
 }
 
-1979={ #巴卡
+1979={ #Baka
 	terrain="hills"
 	culture="kennataian"
 	religion="anatolian_religion"
@@ -3010,7 +3010,7 @@
 	}
 }
 
-1982={ #阿里亚兰涅亚
+1982={ #Ariaramneia
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -3033,7 +3033,7 @@
 	}
 }
 
-1983={ #卡巴索斯
+1983={ #Kabassos
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -3060,7 +3060,7 @@
 	}
 }
 
-1994={ #阿拉比索斯
+1994={ #Arabissos
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -3086,7 +3086,7 @@
 	}
 }
 
-1999={ #塔那达里斯
+1999={ #Maroga
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -3113,7 +3113,7 @@
 	}
 }
 
-6420={ #欧勒帕
+6420={ #Eulepa
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -3140,11 +3140,11 @@
 	}
 }
 
-7844={ #齐马拉
+7844={ #Zimara
 	terrain="mountain"
 	culture="phasiane"
 	religion="armenian_religion"
-	trade_goods="fur"
+	trade_goods="fruits"
 	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
@@ -3156,7 +3156,7 @@
 	}
 }
 
-7845={ #阿尼
+7845={ #Ani
 	terrain="mountain"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -3178,7 +3178,7 @@
 	}
 }
 
-7981={ #安德罗那
+7981={ #Androna
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3201,7 +3201,7 @@
 	}
 }
 
-7994={ #基匝里
+7994={ #Kizari
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -3225,7 +3225,7 @@
 	}
 }
 
-7998={ #加齐乌拉
+7998={ #Gazioura
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -3244,7 +3244,7 @@
 	}
 }
 
-7999={ #塞耳穆萨
+7999={ #Sermousa
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"

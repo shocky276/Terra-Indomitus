@@ -1,4 +1,4 @@
-﻿2808={ #波斯海峡
+﻿2808={ #Fretum Persarum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-2809={ #波斯湾
+2809={ #Sinus Persicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-2810={ #波斯湾
+2810={ #Sinus Persicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-2811={ #波斯湾
+2811={ #Sinus Persicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-2812={ #波斯湾
+2812={ #Sinus Persicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-2813={ #波斯湾
+2813={ #Sinus Persicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-2814={ #波斯湾
+2814={ #Sinus Persicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-2815={ #波斯湾
+2815={ #Sinus Persicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-2816={ #波斯湾
+2816={ #Sinus Persicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -88,7 +88,7 @@
 	province_rank=""
 }
 
-2817={ #波斯湾
+2817={ #Sinus Persicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -98,7 +98,7 @@
 	province_rank=""
 }
 
-2818={ #波斯湾
+2818={ #Sinus Persicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -108,7 +108,7 @@
 	province_rank=""
 }
 
-2819={ #波斯湾
+2819={ #Sinus Persicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -118,7 +118,7 @@
 	province_rank=""
 }
 
-2820={ #波斯湾
+2820={ #Sinus Persicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -128,7 +128,7 @@
 	province_rank=""
 }
 
-2821={ #波斯湾
+2821={ #Sinus Persicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -138,7 +138,7 @@
 	province_rank=""
 }
 
-2822={ #波斯湾
+2822={ #Sinus Persicus
 	terrain="ocean"
 	culture=""
 	religion=""

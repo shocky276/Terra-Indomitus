@@ -1,4 +1,4 @@
-﻿738={ #马刻德
+﻿738={ #Aire
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -17,7 +17,7 @@
 	}
 }
 
-740={ #帕奈亚斯
+740={ #Panaias
 	terrain="hills"
 	culture="hebrew"
 	religion="carthaginian_pantheon"
@@ -40,11 +40,11 @@
 	}
 }
 
-741={ #阿比拉
+741={ #Abila
 	terrain="hills"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -64,7 +64,7 @@
 	}
 }
 
-742={ #卡达萨
+742={ #Kadasa
 	terrain="forest"
 	culture="hebrew"
 	religion="carthaginian_pantheon"
@@ -84,7 +84,7 @@
 	holy_site=omen_deborah
 }
 
-743={ #堤洛斯
+743={ #Tyros
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -123,7 +123,7 @@
 	port_building=3
 }
 
-744={ #厄克狄帕
+744={ #Ekdippa
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -139,7 +139,7 @@
 	}
 }
 
-745={ #盖里尔
+745={ #Gelil
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -158,7 +158,7 @@
 	}
 }
 
-746={ #马克拉科墨
+746={ #Makra Kome
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -174,7 +174,7 @@
 	}
 }
 
-747={ #西顿
+747={ #Sidun
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -213,7 +213,7 @@
 	port_building=4
 }
 
-748={ #柏律托斯
+748={ #Berytos
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -235,11 +235,11 @@
 	}
 }
 
-749={ #布洛科伊
+749={ #Brochoi
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -255,7 +255,7 @@
 	}
 }
 
-750={ #大马士革
+750={ #Damaskos
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -295,7 +295,7 @@
 	}
 }
 
-751={ #叙利亚的阿比拉
+751={ #Leukas Chrysorrhoai
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -311,11 +311,11 @@
 	}
 }
 
-752={ #革拉
+752={ #Gerrha
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -338,7 +338,7 @@
 	}
 }
 
-753={ #泽诺波利斯
+753={ #Zenopolis
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -359,7 +359,7 @@
 	holy_site=omen_el
 }
 
-754={ #帕尔密拉
+754={ #Palmyra
 	terrain="hills"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -385,7 +385,7 @@
 	holy_site=omen_alilat
 }
 
-755={ #柏里亚拉卡
+755={ #Beriaraka
 	terrain="hills"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -401,7 +401,7 @@
 	}
 }
 
-756={ #昆那
+756={ #Kounna
 	terrain="hills"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -417,7 +417,7 @@
 	}
 }
 
-757={ #欧涅乌阿塔
+757={ #Oneuatha
 	terrain="hills"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -433,7 +433,7 @@
 	}
 }
 
-758={ #阿尔巴谷
+758={ #Leuke Koilas
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -449,7 +449,7 @@
 	}
 }
 
-759={ #忒尔塞埃
+759={ #Thelseai
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -468,7 +468,7 @@
 	}
 }
 
-760={ #伊亚布卢达
+760={ #Iabrouda
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -487,7 +487,7 @@
 	}
 }
 
-761={ #特里帕拉得索斯
+761={ #Triparadeisos
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -506,11 +506,11 @@
 	}
 }
 
-762={ #孔那
+762={ #Kone
 	terrain="forest"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -526,11 +526,11 @@
 	}
 }
 
-763={ #赫利俄波利塔那
+763={ #Heliopolis
 	terrain="forest"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
@@ -557,7 +557,7 @@
 	holy_site=omen_baal
 }
 
-764={ #卡蒙
+764={ #Chalkis Libanon
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -576,11 +576,11 @@
 	}
 }
 
-765={ #柏洛忒
+765={ #Berothai
 	terrain="forest"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -593,7 +593,7 @@
 	}
 }
 
-766={ #革巴尔
+766={ #Gebal
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -636,7 +636,7 @@
 	port_building=4
 }
 
-767={ #玻特律斯
+767={ #Botrys
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -655,7 +655,7 @@
 	}
 }
 
-769={ #特里波利斯
+769={ #Tripolis
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -683,7 +683,7 @@
 	port_building=1
 }
 
-770={ #卡拉
+770={ #Kara
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -702,11 +702,11 @@
 	}
 }
 
-771={ #伊尔卡塔
+771={ #Arka
 	terrain="hills"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -725,11 +725,11 @@
 	}
 }
 
-772={ #卡比俄萨
+772={ #Laodicea Libanon
 	terrain="forest"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -756,7 +756,7 @@
 	}
 }
 
-774={ #赫墨萨
+774={ #Emesa
 	terrain="forest"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -775,7 +775,7 @@
 	}
 }
 
-775={ #赫利阿拉米亚
+775={ #Heliaramia
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -794,7 +794,7 @@
 	}
 }
 
-776={ #奥塔拉
+776={ #Otthara
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -813,11 +813,11 @@
 	}
 }
 
-777={ #阿玛忒
+777={ #Amathe
 	terrain="forest"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
@@ -832,11 +832,11 @@
 	}
 }
 
-778={ #剌法涅亚
+778={ #Rhaphaneia
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -855,7 +855,7 @@
 	}
 }
 
-779={ #阿尔帕德
+779={ #Arpad
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -882,7 +882,7 @@
 	port_building=3
 }
 
-780={ #咖耳纳
+780={ #Karna
 	terrain="hills"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -901,7 +901,7 @@
 	}
 }
 
-781={ #拉里萨
+781={ #Larissa
 	terrain="forest"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -921,7 +921,7 @@
 	}
 }
 
-782={ #奥龙特斯河畔珀拉
+782={ #Pella Orontou
 	terrain="forest"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -962,11 +962,11 @@
 	}
 }
 
-784={ #西工
+784={ #Sigon
 	terrain="hills"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -990,7 +990,7 @@
 	}
 }
 
-785={ #苏卡斯
+785={ #Pelleta
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -1011,7 +1011,7 @@
 	}
 }
 
-786={ #琉刻海岸
+786={ #Leuke Akte
 	terrain="forest"
 	culture="ionian"
 	religion="roman_pantheon"
@@ -1050,7 +1050,7 @@
 	port_building=1
 }
 
-787={ #柏罗伊
+787={ #Beloi
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1078,7 +1078,7 @@
 	}
 }
 
-788={ #波西得翁
+788={ #Posideion
 	terrain="forest"
 	culture="ionian"
 	religion="roman_pantheon"
@@ -1103,7 +1103,7 @@
 	}
 }
 
-789={ #卡戎之河
+789={ #Potamoi Karon
 	terrain="forest"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1134,7 +1134,7 @@
 	port_building=1
 }
 
-790={ #安提戈涅亚
+790={ #Antigoneia
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -1176,7 +1176,7 @@
 	}
 }
 
-791={ #达耳库斯
+791={ #Daphne
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1199,7 +1199,7 @@
 	}
 }
 
-792={ #特拉珀宗
+792={ #Trapezon
 	terrain="forest"
 	culture="aramaic"
 	religion="roman_pantheon"
@@ -1219,7 +1219,7 @@
 	}
 }
 
-793={ #艮达洛斯
+793={ #Gindaros
 	terrain="hills"
 	culture="aramaic"
 	religion="roman_pantheon"
@@ -1243,7 +1243,7 @@
 	}
 }
 
-794={ #居耳洛斯
+794={ #Kyrrhos
 	terrain="hills"
 	culture="aramaic"
 	religion="roman_pantheon"
@@ -1263,11 +1263,11 @@
 	}
 }
 
-797={ #柏洛斯的卡尔基斯
+797={ #Chalkis Belon
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1282,7 +1282,7 @@
 	}
 }
 
-798={ #哈达德
+798={ #Chalibon
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1304,7 +1304,7 @@
 	}
 }
 
-799={ #阿德洛那
+799={ #Adrona
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1320,7 +1320,7 @@
 	}
 }
 
-800={ #根奈斯
+800={ #Gennaes
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1336,7 +1336,7 @@
 	}
 }
 
-801={ #赫勒拉
+801={ #Alalis
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1349,7 +1349,7 @@
 	}
 }
 
-802={ #俄里匝
+802={ #Oriza
 	terrain="desert"
 	culture="qedarite"
 	religion="carthaginian_pantheon"
@@ -1365,7 +1365,7 @@
 	}
 }
 
-803={ #雷萨法
+803={ #Rhesapha
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1381,7 +1381,7 @@
 	}
 }
 
-805={ #叙利亚的安菲波里斯
+805={ #Amphipolis Syrias
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1400,11 +1400,11 @@
 	}
 }
 
-807={ #马玻格
+807={ #Mabbog
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=30
 	barbarian_power=0
 	province_rank="city"
@@ -1427,7 +1427,7 @@
 	holy_site=omen_atargatis
 }
 
-808={ #柏塞拉塔
+808={ #Beselatha
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1447,7 +1447,7 @@
 	}
 }
 
-809={ #卡尔卡米什
+809={ #Charchemish
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1480,7 +1480,7 @@
 	}
 }
 
-810={ #尼西宾
+810={ #Nisibyn
 	terrain="dry_plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -1514,7 +1514,7 @@
 	}
 }
 
-811={ #多利刻
+811={ #Doliche
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1545,7 +1545,7 @@
 	}
 }
 
-812={ #阿利亚雷亚
+812={ #Aliareia
 	terrain="hills"
 	culture="aramaic"
 	religion="roman_pantheon"
@@ -1567,7 +1567,7 @@
 	}
 }
 
-813={ #阿那萨尔塔
+813={ #Chenneseroi
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1586,7 +1586,7 @@
 	}
 }
 
-814={ #巴尔巴利索斯
+814={ #Barbalissos
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1605,7 +1605,7 @@
 	}
 }
 
-815={ #塞里阿涅
+815={ #Seriane
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1621,7 +1621,7 @@
 	}
 }
 
-816={ #忒雷达
+816={ #Theleda
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1640,7 +1640,7 @@
 	}
 }
 
-836={ #萨摩萨塔
+836={ #Samsat
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="zoroaster"
@@ -1681,7 +1681,7 @@
 	}
 }
 
-837={ #塔耳萨
+837={ #Tharsa
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1715,7 +1715,7 @@
 	}
 }
 
-838={ #卡耳摩达拉
+838={ #Charmodara
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="zoroaster"
@@ -1751,7 +1751,7 @@
 	}
 }
 
-839={ #宁淮俄斯
+839={ #Nymphaios
 	terrain="hills"
 	culture="aramaic"
 	religion="zoroaster"
@@ -1791,7 +1791,7 @@
 	}
 }
 
-847={ #道萨拉
+847={ #Dansara
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1810,7 +1810,7 @@
 	}
 }
 
-850={ #俄卡拉巴
+850={ #Okkaraba
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1826,7 +1826,7 @@
 	}
 }
 
-851={ #安玛塔
+851={ #Ammattha
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1845,7 +1845,7 @@
 	}
 }
 
-852={ #卡俄尼亚
+852={ #Chaonia
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1873,7 +1873,7 @@
 	}
 }
 
-1860={ #珀瑞
+1860={ #Perrhe
 	terrain="hills"
 	culture="aramaic"
 	religion="zoroaster"
@@ -1905,7 +1905,7 @@
 	}
 }
 
-1862={ #阿达塔
+1862={ #Adatha
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -1932,7 +1932,7 @@
 	}
 }
 
-1863={ #那斯泰
+1863={ #Nastai
 	terrain="hills"
 	culture="cataonian"
 	religion="zoroaster"
@@ -1955,7 +1955,7 @@
 	}
 }
 
-1864={ #尼索斯
+1864={ #Nisos
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1977,7 +1977,7 @@
 	}
 }
 
-1867={ #马喀什
+1867={ #Markash
 	terrain="dry_plains"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2023,7 +2023,7 @@
 	}
 }
 
-1868={ #堤巴
+1868={ #Tyba
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -2042,7 +2042,7 @@
 	}
 }
 
-1869={ #拉拜涅
+1869={ #Rhabaine
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -2070,7 +2070,7 @@
 	}
 }
 
-1871={ #帕格赖
+1871={ #Pagrai
 	terrain="hills"
 	culture="aramaic"
 	religion="roman_pantheon"
@@ -2089,7 +2089,7 @@
 	}
 }
 
-1895={ #乌尔尼亚
+1895={ #Oulnia
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -2127,7 +2127,7 @@
 	}
 }
 
-6397={ #巴耳匝拉
+6397={ #Barzala
 	terrain="hills"
 	culture="aramaic"
 	religion="zoroaster"
@@ -2140,7 +2140,7 @@
 	}
 }
 
-7985={ #忒尔墨尼索斯
+7985={ #Telmenissos
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -2153,11 +2153,11 @@
 	}
 }
 
-8011={ #科耳隆
+8011={ #Korlon
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"

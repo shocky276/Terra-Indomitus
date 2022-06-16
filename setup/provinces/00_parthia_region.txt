@@ -1,4 +1,4 @@
-﻿3434={ #卡剌卜沙赫尔
+﻿3434={ #Tamis
 	terrain="farmland"
 	culture="parthian"
 	religion="zoroaster"
@@ -20,7 +20,7 @@
 	}
 }
 
-3435={ #扎德剌咖尔塔
+3435={ #Zadrakarta
 	terrain="farmland"
 	culture="parthian"
 	religion="zoroaster"
@@ -47,7 +47,7 @@
 	}
 }
 
-3436={ #阿巴斯崑
+3436={ #Asbana
 	terrain="farmland"
 	culture="parthian"
 	religion="zoroaster"
@@ -69,7 +69,7 @@
 	}
 }
 
-3437={ #咖布丹
+3437={ #Sirynx
 	terrain="plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -91,7 +91,7 @@
 	}
 }
 
-3438={ #顾耳甘
+3438={ #Tambrax
 	terrain="plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -113,7 +113,7 @@
 	}
 }
 
-3439={ #赫卡同皮罗斯
+3439={ #Hekatompylos
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -132,7 +132,7 @@
 	}
 }
 
-3440={ #比斯塔姆
+3440={ #Taga
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -154,7 +154,7 @@
 	}
 }
 
-3441={ #阿尔吉阎
+3441={ #Argiyan
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -173,7 +173,7 @@
 	}
 }
 
-3444={ #维什保扎提斯
+3444={ #Bishpauzatis
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -196,7 +196,7 @@
 	holy_site=omen_adur_berzen_mihr
 }
 
-3445={ #珊加斯特
+3445={ #Sangast
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -215,7 +215,7 @@
 	}
 }
 
-3446={ #业塔安
+3446={ #Yetaan
 	terrain="mountain"
 	culture="parthian"
 	religion="zoroaster"
@@ -249,7 +249,7 @@
 	}
 }
 
-3447={ #萨拉克
+3447={ #Salak
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -271,7 +271,7 @@
 	}
 }
 
-3448={ #达克塔尔
+3448={ #Dakhtar
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -293,7 +293,7 @@
 	}
 }
 
-3449={ #沙菲亚
+3449={ #Sapha
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -312,7 +312,7 @@
 	}
 }
 
-3450={ #涅夫沙菩尔
+3450={ #Patigrabana
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -334,7 +334,7 @@
 	}
 }
 
-3451={ #萨提斯
+3451={ #Sathis
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -353,7 +353,7 @@
 	}
 }
 
-3454={ #图萨
+3454={ #Sousia
 	terrain="mountain"
 	culture="parthian"
 	religion="zoroaster"
@@ -385,7 +385,7 @@
 	}
 }
 
-3455={ #得什赖
+3455={ #Deshrae
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -407,7 +407,7 @@
 	}
 }
 
-3456={ #提拉斯
+3456={ #Tiras
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -426,7 +426,7 @@
 	}
 }
 
-3457={ #刻赫瓦
+3457={ #Choatras
 	terrain="desert"
 	culture="parthian"
 	religion="zoroaster"
@@ -445,7 +445,7 @@
 	}
 }
 
-3458={ #卡莉俄珀
+3458={ #Kalliope
 	terrain="desert"
 	culture="amardian"
 	religion="zoroaster"
@@ -461,7 +461,7 @@
 	}
 }
 
-3459={ #帕萨卡耳提亚
+3459={ #Pasakartia
 	terrain="hills"
 	culture="amardian"
 	religion="zoroaster"
@@ -483,7 +483,7 @@
 	}
 }
 
-3461={ #艾什加巴德
+3461={ #Eshgabad
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -499,7 +499,7 @@
 	}
 }
 
-3462={ #沙拉刻
+3462={ #Sarmagana
 	terrain="dry_hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -521,11 +521,11 @@
 	}
 }
 
-3463={ #多鲁聂
+3463={ #Orthiana
 	terrain="dry_hills"
 	culture="sagartian"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="fruits"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -540,7 +540,7 @@
 	}
 }
 
-3464={ #亥达里
+3464={ #Taua
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -556,7 +556,7 @@
 	}
 }
 
-3465={ #咖什玛尔
+3465={ #Siphare
 	terrain="dry_hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -572,7 +572,7 @@
 	}
 }
 
-3466={ #里瓦什
+3466={ #Rivash
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -594,7 +594,7 @@
 	}
 }
 
-3467={ #俄斯卡尼达提
+3467={ #Oskanidati
 	terrain="desert"
 	culture="parthian"
 	religion="zoroaster"
@@ -613,7 +613,7 @@
 	}
 }
 
-3468={ #得剌匝
+3468={ #Deraza
 	terrain="desert"
 	culture="parthian"
 	religion="zoroaster"
@@ -635,7 +635,7 @@
 	}
 }
 
-3469={ #帕尔万德
+3469={ #Parvand
 	terrain="desert"
 	culture="parthian"
 	religion="zoroaster"
@@ -657,7 +657,7 @@
 	}
 }
 
-4994={ #森农
+4994={ #Semina
 	terrain="hills"
 	culture="amardian"
 	religion="zoroaster"
@@ -673,7 +673,7 @@
 	}
 }
 
-4995={ #科密什
+4995={ #Thara
 	terrain="dry_plains"
 	culture="amardian"
 	religion="zoroaster"
@@ -695,7 +695,7 @@
 	}
 }
 
-4996={ #阿摩勒
+4996={ #Amarda
 	terrain="farmland"
 	culture="amardian"
 	religion="zoroaster"
@@ -717,7 +717,7 @@
 	}
 }
 
-4997={ #沙里亚
+4997={ #Samariane
 	terrain="farmland"
 	culture="amardian"
 	religion="zoroaster"
@@ -739,7 +739,7 @@
 	}
 }
 
-4998={ #锡尔加
+4998={ #Shirga
 	terrain="mountain"
 	culture="amardian"
 	religion="zoroaster"
@@ -761,7 +761,7 @@
 	}
 }
 
-5390={ #阿卡斯塔
+5390={ #Acasta
 	terrain="dry_plains"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -793,7 +793,7 @@
 	}
 }
 
-5391={ #卡兰那
+5391={ #Kalana
 	terrain="desert"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -809,7 +809,7 @@
 	}
 }
 
-5392={ #库腊
+5392={ #Kurah
 	terrain="desert"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -828,7 +828,7 @@
 	}
 }
 
-5393={ #阿耳忒西亚
+5393={ #Artessia
 	terrain="desert"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -844,7 +844,7 @@
 	}
 }
 
-5398={ #萨洛斯
+5398={ #Salos
 	terrain="desert"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -863,7 +863,7 @@
 	}
 }
 
-5422={ #忒涅提斯
+5422={ #Tenetis
 	terrain="dry_plains"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -893,7 +893,7 @@
 	}
 }
 
-5423={ #阿胡尔
+5423={ #Ahur
 	terrain="hills"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -915,7 +915,7 @@
 	}
 }
 
-5424={ #维纳斯
+5424={ #Venas
 	terrain="steppe"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -934,7 +934,7 @@
 	}
 }
 
-5425={ #杜里
+5425={ #Duri
 	terrain="steppe"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -953,7 +953,7 @@
 	}
 }
 
-5426={ #约涅
+5426={ #Yone
 	terrain="desert"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -969,7 +969,7 @@
 	}
 }
 
-5427={ #巴克
+5427={ #Bakk
 	terrain="desert"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -985,7 +985,7 @@
 	}
 }
 
-5428={ #苏纳
+5428={ #Suna
 	terrain="desert"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -1001,7 +1001,7 @@
 	}
 }
 
-5437={ #帕提亚门
+5437={ #Pylai Parthias
 	terrain="mountain"
 	culture="derbiccan"
 	religion="zoroaster"
@@ -1014,7 +1014,7 @@
 	}
 }
 
-6542={ #阿克忒纳
+6542={ #Aktene
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -1036,7 +1036,7 @@
 	}
 }
 
-6543={ #苏佛塔
+6543={ #Souptha
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -1058,7 +1058,7 @@
 	}
 }
 
-6544={ #迪耳马
+6544={ #Dirma
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -1074,7 +1074,7 @@
 	}
 }
 
-6545={ #顾里亚纳
+6545={ #Gouriana
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -1096,7 +1096,7 @@
 	}
 }
 
-6556={ #戈达纳
+6556={ #Godana
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -1118,7 +1118,7 @@
 	}
 }
 
-6602={ #达革
+6602={ #Arosape
 	terrain="dry_plains"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1140,7 +1140,7 @@
 	}
 }
 
-6656={ #阿萨克
+6656={ #Arsake
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -1169,7 +1169,7 @@
 	}
 }
 
-6657={ #尼赛亚
+6657={ #Parthaunisa
 	terrain="dry_plains"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -1191,7 +1191,7 @@
 	}
 }
 
-6658={ #伽撒尔
+6658={ #Gathar
 	terrain="hills"
 	culture="margian"
 	religion="indo_iranian_religion"
@@ -1213,7 +1213,7 @@
 	}
 }
 
-6659={ #卡拉
+6659={ #Kala
 	terrain="steppe"
 	culture="margian"
 	religion="indo_iranian_religion"
@@ -1235,7 +1235,7 @@
 	}
 }
 
-6660={ #梵迪阎
+6660={ #Bandiyan
 	terrain="hills"
 	culture="margian"
 	religion="indo_iranian_religion"
@@ -1254,7 +1254,7 @@
 	}
 }
 
-6661={ #达剌
+6661={ #Dareion
 	terrain="hills"
 	culture="margian"
 	religion="indo_iranian_religion"
@@ -1285,7 +1285,7 @@
 	}
 }
 
-6662={ #阿庇瓦尔德
+6662={ #Apaouarktike
 	terrain="hills"
 	culture="margian"
 	religion="zoroaster"
@@ -1308,7 +1308,7 @@
 	}
 }
 
-6663={ #泰任
+6663={ #Sarakia
 	terrain="hills"
 	culture="margian"
 	religion="zoroaster"
@@ -1330,7 +1330,7 @@
 	}
 }
 
-6664={ #瑟拉基斯
+6664={ #Alexandreia Parthika
 	terrain="hills"
 	culture="margian"
 	religion="zoroaster"
@@ -1349,7 +1349,7 @@
 	}
 }
 
-6666={ #阿巴耳比纳
+6666={ #Abarbina
 	terrain="steppe"
 	culture="margian"
 	religion="indo_iranian_religion"
@@ -1371,7 +1371,7 @@
 	}
 }
 
-6671={ #安屯提亚
+6671={ #Rhagaou
 	terrain="dry_plains"
 	culture="margian"
 	religion="zoroaster"
@@ -1400,7 +1400,7 @@
 	}
 }
 
-6725={ #阿库尔
+6725={ #Akhur
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -1426,7 +1426,7 @@
 	}
 }
 
-6726={ #曼素尔
+6726={ #Mansur
 	terrain="steppe"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -1439,7 +1439,7 @@
 	}
 }
 
-6727={ #锡克
+6727={ #Shikh
 	terrain="plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -1471,7 +1471,7 @@
 	}
 }
 
-6728={ #基拉勒
+6728={ #Kilaleh
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -1503,7 +1503,7 @@
 	}
 }
 
-6729={ #达什特
+6729={ #Hyrkanis
 	terrain="mountain"
 	culture="parthian"
 	religion="zoroaster"
@@ -1532,7 +1532,7 @@
 	}
 }
 
-6776={ #大益斯坦
+6776={ #Dihistan
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -1569,7 +1569,7 @@
 	}
 }
 
-6806={ #巴尔坎
+6806={ #Balkan
 	terrain="desert"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -1591,7 +1591,7 @@
 	}
 }
 
-6808={ #乌兹玻亚
+6808={ #Uzboia
 	terrain="desert"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -1613,7 +1613,7 @@
 	}
 }
 
-6810={ #西勒德
+6810={ #Sild
 	terrain="steppe"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -1635,7 +1635,7 @@
 	}
 }
 
-6811={ #哈扎尔
+6811={ #Hazar
 	terrain="steppe"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -1654,7 +1654,7 @@
 	}
 }
 
-6812={ #库姆陀
+6812={ #Kumdah
 	terrain="steppe"
 	culture="derbiccan"
 	religion="indo_iranian_religion"
@@ -1673,7 +1673,7 @@
 	}
 }
 
-7222={ #乔塔切
+7222={ #Kotake
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -1692,7 +1692,7 @@
 	}
 }
 
-7223={ #巴德吉斯
+7223={ #Badghis
 	terrain="dry_plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -1711,7 +1711,7 @@
 	}
 }
 
-7638={ #穆拉
+7638={ #Mura
 	terrain="hills"
 	culture="amardian"
 	religion="zoroaster"
@@ -1730,7 +1730,7 @@
 	}
 }
 
-7639={ #萨卢斯
+7639={ #Salos
 	terrain="hills"
 	culture="cadusian"
 	religion="zoroaster"

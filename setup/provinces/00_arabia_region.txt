@@ -1,4 +1,4 @@
-﻿724={ #安卡勒
+﻿724={ #Ankale
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -14,7 +14,7 @@
 	}
 }
 
-725={ #马克那
+725={ #Makna
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -31,7 +31,7 @@
 	port_building=1
 }
 
-726={ #马狄亚玛
+726={ #Madiama
 	terrain="dry_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -50,7 +50,7 @@
 	}
 }
 
-3479={ #阿卜哈
+3479={ #Abha
 	terrain="hills"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -69,7 +69,7 @@
 	}
 }
 
-3480={ #米加耶
+3480={ #Migayah
 	terrain="hills"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -88,7 +88,7 @@
 	}
 }
 
-4600={ #俄斯塔马
+4600={ #Ostama
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -104,7 +104,7 @@
 	}
 }
 
-4601={ #巴克拉纳匝
+4601={ #Baclanaza
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -123,7 +123,7 @@
 	}
 }
 
-4602={ #琉刻科墨
+4602={ #Leuke Kome
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -142,7 +142,7 @@
 	}
 }
 
-4603={ #摩狄亚纳
+4603={ #Modiana
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -155,7 +155,7 @@
 	}
 }
 
-4604={ #拉巴
+4604={ #Laba
 	terrain="dry_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -177,7 +177,7 @@
 	}
 }
 
-4605={ #索亚卡
+4605={ #Soaka
 	terrain="dry_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -193,7 +193,7 @@
 	}
 }
 
-4606={ #希波斯科墨
+4606={ #Hippou Kome
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -209,7 +209,7 @@
 	}
 }
 
-4607={ #巴戴斯
+4607={ #Badais
 	terrain="dry_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -229,7 +229,7 @@
 	holy_site=omen_orotalt
 }
 
-4608={ #福伊尼孔科墨
+4608={ #Phoinikon Kome
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -248,7 +248,7 @@
 	}
 }
 
-4609={ #厄格拉
+4609={ #Egra
 	terrain="dry_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -264,7 +264,7 @@
 	}
 }
 
-4610={ #饶那图科墨
+4610={ #Raunathou Kome
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -284,7 +284,7 @@
 	port_building=1
 }
 
-4611={ #斐利克斯的马狄亚马
+4611={ #Madiama Felix
 	terrain="dry_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -303,7 +303,7 @@
 	}
 }
 
-4612={ #雷利克塔
+4612={ #Relicta
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -319,7 +319,7 @@
 	}
 }
 
-4613={ #艾巴拉
+4613={ #Aybara
 	terrain="dry_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -335,7 +335,7 @@
 	}
 }
 
-4615={ #得丹
+4615={ #Dedan
 	terrain="dry_hills"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -370,7 +370,7 @@
 	}
 }
 
-4616={ #奥萨拉
+4616={ #Ausara
 	terrain="dry_hills"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -397,7 +397,7 @@
 	}
 }
 
-4617={ #摩库拉
+4617={ #Mochoura
 	terrain="desert"
 	culture="hebrew"
 	religion="judaism"
@@ -413,7 +413,7 @@
 	}
 }
 
-4618={ #同纳
+4618={ #Thumna
 	terrain="desert"
 	culture="hebrew"
 	religion="judaism"
@@ -435,7 +435,7 @@
 	}
 }
 
-4619={ #阿浦迪亚谷
+4619={ #Apudia Vallis
 	terrain="dry_hills"
 	culture="hebrew"
 	religion="judaism"
@@ -459,7 +459,7 @@
 	}
 }
 
-4620={ #阿劳拉
+4620={ #Alaura
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -478,7 +478,7 @@
 	}
 }
 
-4621={ #哈雷奈
+4621={ #Harenae
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -495,7 +495,7 @@
 	}
 }
 
-4622={ #尤特拉
+4622={ #Iuthra
 	terrain="dry_hills"
 	culture="hebrew"
 	religion="judaism"
@@ -511,7 +511,7 @@
 	}
 }
 
-4623={ #伊阿特里帕
+4623={ #Iathrippa
 	terrain="desert"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -524,7 +524,7 @@
 	}
 }
 
-4624={ #阿卢雷
+4624={ #Aloure
 	terrain="desert"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -541,7 +541,7 @@
 	}
 }
 
-4625={ #卡拉弥塔斯
+4625={ #Charamithas
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -557,7 +557,7 @@
 	}
 }
 
-4626={ #阿耳伽
+4626={ #Arga
 	terrain="desert"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -571,7 +571,7 @@
 	port_building=1
 }
 
-4627={ #赖伊斯
+4627={ #Rayyis
 	terrain="desert"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -587,7 +587,7 @@
 	}
 }
 
-4628={ #哈耳比亚
+4628={ #Harbia
 	terrain="desert"
 	culture="thamudi"
 	religion="judaism"
@@ -600,7 +600,7 @@
 	}
 }
 
-4629={ #拉比格
+4629={ #Rabigh
 	terrain="dry_plains"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -623,7 +623,7 @@
 	holy_site=omen_manat
 }
 
-4630={ #巴鲁卡
+4630={ #Baruka
 	terrain="dry_plains"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -639,7 +639,7 @@
 	}
 }
 
-4631={ #阿拉伯的忒拜
+4631={ #Thebai Arabikai
 	terrain="dry_plains"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -656,7 +656,7 @@
 	port_building=1
 }
 
-4632={ #宰布拉姆
+4632={ #Zaibram
 	terrain="desert"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -672,7 +672,7 @@
 	}
 }
 
-4633={ #利塔
+4633={ #Litha
 	terrain="desert"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -689,7 +689,7 @@
 	port_building=1
 }
 
-4634={ #安柏
+4634={ #Ambe
 	terrain="desert"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -705,11 +705,11 @@
 	}
 }
 
-4635={ #拉刻塔
+4635={ #Raqeta
 	terrain="desert"
 	culture="thamudi"
 	religion="arabian_pantheon"
-	trade_goods="salt"
+	trade_goods="myrrh"
 	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
@@ -725,7 +725,7 @@
 	port_building=1
 }
 
-4636={ #卡马
+4636={ #Cama
 	terrain="dry_plains"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -747,7 +747,7 @@
 	}
 }
 
-4637={ #得瓦达
+4637={ #Devada
 	terrain="dry_plains"
 	culture="minaean"
 	religion="arabian_pantheon"
@@ -763,7 +763,7 @@
 	}
 }
 
-4638={ #马耳马
+4638={ #Marma
 	terrain="dry_plains"
 	culture="minaean"
 	religion="arabian_pantheon"
@@ -785,7 +785,7 @@
 	}
 }
 
-4639={ #柏图斯
+4639={ #Baitus
 	terrain="dry_plains"
 	culture="minaean"
 	religion="arabian_pantheon"
@@ -807,7 +807,7 @@
 	}
 }
 
-4653={ #瓦杜马
+4653={ #Vaduma
 	terrain="desert"
 	culture="thamudi"
 	religion="judaism"
@@ -823,7 +823,7 @@
 	}
 }
 
-4669={ #马耳纳谷
+4669={ #Marna Vallis
 	terrain="hills"
 	culture="minaean"
 	religion="arabian_pantheon"
@@ -836,7 +836,7 @@
 	}
 }
 
-4699={ #阿克苏米亚
+4699={ #Aksumia
 	terrain="hills"
 	culture="minaean"
 	religion="arabian_pantheon"
@@ -855,7 +855,7 @@
 	}
 }
 
-4713={ #阿克鲁阿
+4713={ #Achroua
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -871,7 +871,7 @@
 	}
 }
 
-4714={ #黑格剌
+4714={ #Hegra
 	terrain="dry_plains"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -893,7 +893,7 @@
 	}
 }
 
-4715={ #敦涅
+4715={ #Demne
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -906,7 +906,7 @@
 	}
 }
 
-4716={ #提亚马特
+4716={ #Tiamat
 	terrain="dry_plains"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -938,7 +938,7 @@
 	}
 }
 
-4717={ #盖俄波利斯
+4717={ #Gaiopolis
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -954,7 +954,7 @@
 	}
 }
 
-4718={ #塔保阿
+4718={ #Thapaua
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -970,7 +970,7 @@
 	}
 }
 
-4719={ #科洛伊拉
+4719={ #Coloera
 	terrain="desert"
 	culture="hebrew"
 	religion="judaism"
@@ -993,7 +993,7 @@
 	}
 }
 
-4720={ #厄罗厄
+4720={ #Eroe
 	terrain="desert"
 	culture="hebrew"
 	religion="judaism"
@@ -1017,7 +1017,7 @@
 	}
 }
 
-4721={ #杜耳纳塔
+4721={ #Durnatha
 	terrain="dry_plains"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1039,7 +1039,7 @@
 	}
 }
 
-5402={ #阿拉伯沙漠
+5402={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1049,7 +1049,7 @@
 	province_rank=""
 }
 
-5403={ #阿拉伯沙漠
+5403={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1059,7 +1059,7 @@
 	province_rank=""
 }
 
-5404={ #阿拉伯沙漠
+5404={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1069,7 +1069,7 @@
 	province_rank=""
 }
 
-5405={ #阿拉伯沙漠
+5405={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1079,7 +1079,7 @@
 	province_rank=""
 }
 
-5406={ #阿拉伯沙漠
+5406={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1089,7 +1089,7 @@
 	province_rank=""
 }
 
-5408={ #厄法
+5408={ #Efa
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1105,7 +1105,7 @@
 	}
 }
 
-5409={ #拉耳吉斯
+5409={ #Largis
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1121,7 +1121,7 @@
 	}
 }
 
-5410={ #乌忒阿
+5410={ #Utea
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1137,7 +1137,7 @@
 	}
 }
 
-5411={ #阿拉伯沙漠
+5411={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1147,7 +1147,7 @@
 	province_rank=""
 }
 
-5412={ #阿拉伯沙漠
+5412={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1157,7 +1157,7 @@
 	province_rank=""
 }
 
-5413={ #阿拉伯沙漠
+5413={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1167,7 +1167,7 @@
 	province_rank=""
 }
 
-5415={ #俄马尼亚的摩塔
+5415={ #Motta Omania
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1186,7 +1186,7 @@
 	}
 }
 
-5416={ #厄克鲁涅
+5416={ #Ecrune
 	terrain="dry_hills"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1205,7 +1205,7 @@
 	}
 }
 
-5417={ #伊阿拉
+5417={ #Ialla
 	terrain="dry_hills"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1221,7 +1221,7 @@
 	}
 }
 
-5418={ #瓦同
+5418={ #Vatum
 	terrain="dry_hills"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1240,7 +1240,7 @@
 	}
 }
 
-5419={ #玛齐尔
+5419={ #Mazir
 	terrain="dry_plains"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1256,7 +1256,7 @@
 	}
 }
 
-5420={ #齐尔涅
+5420={ #Zirne
 	terrain="dry_plains"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1275,7 +1275,7 @@
 	}
 }
 
-5421={ #阿克忒
+5421={ #Acte
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1288,7 +1288,7 @@
 	}
 }
 
-5429={ #伊厄帕纳
+5429={ #Iepana
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1307,7 +1307,7 @@
 	}
 }
 
-5430={ #特拉泽尔
+5430={ #Trazel
 	terrain="dry_plains"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1326,7 +1326,7 @@
 	}
 }
 
-7196={ #阿德洛斯
+7196={ #Adros
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1342,7 +1342,7 @@
 	}
 }
 
-7197={ #伊塔摩斯
+7197={ #Itamos
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1361,7 +1361,7 @@
 	}
 }
 
-7198={ #伊斯塔纳
+7198={ #Istana
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1380,7 +1380,7 @@
 	}
 }
 
-7199={ #革耳剌
+7199={ #Gerrha
 	terrain="dry_plains"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1403,7 +1403,7 @@
 	port_building=1
 }
 
-7200={ #忒普拉
+7200={ #Theppra
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1416,7 +1416,7 @@
 	}
 }
 
-7201={ #阿塔
+7201={ #Atta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1435,7 +1435,7 @@
 	}
 }
 
-7202={ #堤洛斯
+7202={ #Tylos
 	terrain="dry_plains"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1466,7 +1466,7 @@
 	port_building=1
 }
 
-7203={ #具卢斯
+7203={ #Gylus
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1482,7 +1482,7 @@
 	}
 }
 
-7204={ #萨耳科伊
+7204={ #Sarkoi
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1498,7 +1498,7 @@
 	}
 }
 
-7205={ #俄马纳的拉布律斯
+7205={ #Labrys Omana
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1511,7 +1511,7 @@
 	}
 }
 
-7206={ #阿蒂亚卡
+7206={ #Attiaca
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1528,7 +1528,7 @@
 	port_building=1
 }
 
-7207={ #卡内普萨
+7207={ #Kanepsa
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1544,7 +1544,7 @@
 	}
 }
 
-7208={ #雷格纳
+7208={ #Regna
 	terrain="hills"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1563,7 +1563,7 @@
 	}
 }
 
-7209={ #俄马纳
+7209={ #Omana
 	terrain="dry_plains"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1586,7 +1586,7 @@
 	port_building=1
 }
 
-7210={ #赫利俄斯港
+7210={ #Heliou Limen
 	terrain="hills"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1605,7 +1605,7 @@
 	}
 }
 
-7211={ #卡拉斯
+7211={ #Kalas
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1625,7 +1625,7 @@
 	port_building=1
 }
 
-7212={ #克律普托斯港
+7212={ #Kryptos Limen
 	terrain="hills"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1642,7 +1642,7 @@
 	port_building=1
 }
 
-7213={ #俄马纳的狄耳马
+7213={ #Dirma Omana
 	terrain="hills"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1661,7 +1661,7 @@
 	}
 }
 
-7214={ #阿耳忒弥多斯
+7214={ #Artemidos
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1680,7 +1680,7 @@
 	}
 }
 
-7215={ #墨塔斯
+7215={ #Metas
 	terrain="hills"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1699,7 +1699,7 @@
 	}
 }
 
-7216={ #萨拉庇斯
+7216={ #Sarapis
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1719,7 +1719,7 @@
 	port_building=1
 }
 
-7217={ #甘塔
+7217={ #Ganta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1738,7 +1738,7 @@
 	}
 }
 
-7555={ #阿拉伯沙漠
+7555={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1748,7 +1748,7 @@
 	province_rank=""
 }
 
-7556={ #阿拉伯沙漠
+7556={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1758,7 +1758,7 @@
 	province_rank=""
 }
 
-7557={ #阿拉伯沙漠
+7557={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1768,7 +1768,7 @@
 	province_rank=""
 }
 
-7558={ #阿拉伯沙漠
+7558={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1778,7 +1778,7 @@
 	province_rank=""
 }
 
-7559={ #戈达拉
+7559={ #Godala
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1794,7 +1794,7 @@
 	}
 }
 
-7560={ #阿法戎
+7560={ #Afarun
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1813,7 +1813,7 @@
 	}
 }
 
-7561={ #阿拉伯沙漠
+7561={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1823,7 +1823,7 @@
 	province_rank=""
 }
 
-7562={ #阿拉伯沙漠
+7562={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1833,7 +1833,7 @@
 	province_rank=""
 }
 
-7563={ #阿拉伯沙漠
+7563={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1843,7 +1843,7 @@
 	province_rank=""
 }
 
-7564={ #阿拉伯沙漠
+7564={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1853,7 +1853,7 @@
 	province_rank=""
 }
 
-7565={ #阿拉伯沙漠
+7565={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1863,7 +1863,7 @@
 	province_rank=""
 }
 
-7572={ #阿拉伯荒地
+7572={ #Arabia Relicta
 	terrain="desert"
 	culture="hadhrami"
 	religion="arabian_pantheon"
@@ -1873,7 +1873,7 @@
 	province_rank=""
 }
 
-7573={ #吉达特 哈拉西斯
+7573={ #Jiddat al-Harasis
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -1883,7 +1883,7 @@
 	province_rank=""
 }
 
-7574={ #卡里亚
+7574={ #Kariya
 	terrain="hills"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -1899,7 +1899,7 @@
 	}
 }
 
-7575={ #马卡拉巴
+7575={ #Makarabah
 	terrain="hills"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -1922,7 +1922,7 @@
 	holy_site=omen_ailiah
 }
 
-7576={ #塔伊夫
+7576={ #Ta'if
 	terrain="dry_plains"
 	culture="taif"
 	religion="arabian_pantheon"
@@ -1945,7 +1945,7 @@
 	holy_site=omen_al_uzza
 }
 
-7577={ #阿塔巴
+7577={ #Attaba
 	terrain="hills"
 	culture="taif"
 	religion="arabian_pantheon"
@@ -1961,8 +1961,8 @@
 	}
 }
 
-7578={ #内梅拉
-	terrain="dry_hills"
+7578={ #Nemerah
+	terrain="desert_hills"
 	culture="thamudi"
 	religion="arabian_pantheon"
 	trade_goods="wild_game"
@@ -1974,8 +1974,8 @@
 	}
 }
 
-7601={ #巴雷克
-	terrain="dry_hills"
+7601={ #Barek
+	terrain="desert_hills"
 	culture="thamudi"
 	religion="arabian_pantheon"
 	trade_goods="horses"

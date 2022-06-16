@@ -1,4 +1,4 @@
-﻿2086={ #法农 科基迪
+﻿2086={ #Fanum Cocidi
 	terrain="forest"
 	culture="votadinian"
 	religion="druidism"
@@ -14,7 +14,7 @@
 	}
 }
 
-2089={ #哈比坦孔
+2089={ #Habitancum
 	terrain="forest"
 	culture="votadinian"
 	religion="druidism"
@@ -27,7 +27,7 @@
 	}
 }
 
-2090={ #布雷墨尼翁
+2090={ #Bremenium
 	terrain="plains"
 	culture="votadinian"
 	religion="druidism"
@@ -41,7 +41,7 @@
 	holy_site=omen_brigantia
 }
 
-2091={ #布拉托部尔吉翁
+2091={ #Blatobulgium
 	terrain="plains"
 	culture="damnonian"
 	religion="druidism"
@@ -54,7 +54,7 @@
 	}
 }
 
-2108={ #马纳维亚
+2108={ #Manavia
 	terrain="plains"
 	culture="manavian"
 	religion="druidism"
@@ -73,7 +73,7 @@
 	}
 }
 
-2109={ #诺万泰
+2109={ #Novantae
 	terrain="forest"
 	culture="damnonian"
 	religion="druidism"
@@ -87,7 +87,7 @@
 	port_building=1
 }
 
-2110={ #瑟尔戈外
+2110={ #Selgovae
 	terrain="plains"
 	culture="damnonian"
 	religion="druidism"
@@ -100,7 +100,7 @@
 	}
 }
 
-2111={ #俄塔迪尼
+2111={ #Otadini
 	terrain="plains"
 	culture="votadinian"
 	religion="druidism"
@@ -113,7 +113,7 @@
 	}
 }
 
-2112={ #丹诺尼伊
+2112={ #Damnonii
 	terrain="forest"
 	culture="damnonian"
 	religion="druidism"
@@ -126,7 +126,7 @@
 	}
 }
 
-2113={ #特里蒙提翁
+2113={ #Trimontium
 	terrain="forest"
 	culture="votadinian"
 	religion="druidism"
@@ -139,7 +139,7 @@
 	}
 }
 
-2114={ #维卢尼亚忒
+2114={ #Veluniate
 	terrain="plains"
 	culture="votadinian"
 	religion="druidism"
@@ -153,7 +153,7 @@
 	port_building=1
 }
 
-2115={ #维尼科涅斯
+2115={ #Venicones
 	terrain="plains"
 	culture="taexalian"
 	religion="druidism"
@@ -166,7 +166,7 @@
 	}
 }
 
-2116={ #泰克萨利
+2116={ #Taexali
 	terrain="forest"
 	culture="taexalian"
 	religion="druidism"
@@ -179,7 +179,7 @@
 	}
 }
 
-2117={ #厄庇迪伊
+2117={ #Epidii
 	terrain="forest"
 	culture="damnonian"
 	religion="druidism"
@@ -192,7 +192,7 @@
 	}
 }
 
-2118={ #北克雷俄涅斯
+2118={ #Creones Boreales
 	terrain="marsh"
 	culture="caledonian"
 	religion="druidism"
@@ -206,7 +206,7 @@
 	port_building=1
 }
 
-2119={ #卡耳诺纳恺
+2119={ #Carnonacae
 	terrain="forest"
 	culture="caledonian"
 	religion="druidism"
@@ -219,7 +219,7 @@
 	}
 }
 
-2120={ #喀里多尼
+2120={ #Caledonii
 	terrain="mountain"
 	culture="caledonian"
 	religion="druidism"
@@ -232,7 +232,7 @@
 	}
 }
 
-2121={ #恺雷尼
+2121={ #Caereni
 	terrain="forest"
 	culture="caledonian"
 	religion="druidism"
@@ -245,7 +245,7 @@
 	}
 }
 
-2122={ #科耳纳维伊
+2122={ #Cornavii
 	terrain="marsh"
 	culture="caledonian"
 	religion="druidism"
@@ -258,7 +258,7 @@
 	}
 }
 
-2123={ #瓦科马吉
+2123={ #Vacomagi
 	terrain="forest"
 	culture="caledonian"
 	religion="druidism"
@@ -271,7 +271,7 @@
 	}
 }
 
-2124={ #林冬
+2124={ #Lindon
 	terrain="forest"
 	culture="damnonian"
 	religion="druidism"
@@ -284,7 +284,7 @@
 	}
 }
 
-2125={ #泰克萨隆海角
+2125={ #Taixalon Akron
 	terrain="forest"
 	culture="taexalian"
 	religion="druidism"
@@ -297,7 +297,7 @@
 	}
 }
 
-2126={ #厄庇迪翁海角
+2126={ #Epidion Akron
 	terrain="forest"
 	culture="damnonian"
 	religion="druidism"
@@ -310,7 +310,7 @@
 	}
 }
 
-2127={ #马莱俄斯
+2127={ #Malaios
 	terrain="forest"
 	culture="damnonian"
 	religion="druidism"
@@ -323,7 +323,7 @@
 	}
 }
 
-2128={ #斯基提斯
+2128={ #Scitis
 	terrain="marsh"
 	culture="caledonian"
 	religion="druidism"
@@ -336,7 +336,7 @@
 	}
 }
 
-2129={ #北冬纳
+2129={ #Dumna Borealis
 	terrain="marsh"
 	culture="caledonian"
 	religion="druidism"
@@ -349,7 +349,7 @@
 	}
 }
 
-2130={ #南冬纳
+2130={ #Dumna Australis
 	terrain="forest"
 	culture="caledonian"
 	religion="druidism"
@@ -362,7 +362,7 @@
 	}
 }
 
-2131={ #维鲁厄德戎海角
+2131={ #Ouirouedroum Akron
 	terrain="marsh"
 	culture="caledonian"
 	religion="druidism"
@@ -375,7 +375,7 @@
 	}
 }
 
-2132={ #俄耳卡得斯
+2132={ #Orcades
 	terrain="forest"
 	culture="caledonian"
 	religion="druidism"
@@ -388,7 +388,7 @@
 	}
 }
 
-2133={ #品纳塔兵营
+2133={ #Pinnata Castra
 	terrain="forest"
 	culture="taexalian"
 	religion="druidism"
@@ -401,7 +401,7 @@
 	}
 }
 
-2161={ #伊维耳尼亚
+2161={ #Ivernia
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -414,7 +414,7 @@
 	}
 }
 
-2162={ #西乌斯迪亚
+2162={ #Usdia Occidentalis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -428,7 +428,7 @@
 	port_building=1
 }
 
-2163={ #南维拉玻里亚
+2163={ #Velaboria Australis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -441,7 +441,7 @@
 	}
 }
 
-2164={ #北布里甘提亚
+2164={ #Brigantia Borealis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -454,7 +454,7 @@
 	}
 }
 
-2165={ #北科里翁迪亚
+2165={ #Coriondia Borealis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -467,7 +467,7 @@
 	}
 }
 
-2166={ #甘加尼亚
+2166={ #Gangania
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -480,7 +480,7 @@
 	}
 }
 
-2167={ #北马纳庇亚
+2167={ #Manapia Borealis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -493,7 +493,7 @@
 	}
 }
 
-2168={ #考基亚
+2168={ #Caucia
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -506,7 +506,7 @@
 	}
 }
 
-2169={ #南奥忒尼亚
+2169={ #Autenia Australis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -519,7 +519,7 @@
 	}
 }
 
-2170={ #厄布拉尼亚
+2170={ #Eblania
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -532,7 +532,7 @@
 	}
 }
 
-2171={ #西纳格纳提亚
+2171={ #Nagnatia Occidentalis
 	terrain="hills"
 	culture="hibernian"
 	religion="druidism"
@@ -545,7 +545,7 @@
 	}
 }
 
-2172={ #东沃隆提亚
+2172={ #Voluntia Orientalis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -558,7 +558,7 @@
 	}
 }
 
-2173={ #北达里尼亚
+2173={ #Darinia Borealis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -571,7 +571,7 @@
 	}
 }
 
-2174={ #西罗玻格迪亚
+2174={ #Robogdia Occidentalis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -584,7 +584,7 @@
 	}
 }
 
-2175={ #南维尼克尼亚
+2175={ #Venicnia Australis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -597,7 +597,7 @@
 	}
 }
 
-2176={ #北伊维耳尼亚
+2176={ #Ivernia Borealis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -610,7 +610,7 @@
 	}
 }
 
-2177={ #南伊维耳尼亚
+2177={ #Ivernia Australis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -623,7 +623,7 @@
 	}
 }
 
-2178={ #东乌斯迪亚
+2178={ #Usdia Orientalis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -636,7 +636,7 @@
 	}
 }
 
-2179={ #西维拉玻里亚
+2179={ #Velaboria Occidentalis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -649,7 +649,7 @@
 	}
 }
 
-2180={ #北维拉玻里亚
+2180={ #Velaboria Borealis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -662,7 +662,7 @@
 	}
 }
 
-2181={ #东维拉玻里亚
+2181={ #Velaboria Orientalis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -675,7 +675,7 @@
 	}
 }
 
-2182={ #维拉玻里亚
+2182={ #Velaboria
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -688,7 +688,7 @@
 	}
 }
 
-2183={ #南甘加尼亚
+2183={ #Gangania Australis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -701,7 +701,7 @@
 	}
 }
 
-2184={ #北甘加尼亚
+2184={ #Gangania Borealis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -714,7 +714,7 @@
 	}
 }
 
-2185={ #东甘加尼亚
+2185={ #Gangania Orientalis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -727,7 +727,7 @@
 	}
 }
 
-2186={ #南布里甘提亚
+2186={ #Brigantia Australis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -741,7 +741,7 @@
 	port_building=1
 }
 
-2187={ #布里甘提亚
+2187={ #Brigantia
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -754,7 +754,7 @@
 	}
 }
 
-2188={ #南科里翁迪亚
+2188={ #Coriondia Australis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -767,7 +767,7 @@
 	}
 }
 
-2189={ #科里翁迪亚
+2189={ #Coriondia
 	terrain="hills"
 	culture="hibernian"
 	religion="druidism"
@@ -780,7 +780,7 @@
 	}
 }
 
-2190={ #东马纳庇亚
+2190={ #Eblana
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -794,7 +794,7 @@
 	port_building=1
 }
 
-2191={ #西马纳庇亚
+2191={ #Manapia Occidentalis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -807,7 +807,7 @@
 	}
 }
 
-2192={ #南马纳庇亚
+2192={ #Manapia Australis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -820,7 +820,7 @@
 	}
 }
 
-2193={ #东考基亚
+2193={ #Caucia Orientalis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -833,7 +833,7 @@
 	}
 }
 
-2194={ #西考基亚
+2194={ #Caucia Occidentalis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -846,7 +846,7 @@
 	}
 }
 
-2195={ #伊山尼翁
+2195={ #Isamnion
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -859,7 +859,7 @@
 	}
 }
 
-2196={ #西厄布拉尼亚
+2196={ #Eblania Occidentalis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -872,7 +872,7 @@
 	}
 }
 
-2197={ #北奥忒尼亚
+2197={ #Autenia Borealis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -885,7 +885,7 @@
 	}
 }
 
-2198={ #东奥忒尼亚
+2198={ #Autenia Orientalis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -898,7 +898,7 @@
 	}
 }
 
-2199={ #奥忒尼亚
+2199={ #Autenia
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -911,7 +911,7 @@
 	}
 }
 
-2200={ #西奥忒尼亚
+2200={ #Autenia Occidentalis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -924,7 +924,7 @@
 	}
 }
 
-2201={ #南纳格纳提亚
+2201={ #Nagnatia Australis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -937,7 +937,7 @@
 	}
 }
 
-2202={ #东纳格纳提亚
+2202={ #Nagnatia Orientalis
 	terrain="hills"
 	culture="hibernian"
 	religion="druidism"
@@ -950,7 +950,7 @@
 	}
 }
 
-2203={ #东维尼克尼亚
+2203={ #Venicnia Orientalis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -963,7 +963,7 @@
 	}
 }
 
-2204={ #北维尼克尼亚
+2204={ #Venicnia Borealis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -976,7 +976,7 @@
 	}
 }
 
-2205={ #西沃隆提亚
+2205={ #Voluntia Occidentalis
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
@@ -989,7 +989,7 @@
 	}
 }
 
-2206={ #北沃隆提亚
+2206={ #Voluntia Borealis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -1002,7 +1002,7 @@
 	}
 }
 
-2207={ #东罗玻格迪亚
+2207={ #Robogdia Orientalis
 	terrain="marsh"
 	culture="hibernian"
 	religion="druidism"
@@ -1015,7 +1015,7 @@
 	}
 }
 
-2208={ #南达里尼亚
+2208={ #Darinia Australis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -1028,7 +1028,7 @@
 	}
 }
 
-6311={ #奥斯特拉勒斯的克雷俄涅斯
+6311={ #Creones Australes
 	terrain="plains"
 	culture="caledonian"
 	religion="druidism"
@@ -1038,7 +1038,7 @@
 	province_rank="settlement"
 }
 
-7739={ #卢吉
+7739={ #Lugii
 	terrain="forest"
 	culture="caledonian"
 	religion="druidism"
@@ -1051,7 +1051,7 @@
 	}
 }
 
-7740={ #奥斯特拉利斯的泰克萨利亚
+7740={ #Taexalia Australis
 	terrain="forest"
 	culture="taexalian"
 	religion="druidism"

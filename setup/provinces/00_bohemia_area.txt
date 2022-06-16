@@ -1,4 +1,4 @@
-﻿3797={ #马提阿基亚
+﻿3797={ #Mattiacia
 	terrain="hills"
 	culture="treverian"
 	religion="druidism"
@@ -11,7 +11,7 @@
 	}
 }
 
-3798={ #万吉俄尼亚
+3798={ #Vangionia
 	terrain="hills"
 	culture="treverian"
 	religion="druidism"
@@ -24,7 +24,7 @@
 	}
 }
 
-3799={ #卡图阿里亚的萨利奈
+3799={ #Salinae Chattuariorum
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
@@ -37,7 +37,7 @@
 	}
 }
 
-3800={ #瑟杜西亚
+3800={ #Sedusia
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -50,7 +50,7 @@
 	}
 }
 
-3801={ #卡图阿里亚的瑟戈杜农
+3801={ #Segodunum Chattuariorum
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -63,7 +63,7 @@
 	}
 }
 
-3802={ #洛科里同
+3802={ #Locoritum
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
@@ -76,7 +76,7 @@
 	}
 }
 
-3803={ #阿耳马劳西亚
+3803={ #Armalausia
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -92,7 +92,7 @@
 	}
 }
 
-3804={ #赫耳蒙杜里亚
+3804={ #Hermunduria
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -108,7 +108,7 @@
 	}
 }
 
-3805={ #贝耳吉翁
+3805={ #Bergium
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -121,7 +121,7 @@
 	}
 }
 
-3806={ #瓦里斯提亚
+3806={ #Varistia
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -137,7 +137,7 @@
 	}
 }
 
-3807={ #纳里斯基亚
+3807={ #Nariscia
 	terrain="plains"
 	culture="helvetian"
 	religion="druidism"
@@ -156,7 +156,7 @@
 	}
 }
 
-3808={ #万杜利亚
+3808={ #Vandulia
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -172,7 +172,7 @@
 	}
 }
 
-3809={ #比巴孔
+3809={ #Bibacum
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -188,7 +188,7 @@
 	}
 }
 
-3811={ #布罗敦提亚
+3811={ #Brodentia
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -204,7 +204,7 @@
 	}
 }
 
-3812={ #斯特雷温塔
+3812={ #Strevinta
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -220,7 +220,7 @@
 	}
 }
 
-3813={ #雷加努斯
+3813={ #Reganus
 	terrain="hills"
 	culture="vindelician"
 	religion="druidism"
@@ -236,7 +236,7 @@
 	}
 }
 
-3814={ #帕耳马坎庇亚
+3814={ #Parmacampia
 	terrain="hills"
 	culture="vindelician"
 	religion="druidism"
@@ -255,7 +255,7 @@
 	}
 }
 
-3815={ #奥古斯塔尼亚
+3815={ #Augustania
 	terrain="hills"
 	culture="vindelician"
 	religion="druidism"
@@ -271,7 +271,7 @@
 	}
 }
 
-3816={ #马耳科曼尼亚
+3816={ #Marcomannia
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -290,7 +290,7 @@
 	}
 }
 
-3817={ #布罗敦提卡
+3817={ #Brodentica
 	terrain="plains"
 	culture="noric"
 	religion="druidism"
@@ -303,7 +303,7 @@
 	}
 }
 
-3818={ #瑟图阿卡同
+3818={ #Setuacatum
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -322,7 +322,7 @@
 	}
 }
 
-3819={ #孚耳吉萨提斯
+3819={ #Furgisatis
 	terrain="plains"
 	culture="noric"
 	religion="druidism"
@@ -338,7 +338,7 @@
 	}
 }
 
-3820={ #坎提亚比斯
+3820={ #Cantiabis
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -357,7 +357,7 @@
 	}
 }
 
-3821={ #摩伊诺斯加迪亚
+3821={ #Moenosgadia
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -373,7 +373,7 @@
 	}
 }
 
-3822={ #得沃纳
+3822={ #Devona
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -389,7 +389,7 @@
 	}
 }
 
-3823={ #墨洛卡武斯
+3823={ #Melocavus
 	terrain="hills"
 	culture="treverian"
 	religion="druidism"
@@ -405,7 +405,7 @@
 	}
 }
 
-3910={ #苏西戴亚
+3910={ #Susidaea
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -418,7 +418,7 @@
 	}
 }
 
-3911={ #诺弥斯忒里翁
+3911={ #Nomisterium
 	terrain="hills"
 	culture="boian"
 	religion="druidism"
@@ -434,7 +434,7 @@
 	}
 }
 
-3912={ #雷丁图伊农
+3912={ #Redintuinum
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -450,7 +450,7 @@
 	}
 }
 
-3913={ #马罗部冬
+3913={ #Marobudum
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -469,7 +469,7 @@
 	}
 }
 
-3914={ #科里多耳吉斯
+3914={ #Coridorgis
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -488,7 +488,7 @@
 	}
 }
 
-3915={ #墨利俄杜农
+3915={ #Meliodunum
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -507,7 +507,7 @@
 	}
 }
 
-3916={ #阿比卢农
+3916={ #Abilunum
 	terrain="hills"
 	culture="boian"
 	religion="druidism"
@@ -523,7 +523,7 @@
 	}
 }
 
-3917={ #阿德拉柏
+3917={ #Adrabae
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -539,7 +539,7 @@
 	}
 }
 
-3920={ #第一雷格尼亚
+3920={ #Regnia Prima
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -552,7 +552,7 @@
 	}
 }
 
-3921={ #第二雷格尼亚
+3921={ #Regnia Secunda
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -568,7 +568,7 @@
 	}
 }
 
-3922={ #墨迪俄斯拉尼翁
+3922={ #Medioslanium
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -581,7 +581,7 @@
 	}
 }
 
-3923={ #忒拉卡特里埃
+3923={ #Teracatriae
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -594,7 +594,7 @@
 	}
 }
 
-3928={ #玻伊俄阿的斐利基亚
+3928={ #Felicia Boioa
 	terrain="hills"
 	culture="boian"
 	religion="druidism"
@@ -613,7 +613,7 @@
 	}
 }
 
-3930={ #法耳吉萨图斯
+3930={ #Phargisatus
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -629,7 +629,7 @@
 	}
 }
 
-3931={ #塔维亚
+3931={ #Tavia
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -651,7 +651,7 @@
 	}
 }
 
-3932={ #赫耳居尼亚纳
+3932={ #Hercyniana
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -670,7 +670,7 @@
 	}
 }
 
-3933={ #夸迪亚
+3933={ #Quadia
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -689,7 +689,7 @@
 	}
 }
 
-3934={ #佩里亚姆
+3934={ #Ad Periam
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -708,7 +708,7 @@
 	}
 }
 
-3935={ #利门
+3935={ #Ad Limen
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -724,7 +724,7 @@
 	}
 }
 
-3936={ #第一叙尔瓦里亚
+3936={ #Sylvaria Prima
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -740,7 +740,7 @@
 	}
 }
 
-3937={ #柏弥亚
+3937={ #Baemia
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -753,7 +753,7 @@
 	}
 }
 
-3938={ #玻伊俄阿
+3938={ #Boioa
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -769,7 +769,7 @@
 	}
 }
 
-3939={ #部多耳吉斯
+3939={ #Budorgis
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -788,7 +788,7 @@
 	}
 }
 
-3940={ #科耳孔提亚
+3940={ #Corcontia
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -804,7 +804,7 @@
 	}
 }
 
-3941={ #汪达利基亚
+3941={ #Vandalicia
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -820,7 +820,7 @@
 	}
 }
 
-3942={ #赫革特马提亚
+3942={ #Hegetmatia
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -839,7 +839,7 @@
 	}
 }
 
-3943={ #部托尼亚
+3943={ #Butonia
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -852,7 +852,7 @@
 	}
 }
 
-3944={ #厄克斯特雷马杜拉
+3944={ #Extremadura
 	terrain="plains"
 	culture="boian"
 	religion="druidism"
@@ -865,7 +865,7 @@
 	}
 }
 
-3945={ #苏得提亚纳
+3945={ #Sudetiana
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -881,7 +881,7 @@
 	}
 }
 
-3946={ #苏得提卡·普拉努斯
+3946={ #Sudetica Planus
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -897,7 +897,7 @@
 	}
 }
 
-3947={ #图罗尼亚
+3947={ #Turonia
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
@@ -910,7 +910,7 @@
 	}
 }
 
-3948={ #图罗尼亚纳
+3948={ #Turoniana
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
@@ -923,7 +923,7 @@
 	}
 }
 
-3950={ #卡莱吉亚
+3950={ #Calaegia
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -939,7 +939,7 @@
 	}
 }
 
-3951={ #卢孚耳冬
+3951={ #Luphurdum
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -955,7 +955,7 @@
 	}
 }
 
-3952={ #苏得提亚
+3952={ #Sudetia
 	terrain="hills"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -971,7 +971,7 @@
 	}
 }
 
-3953={ #丹杜提亚
+3953={ #Dandutia
 	terrain="hills"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -987,7 +987,7 @@
 	}
 }
 
-3954={ #卡穆利亚
+3954={ #Camulia
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1000,7 +1000,7 @@
 	}
 }
 
-3955={ #坎杜隆
+3955={ #Candulum
 	terrain="plains"
 	culture="istvaeonic"
 	religion="germanic_religion"
@@ -1022,7 +1022,7 @@
 	}
 }
 
-3956={ #墨洛卡部斯
+3956={ #Melocabus
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1038,7 +1038,7 @@
 	}
 }
 
-3957={ #比库耳迪翁
+3957={ #Bicurdium
 	terrain="plains"
 	culture="istvaeonic"
 	religion="germanic_religion"
@@ -1051,7 +1051,7 @@
 	}
 }
 
-3959={ #阿耳革利亚
+3959={ #Argelia
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1070,7 +1070,7 @@
 	}
 }
 
-3961={ #福西亚
+3961={ #Fosia
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1083,7 +1083,7 @@
 	}
 }
 
-3966={ #阿雷革利亚纳
+3966={ #Aregelliana
 	terrain="plains"
 	culture="suebian"
 	religion="germanic_religion"
@@ -1099,7 +1099,7 @@
 	}
 }
 
-3979={ #科兰科戎
+3979={ #Colancorum
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1112,7 +1112,7 @@
 	}
 }
 
-3980={ #玻约海蒙的腓涅斯
+3980={ #Ad Fines Boiohaemi
 	terrain="hills"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1128,7 +1128,7 @@
 	}
 }
 
-3981={ #图林吉亚纳
+3981={ #Thuringiana
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1147,7 +1147,7 @@
 	}
 }
 
-3988={ #卡卢科尼亚
+3988={ #Caluconia
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1163,7 +1163,7 @@
 	}
 }
 
-3990={ #赫耳居尼亚
+3990={ #Hercynia
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1176,7 +1176,7 @@
 	}
 }
 
-3991={ #部里亚纳
+3991={ #Buriana
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1192,7 +1192,7 @@
 	}
 }
 
-3992={ #部里亚
+3992={ #Buria
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1208,7 +1208,7 @@
 	}
 }
 
-3993={ #部里亚的斯特拉戈纳
+3993={ #Stragona Buria
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1221,7 +1221,7 @@
 	}
 }
 
-3997={ #小苏维汇亚
+3997={ #Suevia Minor
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1240,7 +1240,7 @@
 	}
 }
 
-3998={ #大苏维汇亚
+3998={ #Suevia Maior
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1253,7 +1253,7 @@
 	}
 }
 
-4001={ #迪杜尼亚纳
+4001={ #Diduniana
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1269,7 +1269,7 @@
 	}
 }
 
-4002={ #部多里贡
+4002={ #Budorigum
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1285,7 +1285,7 @@
 	}
 }
 
-4008={ #阿斯基部耳吉亚
+4008={ #Asciburgia
 	terrain="forest"
 	culture="boian"
 	religion="druidism"
@@ -1301,7 +1301,7 @@
 	}
 }
 
-4009={ #加莱吉亚
+4009={ #Galaegia
 	terrain="forest"
 	culture="boian"
 	religion="druidism"

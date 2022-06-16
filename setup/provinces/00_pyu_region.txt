@@ -1,4 +1,4 @@
-﻿9780={ #阿拉干山地
+﻿9780={ #D PROV9780!
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-9781={ #达亚瓦底
+9781={ #D PROV9781!
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -30,11 +30,11 @@
 	}
 }
 
-9782={ #吠舍离
+9782={ #D PROV9782!
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
-	trade_goods="woad"
+	trade_goods="sugar"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="city"
@@ -49,7 +49,7 @@
 	}
 }
 
-9783={ #阿拉干南
+9783={ #D PROV9783!
 	terrain="jungle"
 	culture="bangli"
 	religion="hindu"
@@ -68,7 +68,7 @@
 	}
 }
 
-9784={ #若开山脉
+9784={ #D PROV9784!
 	terrain="impassable_terrain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-9785={ #骠国南
+9785={ #D PROV9785!
 	terrain="hills"
 	culture="pubu"
 	religion="baiyue_religions"
@@ -91,7 +91,7 @@
 	}
 }
 
-9786={ #彬那卡
+9786={ #D PROV9786!
 	terrain="forest"
 	culture="piaoyue"
 	religion="bon_religion"
@@ -104,7 +104,7 @@
 	}
 }
 
-9787={ #毗湿奴城
+9787={ #D PROV9787!
 	terrain="hills"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -120,7 +120,7 @@
 	}
 }
 
-9788={ #无论西
+9788={ #D PROV9788!
 	terrain="jungle"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -133,7 +133,7 @@
 	}
 }
 
-9789={ #室利差怛罗
+9789={ #D PROV9789!
 	terrain="forest"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -149,7 +149,7 @@
 	}
 }
 
-9790={ #无论南
+9790={ #D PROV9790!
 	terrain="jungle"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -162,7 +162,7 @@
 	}
 }
 
-9791={ #汗林
+9791={ #D PROV9791!
 	terrain="plains"
 	culture="piaoyue"
 	religion="bon_religion"
@@ -178,7 +178,7 @@
 	}
 }
 
-9792={ #瓦提
+9792={ #D PROV9792!
 	terrain="forest"
 	culture="piaoyue"
 	religion="bon_religion"
@@ -191,7 +191,7 @@
 	}
 }
 
-9793={ #迈莫
+9793={ #D PROV9793!
 	terrain="plains"
 	culture="piaoyue"
 	religion="bon_religion"
@@ -204,7 +204,7 @@
 	}
 }
 
-9794={ #太公
+9794={ #D PROV9794!
 	terrain="hills"
 	culture="piaoyue"
 	religion="bon_religion"
@@ -223,7 +223,7 @@
 	}
 }
 
-9795={ #南敦忍乙
+9795={ #D PROV9795!
 	terrain="plains"
 	culture="piaoyue"
 	religion="bon_religion"
@@ -236,7 +236,7 @@
 	}
 }
 
-9796={ #骠国西
+9796={ #D PROV9796!
 	terrain="forest"
 	culture="pubu"
 	religion="baiyue_religions"

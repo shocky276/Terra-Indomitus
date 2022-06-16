@@ -1,4 +1,4 @@
-﻿8227={ #龙勒
+﻿8227={ #Ajdab
 	terrain="desert"
 	culture="wusun"
 	religion="eastern_animism"
@@ -14,7 +14,7 @@
 	}
 }
 
-8228={ #敦煌
+8228={ #Dnar
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -30,7 +30,7 @@
 	}
 }
 
-8229={ #效谷
+8229={ #Giosc
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -43,7 +43,7 @@
 	}
 }
 
-8230={ #广至
+8230={ #Guangzhi
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -56,7 +56,7 @@
 	}
 }
 
-8231={ #冥安
+8231={ #Ming an
 	terrain="desert"
 	culture="wusun"
 	religion="eastern_animism"
@@ -69,7 +69,7 @@
 	}
 }
 
-8232={ #渊泉
+8232={ #Derg
 	terrain="dry_hills"
 	culture="wusun"
 	religion="eastern_animism"
@@ -82,7 +82,7 @@
 	}
 }
 
-8233={ #池头
+8233={ #Chitou
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -98,7 +98,7 @@
 	}
 }
 
-8234={ #干齐
+8234={ #Debdeb
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -111,7 +111,7 @@
 	}
 }
 
-8235={ #玉门
+8235={ #Praesidium
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -127,7 +127,7 @@
 	}
 }
 
-8236={ #禄福
+8236={ #Lufu
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -143,7 +143,7 @@
 	}
 }
 
-8237={ #绥弥
+8237={ #Bourma
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -156,7 +156,7 @@
 	}
 }
 
-8238={ #会水
+8238={ #Huishui
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -169,7 +169,7 @@
 	}
 }
 
-8239={ #表是
+8239={ #Biaoshi
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -185,7 +185,7 @@
 	}
 }
 
-8240={ #乐涫
+8240={ #Leguan
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -201,7 +201,7 @@
 	}
 }
 
-8242={ #居延
+8242={ #Juyan
 	terrain="desert"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -214,7 +214,7 @@
 	}
 }
 
-8243={ #觻得
+8243={ #Augemmi
 	terrain="dry_plains"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -227,7 +227,7 @@
 	}
 }
 
-8244={ #昭武
+8244={ #Recheb
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -243,7 +243,7 @@
 	}
 }
 
-8245={ #删丹
+8245={ #Mahalla
 	terrain="dry_plains"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -259,7 +259,7 @@
 	}
 }
 
-8246={ #氐池
+8246={ #Dichi
 	terrain="dry_plains"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -272,7 +272,7 @@
 	}
 }
 
-8247={ #骊靬
+8247={ #Lijian
 	terrain="dry_plains"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -285,7 +285,7 @@
 	}
 }
 
-8248={ #武威
+8248={ #Bezereos
 	terrain="desert"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -298,7 +298,7 @@
 	}
 }
 
-8249={ #姑臧
+8249={ #Guzang
 	terrain="dry_plains"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -314,7 +314,7 @@
 	}
 }
 
-8250={ #朴褱
+8250={ #Naffatiyah
 	terrain="dry_plains"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -327,7 +327,7 @@
 	}
 }
 
-8251={ #宣威
+8251={ #Turris Tamaleni
 	terrain="dry_plains"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -340,7 +340,7 @@
 	}
 }
 
-8252={ #休屠
+8252={ #Aquae Tacapitanae
 	terrain="dry_plains"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -356,7 +356,7 @@
 	}
 }
 
-8253={ #苍松
+8253={ #Cangsong
 	terrain="forest"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -372,7 +372,7 @@
 	}
 }
 
-8254={ #张掖
+8254={ #Ghidma
 	terrain="dry_plains"
 	culture="qiang"
 	religion="bon_religion"
@@ -388,7 +388,7 @@
 	}
 }
 
-8257={ #天䧇
+8257={ #Talib
 	terrain="dry_hills"
 	culture="wusun"
 	religion="eastern_animism"
@@ -401,7 +401,7 @@
 	}
 }
 
-8258={ #允吾
+8258={ #Gadir
 	terrain="mountain"
 	culture="qiang"
 	religion="bon_religion"
@@ -414,7 +414,7 @@
 	}
 }
 
-8259={ #金城
+8259={ #Jincheng
 	terrain="hills"
 	culture="qiang"
 	religion="bon_religion"
@@ -427,7 +427,7 @@
 	}
 }
 
-8260={ #河关
+8260={ #Heguan
 	terrain="mountain"
 	culture="qiang"
 	religion="bon_religion"
@@ -440,7 +440,7 @@
 	}
 }
 
-8261={ #允街
+8261={ #Aglou
 	terrain="dry_plains"
 	culture="qiang"
 	religion="bon_religion"
@@ -453,7 +453,7 @@
 	}
 }
 
-8262={ #令居
+8262={ #Baha
 	terrain="mountain"
 	culture="qiang"
 	religion="bon_religion"
@@ -466,7 +466,7 @@
 	}
 }
 
-8263={ #浩亹
+8263={ #Haomen
 	terrain="hills"
 	culture="qiang"
 	religion="bon_religion"
@@ -479,7 +479,7 @@
 	}
 }
 
-8264={ #抱罕
+8264={ #Baohan
 	terrain="hills"
 	culture="qiang"
 	religion="bon_religion"
@@ -492,7 +492,7 @@
 	}
 }
 
-8265={ #临羌
+8265={ #Linqiang
 	terrain="mountain"
 	culture="qiang"
 	religion="bon_religion"
@@ -505,7 +505,7 @@
 	}
 }
 
-8266={ #安夷
+8266={ #Anyi
 	terrain="mountain"
 	culture="qiang"
 	religion="bon_religion"
@@ -518,7 +518,7 @@
 	}
 }
 
-8267={ #破羌
+8267={ #Arambys
 	terrain="mountain"
 	culture="qiang"
 	religion="bon_religion"
@@ -531,7 +531,7 @@
 	}
 }
 
-8268={ #媪围
+8268={ #Aguz
 	terrain="dry_plains"
 	culture="qiang"
 	religion="bon_religion"
@@ -544,7 +544,7 @@
 	}
 }
 
-8269={ #眴卷
+8269={ #Xuanjuan
 	terrain="steppe"
 	culture="juyan"
 	religion="bon_religion"
@@ -557,7 +557,7 @@
 	}
 }
 
-8270={ #祖厉
+8270={ #Guerir
 	terrain="steppe"
 	culture="qiang"
 	religion="bon_religion"
@@ -570,7 +570,7 @@
 	}
 }
 
-8271={ #三水
+8271={ #Laattaouia
 	terrain="steppe"
 	culture="yiqu"
 	religion="bon_religion"
@@ -583,7 +583,7 @@
 	}
 }
 
-8272={ #高平
+8272={ #Gaoping
 	terrain="hills"
 	culture="qiang"
 	religion="bon_religion"
@@ -596,7 +596,7 @@
 	}
 }
 
-8273={ #朝那
+8273={ #Chaona
 	terrain="dry_plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -614,7 +614,7 @@
 	}
 }
 
-8274={ #泾阳
+8274={ #Jingyang
 	terrain="dry_plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -632,7 +632,7 @@
 	}
 }
 
-8275={ #安武
+8275={ #Anwu
 	terrain="dry_plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -650,7 +650,7 @@
 	}
 }
 
-8276={ #彭阳
+8276={ #Aghmat
 	terrain="dry_plains"
 	culture="yiqu"
 	religion="bon_religion"
@@ -666,7 +666,7 @@
 	}
 }
 
-8277={ #卤
+8277={ #Lu
 	terrain="forest"
 	culture="qin"
 	religion="chinese_religions"
@@ -684,7 +684,7 @@
 	}
 }
 
-8278={ #阴密
+8278={ #Oceanus Atlanticus
 	terrain="forest"
 	culture="qin"
 	religion="chinese_religions"
@@ -705,7 +705,7 @@
 	}
 }
 
-8280={ #勇士
+8280={ #Timlilt
 	terrain="steppe"
 	culture="qiang"
 	religion="bon_religion"
@@ -718,7 +718,7 @@
 	}
 }
 
-8281={ #平襄
+8281={ #Amindivi
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -741,7 +741,7 @@
 	}
 }
 
-8282={ #成纪
+8282={ #Chengji
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -765,7 +765,7 @@
 	}
 }
 
-8283={ #略阳
+8283={ #Lueyang
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -785,7 +785,7 @@
 	}
 }
 
-8284={ #阿阳
+8284={ #Dedigama
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -803,7 +803,7 @@
 	}
 }
 
-8285={ #街泉
+8285={ #Jiequan
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -826,7 +826,7 @@
 	}
 }
 
-8286={ #陇
+8286={ #Long
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -849,7 +849,7 @@
 	}
 }
 
-8287={ #清水
+8287={ #Mahiyanganaya
 	terrain="forest"
 	culture="qin"
 	religion="chinese_religions"
@@ -869,7 +869,7 @@
 	}
 }
 
-8288={ #望垣
+8288={ #Migamuva
 	terrain="dry_plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -892,7 +892,7 @@
 	}
 }
 
-8289={ #豲道
+8289={ #Gampola
 	terrain="dry_plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -915,7 +915,7 @@
 	}
 }
 
-8290={ #狄道
+8290={ #Bandarawela
 	terrain="dry_plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -938,7 +938,7 @@
 	}
 }
 
-8291={ #临洮
+8291={ #Agdz
 	terrain="mountain"
 	culture="qin"
 	religion="chinese_religions"
@@ -962,7 +962,7 @@
 	}
 }
 
-8292={ #襄武
+8292={ #Ouarzazate
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -986,7 +986,7 @@
 	}
 }
 
-8293={ #西
+8293={ #Bou Azzer
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -1009,7 +1009,7 @@
 	}
 }
 
-8294={ #大夏
+8294={ #Daxia
 	terrain="hills"
 	culture="qiang"
 	religion="bon_religion"
@@ -1025,7 +1025,7 @@
 	}
 }
 
-8295={ #安故
+8295={ #Angu
 	terrain="mountain"
 	culture="qiang"
 	religion="bon_religion"
@@ -1038,7 +1038,7 @@
 	}
 }
 
-8296={ #首阳
+8296={ #Shouyang
 	terrain="hills"
 	culture="qiang"
 	religion="bon_religion"
@@ -1054,7 +1054,7 @@
 	}
 }
 
-8297={ #氐道
+8297={ #Didao
 	terrain="mountain"
 	culture="qiang"
 	religion="bon_religion"
@@ -1071,7 +1071,7 @@
 	}
 }
 
-8298={ #羌道
+8298={ #Qiangdao
 	terrain="mountain"
 	culture="qiang"
 	religion="bon_religion"
@@ -1084,7 +1084,7 @@
 	}
 }
 
-8299={ #酒泉沙漠
+8299={ #Impassable
 	terrain="impassable_terrain"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1094,7 +1094,7 @@
 	province_rank=""
 }
 
-8300={ #祁连山
+8300={ #Iguernane
 	terrain="impassable_terrain"
 	culture="qiang"
 	religion="bon_religion"
@@ -1104,7 +1104,7 @@
 	province_rank=""
 }
 
-8301={ #武威沙漠
+8301={ #Impassable
 	terrain="impassable_terrain"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1114,7 +1114,7 @@
 	province_rank=""
 }
 
-8302={ #敦煌沙漠
+8302={ #Dunhuang Desert
 	terrain="impassable_terrain"
 	culture="yuezhi"
 	religion="hu_religions"
@@ -1124,7 +1124,7 @@
 	province_rank=""
 }
 
-9578={ #冥泽西
+9578={ #Mingze West
 	terrain="dry_plains"
 	culture="wusun"
 	religion="eastern_animism"
@@ -1137,7 +1137,7 @@
 	}
 }
 
-9579={ #昆仑障
+9579={ #Kunlunzhang
 	terrain="desert"
 	culture="wusun"
 	religion="eastern_animism"
@@ -1150,7 +1150,7 @@
 	}
 }
 
-9580={ #敦煌荒地
+9580={ #Impassable
 	terrain="impassable_terrain"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -1160,7 +1160,7 @@
 	province_rank=""
 }
 
-9581={ #冥泽北
+9581={ #Mingze North
 	terrain="desert"
 	culture="wusun"
 	religion="eastern_animism"
@@ -1173,7 +1173,7 @@
 	}
 }
 
-9878={ #弱水
+9878={ #Ruoshui
 	terrain="desert"
 	culture="wusun"
 	religion="eastern_animism"

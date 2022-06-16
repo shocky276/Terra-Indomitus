@@ -1,4 +1,4 @@
-﻿356={ #塔索斯
+﻿356={ #Thasos
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -17,7 +17,7 @@
 	}
 }
 
-363={ #色雷斯的涅亚波利斯
+363={ #Neapolis Thrake
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -41,7 +41,7 @@
 	}
 }
 
-364={ #腓立比
+364={ #Philippoi
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -75,7 +75,7 @@
 	}
 }
 
-365={ #安菲波里斯
+365={ #Amphipolis
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -95,7 +95,7 @@
 	port_building=1
 }
 
-366={ #特拉吉洛斯
+366={ #Tragilos
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -117,7 +117,7 @@
 	}
 }
 
-369={ #西拉
+369={ #Serrhai
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -136,7 +136,7 @@
 	}
 }
 
-371={ #欧波里亚
+371={ #Berge
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -155,7 +155,7 @@
 	}
 }
 
-373={ #忒萨罗尼刻
+373={ #Thessalonike
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -195,7 +195,7 @@
 	port_building=2
 }
 
-374={ #卡林多亚
+374={ #Kalindoia
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -214,7 +214,7 @@
 	}
 }
 
-376={ #卡斯山德雷亚
+376={ #Kassandreia
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -239,7 +239,7 @@
 	}
 }
 
-377={ #阿克特
+377={ #Akanthos
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -261,7 +261,7 @@
 	}
 }
 
-378={ #托罗涅
+378={ #Torone
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -287,7 +287,7 @@
 	}
 }
 
-379={ #珀拉
+379={ #Pella
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -313,7 +313,7 @@
 	port_building=2
 }
 
-380={ #狄翁
+380={ #Dion
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -332,7 +332,7 @@
 	}
 }
 
-381={ #柏洛亚
+381={ #Beroia
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -351,7 +351,7 @@
 	}
 }
 
-382={ #埃德萨
+382={ #Edessa
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -370,7 +370,7 @@
 	}
 }
 
-383={ #欧洛波斯
+383={ #Europos
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -389,7 +389,7 @@
 	}
 }
 
-384={ #戈尔堤尼亚
+384={ #Gortynia
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -408,7 +408,7 @@
 	}
 }
 
-385={ #陶里亚那
+385={ #Tauriana
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -427,7 +427,7 @@
 	}
 }
 
-386={ #阿赛洛斯
+386={ #Asseros
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -446,7 +446,7 @@
 	}
 }
 
-388={ #贡诺伊
+388={ #Gonnoi
 	terrain="hills"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -465,7 +465,7 @@
 	}
 }
 
-389={ #拉里萨
+389={ #Larisa
 	terrain="farmland"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -502,7 +502,7 @@
 	}
 }
 
-390={ #斐赖
+390={ #Pherai
 	terrain="farmland"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -521,7 +521,7 @@
 	}
 }
 
-391={ #帕加塞
+391={ #Pagasai
 	terrain="hills"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -541,7 +541,7 @@
 	port_building=1
 }
 
-392={ #卡斯塔奈亚
+392={ #Kastanaia
 	terrain="hills"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -560,7 +560,7 @@
 	}
 }
 
-393={ #珀拉戈尼亚
+393={ #Pelagonia
 	terrain="forest"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -582,7 +582,7 @@
 	}
 }
 
-394={ #法萨鲁斯
+394={ #Pharsalos
 	terrain="farmland"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -601,7 +601,7 @@
 	}
 }
 
-395={ #特里卡
+395={ #Trikka
 	terrain="farmland"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -620,7 +620,7 @@
 	}
 }
 
-396={ #俄伊卡利亚
+396={ #Oichalia
 	terrain="plains"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -639,7 +639,7 @@
 	}
 }
 
-397={ #斯托比
+397={ #Stoboi
 	terrain="hills"
 	culture="paeonian"
 	religion="roman_pantheon"
@@ -664,7 +664,7 @@
 	}
 }
 
-398={ #哈罗斯
+398={ #Halos
 	terrain="marsh"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -683,7 +683,7 @@
 	}
 }
 
-400={ #厄利弥亚
+400={ #Elimeia
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -699,7 +699,7 @@
 	}
 }
 
-404={ #厄路宋
+404={ #Oloosson
 	terrain="plains"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -718,7 +718,7 @@
 	}
 }
 
-405={ #斯堤贝耳拉
+405={ #Styberra
 	terrain="forest"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -740,7 +740,7 @@
 	}
 }
 
-408={ #阿耳尼萨
+408={ #Arnisa
 	terrain="forest"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -756,7 +756,7 @@
 	}
 }
 
-411={ #林科斯的赫拉克利亚
+411={ #Herakleia Lynkestis
 	terrain="forest"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -778,7 +778,7 @@
 	}
 }
 
-412={ #吕克尼多斯
+412={ #Lychnidos
 	terrain="mountain"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -805,7 +805,7 @@
 	}
 }
 
-414={ #刻耳帕拉
+414={ #Keirpara
 	terrain="hills"
 	culture="paeonian"
 	religion="roman_pantheon"
@@ -827,7 +827,7 @@
 	}
 }
 
-415={ #厄庇达诺斯
+415={ #Epidamnos
 	terrain="farmland"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -847,7 +847,7 @@
 	port_building=1
 }
 
-420={ #珀帕瑞托斯
+420={ #Peparethos
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -866,7 +866,7 @@
 	}
 }
 
-422={ #阿波罗尼亚
+422={ #Apollonia Epidamnon
 	terrain="farmland"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -885,7 +885,7 @@
 	}
 }
 
-428={ #墨托涅
+428={ #Methone
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -906,7 +906,7 @@
 	}
 }
 
-455={ #狄马利翁
+455={ #Dimalion
 	terrain="farmland"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -925,7 +925,7 @@
 	}
 }
 
-497={ #辛提亚的赫拉克利亚
+497={ #Herakleia Sintike
 	terrain="hills"
 	culture="paeonian"
 	religion="roman_pantheon"
@@ -947,7 +947,7 @@
 	}
 }
 
-498={ #斯卡普托珀拉
+498={ #Skaptopara
 	terrain="hills"
 	culture="paeonian"
 	religion="roman_pantheon"
@@ -966,7 +966,7 @@
 	}
 }
 
-499={ #斯庇诺帕拉
+499={ #Spinopara
 	terrain="farmland"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -980,7 +980,7 @@
 	holy_site=omen_zibelthiurdos
 }
 
-1445={ #科德里翁
+1445={ #Chrysondyon
 	terrain="mountain"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -996,7 +996,7 @@
 	}
 }
 
-2213={ #阿尔巴诺波利斯
+2213={ #Albanopolis
 	terrain="hills"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1027,7 +1027,7 @@
 	}
 }
 
-2264={ #克罗狄亚纳
+2264={ #Parthos
 	terrain="mountain"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1054,7 +1054,7 @@
 	}
 }
 
-2336={ #利索斯
+2336={ #Lissos
 	terrain="farmland"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1071,7 +1071,7 @@
 	port_building=1
 }
 
-3125={ #刻勒特戎
+3125={ #Keletron
 	terrain="mountain"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -1093,7 +1093,7 @@
 	}
 }
 
-3175={ #厄拉堤拉
+3175={ #Eratyra
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -1115,7 +1115,7 @@
 	}
 }
 
-3192={ #彼利斯
+3192={ #Byllis
 	terrain="forest"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -1134,7 +1134,7 @@
 	}
 }
 
-3356={ #柏乌厄
+3356={ #Beue
 	terrain="mountain"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1156,7 +1156,7 @@
 	}
 }
 
-4097={ #日耳曼尼亚
+4097={ #Germania
 	terrain="hills"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1169,7 +1169,7 @@
 	}
 }
 
-4117={ #保塔利亚
+4117={ #Pautalia
 	terrain="hills"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -1188,7 +1188,7 @@
 	}
 }
 
-4152={ #特拉努帕拉
+4152={ #Tranoupara
 	terrain="farmland"
 	culture="dardanian"
 	religion="roman_pantheon"
@@ -1210,7 +1210,7 @@
 	}
 }
 
-4153={ #帕洛伊科波利斯
+4153={ #Paroikopolis
 	terrain="hills"
 	culture="paeonian"
 	religion="roman_pantheon"
@@ -1226,7 +1226,7 @@
 	}
 }
 
-4302={ #多柏洛斯
+4302={ #Doberos
 	terrain="hills"
 	culture="paeonian"
 	religion="roman_pantheon"
@@ -1248,7 +1248,7 @@
 	}
 }
 
-4303={ #阿斯特赖亚
+4303={ #Astraia
 	terrain="hills"
 	culture="paeonian"
 	religion="roman_pantheon"
@@ -1264,7 +1264,7 @@
 	}
 }
 
-4304={ #巴耳伽拉
+4304={ #Astibos
 	terrain="farmland"
 	culture="paeonian"
 	religion="roman_pantheon"
@@ -1283,7 +1283,7 @@
 	}
 }
 
-4305={ #彼拉左拉
+4305={ #Bylazora
 	terrain="hills"
 	culture="paeonian"
 	religion="roman_pantheon"
@@ -1302,7 +1302,7 @@
 	}
 }
 
-4306={ #班斯科
+4306={ #Kiropolis
 	terrain="mountain"
 	culture="paeonian"
 	religion="roman_pantheon"
@@ -1318,7 +1318,7 @@
 	}
 }
 
-6399={ #皮德那
+6399={ #Pydna
 	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -1338,7 +1338,7 @@
 	port_building=1
 }
 
-8023={ #坦佩关
+8023={ #Tempe Pass
 	terrain="mountain"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -1348,7 +1348,7 @@
 	province_rank=""
 }
 
-8024={ #柏楼斯塔那山口
+8024={ #Boloustana Pass
 	terrain="mountain"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -1358,7 +1358,7 @@
 	province_rank=""
 }
 
-8025={ #佩特拉山口
+8025={ #Petra Pass
 	terrain="mountain"
 	culture="thessalian"
 	religion="roman_pantheon"

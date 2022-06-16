@@ -1,5 +1,5 @@
-﻿600={ #佩赫尔塞
-	terrain="plains"
+﻿600={ #Peherse
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="spices"
@@ -20,8 +20,8 @@
 	}
 }
 
-601={ #塞拉
-	terrain="plains"
+601={ #Serra
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
@@ -42,8 +42,8 @@
 	}
 }
 
-602={ #塔玛尼亚
-	terrain="dry_plains"
+602={ #Tamania
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="horses"
@@ -61,7 +61,7 @@
 	}
 }
 
-603={ #玻翁
+603={ #Boon
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -80,7 +80,7 @@
 	}
 }
 
-604={ #努比亚的森那
+604={ #Semna Nubia
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -99,8 +99,8 @@
 	}
 }
 
-605={ #诺亚
-	terrain="dry_plains"
+605={ #Noa
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
@@ -118,7 +118,7 @@
 	}
 }
 
-606={ #萨耶
+606={ #Saye
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -140,8 +140,8 @@
 	}
 }
 
-607={ #顾戈
-	terrain="dry_plains"
+607={ #Gugo
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="wild_game"
@@ -162,8 +162,8 @@
 	}
 }
 
-608={ #帕洛亚
-	terrain="dry_plains"
+608={ #Paroa
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="wild_game"
@@ -181,7 +181,7 @@
 	}
 }
 
-609={ #阿喀纳
+609={ #Acina
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -200,8 +200,8 @@
 	}
 }
 
-610={ #普鲁穆
-	terrain="dry_plains"
+610={ #Prummu
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="stone"
@@ -222,7 +222,7 @@
 	}
 }
 
-611={ #俄耳宋
+611={ #Orsum
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -244,8 +244,8 @@
 	}
 }
 
-612={ #狄雷拉
-	terrain="dry_plains"
+612={ #Direla
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
@@ -266,8 +266,8 @@
 	}
 }
 
-613={ #帕提加
-	terrain="dry_plains"
+613={ #Patigga
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="spices"
@@ -288,8 +288,8 @@
 	}
 }
 
-614={ #巴加达
-	terrain="dry_plains"
+614={ #Bagada
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
@@ -310,8 +310,8 @@
 	}
 }
 
-615={ #帕戈
-	terrain="dry_plains"
+615={ #Pago
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
@@ -329,8 +329,8 @@
 	}
 }
 
-616={ #密隆
-	terrain="dry_plains"
+616={ #Mulon
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="wild_game"
@@ -342,8 +342,8 @@
 	}
 }
 
-617={ #布柔厄斯
-	terrain="dry_plains"
+617={ #Breues
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="wild_game"
@@ -364,7 +364,7 @@
 	}
 }
 
-618={ #乌耳秉
+618={ #Urbim
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -386,8 +386,8 @@
 	}
 }
 
-619={ #塞加萨
-	terrain="dry_plains"
+619={ #Segasa
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
@@ -402,8 +402,8 @@
 	}
 }
 
-620={ #阿耳卡斯
-	terrain="dry_plains"
+620={ #Arcas
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="hemp"
@@ -415,8 +415,8 @@
 	}
 }
 
-621={ #忒耳根东
-	terrain="dry_plains"
+621={ #Tergendum
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="wild_game"
@@ -431,8 +431,8 @@
 	}
 }
 
-622={ #赞涅斯
-	terrain="dry_plains"
+622={ #Zamnes
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
@@ -450,8 +450,8 @@
 	}
 }
 
-623={ #杜穆那
-	terrain="dry_plains"
+623={ #Dumuna
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
@@ -472,7 +472,7 @@
 	}
 }
 
-624={ #曼比勒
+624={ #Mambil
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -491,7 +491,7 @@
 	}
 }
 
-625={ #科耳同
+625={ #Cortum
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -507,8 +507,8 @@
 	}
 }
 
-626={ #纳帕塔
-	terrain="dry_plains"
+626={ #Napata
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
@@ -529,7 +529,7 @@
 	}
 }
 
-627={ #马鲁
+627={ #Marru
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -551,7 +551,7 @@
 	}
 }
 
-628={ #阿拉纳
+628={ #Alana
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -570,7 +570,7 @@
 	}
 }
 
-629={ #珊科勒
+629={ #Sankole
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -586,7 +586,7 @@
 	}
 }
 
-630={ #斯坎摩斯
+630={ #Scammos
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -605,7 +605,7 @@
 	}
 }
 
-631={ #戈拉
+631={ #Gora
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -624,8 +624,8 @@
 	}
 }
 
-632={ #阿巴勒
-	terrain="dry_plains"
+632={ #Abale
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
@@ -646,7 +646,7 @@
 	}
 }
 
-633={ #德鲁卡
+633={ #Druka
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -659,8 +659,8 @@
 	}
 }
 
-634={ #达卢
-	terrain="dry_plains"
+634={ #Darou
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
@@ -681,8 +681,8 @@
 	}
 }
 
-635={ #加里姆
-	terrain="dry_plains"
+635={ #Galim
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="wild_game"
@@ -700,8 +700,8 @@
 	}
 }
 
-636={ #塞塞雷姆
-	terrain="dry_plains"
+636={ #Seserem
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
@@ -719,8 +719,8 @@
 	}
 }
 
-637={ #马洛
-	terrain="dry_plains"
+637={ #Mallo
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
@@ -741,8 +741,8 @@
 	}
 }
 
-638={ #萨科尔刻
-	terrain="dry_plains"
+638={ #Sakolche
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="earthware"
@@ -760,8 +760,8 @@
 	}
 }
 
-639={ #塔杜
-	terrain="dry_plains"
+639={ #Tadu
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="earthware"
@@ -779,8 +779,8 @@
 	}
 }
 
-640={ #厄庇斯
-	terrain="dry_plains"
+640={ #Epis
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="camel"
@@ -798,8 +798,8 @@
 	}
 }
 
-641={ #梅罗埃
-	terrain="dry_plains"
+641={ #Meroe
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
@@ -833,8 +833,8 @@
 	}
 }
 
-642={ #宋玛戎
-	terrain="dry_plains"
+642={ #Summarum
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="horses"
@@ -852,8 +852,8 @@
 	}
 }
 
-643={ #阿拉巴
-	terrain="dry_plains"
+643={ #Araba
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="wild_game"
@@ -874,8 +874,8 @@
 	}
 }
 
-644={ #那喀
-	terrain="dry_plains"
+644={ #Naqa
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
@@ -893,8 +893,8 @@
 	}
 }
 
-645={ #库尔古斯
-	terrain="dry_plains"
+645={ #Kurgus
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
@@ -912,8 +912,8 @@
 	}
 }
 
-646={ #第四瀑布
-	terrain="desert"
+646={ #Fourth Cataract
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="wild_game"
@@ -928,7 +928,7 @@
 	}
 }
 
-651={ #苏米塔
+651={ #Sumita
 	terrain="hills"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -959,7 +959,7 @@
 	}
 }
 
-3310={ #阿墨塔
+3310={ #Ameta
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -978,7 +978,7 @@
 	}
 }
 
-3311={ #托普拉忒
+3311={ #Toprate
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -991,7 +991,7 @@
 	}
 }
 
-3312={ #佩塔
+3312={ #Petta
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1007,7 +1007,7 @@
 	}
 }
 
-3313={ #索巴
+3313={ #Soba
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1026,7 +1026,7 @@
 	}
 }
 
-3314={ #阿尔瓦
+3314={ #Alwa
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1048,7 +1048,7 @@
 	}
 }
 
-3315={ #古尔纳
+3315={ #Gurnah
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1064,7 +1064,7 @@
 	}
 }
 
-3317={ #阿特拉赫
+3317={ #Attrah
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1083,7 +1083,7 @@
 	}
 }
 
-3318={ #库里亚
+3318={ #Kuria
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1102,7 +1102,7 @@
 	}
 }
 
-3319={ #斯语塔
+3319={ #Syuta
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1118,7 +1118,7 @@
 	}
 }
 
-3320={ #科林
+3320={ #Korin
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1134,7 +1134,7 @@
 	}
 }
 
-3321={ #罗卡特
+3321={ #Rocat
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1147,7 +1147,7 @@
 	}
 }
 
-3322={ #玻拉斯萨
+3322={ #Borassa
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1160,7 +1160,7 @@
 	}
 }
 
-3323={ #杜赖
+3323={ #Durai
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1179,7 +1179,7 @@
 	}
 }
 
-3328={ #塔纳
+3328={ #Thana
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1192,7 +1192,7 @@
 	}
 }
 
-3331={ #齐塔阿
+3331={ #Zithaa
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1208,8 +1208,8 @@
 	}
 }
 
-7579={ #菲尔克
-	terrain="dry_plains"
+7579={ #Firke
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
@@ -1227,8 +1227,8 @@
 	}
 }
 
-7580={ #提拉
-	terrain="dry_plains"
+7580={ #Tila
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="earthware"
@@ -1249,8 +1249,8 @@
 	}
 }
 
-7581={ #普得耳墨
-	terrain="dry_plains"
+7581={ #Pderme
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="precious_metals"
@@ -1265,8 +1265,8 @@
 	}
 }
 
-7582={ #索勒布
-	terrain="dry_plains"
+7582={ #Soleb
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
@@ -1281,7 +1281,7 @@
 	}
 }
 
-7583={ #科杜尔马
+7583={ #Kedurma
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1303,7 +1303,7 @@
 	}
 }
 
-7584={ #哈希姆
+7584={ #Hashem
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1319,8 +1319,8 @@
 	}
 }
 
-7585={ #努里
-	terrain="desert"
+7585={ #Nuri
+	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
 	trade_goods="wood"
@@ -1338,7 +1338,7 @@
 	}
 }
 
-7586={ #库鲁
+7586={ #Kuru
 	terrain="desert"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1357,7 +1357,7 @@
 	}
 }
 
-7587={ #阿纳克
+7587={ #Anak
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1376,7 +1376,7 @@
 	}
 }
 
-7588={ #德穆特
+7588={ #Dmut
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1389,7 +1389,7 @@
 	}
 }
 
-7589={ #阿布利亚塔
+7589={ #Abliata
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1405,7 +1405,7 @@
 	}
 }
 
-7590={ #得摩拉
+7590={ #Demora
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1421,7 +1421,7 @@
 	}
 }
 
-7591={ #阿克拉诺伊
+7591={ #Acranoe
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1437,7 +1437,7 @@
 	}
 }
 
-7592={ #伽纳伽拉斯
+7592={ #Ganagaras
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1456,7 +1456,7 @@
 	}
 }
 
-7593={ #塔纳克塔拉
+7593={ #Tanachtala
 	terrain="hills"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -1613,14 +1613,15 @@
 		amount=1
 	}
 	tribesmen={
-		amount=1
 		culture="blemmyan"
+		amount=1
 	}
 	slaves={
 		amount=1
 	}
 	slaves={
-		amount=1
 		culture="blemmyan"
+		amount=1
 	}
 }
+

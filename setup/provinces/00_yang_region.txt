@@ -1,4 +1,4 @@
-﻿9049={ #寿春
+﻿9049={ #Shouchun
 	terrain="farmland"
 	culture="chu"
 	religion="chinese_religions"
@@ -20,7 +20,7 @@
 	}
 }
 
-9050={ #曲阳
+9050={ #Quyang
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -39,7 +39,7 @@
 	}
 }
 
-9051={ #锺离
+9051={ #Zhongli
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -58,7 +58,7 @@
 	}
 }
 
-9052={ #建阳
+9052={ #Jianyang
 	terrain="forest"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -86,7 +86,7 @@
 	}
 }
 
-9053={ #历阳
+9053={ #Liyang
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -120,7 +120,7 @@
 	}
 }
 
-9054={ #橐皋
+9054={ #Tuogao
 	terrain="forest"
 	culture="chu"
 	religion="chinese_religions"
@@ -144,7 +144,7 @@
 	}
 }
 
-9055={ #博乡
+9055={ #Boxiang
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -163,7 +163,7 @@
 	}
 }
 
-9056={ #合肥
+9056={ #Hefei
 	terrain="marsh"
 	culture="chu"
 	religion="chinese_religions"
@@ -182,7 +182,7 @@
 	}
 }
 
-9057={ #东城
+9057={ #Dongcheng
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -202,7 +202,7 @@
 	}
 }
 
-9058={ #全椒
+9058={ #Quanjiao
 	terrain="forest"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -219,7 +219,7 @@
 	}
 }
 
-9059={ #六
+9059={ #Lu
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -241,7 +241,7 @@
 	}
 }
 
-9060={ #安丰
+9060={ #Anfeng
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -263,7 +263,7 @@
 	}
 }
 
-9061={ #蓼
+9061={ #Liao
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -285,7 +285,7 @@
 	}
 }
 
-9062={ #大别山
+9062={ #Impassable
 	terrain="impassable_terrain"
 	culture="chu"
 	religion="chinese_religions"
@@ -295,7 +295,7 @@
 	province_rank=""
 }
 
-9063={ #舒
+9063={ #Shu
 	terrain="forest"
 	culture="chu"
 	religion="chinese_religions"
@@ -329,7 +329,7 @@
 	}
 }
 
-9064={ #居巢
+9064={ #Juchao
 	terrain="forest"
 	culture="chu"
 	religion="chinese_religions"
@@ -355,7 +355,7 @@
 	}
 }
 
-9065={ #松阳
+9065={ #Songyang
 	terrain="marsh"
 	culture="chu"
 	religion="chinese_religions"
@@ -377,7 +377,7 @@
 	}
 }
 
-9066={ #雩娄
+9066={ #Yulou
 	terrain="forest"
 	culture="chu"
 	religion="chinese_religions"
@@ -399,7 +399,7 @@
 	}
 }
 
-9067={ #襄安
+9067={ #Xiangan
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -417,7 +417,7 @@
 	port_building=1
 }
 
-9068={ #寻阳
+9068={ #Xunyang
 	terrain="marsh"
 	culture="chu"
 	religion="chinese_religions"
@@ -436,7 +436,7 @@
 	}
 }
 
-9069={ #松滋
+9069={ #Songzi
 	terrain="hills"
 	culture="chu"
 	religion="chinese_religions"
@@ -455,7 +455,7 @@
 	}
 }
 
-9070={ #灊
+9070={ #Qian
 	terrain="hills"
 	culture="chu"
 	religion="chinese_religions"
@@ -476,7 +476,7 @@
 	holy_site=omen_chinese_graangsreen
 }
 
-9071={ #金兰
+9071={ #Jinlan
 	terrain="hills"
 	culture="chu"
 	religion="chinese_religions"
@@ -495,7 +495,7 @@
 	}
 }
 
-9072={ #爰陵
+9072={ #Yuanling
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -517,7 +517,7 @@
 	}
 }
 
-9073={ #菱夫
+9073={ #Lingfu
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -539,7 +539,7 @@
 	}
 }
 
-9074={ #陵阳
+9074={ #Lingyang
 	terrain="hills"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -569,7 +569,7 @@
 	}
 }
 
-9075={ #句容
+9075={ #Jurong
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -591,7 +591,7 @@
 	}
 }
 
-9076={ #秣陵
+9076={ #Moling
 	terrain="plains"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -619,7 +619,7 @@
 	port_building=1
 }
 
-9077={ #故鄣
+9077={ #Guzhang
 	terrain="forest"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -652,7 +652,7 @@
 	}
 }
 
-9078={ #朁
+9078={ #Qian
 	terrain="mountain"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -668,7 +668,7 @@
 	}
 }
 
-9079={ #歙
+9079={ #Xi
 	terrain="mountain"
 	culture="wuyue"
 	religion="baiyue_religions"
@@ -684,7 +684,7 @@
 	}
 }
 
-9080={ #娄
+9080={ #Lou
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -701,7 +701,7 @@
 	port_building=1
 }
 
-9081={ #朱方
+9081={ #Zhufang
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -723,7 +723,7 @@
 	}
 }
 
-9082={ #曲阿
+9082={ #Qu e
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -745,7 +745,7 @@
 	}
 }
 
-9083={ #延陵
+9083={ #Yanling
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -767,7 +767,7 @@
 	}
 }
 
-9084={ #无锡
+9084={ #Wuxi
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -786,7 +786,7 @@
 	}
 }
 
-9085={ #乌程
+9085={ #Wucheng
 	terrain="forest"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -802,7 +802,7 @@
 	}
 }
 
-9086={ #御儿
+9086={ #Yuer
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -821,7 +821,7 @@
 	}
 }
 
-9087={ #武原
+9087={ #Wuyuan
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -840,7 +840,7 @@
 	}
 }
 
-9088={ #富春
+9088={ #Fuchun
 	terrain="forest"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -859,7 +859,7 @@
 	}
 }
 
-9089={ #会稽
+9089={ #Kuaiji
 	terrain="forest"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -881,7 +881,7 @@
 	}
 }
 
-9090={ #句章
+9090={ #Juzhang
 	terrain="marsh"
 	culture="wuyue"
 	religion="baiyue_religions"
@@ -897,7 +897,7 @@
 	}
 }
 
-9091={ #句无
+9091={ #Juwu
 	terrain="hills"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -913,7 +913,7 @@
 	}
 }
 
-9092={ #鄞
+9092={ #Yin
 	terrain="hills"
 	culture="wuyue"
 	religion="baiyue_religions"
@@ -929,7 +929,7 @@
 	}
 }
 
-9093={ #涌句东
+9093={ #Yongjudong
 	terrain="hills"
 	culture="wuyue"
 	religion="baiyue_religions"
@@ -945,7 +945,7 @@
 	}
 }
 
-9094={ #姑蔑
+9094={ #Gumie
 	terrain="hills"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -961,7 +961,7 @@
 	}
 }
 
-9095={ #富春山
+9095={ #Impassable
 	terrain="impassable_terrain"
 	culture="ouyue"
 	religion="baiyue_religions"
@@ -971,7 +971,7 @@
 	province_rank=""
 }
 
-9096={ #句余山
+9096={ #Impassable
 	terrain="impassable_terrain"
 	culture="ouyue"
 	religion="baiyue_religions"
@@ -981,7 +981,7 @@
 	province_rank=""
 }
 
-9097={ #回浦
+9097={ #Huipu
 	terrain="forest"
 	culture="ouyue"
 	religion="baiyue_religions"
@@ -1000,7 +1000,7 @@
 	}
 }
 
-9098={ #始平
+9098={ #Shiping
 	terrain="hills"
 	culture="ouyue"
 	religion="baiyue_religions"
@@ -1016,7 +1016,7 @@
 	}
 }
 
-9099={ #临海
+9099={ #Linhai
 	terrain="hills"
 	culture="ouyue"
 	religion="baiyue_religions"
@@ -1032,7 +1032,7 @@
 	}
 }
 
-9100={ #松阳
+9100={ #Songyang
 	terrain="mountain"
 	culture="ouyue"
 	religion="baiyue_religions"
@@ -1048,7 +1048,7 @@
 	}
 }
 
-9101={ #永宁
+9101={ #Yongning
 	terrain="hills"
 	culture="ouyue"
 	religion="baiyue_religions"
@@ -1064,7 +1064,7 @@
 	}
 }
 
-9102={ #罗阳
+9102={ #Luoyang
 	terrain="hills"
 	culture="ouyue"
 	religion="baiyue_religions"
@@ -1080,7 +1080,7 @@
 	}
 }
 
-9103={ #括苍山
+9103={ #Impassable
 	terrain="impassable_terrain"
 	culture="ouyue"
 	religion="baiyue_religions"
@@ -1090,7 +1090,7 @@
 	province_rank=""
 }
 
-9104={ #浙南山地
+9104={ #Impassable
 	terrain="impassable_terrain"
 	culture="ouyue"
 	religion="baiyue_religions"
@@ -1100,7 +1100,7 @@
 	province_rank=""
 }
 
-9105={ #冶
+9105={ #Ye
 	terrain="hills"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1119,7 +1119,7 @@
 	}
 }
 
-9106={ #建安
+9106={ #Jianan
 	terrain="mountain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1135,7 +1135,7 @@
 	}
 }
 
-9107={ #建平
+9107={ #Jianping
 	terrain="mountain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1151,7 +1151,7 @@
 	}
 }
 
-9108={ #南平
+9108={ #Nanping
 	terrain="mountain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1167,7 +1167,7 @@
 	}
 }
 
-9109={ #吴兴
+9109={ #Wuxing
 	terrain="mountain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1183,7 +1183,7 @@
 	}
 }
 
-9110={ #昭武
+9110={ #Zhaowu
 	terrain="mountain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1199,7 +1199,7 @@
 	}
 }
 
-9111={ #将乐
+9111={ #Jiangle
 	terrain="mountain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1215,7 +1215,7 @@
 	}
 }
 
-9112={ #东安
+9112={ #Dongan
 	terrain="hills"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1231,7 +1231,7 @@
 	}
 }
 
-9113={ #闽北山地
+9113={ #Impassable
 	terrain="impassable_terrain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1241,7 +1241,7 @@
 	province_rank="settlement"
 }
 
-9114={ #武夷山
+9114={ #Impassable
 	terrain="impassable_terrain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1251,7 +1251,7 @@
 	province_rank=""
 }
 
-9115={ #金铙山
+9115={ #Impassable
 	terrain="impassable_terrain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1261,7 +1261,7 @@
 	province_rank=""
 }
 
-9116={ #茫荡山
+9116={ #Impassable
 	terrain="impassable_terrain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1271,7 +1271,7 @@
 	province_rank=""
 }
 
-9117={ #闽南山地
+9117={ #Impassable
 	terrain="impassable_terrain"
 	culture="minyue"
 	religion="baiyue_religions"
@@ -1281,7 +1281,7 @@
 	province_rank=""
 }
 
-9118={ #新淦
+9118={ #Xingan
 	terrain="forest"
 	culture="chu"
 	religion="chinese_religions"
@@ -1305,7 +1305,7 @@
 	}
 }
 
-9119={ #上赣
+9119={ #Shanggan
 	terrain="forest"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1327,7 +1327,7 @@
 	}
 }
 
-9120={ #艾
+9120={ #Ai
 	terrain="hills"
 	culture="sanmiao"
 	religion="baiyue_religions"
@@ -1351,7 +1351,7 @@
 	}
 }
 
-9121={ #敷浅原
+9121={ #Fuqianyuan
 	terrain="marsh"
 	culture="chu"
 	religion="chinese_religions"
@@ -1364,7 +1364,7 @@
 	}
 }
 
-9122={ #南野
+9122={ #Nanye
 	terrain="hills"
 	culture="yangyue"
 	religion="chinese_religions"
@@ -1377,7 +1377,7 @@
 	}
 }
 
-9123={ #鄡阳
+9123={ #Qiaoyang
 	terrain="hills"
 	culture="chu"
 	religion="chinese_religions"
@@ -1390,7 +1390,7 @@
 	}
 }
 
-9124={ #鄱邑
+9124={ #Poyi
 	terrain="hills"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1408,7 +1408,7 @@
 	}
 }
 
-9125={ #余干
+9125={ #Yugan
 	terrain="forest"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1424,7 +1424,7 @@
 	}
 }
 
-9126={ #柴桑
+9126={ #Chaisang
 	terrain="marsh"
 	culture="chu"
 	religion="chinese_religions"
@@ -1441,7 +1441,7 @@
 	port_building=1
 }
 
-9127={ #宜春
+9127={ #Yichun
 	terrain="hills"
 	culture="sanmiao"
 	religion="baiyue_religions"
@@ -1460,7 +1460,7 @@
 	}
 }
 
-9128={ #南城
+9128={ #Nancheng
 	terrain="hills"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1473,7 +1473,7 @@
 	}
 }
 
-9129={ #庐陵
+9129={ #Luling
 	terrain="hills"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1486,7 +1486,7 @@
 	}
 }
 
-9130={ #南昌
+9130={ #Nanchang
 	terrain="marsh"
 	culture="chu"
 	religion="chinese_religions"
@@ -1502,7 +1502,7 @@
 	}
 }
 
-9131={ #雩都
+9131={ #Yudu
 	terrain="hills"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1515,7 +1515,7 @@
 	}
 }
 
-9132={ #大雩岭
+9132={ #Impassable
 	terrain="impassable_terrain"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1525,7 +1525,7 @@
 	province_rank=""
 }
 
-9133={ #怀玉山
+9133={ #Impassable
 	terrain="impassable_terrain"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1535,7 +1535,7 @@
 	province_rank=""
 }
 
-9134={ #武夷山
+9134={ #Impassable
 	terrain="impassable_terrain"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1545,7 +1545,7 @@
 	province_rank=""
 }
 
-9135={ #九岭山
+9135={ #Impassable
 	terrain="impassable_terrain"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1555,7 +1555,7 @@
 	province_rank=""
 }
 
-9136={ #雩山
+9136={ #Impassable
 	terrain="impassable_terrain"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1565,7 +1565,7 @@
 	province_rank=""
 }
 
-9137={ #罗霄山
+9137={ #Impassable
 	terrain="impassable_terrain"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1575,7 +1575,7 @@
 	province_rank=""
 }
 
-9138={ #武夷山
+9138={ #Impassable
 	terrain="impassable_terrain"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1585,7 +1585,7 @@
 	province_rank=""
 }
 
-9139={ #罗霄山
+9139={ #Impassable
 	terrain="impassable_terrain"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1595,7 +1595,7 @@
 	province_rank=""
 }
 
-9651={ #吴
+9651={ #Wu
 	terrain="farmland"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -1632,7 +1632,7 @@
 	}
 }
 
-9652={ #由拳
+9652={ #Youquan
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -1648,7 +1648,7 @@
 	}
 }
 
-9653={ #阳羡
+9653={ #Yangxian
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -1667,7 +1667,7 @@
 	}
 }
 
-9654={ #石城
+9654={ #Shicheng
 	terrain="forest"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -1686,7 +1686,7 @@
 	}
 }
 
-9655={ #芜湖
+9655={ #Wuhu
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -1699,7 +1699,7 @@
 	}
 }
 
-9656={ #泾
+9656={ #Jing
 	terrain="hills"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -1715,7 +1715,7 @@
 	}
 }
 
-9657={ #黟
+9657={ #Yi
 	terrain="mountain"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -1731,7 +1731,7 @@
 	}
 }
 
-9658={ #浚遒
+9658={ #Junqiu
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -1747,7 +1747,7 @@
 	}
 }
 
-9659={ #皖
+9659={ #Wan
 	terrain="marsh"
 	culture="chu"
 	religion="chinese_religions"
@@ -1763,7 +1763,7 @@
 	}
 }
 
-9660={ #龙舒
+9660={ #Longshu
 	terrain="mountain"
 	culture="chu"
 	religion="chinese_religions"
@@ -1783,7 +1783,7 @@
 	}
 }
 
-9661={ #彭泽
+9661={ #Pengze
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -1796,7 +1796,7 @@
 	}
 }
 
-9662={ #海昏
+9662={ #Haihun
 	terrain="marsh"
 	culture="chu"
 	religion="chinese_religions"
@@ -1809,7 +1809,7 @@
 	}
 }
 
-9663={ #建成
+9663={ #Jiancheng
 	terrain="hills"
 	culture="chu"
 	religion="chinese_religions"
@@ -1825,7 +1825,7 @@
 	}
 }
 
-9664={ #安平
+9664={ #Anping
 	terrain="hills"
 	culture="yangyue"
 	religion="baiyue_religions"
@@ -1838,7 +1838,7 @@
 	}
 }
 
-9779={ #同安
+9779={ #D PROV9779!
 	terrain="jungle"
 	culture="fulou"
 	religion="baiyue_religions"

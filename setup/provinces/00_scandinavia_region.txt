@@ -1,4 +1,4 @@
-﻿3856={ #卡鲁迪亚
+﻿3856={ #Charudia
 	terrain="marsh"
 	culture="saxonian"
 	religion="germanic_religion"
@@ -14,7 +14,7 @@
 	}
 }
 
-3857={ #卡鲁迪亚纳
+3857={ #Charudiana
 	terrain="plains"
 	culture="anglian"
 	religion="germanic_religion"
@@ -27,7 +27,7 @@
 	}
 }
 
-3859={ #萨耳多尼亚
+3859={ #Sardonia
 	terrain="plains"
 	culture="anglian"
 	religion="germanic_religion"
@@ -40,7 +40,7 @@
 	}
 }
 
-3860={ #南盎格利亚
+3860={ #Anglia Meridionalis
 	terrain="plains"
 	culture="anglian"
 	religion="germanic_religion"
@@ -53,7 +53,7 @@
 	}
 }
 
-3861={ #中盎格利亚
+3861={ #Anglia Centralis
 	terrain="plains"
 	culture="anglian"
 	religion="germanic_religion"
@@ -69,7 +69,7 @@
 	}
 }
 
-3862={ #北盎格利亚
+3862={ #Anglia Borealis
 	terrain="plains"
 	culture="anglian"
 	religion="germanic_religion"
@@ -82,7 +82,7 @@
 	}
 }
 
-3863={ #小阿维俄尼亚
+3863={ #Avionia Minor
 	terrain="marsh"
 	culture="saxonian"
 	religion="germanic_religion"
@@ -98,7 +98,7 @@
 	}
 }
 
-3864={ #大阿维俄尼亚
+3864={ #Avionia Maior
 	terrain="marsh"
 	culture="saxonian"
 	religion="germanic_religion"
@@ -115,7 +115,7 @@
 	port_building=1
 }
 
-3865={ #小辛布里卡
+3865={ #Cimbrica Minor
 	terrain="forest"
 	culture="cimbrian"
 	religion="germanic_religion"
@@ -131,7 +131,7 @@
 	}
 }
 
-3866={ #南西顾洛尼亚
+3866={ #Sigulonia Australis
 	terrain="forest"
 	culture="teutonian"
 	religion="germanic_religion"
@@ -147,7 +147,7 @@
 	}
 }
 
-3867={ #北西顾洛尼亚
+3867={ #Sigulonia Borealis
 	terrain="forest"
 	culture="teutonian"
 	religion="germanic_religion"
@@ -161,7 +161,7 @@
 	port_building=1
 }
 
-3868={ #小科班迪亚
+3868={ #Cobandia Minor
 	terrain="forest"
 	culture="cimbrian"
 	religion="germanic_religion"
@@ -174,7 +174,7 @@
 	}
 }
 
-3869={ #大科班迪亚
+3869={ #Cobandia Maior
 	terrain="forest"
 	culture="cimbrian"
 	religion="germanic_religion"
@@ -190,7 +190,7 @@
 	}
 }
 
-3870={ #南欧多西亚
+3870={ #Eudosia Australis
 	terrain="plains"
 	culture="cimbrian"
 	religion="germanic_religion"
@@ -206,7 +206,7 @@
 	}
 }
 
-3871={ #辛布里卡的欧多西亚
+3871={ #Eudosia Cimbrica
 	terrain="plains"
 	culture="cimbrian"
 	religion="germanic_religion"
@@ -223,7 +223,7 @@
 	port_building=1
 }
 
-3872={ #中欧多西亚
+3872={ #Eudosia Centralis
 	terrain="forest"
 	culture="cimbrian"
 	religion="germanic_religion"
@@ -236,7 +236,7 @@
 	}
 }
 
-3873={ #北欧多西亚
+3873={ #Eudosia Borealis
 	terrain="plains"
 	culture="cimbrian"
 	religion="germanic_religion"
@@ -252,7 +252,7 @@
 	}
 }
 
-3874={ #小条顿尼亚
+3874={ #Teutonia Minor
 	terrain="forest"
 	culture="teutonian"
 	religion="germanic_religion"
@@ -268,7 +268,7 @@
 	}
 }
 
-3875={ #大条顿尼亚
+3875={ #Teutonia Maior
 	terrain="forest"
 	culture="teutonian"
 	religion="germanic_religion"
@@ -288,7 +288,7 @@
 	port_building=1
 }
 
-3876={ #中条顿尼亚
+3876={ #Teutonia Centralis
 	terrain="forest"
 	culture="teutonian"
 	religion="germanic_religion"
@@ -307,7 +307,7 @@
 	}
 }
 
-3877={ #南辛布里亚
+3877={ #Cimbria Australis
 	terrain="forest"
 	culture="cimbrian"
 	religion="germanic_religion"
@@ -320,7 +320,7 @@
 	}
 }
 
-3878={ #中辛布里亚
+3878={ #Cimbria Centralis
 	terrain="forest"
 	culture="teutonian"
 	religion="germanic_religion"
@@ -333,7 +333,7 @@
 	}
 }
 
-3879={ #北辛布里亚
+3879={ #Cimbria Borealis
 	terrain="forest"
 	culture="teutonian"
 	religion="germanic_religion"
@@ -353,7 +353,7 @@
 	port_building=1
 }
 
-3880={ #大辛布里亚
+3880={ #Cimbria Maior
 	terrain="forest"
 	culture="teutonian"
 	religion="germanic_religion"
@@ -369,7 +369,7 @@
 	}
 }
 
-3881={ #盎格利亚岛
+3881={ #Insula Anglorum
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -389,7 +389,7 @@
 	port_building=1
 }
 
-3882={ #大娄丁吉亚
+3882={ #Reudingia Maior
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -402,7 +402,7 @@
 	}
 }
 
-3883={ #小娄丁吉亚
+3883={ #Reudingia Minor
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -421,7 +421,7 @@
 	}
 }
 
-3884={ #南赫鲁利亚
+3884={ #Herulia Australis
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -440,7 +440,7 @@
 	}
 }
 
-3885={ #中赫鲁利亚
+3885={ #Herulia Centralis
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -459,7 +459,7 @@
 	}
 }
 
-3886={ #北赫鲁利亚
+3886={ #Herulia Borealis
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -476,7 +476,7 @@
 	holy_site=omen_nerthus
 }
 
-3887={ #东赫鲁利亚
+3887={ #Herulia Orientalis
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -493,7 +493,7 @@
 	port_building=1
 }
 
-6000={ #乌帕克拉
+6000={ #Uppakra
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -512,7 +512,7 @@
 	}
 }
 
-6001={ #斯温拉洛斯
+6001={ #Svimraros
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -525,7 +525,7 @@
 	}
 }
 
-6002={ #顾提斯玻
+6002={ #Guthisbo
 	terrain="forest"
 	culture="herulian"
 	religion="germanic_religion"
@@ -541,7 +541,7 @@
 	}
 }
 
-6003={ #贝耳吉翁
+6003={ #Bergio
 	terrain="forest"
 	culture="herulian"
 	religion="germanic_religion"
@@ -557,7 +557,7 @@
 	}
 }
 
-6004={ #勃艮达尔霍姆
+6004={ #Burgundarholm
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -573,7 +573,7 @@
 	}
 }
 
-6005={ #旺
+6005={ #Vang
 	terrain="plains"
 	culture="herulian"
 	religion="germanic_religion"
@@ -587,7 +587,7 @@
 	port_building=1
 }
 
-6006={ #玻耳伽摩
+6006={ #Borgamo
 	terrain="plains"
 	culture="gutones"
 	religion="germanic_religion"
@@ -603,7 +603,7 @@
 	}
 }
 
-6007={ #墨俄雷
+6007={ #Meore
 	terrain="forest"
 	culture="gutones"
 	religion="germanic_religion"
@@ -616,7 +616,7 @@
 	}
 }
 
-6008={ #透斯提亚
+6008={ #Theustia
 	terrain="taiga"
 	culture="gutones"
 	religion="germanic_religion"
@@ -629,7 +629,7 @@
 	}
 }
 
-6009={ #厄俄维亚
+6009={ #Eowia
 	terrain="forest"
 	culture="gutones"
 	religion="germanic_religion"
@@ -643,7 +643,7 @@
 	port_building=1
 }
 
-6010={ #维涅塔
+6010={ #Vineta
 	terrain="taiga"
 	culture="gutones"
 	religion="germanic_religion"
@@ -656,7 +656,7 @@
 	}
 }
 
-6011={ #斐鲁伊里亚
+6011={ #Feruiria
 	terrain="forest"
 	culture="raumarician"
 	religion="germanic_religion"
@@ -669,7 +669,7 @@
 	}
 }
 
-6012={ #康格海尔
+6012={ #Konghelle
 	terrain="forest"
 	culture="raumarician"
 	religion="germanic_religion"
@@ -682,7 +682,7 @@
 	}
 }
 
-6013={ #哥特哥提亚
+6013={ #Gautigothia
 	terrain="taiga"
 	culture="raumarician"
 	religion="germanic_religion"
@@ -695,7 +695,7 @@
 	}
 }
 
-6014={ #芬奈泰
+6014={ #Finnaithae
 	terrain="forest"
 	culture="herulian"
 	religion="germanic_religion"
@@ -708,7 +708,7 @@
 	}
 }
 
-6015={ #瓦里尼亚
+6015={ #Warinia
 	terrain="forest"
 	culture="gutones"
 	religion="germanic_religion"
@@ -721,7 +721,7 @@
 	}
 }
 
-6016={ #特维同
+6016={ #Thwetum
 	terrain="taiga"
 	culture="gutones"
 	religion="germanic_religion"
@@ -737,7 +737,7 @@
 	}
 }
 
-6017={ #维塔拉
+6017={ #Vitala
 	terrain="taiga"
 	culture="gutones"
 	religion="germanic_religion"
@@ -750,7 +750,7 @@
 	}
 }
 
-6018={ #维斯特
+6018={ #Vist
 	terrain="taiga"
 	culture="gutones"
 	religion="germanic_religion"
@@ -763,7 +763,7 @@
 	}
 }
 
-6019={ #维克伯
+6019={ #Vikbo
 	terrain="taiga"
 	culture="suiones"
 	religion="germanic_religion"
@@ -776,7 +776,7 @@
 	}
 }
 
-6020={ #金达
+6020={ #Kinda
 	terrain="taiga"
 	culture="gutones"
 	religion="germanic_religion"
@@ -789,7 +789,7 @@
 	}
 }
 
-6021={ #阿斯卡
+6021={ #Aska
 	terrain="taiga"
 	culture="suiones"
 	religion="germanic_religion"
@@ -802,7 +802,7 @@
 	}
 }
 
-6022={ #希奥
+6022={ #Hio
 	terrain="taiga"
 	culture="raumarician"
 	religion="germanic_religion"
@@ -815,7 +815,7 @@
 	}
 }
 
-6023={ #哥塔利亚
+6023={ #Gothalia
 	terrain="taiga"
 	culture="raumarician"
 	religion="germanic_religion"
@@ -831,7 +831,7 @@
 	}
 }
 
-6024={ #拉涅
+6024={ #Rane
 	terrain="taiga"
 	culture="raumarician"
 	religion="germanic_religion"
@@ -844,7 +844,7 @@
 	}
 }
 
-6025={ #拉格纳里基亚
+6025={ #Ragnaricia
 	terrain="forest"
 	culture="raumarician"
 	religion="germanic_religion"
@@ -857,7 +857,7 @@
 	}
 }
 
-6026={ #弥里奎杜伊
+6026={ #Miriquidui
 	terrain="taiga"
 	culture="suiones"
 	religion="germanic_religion"
@@ -870,7 +870,7 @@
 	}
 }
 
-6027={ #提维迪亚
+6027={ #Tivedia
 	terrain="taiga"
 	culture="suiones"
 	religion="germanic_religion"
@@ -883,7 +883,7 @@
 	}
 }
 
-6028={ #阿耳部盖
+6028={ #Arbugae
 	terrain="taiga"
 	culture="suiones"
 	religion="germanic_religion"
@@ -896,7 +896,7 @@
 	}
 }
 
-6029={ #雷卡耳涅
+6029={ #Rekarne
 	terrain="taiga"
 	culture="suiones"
 	religion="germanic_religion"
@@ -909,7 +909,7 @@
 	}
 }
 
-6030={ #比耳卡
+6030={ #Birka
 	terrain="taiga"
 	culture="suiones"
 	religion="germanic_religion"
@@ -923,7 +923,7 @@
 	port_building=1
 }
 
-6031={ #阿罗西亚
+6031={ #Arosia
 	terrain="taiga"
 	culture="suiones"
 	religion="germanic_religion"
@@ -936,7 +936,7 @@
 	}
 }
 
-6032={ #布罗堡
+6032={ #Broborg
 	terrain="taiga"
 	culture="suiones"
 	religion="germanic_religion"
@@ -950,7 +950,7 @@
 	holy_site=omen_hludana
 }
 
-6033={ #弗里涅
+6033={ #Vrine
 	terrain="taiga"
 	culture="raumarician"
 	religion="germanic_religion"
@@ -963,7 +963,7 @@
 	}
 }
 
-6034={ #塔农
+6034={ #Tanum
 	terrain="forest"
 	culture="raumarician"
 	religion="germanic_religion"
@@ -976,7 +976,7 @@
 	}
 }
 
-6035={ #维诺维洛提亚
+6035={ #Vinovilothia
 	terrain="forest"
 	culture="rugian"
 	religion="germanic_religion"
@@ -989,7 +989,7 @@
 	}
 }
 
-6036={ #拉尼亚
+6036={ #Rania
 	terrain="taiga"
 	culture="raumarician"
 	religion="germanic_religion"
@@ -1002,7 +1002,7 @@
 	}
 }
 
-6037={ #劳马里吉
+6037={ #Raumariki
 	terrain="forest"
 	culture="rugian"
 	religion="germanic_religion"
@@ -1018,7 +1018,7 @@
 	}
 }
 
-6038={ #林贡
+6038={ #Lingum
 	terrain="forest"
 	culture="rugian"
 	religion="germanic_religion"
@@ -1032,7 +1032,7 @@
 	port_building=1
 }
 
-6039={ #格览尼亚
+6039={ #Grannia
 	terrain="forest"
 	culture="rugian"
 	religion="germanic_religion"
@@ -1045,7 +1045,7 @@
 	}
 }
 
-6040={ #奥甘齐亚
+6040={ #Augandzia
 	terrain="forest"
 	culture="rugian"
 	religion="germanic_religion"
@@ -1058,7 +1058,7 @@
 	}
 }
 
-6041={ #埃忒尔鲁吉亚
+6041={ #Aetelrugia
 	terrain="forest"
 	culture="rugian"
 	religion="germanic_religion"
@@ -1071,7 +1071,7 @@
 	}
 }
 
-6042={ #欧尼克西亚
+6042={ #Eunixia
 	terrain="forest"
 	culture="rugian"
 	religion="germanic_religion"
@@ -1084,7 +1084,7 @@
 	}
 }
 
-6043={ #阿罗提亚
+6043={ #Arothia
 	terrain="forest"
 	culture="rugian"
 	religion="germanic_religion"

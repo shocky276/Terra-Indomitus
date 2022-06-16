@@ -1,4 +1,4 @@
-﻿773={ #维卡特
+﻿773={ #Amostai
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -14,7 +14,7 @@
 	}
 }
 
-804={ #苏拉
+804={ #Soura
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -30,7 +30,7 @@
 	}
 }
 
-806={ #比尔塔
+806={ #Birtha Asporakou
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -46,7 +46,7 @@
 	}
 }
 
-817={ #巴特奈
+817={ #Batnai
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -65,7 +65,7 @@
 	}
 }
 
-818={ #亚述的埃德萨
+818={ #Adma
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -122,7 +122,7 @@
 	}
 }
 
-819={ #卡赖
+819={ #Karrai
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -147,7 +147,7 @@
 	holy_site=omen_sin
 }
 
-820={ #萨赫拉拉
+820={ #Kommisimbela
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -163,7 +163,7 @@
 	}
 }
 
-821={ #瑞塞纳
+821={ #Rhesaina
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -191,7 +191,7 @@
 	}
 }
 
-822={ #那巴达
+822={ #Nabada
 	terrain="desert"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -212,7 +212,7 @@
 	}
 }
 
-823={ #沙迪坎尼
+823={ #Oraba
 	terrain="desert"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -231,7 +231,7 @@
 	}
 }
 
-824={ #加特奴
+824={ #Chabora
 	terrain="desert"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -244,7 +244,7 @@
 	}
 }
 
-825={ #马格达鲁
+825={ #Magdala
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -260,7 +260,7 @@
 	}
 }
 
-826={ #阿帕达那
+826={ #Appadana
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -279,7 +279,7 @@
 	}
 }
 
-827={ #刻耳刻西翁
+827={ #Kerkesion
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -306,7 +306,7 @@
 	}
 }
 
-828={ #忒尔加
+828={ #Asicha
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -322,7 +322,7 @@
 	}
 }
 
-829={ #杜拉欧洛波斯
+829={ #Doura Europos
 	terrain="desert"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -356,7 +356,7 @@
 	}
 }
 
-830={ #密格多尼亚的安条刻亚
+830={ #Antiocheia Mygdonias
 	terrain="dry_plains"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -386,7 +386,7 @@
 	}
 }
 
-831={ #新加拉
+831={ #Singara
 	terrain="hills"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -408,7 +408,7 @@
 	}
 }
 
-832={ #塔伊杜
+832={ #Taidon
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -435,7 +435,7 @@
 	}
 }
 
-833={ #帕纳卡
+833={ #Pinaka
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -463,7 +463,7 @@
 	}
 }
 
-834={ #萨塔勒卡
+834={ #Satalka
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -490,7 +490,7 @@
 	}
 }
 
-835={ #哈特拉
+835={ #Hatra
 	terrain="dry_plains"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -522,7 +522,7 @@
 	}
 }
 
-840={ #阿耳萨墨亚
+840={ #Arsemeia
 	terrain="forest"
 	culture="aramaic"
 	religion="zoroaster"
@@ -550,7 +550,7 @@
 	}
 }
 
-841={ #阿耳塔提俄刻耳塔
+841={ #Epiphaneia Tigridos
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -572,7 +572,7 @@
 	}
 }
 
-842={ #提格拉诺刻耳塔
+842={ #Tigranakert
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -594,7 +594,7 @@
 	}
 }
 
-843={ #克罗马戎
+843={ #Chlomaron
 	terrain="hills"
 	culture="van"
 	religion="zoroaster"
@@ -628,7 +628,7 @@
 	}
 }
 
-844={ #忒拉
+844={ #Antiocheia Mesopotamias
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -656,7 +656,7 @@
 	}
 }
 
-845={ #马耳堤洛波利斯
+845={ #Np'rkert
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -678,7 +678,7 @@
 	}
 }
 
-848={ #阿拉格马
+848={ #Alagma
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -694,7 +694,7 @@
 	}
 }
 
-849={ #巴拉塔
+849={ #Ballatha
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -710,7 +710,7 @@
 	}
 }
 
-853={ #伊克奈
+853={ #Ichnai
 	terrain="desert"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -728,7 +728,7 @@
 	}
 }
 
-854={ #加那巴
+854={ #Ganaba
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -744,7 +744,7 @@
 	}
 }
 
-855={ #西佛里俄斯
+855={ #Siphrios
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -768,7 +768,7 @@
 	}
 }
 
-856={ #萨耳得瓦
+856={ #Amida
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -802,7 +802,7 @@
 	}
 }
 
-857={ #锡泰
+857={ #Sitai
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -821,7 +821,7 @@
 	}
 }
 
-861={ #阿普库
+861={ #Bimatra
 	terrain="desert"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -841,7 +841,7 @@
 	}
 }
 
-862={ #尼纽厄
+862={ #Nineue
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -884,7 +884,7 @@
 	holy_site=omen_ninurta
 }
 
-863={ #巴拉德
+863={ #Mespyla
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -904,7 +904,7 @@
 	}
 }
 
-864={ #杜尔舍鲁金
+864={ #Atouria
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -923,7 +923,7 @@
 	}
 }
 
-865={ #高加墨拉
+865={ #Gaugamela
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -942,7 +942,7 @@
 	}
 }
 
-866={ #巴维
+866={ #Chinis
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -961,7 +961,7 @@
 	}
 }
 
-867={ #沙菩尔
+867={ #Bessara
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -984,7 +984,7 @@
 	}
 }
 
-868={ #查希尔
+868={ #Betouma
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -1007,7 +1007,7 @@
 	}
 }
 
-869={ #里斯刻法斯
+869={ #Ilansura
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1041,7 +1041,7 @@
 	}
 }
 
-870={ #伊匝拉山
+870={ #Oros Masios
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1054,7 +1054,7 @@
 	}
 }
 
-871={ #马耳得
+871={ #Margdis
 	terrain="hills"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -1082,7 +1082,7 @@
 	}
 }
 
-872={ #安摩狄俄斯
+872={ #Ammodios
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -1110,7 +1110,7 @@
 	}
 }
 
-873={ #哈素
+873={ #Asson
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -1133,7 +1133,7 @@
 	}
 }
 
-874={ #坦努里斯
+874={ #Thannourios
 	terrain="desert"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -1152,7 +1152,7 @@
 	}
 }
 
-875={ #匝顾赖
+875={ #Zagourai
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -1168,7 +1168,7 @@
 	}
 }
 
-876={ #喀剌萨斯
+876={ #Thelia
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -1187,7 +1187,7 @@
 	}
 }
 
-877={ #巴耳萨利翁
+877={ #Barsalion
 	terrain="hills"
 	culture="aramaic"
 	religion="zoroaster"
@@ -1211,7 +1211,7 @@
 	}
 }
 
-878={ #阿耳西尼亚
+878={ #Arsinia
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1227,7 +1227,7 @@
 	}
 }
 
-879={ #巴耳巴雷
+879={ #Barbare
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1243,7 +1243,7 @@
 	}
 }
 
-880={ #阿耳贝拉
+880={ #Arba-ilu
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1268,7 +1268,7 @@
 	}
 }
 
-881={ #基利祖
+881={ #Kilizu
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1292,7 +1292,7 @@
 	}
 }
 
-882={ #喀勒胡
+882={ #Larissa
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1323,7 +1323,7 @@
 	}
 }
 
-883={ #亚述
+883={ #Libanai
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1351,7 +1351,7 @@
 	holy_site=omen_ashshur
 }
 
-884={ #阿拉法
+884={ #Arrap'ha
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1367,7 +1367,7 @@
 	}
 }
 
-886={ #努齐
+886={ #Nuzi
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1390,7 +1390,7 @@
 	}
 }
 
-887={ #阿尔祖鑫
+887={ #Arzuhin
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1409,7 +1409,7 @@
 	}
 }
 
-891={ #塔克里特
+891={ #Birtha
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1425,7 +1425,7 @@
 	}
 }
 
-892={ #杜剌
+892={ #Doura
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1446,7 +1446,7 @@
 	}
 }
 
-893={ #萨玛剌
+893={ #Souma
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1462,7 +1462,7 @@
 	}
 }
 
-905={ #柏克库佛雷因
+905={ #Bechchouphrein
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1481,7 +1481,7 @@
 	}
 }
 
-906={ #阿纳托
+906={ #Anatho
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1494,7 +1494,7 @@
 	}
 }
 
-907={ #哈剌杜
+907={ #Haradon
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1510,7 +1510,7 @@
 	}
 }
 
-908={ #歆达努
+908={ #Eddana
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1526,7 +1526,7 @@
 	}
 }
 
-953={ #庇詹
+953={ #Achaiachala
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1545,7 +1545,7 @@
 	}
 }
 
-954={ #哈迪撒
+954={ #Haditha
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1572,7 +1572,7 @@
 	}
 }
 
-955={ #昕恩
+955={ #Gorbatha
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1592,7 +1592,7 @@
 	}
 }
 
-956={ #阿杰里丘陵
+956={ #Peloriarcha
 	terrain="desert"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1608,7 +1608,7 @@
 	}
 }
 
-957={ #玛胡兹丘陵
+957={ #Turshan
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1631,7 +1631,7 @@
 	}
 }
 
-958={ #库尔胡基齐
+958={ #Kurh u Kich 
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1650,7 +1650,7 @@
 	}
 }
 
-984={ #哈扎
+984={ #Hazza
 	terrain="dry_plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1672,7 +1672,7 @@
 	}
 }
 
-985={ #伊什凯乌特
+985={ #Ishkewt
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1691,7 +1691,7 @@
 	}
 }
 
-986={ #格赖达尔基
+986={ #Thisaphata
 	terrain="hills"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
@@ -1715,7 +1715,7 @@
 	}
 }
 
-1578={ #奥龙特斯
+1578={ #Orontes
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -1737,7 +1737,7 @@
 	}
 }
 
-1847={ #比提亚斯
+1847={ #Bithias
 	terrain="dry_plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"

@@ -1,4 +1,4 @@
-﻿5601={ #瞿萨多
+﻿5601={ #Kusta
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -14,7 +14,7 @@
 	}
 }
 
-5603={ #岗多哥罗山口
+5603={ #Gondogoro Pass
 	terrain="mountain"
 	culture="saka"
 	religion="eastern_animism"
@@ -24,7 +24,7 @@
 	province_rank=""
 }
 
-5604={ #岗多哥罗山口
+5604={ #Gondogoro Pass
 	terrain="mountain"
 	culture="saka"
 	religion="eastern_animism"
@@ -34,7 +34,7 @@
 	province_rank=""
 }
 
-5665={ #塔克拉玛干
+5665={ #Taklamakan
 	terrain="desert"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -44,7 +44,7 @@
 	province_rank=""
 }
 
-5666={ #葱岭河
+5666={ #Taklamakan
 	terrain="desert"
 	culture="shule"
 	religion="eastern_animism"
@@ -57,7 +57,7 @@
 	}
 }
 
-5667={ #北河东
+5667={ #Taklamakan
 	terrain="desert"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -70,7 +70,7 @@
 	}
 }
 
-5668={ #北河西
+5668={ #Taklamakan
 	terrain="dry_plains"
 	culture="shule"
 	religion="eastern_animism"
@@ -83,7 +83,7 @@
 	}
 }
 
-5669={ #塔克拉玛干
+5669={ #Taklamakan
 	terrain="desert"
 	culture="saka"
 	religion="eastern_animism"
@@ -93,7 +93,7 @@
 	province_rank=""
 }
 
-5967={ #天山
+5967={ #
 	terrain="plains"
 	culture="beishan"
 	religion="eastern_animism"
@@ -103,7 +103,7 @@
 	province_rank=""
 }
 
-6741={ #于阗
+6741={ #Yutian
 	terrain="dry_plains"
 	culture="saka"
 	religion="eastern_animism"
@@ -122,11 +122,11 @@
 	}
 }
 
-6742={ #皮山
+6742={ #Pishan
 	terrain="dry_plains"
 	culture="saka"
 	religion="eastern_animism"
-	trade_goods="iron"
+	trade_goods="jade"
 	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
@@ -141,7 +141,7 @@
 	}
 }
 
-6743={ #什严
+6743={ #Shiyan
 	terrain="desert"
 	culture="saka"
 	religion="eastern_animism"
@@ -154,7 +154,7 @@
 	}
 }
 
-6744={ #迦舍
+6744={ #Kashgar
 	terrain="dry_plains"
 	culture="shule"
 	religion="eastern_animism"
@@ -176,7 +176,7 @@
 	}
 }
 
-6745={ #克里雅
+6745={ #Keriya
 	terrain="desert"
 	culture="saka"
 	religion="eastern_animism"
@@ -195,7 +195,7 @@
 	}
 }
 
-6746={ #蒲犁
+6746={ #Shaju
 	terrain="dry_plains"
 	culture="shule"
 	religion="eastern_animism"
@@ -211,7 +211,7 @@
 	}
 }
 
-6747={ #拘弥
+6747={ #Wumi
 	terrain="dry_hills"
 	culture="saka"
 	religion="eastern_animism"
@@ -234,7 +234,7 @@
 	holy_site=omen_wealth_earth
 }
 
-6748={ #精绝
+6748={ #Cadota
 	terrain="dry_plains"
 	culture="loulan"
 	religion="eastern_animism"
@@ -253,7 +253,7 @@
 	}
 }
 
-6749={ #且末
+6749={ #Loulan
 	terrain="dry_plains"
 	culture="loulan"
 	religion="eastern_animism"
@@ -272,7 +272,7 @@
 	}
 }
 
-6750={ #尤沃
+6750={ #Iuwo
 	terrain="desert"
 	culture="loulan"
 	religion="eastern_animism"
@@ -285,11 +285,11 @@
 	}
 }
 
-6752={ #鄯善
+6752={ #Sherchan
 	terrain="desert"
 	culture="loulan"
 	religion="eastern_animism"
-	trade_goods="base_metals"
+	trade_goods="jade"
 	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
@@ -304,7 +304,7 @@
 	}
 }
 
-6753={ #天山
+6753={ #Toksa
 	terrain="dry_plains"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -317,7 +317,7 @@
 	}
 }
 
-6754={ #卡格拉
+6754={ #Kagra
 	terrain="desert"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -333,7 +333,7 @@
 	}
 }
 
-6755={ #姑墨
+6755={ #Kumo
 	terrain="dry_plains"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -349,7 +349,7 @@
 	}
 }
 
-6756={ #佉多
+6756={ #Khata
 	terrain="desert"
 	culture="saka"
 	religion="eastern_animism"
@@ -365,7 +365,7 @@
 	}
 }
 
-6757={ #莎车
+6757={ #Shachi
 	terrain="hills"
 	culture="shule"
 	religion="eastern_animism"
@@ -384,7 +384,7 @@
 	}
 }
 
-6758={ #瑟卡布
+6758={ #Surkhab
 	terrain="hills"
 	culture="shule"
 	religion="eastern_animism"
@@ -406,7 +406,7 @@
 	}
 }
 
-6760={ #塔什库尔干
+6760={ #Tashqurgan
 	terrain="mountain"
 	culture="phryni"
 	religion="eastern_animism"
@@ -425,7 +425,7 @@
 	}
 }
 
-6761={ #车师
+6761={ #Kasia
 	terrain="dry_plains"
 	culture="shule"
 	religion="eastern_animism"
@@ -444,7 +444,7 @@
 	}
 }
 
-6762={ #帕米尔的卡阿卡
+6762={ #Kaahka Pamir
 	terrain="mountain"
 	culture="phryni"
 	religion="eastern_animism"
@@ -460,7 +460,7 @@
 	}
 }
 
-6763={ #布拉克
+6763={ #Bulaq
 	terrain="mountain"
 	culture="phryni"
 	religion="eastern_animism"
@@ -476,7 +476,7 @@
 	}
 }
 
-6764={ #弥厄纳
+6764={ #Miena
 	terrain="mountain"
 	culture="phryni"
 	religion="eastern_animism"
@@ -492,7 +492,7 @@
 	}
 }
 
-6765={ #咖菲尔咖拉
+6765={ #Kafir Kala
 	terrain="mountain"
 	culture="phryni"
 	religion="eastern_animism"
@@ -511,7 +511,7 @@
 	}
 }
 
-6766={ #亚姆淳
+6766={ #Yamchun
 	terrain="mountain"
 	culture="phryni"
 	religion="eastern_animism"
@@ -530,7 +530,7 @@
 	}
 }
 
-6767={ #乌朗
+6767={ #Urang
 	terrain="mountain"
 	culture="phryni"
 	religion="eastern_animism"
@@ -546,7 +546,7 @@
 	}
 }
 
-6769={ #帕米尔
+6769={ #Pamir
 	terrain="mountain"
 	culture="phryni"
 	religion="eastern_animism"
@@ -563,7 +563,7 @@
 	holy_site=omen_guidance_of_the_wind
 }
 
-6770={ #脱古兹伯拉格
+6770={ #Toquzbolaq
 	terrain="mountain"
 	culture="phryni"
 	religion="eastern_animism"
@@ -579,7 +579,7 @@
 	}
 }
 
-6771={ #科镇
+6771={ #Kezhen
 	terrain="mountain"
 	culture="shule"
 	religion="eastern_animism"
@@ -601,7 +601,7 @@
 	}
 }
 
-6772={ #伊尔克什坦
+6772={ #Irkeshtam
 	terrain="mountain"
 	culture="shule"
 	religion="eastern_animism"
@@ -623,7 +623,7 @@
 	}
 }
 
-6778={ #八剌沙衮
+6778={ #Balasaghun
 	terrain="mountain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -642,7 +642,7 @@
 	}
 }
 
-6779={ #碎叶
+6779={ #Suyab
 	terrain="mountain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -664,7 +664,7 @@
 	}
 }
 
-6780={ #新城
+6780={ #Nevaket
 	terrain="mountain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -686,7 +686,7 @@
 	}
 }
 
-6781={ #裕勒
+6781={ #Yul
 	terrain="mountain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -708,7 +708,7 @@
 	}
 }
 
-6782={ #阿失帕拉
+6782={ #Ashpara
 	terrain="mountain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -727,7 +727,7 @@
 	}
 }
 
-6787={ #那林
+6787={ #Narin
 	terrain="mountain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -744,7 +744,7 @@
 	holy_site=omen_blessing_life
 }
 
-6788={ #输罗
+6788={ #Shura
 	terrain="mountain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -757,7 +757,7 @@
 	}
 }
 
-7183={ #鲁居亚
+7183={ #Rucya
 	terrain="hills"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -776,7 +776,7 @@
 	}
 }
 
-7184={ #龟兹
+7184={ #Kuche
 	terrain="dry_plains"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -798,7 +798,7 @@
 	}
 }
 
-8208={ #延城
+8208={ #Tabaqah
 	terrain="hills"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -817,7 +817,7 @@
 	}
 }
 
-8209={ #轮台
+8209={ #Luntai
 	terrain="desert"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -836,11 +836,11 @@
 	}
 }
 
-8210={ #乌垒
+8210={ #Schiueref
 	terrain="dry_plains"
 	culture="tocharian"
 	religion="eastern_animism"
-	trade_goods="honey"
+	trade_goods="jade"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -855,7 +855,7 @@
 	}
 }
 
-8211={ #尉犂
+8211={ #Shawi
 	terrain="hills"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -874,7 +874,7 @@
 	}
 }
 
-8212={ #危须
+8212={ #Mizda
 	terrain="dry_plains"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -893,7 +893,7 @@
 	}
 }
 
-8213={ #扜泥
+8213={ #Centenarium
 	terrain="desert"
 	culture="loulan"
 	religion="eastern_animism"
@@ -912,7 +912,7 @@
 	}
 }
 
-8214={ #伊循
+8214={ #Thenteos
 	terrain="dry_plains"
 	culture="loulan"
 	religion="eastern_animism"
@@ -931,7 +931,7 @@
 	}
 }
 
-8215={ #高昌壁
+8215={ #Gaochangbi
 	terrain="desert"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -962,7 +962,7 @@
 	}
 }
 
-8216={ #交河
+8216={ #Garian
 	terrain="dry_plains"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -988,7 +988,7 @@
 	}
 }
 
-8217={ #车师柳谷
+8217={ #Cheshiliugu
 	terrain="hills"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1011,7 +1011,7 @@
 	}
 }
 
-8218={ #务涂谷
+8218={ #Mesphe
 	terrain="hills"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1030,7 +1030,7 @@
 	}
 }
 
-8219={ #后城
+8219={ #Houcheng
 	terrain="desert"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1049,7 +1049,7 @@
 	}
 }
 
-8220={ #卑陆
+8220={ #Banat
 	terrain="dry_plains"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1068,7 +1068,7 @@
 	}
 }
 
-8221={ #劫
+8221={ #Jie
 	terrain="dry_plains"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1087,7 +1087,7 @@
 	}
 }
 
-8222={ #单桓
+8222={ #Danhuan
 	terrain="dry_plains"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1106,7 +1106,7 @@
 	}
 }
 
-8223={ #东且弥
+8223={ #Bularkan
 	terrain="dry_plains"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1125,7 +1125,7 @@
 	}
 }
 
-8224={ #西且弥
+8224={ #Lebr
 	terrain="dry_plains"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1144,7 +1144,7 @@
 	}
 }
 
-8225={ #员渠
+8225={ #Scemech
 	terrain="farmland"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -1163,7 +1163,7 @@
 	}
 }
 
-8226={ #楼兰
+8226={ #Rimoniana
 	terrain="dry_plains"
 	culture="loulan"
 	religion="eastern_animism"
@@ -1185,7 +1185,7 @@
 	}
 }
 
-8241={ #白龙堆
+8241={ #Bailongdui
 	terrain="desert"
 	culture="wusun"
 	religion="eastern_animism"
@@ -1198,7 +1198,7 @@
 	}
 }
 
-8255={ #蒲类后国
+8255={ #Faouar
 	terrain="dry_hills"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1211,7 +1211,7 @@
 	}
 }
 
-8256={ #蒲类
+8256={ #Pulei
 	terrain="hills"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1224,7 +1224,7 @@
 	}
 }
 
-8303={ #赤谷
+8303={ #Aoulouze
 	terrain="mountain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -1240,7 +1240,7 @@
 	}
 }
 
-8304={ #北山
+8304={ #Beishan
 	terrain="mountain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -1256,7 +1256,7 @@
 	}
 }
 
-8305={ #婼羌
+8305={ #Larbaa Magnoun
 	terrain="impassable_terrain"
 	culture="ruoqiang"
 	religion="bon_religion"
@@ -1266,7 +1266,7 @@
 	province_rank=""
 }
 
-8306={ #圩零
+8306={ #Kerrouchen
 	terrain="mountain"
 	culture="loulan"
 	religion="eastern_animism"
@@ -1284,7 +1284,7 @@
 	}
 }
 
-9300={ #蒲类沙漠
+9300={ #Impassable
 	terrain="impassable_terrain"
 	culture="yuezhi"
 	religion="eastern_animism"
@@ -1294,7 +1294,7 @@
 	province_rank=""
 }
 
-9455={ #絜山
+9455={ #Jieshan
 	terrain="dry_hills"
 	culture="sakan"
 	religion="eastern_animism"
@@ -1307,7 +1307,7 @@
 	}
 }
 
-9456={ #伊利河
+9456={ #Yilihe
 	terrain="steppe"
 	culture="sakan"
 	religion="eastern_animism"
@@ -1320,7 +1320,7 @@
 	}
 }
 
-9457={ #弓月
+9457={ #Gongyue
 	terrain="steppe"
 	culture="sakan"
 	religion="eastern_animism"
@@ -1333,7 +1333,7 @@
 	}
 }
 
-9458={ #叶河
+9458={ #Yehe
 	terrain="steppe"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1346,7 +1346,7 @@
 	}
 }
 
-9459={ #黑水
+9459={ #Heishui
 	terrain="steppe"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1359,7 +1359,7 @@
 	}
 }
 
-9460={ #东林
+9460={ #Donglin
 	terrain="steppe"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1372,7 +1372,7 @@
 	}
 }
 
-9461={ #西林
+9461={ #Xilin
 	terrain="steppe"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1385,7 +1385,7 @@
 	}
 }
 
-9462={ #双河
+9462={ #Shuanghe
 	terrain="dry_hills"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1398,7 +1398,7 @@
 	}
 }
 
-9463={ #叶河北
+9463={ #PASS
 	terrain="desert"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1411,7 +1411,7 @@
 	}
 }
 
-9474={ #北山沙漠
+9474={ #Impassable
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -1421,7 +1421,7 @@
 	province_rank=""
 }
 
-9475={ #蒲类北
+9475={ #PASS
 	terrain="desert"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1434,7 +1434,7 @@
 	}
 }
 
-9476={ #北山沙漠
+9476={ #Impassable
 	terrain="impassable_terrain"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1444,7 +1444,7 @@
 	province_rank=""
 }
 
-9576={ #蒲昌海
+9576={ #Puchanghai
 	terrain="marsh"
 	culture="loulan"
 	religion="eastern_animism"
@@ -1457,7 +1457,7 @@
 	}
 }
 
-9577={ #玉门
+9577={ #Yumen
 	terrain="desert"
 	culture="wusun"
 	religion="eastern_animism"
@@ -1470,7 +1470,7 @@
 	}
 }
 
-9582={ #蒲类东
+9582={ #Pulei East
 	terrain="desert"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1483,7 +1483,7 @@
 	}
 }
 
-9583={ #昆仑障北
+9583={ #Impassable
 	terrain="desert"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1496,7 +1496,7 @@
 	}
 }
 
-9586={ #夷播海南岸
+9586={ #Impassable
 	terrain="impassable_terrain"
 	culture="sakan"
 	religion="eastern_animism"

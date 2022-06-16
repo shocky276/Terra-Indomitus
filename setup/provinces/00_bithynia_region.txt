@@ -1,4 +1,4 @@
-﻿198={ #冈格拉
+﻿198={ #Gangra
 	terrain="plains"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -38,7 +38,7 @@
 	}
 }
 
-199={ #坎达拉
+199={ #Kandara
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -57,7 +57,7 @@
 	}
 }
 
-200={ #喀弥亚塔
+200={ #Kimiata
 	terrain="forest"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -76,7 +76,7 @@
 	}
 }
 
-201={ #佐亚卡
+201={ #Zoaka
 	terrain="plains"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -99,7 +99,7 @@
 	}
 }
 
-203={ #阿斯科勒庇俄斯
+203={ #Asklepios
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -118,7 +118,7 @@
 	}
 }
 
-206={ #库托洛斯
+206={ #Kytoros
 	terrain="forest"
 	culture="paphlagonian"
 	religion="roman_pantheon"
@@ -145,7 +145,7 @@
 	}
 }
 
-207={ #本都的赫拉克利亚
+207={ #Herakleia Pontike
 	terrain="hills"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -187,7 +187,7 @@
 	port_building=1
 }
 
-208={ #塞萨摩斯
+208={ #Sesamos
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -219,7 +219,7 @@
 	port_building=1
 }
 
-209={ #提厄翁
+209={ #Teion
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -242,7 +242,7 @@
 	}
 }
 
-210={ #达底布拉
+210={ #Dadybra
 	terrain="hills"
 	culture="mariandynian"
 	religion="roman_pantheon"
@@ -265,7 +265,7 @@
 	}
 }
 
-211={ #最波瑞亚
+211={ #Ziporeia
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -297,7 +297,7 @@
 	}
 }
 
-212={ #帕耳忒尼亚
+212={ #Parthenia
 	terrain="hills"
 	culture="mariandynian"
 	religion="roman_pantheon"
@@ -320,7 +320,7 @@
 	}
 }
 
-213={ #喀弥斯塔
+213={ #Kimista
 	terrain="hills"
 	culture="mariandynian"
 	religion="anatolian_religion"
@@ -347,7 +347,7 @@
 	}
 }
 
-214={ #提摩尼翁
+214={ #Timonion
 	terrain="hills"
 	culture="mariandynian"
 	religion="roman_pantheon"
@@ -371,7 +371,7 @@
 	}
 }
 
-215={ #克拉忒亚
+215={ #Krateia
 	terrain="hills"
 	culture="mariandynian"
 	religion="anatolian_religion"
@@ -395,11 +395,11 @@
 	}
 }
 
-216={ #泽塔
+216={ #Zeita
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
-	trade_goods="wood"
+	trade_goods="fruits"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -427,7 +427,7 @@
 	}
 }
 
-217={ #托巴塔
+217={ #Tobata
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -456,7 +456,7 @@
 	}
 }
 
-219={ #萨隆
+219={ #Salon
 	terrain="hills"
 	culture="mariandynian"
 	religion="roman_pantheon"
@@ -482,7 +482,7 @@
 	}
 }
 
-221={ #珀翁
+221={ #Peion
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -509,11 +509,11 @@
 	}
 }
 
-223={ #勒格纳
+223={ #Legna
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
+	trade_goods="fruits"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -538,7 +538,7 @@
 	}
 }
 
-224={ #戈耳狄乌科墨
+224={ #Gordioukome
 	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -560,7 +560,7 @@
 	}
 }
 
-225={ #拉加尼亚
+225={ #Lagania
 	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -579,7 +579,7 @@
 	}
 }
 
-232={ #玻尼塔
+232={ #Bonita
 	terrain="hills"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -603,7 +603,7 @@
 	}
 }
 
-233={ #喀厄洛斯
+233={ #Kieros
 	terrain="hills"
 	culture="mariandynian"
 	religion="roman_pantheon"
@@ -630,7 +630,7 @@
 	}
 }
 
-234={ #卡尔珀
+234={ #Kalpe
 	terrain="forest"
 	culture="bithynian"
 	religion="roman_pantheon"
@@ -662,7 +662,7 @@
 	port_building=1
 }
 
-236={ #比堤尼亚的塔耳索斯
+236={ #Tarsos Bithynias
 	terrain="hills"
 	culture="bithynian"
 	religion="roman_pantheon"
@@ -685,7 +685,7 @@
 	}
 }
 
-237={ #恩玻罗斯
+237={ #Embolos
 	terrain="hills"
 	culture="mariandynian"
 	religion="roman_pantheon"
@@ -712,7 +712,7 @@
 	}
 }
 
-238={ #狄亚
+238={ #Dia
 	terrain="forest"
 	culture="mariandynian"
 	religion="roman_pantheon"
@@ -741,7 +741,7 @@
 	}
 }
 
-239={ #阿耳塔涅斯
+239={ #Artanes
 	terrain="plains"
 	culture="bithynian"
 	religion="roman_pantheon"
@@ -763,7 +763,7 @@
 	}
 }
 
-240={ #卡尔刻冬
+240={ #Chalkedon
 	terrain="plains"
 	culture="thracian"
 	religion="roman_pantheon"
@@ -794,7 +794,7 @@
 	port_building=1
 }
 
-241={ #雷巴斯
+241={ #Rhebas
 	terrain="plains"
 	culture="thracian"
 	religion="roman_pantheon"
@@ -826,7 +826,7 @@
 	port_building=1
 }
 
-242={ #利彼萨
+242={ #Libyssa
 	terrain="plains"
 	culture="bithynian"
 	religion="roman_pantheon"
@@ -860,7 +860,7 @@
 	}
 }
 
-243={ #阿斯塔科斯
+243={ #Astakos
 	terrain="hills"
 	culture="thracian"
 	religion="roman_pantheon"
@@ -900,7 +900,7 @@
 	port_building=1
 }
 
-244={ #比堤尼亚的安提戈涅亚
+244={ #Antigoneia Bithynias
 	terrain="hills"
 	culture="thracian"
 	religion="roman_pantheon"
@@ -942,7 +942,7 @@
 	}
 }
 
-245={ #开俄斯
+245={ #Kios
 	terrain="hills"
 	culture="thracian"
 	religion="roman_pantheon"
@@ -987,7 +987,7 @@
 	port_building=1
 }
 
-246={ #斯特洛比罗斯
+246={ #Strobilos
 	terrain="hills"
 	culture="thracian"
 	religion="roman_pantheon"
@@ -1021,7 +1021,7 @@
 	}
 }
 
-247={ #皮托波利斯
+247={ #Pythopolis
 	terrain="hills"
 	culture="thracian"
 	religion="roman_pantheon"
@@ -1055,7 +1055,7 @@
 	}
 }
 
-248={ #密耳勒亚
+248={ #Myrleia
 	terrain="plains"
 	culture="thracian"
 	religion="roman_pantheon"
@@ -1089,7 +1089,7 @@
 	}
 }
 
-249={ #林达库斯河畔阿波罗尼亚
+249={ #Apollonia Rhyndakon
 	terrain="hills"
 	culture="mysian"
 	religion="anatolian_religion"
@@ -1125,7 +1125,7 @@
 	}
 }
 
-250={ #赫尔革
+250={ #Booskoite
 	terrain="hills"
 	culture="mysian"
 	religion="anatolian_religion"
@@ -1153,7 +1153,7 @@
 	}
 }
 
-322={ #拉穆尼亚
+322={ #Lamounia
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1180,7 +1180,7 @@
 	}
 }
 
-323={ #萨尔科堤勒
+323={ #Sarkotyle
 	terrain="hills"
 	culture="mysian"
 	religion="anatolian_religion"
@@ -1207,7 +1207,7 @@
 	}
 }
 
-324={ #俄特洛亚
+324={ #Otroia
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1234,7 +1234,7 @@
 	}
 }
 
-325={ #卡比亚
+325={ #Kabia
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1270,7 +1270,7 @@
 	}
 }
 
-326={ #摩德拉
+326={ #Modra
 	terrain="hills"
 	culture="mariandynian"
 	religion="roman_pantheon"
@@ -1303,7 +1303,7 @@
 	}
 }
 
-327={ #俄卡
+327={ #Oka
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1326,7 +1326,7 @@
 	}
 }
 
-329={ #达布勒斯
+329={ #Dableis
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1354,7 +1354,7 @@
 	}
 }
 
-1806={ #忒弥斯居拉
+1806={ #Themiskyra
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -1378,7 +1378,7 @@
 	}
 }
 
-1807={ #阿弥索斯
+1807={ #Amisos
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -1419,7 +1419,7 @@
 	port_building=1
 }
 
-1809={ #伽迪隆
+1809={ #Gadilon
 	terrain="forest"
 	culture="cappadocian"
 	religion="roman_pantheon"
@@ -1451,7 +1451,7 @@
 	}
 }
 
-1810={ #匝利刻斯
+1810={ #Zaliches
 	terrain="hills"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -1480,7 +1480,7 @@
 	}
 }
 
-1812={ #锡诺佩
+1812={ #Sinope
 	terrain="plains"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -1536,7 +1536,7 @@
 	port_building=1
 }
 
-1814={ #斯忒法涅
+1814={ #Stephane
 	terrain="hills"
 	culture="cappadocian"
 	religion="roman_pantheon"
@@ -1568,7 +1568,7 @@
 	}
 }
 
-1815={ #阿玻努忒科斯
+1815={ #Abonouteichos
 	terrain="hills"
 	culture="cappadocian"
 	religion="roman_pantheon"
@@ -1598,7 +1598,7 @@
 	port_building=1
 }
 
-1816={ #卡览比斯
+1816={ #Karambis
 	terrain="hills"
 	culture="cappadocian"
 	religion="roman_pantheon"
@@ -1635,7 +1635,7 @@
 	}
 }
 
-1827={ #萨科耳萨
+1827={ #Sakorsa
 	terrain="forest"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -1654,7 +1654,7 @@
 	}
 }
 
-1828={ #多马尼翁
+1828={ #Domanion
 	terrain="forest"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -1676,7 +1676,7 @@
 	}
 }
 
-1829={ #布莱涅
+1829={ #Blaine
 	terrain="forest"
 	culture="paphlagonian"
 	religion="anatolian_religion"
@@ -1695,7 +1695,7 @@
 	}
 }
 
-7763={ #索丰山口
+7763={ #Sophon Pass
 	terrain="mountain"
 	culture="mariandynian"
 	religion="roman_pantheon"
@@ -1705,7 +1705,7 @@
 	province_rank=""
 }
 
-7765={ #塔泰俄斯
+7765={ #Tattaios
 	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
@@ -1728,7 +1728,7 @@
 	}
 }
 
-7914={ #摩德拉山口
+7914={ #Modra Pass
 	terrain="mountain"
 	culture="mariandynian"
 	religion="roman_pantheon"

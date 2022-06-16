@@ -1,4 +1,4 @@
-﻿2543={ #乌克里尼卡
+﻿2543={ #Uccrynyika
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -11,7 +11,7 @@
 	}
 }
 
-4887={ #克拉科维亚
+4887={ #Cracovia
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -24,7 +24,7 @@
 	}
 }
 
-4889={ #坦托农
+4889={ #Tantonum
 	terrain="hills"
 	culture="costoboci"
 	religion="shamanism"
@@ -37,7 +37,7 @@
 	}
 }
 
-4890={ #阿格戎
+4890={ #Agrum
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -53,7 +53,7 @@
 	}
 }
 
-4891={ #厄克托农
+4891={ #Ectonum
 	terrain="plains"
 	culture="costoboci"
 	religion="shamanism"
@@ -66,7 +66,7 @@
 	}
 }
 
-4892={ #伊巴杜拉
+4892={ #Ibadura
 	terrain="mountain"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -79,7 +79,7 @@
 	}
 }
 
-4893={ #马提斯库阿
+4893={ #Matiscua
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -98,7 +98,7 @@
 	}
 }
 
-4895={ #弥塔比斯
+4895={ #Mitabis
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -111,7 +111,7 @@
 	}
 }
 
-4896={ #瓦利同
+4896={ #Valitum
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -124,7 +124,7 @@
 	}
 }
 
-4914={ #卡耳西达瓦
+4914={ #Carsidava
 	terrain="forest"
 	culture="harpii"
 	religion="shamanism"
@@ -137,7 +137,7 @@
 	}
 }
 
-4936={ #维耳提肯
+4936={ #Ad Verticem
 	terrain="forest"
 	culture="harpii"
 	religion="shamanism"
@@ -156,7 +156,7 @@
 	}
 }
 
-4937={ #下喀尔巴提亚的孔佛卢恩提亚
+4937={ #Confluentia Subcarpathica
 	terrain="forest"
 	culture="harpii"
 	religion="shamanism"
@@ -169,7 +169,7 @@
 	}
 }
 
-4938={ #坦尼斯
+4938={ #Tannis
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
@@ -182,7 +182,7 @@
 	}
 }
 
-4939={ #俄克塔翁
+4939={ #Octavum
 	terrain="forest"
 	culture="harpii"
 	religion="shamanism"
@@ -198,7 +198,7 @@
 	}
 }
 
-4940={ #利姆诺戎
+4940={ #Limnorum
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
@@ -211,7 +211,7 @@
 	}
 }
 
-4941={ #萨隆尼斯
+4941={ #Salumnis
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
@@ -224,7 +224,7 @@
 	}
 }
 
-4942={ #阿克里翁
+4942={ #Acrium
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
@@ -237,7 +237,7 @@
 	}
 }
 
-4943={ #卡斯特拉纳
+4943={ #Castrana
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
@@ -256,7 +256,7 @@
 	}
 }
 
-4944={ #多拉戎
+4944={ #Dolarum
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
@@ -269,7 +269,7 @@
 	}
 }
 
-4945={ #里帕戎
+4945={ #Riparum
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
@@ -285,7 +285,7 @@
 	}
 }
 
-4946={ #索利塔里翁
+4946={ #Solitarium
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
@@ -298,7 +298,7 @@
 	}
 }
 
-4947={ #坦冬
+4947={ #Tandum
 	terrain="plains"
 	culture="costoboci"
 	religion="shamanism"
@@ -314,7 +314,7 @@
 	}
 }
 
-5383={ #奥格鲁内特
+5383={ #Oggrunet
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -330,7 +330,7 @@
 	}
 }
 
-6047={ #奥尔尼什
+6047={ #Olnish
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -343,7 +343,7 @@
 	}
 }
 
-6065={ #格拉尼卡
+6065={ #Granika
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -356,7 +356,7 @@
 	}
 }
 
-6066={ #乌特肯尼塔
+6066={ #Utkennita
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -369,7 +369,7 @@
 	}
 }
 
-6067={ #阿尔科内特
+6067={ #Alkonet
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -382,7 +382,7 @@
 	}
 }
 
-6068={ #库拉
+6068={ #Khurra
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -398,7 +398,7 @@
 	}
 }
 
-6069={ #戈斯蒂亚
+6069={ #Gosthinya
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -411,7 +411,7 @@
 	}
 }
 
-6070={ #莱奇塔
+6070={ #Lechta
 	terrain="forest"
 	culture="harpii"
 	religion="shamanism"
@@ -424,7 +424,7 @@
 	}
 }
 
-6071={ #谢蒂格克
+6071={ #Shethigk
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -440,7 +440,7 @@
 	}
 }
 
-6072={ #尤克塔
+6072={ #Yukta
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -453,7 +453,7 @@
 	}
 }
 
-6073={ #翁内特
+6073={ #Vonnet
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -466,7 +466,7 @@
 	}
 }
 
-6074={ #蒂耶尔西
+6074={ #Tiersi
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -479,7 +479,7 @@
 	}
 }
 
-6075={ #梅奇凯赫特
+6075={ #Mechkeht
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -492,7 +492,7 @@
 	}
 }
 
-6076={ #克鲁恩格
+6076={ #Krueng
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -505,7 +505,7 @@
 	}
 }
 
-6077={ #加尼尔卡塔
+6077={ #Ghanilkatta
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -518,7 +518,7 @@
 	}
 }
 
-6078={ #诺特吉
+6078={ #Notghi
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -531,7 +531,7 @@
 	}
 }
 
-6079={ #弗里扬克
+6079={ #Vryank
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -544,7 +544,7 @@
 	}
 }
 
-6080={ #奥斯奇卡
+6080={ #Oschka
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -557,7 +557,7 @@
 	}
 }
 
-6081={ #基尔蒂克
+6081={ #Kyrtik
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -570,7 +570,7 @@
 	}
 }
 
-6082={ #东特斯
+6082={ #Donts
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -586,7 +586,7 @@
 	}
 }
 
-6084={ #谢奇
+6084={ #Schech
 	terrain="forest"
 	culture="harpii"
 	religion="shamanism"
@@ -599,7 +599,7 @@
 	}
 }
 
-6085={ #图明
+6085={ #Tumin
 	terrain="forest"
 	culture="harpii"
 	religion="shamanism"
@@ -615,7 +615,7 @@
 	}
 }
 
-6086={ #沃利亚特斯
+6086={ #Volyatss
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -628,7 +628,7 @@
 	}
 }
 
-6089={ #武尔丹特
+6089={ #Vurdant
 	terrain="forest"
 	culture="slavian"
 	religion="indo_iranian_religion"
@@ -644,7 +644,7 @@
 	}
 }
 
-6090={ #西蒂亚
+6090={ #Sitya
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -657,7 +657,7 @@
 	}
 }
 
-6091={ #阿格里格
+6091={ #Aggrygh
 	terrain="forest"
 	culture="scythian"
 	religion="indo_iranian_religion"
@@ -670,7 +670,7 @@
 	}
 }
 
-6092={ #杰尔特斯
+6092={ #Gelts
 	terrain="forest"
 	culture="scythian"
 	religion="indo_iranian_religion"
@@ -686,7 +686,7 @@
 	}
 }
 
-6233={ #乌尔谢拉特斯
+6233={ #Urschelats
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -699,7 +699,7 @@
 	}
 }
 
-6234={ #米亚尼克
+6234={ #Myanik
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -712,7 +712,7 @@
 	}
 }
 
-6235={ #阿纳凯斯塔
+6235={ #Anakkesta
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -725,7 +725,7 @@
 	}
 }
 
-6236={ #福罗姆
+6236={ #Forom
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -738,7 +738,7 @@
 	}
 }
 
-6237={ #阿尔福罗姆
+6237={ #Arforom
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -751,7 +751,7 @@
 	}
 }
 
-6238={ #阿尔海奥
+6238={ #Arhao
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -764,7 +764,7 @@
 	}
 }
 
-6239={ #西塔
+6239={ #Sitha
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -777,7 +777,7 @@
 	}
 }
 
-6240={ #阿苏拉
+6240={ #Assula
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -790,7 +790,7 @@
 	}
 }
 
-6241={ #马斯蒂卡特
+6241={ #Masticat
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -803,7 +803,7 @@
 	}
 }
 
-6242={ #塞诺
+6242={ #Seno
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -816,7 +816,7 @@
 	}
 }
 
-6243={ #沃尔塔
+6243={ #Vorta
 	terrain="forest"
 	culture="slavian"
 	religion="indo_iranian_religion"
@@ -832,7 +832,7 @@
 	}
 }
 
-6244={ #卡纳莱
+6244={ #Kanale
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -845,7 +845,7 @@
 	}
 }
 
-6245={ #米泰里亚
+6245={ #Mitteria
 	terrain="plains"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -858,7 +858,7 @@
 	}
 }
 
-6246={ #韦努利亚
+6246={ #Venulia
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -871,7 +871,7 @@
 	}
 }
 
-6247={ #斯科蒂卡
+6247={ #Sottika
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -884,7 +884,7 @@
 	}
 }
 
-6248={ #博纳瓦
+6248={ #Bonava
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -900,7 +900,7 @@
 	}
 }
 
-6249={ #切拉维拉
+6249={ #Celavira
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -913,7 +913,7 @@
 	}
 }
 
-6250={ #阿尔哈
+6250={ #Arha
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -929,7 +929,7 @@
 	}
 }
 
-6251={ #卡拉
+6251={ #Gala
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -942,7 +942,7 @@
 	}
 }
 
-6252={ #希斯特里内
+6252={ #Histrine
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -955,7 +955,7 @@
 	}
 }
 
-6253={ #马瓦尔
+6253={ #Mavar
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -968,7 +968,7 @@
 	}
 }
 
-6254={ #多纳里亚
+6254={ #Donaria
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -981,7 +981,7 @@
 	}
 }
 
-6255={ #多纳尔
+6255={ #Donar
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -994,7 +994,7 @@
 	}
 }
 
-6256={ #韦内迪亚纳
+6256={ #Venediana
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1007,7 +1007,7 @@
 	}
 }
 
-6257={ #马利卡
+6257={ #Malica
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1026,7 +1026,7 @@
 	}
 }
 
-6258={ #卡里亚拉
+6258={ #Cariala
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1042,7 +1042,7 @@
 	}
 }
 
-6259={ #乌尔加纳
+6259={ #Urgana
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1058,7 +1058,7 @@
 	}
 }
 
-6260={ #福拉
+6260={ #Folla
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1074,7 +1074,7 @@
 	}
 }
 
-6261={ #索菲内
+6261={ #Sophine
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1090,7 +1090,7 @@
 	}
 }
 
-6262={ #瓦尔克雷特
+6262={ #Varcret
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1106,7 +1106,7 @@
 	}
 }
 
-6263={ #舒里塔
+6263={ #Shurita
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1122,7 +1122,7 @@
 	}
 }
 
-6264={ #维纳塔
+6264={ #Vinata
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1135,7 +1135,7 @@
 	}
 }
 
-6265={ #戈里德瓦
+6265={ #Gorideva
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1154,7 +1154,7 @@
 	}
 }
 
-6266={ #戈里翁
+6266={ #Gorion
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1170,7 +1170,7 @@
 	}
 }
 
-6291={ #沃律特塔
+6291={ #Vorytta
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1186,7 +1186,7 @@
 	}
 }
 
-6292={ #特拉居利
+6292={ #Trakylli
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1202,7 +1202,7 @@
 	}
 }
 
-6294={ #斐利塔
+6294={ #Felita
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1215,7 +1215,7 @@
 	}
 }
 
-6295={ #俄罗纳
+6295={ #Orona
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1228,7 +1228,7 @@
 	}
 }
 
-6296={ #基雷
+6296={ #Kire
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1244,7 +1244,7 @@
 	}
 }
 
-6297={ #图雷
+6297={ #Thure
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1257,7 +1257,7 @@
 	}
 }
 
-6298={ #玻斯托耳
+6298={ #Bostor
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1273,7 +1273,7 @@
 	}
 }
 
-7820={ #俄西俄亚
+7820={ #Ossioia
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1286,7 +1286,7 @@
 	}
 }
 
-7821={ #东俄西俄亚
+7821={ #Ossioia Orientalis
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1299,7 +1299,7 @@
 	}
 }
 
-7822={ #南苏狄俄诺亚
+7822={ #Sudionoia Australis
 	terrain="plains"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1312,7 +1312,7 @@
 	}
 }
 
-7823={ #东苏狄俄诺亚
+7823={ #Sudionoia Orientalis
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
@@ -1328,7 +1328,7 @@
 	}
 }
 
-7824={ #雷瓦基亚
+7824={ #Revacia
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1341,7 +1341,7 @@
 	}
 }
 
-7825={ #森提亚
+7825={ #Sentia
 	terrain="plains"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1354,7 +1354,7 @@
 	}
 }
 
-7826={ #墨拉尼亚
+7826={ #Merania
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1367,7 +1367,7 @@
 	}
 }
 
-7827={ #俄壬提亚
+7827={ #Orentia
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1380,7 +1380,7 @@
 	}
 }
 
-7828={ #马诺亚
+7828={ #Manoia
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"
@@ -1396,7 +1396,7 @@
 	}
 }
 
-7829={ #赫里提亚
+7829={ #Heritia
 	terrain="forest"
 	culture="slavian"
 	religion="matrist_religion"

@@ -1,4 +1,4 @@
-﻿263={ #纳克索斯
+﻿263={ #Naxos
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -29,7 +29,7 @@
 	port_building=1
 }
 
-277={ #斯居洛斯
+277={ #Skyros
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -49,7 +49,7 @@
 	port_building=1
 }
 
-344={ #普赖索斯
+344={ #Praisos
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -71,7 +71,7 @@
 	}
 }
 
-351={ #厄琉忒耳那
+351={ #Eleutherna
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -93,7 +93,7 @@
 	}
 }
 
-355={ #希厄拉皮特那
+355={ #Hierapytna
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -117,7 +117,7 @@
 	port_building=1
 }
 
-358={ #克诺索斯
+358={ #Knossos
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -146,7 +146,7 @@
 	port_building=1
 }
 
-359={ #吕克托斯
+359={ #Lyktos
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -168,7 +168,7 @@
 	}
 }
 
-361={ #戈耳堤那
+361={ #Gortyna
 	terrain="forest"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -191,7 +191,7 @@
 	port_building=1
 }
 
-367={ #基多尼亚
+367={ #Kydonia
 	terrain="plains"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -211,7 +211,7 @@
 	port_building=1
 }
 
-368={ #波吕林尼亚
+368={ #Polyrrhenia
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -237,7 +237,7 @@
 	port_building=1
 }
 
-370={ #塔拉
+370={ #Tarrha
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -260,7 +260,7 @@
 	holy_site=omen_karmanor
 }
 
-372={ #科里翁
+372={ #Korion
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -282,7 +282,7 @@
 	}
 }
 
-375={ #阿耳刻西涅
+375={ #Arkesine
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -301,7 +301,7 @@
 	}
 }
 
-387={ #伊俄斯
+387={ #Ios
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -320,7 +320,7 @@
 	}
 }
 
-399={ #拉弥亚
+399={ #Lamia
 	terrain="plains"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -344,7 +344,7 @@
 	port_building=1
 }
 
-401={ #许帕塔
+401={ #Hypata
 	terrain="mountain"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -363,7 +363,7 @@
 	}
 }
 
-402={ #俄浦斯
+402={ #Opous
 	terrain="hills"
 	culture="boeotian"
 	religion="roman_pantheon"
@@ -382,7 +382,7 @@
 	}
 }
 
-403={ #俄瑞俄斯
+403={ #Oreos
 	terrain="hills"
 	culture="euboean"
 	religion="roman_pantheon"
@@ -402,7 +402,7 @@
 	port_building=1
 }
 
-406={ #安忒冬
+406={ #Anthedon
 	terrain="hills"
 	culture="boeotian"
 	religion="roman_pantheon"
@@ -422,7 +422,7 @@
 	port_building=1
 }
 
-407={ #卡尔基斯
+407={ #Chalkis
 	terrain="plains"
 	culture="euboean"
 	religion="roman_pantheon"
@@ -453,7 +453,7 @@
 	port_building=1
 }
 
-409={ #卡利斯图
+409={ #Karystos
 	terrain="hills"
 	culture="euboean"
 	religion="roman_pantheon"
@@ -472,7 +472,7 @@
 	}
 }
 
-410={ #欧玻亚的俄伊卡利亚
+410={ #Oichalia Euboike
 	terrain="hills"
 	culture="euboean"
 	religion="roman_pantheon"
@@ -491,7 +491,7 @@
 	}
 }
 
-413={ #俄罗浦斯
+413={ #Oropos
 	terrain="marsh"
 	culture="athenian"
 	religion="roman_pantheon"
@@ -515,7 +515,7 @@
 	}
 }
 
-416={ #雅典
+416={ #Athenai
 	terrain="farmland"
 	culture="athenian"
 	religion="roman_pantheon"
@@ -554,7 +554,7 @@
 	port_building=2
 }
 
-417={ #墨伽拉
+417={ #Megara
 	terrain="hills"
 	culture="argolian"
 	religion="roman_pantheon"
@@ -577,7 +577,7 @@
 	port_building=1
 }
 
-418={ #科林托斯
+418={ #Korinthos
 	terrain="hills"
 	culture="argolian"
 	religion="roman_pantheon"
@@ -618,7 +618,7 @@
 	port_building=1
 }
 
-419={ #吉塔纳
+419={ #Gitana
 	terrain="hills"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -637,7 +637,7 @@
 	}
 }
 
-421={ #腓尼刻
+421={ #Phoinike
 	terrain="hills"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -656,7 +656,7 @@
 	}
 }
 
-423={ #俄尔科墨诺斯
+423={ #Orchomenos
 	terrain="hills"
 	culture="boeotian"
 	religion="roman_pantheon"
@@ -672,7 +672,7 @@
 	}
 }
 
-424={ #德尔斐
+424={ #Delphoi
 	terrain="mountain"
 	culture="boeotian"
 	religion="roman_pantheon"
@@ -700,7 +700,7 @@
 	holy_site=omen_apollo
 }
 
-425={ #多多那
+425={ #Dodona
 	terrain="mountain"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -719,7 +719,7 @@
 	}
 }
 
-426={ #忒拜
+426={ #Thebai
 	terrain="plains"
 	culture="boeotian"
 	religion="roman_pantheon"
@@ -801,7 +801,7 @@
 	holy_site=omen_dionysus
 }
 
-427={ #斯巴达
+427={ #Sparta
 	terrain="farmland"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -833,7 +833,7 @@
 	}
 }
 
-429={ #利墨拉的厄庇道洛斯
+429={ #Epidauros Limera
 	terrain="hills"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -853,7 +853,7 @@
 	port_building=1
 }
 
-430={ #具忒翁
+430={ #Gytheion
 	terrain="farmland"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -873,7 +873,7 @@
 	port_building=1
 }
 
-431={ #墨赛涅
+431={ #Messene
 	terrain="farmland"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -896,7 +896,7 @@
 	port_building=1
 }
 
-432={ #摩索涅
+432={ #Mothone
 	terrain="hills"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -917,7 +917,7 @@
 	}
 }
 
-433={ #勒普瑞翁
+433={ #Lepreon
 	terrain="hills"
 	culture="achaean"
 	religion="roman_pantheon"
@@ -939,7 +939,7 @@
 	}
 }
 
-434={ #帕特赖
+434={ #Patrai
 	terrain="hills"
 	culture="achaean"
 	religion="roman_pantheon"
@@ -961,7 +961,7 @@
 	}
 }
 
-435={ #赫赖亚
+435={ #Heraia
 	terrain="farmland"
 	culture="arcadian"
 	religion="roman_pantheon"
@@ -980,7 +980,7 @@
 	}
 }
 
-436={ #墨加罗波利斯
+436={ #Megalopolis
 	terrain="farmland"
 	culture="arcadian"
 	religion="roman_pantheon"
@@ -1002,7 +1002,7 @@
 	}
 }
 
-437={ #塞里佛斯
+437={ #Seriphos
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -1021,7 +1021,7 @@
 	}
 }
 
-438={ #曼丁尼亚
+438={ #Mantineia
 	terrain="mountain"
 	culture="arcadian"
 	religion="roman_pantheon"
@@ -1050,7 +1050,7 @@
 	}
 }
 
-439={ #奥林匹亚
+439={ #Olympia
 	terrain="forest"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1070,7 +1070,7 @@
 	holy_site=omen_zeus
 }
 
-440={ #阿耳戈斯
+440={ #Argos
 	terrain="plains"
 	culture="argolian"
 	religion="roman_pantheon"
@@ -1104,7 +1104,7 @@
 	port_building=1
 }
 
-441={ #厄庇道洛斯
+441={ #Epidauros
 	terrain="hills"
 	culture="argolian"
 	religion="roman_pantheon"
@@ -1125,7 +1125,7 @@
 	port_building=1
 }
 
-442={ #埃吉那
+442={ #Aigina
 	terrain="plains"
 	culture="argolian"
 	religion="roman_pantheon"
@@ -1145,7 +1145,7 @@
 	port_building=1
 }
 
-443={ #基特诺斯
+443={ #Kynthos
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -1164,7 +1164,7 @@
 	}
 }
 
-444={ #埃吉翁
+444={ #Aigion
 	terrain="hills"
 	culture="achaean"
 	religion="roman_pantheon"
@@ -1183,7 +1183,7 @@
 	}
 }
 
-446={ #厄利斯
+446={ #Elis
 	terrain="farmland"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1205,7 +1205,7 @@
 	}
 }
 
-447={ #叙洛斯
+447={ #Syros
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -1224,7 +1224,7 @@
 	}
 }
 
-448={ #斯廷法罗斯
+448={ #Stymphalos
 	terrain="mountain"
 	culture="arcadian"
 	religion="roman_pantheon"
@@ -1243,7 +1243,7 @@
 	}
 }
 
-449={ #克勒托耳
+449={ #Kleitor
 	terrain="mountain"
 	culture="arcadian"
 	religion="roman_pantheon"
@@ -1262,7 +1262,7 @@
 	}
 }
 
-450={ #居方塔
+450={ #Kyphanta
 	terrain="hills"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -1281,7 +1281,7 @@
 	}
 }
 
-451={ #特洛伊曾
+451={ #Troizen
 	terrain="hills"
 	culture="argolian"
 	religion="roman_pantheon"
@@ -1300,7 +1300,7 @@
 	}
 }
 
-452={ #忒诺斯
+452={ #Tenos
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -1319,7 +1319,7 @@
 	}
 }
 
-454={ #忒拉
+454={ #Thera
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -1339,7 +1339,7 @@
 	port_building=1
 }
 
-456={ #忒耳摩斯
+456={ #Thermos
 	terrain="mountain"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1361,7 +1361,7 @@
 	}
 }
 
-457={ #诺帕克托斯
+457={ #Naupaktos
 	terrain="hills"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1388,7 +1388,7 @@
 	port_building=1
 }
 
-458={ #阿姆腓萨
+458={ #Amphissa
 	terrain="hills"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1407,7 +1407,7 @@
 	}
 }
 
-459={ #琉卡斯
+459={ #Leukas
 	terrain="hills"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1424,7 +1424,7 @@
 	port_building=1
 }
 
-460={ #扎金苏斯
+460={ #Zakynthos
 	terrain="farmland"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1443,7 +1443,7 @@
 	}
 }
 
-461={ #克剌尼俄
+461={ #Kranioi
 	terrain="hills"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1462,7 +1462,7 @@
 	}
 }
 
-462={ #斯特拉托斯
+462={ #Stratos
 	terrain="plains"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1481,7 +1481,7 @@
 	}
 }
 
-463={ #堤瑞翁
+463={ #Thyrreion
 	terrain="farmland"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1497,7 +1497,7 @@
 	}
 }
 
-464={ #卡斯索佩
+464={ #Kassope
 	terrain="hills"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -1517,7 +1517,7 @@
 	port_building=1
 }
 
-465={ #安布拉基亚
+465={ #Ambrakia
 	terrain="farmland"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -1540,7 +1540,7 @@
 	port_building=1
 }
 
-466={ #埃托利亚的俄伊卡利亚
+466={ #Oichalia Aitolia
 	terrain="mountain"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1559,7 +1559,7 @@
 	}
 }
 
-467={ #俄里科斯
+467={ #Orikon
 	terrain="hills"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -1578,7 +1578,7 @@
 	}
 }
 
-468={ #忒斯皮亚
+468={ #Thespiai
 	terrain="hills"
 	culture="boeotian"
 	religion="roman_pantheon"
@@ -1600,7 +1600,7 @@
 	}
 }
 
-469={ #陶马科伊
+469={ #Thaumakoi
 	terrain="plains"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1619,7 +1619,7 @@
 	}
 }
 
-470={ #科基拉
+470={ #Korkyra
 	terrain="plains"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -1642,7 +1642,7 @@
 	port_building=1
 }
 
-471={ #居忒拉
+471={ #Kythera
 	terrain="hills"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -1661,7 +1661,7 @@
 	}
 }
 
-472={ #卡耳泰亚
+472={ #Karthaia
 	terrain="hills"
 	culture="athenian"
 	religion="roman_pantheon"
@@ -1680,7 +1680,7 @@
 	}
 }
 
-473={ #琉克特戎
+473={ #Leuktra
 	terrain="mountain"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -1696,7 +1696,7 @@
 	}
 }
 
-474={ #翁法利翁
+474={ #Hekatompedon
 	terrain="mountain"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -1718,7 +1718,7 @@
 	}
 }
 
-475={ #特拉喀尼亚的赫拉克勒亚
+475={ #Herakleia Trachinia
 	terrain="hills"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1737,7 +1737,7 @@
 	}
 }
 
-476={ #帕斯萨戎
+476={ #Passaron
 	terrain="mountain"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -1762,7 +1762,7 @@
 	}
 }
 
-1835={ #提洛
+1835={ #Delos
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -1786,7 +1786,7 @@
 	port_building=1
 }
 
-1903={ #安德罗斯
+1903={ #Andros
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -1813,7 +1813,7 @@
 	}
 }
 
-1915={ #帕洛斯
+1915={ #Paros
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -1832,7 +1832,7 @@
 	}
 }
 
-1964={ #米洛斯
+1964={ #Melos
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -1853,7 +1853,7 @@
 	}
 }
 
-7798={ #厄拉忒亚
+7798={ #Elateia
 	terrain="hills"
 	culture="boeotian"
 	religion="roman_pantheon"
@@ -1872,7 +1872,7 @@
 	}
 }
 
-7799={ #托里科斯
+7799={ #Thorikos
 	terrain="plains"
 	culture="athenian"
 	religion="roman_pantheon"
@@ -1891,7 +1891,7 @@
 	}
 }
 
-7802={ #塔纳革拉
+7802={ #Tanagra
 	terrain="plains"
 	culture="boeotian"
 	religion="roman_pantheon"
@@ -1913,7 +1913,7 @@
 	}
 }
 
-7803={ #奥尼阿代
+7803={ #Oiniadai
 	terrain="farmland"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1932,7 +1932,7 @@
 	}
 }
 
-7889={ #泰那戎
+7889={ #Tainaron
 	terrain="hills"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -1948,7 +1948,7 @@
 	}
 }
 
-7890={ #底墨
+7890={ #Dyme
 	terrain="hills"
 	culture="achaean"
 	religion="roman_pantheon"
@@ -1967,7 +1967,7 @@
 	}
 }
 
-7891={ #泰吉亚
+7891={ #Thyreai
 	terrain="hills"
 	culture="arcadian"
 	religion="roman_pantheon"
@@ -1986,7 +1986,7 @@
 	}
 }
 
-7892={ #堤雷埃
+7892={ #Thyrea
 	terrain="hills"
 	culture="argolian"
 	religion="roman_pantheon"
@@ -2002,7 +2002,7 @@
 	}
 }
 
-7893={ #培林尼
+7893={ #Pellene
 	terrain="hills"
 	culture="achaean"
 	religion="roman_pantheon"
@@ -2021,7 +2021,7 @@
 	}
 }
 
-7894={ #克勒俄奈
+7894={ #Kleonai
 	terrain="hills"
 	culture="argolian"
 	religion="roman_pantheon"
@@ -2040,7 +2040,7 @@
 	}
 }
 
-7896={ #罗克里亚的尼开亚
+7896={ #Nikaia Lokre
 	terrain="mountain"
 	culture="boeotian"
 	religion="roman_pantheon"
@@ -2059,7 +2059,7 @@
 	}
 }
 
-7897={ #厄琉西斯
+7897={ #Eleusis
 	terrain="plains"
 	culture="athenian"
 	religion="roman_pantheon"
@@ -2079,7 +2079,7 @@
 	holy_site=demeter
 }
 
-7898={ #拉姆诺斯
+7898={ #Rhamnous
 	terrain="hills"
 	culture="athenian"
 	religion="roman_pantheon"
@@ -2098,7 +2098,7 @@
 	}
 }
 
-7899={ #刻林托斯
+7899={ #Kerinthos
 	terrain="hills"
 	culture="euboean"
 	religion="roman_pantheon"
@@ -2117,7 +2117,7 @@
 	}
 }
 
-7901={ #厄雷特里亚
+7901={ #Eretria
 	terrain="plains"
 	culture="euboean"
 	religion="roman_pantheon"
@@ -2137,7 +2137,7 @@
 	port_building=1
 }
 
-7902={ #萨拉米斯
+7902={ #Salamis
 	terrain="hills"
 	culture="athenian"
 	religion="roman_pantheon"
@@ -2156,7 +2156,7 @@
 	}
 }
 
-7903={ #赫耳弥俄奈
+7903={ #Hermione
 	terrain="hills"
 	culture="argolian"
 	religion="roman_pantheon"
@@ -2175,7 +2175,7 @@
 	}
 }
 
-7904={ #斯堤拉
+7904={ #Styra
 	terrain="hills"
 	culture="euboean"
 	religion="roman_pantheon"
@@ -2194,7 +2194,7 @@
 	}
 }
 
-7905={ #西弗诺斯
+7905={ #Siphnos
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -2210,7 +2210,7 @@
 	}
 }
 
-8003={ #西基翁
+8003={ #Sikyon
 	terrain="plains"
 	culture="achaean"
 	religion="roman_pantheon"
@@ -2229,7 +2229,7 @@
 	}
 }
 
-8016={ #拉帕
+8016={ #Lappa
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -2251,7 +2251,7 @@
 	}
 }
 
-8018={ #阿耳卡得斯
+8018={ #Arkades
 	terrain="plains"
 	culture="cretan"
 	religion="roman_pantheon"

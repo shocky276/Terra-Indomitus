@@ -1,4 +1,4 @@
-﻿4210={ #迪厄耳纳
+﻿4210={ #Dierna
 	terrain="hills"
 	culture="dacian"
 	religion="shamanism"
@@ -17,7 +17,7 @@
 	}
 }
 
-4211={ #德罗贝塔
+4211={ #Drobeta
 	terrain="marsh"
 	culture="buridavensi"
 	religion="shamanism"
@@ -36,7 +36,7 @@
 	}
 }
 
-4260={ #阿耳基达瓦兵营
+4260={ #Castra Arcidava
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -52,7 +52,7 @@
 	}
 }
 
-4261={ #浦忒阿
+4261={ #Putea
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -68,7 +68,7 @@
 	}
 }
 
-4262={ #潘诺尼俄斯
+4262={ #Ad Pannonios
 	terrain="hills"
 	culture="dacian"
 	religion="shamanism"
@@ -84,7 +84,7 @@
 	}
 }
 
-4263={ #斯科耳孚拉斯
+4263={ #Ad Scorfulas
 	terrain="hills"
 	culture="dacian"
 	religion="shamanism"
@@ -106,7 +106,7 @@
 	}
 }
 
-4264={ #提比斯孔
+4264={ #Tibiscum
 	terrain="hills"
 	culture="dacian"
 	religion="shamanism"
@@ -122,7 +122,7 @@
 	}
 }
 
-4265={ #部巴利的卡浦特
+4265={ #Caput Bubali
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -138,7 +138,7 @@
 	}
 }
 
-4266={ #萨尔敦西亚的罗穆拉
+4266={ #Romula Saldensica
 	terrain="forest"
 	culture="triballoi"
 	religion="shamanism"
@@ -154,7 +154,7 @@
 	}
 }
 
-4267={ #新卡斯特里斯
+4267={ #Castris Novis
 	terrain="forest"
 	culture="triballoi"
 	religion="shamanism"
@@ -173,7 +173,7 @@
 	}
 }
 
-4268={ #阿基达瓦
+4268={ #Acidava
 	terrain="forest"
 	culture="buridavensi"
 	religion="shamanism"
@@ -195,7 +195,7 @@
 	}
 }
 
-4269={ #鲁西达瓦
+4269={ #Rusidava
 	terrain="marsh"
 	culture="buridavensi"
 	religion="shamanism"
@@ -211,7 +211,7 @@
 	}
 }
 
-4270={ #佩楞达瓦
+4270={ #Pelendava
 	terrain="forest"
 	culture="buridavensi"
 	religion="shamanism"
@@ -230,7 +230,7 @@
 	}
 }
 
-4271={ #孔佛卢恩提亚纳
+4271={ #Confluentiana
 	terrain="marsh"
 	culture="buridavensi"
 	religion="shamanism"
@@ -249,7 +249,7 @@
 	}
 }
 
-4272={ #阿卢提桥
+4272={ #Pons Aluti
 	terrain="marsh"
 	culture="buridavensi"
 	religion="shamanism"
@@ -271,7 +271,7 @@
 	}
 }
 
-4273={ #部里达瓦
+4273={ #Buridava
 	terrain="marsh"
 	culture="buridavensi"
 	religion="shamanism"
@@ -290,7 +290,7 @@
 	}
 }
 
-4274={ #马尔文西斯的孔佛卢恩提亚
+4274={ #Confluentia Malvensis
 	terrain="marsh"
 	culture="buridavensi"
 	religion="shamanism"
@@ -309,7 +309,7 @@
 	}
 }
 
-4275={ #穆特里翁
+4275={ #Ad Mutriam
 	terrain="hills"
 	culture="buridavensi"
 	religion="shamanism"
@@ -325,7 +325,7 @@
 	}
 }
 
-4276={ #比斯特里塔兵营
+4276={ #Castra Bistrita
 	terrain="forest"
 	culture="triballoi"
 	religion="shamanism"
@@ -344,7 +344,7 @@
 	}
 }
 
-4277={ #萨尔基亚
+4277={ #Salcia
 	terrain="marsh"
 	culture="buridavensi"
 	religion="shamanism"
@@ -363,7 +363,7 @@
 	}
 }
 
-4278={ #阿穆特里亚
+4278={ #Amutria
 	terrain="forest"
 	culture="buridavensi"
 	religion="shamanism"
@@ -382,7 +382,7 @@
 	}
 }
 
-4279={ #冬布拉瓦
+4279={ #Dumbrava
 	terrain="farmland"
 	culture="buridavensi"
 	religion="shamanism"
@@ -404,7 +404,7 @@
 	}
 }
 
-4280={ #阿鲁忒拉
+4280={ #Arutela
 	terrain="hills"
 	culture="buridavensi"
 	religion="shamanism"
@@ -420,7 +420,7 @@
 	}
 }
 
-4281={ #斯忒纳戎的卡浦特
+4281={ #Caput Stenarum
 	terrain="farmland"
 	culture="buridavensi"
 	religion="shamanism"
@@ -442,7 +442,7 @@
 	}
 }
 
-4282={ #萨耳弥泽革图萨
+4282={ #Sarmizegetusa
 	terrain="forest"
 	culture="buridavensi"
 	religion="shamanism"
@@ -458,7 +458,7 @@
 	}
 }
 
-4283={ #伊斯克罗尼亚
+4283={ #Iscronia
 	terrain="hills"
 	culture="buridavensi"
 	religion="shamanism"
@@ -474,7 +474,7 @@
 	}
 }
 
-4284={ #部基翁
+4284={ #Bucium
 	terrain="hills"
 	culture="caucoensi"
 	religion="shamanism"
@@ -493,7 +493,7 @@
 	}
 }
 
-4285={ #佩特里斯
+4285={ #Petris
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -512,7 +512,7 @@
 	}
 }
 
-4286={ #布兰迪亚纳
+4286={ #Blandiana
 	terrain="hills"
 	culture="caucoensi"
 	religion="shamanism"
@@ -528,7 +528,7 @@
 	}
 }
 
-4287={ #得基达瓦
+4287={ #Decidava
 	terrain="hills"
 	culture="buridavensi"
 	religion="shamanism"
@@ -547,7 +547,7 @@
 	}
 }
 
-4288={ #弥基亚
+4288={ #Micia
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -563,7 +563,7 @@
 	}
 }
 
-4289={ #安佩隆
+4289={ #Ampelum
 	terrain="hills"
 	culture="caucoensi"
 	religion="shamanism"
@@ -579,7 +579,7 @@
 	}
 }
 
-4290={ #齐里达瓦
+4290={ #Ziridava
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -595,7 +595,7 @@
 	}
 }
 
-4291={ #阿浦隆
+4291={ #Apulum
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -611,7 +611,7 @@
 	}
 }
 
-4292={ #科弥达瓦
+4292={ #Comidava
 	terrain="hills"
 	culture="buridavensi"
 	religion="shamanism"
@@ -630,7 +630,7 @@
 	}
 }
 
-4293={ #拉弥达瓦
+4293={ #Ramidava
 	terrain="hills"
 	culture="ratacensi"
 	religion="shamanism"
@@ -643,7 +643,7 @@
 	}
 }
 
-4294={ #安顾斯提亚
+4294={ #Angustia
 	terrain="hills"
 	culture="ratacensi"
 	religion="shamanism"
@@ -659,7 +659,7 @@
 	}
 }
 
-4295={ #刻多尼亚
+4295={ #Cedonia
 	terrain="forest"
 	culture="buridavensi"
 	religion="shamanism"
@@ -678,7 +678,7 @@
 	}
 }
 
-4296={ #齐达瓦
+4296={ #Zidava
 	terrain="farmland"
 	culture="caucoensi"
 	religion="shamanism"
@@ -694,7 +694,7 @@
 	}
 }
 
-4297={ #波罗利森西斯的萨利奈
+4297={ #Salinae Porolissenses
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -713,7 +713,7 @@
 	}
 }
 
-4298={ #米底亚
+4298={ #Media
 	terrain="forest"
 	culture="ratacensi"
 	religion="shamanism"
@@ -735,7 +735,7 @@
 	}
 }
 
-4299={ #阿浦楞西斯的得瓦
+4299={ #Deva Apulensis
 	terrain="forest"
 	culture="buridavensi"
 	religion="shamanism"
@@ -751,7 +751,7 @@
 	}
 }
 
-4500={ #哈耳吉塔
+4500={ #Hargita
 	terrain="forest"
 	culture="ratacensi"
 	religion="shamanism"
@@ -767,7 +767,7 @@
 	}
 }
 
-4501={ #斯忒纳戎的卡浦特
+4501={ #Caput Stenarum
 	terrain="forest"
 	culture="ratacensi"
 	religion="shamanism"
@@ -783,7 +783,7 @@
 	}
 }
 
-4502={ #山达瓦
+4502={ #Sandava
 	terrain="hills"
 	culture="ratacensi"
 	religion="shamanism"
@@ -799,7 +799,7 @@
 	}
 }
 
-4503={ #马耳科达瓦
+4503={ #Marcodava
 	terrain="farmland"
 	culture="caucoensi"
 	religion="shamanism"
@@ -821,7 +821,7 @@
 	}
 }
 
-4504={ #布览科纳
+4504={ #Brancona
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -840,7 +840,7 @@
 	}
 }
 
-4505={ #波泰萨
+4505={ #Potaissa
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -862,7 +862,7 @@
 	}
 }
 
-4506={ #纳波卡
+4506={ #Napoca
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -878,7 +878,7 @@
 	}
 }
 
-4507={ #阿耳科巴拉
+4507={ #Arcobara
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -894,7 +894,7 @@
 	}
 }
 
-4508={ #萨蒙
+4508={ #Samum
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -916,7 +916,7 @@
 	}
 }
 
-4509={ #波罗利宋
+4509={ #Porolissum
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -938,7 +938,7 @@
 	}
 }
 
-4510={ #雷斯库隆
+4510={ #Resculum
 	terrain="hills"
 	culture="caucoensi"
 	religion="shamanism"
@@ -951,7 +951,7 @@
 	}
 }
 
-4511={ #俄普塔提亚纳
+4511={ #Optatiana
 	terrain="forest"
 	culture="caucoensi"
 	religion="shamanism"
@@ -970,7 +970,7 @@
 	}
 }
 
-4801={ #波隆达瓦
+4801={ #Polondava
 	terrain="plains"
 	culture="getian"
 	religion="shamanism"
@@ -992,7 +992,7 @@
 	}
 }
 
-4802={ #阿伽鲁西亚
+4802={ #Agarusia
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1008,7 +1008,7 @@
 	}
 }
 
-4803={ #剌密达瓦
+4803={ #Rhamidava
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1027,7 +1027,7 @@
 	}
 }
 
-4804={ #布里托拉吉亚
+4804={ #Britolagia
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1040,7 +1040,7 @@
 	}
 }
 
-4805={ #科忒西亚
+4805={ #Cotesia
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1056,7 +1056,7 @@
 	}
 }
 
-4806={ #科忒西亚纳
+4806={ #Cotesiana
 	terrain="marsh"
 	culture="getian"
 	religion="shamanism"
@@ -1078,7 +1078,7 @@
 	}
 }
 
-4807={ #伊斯忒里亚
+4807={ #Isteria
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1094,7 +1094,7 @@
 	}
 }
 
-4808={ #伊斯忒里亚纳
+4808={ #Isteriana
 	terrain="marsh"
 	culture="getian"
 	religion="shamanism"
@@ -1110,7 +1110,7 @@
 	}
 }
 
-4809={ #庇厄腓吉亚
+4809={ #Piephigia
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1123,7 +1123,7 @@
 	}
 }
 
-4810={ #庇厄腓吉亚纳
+4810={ #Piephigiana
 	terrain="farmland"
 	culture="getian"
 	religion="shamanism"
@@ -1136,7 +1136,7 @@
 	}
 }
 
-4811={ #索耳努斯
+4811={ #Sornus
 	terrain="farmland"
 	culture="getian"
 	religion="shamanism"
@@ -1155,7 +1155,7 @@
 	}
 }
 
-4812={ #森西亚
+4812={ #Sensia
 	terrain="plains"
 	culture="getian"
 	religion="shamanism"
@@ -1174,7 +1174,7 @@
 	}
 }
 
-4813={ #森西亚纳
+4813={ #Sensiana
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1190,7 +1190,7 @@
 	}
 }
 
-4814={ #涅廷达瓦
+4814={ #Netindava
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1203,7 +1203,7 @@
 	}
 }
 
-4815={ #庇戎
+4815={ #Pirum
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1216,7 +1216,7 @@
 	}
 }
 
-4816={ #纳浦卡
+4816={ #Napuca
 	terrain="plains"
 	culture="getian"
 	religion="shamanism"
@@ -1235,7 +1235,7 @@
 	}
 }
 
-4817={ #提亚宋
+4817={ #Tiasum
 	terrain="plains"
 	culture="getian"
 	religion="shamanism"
@@ -1254,7 +1254,7 @@
 	}
 }
 
-4818={ #庇尼翁
+4818={ #Pinion
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1267,7 +1267,7 @@
 	}
 }
 
-4819={ #俄耳得西亚
+4819={ #Ordessia
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1286,7 +1286,7 @@
 	}
 }
 
-4820={ #基亚吉西亚
+4820={ #Ciagisia
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1302,7 +1302,7 @@
 	}
 }
 
-4821={ #阿耳得斯库斯
+4821={ #Ardeiscus
 	terrain="hills"
 	culture="getian"
 	religion="shamanism"
@@ -1321,7 +1321,7 @@
 	}
 }
 
-4822={ #基亚吉西亚纳
+4822={ #Ciagisiana
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1340,7 +1340,7 @@
 	}
 }
 
-4823={ #提里斯孔
+4823={ #Tiriscum
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -1353,7 +1353,7 @@
 	}
 }
 
-4824={ #罗克索拉尼亚的孔佛卢恩提亚
+4824={ #Confluentia Roxolania
 	terrain="hills"
 	culture="getian"
 	religion="shamanism"
@@ -1369,7 +1369,7 @@
 	}
 }
 
-4825={ #蒙提部斯
+4825={ #Montibus
 	terrain="hills"
 	culture="getian"
 	religion="shamanism"
@@ -1382,7 +1382,7 @@
 	}
 }
 
-4826={ #特里科弥翁
+4826={ #Tricomium
 	terrain="plains"
 	culture="dacian"
 	religion="shamanism"
@@ -1395,7 +1395,7 @@
 	}
 }
 
-4827={ #勒得拉塔
+4827={ #Lederata
 	terrain="plains"
 	culture="dacian"
 	religion="shamanism"
@@ -1411,7 +1411,7 @@
 	}
 }
 
-4828={ #罗马之墙
+4828={ #Vallum Romanum
 	terrain="plains"
 	culture="dacian"
 	religion="shamanism"
@@ -1424,7 +1424,7 @@
 	}
 }
 
-4829={ #浦忒阿的肯同
+4829={ #Centum Putea
 	terrain="plains"
 	culture="dacian"
 	religion="shamanism"
@@ -1443,7 +1443,7 @@
 	}
 }
 
-4830={ #马斯基亚奈
+4830={ #Maschianae
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -1459,7 +1459,7 @@
 	}
 }
 
-4831={ #瑟克斯同
+4831={ #Ad Sextum
 	terrain="farmland"
 	culture="dacian"
 	religion="shamanism"
@@ -1472,7 +1472,7 @@
 	}
 }
 
-4832={ #提比耳西亚
+4832={ #Tibirsia
 	terrain="farmland"
 	culture="dacian"
 	religion="shamanism"
@@ -1488,7 +1488,7 @@
 	}
 }
 
-4833={ #贝耳索维亚
+4833={ #Bersovia
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -1501,7 +1501,7 @@
 	}
 }
 
-4834={ #利克西西斯
+4834={ #Lixisis
 	terrain="plains"
 	culture="dacian"
 	religion="shamanism"
@@ -1514,7 +1514,7 @@
 	}
 }
 
-4835={ #阿尔玻肯西亚
+4835={ #Albocensia
 	terrain="plains"
 	culture="dacian"
 	religion="shamanism"
@@ -1533,7 +1533,7 @@
 	}
 }
 
-4836={ #伊阿卒吉亚的齐里达瓦
+4836={ #Ziridava Iazygia
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -1546,7 +1546,7 @@
 	}
 }
 
-4837={ #波图拉屯西亚
+4837={ #Potulatensia
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -1559,7 +1559,7 @@
 	}
 }
 
-4838={ #波图拉屯西亚纳
+4838={ #Potulatensiana
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -1572,7 +1572,7 @@
 	}
 }
 
-4839={ #格里西亚
+4839={ #Grissia
 	terrain="hills"
 	culture="dacian"
 	religion="shamanism"
@@ -1585,7 +1585,7 @@
 	}
 }
 
-4840={ #祖洛巴拉
+4840={ #Zurobara
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -1601,7 +1601,7 @@
 	}
 }
 
-4841={ #马里西亚
+4841={ #Marisia
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -1614,7 +1614,7 @@
 	}
 }
 
-4851={ #克里西亚
+4851={ #Crisia
 	terrain="forest"
 	culture="biephi"
 	religion="shamanism"
@@ -1630,7 +1630,7 @@
 	}
 }
 
-4853={ #阿纳耳提亚
+4853={ #Anartia
 	terrain="forest"
 	culture="biephi"
 	religion="shamanism"
@@ -1643,7 +1643,7 @@
 	}
 }
 
-4856={ #克里西亚纳
+4856={ #Crisiana
 	terrain="forest"
 	culture="dacian"
 	religion="shamanism"
@@ -1659,7 +1659,7 @@
 	}
 }
 
-4857={ #提西亚
+4857={ #Tisia
 	terrain="forest"
 	culture="biephi"
 	religion="shamanism"
@@ -1675,7 +1675,7 @@
 	}
 }
 
-4858={ #墨塔纳斯提亚
+4858={ #Metanastia
 	terrain="forest"
 	culture="biephi"
 	religion="shamanism"
@@ -1691,7 +1691,7 @@
 	}
 }
 
-4859={ #墨塔纳斯提亚纳
+4859={ #Metanastiana
 	terrain="forest"
 	culture="biephi"
 	religion="shamanism"
@@ -1707,7 +1707,7 @@
 	}
 }
 
-4860={ #达契亚的奥拉里亚
+4860={ #Aurariae Dacicae
 	terrain="forest"
 	culture="biephi"
 	religion="shamanism"
@@ -1720,7 +1720,7 @@
 	}
 }
 
-4861={ #斯塔图亚
+4861={ #Ad Statuam
 	terrain="hills"
 	culture="biephi"
 	religion="shamanism"
@@ -1737,7 +1737,7 @@
 	holy_site=omen_zalmoxis
 }
 
-4875={ #安提亚
+4875={ #Antia
 	terrain="hills"
 	culture="biephi"
 	religion="shamanism"
@@ -1750,7 +1750,7 @@
 	}
 }
 
-4876={ #俄巴提斯
+4876={ #Obatis
 	terrain="plains"
 	culture="biephi"
 	religion="shamanism"
@@ -1763,7 +1763,7 @@
 	}
 }
 
-4877={ #墨巴图农
+4877={ #Mebatunum
 	terrain="forest"
 	culture="biephi"
 	religion="shamanism"
@@ -1776,7 +1776,7 @@
 	}
 }
 
-4878={ #阿玻里西亚
+4878={ #Aborisia
 	terrain="hills"
 	culture="biephi"
 	religion="shamanism"
@@ -1789,7 +1789,7 @@
 	}
 }
 
-4879={ #马巴托戎
+4879={ #Mabatorum
 	terrain="hills"
 	culture="costoboci"
 	religion="shamanism"
@@ -1802,7 +1802,7 @@
 	}
 }
 
-4880={ #比拉提斯
+4880={ #Bilatis
 	terrain="plains"
 	culture="biephi"
 	religion="shamanism"
@@ -1815,7 +1815,7 @@
 	}
 }
 
-4881={ #伊科涅亚
+4881={ #Iconeia
 	terrain="forest"
 	culture="biephi"
 	religion="shamanism"
@@ -1828,7 +1828,7 @@
 	}
 }
 
-4882={ #俄拉忒
+4882={ #Olate
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
@@ -1841,7 +1841,7 @@
 	}
 }
 
-4883={ #沃科尼斯
+4883={ #Voconis
 	terrain="plains"
 	culture="costoboci"
 	religion="shamanism"
@@ -1854,7 +1854,7 @@
 	}
 }
 
-4884={ #阿克罗诺杜弥亚
+4884={ #Acronodumia
 	terrain="plains"
 	culture="costoboci"
 	religion="shamanism"
@@ -1867,7 +1867,7 @@
 	}
 }
 
-4885={ #托利同
+4885={ #Tolitum
 	terrain="plains"
 	culture="costoboci"
 	religion="shamanism"
@@ -1883,7 +1883,7 @@
 	}
 }
 
-4886={ #俄部托拉
+4886={ #Obutora
 	terrain="hills"
 	culture="costoboci"
 	religion="shamanism"
@@ -1896,7 +1896,7 @@
 	}
 }
 
-4888={ #多隆
+4888={ #Dolum
 	terrain="hills"
 	culture="biephi"
 	religion="shamanism"
@@ -1909,7 +1909,7 @@
 	}
 }
 
-4905={ #帕特里达瓦
+4905={ #Patridava
 	terrain="hills"
 	culture="costoboci"
 	religion="shamanism"
@@ -1922,7 +1922,7 @@
 	}
 }
 
-4906={ #佩特罗达瓦
+4906={ #Petrodava
 	terrain="hills"
 	culture="costoboci"
 	religion="shamanism"
@@ -1938,7 +1938,7 @@
 	}
 }
 
-4907={ #维达瓦
+4907={ #Vidava
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
@@ -1957,7 +1957,7 @@
 	}
 }
 
-4908={ #马利忒斯
+4908={ #Mallites
 	terrain="hills"
 	culture="costoboci"
 	religion="shamanism"
@@ -1970,7 +1970,7 @@
 	}
 }
 
-4909={ #乌提达瓦
+4909={ #Utidava
 	terrain="hills"
 	culture="ratacensi"
 	religion="shamanism"
@@ -1986,7 +1986,7 @@
 	}
 }
 
-4910={ #阿提达瓦
+4910={ #Attidava
 	terrain="hills"
 	culture="costoboci"
 	religion="shamanism"
@@ -2002,7 +2002,7 @@
 	}
 }
 
-4911={ #塔马西达瓦
+4911={ #Tamasidava
 	terrain="hills"
 	culture="getian"
 	religion="shamanism"
@@ -2019,7 +2019,7 @@
 	holy_site=omen_bendis
 }
 
-4913={ #庇罗玻里达瓦
+4913={ #Piroboridava
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
@@ -2035,7 +2035,7 @@
 	}
 }
 
-4926={ #杜雷
+4926={ #Dure
 	terrain="hills"
 	culture="costoboci"
 	religion="shamanism"
@@ -2048,7 +2048,7 @@
 	}
 }
 
-4927={ #弥塔里翁
+4927={ #Mittarium
 	terrain="hills"
 	culture="costoboci"
 	religion="shamanism"

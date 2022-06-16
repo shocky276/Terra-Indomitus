@@ -1,4 +1,4 @@
-﻿2780={ #亚特兰蒂斯海
+﻿2780={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-4589={ #亚特兰蒂斯海
+4589={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-4590={ #亚特兰蒂斯海
+4590={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-4591={ #亚特兰蒂斯海
+4591={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-4592={ #亚特兰蒂斯海
+4592={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-4593={ #亚特兰蒂斯海
+4593={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-4594={ #亚特兰蒂斯海
+4594={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-4595={ #亚特兰蒂斯海
+4595={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-4596={ #亚特兰蒂斯海
+4596={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -88,7 +88,7 @@
 	province_rank=""
 }
 
-4597={ #亚特兰蒂斯海
+4597={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -98,7 +98,7 @@
 	province_rank=""
 }
 
-4598={ #亚特兰蒂斯海
+4598={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -108,7 +108,7 @@
 	province_rank=""
 }
 
-4599={ #亚特兰蒂斯海
+4599={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -118,7 +118,7 @@
 	province_rank=""
 }
 
-4614={ #亚特兰蒂斯海
+4614={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -128,7 +128,7 @@
 	province_rank=""
 }
 
-4722={ #亚特兰蒂斯海
+4722={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -138,7 +138,7 @@
 	province_rank=""
 }
 
-4725={ #亚特兰蒂斯海
+4725={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -148,7 +148,7 @@
 	province_rank=""
 }
 
-4726={ #亚特兰蒂斯海
+4726={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -158,7 +158,7 @@
 	province_rank=""
 }
 
-4727={ #亚特兰蒂斯海
+4727={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -168,7 +168,7 @@
 	province_rank=""
 }
 
-4728={ #亚特兰蒂斯海
+4728={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -178,7 +178,7 @@
 	province_rank=""
 }
 
-4729={ #亚特兰蒂斯海
+4729={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -188,7 +188,7 @@
 	province_rank=""
 }
 
-4730={ #亚特兰蒂斯海
+4730={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -198,7 +198,7 @@
 	province_rank=""
 }
 
-4731={ #亚特兰蒂斯海
+4731={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -208,7 +208,7 @@
 	province_rank=""
 }
 
-4732={ #亚特兰蒂斯海
+4732={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -218,7 +218,7 @@
 	province_rank=""
 }
 
-4733={ #亚特兰蒂斯海
+4733={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -228,7 +228,7 @@
 	province_rank=""
 }
 
-4734={ #亚特兰蒂斯海
+4734={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -238,7 +238,7 @@
 	province_rank=""
 }
 
-4735={ #亚特兰蒂斯海
+4735={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -248,7 +248,7 @@
 	province_rank=""
 }
 
-4736={ #亚特兰蒂斯海
+4736={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -258,7 +258,7 @@
 	province_rank=""
 }
 
-4737={ #亚特兰蒂斯海
+4737={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -268,7 +268,7 @@
 	province_rank=""
 }
 
-4738={ #亚特兰蒂斯海
+4738={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -278,7 +278,7 @@
 	province_rank=""
 }
 
-4739={ #亚特兰蒂斯海
+4739={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -288,7 +288,7 @@
 	province_rank=""
 }
 
-4740={ #坎塔布里亚海
+4740={ #Mare Cantabrum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -298,7 +298,7 @@
 	province_rank=""
 }
 
-4741={ #坎塔布里亚海
+4741={ #Mare Cantabrum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -308,7 +308,7 @@
 	province_rank=""
 }
 
-4742={ #坎塔布里亚海
+4742={ #Mare Cantabrum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -318,7 +318,7 @@
 	province_rank=""
 }
 
-4743={ #坎塔布里亚海
+4743={ #Mare Cantabrum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -328,7 +328,7 @@
 	province_rank=""
 }
 
-4744={ #亚特兰蒂斯海
+4744={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -338,7 +338,7 @@
 	province_rank=""
 }
 
-4745={ #坎塔布里亚海
+4745={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -348,7 +348,7 @@
 	province_rank=""
 }
 
-4746={ #亚特兰蒂斯海
+4746={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -358,7 +358,7 @@
 	province_rank=""
 }
 
-4747={ #亚特兰蒂斯海
+4747={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -368,7 +368,7 @@
 	province_rank=""
 }
 
-4748={ #坎塔布里亚海
+4748={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -378,7 +378,7 @@
 	province_rank=""
 }
 
-4749={ #坎塔布里亚海
+4749={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -388,7 +388,7 @@
 	province_rank=""
 }
 
-4783={ #坎塔布里亚海
+4783={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -398,7 +398,7 @@
 	province_rank=""
 }
 
-4952={ #坎塔布里亚海
+4952={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -408,7 +408,7 @@
 	province_rank=""
 }
 
-4954={ #坎塔布里亚海
+4954={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -418,7 +418,7 @@
 	province_rank=""
 }
 
-5670={ #坎塔布里亚海
+5670={ #Mare Cantabrum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -428,7 +428,7 @@
 	province_rank=""
 }
 
-5671={ #坎塔布里亚海
+5671={ #Mare Cantabrum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -438,7 +438,7 @@
 	province_rank=""
 }
 
-5672={ #坎塔布里亚海
+5672={ #Mare Cantabrum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -448,7 +448,7 @@
 	province_rank=""
 }
 
-5673={ #坎塔布里亚海
+5673={ #Mare Cantabrum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -458,7 +458,7 @@
 	province_rank=""
 }
 
-5674={ #坎塔布里亚海
+5674={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -468,7 +468,7 @@
 	province_rank=""
 }
 
-5675={ #坎塔布里亚海
+5675={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -478,7 +478,7 @@
 	province_rank=""
 }
 
-5676={ #坎塔布里亚海
+5676={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -488,7 +488,7 @@
 	province_rank=""
 }
 
-5677={ #坎塔布里亚海
+5677={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -498,7 +498,7 @@
 	province_rank=""
 }
 
-5678={ #坎塔布里亚海
+5678={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -508,7 +508,7 @@
 	province_rank=""
 }
 
-5679={ #坎塔布里亚海
+5679={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -518,7 +518,7 @@
 	province_rank=""
 }
 
-5680={ #坎塔布里亚海
+5680={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -528,7 +528,7 @@
 	province_rank=""
 }
 
-5681={ #坎塔布里亚海
+5681={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -538,7 +538,7 @@
 	province_rank=""
 }
 
-5682={ #坎塔布里亚海
+5682={ #Mare Cantabrum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -548,7 +548,7 @@
 	province_rank=""
 }
 
-5683={ #亚特兰蒂斯海
+5683={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -558,7 +558,7 @@
 	province_rank=""
 }
 
-5684={ #亚特兰蒂斯海
+5684={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -568,7 +568,7 @@
 	province_rank=""
 }
 
-5685={ #亚特兰蒂斯海
+5685={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -578,7 +578,7 @@
 	province_rank=""
 }
 
-5686={ #威耳吉尼亚海
+5686={ #Mare Verginium
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -588,7 +588,7 @@
 	province_rank=""
 }
 
-5687={ #威耳吉尼亚海
+5687={ #Mare Verginium
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -598,7 +598,7 @@
 	province_rank=""
 }
 
-5688={ #亚特兰蒂斯海
+5688={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -608,7 +608,7 @@
 	province_rank=""
 }
 
-5689={ #亚特兰蒂斯海
+5689={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -618,7 +618,7 @@
 	province_rank=""
 }
 
-5690={ #亚特兰蒂斯海
+5690={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -628,7 +628,7 @@
 	province_rank=""
 }
 
-5691={ #亚特兰蒂斯海
+5691={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -638,7 +638,7 @@
 	province_rank=""
 }
 
-5692={ #亚特兰蒂斯海
+5692={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -648,7 +648,7 @@
 	province_rank=""
 }
 
-5693={ #不列颠尼亚海
+5693={ #Mare Britannicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -658,7 +658,7 @@
 	province_rank=""
 }
 
-5694={ #不列颠尼亚海
+5694={ #Mare Britannicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -668,7 +668,7 @@
 	province_rank=""
 }
 
-5695={ #亚特兰蒂斯海
+5695={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -678,7 +678,7 @@
 	province_rank=""
 }
 
-5696={ #威耳吉尼亚海
+5696={ #Mare Verginium
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -688,7 +688,7 @@
 	province_rank=""
 }
 
-5697={ #不列颠尼亚海
+5697={ #Mare Britannicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -698,7 +698,7 @@
 	province_rank=""
 }
 
-5698={ #不列颠尼亚海
+5698={ #Mare Britannicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -708,7 +708,7 @@
 	province_rank=""
 }
 
-5699={ #不列颠尼亚海
+5699={ #Mare Britannicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -718,7 +718,7 @@
 	province_rank=""
 }
 
-5700={ #不列颠尼亚海
+5700={ #Mare Britannicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -728,7 +728,7 @@
 	province_rank=""
 }
 
-5701={ #威耳吉尼亚海
+5701={ #Mare Verginium
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -738,7 +738,7 @@
 	province_rank=""
 }
 
-5702={ #威耳吉尼亚海
+5702={ #Mare Verginium
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -748,7 +748,7 @@
 	province_rank=""
 }
 
-5703={ #不列颠尼亚海
+5703={ #Mare Britannicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -758,7 +758,7 @@
 	province_rank=""
 }
 
-5704={ #不列颠尼亚海
+5704={ #Mare Britannicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -768,7 +768,7 @@
 	province_rank=""
 }
 
-5705={ #不列颠尼亚海
+5705={ #Mare Britannicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -778,7 +778,7 @@
 	province_rank=""
 }
 
-5706={ #不列颠尼亚海
+5706={ #Mare Britannicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -788,7 +788,7 @@
 	province_rank=""
 }
 
-5707={ #不列颠尼亚海
+5707={ #Mare Britannicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -798,7 +798,7 @@
 	province_rank=""
 }
 
-5708={ #不列颠尼亚海
+5708={ #Mare Britannicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -808,7 +808,7 @@
 	province_rank=""
 }
 
-5709={ #不列颠尼亚海
+5709={ #Mare Britannicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -818,7 +818,7 @@
 	province_rank=""
 }
 
-5711={ #不列颠尼亚海
+5711={ #Mare Britannicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -828,7 +828,7 @@
 	province_rank=""
 }
 
-5712={ #威耳吉尼亚海
+5712={ #Mare Verginium
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -838,7 +838,7 @@
 	province_rank=""
 }
 
-5713={ #威耳吉尼亚海
+5713={ #Mare Verginium
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -848,7 +848,7 @@
 	province_rank=""
 }
 
-5714={ #威耳吉尼亚海
+5714={ #Mare Verginium
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -858,7 +858,7 @@
 	province_rank=""
 }
 
-5715={ #威耳吉尼亚海
+5715={ #Mare Verginium
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -868,7 +868,7 @@
 	province_rank=""
 }
 
-5716={ #威耳吉尼亚海
+5716={ #Mare Verginium
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -878,7 +878,7 @@
 	province_rank=""
 }
 
-5717={ #威耳吉尼亚海
+5717={ #Mare Verginium
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -888,7 +888,7 @@
 	province_rank=""
 }
 
-5718={ #威耳吉尼亚海
+5718={ #Mare Verginium
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -898,7 +898,7 @@
 	province_rank=""
 }
 
-5719={ #威耳吉尼亚海
+5719={ #Mare Verginium
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -908,7 +908,7 @@
 	province_rank=""
 }
 
-5720={ #威耳吉尼亚海
+5720={ #Mare Verginium
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -918,7 +918,7 @@
 	province_rank=""
 }
 
-5721={ #威耳吉尼亚海
+5721={ #Mare Verginium
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -928,7 +928,7 @@
 	province_rank=""
 }
 
-5722={ #威耳吉尼亚海
+5722={ #Mare Verginium
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -938,7 +938,7 @@
 	province_rank=""
 }
 
-5723={ #威耳吉尼亚海
+5723={ #Mare Verginium
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -948,7 +948,7 @@
 	province_rank=""
 }
 
-5724={ #威耳吉尼亚海
+5724={ #Mare Verginium
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -958,7 +958,7 @@
 	province_rank=""
 }
 
-5725={ #亚特兰蒂斯海
+5725={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -968,7 +968,7 @@
 	province_rank=""
 }
 
-5726={ #亚特兰蒂斯海
+5726={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -978,7 +978,7 @@
 	province_rank=""
 }
 
-5727={ #亚特兰蒂斯海
+5727={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -988,7 +988,7 @@
 	province_rank=""
 }
 
-5728={ #亚特兰蒂斯海
+5728={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -998,7 +998,7 @@
 	province_rank=""
 }
 
-5729={ #希贝耳尼亚海
+5729={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1008,7 +1008,7 @@
 	province_rank=""
 }
 
-5730={ #希贝耳尼亚海
+5730={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1018,7 +1018,7 @@
 	province_rank=""
 }
 
-5731={ #希贝耳尼亚海
+5731={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1028,7 +1028,7 @@
 	province_rank=""
 }
 
-5732={ #希贝耳尼亚海
+5732={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1038,7 +1038,7 @@
 	province_rank=""
 }
 
-5733={ #希贝耳尼亚海
+5733={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1048,7 +1048,7 @@
 	province_rank=""
 }
 
-5734={ #希贝耳尼亚海
+5734={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1058,7 +1058,7 @@
 	province_rank=""
 }
 
-5735={ #希贝耳尼亚海
+5735={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1068,7 +1068,7 @@
 	province_rank=""
 }
 
-5736={ #希贝耳尼亚海
+5736={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1078,7 +1078,7 @@
 	province_rank=""
 }
 
-5737={ #希贝耳尼亚海
+5737={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1088,7 +1088,7 @@
 	province_rank=""
 }
 
-5738={ #希贝耳尼亚海
+5738={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1098,7 +1098,7 @@
 	province_rank=""
 }
 
-5739={ #希贝耳尼亚海
+5739={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1108,7 +1108,7 @@
 	province_rank=""
 }
 
-5740={ #希贝耳尼亚海
+5740={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1118,7 +1118,7 @@
 	province_rank=""
 }
 
-5741={ #亚特兰蒂斯海
+5741={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1128,7 +1128,7 @@
 	province_rank=""
 }
 
-5742={ #亚特兰蒂斯海
+5742={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1138,7 +1138,7 @@
 	province_rank=""
 }
 
-5743={ #亚特兰蒂斯海
+5743={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1148,7 +1148,7 @@
 	province_rank=""
 }
 
-5744={ #希贝耳尼亚海
+5744={ #Mare Hibernicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1158,7 +1158,7 @@
 	province_rank=""
 }
 
-5745={ #威耳吉尼亚海
+5745={ #Mare Verginium
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1168,7 +1168,7 @@
 	province_rank=""
 }
 
-5746={ #亚特兰蒂斯海
+5746={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1178,7 +1178,7 @@
 	province_rank=""
 }
 
-5747={ #亚特兰蒂斯海
+5747={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1188,7 +1188,7 @@
 	province_rank=""
 }
 
-5748={ #亚特兰蒂斯海
+5748={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1198,7 +1198,7 @@
 	province_rank=""
 }
 
-5749={ #亚特兰蒂斯海
+5749={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1208,7 +1208,7 @@
 	province_rank=""
 }
 
-5750={ #亚特兰蒂斯海
+5750={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1218,7 +1218,7 @@
 	province_rank=""
 }
 
-5751={ #亚特兰蒂斯海
+5751={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1228,7 +1228,7 @@
 	province_rank=""
 }
 
-5752={ #亚特兰蒂斯海
+5752={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1238,7 +1238,7 @@
 	province_rank=""
 }
 
-5753={ #亚特兰蒂斯海
+5753={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1248,7 +1248,7 @@
 	province_rank=""
 }
 
-5754={ #亚特兰蒂斯海
+5754={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1258,7 +1258,7 @@
 	province_rank=""
 }
 
-5755={ #亚特兰蒂斯海
+5755={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1268,7 +1268,7 @@
 	province_rank=""
 }
 
-5756={ #亚特兰蒂斯海
+5756={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1278,7 +1278,7 @@
 	province_rank=""
 }
 
-5757={ #亚特兰蒂斯海
+5757={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1288,7 +1288,7 @@
 	province_rank=""
 }
 
-5758={ #亚特兰蒂斯海
+5758={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1298,7 +1298,7 @@
 	province_rank=""
 }
 
-5759={ #亚特兰蒂斯海
+5759={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1308,7 +1308,7 @@
 	province_rank=""
 }
 
-5760={ #亚特兰蒂斯海
+5760={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1318,7 +1318,7 @@
 	province_rank=""
 }
 
-5761={ #亚特兰蒂斯海
+5761={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1328,7 +1328,7 @@
 	province_rank=""
 }
 
-5762={ #亚特兰蒂斯海
+5762={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1338,7 +1338,7 @@
 	province_rank=""
 }
 
-5763={ #亚特兰蒂斯海
+5763={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1348,7 +1348,7 @@
 	province_rank=""
 }
 
-5764={ #亚特兰蒂斯海
+5764={ #Oceanus Atlanticus
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1358,7 +1358,7 @@
 	province_rank=""
 }
 
-5765={ #亚特兰蒂斯海
+5765={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1368,7 +1368,7 @@
 	province_rank=""
 }
 
-5766={ #亚特兰蒂斯海
+5766={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1378,7 +1378,7 @@
 	province_rank=""
 }
 
-5767={ #俄耳卡冬海
+5767={ #Mare Orcadum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1388,7 +1388,7 @@
 	province_rank=""
 }
 
-5768={ #北海
+5768={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1398,7 +1398,7 @@
 	province_rank=""
 }
 
-5769={ #北海
+5769={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1408,7 +1408,7 @@
 	province_rank=""
 }
 
-5770={ #北海
+5770={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1418,7 +1418,7 @@
 	province_rank=""
 }
 
-5771={ #北海
+5771={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1428,7 +1428,7 @@
 	province_rank=""
 }
 
-5772={ #北海
+5772={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1438,7 +1438,7 @@
 	province_rank=""
 }
 
-5773={ #北海
+5773={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1448,7 +1448,7 @@
 	province_rank=""
 }
 
-5774={ #北海
+5774={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1458,7 +1458,7 @@
 	province_rank=""
 }
 
-5775={ #日耳曼尼亚海
+5775={ #Mare Germanicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1468,7 +1468,7 @@
 	province_rank=""
 }
 
-5776={ #日耳曼尼亚海
+5776={ #Mare Germanicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1478,7 +1478,7 @@
 	province_rank=""
 }
 
-5777={ #日耳曼尼亚海
+5777={ #Mare Germanicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1488,7 +1488,7 @@
 	province_rank=""
 }
 
-5778={ #日耳曼尼亚海
+5778={ #Mare Germanicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1498,7 +1498,7 @@
 	province_rank=""
 }
 
-5779={ #日耳曼尼亚海
+5779={ #Mare Germanicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1508,7 +1508,7 @@
 	province_rank=""
 }
 
-5780={ #日耳曼尼亚海
+5780={ #Mare Germanicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1518,7 +1518,7 @@
 	province_rank=""
 }
 
-5781={ #日耳曼尼亚海
+5781={ #Mare Germanicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1528,7 +1528,7 @@
 	province_rank=""
 }
 
-5783={ #日耳曼尼亚海
+5783={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1538,7 +1538,7 @@
 	province_rank=""
 }
 
-5784={ #日耳曼尼亚海
+5784={ #Mare Germanicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1548,7 +1548,7 @@
 	province_rank=""
 }
 
-5785={ #日耳曼尼亚海
+5785={ #Mare Germanicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1558,7 +1558,7 @@
 	province_rank=""
 }
 
-5786={ #日耳曼尼亚海
+5786={ #Mare Germanicum
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1568,7 +1568,7 @@
 	province_rank=""
 }
 
-5787={ #北海
+5787={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1578,7 +1578,7 @@
 	province_rank=""
 }
 
-5788={ #北海
+5788={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1588,7 +1588,7 @@
 	province_rank=""
 }
 
-5789={ #日耳曼尼亚海
+5789={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1598,7 +1598,7 @@
 	province_rank=""
 }
 
-5790={ #日耳曼尼亚海
+5790={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1608,7 +1608,7 @@
 	province_rank=""
 }
 
-5791={ #日耳曼尼亚海
+5791={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1618,7 +1618,7 @@
 	province_rank=""
 }
 
-5792={ #日耳曼尼亚海
+5792={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1628,7 +1628,7 @@
 	province_rank=""
 }
 
-5793={ #北海
+5793={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1638,7 +1638,7 @@
 	province_rank=""
 }
 
-5794={ #日耳曼尼亚海
+5794={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1648,7 +1648,7 @@
 	province_rank=""
 }
 
-5795={ #北海
+5795={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1658,7 +1658,7 @@
 	province_rank=""
 }
 
-5796={ #北海
+5796={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1668,7 +1668,7 @@
 	province_rank=""
 }
 
-5797={ #北海
+5797={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1678,7 +1678,7 @@
 	province_rank=""
 }
 
-5798={ #日耳曼尼亚海
+5798={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1688,7 +1688,7 @@
 	province_rank=""
 }
 
-5799={ #北海
+5799={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1698,7 +1698,7 @@
 	province_rank=""
 }
 
-5800={ #北海
+5800={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1708,7 +1708,7 @@
 	province_rank=""
 }
 
-5801={ #北海
+5801={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1718,7 +1718,7 @@
 	province_rank=""
 }
 
-5802={ #日耳曼尼亚海
+5802={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1728,7 +1728,7 @@
 	province_rank=""
 }
 
-5803={ #日耳曼尼亚海
+5803={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1738,7 +1738,7 @@
 	province_rank=""
 }
 
-5804={ #日耳曼尼亚海
+5804={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1748,7 +1748,7 @@
 	province_rank=""
 }
 
-5805={ #北海
+5805={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1758,7 +1758,7 @@
 	province_rank=""
 }
 
-5806={ #北海
+5806={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1768,7 +1768,7 @@
 	province_rank=""
 }
 
-5807={ #日耳曼尼亚海
+5807={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1778,7 +1778,7 @@
 	province_rank=""
 }
 
-5808={ #日耳曼尼亚海
+5808={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1788,7 +1788,7 @@
 	province_rank=""
 }
 
-5809={ #日耳曼尼亚海
+5809={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1798,7 +1798,7 @@
 	province_rank=""
 }
 
-5810={ #日耳曼尼亚海
+5810={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1808,7 +1808,7 @@
 	province_rank=""
 }
 
-5811={ #北海
+5811={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1818,7 +1818,7 @@
 	province_rank=""
 }
 
-5812={ #北海
+5812={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1828,7 +1828,7 @@
 	province_rank=""
 }
 
-5813={ #北海
+5813={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1838,7 +1838,7 @@
 	province_rank=""
 }
 
-5814={ #日耳曼尼亚海
+5814={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1848,7 +1848,7 @@
 	province_rank=""
 }
 
-5815={ #日耳曼尼亚海
+5815={ #Mare Germanicum
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1858,7 +1858,7 @@
 	province_rank=""
 }
 
-5816={ #北海
+5816={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1868,7 +1868,7 @@
 	province_rank=""
 }
 
-5817={ #北海
+5817={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1878,7 +1878,7 @@
 	province_rank=""
 }
 
-5818={ #北海
+5818={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1888,7 +1888,7 @@
 	province_rank=""
 }
 
-5819={ #北海
+5819={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1898,7 +1898,7 @@
 	province_rank=""
 }
 
-5820={ #北海
+5820={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1908,7 +1908,7 @@
 	province_rank=""
 }
 
-5821={ #北海
+5821={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1918,7 +1918,7 @@
 	province_rank=""
 }
 
-5822={ #北海
+5822={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1928,7 +1928,7 @@
 	province_rank=""
 }
 
-5823={ #北海
+5823={ #Mare Septentrionale
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -1938,7 +1938,7 @@
 	province_rank=""
 }
 
-5824={ #北海
+5824={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1948,7 +1948,7 @@
 	province_rank=""
 }
 
-5825={ #北海
+5825={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1958,7 +1958,7 @@
 	province_rank=""
 }
 
-5826={ #北海
+5826={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1968,7 +1968,7 @@
 	province_rank=""
 }
 
-5828={ #北海
+5828={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1978,7 +1978,7 @@
 	province_rank=""
 }
 
-5830={ #北海
+5830={ #Mare Septentrionale
 	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
@@ -1988,7 +1988,7 @@
 	province_rank=""
 }
 
-6506={ #亚特兰蒂斯海
+6506={ #Oceanus Atlanticus
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""

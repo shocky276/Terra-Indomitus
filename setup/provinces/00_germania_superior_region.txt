@@ -1,4 +1,4 @@
-﻿3009={ #拉耳加
+﻿3009={ #Larga
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -17,7 +17,7 @@
 	}
 }
 
-3011={ #厄帕曼杜俄杜戎
+3011={ #Epamanduodurum
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -33,7 +33,7 @@
 	}
 }
 
-3012={ #烙拉基亚
+3012={ #Rauracia
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -49,7 +49,7 @@
 	}
 }
 
-3018={ #鲁比亚孔
+3018={ #Rubiacum
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -68,7 +68,7 @@
 	}
 }
 
-3019={ #阿耳根托瓦里亚
+3019={ #Argentovaria
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -90,7 +90,7 @@
 	}
 }
 
-3020={ #赫尔维同
+3020={ #Helvetum
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -106,7 +106,7 @@
 	}
 }
 
-3021={ #阿耳根托拉忒
+3021={ #Argentorate
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -122,7 +122,7 @@
 	}
 }
 
-3022={ #塔罗杜农
+3022={ #Tarodunon
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -138,7 +138,7 @@
 	}
 }
 
-3023={ #布罗科马顾斯
+3023={ #Brocomagus
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -160,7 +160,7 @@
 	}
 }
 
-3024={ #阿尔提托纳
+3024={ #Altitona
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -176,7 +176,7 @@
 	}
 }
 
-3025={ #阿昆西斯的奥雷利亚
+3025={ #Aurelia Aquensis
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -192,7 +192,7 @@
 	}
 }
 
-3052={ #萨勒提翁
+3052={ #Saletio
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
@@ -208,7 +208,7 @@
 	}
 }
 
-3053={ #孔科耳迪亚
+3053={ #Concordia
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
@@ -230,7 +230,7 @@
 	}
 }
 
-3054={ #塔贝耳奈
+3054={ #Tabernae
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -246,7 +246,7 @@
 	}
 }
 
-3055={ #洛波杜农
+3055={ #Lopodunum
 	terrain="hills"
 	culture="treverian"
 	religion="druidism"
@@ -265,7 +265,7 @@
 	}
 }
 
-3056={ #玻耳贝托马顾斯
+3056={ #Borbetomagus
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -281,7 +281,7 @@
 	}
 }
 
-3685={ #俄罗劳农
+3685={ #Orolaunum
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -297,7 +297,7 @@
 	}
 }
 
-3689={ #安得坦纳
+3689={ #Andethanna
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -316,7 +316,7 @@
 	}
 }
 
-3690={ #特雷维里亚
+3690={ #Treveria
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -332,7 +332,7 @@
 	}
 }
 
-3691={ #孔提俄马顾斯村
+3691={ #Vicus Contiomagus
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -348,7 +348,7 @@
 	}
 }
 
-3692={ #墨迪俄马特里基亚
+3692={ #Mediomatricia
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -367,7 +367,7 @@
 	}
 }
 
-3693={ #摩瑟利亚
+3693={ #Mosellia
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
@@ -383,7 +383,7 @@
 	}
 }
 
-3694={ #楼基亚
+3694={ #Leucia
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
@@ -402,7 +402,7 @@
 	}
 }
 
-3695={ #小摩瑟利亚
+3695={ #Mosellia Minor
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
@@ -418,7 +418,7 @@
 	}
 }
 
-3696={ #克鲁基尼亚孔
+3696={ #Cruciniacum
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -434,7 +434,7 @@
 	}
 }
 
-3697={ #鲁腓尼亚纳
+3697={ #Rouphiniana
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -453,7 +453,7 @@
 	}
 }
 
-3698={ #阿尔泰亚
+3698={ #Altaia
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -469,7 +469,7 @@
 	}
 }
 
-3700={ #陶嫩西翁
+3700={ #Taunensium
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -485,7 +485,7 @@
 	}
 }
 
-3701={ #摩贡提亚孔
+3701={ #Mogontiacum
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -505,7 +505,7 @@
 	port_building=1
 }
 
-3702={ #奥得里恩西翁城
+3702={ #Civitas Auderiensium
 	terrain="hills"
 	culture="treverian"
 	religion="druidism"
@@ -521,7 +521,7 @@
 	}
 }
 
-3709={ #特赖厄克图斯
+3709={ #Traiectus
 	terrain="forest"
 	culture="eburonian"
 	religion="druidism"
@@ -537,7 +537,7 @@
 	}
 }
 
-3710={ #卡图阿利翁
+3710={ #Catualium
 	terrain="forest"
 	culture="eburonian"
 	religion="druidism"
@@ -553,7 +553,7 @@
 	}
 }
 
-3711={ #布拉里亚孔
+3711={ #Blariacum
 	terrain="plains"
 	culture="belgae"
 	religion="druidism"
@@ -569,7 +569,7 @@
 	}
 }
 
-3712={ #哈瑞纳提翁
+3712={ #Harenatium
 	terrain="plains"
 	culture="belgae"
 	religion="druidism"
@@ -588,7 +588,7 @@
 	}
 }
 
-3713={ #杜俄得基蒙
+3713={ #Ad Duodecimum
 	terrain="plains"
 	culture="belgae"
 	religion="druidism"
@@ -604,7 +604,7 @@
 	}
 }
 
-3714={ #维忒拉兵营
+3714={ #Castra Vetera
 	terrain="plains"
 	culture="istvaeonic"
 	religion="germanic_religion"
@@ -621,7 +621,7 @@
 	port_building=1
 }
 
-3715={ #阿斯基部耳吉翁
+3715={ #Asciburgium
 	terrain="forest"
 	culture="aduatacian"
 	religion="druidism"
@@ -637,7 +637,7 @@
 	}
 }
 
-3716={ #尤利亚孔
+3716={ #Iuliacum
 	terrain="forest"
 	culture="aduatacian"
 	religion="druidism"
@@ -653,7 +653,7 @@
 	}
 }
 
-3717={ #诺外西翁
+3717={ #Novaesium
 	terrain="plains"
 	culture="aduatacian"
 	religion="druidism"
@@ -669,7 +669,7 @@
 	}
 }
 
-3718={ #格览农的阿库亚
+3718={ #Aquae Granni
 	terrain="forest"
 	culture="aduatacian"
 	religion="druidism"
@@ -685,7 +685,7 @@
 	}
 }
 
-3720={ #朋纳
+3720={ #Bonna
 	terrain="plains"
 	culture="aduatacian"
 	religion="druidism"
@@ -704,7 +704,7 @@
 	}
 }
 
-3721={ #孔佛卢恩忒斯
+3721={ #Confluentes
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -720,7 +720,7 @@
 	}
 }
 
-3722={ #沃索尔维亚
+3722={ #Vosolvia
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -736,7 +736,7 @@
 	}
 }
 
-3723={ #宾吉翁
+3723={ #Bingium
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -755,7 +755,7 @@
 	}
 }
 
-3724={ #比利其农
+3724={ #Belginum
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -774,7 +774,7 @@
 	}
 }
 
-3725={ #冬尼苏斯
+3725={ #Dumnissus
 	terrain="hills"
 	culture="treverian"
 	religion="druidism"
@@ -790,7 +790,7 @@
 	}
 }
 
-3726={ #贝达
+3726={ #Beda
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -806,7 +806,7 @@
 	}
 }
 
-3727={ #马耳科马顾斯
+3727={ #Marcomagus
 	terrain="plains"
 	culture="aduatacian"
 	religion="druidism"
@@ -822,7 +822,7 @@
 	}
 }
 
-3728={ #伊科里吉翁
+3728={ #Icorigium
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
@@ -838,7 +838,7 @@
 	}
 }
 
-3729={ #爱皮忒耳那库斯
+3729={ #Epternacus
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -854,7 +854,7 @@
 	}
 }
 
-3730={ #沃克兰尼俄农村
+3730={ #Vicus Voclannionum
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -870,7 +870,7 @@
 	}
 }
 
-3735={ #波耳图斯
+3735={ #Portus
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -886,7 +886,7 @@
 	}
 }
 
-3736={ #格里纳里翁
+3736={ #Grinario
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -902,7 +902,7 @@
 	}
 }
 
-3737={ #涅迪恩西斯村
+3737={ #Vicus Nediensis
 	terrain="hills"
 	culture="treverian"
 	religion="druidism"
@@ -918,7 +918,7 @@
 	}
 }
 
-3738={ #阿尔西嫩西翁村
+3738={ #Vicus Alsinensium
 	terrain="hills"
 	culture="treverian"
 	religion="druidism"
@@ -934,7 +934,7 @@
 	}
 }
 
-3843={ #加努恩塔
+3843={ #Ganuenta
 	terrain="marsh"
 	culture="belgae"
 	religion="druidism"
@@ -951,7 +951,7 @@
 	port_building=1
 }
 
-3844={ #佛勒提翁
+3844={ #Fletio
 	terrain="marsh"
 	culture="belgae"
 	religion="druidism"
@@ -965,7 +965,7 @@
 	holy_site=omen_nehalennia
 }
 
-3845={ #马耳萨基亚
+3845={ #Marsacia
 	terrain="marsh"
 	culture="belgae"
 	religion="druidism"
@@ -981,7 +981,7 @@
 	}
 }
 
-3846={ #卢加杜戎
+3846={ #Lugadurum
 	terrain="plains"
 	culture="istvaeonic"
 	religion="germanic_religion"
@@ -998,7 +998,7 @@
 	port_building=1
 }
 
-3849={ #马纳里同
+3849={ #Manaritum
 	terrain="plains"
 	culture="belgae"
 	religion="druidism"
@@ -1011,7 +1011,7 @@
 	}
 }
 
-7732={ #奥古斯塔努斯村
+7732={ #Vicus Augustanus
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"
@@ -1027,7 +1027,7 @@
 	}
 }
 
-7738={ #里戈马顾斯
+7738={ #Rigomagus
 	terrain="plains"
 	culture="treverian"
 	religion="druidism"

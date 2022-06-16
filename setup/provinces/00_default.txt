@@ -1,4 +1,4 @@
-﻿768={ #黎巴嫩山
+﻿768={ #Emun
 	terrain="impassable_terrain"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-783={ #巴耳具卢斯山
+783={ #Bargylus Mons
 	terrain="impassable_terrain"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-2526={ #利柏耳努斯湾
+2526={ #Sinus Liburnus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-2988={ #里海
+2988={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-2989={ #里海
+2989={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-2990={ #里海
+2990={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-2991={ #里海
+2991={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-2992={ #里海
+2992={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-2993={ #里海
+2993={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -88,7 +88,7 @@
 	province_rank=""
 }
 
-2994={ #里海
+2994={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -98,7 +98,7 @@
 	province_rank=""
 }
 
-2995={ #里海
+2995={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -108,7 +108,7 @@
 	province_rank=""
 }
 
-2996={ #里海
+2996={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -118,7 +118,7 @@
 	province_rank=""
 }
 
-2997={ #里海
+2997={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -128,7 +128,7 @@
 	province_rank=""
 }
 
-2998={ #里海
+2998={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -138,7 +138,7 @@
 	province_rank=""
 }
 
-2999={ #里海
+2999={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -158,7 +158,7 @@
 	province_rank=""
 }
 
-3316={ #信度山脉
+3316={ #Sindhian Mountains
 	terrain="impassable_terrain"
 	culture="sindhi"
 	religion="hindu"
@@ -168,7 +168,7 @@
 	province_rank=""
 }
 
-4569={ #里海
+4569={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -178,7 +178,7 @@
 	province_rank=""
 }
 
-4570={ #里海
+4570={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -188,7 +188,7 @@
 	province_rank=""
 }
 
-4571={ #里海
+4571={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -198,7 +198,7 @@
 	province_rank=""
 }
 
-4572={ #里海
+4572={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -208,7 +208,7 @@
 	province_rank=""
 }
 
-4573={ #里海
+4573={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -218,7 +218,7 @@
 	province_rank=""
 }
 
-4574={ #里海
+4574={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -228,7 +228,7 @@
 	province_rank=""
 }
 
-4575={ #里海
+4575={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -238,7 +238,7 @@
 	province_rank=""
 }
 
-4576={ #里海
+4576={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -248,7 +248,7 @@
 	province_rank=""
 }
 
-4577={ #里海
+4577={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -258,7 +258,7 @@
 	province_rank=""
 }
 
-4578={ #里海
+4578={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -268,7 +268,7 @@
 	province_rank=""
 }
 
-4579={ #里海
+4579={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -278,7 +278,7 @@
 	province_rank=""
 }
 
-4580={ #里海
+4580={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -288,7 +288,7 @@
 	province_rank=""
 }
 
-4581={ #里海
+4581={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -298,7 +298,7 @@
 	province_rank=""
 }
 
-4582={ #里海
+4582={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -308,7 +308,7 @@
 	province_rank=""
 }
 
-4583={ #里海
+4583={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -318,7 +318,7 @@
 	province_rank=""
 }
 
-4584={ #里海
+4584={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -328,7 +328,7 @@
 	province_rank=""
 }
 
-4585={ #里海
+4585={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -338,7 +338,7 @@
 	province_rank=""
 }
 
-4586={ #里海
+4586={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -348,7 +348,7 @@
 	province_rank=""
 }
 
-4587={ #里海
+4587={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -358,7 +358,7 @@
 	province_rank=""
 }
 
-4588={ #里海
+4588={ #Mare Hyrcanum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -368,7 +368,7 @@
 	province_rank=""
 }
 
-5000={ #埃特纳火山
+5000={ #Aetna Volcano
 	terrain="impassable_terrain"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -378,7 +378,7 @@
 	province_rank=""
 }
 
-5001={ #阿斯普罗蒙斯
+5001={ #Aspromons
 	terrain="impassable_terrain"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -388,7 +388,7 @@
 	province_rank=""
 }
 
-5002={ #塞赖
+5002={ #Serrae
 	terrain="impassable_terrain"
 	culture="bruttian"
 	religion="roman_pantheon"
@@ -398,7 +398,7 @@
 	province_rank=""
 }
 
-5003={ #西拉
+5003={ #Sila
 	terrain="impassable_terrain"
 	culture="bruttian"
 	religion="roman_pantheon"
@@ -408,7 +408,7 @@
 	province_rank=""
 }
 
-5004={ #普利努斯山
+5004={ #Mons Pullinus
 	terrain="impassable_terrain"
 	culture="lucanian"
 	religion="roman_pantheon"
@@ -598,7 +598,7 @@
 	province_rank=""
 }
 
-5023={ #科提亚的阿尔卑斯
+5023={ #Alpes Cottiae
 	terrain="impassable_terrain"
 	culture="lepontic"
 	religion="druidism"
@@ -628,7 +628,7 @@
 	province_rank=""
 }
 
-5026={ #格赖亚斯的阿尔卑斯
+5026={ #Alpes Graiae
 	terrain="impassable_terrain"
 	culture="lepontic"
 	religion="druidism"
@@ -648,7 +648,7 @@
 	province_rank=""
 }
 
-5028={ #勒蓬蒂亚的阿尔卑斯
+5028={ #Alpes Lepontinae
 	terrain="impassable_terrain"
 	culture="lepontic"
 	religion="druidism"
@@ -658,7 +658,7 @@
 	province_rank=""
 }
 
-5029={ #赖提亚的阿尔卑斯
+5029={ #Alpes Rhaeticae
 	terrain="impassable_terrain"
 	culture="lepontic"
 	religion="druidism"
@@ -668,7 +668,7 @@
 	province_rank=""
 }
 
-5030={ #卡耳尼亚的阿尔卑斯
+5030={ #Alpes Carnicae
 	terrain="impassable_terrain"
 	culture="rhaetian"
 	religion="roman_pantheon"
@@ -678,7 +678,7 @@
 	province_rank=""
 }
 
-5031={ #希斯特里亚山
+5031={ #Histria Mons
 	terrain="impassable_terrain"
 	culture="catari"
 	religion="roman_pantheon"
@@ -748,7 +748,7 @@
 	province_rank=""
 }
 
-5038={ #诺里基亚的阿尔卑斯
+5038={ #Alpes Noricae
 	terrain="impassable_terrain"
 	culture="noric"
 	religion="roman_pantheon"
@@ -838,7 +838,7 @@
 	province_rank=""
 }
 
-5047={ #阿耳维耳尼高地
+5047={ #Arverni Highland
 	terrain="impassable_terrain"
 	culture="arverni"
 	religion="druidism"
@@ -888,7 +888,7 @@
 	province_rank=""
 }
 
-5052={ #瓦斯科尼亚山地
+5052={ #
 	terrain="impassable_terrain"
 	culture="vasconian"
 	religion="animism"
@@ -988,7 +988,7 @@
 	province_rank=""
 }
 
-5062={ #帕耳涅斯山
+5062={ #Parnes Mons
 	terrain="impassable_terrain"
 	culture="athenian"
 	religion="roman_pantheon"
@@ -1048,7 +1048,7 @@
 	province_rank=""
 }
 
-5068={ #上伊庇鲁斯
+5068={ #Upper Epirus
 	terrain="impassable_terrain"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -1128,7 +1128,7 @@
 	province_rank=""
 }
 
-5076={ #上马其顿
+5076={ #Upper Macedonia
 	terrain="impassable_terrain"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1158,7 +1158,7 @@
 	province_rank=""
 }
 
-5079={ #达尔马提亚山脉
+5079={ #Dalmatian Mountains
 	terrain="impassable_terrain"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -1218,7 +1218,7 @@
 	province_rank=""
 }
 
-5085={ #达尔马提亚
+5085={ #Dalmatia
 	terrain="impassable_terrain"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -1298,7 +1298,7 @@
 	province_rank=""
 }
 
-5093={ #上达耳达尼亚
+5093={ #Upper Dardania
 	terrain="impassable_terrain"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -1398,7 +1398,7 @@
 	province_rank=""
 }
 
-5103={ #上色雷斯
+5103={ #Upper Thrace
 	terrain="impassable_terrain"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1468,7 +1468,7 @@
 	province_rank=""
 }
 
-5110={ #卡耳帕提亚
+5110={ #Carpathia
 	terrain="impassable_terrain"
 	culture="dacian"
 	religion="shamanism"
@@ -1508,7 +1508,7 @@
 	province_rank=""
 }
 
-5114={ #考科伊尼亚
+5114={ #Caucoenia
 	terrain="impassable_terrain"
 	culture="dacian"
 	religion="shamanism"
@@ -1528,7 +1528,7 @@
 	province_rank=""
 }
 
-5116={ #尤利亚的阿尔卑斯
+5116={ #Alpes Iuliae
 	terrain="impassable_terrain"
 	culture="letobician"
 	religion="roman_pantheon"
@@ -1678,7 +1678,7 @@
 	province_rank=""
 }
 
-5131={ #滨海阿尔卑斯
+5131={ #Alpes Maritimae
 	terrain="impassable_terrain"
 	culture="ligurian"
 	religion="roman_pantheon"
@@ -1728,7 +1728,7 @@
 	province_rank=""
 }
 
-5136={ #阿布诺巴山
+5136={ #Abnoba Mons
 	terrain="impassable_terrain"
 	culture="helvetian"
 	religion="druidism"
@@ -1778,7 +1778,7 @@
 	province_rank=""
 }
 
-5141={ #日耳曼高地
+5141={ #Germanic Upland
 	terrain="impassable_terrain"
 	culture="istvaeonic"
 	religion="germanic_religion"
@@ -1818,7 +1818,7 @@
 	province_rank=""
 }
 
-5145={ #波希米亚森林
+5145={ #Bohaemeian Forest
 	terrain="impassable_terrain"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -1878,7 +1878,7 @@
 	province_rank=""
 }
 
-5151={ #阿特拉斯
+5151={ #Atlas
 	terrain="impassable_terrain"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -1938,7 +1938,7 @@
 	province_rank=""
 }
 
-5157={ #西奈
+5157={ #Sinai
 	terrain="impassable_terrain"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -2068,7 +2068,7 @@
 	province_rank=""
 }
 
-5170={ #阿耳盖乌斯火山
+5170={ #Argaeus Mons Volcano
 	terrain="impassable_terrain"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -2208,7 +2208,7 @@
 	province_rank=""
 }
 
-5184={ #俄罗斯佩达山
+5184={ #Mons Orospeda
 	terrain="impassable_terrain"
 	culture="oretanian"
 	religion="animism"
@@ -2448,7 +2448,7 @@
 	province_rank=""
 }
 
-5208={ #阿拉加茨火山
+5208={ #Aragats Volcano
 	terrain="impassable_terrain"
 	culture="ibero"
 	religion="caucasian_religion"
@@ -2468,7 +2468,7 @@
 	province_rank=""
 }
 
-5210={ #巴姆尼火山
+5210={ #Bamni Volcano
 	terrain="impassable_terrain"
 	culture="armenian"
 	religion="armenian_religion"
@@ -2488,7 +2488,7 @@
 	province_rank=""
 }
 
-5212={ #阿拉拉特火山
+5212={ #Ararat Volcano
 	terrain="impassable_terrain"
 	culture="armenian"
 	religion="armenian_religion"
@@ -2538,7 +2538,7 @@
 	province_rank=""
 }
 
-5217={ #卡杜西亚高地
+5217={ #Cadusian Highland
 	terrain="impassable_terrain"
 	culture="cadusian"
 	religion="zoroaster"
@@ -2608,7 +2608,7 @@
 	province_rank=""
 }
 
-5224={ #刻利兴
+5224={ #Kelishin
 	terrain="impassable_terrain"
 	culture="median"
 	religion="zoroaster"
@@ -2628,7 +2628,7 @@
 	province_rank=""
 }
 
-5226={ #叙利亚沙漠
+5226={ #Syrian Desert
 	terrain="impassable_terrain"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -2688,7 +2688,7 @@
 	province_rank=""
 }
 
-5232={ #扎格罗斯
+5232={ #Zagros
 	terrain="impassable_terrain"
 	culture="median"
 	religion="zoroaster"
@@ -2698,7 +2698,7 @@
 	province_rank=""
 }
 
-5233={ #科斯西俄亚
+5233={ #Kossioia
 	terrain="impassable_terrain"
 	culture="cossian"
 	religion="mesopotamian_religion"
@@ -2738,7 +2738,7 @@
 	province_rank=""
 }
 
-5237={ #库密斯高地
+5237={ #Qumis Highland
 	terrain="impassable_terrain"
 	culture="parthian"
 	religion="zoroaster"
@@ -2838,7 +2838,7 @@
 	province_rank=""
 }
 
-5247={ #乌提亚平原
+5247={ #Utian Plain
 	terrain="impassable_terrain"
 	culture="utian"
 	religion="zoroaster"
@@ -2848,7 +2848,7 @@
 	province_rank=""
 }
 
-5248={ #卡尔玛尼亚山脉
+5248={ #Karmanian Mountains
 	terrain="impassable_terrain"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -2858,7 +2858,7 @@
 	province_rank=""
 }
 
-5249={ #帕克堤亚沙漠
+5249={ #Pactyan Desert
 	terrain="impassable_terrain"
 	culture="pactyan"
 	religion="zoroaster"
@@ -2888,7 +2888,7 @@
 	province_rank=""
 }
 
-5252={ #卢特
+5252={ #Lut
 	terrain="impassable_terrain"
 	culture="sagartian"
 	religion="zoroaster"
@@ -2998,7 +2998,7 @@
 	province_rank=""
 }
 
-5263={ #粟特草原
+5263={ #Sogdian Steppe
 	terrain="impassable_terrain"
 	culture="margian"
 	religion="zoroaster"
@@ -3068,7 +3068,7 @@
 	province_rank=""
 }
 
-5270={ #粟特山脉
+5270={ #Sogdian Mountains
 	terrain="impassable_terrain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -3108,7 +3108,7 @@
 	province_rank=""
 }
 
-5274={ #巴克特里亚高地
+5274={ #Bactrian Highland
 	terrain="impassable_terrain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -3138,7 +3138,7 @@
 	province_rank=""
 }
 
-5277={ #费尔干纳山脉
+5277={ #Ferghanan Mountains
 	terrain="impassable_terrain"
 	culture="tayuan"
 	religion="zoroaster"
@@ -3168,7 +3168,7 @@
 	province_rank=""
 }
 
-5280={ #怛逻斯高地
+5280={ #Talas Highland
 	terrain="impassable_terrain"
 	culture="tayuan"
 	religion="eastern_animism"
@@ -3198,7 +3198,7 @@
 	province_rank=""
 }
 
-5283={ #卡勒多尼亚高地
+5283={ #Caledonian Highland
 	terrain="impassable_terrain"
 	culture="taexalian"
 	religion="druidism"
@@ -3208,7 +3208,7 @@
 	province_rank=""
 }
 
-5284={ #北喀里多尼亚山脉
+5284={ #North Caledonian Mountains
 	terrain="impassable_terrain"
 	culture="caledonian"
 	religion="druidism"
@@ -3239,7 +3239,7 @@
 }
 
 5287={ #
-	terrain="impassable_terrain"
+	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods=""
@@ -3268,7 +3268,7 @@
 	province_rank=""
 }
 
-5290={ #咖勒
+5290={ #Qal'eh
 	terrain="impassable_terrain"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -3278,7 +3278,7 @@
 	province_rank=""
 }
 
-5291={ #哈德拉毛沙漠
+5291={ #Hadramut Desert
 	terrain="impassable_terrain"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -3288,7 +3288,7 @@
 	province_rank=""
 }
 
-5292={ #埃及沙漠
+5292={ #
 	terrain="impassable_terrain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -3298,7 +3298,7 @@
 	province_rank=""
 }
 
-5293={ #特罗伊孔山脉
+5293={ #Troikon Oros
 	terrain="impassable_terrain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
@@ -3308,7 +3308,7 @@
 	province_rank=""
 }
 
-5294={ #克吕斯玛沙漠
+5294={ #Desert of Klysma
 	terrain="impassable_terrain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -3318,7 +3318,7 @@
 	province_rank=""
 }
 
-5295={ #叙利亚沙漠
+5295={ #Syrian Desert
 	terrain="impassable_terrain"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -3328,7 +3328,7 @@
 	province_rank=""
 }
 
-5296={ #玛赫里亚
+5296={ #Mahria
 	terrain="impassable_terrain"
 	culture="hadhrami"
 	religion="arabian_pantheon"
@@ -3338,7 +3338,7 @@
 	province_rank=""
 }
 
-5297={ #卡耳帕提亚
+5297={ #Carpathia
 	terrain="impassable_terrain"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -3348,7 +3348,7 @@
 	province_rank=""
 }
 
-5298={ #卡耳帕提亚
+5298={ #Carpathia
 	terrain="impassable_terrain"
 	culture="irminonic"
 	religion="germanic_religion"
@@ -3368,7 +3368,7 @@
 	province_rank=""
 }
 
-5300={ #阿拉伯福地
+5300={ #Arabia Felix
 	terrain="impassable_terrain"
 	culture="minaean"
 	religion="arabian_pantheon"
@@ -3378,7 +3378,7 @@
 	province_rank=""
 }
 
-5301={ #阿曼沙漠
+5301={ #Omani Desert
 	terrain="impassable_terrain"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -3398,7 +3398,7 @@
 	province_rank=""
 }
 
-5303={ #美索不达利亚沙漠
+5303={ #Mesopotamian Desert
 	terrain="impassable_terrain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -3418,7 +3418,7 @@
 	province_rank=""
 }
 
-5305={ #南尼利祇梨
+5305={ #South Nilgiri
 	terrain="impassable_terrain"
 	culture="tamil"
 	religion="hindu"
@@ -3448,7 +3448,7 @@
 	province_rank=""
 }
 
-5308={ #北尼利祇梨
+5308={ #North Nilgiri
 	terrain="impassable_terrain"
 	culture="kannadan"
 	religion="hindu"
@@ -3498,7 +3498,7 @@
 	province_rank=""
 }
 
-5313={ #东高止山脉
+5313={ #Eastern Ghats
 	terrain="impassable_terrain"
 	culture="tamil"
 	religion="hindu"
@@ -3508,7 +3508,7 @@
 	province_rank=""
 }
 
-5314={ #帕莱俄戈诺伊
+5314={ #Palaiogonoi
 	terrain="impassable_terrain"
 	culture="lankan"
 	religion="hindu"
@@ -3518,9 +3518,9 @@
 	province_rank=""
 }
 
-5315={ #婆耆缡那
+5315={ #Baglana
 	terrain="impassable_terrain"
-	culture="maharashtran"
+	culture="rathikan"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -3530,7 +3530,7 @@
 
 5316={ #
 	terrain="impassable_terrain"
-	culture="telugu"
+	culture="andhran"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -3540,7 +3540,7 @@
 
 5317={ #
 	terrain="impassable_terrain"
-	culture="telugu"
+	culture="andhran"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -3550,7 +3550,7 @@
 
 5318={ #
 	terrain="impassable_terrain"
-	culture="telugu"
+	culture="savara"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -3568,7 +3568,7 @@
 	province_rank=""
 }
 
-5320={ #东盖图利亚
+5320={ #Eastern Gaetulia
 	terrain="impassable_terrain"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -3578,7 +3578,7 @@
 	province_rank=""
 }
 
-5321={ #西盖图利亚
+5321={ #Western Gaetulia
 	terrain="impassable_terrain"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -3598,7 +3598,7 @@
 	province_rank=""
 }
 
-5323={ #高加索火山
+5323={ #Caucasus Mons Volcano
 	terrain="impassable_terrain"
 	culture="colchian"
 	religion="caucasian_religion"
@@ -3608,7 +3608,7 @@
 	province_rank=""
 }
 
-5324={ #伊比利亚火山
+5324={ #Iberia Mons Volcano
 	terrain="impassable_terrain"
 	culture="ibero"
 	religion="caucasian_religion"
@@ -3698,7 +3698,7 @@
 	province_rank=""
 }
 
-5333={ #阿斯旺沙漠
+5333={ #Desert of Aswan
 	terrain="impassable_terrain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -3708,7 +3708,7 @@
 	province_rank=""
 }
 
-5334={ #卢克索沙漠
+5334={ #Desert of Luxor
 	terrain="impassable_terrain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -3718,7 +3718,7 @@
 	province_rank=""
 }
 
-5335={ #上尼罗河
+5335={ #
 	terrain="impassable_terrain"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -3738,7 +3738,7 @@
 	province_rank=""
 }
 
-5337={ #蓬特高地
+5337={ #Puntic Highlands
 	terrain="impassable_terrain"
 	culture="cushite"
 	religion="egyptian_pantheon"
@@ -3748,7 +3748,7 @@
 	province_rank=""
 }
 
-5338={ #法耳法拉
+5338={ #Farfara
 	terrain="impassable_terrain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -3778,7 +3778,7 @@
 	province_rank=""
 }
 
-5341={ #哈里杰沙漠
+5341={ #Desert of Kharga
 	terrain="impassable_terrain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -3788,7 +3788,7 @@
 	province_rank=""
 }
 
-5342={ #努比亚沙漠
+5342={ #
 	terrain="impassable_terrain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -3800,7 +3800,7 @@
 
 5343={ #
 	terrain="impassable_terrain"
-	culture="vidharban"
+	culture="cedi"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -3848,7 +3848,7 @@
 	province_rank=""
 }
 
-5348={ #卡耳马尼亚高地
+5348={ #Carmanian Highland
 	terrain="impassable_terrain"
 	culture="gandhari"
 	religion="hindu"
@@ -3858,7 +3858,7 @@
 	province_rank=""
 }
 
-5349={ #沙罗呬呾沙漠
+5349={ #Sharhistan Desert
 	terrain="impassable_terrain"
 	culture="gandhari"
 	religion="hindu"
@@ -3888,7 +3888,7 @@
 	province_rank=""
 }
 
-5352={ #特罗格洛底提卡
+5352={ #Troglodytica
 	terrain="impassable_terrain"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -3898,7 +3898,7 @@
 	province_rank=""
 }
 
-5353={ #彭达克堤洛斯山
+5353={ #Pendactylos Mons
 	terrain="impassable_terrain"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -3918,7 +3918,7 @@
 	province_rank=""
 }
 
-5355={ #上青尼罗河
+5355={ #Koha
 	terrain="impassable_terrain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -3958,7 +3958,7 @@
 	province_rank=""
 }
 
-5359={ #民陀
+5359={ #Vindhya
 	terrain="impassable_terrain"
 	culture="atavi"
 	religion="hindu"
@@ -4028,7 +4028,7 @@
 	province_rank=""
 }
 
-5366={ #西穆萨拉弥亚
+5366={ #Western Musalamia
 	terrain="impassable_terrain"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -4038,7 +4038,7 @@
 	province_rank=""
 }
 
-5367={ #东穆萨拉弥亚
+5367={ #Eastern Musalamia
 	terrain="impassable_terrain"
 	culture="gaetulian"
 	religion="berber_religion"
@@ -4080,7 +4080,7 @@
 
 5371={ #
 	terrain="impassable_terrain"
-	culture="bangli"
+	culture="pandra"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -4148,7 +4148,7 @@
 	province_rank=""
 }
 
-5378={ #塔里木
+5378={ #Tarim
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -4178,7 +4178,7 @@
 	province_rank=""
 }
 
-5381={ #极远岛
+5381={ #Thule
 	terrain="impassable_terrain"
 	culture="rugian"
 	religion="germanic_religion"
@@ -4258,7 +4258,7 @@
 	province_rank=""
 }
 
-5407={ #阿拉伯沙漠
+5407={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -4268,7 +4268,7 @@
 	province_rank=""
 }
 
-5414={ #阿拉伯沙漠
+5414={ #Arabia Deserta
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -4278,7 +4278,7 @@
 	province_rank=""
 }
 
-5439={ #卡维尔沙漠
+5439={ #Kavir Desert
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -4288,7 +4288,7 @@
 	province_rank=""
 }
 
-5440={ #叙利亚沙漠
+5440={ #Syria Deserta
 	terrain="desert"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -4298,7 +4298,7 @@
 	province_rank=""
 }
 
-5441={ #卡维尔沙漠
+5441={ #Kavir Desert
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -4308,7 +4308,7 @@
 	province_rank=""
 }
 
-5443={ #掣帝私揭诃丛林
+5443={ #Chattisgarh Jungle
 	terrain="jungle"
 	culture="atavi"
 	religion="hindu"
@@ -4338,9 +4338,9 @@
 	province_rank=""
 }
 
-5449={ #摩卢沙漠
+5449={ #Maru Desert
 	terrain="plains"
-	culture="shauraseni"
+	culture="kuru"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -4348,9 +4348,9 @@
 	province_rank=""
 }
 
-5450={ #摩卢沙漠
+5450={ #Maru Desert
 	terrain="plains"
-	culture="shauraseni"
+	culture="kuru"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -4358,7 +4358,7 @@
 	province_rank=""
 }
 
-5710={ #高卢海峡
+5710={ #Fretum Gallicum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -4368,7 +4368,7 @@
 	province_rank=""
 }
 
-5782={ #弗勒沃湖
+5782={ #Lacus Flevo
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -4378,7 +4378,7 @@
 	province_rank=""
 }
 
-5882={ #穆勒滕
+5882={ #Multen
 	terrain="impassable_terrain"
 	culture="scythian"
 	religion="indo_iranian_religion"
@@ -4388,7 +4388,7 @@
 	province_rank=""
 }
 
-5883={ #福耳斯
+5883={ #Fors
 	terrain="impassable_terrain"
 	culture="scythian"
 	religion="indo_iranian_religion"
@@ -4398,7 +4398,7 @@
 	province_rank=""
 }
 
-5934={ #阿格赖亚
+5934={ #Agraeia
 	terrain="impassable_terrain"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -4508,7 +4508,7 @@
 	province_rank=""
 }
 
-5945={ #努比亚沙漠
+5945={ #
 	terrain="impassable_terrain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -4528,7 +4528,7 @@
 	province_rank=""
 }
 
-5947={ #伽拉马
+5947={ #
 	terrain="impassable_terrain"
 	culture="garamantic"
 	religion="berber_religion"
@@ -4538,7 +4538,7 @@
 	province_rank=""
 }
 
-5948={ #基达穆斯
+5948={ #Cidamus
 	terrain="impassable_terrain"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -4638,7 +4638,7 @@
 	province_rank=""
 }
 
-5958={ #喜马拉雅高地
+5958={ #Himalayan Highland
 	terrain="impassable_terrain"
 	culture="tsang"
 	religion="bon_religion"
@@ -4678,7 +4678,7 @@
 	province_rank=""
 }
 
-5962={ #喀喇昆仑
+5962={ #Karakoram
 	terrain="impassable_terrain"
 	culture="saka"
 	religion="eastern_animism"
@@ -4868,7 +4868,7 @@
 	province_rank=""
 }
 
-5982={ #摩里斯湖
+5982={ #Moeris
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -4878,7 +4878,7 @@
 	province_rank=""
 }
 
-5983={ #萨巴提努斯
+5983={ #Sabatinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -4888,7 +4888,7 @@
 	province_rank=""
 }
 
-5984={ #高阿特拉斯山脉
+5984={ #High Atlas
 	terrain="impassable_terrain"
 	culture="socossian"
 	religion="berber_religion"
@@ -4898,7 +4898,7 @@
 	province_rank=""
 }
 
-5985={ #内毛里塔尼亚
+5985={ #Inner Mauritania
 	terrain="impassable_terrain"
 	culture="socossian"
 	religion="berber_religion"
@@ -4908,7 +4908,7 @@
 	province_rank=""
 }
 
-5986={ #中阿特拉斯
+5986={ #Middle Atlas
 	terrain="impassable_terrain"
 	culture="socossian"
 	religion="berber_religion"
@@ -4918,7 +4918,7 @@
 	province_rank=""
 }
 
-5987={ #毛里高原
+5987={ #Maurian Plateau
 	terrain="impassable_terrain"
 	culture="socossian"
 	religion="berber_religion"
@@ -4938,7 +4938,7 @@
 	province_rank=""
 }
 
-5989={ #屯忒俄斯
+5989={ #Desert
 	terrain="impassable_terrain"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -4958,7 +4958,7 @@
 	province_rank=""
 }
 
-5991={ #戈莱亚
+5991={ #Gholaia
 	terrain="impassable_terrain"
 	culture="libyan"
 	religion="berber_religion"
@@ -4968,7 +4968,7 @@
 	province_rank=""
 }
 
-5992={ #阿贵拉
+5992={ #Aguila
 	terrain="impassable_terrain"
 	culture="libyan"
 	religion="berber_religion"
@@ -4978,7 +4978,7 @@
 	province_rank=""
 }
 
-5993={ #昔兰尼加
+5993={ #Cyrenaica
 	terrain="impassable_terrain"
 	culture="libyan"
 	religion="berber_religion"
@@ -4988,7 +4988,7 @@
 	province_rank=""
 }
 
-5994={ #腓洛忒里斯沙漠
+5994={ #Desert of Philoteris
 	terrain="impassable_terrain"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -4998,7 +4998,7 @@
 	province_rank=""
 }
 
-5995={ #帕耳瓦绿洲
+5995={ #Oasis Parva
 	terrain="impassable_terrain"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -5018,7 +5018,7 @@
 	province_rank=""
 }
 
-5997={ #东黎巴嫩山
+5997={ #Antilibanus Mons
 	terrain="impassable_terrain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
@@ -5058,7 +5058,7 @@
 	province_rank=""
 }
 
-6045={ #纳巴泰沙漠
+6045={ #Nabatean Desert
 	terrain="impassable_terrain"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -5068,7 +5068,7 @@
 	province_rank=""
 }
 
-6046={ #阿拉伯沙漠
+6046={ #Arabian Desert
 	terrain="impassable_terrain"
 	culture="thamudi"
 	religion="arabian_pantheon"
@@ -5078,7 +5078,7 @@
 	province_rank=""
 }
 
-6048={ #汉志
+6048={ #Hejaz
 	terrain="impassable_terrain"
 	culture="taif"
 	religion="arabian_pantheon"
@@ -5088,7 +5088,7 @@
 	province_rank=""
 }
 
-6049={ #远阿拉伯沙漠
+6049={ #Arabia Deserta Ulterior
 	terrain="impassable_terrain"
 	culture="makan"
 	religion="arabian_pantheon"
@@ -5098,7 +5098,7 @@
 	province_rank=""
 }
 
-6050={ #梅加拉亚
+6050={ #Meghalaya
 	terrain="impassable_terrain"
 	culture="kamarupi"
 	religion="hindu"
@@ -5108,7 +5108,7 @@
 	province_rank=""
 }
 
-6051={ #藏南
+6051={ #Arunachal
 	terrain="impassable_terrain"
 	culture="kamarupi"
 	religion="hindu"
@@ -5118,9 +5118,9 @@
 	province_rank=""
 }
 
-6052={ #掣帝私揭诃
+6052={ #Chattisgarh
 	terrain="impassable_terrain"
-	culture="kalingan"
+	culture="vanga"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -5128,7 +5128,7 @@
 	province_rank=""
 }
 
-6053={ #达嚫 拘萨罗
+6053={ #Dakshina Koshala
 	terrain="impassable_terrain"
 	culture="atavi"
 	religion="hindu"
@@ -5138,7 +5138,7 @@
 	province_rank=""
 }
 
-6054={ #迦陵伽那
+6054={ #Kalingana
 	terrain="impassable_terrain"
 	culture="kalingan"
 	religion="hindu"
@@ -5148,9 +5148,9 @@
 	province_rank=""
 }
 
-6055={ #檀铎竭罗如
+6055={ #Dandakaranya
 	terrain="impassable_terrain"
-	culture="kalingan"
+	culture="andhran"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -5158,7 +5158,7 @@
 	province_rank=""
 }
 
-6056={ #恭陀伐那
+6056={ #Gondwana
 	terrain="impassable_terrain"
 	culture="atavi"
 	religion="hindu"
@@ -5168,7 +5168,27 @@
 	province_rank=""
 }
 
-6057={ #末律提娑
+6057={ #Marudesa
+	terrain="impassable_terrain"
+	culture="kaccha"
+	religion="hindu"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+6058={ #Abhiria Secunda
+	terrain="impassable_terrain"
+	culture="purus"
+	religion="hindu"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+6059={ #Abhiria
 	terrain="impassable_terrain"
 	culture="avanti"
 	religion="hindu"
@@ -5178,27 +5198,7 @@
 	province_rank=""
 }
 
-6058={ #第二阿毘梨耶
-	terrain="impassable_terrain"
-	culture="avanti"
-	religion="hindu"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-6059={ #阿毘梨耶
-	terrain="impassable_terrain"
-	culture="avanti"
-	religion="hindu"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-6060={ #徙阰
+6060={ #Siwi
 	terrain="impassable_terrain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -5208,7 +5208,7 @@
 	province_rank=""
 }
 
-6061={ #革德罗西亚
+6061={ #Gedrosia
 	terrain="impassable_terrain"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -5218,7 +5218,7 @@
 	province_rank=""
 }
 
-6062={ #帕雷卡尼亚
+6062={ #Parecania
 	terrain="impassable_terrain"
 	culture="parecanian"
 	religion="zoroaster"
@@ -5228,7 +5228,7 @@
 	province_rank=""
 }
 
-6063={ #帕雷卡尼亚纳
+6063={ #Parecaniana
 	terrain="impassable_terrain"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -5238,7 +5238,7 @@
 	province_rank=""
 }
 
-6064={ #阿拉尔
+6064={ #Aral
 	terrain="impassable_terrain"
 	culture="massagetaen"
 	religion="indo_iranian_religion"
@@ -5398,7 +5398,7 @@
 	province_rank=""
 }
 
-6317={ #科派斯
+6317={ #Kopais
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -5788,7 +5788,7 @@
 	province_rank=""
 }
 
-6356={ #佩尔索迪斯
+6356={ #Pelsodis
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -5838,7 +5838,7 @@
 	province_rank=""
 }
 
-6361={ #拉贝亚提斯
+6361={ #Labeatis
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -5848,7 +5848,7 @@
 	province_rank=""
 }
 
-6362={ #厄维杜嫩西斯
+6362={ #Everdunensis
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -5878,7 +5878,7 @@
 	province_rank=""
 }
 
-6365={ #布里甘提努斯
+6365={ #Brigantinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -5888,7 +5888,7 @@
 	province_rank=""
 }
 
-6366={ #勒曼努斯
+6366={ #Lemannus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -5958,7 +5958,7 @@
 	province_rank=""
 }
 
-6373={ #贝纳库斯
+6373={ #Benacus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -5978,7 +5978,7 @@
 	province_rank=""
 }
 
-6375={ #沃尔西尼
+6375={ #Volsinii
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -5988,7 +5988,7 @@
 	province_rank=""
 }
 
-6377={ #富基努斯
+6377={ #Fucinus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -5998,7 +5998,7 @@
 	province_rank=""
 }
 
-6378={ #特拉苏门努斯
+6378={ #Trasumennus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6038,7 +6038,7 @@
 	province_rank=""
 }
 
-6382={ #大布律革斯
+6382={ #Brygeis Megale
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6048,7 +6048,7 @@
 	province_rank=""
 }
 
-6383={ #小布律革斯
+6383={ #Brygeis Mikra
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6058,7 +6058,7 @@
 	province_rank=""
 }
 
-6384={ #潘玻提斯
+6384={ #Pambotis
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6068,7 +6068,7 @@
 	province_rank=""
 }
 
-6385={ #特里科尼斯
+6385={ #Trichonis
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6098,7 +6098,7 @@
 	province_rank=""
 }
 
-6388={ #科罗尼亚
+6388={ #Koroneia
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6108,7 +6108,7 @@
 	province_rank=""
 }
 
-6389={ #博尔贝湖
+6389={ #Bolbe
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6148,7 +6148,7 @@
 	province_rank=""
 }
 
-6393={ #达斯居利提斯
+6393={ #Dascylitis
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6158,7 +6158,7 @@
 	province_rank=""
 }
 
-6394={ #阿波罗尼亚底斯
+6394={ #Apolloniatis
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6168,7 +6168,7 @@
 	province_rank=""
 }
 
-6395={ #阿斯卡尼亚
+6395={ #Ascania
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6258,7 +6258,7 @@
 	province_rank=""
 }
 
-6406={ #卡拉利斯
+6406={ #Carallis
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6268,7 +6268,7 @@
 	province_rank=""
 }
 
-6407={ #塔塔
+6407={ #Tatta
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6328,7 +6328,7 @@
 	province_rank=""
 }
 
-6413={ #阿斯法尔提忒斯
+6413={ #Asphaltites
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6338,7 +6338,7 @@
 	province_rank=""
 }
 
-6414={ #根涅撒尔
+6414={ #Gennesar
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6418,7 +6418,7 @@
 	province_rank=""
 }
 
-6424={ #阿耳西萨
+6424={ #Arsissa
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6428,7 +6428,7 @@
 	province_rank=""
 }
 
-6425={ #马提亚努斯
+6425={ #Matianus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6458,7 +6458,7 @@
 	province_rank=""
 }
 
-6428={ #吕克尼提斯
+6428={ #Lychnitis
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -6928,7 +6928,7 @@
 	province_rank=""
 }
 
-7279={ #摩尸多
+7279={ #Masht
 	terrain="impassable_terrain"
 	culture="kharesmian"
 	religion="eastern_animism"
@@ -7040,7 +7040,7 @@
 
 7290={ #
 	terrain="impassable_terrain"
-	culture="magadhi"
+	culture="vrji"
 	religion="buddhism"
 	trade_goods=""
 	civilization_value=0
@@ -7048,9 +7048,9 @@
 	province_rank=""
 }
 
-7291={ #德赖高地
+7291={ #Upper Terrai
 	terrain="impassable_terrain"
-	culture="magadhi"
+	culture="malla"
 	religion="hindu"
 	trade_goods=""
 	civilization_value=0
@@ -7118,7 +7118,7 @@
 	province_rank=""
 }
 
-7299={ #萨耳马提亚
+7299={ #Pirhirci
 	terrain="impassable_terrain"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
@@ -7128,7 +7128,7 @@
 	province_rank=""
 }
 
-7357={ #孙德尔本斯
+7357={ #Sundarbans
 	terrain="impassable_terrain"
 	culture="bangli"
 	religion="hindu"
@@ -7138,7 +7138,7 @@
 	province_rank=""
 }
 
-7640={ #卡斯庇卡
+7640={ #Caspica
 	terrain="impassable_terrain"
 	culture="thyssagetaen"
 	religion="indo_iranian_religion"
@@ -7148,7 +7148,7 @@
 	province_rank=""
 }
 
-7641={ #阿兰尼亚
+7641={ #Alania
 	terrain="impassable_terrain"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -7158,7 +7158,7 @@
 	province_rank=""
 }
 
-7642={ #西卢瓦纳
+7642={ #Sylvana
 	terrain="impassable_terrain"
 	culture="slavian"
 	religion="matrist_religion"
@@ -7168,7 +7168,7 @@
 	province_rank=""
 }
 
-7643={ #芬尼亚
+7643={ #Fennia
 	terrain="impassable_terrain"
 	culture="aestian"
 	religion="matrist_religion"
@@ -7178,7 +7178,7 @@
 	province_rank=""
 }
 
-7644={ #黑海草原
+7644={ #Donetsk
 	terrain="impassable_terrain"
 	culture="sarmatian"
 	religion="indo_iranian_religion"
@@ -7268,7 +7268,7 @@
 	province_rank=""
 }
 
-7733={ #维苏威火山
+7733={ #Vesuvius Volcano
 	terrain="impassable_terrain"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -7278,7 +7278,7 @@
 	province_rank=""
 }
 
-7734={ #迈萨纳火山
+7734={ #Methana Volcano
 	terrain="impassable_terrain"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -7288,7 +7288,7 @@
 	province_rank=""
 }
 
-7735={ #阿耳盖俄斯火山
+7735={ #Argaios Mons Volcano
 	terrain="impassable_terrain"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -7298,7 +7298,7 @@
 	province_rank=""
 }
 
-7736={ #奥萨拉火山
+7736={ #Ausara Volcano
 	terrain="impassable_terrain"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -7308,7 +7308,7 @@
 	province_rank=""
 }
 
-7737={ #咖尔咖尔火山
+7737={ #Qarqar Volcano
 	terrain="impassable_terrain"
 	culture="armenian"
 	religion="armenian_religion"
@@ -7318,7 +7318,7 @@
 	province_rank=""
 }
 
-7751={ #墨索吉斯山
+7751={ #Mesogis Mons
 	terrain="impassable_terrain"
 	culture="carian"
 	religion="roman_pantheon"
@@ -7328,7 +7328,7 @@
 	province_rank=""
 }
 
-7752={ #特摩卢斯山
+7752={ #Tmolus Mons
 	terrain="impassable_terrain"
 	culture="lydian"
 	religion="roman_pantheon"
@@ -7338,7 +7338,7 @@
 	province_rank=""
 }
 
-7753={ #屯普西斯山
+7753={ #Tempsis Mons
 	terrain="impassable_terrain"
 	culture="lydian"
 	religion="anatolian_religion"
@@ -7348,7 +7348,7 @@
 	province_rank=""
 }
 
-7754={ #锡皮洛斯山
+7754={ #Sipylos Mons
 	terrain="impassable_terrain"
 	culture="lydian"
 	religion="anatolian_religion"
@@ -7358,7 +7358,7 @@
 	province_rank=""
 }
 
-7755={ #奥林波斯山
+7755={ #Olympus Mons
 	terrain="impassable_terrain"
 	culture="mysian"
 	religion="anatolian_religion"
@@ -7368,7 +7368,7 @@
 	province_rank=""
 }
 
-7756={ #卡德蒙斯山
+7756={ #Kadmons Mons
 	terrain="impassable_terrain"
 	culture="carian"
 	religion="anatolian_religion"
@@ -7408,7 +7408,7 @@
 	province_rank=""
 }
 
-7761={ #索丰山
+7761={ #Sophon Mons
 	terrain="impassable_terrain"
 	culture="mariandynian"
 	religion="roman_pantheon"
@@ -7438,7 +7438,7 @@
 	province_rank=""
 }
 
-7796={ #孙德尔本斯
+7796={ #Sundarbans
 	terrain="impassable_terrain"
 	culture="bangli"
 	religion="hindu"
@@ -7448,7 +7448,7 @@
 	province_rank=""
 }
 
-7797={ #帕耳纳苏斯山
+7797={ #Parnassus Mons
 	terrain="impassable_terrain"
 	culture="boeotian"
 	religion="roman_pantheon"
@@ -7618,7 +7618,7 @@
 	province_rank=""
 }
 
-7861={ #斯特戎具勒火山
+7861={ #Strongyle Volcano
 	terrain="impassable_terrain"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -7628,7 +7628,7 @@
 	province_rank=""
 }
 
-7895={ #阿拉克奈翁山
+7895={ #Arachnaion Mons
 	terrain="impassable_terrain"
 	culture="achaean"
 	religion="roman_pantheon"
@@ -7638,7 +7638,7 @@
 	province_rank=""
 }
 
-7900={ #狄耳费斯山
+7900={ #Dirphys Mons
 	terrain="impassable_terrain"
 	culture="euboean"
 	religion="roman_pantheon"
@@ -7648,7 +7648,7 @@
 	province_rank=""
 }
 
-7909={ #伊达山
+7909={ #Ida Mons
 	terrain="impassable_terrain"
 	culture="mysian"
 	religion="roman_pantheon"
@@ -7658,7 +7658,7 @@
 	province_rank=""
 }
 
-7910={ #马耳开翁山
+7910={ #Markaion Mons
 	terrain="impassable_terrain"
 	culture="mysian"
 	religion="roman_pantheon"
@@ -8188,7 +8188,7 @@
 	province_rank=""
 }
 
-7988={ #赫耳蒙山
+7988={ #Hermon Mons
 	terrain="impassable_terrain"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -8198,7 +8198,7 @@
 	province_rank=""
 }
 
-7989={ #特洛戈多斯山
+7989={ #Trogodos Mons
 	terrain="impassable_terrain"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -8338,7 +8338,7 @@
 	province_rank=""
 }
 
-8014={ #伊代翁山
+8014={ #Idaion Mons
 	terrain="impassable_terrain"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -8348,7 +8348,7 @@
 	province_rank=""
 }
 
-8017={ #琉卡山
+8017={ #Leuka Mons
 	terrain="impassable_terrain"
 	culture="cretan"
 	religion="roman_pantheon"
@@ -8488,7 +8488,7 @@
 	province_rank=""
 }
 
-8063={ #PROV8063
+8063={ #Tulih
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8498,7 +8498,7 @@
 	province_rank=""
 }
 
-8064={ #PROV8064
+8064={ #Fura
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8508,7 +8508,7 @@
 	province_rank=""
 }
 
-8065={ #PROV8065
+8065={ #Kurmut
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8518,7 +8518,7 @@
 	province_rank=""
 }
 
-8066={ #PROV8066
+8066={ #Halfa
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8528,7 +8528,7 @@
 	province_rank=""
 }
 
-8067={ #PROV8067
+8067={ #Kalas
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8538,7 +8538,7 @@
 	province_rank=""
 }
 
-8068={ #PROV8068
+8068={ #Kuweib
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8548,7 +8548,7 @@
 	province_rank=""
 }
 
-8069={ #PROV8069
+8069={ #Khafur
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8558,7 +8558,7 @@
 	province_rank=""
 }
 
-8070={ #PROV8070
+8070={ #Barkol
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8568,7 +8568,7 @@
 	province_rank=""
 }
 
-8071={ #PROV8071
+8071={ #Ileigha
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8578,7 +8578,7 @@
 	province_rank=""
 }
 
-8072={ #PROV8072
+8072={ #Abraq
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8588,7 +8588,7 @@
 	province_rank=""
 }
 
-8073={ #PROV8073
+8073={ #Hudi
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8598,7 +8598,7 @@
 	province_rank=""
 }
 
-8074={ #PROV8074
+8074={ #Shabbabah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8608,7 +8608,7 @@
 	province_rank=""
 }
 
-8075={ #PROV8075
+8075={ #Karim
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8618,7 +8618,7 @@
 	province_rank=""
 }
 
-8076={ #PROV8076
+8076={ #Asele
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8628,7 +8628,7 @@
 	province_rank=""
 }
 
-8077={ #PROV8077
+8077={ #Ghaloa
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8638,7 +8638,7 @@
 	province_rank=""
 }
 
-8078={ #PROV8078
+8078={ #Tuyur
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8648,7 +8648,7 @@
 	province_rank=""
 }
 
-8079={ #PROV8079
+8079={ #Contra Pselchis
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8658,7 +8658,7 @@
 	province_rank=""
 }
 
-8080={ #PROV8080
+8080={ #Hairiri
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8668,7 +8668,7 @@
 	province_rank=""
 }
 
-8081={ #PROV8081
+8081={ #Dhahab
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8678,7 +8678,7 @@
 	province_rank=""
 }
 
-8082={ #PROV8082
+8082={ #Heimur
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8688,7 +8688,7 @@
 	province_rank=""
 }
 
-8083={ #PROV8083
+8083={ #Garaiyat
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8698,7 +8698,7 @@
 	province_rank=""
 }
 
-8084={ #PROV8084
+8084={ #Seiga
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8708,7 +8708,7 @@
 	province_rank=""
 }
 
-8085={ #PROV8085
+8085={ #Shoshoba
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8718,7 +8718,7 @@
 	province_rank=""
 }
 
-8086={ #PROV8086
+8086={ #Allaqi
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8728,7 +8728,7 @@
 	province_rank=""
 }
 
-8087={ #PROV8087
+8087={ #Fas
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8738,7 +8738,7 @@
 	province_rank=""
 }
 
-8088={ #PROV8088
+8088={ #Eigat
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8748,7 +8748,7 @@
 	province_rank=""
 }
 
-8089={ #PROV8089
+8089={ #Berenike Pancrysia
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8758,7 +8758,7 @@
 	province_rank=""
 }
 
-8090={ #PROV8090
+8090={ #Gidmib
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8768,7 +8768,7 @@
 	province_rank=""
 }
 
-8091={ #PROV8091
+8091={ #Biyar
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8778,7 +8778,7 @@
 	province_rank=""
 }
 
-8092={ #PROV8092
+8092={ #Duweb
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8788,7 +8788,7 @@
 	province_rank=""
 }
 
-8093={ #PROV8093
+8093={ #Hidiglib
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8798,7 +8798,7 @@
 	province_rank=""
 }
 
-8094={ #PROV8094
+8094={ #Murrat
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8808,7 +8808,7 @@
 	province_rank=""
 }
 
-8095={ #PROV8095
+8095={ #Sufar
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8818,7 +8818,7 @@
 	province_rank=""
 }
 
-8096={ #PROV8096
+8096={ #Doum
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8828,7 +8828,7 @@
 	province_rank=""
 }
 
-8097={ #PROV8097
+8097={ #Gabgaba
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8838,7 +8838,7 @@
 	province_rank=""
 }
 
-8098={ #PROV8098
+8098={ #Dayyub
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8848,7 +8848,7 @@
 	province_rank=""
 }
 
-8099={ #PROV8099
+8099={ #Meragh
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8858,7 +8858,7 @@
 	province_rank=""
 }
 
-8100={ #PROV8100
+8100={ #Hosh
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8868,7 +8868,7 @@
 	province_rank=""
 }
 
-8101={ #PROV8101
+8101={ #Bum
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8878,7 +8878,7 @@
 	province_rank=""
 }
 
-8102={ #PROV8102
+8102={ #Baggura
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8888,7 +8888,7 @@
 	province_rank=""
 }
 
-8103={ #PROV8103
+8103={ #Samra
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8898,7 +8898,7 @@
 	province_rank=""
 }
 
-8104={ #PROV8104
+8104={ #Fashfash
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8908,7 +8908,7 @@
 	province_rank=""
 }
 
-8105={ #PROV8105
+8105={ #Muqaddam
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8918,7 +8918,7 @@
 	province_rank=""
 }
 
-8106={ #PROV8106
+8106={ #Amara
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8928,7 +8928,7 @@
 	province_rank=""
 }
 
-8107={ #PROV8107
+8107={ #Sennar
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8938,7 +8938,7 @@
 	province_rank=""
 }
 
-8108={ #PROV8108
+8108={ #Jebel Moya
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8948,7 +8948,7 @@
 	province_rank=""
 }
 
-8109={ #PROV8109
+8109={ #Rabak
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8958,7 +8958,7 @@
 	province_rank=""
 }
 
-8110={ #PROV8110
+8110={ #Kawah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8968,7 +8968,7 @@
 	province_rank=""
 }
 
-8111={ #PROV8111
+8111={ #Manaqil
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8978,7 +8978,7 @@
 	province_rank=""
 }
 
-8112={ #PROV8112
+8112={ #Singa
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8988,7 +8988,7 @@
 	province_rank=""
 }
 
-8113={ #PROV8113
+8113={ #Surayj
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8998,7 +8998,7 @@
 	province_rank=""
 }
 
-8114={ #PROV8114
+8114={ #Sabbalo
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9008,7 +9008,7 @@
 	province_rank=""
 }
 
-8115={ #PROV8115
+8115={ #Northern Bayuda Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9018,7 +9018,7 @@
 	province_rank=""
 }
 
-8116={ #PROV8116
+8116={ #Southern Bayuda Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9028,7 +9028,7 @@
 	province_rank=""
 }
 
-8117={ #PROV8117
+8117={ #Troglodytic Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9038,7 +9038,7 @@
 	province_rank=""
 }
 
-8118={ #PROV8118
+8118={ #Upper Egyptian Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9048,7 +9048,7 @@
 	province_rank=""
 }
 
-8119={ #PROV8119
+8119={ #Allaqi Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9058,7 +9058,7 @@
 	province_rank=""
 }
 
-8120={ #PROV8120
+8120={ #Kerman Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9068,7 +9068,7 @@
 	province_rank=""
 }
 
-8121={ #PROV8121
+8121={ #Tubat
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9078,7 +9078,7 @@
 	province_rank=""
 }
 
-8122={ #PROV8122
+8122={ #Jaghbub
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9088,7 +9088,7 @@
 	province_rank=""
 }
 
-8123={ #PROV8123
+8123={ #Tarfawi
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9098,7 +9098,7 @@
 	province_rank=""
 }
 
-8124={ #PROV8124
+8124={ #Qabr
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9108,7 +9108,7 @@
 	province_rank=""
 }
 
-8125={ #PROV8125
+8125={ #Mawahi
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9118,7 +9118,7 @@
 	province_rank=""
 }
 
-8126={ #PROV8126
+8126={ #Gicherra
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9128,7 +9128,7 @@
 	province_rank=""
 }
 
-8127={ #PROV8127
+8127={ #Gialo
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9138,7 +9138,7 @@
 	province_rank=""
 }
 
-8128={ #PROV8128
+8128={ #Augila
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9148,7 +9148,7 @@
 	province_rank=""
 }
 
-8129={ #PROV8129
+8129={ #Bu Athla
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9158,7 +9158,7 @@
 	province_rank=""
 }
 
-8130={ #PROV8130
+8130={ #Sahabi
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9168,7 +9168,7 @@
 	province_rank=""
 }
 
-8131={ #PROV8131
+8131={ #Kalanshah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9178,7 +9178,7 @@
 	province_rank=""
 }
 
-8132={ #PROV8132
+8132={ #Jabbanah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9188,7 +9188,7 @@
 	province_rank=""
 }
 
-8133={ #PROV8133
+8133={ #Maradah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9198,7 +9198,7 @@
 	province_rank=""
 }
 
-8134={ #PROV8134
+8134={ #Jafr
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9208,7 +9208,7 @@
 	province_rank=""
 }
 
-8135={ #PROV8135
+8135={ #Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9218,7 +9218,7 @@
 	province_rank=""
 }
 
-8136={ #PROV8136
+8136={ #Talhah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9228,7 +9228,7 @@
 	province_rank=""
 }
 
-8137={ #PROV8137
+8137={ #Tagrifet
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9238,7 +9238,7 @@
 	province_rank=""
 }
 
-8138={ #PROV8138
+8138={ #Meduin
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9248,7 +9248,7 @@
 	province_rank=""
 }
 
-8139={ #PROV8139
+8139={ #Zala
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9258,7 +9258,7 @@
 	province_rank=""
 }
 
-8140={ #PROV8140
+8140={ #Jufrah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9268,7 +9268,7 @@
 	province_rank=""
 }
 
-8141={ #PROV8141
+8141={ #Fuqaha
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9278,7 +9278,7 @@
 	province_rank=""
 }
 
-8142={ #PROV8142
+8142={ #Waddan
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9288,7 +9288,7 @@
 	province_rank=""
 }
 
-8143={ #PROV8143
+8143={ #Hun
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9298,7 +9298,7 @@
 	province_rank=""
 }
 
-8144={ #PROV8144
+8144={ #Socna
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9308,7 +9308,7 @@
 	province_rank=""
 }
 
-8145={ #PROV8145
+8145={ #Wilyan
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9318,7 +9318,7 @@
 	province_rank=""
 }
 
-8146={ #PROV8146
+8146={ #Tamshin
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9328,7 +9328,7 @@
 	province_rank=""
 }
 
-8147={ #PROV8147
+8147={ #Mughattah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9338,7 +9338,7 @@
 	province_rank=""
 }
 
-8148={ #PROV8148
+8148={ #Eastern Black Mountains
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9348,7 +9348,7 @@
 	province_rank=""
 }
 
-8149={ #PROV8149
+8149={ #Umm Abid
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9358,7 +9358,7 @@
 	province_rank=""
 }
 
-8150={ #PROV8150
+8150={ #Psyllic Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9368,7 +9368,7 @@
 	province_rank=""
 }
 
-8151={ #PROV8151
+8151={ #Harawa
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9378,7 +9378,7 @@
 	province_rank=""
 }
 
-8152={ #PROV8152
+8152={ #Brak
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9388,7 +9388,7 @@
 	province_rank=""
 }
 
-8153={ #PROV8153
+8153={ #Hait
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9398,7 +9398,7 @@
 	province_rank=""
 }
 
-8154={ #PROV8154
+8154={ #Wanin
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9408,7 +9408,7 @@
 	province_rank=""
 }
 
-8155={ #PROV8155
+8155={ #Mahruqah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9418,7 +9418,7 @@
 	province_rank=""
 }
 
-8156={ #PROV8156
+8156={ #Bergin
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9428,7 +9428,7 @@
 	province_rank=""
 }
 
-8157={ #PROV8157
+8157={ #Dedris
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9438,7 +9438,7 @@
 	province_rank=""
 }
 
-8158={ #PROV8158
+8158={ #Shaqiq
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9448,7 +9448,7 @@
 	province_rank=""
 }
 
-8159={ #PROV8159
+8159={ #Adri
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9458,7 +9458,7 @@
 	province_rank=""
 }
 
-8160={ #PROV8160
+8160={ #Adwesa
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9468,7 +9468,7 @@
 	province_rank=""
 }
 
-8161={ #PROV8161
+8161={ #Samnu
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9478,7 +9478,7 @@
 	province_rank=""
 }
 
-8162={ #PROV8162
+8162={ #Sabha
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9488,7 +9488,7 @@
 	province_rank=""
 }
 
-8163={ #PROV8163
+8163={ #Chlef
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9498,7 +9498,7 @@
 	province_rank=""
 }
 
-8164={ #PROV8164
+8164={ #Gelah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9508,7 +9508,7 @@
 	province_rank=""
 }
 
-8165={ #PROV8165
+8165={ #Western Psyllic Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9518,7 +9518,7 @@
 	province_rank=""
 }
 
-8166={ #PROV8166
+8166={ #Lecksair
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9528,7 +9528,7 @@
 	province_rank=""
 }
 
-8167={ #PROV8167
+8167={ #Zamzam Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9538,7 +9538,7 @@
 	province_rank=""
 }
 
-8168={ #PROV8168
+8168={ #Garama
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9548,7 +9548,7 @@
 	province_rank=""
 }
 
-8169={ #PROV8169
+8169={ #Zinchekra
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9558,7 +9558,7 @@
 	province_rank=""
 }
 
-8170={ #PROV8170
+8170={ #Ninah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9568,7 +9568,7 @@
 	province_rank=""
 }
 
-8171={ #PROV8171
+8171={ #Gadduwah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9578,7 +9578,7 @@
 	province_rank=""
 }
 
-8172={ #PROV8172
+8172={ #Daydaban
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9588,7 +9588,7 @@
 	province_rank=""
 }
 
-8173={ #PROV8173
+8173={ #Traghen
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9598,7 +9598,7 @@
 	province_rank=""
 }
 
-8174={ #PROV8174
+8174={ #Murzuq
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9608,7 +9608,7 @@
 	province_rank=""
 }
 
-8175={ #PROV8175
+8175={ #Dujal
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9618,7 +9618,7 @@
 	province_rank=""
 }
 
-8176={ #PROV8176
+8176={ #Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9628,7 +9628,7 @@
 	province_rank=""
 }
 
-8177={ #PROV8177
+8177={ #Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9638,7 +9638,7 @@
 	province_rank=""
 }
 
-8178={ #PROV8178
+8178={ #Sharraba
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9648,7 +9648,7 @@
 	province_rank=""
 }
 
-8179={ #PROV8179
+8179={ #Baghira
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9658,7 +9658,7 @@
 	province_rank=""
 }
 
-8180={ #PROV8180
+8180={ #Harakat
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9668,7 +9668,7 @@
 	province_rank=""
 }
 
-8181={ #PROV8181
+8181={ #Zuwila
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9678,7 +9678,7 @@
 	province_rank=""
 }
 
-8182={ #PROV8182
+8182={ #Tmessa
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9688,7 +9688,7 @@
 	province_rank=""
 }
 
-8183={ #PROV8183
+8183={ #Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9698,7 +9698,7 @@
 	province_rank=""
 }
 
-8184={ #PROV8184
+8184={ #Tisit
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9708,7 +9708,7 @@
 	province_rank=""
 }
 
-8185={ #PROV8185
+8185={ #Garamantic Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9718,7 +9718,7 @@
 	province_rank=""
 }
 
-8186={ #PROV8186
+8186={ #Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9728,7 +9728,7 @@
 	province_rank=""
 }
 
-8187={ #PROV8187
+8187={ #Western Black Mountains
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9738,7 +9738,7 @@
 	province_rank=""
 }
 
-8188={ #PROV8188
+8188={ #Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9748,7 +9748,7 @@
 	province_rank=""
 }
 
-8189={ #PROV8189
+8189={ #Majdul
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9758,7 +9758,7 @@
 	province_rank=""
 }
 
-8190={ #PROV8190
+8190={ #Terbu
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9768,7 +9768,7 @@
 	province_rank=""
 }
 
-8191={ #PROV8191
+8191={ #Izam
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9778,7 +9778,7 @@
 	province_rank=""
 }
 
-8192={ #PROV8192
+8192={ #Qatrun
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9788,7 +9788,7 @@
 	province_rank=""
 }
 
-8193={ #PROV8193
+8193={ #Tajhiri
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9798,7 +9798,7 @@
 	province_rank=""
 }
 
-8194={ #PROV8194
+8194={ #Mastutah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9808,7 +9808,7 @@
 	province_rank=""
 }
 
-8195={ #PROV8195
+8195={ #Jashalam
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9818,7 +9818,7 @@
 	province_rank=""
 }
 
-8196={ #PROV8196
+8196={ #Gholaia
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9828,7 +9828,7 @@
 	province_rank=""
 }
 
-8197={ #PROV8197
+8197={ #Zayden
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9838,7 +9838,7 @@
 	province_rank=""
 }
 
-8198={ #PROV8198
+8198={ #Auxiqua
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9848,7 +9848,7 @@
 	province_rank=""
 }
 
-8199={ #PROV8199
+8199={ #Manfuchia
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9858,7 +9858,7 @@
 	province_rank=""
 }
 
-8200={ #PROV8200
+8200={ #Nagdiyah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9868,7 +9868,7 @@
 	province_rank=""
 }
 
-8201={ #PROV8201
+8201={ #Qarinah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9878,7 +9878,7 @@
 	province_rank=""
 }
 
-8202={ #PROV8202
+8202={ #Majdubiyah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9888,7 +9888,7 @@
 	province_rank=""
 }
 
-8203={ #PROV8203
+8203={ #Faschia
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9898,7 +9898,7 @@
 	province_rank=""
 }
 
-8204={ #PROV8204
+8204={ #Ghirza
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9908,7 +9908,7 @@
 	province_rank=""
 }
 
-8205={ #PROV8205
+8205={ #Scedeua
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9918,7 +9918,7 @@
 	province_rank=""
 }
 
-8206={ #PROV8206
+8206={ #Duraybikah
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9928,7 +9928,7 @@
 	province_rank=""
 }
 
-8207={ #PROV8207
+8207={ #Gharbya
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9938,7 +9938,7 @@
 	province_rank=""
 }
 
-9373={ #交阯山脉
+9373={ #Impassable
 	terrain="impassable_terrain"
 	culture="lacviet"
 	religion="baiyue_religions"
@@ -9948,7 +9948,7 @@
 	province_rank=""
 }
 
-9374={ #雒越
+9374={ #Impassable
 	terrain="impassable_terrain"
 	culture="lacviet"
 	religion="baiyue_religions"
@@ -9958,7 +9958,7 @@
 	province_rank=""
 }
 
-9375={ #湄公河谷地
+9375={ #Impassable
 	terrain="impassable_terrain"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -9968,7 +9968,7 @@
 	province_rank=""
 }
 
-9376={ #林邑高地
+9376={ #Impassable
 	terrain="impassable_terrain"
 	culture="linyi"
 	religion="baiyue_religions"
@@ -9978,7 +9978,7 @@
 	province_rank=""
 }
 
-9377={ #夷洲
+9377={ #Impassable
 	terrain="impassable_terrain"
 	culture="yizhou"
 	religion="baiyue_religions"
@@ -9988,7 +9988,7 @@
 	province_rank=""
 }
 
-9378={ #东南大海岛屿
+9378={ #Impassable
 	terrain="impassable_terrain"
 	culture="yizhou"
 	religion="baiyue_religions"
@@ -9998,7 +9998,7 @@
 	province_rank=""
 }
 
-9379={ #东南大海岛屿
+9379={ #Impassable
 	terrain="impassable_terrain"
 	culture="yizhou"
 	religion="baiyue_religions"
@@ -10008,7 +10008,7 @@
 	province_rank=""
 }
 
-9380={ #虾夷地
+9380={ #Impassable
 	terrain="impassable_terrain"
 	culture="ainu"
 	religion="yi_religions"
@@ -10018,7 +10018,7 @@
 	province_rank=""
 }
 
-9381={ #大漠
+9381={ #Impassable
 	terrain="impassable_terrain"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -10028,7 +10028,7 @@
 	province_rank=""
 }
 
-9385={ #靺鞨
+9385={ #Impassable
 	terrain="impassable_terrain"
 	culture="sushen"
 	religion="yi_religions"
@@ -10038,7 +10038,7 @@
 	province_rank=""
 }
 
-9389={ #北海
+9389={ #Impassable
 	terrain="impassable_terrain"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -10048,7 +10048,7 @@
 	province_rank=""
 }
 
-9390={ #赐支河首
+9390={ #Impassable
 	terrain="impassable_terrain"
 	culture="qiang"
 	religion="bon_religion"
@@ -10058,7 +10058,7 @@
 	province_rank=""
 }
 
-9391={ #岷山
+9391={ #Impassable
 	terrain="impassable_terrain"
 	culture="di_qiang"
 	religion="bon_religion"
@@ -10068,7 +10068,7 @@
 	province_rank=""
 }
 
-9766={ #东萨喀草原
+9766={ #D PROV9766!
 	terrain="impassable_terrain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -10078,7 +10078,7 @@
 	province_rank=""
 }
 
-9767={ #喀喇昆仑山北
+9767={ #D PROV9767!
 	terrain="impassable_terrain"
 	culture="zhangzhung"
 	religion="bon_religion"
@@ -10088,7 +10088,7 @@
 	province_rank=""
 }
 
-9768={ #昆仑
+9768={ #D PROV9768!
 	terrain="impassable_terrain"
 	culture="ruoqiang"
 	religion="bon_religion"
@@ -10098,7 +10098,7 @@
 	province_rank=""
 }
 
-9769={ #坚昆谷地
+9769={ #D PROV9769!
 	terrain="impassable_terrain"
 	culture="jiankun"
 	religion="hu_religions"
@@ -10108,7 +10108,7 @@
 	province_rank=""
 }
 
-9770={ #金山
+9770={ #D PROV9770!
 	terrain="impassable_terrain"
 	culture="jiankun"
 	religion="hu_religions"
@@ -10118,7 +10118,7 @@
 	province_rank=""
 }
 
-9771={ #西域草原
+9771={ #D PROV9771!
 	terrain="impassable_terrain"
 	culture="hujie"
 	religion="hu_religions"
@@ -10128,7 +10128,7 @@
 	province_rank=""
 }
 
-9772={ #狼居胥山
+9772={ #D PROV9772!
 	terrain="impassable_terrain"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -10138,7 +10138,7 @@
 	province_rank=""
 }
 
-9773={ #黑水
+9773={ #D PROV9773!
 	terrain="impassable_terrain"
 	culture="xianbei"
 	religion="hu_religions"
@@ -10148,7 +10148,7 @@
 	province_rank=""
 }
 
-9774={ #难河
+9774={ #D PROV9774!
 	terrain="impassable_terrain"
 	culture="xianbei"
 	religion="hu_religions"
@@ -10158,7 +10158,7 @@
 	province_rank=""
 }
 
-9775={ #大鲜卑山北
+9775={ #D PROV9775!
 	terrain="impassable_terrain"
 	culture="xianbei"
 	religion="hu_religions"
@@ -10168,7 +10168,7 @@
 	province_rank=""
 }
 
-9838={ #伊洛瓦底三角洲
+9838={ #D PROV9838!
 	terrain="impassable_terrain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -10178,7 +10178,7 @@
 	province_rank=""
 }
 
-9839={ #僄越
+9839={ #D PROV9839!
 	terrain="impassable_terrain"
 	culture="piaoyue"
 	religion="bon_religion"
@@ -10188,7 +10188,7 @@
 	province_rank=""
 }
 
-9840={ #东吁
+9840={ #D PROV9840!
 	terrain="impassable_terrain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -10198,7 +10198,7 @@
 	province_rank=""
 }
 
-9841={ #他念他翁山
+9841={ #D PROV9841!
 	terrain="impassable_terrain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -10208,7 +10208,7 @@
 	province_rank=""
 }
 
-9842={ #招披耶河谷地
+9842={ #D PROV9842!
 	terrain="impassable_terrain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -10218,7 +10218,7 @@
 	province_rank=""
 }
 
-9843={ #怒江谷地
+9843={ #D PROV9843!
 	terrain="impassable_terrain"
 	culture="piaoyue"
 	religion="bon_religion"
@@ -10228,7 +10228,7 @@
 	province_rank=""
 }
 
-9844={ #哈里奔猜
+9844={ #D PROV9844!
 	terrain="impassable_terrain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -10238,7 +10238,7 @@
 	province_rank=""
 }
 
-9845={ #扁担山脉
+9845={ #D PROV9845!
 	terrain="impassable_terrain"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -10248,7 +10248,7 @@
 	province_rank=""
 }
 
-9846={ #真腊山地
+9846={ #D PROV9846!
 	terrain="impassable_terrain"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -10258,7 +10258,7 @@
 	province_rank=""
 }
 
-9847={ #扶南山地
+9847={ #D PROV9847!
 	terrain="impassable_terrain"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -10268,7 +10268,7 @@
 	province_rank=""
 }
 
-9848={ #金瓯角
+9848={ #D PROV9848!
 	terrain="impassable_terrain"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -10278,7 +10278,7 @@
 	province_rank=""
 }
 
-9849={ #扶南海岸
+9849={ #D PROV9849!
 	terrain="impassable_terrain"
 	culture="phnom"
 	religion="baiyue_religions"
@@ -10288,7 +10288,7 @@
 	province_rank=""
 }
 
-9850={ #陀洹山脉
+9850={ #D PROV9850!
 	terrain="impassable_terrain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -10298,7 +10298,7 @@
 	province_rank=""
 }
 
-9851={ #拘利
+9851={ #D PROV9851!
 	terrain="impassable_terrain"
 	culture="suvarnabhumi"
 	religion="baiyue_religions"
@@ -10308,7 +10308,7 @@
 	province_rank=""
 }
 
-9852={ #恒河湾
+9852={ #D PROV9852!
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10318,7 +10318,7 @@
 	province_rank=""
 }
 
-9853={ #恒河湾
+9853={ #D PROV9853!
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10328,7 +10328,7 @@
 	province_rank=""
 }
 
-9854={ #恒河湾
+9854={ #D PROV9854!
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10338,7 +10338,7 @@
 	province_rank=""
 }
 
-9855={ #恒河湾
+9855={ #D PROV9855!
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10348,7 +10348,7 @@
 	province_rank=""
 }
 
-9856={ #恒河湾
+9856={ #D PROV9856!
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10358,7 +10358,7 @@
 	province_rank=""
 }
 
-9857={ #恒河湾
+9857={ #D PROV9857!
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10368,7 +10368,7 @@
 	province_rank=""
 }
 
-9858={ #金邻大湾
+9858={ #D PROV9858!
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10378,7 +10378,7 @@
 	province_rank=""
 }
 
-9859={ #金邻大湾
+9859={ #D PROV9859!
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10388,7 +10388,7 @@
 	province_rank=""
 }
 
-9860={ #金邻大湾
+9860={ #Sea
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10398,7 +10398,7 @@
 	province_rank=""
 }
 
-9861={ #南海
+9861={ #Sea
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10408,7 +10408,7 @@
 	province_rank=""
 }
 
-9862={ #金邻大湾
+9862={ #Sea
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10418,7 +10418,7 @@
 	province_rank=""
 }
 
-9863={ #南海
+9863={ #Sea
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10428,7 +10428,7 @@
 	province_rank=""
 }
 
-9864={ #南海
+9864={ #Sea
 	terrain="true_ocean_coastal_terrain"
 	culture=""
 	religion=""
@@ -10438,7 +10438,7 @@
 	province_rank=""
 }
 
-9865={ #海洋
+9865={ #Impassable
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -10448,7 +10448,7 @@
 	province_rank=""
 }
 
-9866={ #海洋
+9866={ #Impassable
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -10458,7 +10458,7 @@
 	province_rank=""
 }
 
-9867={ #海洋
+9867={ #Impassable
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -10468,7 +10468,7 @@
 	province_rank=""
 }
 
-9868={ #海洋
+9868={ #Impassable
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -10478,7 +10478,7 @@
 	province_rank=""
 }
 
-9869={ #海洋
+9869={ #Impassable
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -10488,7 +10488,7 @@
 	province_rank=""
 }
 
-9870={ #海洋
+9870={ #Impassable
 	terrain="ocean"
 	culture=""
 	religion=""

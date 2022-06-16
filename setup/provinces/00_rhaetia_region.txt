@@ -1,4 +1,4 @@
-﻿3537={ #毛里恩纳
+﻿3537={ #Maurienna
 	terrain="mountain"
 	culture="salluvian"
 	religion="druidism"
@@ -14,7 +14,7 @@
 	}
 }
 
-3538={ #沃卢德尼亚
+3538={ #Voludnia
 	terrain="mountain"
 	culture="salluvian"
 	religion="druidism"
@@ -36,7 +36,7 @@
 	}
 }
 
-3539={ #拉比斯孔
+3539={ #Labisco
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -55,7 +55,7 @@
 	}
 }
 
-3608={ #曼塔拉
+3608={ #Mantala
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -71,7 +71,7 @@
 	}
 }
 
-3609={ #浦布利卡诺斯
+3609={ #Ad Publicanos
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -90,7 +90,7 @@
 	}
 }
 
-3610={ #达览塔西亚
+3610={ #Darantasia
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -106,7 +106,7 @@
 	}
 }
 
-3611={ #萨拉西亚
+3611={ #Salassia
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -128,7 +128,7 @@
 	}
 }
 
-3612={ #欧德拉基农
+3612={ #Eudracinum
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -144,7 +144,7 @@
 	}
 }
 
-3613={ #俄克托杜鲁斯
+3613={ #Octodurus
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -163,7 +163,7 @@
 	}
 }
 
-3614={ #布雷诺杜农
+3614={ #Brenodunum
 	terrain="mountain"
 	culture="helvetian"
 	religion="druidism"
@@ -180,7 +180,7 @@
 	holy_site=omen_ogmios
 }
 
-3615={ #阿尔庇努斯山
+3615={ #Mons Alpinus
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -199,7 +199,7 @@
 	}
 }
 
-3616={ #库里亚
+3616={ #Curia
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -218,7 +218,7 @@
 	}
 }
 
-3617={ #克劳纳
+3617={ #Clauna
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -240,7 +240,7 @@
 	}
 }
 
-3618={ #苏穆斯湖
+3618={ #Summus Lacus
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -259,7 +259,7 @@
 	}
 }
 
-3619={ #赖提亚的克卢尼亚
+3619={ #Clunia Raetia
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -275,7 +275,7 @@
 	}
 }
 
-3620={ #俄比隆纳
+3620={ #Obilonna
 	terrain="mountain"
 	culture="lepontic"
 	religion="druidism"
@@ -291,7 +291,7 @@
 	}
 }
 
-3621={ #维涅托尼马顾斯
+3621={ #Venetonimagus
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -310,7 +310,7 @@
 	}
 }
 
-3622={ #伊萨耳诺杜戎
+3622={ #Isarnodurum
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -326,7 +326,7 @@
 	}
 }
 
-3623={ #玻乌泰
+3623={ #Boutae
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -342,7 +342,7 @@
 	}
 }
 
-3624={ #革纳瓦
+3624={ #Genava
 	terrain="mountain"
 	culture="helvetian"
 	religion="druidism"
@@ -364,7 +364,7 @@
 	}
 }
 
-3625={ #厄逵斯特里斯
+3625={ #Equestris
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -383,7 +383,7 @@
 	}
 }
 
-3626={ #安特罗
+3626={ #Antro
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -402,7 +402,7 @@
 	}
 }
 
-3627={ #玻德加利翁
+3627={ #Bodgalio
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -421,7 +421,7 @@
 	}
 }
 
-3628={ #腓洛穆西亚孔
+3628={ #Filomusiacum
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -440,7 +440,7 @@
 	}
 }
 
-3629={ #劳宋纳
+3629={ #Lausonna
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -462,7 +462,7 @@
 	}
 }
 
-3630={ #阿文提孔
+3630={ #Aventicum
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -478,7 +478,7 @@
 	}
 }
 
-3631={ #佩提涅斯卡
+3631={ #Petinesca
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -497,7 +497,7 @@
 	}
 }
 
-3632={ #萨洛杜戎
+3632={ #Salodurum
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -516,7 +516,7 @@
 	}
 }
 
-3633={ #温多尼斯萨
+3633={ #Vindonissa
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -535,7 +535,7 @@
 	}
 }
 
-3634={ #维图杜戎
+3634={ #Vitudurum
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -554,7 +554,7 @@
 	}
 }
 
-3635={ #君士坦提亚
+3635={ #Constantia
 	terrain="hills"
 	culture="helvetian"
 	religion="druidism"
@@ -570,7 +570,7 @@
 	}
 }
 
-3636={ #布里甘提翁
+3636={ #Brigantium
 	terrain="hills"
 	culture="vindelician"
 	religion="druidism"
@@ -592,7 +592,7 @@
 	}
 }
 
-3637={ #维耳纳尼亚
+3637={ #Vernania
 	terrain="hills"
 	culture="vindelician"
 	religion="druidism"
@@ -611,7 +611,7 @@
 	}
 }
 
-3638={ #坎玻杜农
+3638={ #Cambodunum
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -633,7 +633,7 @@
 	}
 }
 
-3639={ #阿耳玻耳 斐利克斯
+3639={ #Arbor Felix
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -649,7 +649,7 @@
 	}
 }
 
-3640={ #达马西亚
+3640={ #Damasia
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -668,7 +668,7 @@
 	}
 }
 
-3641={ #科维利恺堡
+3641={ #Arces Covelicae
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -684,7 +684,7 @@
 	}
 }
 
-3642={ #伊西尼斯卡
+3642={ #Isinisca
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -703,7 +703,7 @@
 	}
 }
 
-3643={ #阿耳托布里加
+3643={ #Artobriga
 	terrain="plains"
 	culture="noric"
 	religion="druidism"
@@ -719,7 +719,7 @@
 	}
 }
 
-3644={ #尤瓦翁
+3644={ #Iuvavum
 	terrain="plains"
 	culture="noric"
 	religion="druidism"
@@ -738,7 +738,7 @@
 	}
 }
 
-3645={ #拉基亚孔
+3645={ #Laciacum
 	terrain="hills"
 	culture="noric"
 	religion="druidism"
@@ -757,7 +757,7 @@
 	}
 }
 
-3646={ #忒耳戈拉佩
+3646={ #Tergolape
 	terrain="hills"
 	culture="noric"
 	religion="druidism"
@@ -773,7 +773,7 @@
 	}
 }
 
-3647={ #俄维拉瓦
+3647={ #Ovilava
 	terrain="hills"
 	culture="noric"
 	religion="druidism"
@@ -789,7 +789,7 @@
 	}
 }
 
-3648={ #劳里亚孔
+3648={ #Lauriacum
 	terrain="hills"
 	culture="noric"
 	religion="druidism"
@@ -808,7 +808,7 @@
 	}
 }
 
-3649={ #洛阿库斯·斐利西斯
+3649={ #Loacus Felicis
 	terrain="hills"
 	culture="noric"
 	religion="druidism"
@@ -830,7 +830,7 @@
 	}
 }
 
-3654={ #福厄忒斯
+3654={ #Foetes
 	terrain="mountain"
 	culture="vindelician"
 	religion="druidism"
@@ -849,7 +849,7 @@
 	}
 }
 
-3655={ #提拉利亚
+3655={ #Tiralia
 	terrain="mountain"
 	culture="rhaetian"
 	religion="roman_pantheon"
@@ -871,7 +871,7 @@
 	}
 }
 
-3656={ #上阿尔卑斯
+3656={ #Alpis Superior
 	terrain="mountain"
 	culture="rhaetian"
 	religion="roman_pantheon"
@@ -893,7 +893,7 @@
 	}
 }
 
-3657={ #下阿尔卑斯
+3657={ #Alpis Inferior
 	terrain="mountain"
 	culture="rhaetian"
 	religion="roman_pantheon"
@@ -912,7 +912,7 @@
 	}
 }
 
-3658={ #斯塔提奥·迈恩西斯
+3658={ #Statio Maiensis
 	terrain="mountain"
 	culture="rhaetian"
 	religion="roman_pantheon"
@@ -934,7 +934,7 @@
 	}
 }
 
-3659={ #瓦得纳
+3659={ #Vadena
 	terrain="hills"
 	culture="rhaetian"
 	religion="roman_pantheon"
@@ -956,7 +956,7 @@
 	}
 }
 
-3660={ #萨卢耳尼斯
+3660={ #Salurnis
 	terrain="hills"
 	culture="rhaetian"
 	religion="roman_pantheon"
@@ -975,7 +975,7 @@
 	}
 }
 
-3663={ #苏布拉维俄涅
+3663={ #Sublavione
 	terrain="mountain"
 	culture="rhaetian"
 	religion="roman_pantheon"
@@ -997,7 +997,7 @@
 	}
 }
 
-3664={ #瑟巴同
+3664={ #Sebatum
 	terrain="mountain"
 	culture="noric"
 	religion="druidism"
@@ -1016,7 +1016,7 @@
 	}
 }
 
-3665={ #维庇忒农
+3665={ #Vipitenum
 	terrain="mountain"
 	culture="rhaetian"
 	religion="roman_pantheon"
@@ -1032,7 +1032,7 @@
 	}
 }
 
-3666={ #马斯提亚孔
+3666={ #Mastiacum
 	terrain="mountain"
 	culture="vindelician"
 	religion="druidism"
@@ -1051,7 +1051,7 @@
 	}
 }
 
-3667={ #阿贡同
+3667={ #Aguntum
 	terrain="mountain"
 	culture="noric"
 	religion="druidism"
@@ -1067,7 +1067,7 @@
 	}
 }
 
-3668={ #透耳尼亚
+3668={ #Teurnia
 	terrain="mountain"
 	culture="noric"
 	religion="druidism"
@@ -1086,7 +1086,7 @@
 	}
 }
 
-3669={ #穆里翁
+3669={ #In Murio
 	terrain="mountain"
 	culture="noric"
 	religion="druidism"
@@ -1102,7 +1102,7 @@
 	}
 }
 
-3670={ #阿尼苏斯
+3670={ #Anisus
 	terrain="mountain"
 	culture="noric"
 	religion="druidism"
@@ -1121,7 +1121,7 @@
 	}
 }
 
-3671={ #维鲁农
+3671={ #Virunum
 	terrain="mountain"
 	culture="carnian"
 	religion="druidism"
@@ -1143,7 +1143,7 @@
 	}
 }
 
-3672={ #诺雷亚
+3672={ #Noreia
 	terrain="mountain"
 	culture="noric"
 	religion="druidism"
@@ -1162,7 +1162,7 @@
 	}
 }
 
-3673={ #萨巴廷卡
+3673={ #Sabatinca
 	terrain="mountain"
 	culture="noric"
 	religion="druidism"
@@ -1181,7 +1181,7 @@
 	}
 }
 
-3674={ #加布拉马顾斯
+3674={ #Gabramagus
 	terrain="mountain"
 	culture="noric"
 	religion="druidism"
@@ -1200,7 +1200,7 @@
 	}
 }
 
-3731={ #布里戈巴尼斯
+3731={ #Brigobannis
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -1216,7 +1216,7 @@
 	}
 }
 
-3732={ #塔斯革提翁
+3732={ #Tasgetium
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -1232,7 +1232,7 @@
 	}
 }
 
-3733={ #佛拉维亚的阿赖
+3733={ #Arae Flaviae
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -1254,7 +1254,7 @@
 	}
 }
 
-3734={ #苏墨洛肯纳
+3734={ #Sumelocenna
 	terrain="forest"
 	culture="helvetian"
 	religion="druidism"
@@ -1270,7 +1270,7 @@
 	}
 }
 
-3739={ #维马尼亚
+3739={ #Vemania
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -1286,7 +1286,7 @@
 	}
 }
 
-3740={ #卡斯西利亚孔
+3740={ #Cassiliacum
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -1302,7 +1302,7 @@
 	}
 }
 
-3741={ #恺利乌斯山
+3741={ #Caelius Mons
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1318,7 +1318,7 @@
 	}
 }
 
-3742={ #维亚纳
+3742={ #Viana
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -1334,7 +1334,7 @@
 	}
 }
 
-3743={ #里乌西亚瓦
+3743={ #Riusiava
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -1350,7 +1350,7 @@
 	}
 }
 
-3744={ #布拉戈杜戎
+3744={ #Bragodurum
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1366,7 +1366,7 @@
 	}
 }
 
-3745={ #西赖提亚
+3745={ #Raetia Occidentalis
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1382,7 +1382,7 @@
 	}
 }
 
-3746={ #东赖提亚
+3746={ #Raetia Orientalis
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1398,7 +1398,7 @@
 	}
 }
 
-3747={ #纳沃阿
+3747={ #Navoa
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1417,7 +1417,7 @@
 	}
 }
 
-3748={ #涅马维亚的罗斯特戎
+3748={ #Rostrum Nemaviae
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1436,7 +1436,7 @@
 	}
 }
 
-3749={ #温得利基亚
+3749={ #Vindelicia
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1452,7 +1452,7 @@
 	}
 }
 
-3750={ #拉庇斯
+3750={ #Rapis
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1468,7 +1468,7 @@
 	}
 }
 
-3751={ #阿玻迪亚孔
+3751={ #Abodiacum
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1487,7 +1487,7 @@
 	}
 }
 
-3752={ #阿姆布赖
+3752={ #Ambrae
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1506,7 +1506,7 @@
 	}
 }
 
-3753={ #布拉塔纳尼翁
+3753={ #Bratananium
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1522,7 +1522,7 @@
 	}
 }
 
-3754={ #桥边的忒瑟尼俄斯
+3754={ #Ad Pontes Tessenios
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1538,7 +1538,7 @@
 	}
 }
 
-3755={ #布柔尼亚的图戎
+3755={ #Turum Breunorum
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1557,7 +1557,7 @@
 	}
 }
 
-3756={ #伊俄维苏拉
+3756={ #Iovisura
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1573,7 +1573,7 @@
 	}
 }
 
-3757={ #刻琉宋
+3757={ #Celeusum
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1592,7 +1592,7 @@
 	}
 }
 
-3758={ #雷吉纳兵营
+3758={ #Castra Regina
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1608,7 +1608,7 @@
 	}
 }
 
-3759={ #索耳维俄杜戎
+3759={ #Sorviodurum
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1624,7 +1624,7 @@
 	}
 }
 
-3760={ #佩特壬西部斯
+3760={ #Petrensibus
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1640,7 +1640,7 @@
 	}
 }
 
-3761={ #巴塔维斯
+3761={ #Batavis
 	terrain="plains"
 	culture="noric"
 	religion="druidism"
@@ -1659,7 +1659,7 @@
 	}
 }
 
-3762={ #斯塔纳孔
+3762={ #Stanacum
 	terrain="plains"
 	culture="noric"
 	religion="druidism"
@@ -1678,7 +1678,7 @@
 	}
 }
 
-3763={ #伊俄维亚孔
+3763={ #Ioviacum
 	terrain="plains"
 	culture="noric"
 	religion="druidism"
@@ -1697,7 +1697,7 @@
 	}
 }
 
-3764={ #印纳巴
+3764={ #Innaba
 	terrain="plains"
 	culture="noric"
 	religion="druidism"
@@ -1716,7 +1716,7 @@
 	}
 }
 
-3765={ #阿部西纳
+3765={ #Abusina
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1738,7 +1738,7 @@
 	}
 }
 
-3766={ #日耳曼尼孔
+3766={ #Germanicum
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1751,7 +1751,7 @@
 	}
 }
 
-3767={ #比里基亚纳
+3767={ #Biriciana
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1770,7 +1770,7 @@
 	}
 }
 
-3768={ #文得利基亚的墨狄亚纳
+3768={ #Mediana Vendelicia
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -1783,7 +1783,7 @@
 	}
 }
 
-3769={ #洛索迪卡
+3769={ #Losodica
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -1799,7 +1799,7 @@
 	}
 }
 
-3770={ #卢纳
+3770={ #Ad Lunam
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1812,7 +1812,7 @@
 	}
 }
 
-3771={ #日耳曼尼亚的阿奎勒亚
+3771={ #Aquileia Germanica
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1831,7 +1831,7 @@
 	}
 }
 
-3772={ #日耳曼尼亚的腓涅斯
+3772={ #Ad Fines Germaniae
 	terrain="forest"
 	culture="vindelician"
 	religion="druidism"
@@ -1850,7 +1850,7 @@
 	}
 }
 
-3773={ #维纳克萨摩杜戎
+3773={ #Venaxamodurum
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1869,7 +1869,7 @@
 	}
 }
 
-3774={ #帕耳罗杜农
+3774={ #Parrodunum
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
@@ -1885,7 +1885,7 @@
 	}
 }
 
-3775={ #宋蒙托里翁
+3775={ #Summuntorium
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"

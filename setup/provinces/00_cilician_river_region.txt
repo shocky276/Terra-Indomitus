@@ -1,4 +1,4 @@
-﻿8028={ #皮拉摩斯河
+﻿8028={ #Pyramus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-8029={ #皮拉摩斯河
+8029={ #Pyramus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-8051={ #居德努斯
+8051={ #Cydnus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

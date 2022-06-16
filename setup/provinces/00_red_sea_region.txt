@@ -1,4 +1,4 @@
-﻿652={ #赫洛俄波利斯湾
+﻿652={ #Sinus Heroopoliticus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-653={ #阿拉伯湾
+653={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-654={ #阿拉伯湾
+654={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-1473={ #阿拉伯湾
+1473={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-1474={ #阿拉伯湾
+1474={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-1475={ #阿拉伯湾
+1475={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-1476={ #阿拉伯湾
+1476={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-1477={ #阿拉伯湾
+1477={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -78,7 +78,7 @@
 	province_rank=""
 }
 
-1478={ #阿拉伯湾
+1478={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -88,7 +88,7 @@
 	province_rank=""
 }
 
-1479={ #阿拉伯湾
+1479={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -98,7 +98,7 @@
 	province_rank=""
 }
 
-1480={ #阿拉伯湾
+1480={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -108,7 +108,7 @@
 	province_rank=""
 }
 
-1481={ #阿拉伯湾
+1481={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -118,7 +118,7 @@
 	province_rank=""
 }
 
-1482={ #阿拉伯湾
+1482={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -128,7 +128,7 @@
 	province_rank=""
 }
 
-1483={ #阿拉伯湾
+1483={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -138,7 +138,7 @@
 	province_rank=""
 }
 
-1484={ #阿拉伯湾
+1484={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -148,7 +148,7 @@
 	province_rank=""
 }
 
-1485={ #阿拉伯湾
+1485={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -158,7 +158,7 @@
 	province_rank=""
 }
 
-1486={ #阿拉伯湾
+1486={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -168,7 +168,7 @@
 	province_rank=""
 }
 
-1487={ #阿拉伯湾
+1487={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -178,7 +178,7 @@
 	province_rank=""
 }
 
-1488={ #阿拉伯湾
+1488={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -188,7 +188,7 @@
 	province_rank=""
 }
 
-1490={ #阿拉伯湾
+1490={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -198,7 +198,7 @@
 	province_rank=""
 }
 
-1491={ #阿拉伯湾
+1491={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -208,7 +208,7 @@
 	province_rank=""
 }
 
-1492={ #阿拉伯湾
+1492={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -218,7 +218,7 @@
 	province_rank=""
 }
 
-1493={ #阿拉伯湾
+1493={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -228,7 +228,7 @@
 	province_rank=""
 }
 
-1494={ #阿拉伯湾
+1494={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -238,7 +238,7 @@
 	province_rank=""
 }
 
-1495={ #阿拉伯湾
+1495={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -248,7 +248,7 @@
 	province_rank=""
 }
 
-1496={ #阿拉伯湾
+1496={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -258,7 +258,7 @@
 	province_rank=""
 }
 
-1497={ #阿拉伯湾
+1497={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -268,7 +268,7 @@
 	province_rank=""
 }
 
-1498={ #阿拉伯湾
+1498={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -278,7 +278,7 @@
 	province_rank=""
 }
 
-1499={ #阿拉伯湾
+1499={ #Sinus Arabicus
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -288,7 +288,7 @@
 	province_rank=""
 }
 
-7743={ #赫洛俄波利斯湾
+7743={ #Sinus Heroopoliticus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -298,7 +298,7 @@
 	province_rank=""
 }
 
-7744={ #赫洛俄波利斯湾
+7744={ #Sinus Heroopoliticus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -308,7 +308,7 @@
 	province_rank=""
 }
 
-7745={ #阿拉伯湾
+7745={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -318,7 +318,7 @@
 	province_rank=""
 }
 
-7746={ #阿拉伯湾
+7746={ #Sinus Arabicus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""

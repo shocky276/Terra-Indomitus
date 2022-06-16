@@ -1,4 +1,4 @@
-﻿7724={ #雷努斯河
+﻿7724={ #Rhenus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -8,7 +8,7 @@
 	province_rank=""
 }
 
-7725={ #雷努斯河
+7725={ #Rhenus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -18,7 +18,7 @@
 	province_rank=""
 }
 
-7726={ #雷努斯河
+7726={ #Rhenus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -28,7 +28,7 @@
 	province_rank=""
 }
 
-7727={ #雷努斯河
+7727={ #Rhenus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -38,7 +38,7 @@
 	province_rank=""
 }
 
-7728={ #雷努斯河
+7728={ #Rhenus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -48,7 +48,7 @@
 	province_rank=""
 }
 
-7729={ #雷努斯河
+7729={ #Rhenus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -58,7 +58,7 @@
 	province_rank=""
 }
 
-7730={ #雷努斯河
+7730={ #Rhenus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -68,7 +68,7 @@
 	province_rank=""
 }
 
-7731={ #雷努斯河
+7731={ #Rhenus
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

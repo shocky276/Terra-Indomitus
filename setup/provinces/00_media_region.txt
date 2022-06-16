@@ -1,4 +1,4 @@
-﻿1594={ #米底亚的赫拉克利亚
+﻿1594={ #Herakleia Medias
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -14,7 +14,7 @@
 	}
 }
 
-1595={ #厄克巴塔那
+1595={ #Epiphaneia Ekbatana
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -65,7 +65,7 @@
 	holy_site=omen_esther
 }
 
-1596={ #阿帕墨亚
+1596={ #Apameia Medias
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -87,7 +87,7 @@
 	}
 }
 
-1597={ #孔科巴耳
+1597={ #Konkobar
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -113,7 +113,7 @@
 	}
 }
 
-1598={ #庇素通
+1598={ #Bagastana
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -135,7 +135,7 @@
 	}
 }
 
-1599={ #得纳巴兰
+1599={ #Darathe
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -157,7 +157,7 @@
 	}
 }
 
-1601={ #尼亚利亚的尼开亚
+1601={ #Nikaia Nialia
 	terrain="mountain"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -176,7 +176,7 @@
 	}
 }
 
-1602={ #科里涅
+1602={ #Korine
 	terrain="mountain"
 	culture="cossian"
 	religion="zoroaster"
@@ -198,7 +198,7 @@
 	}
 }
 
-3381={ #阿拉姆
+3381={ #Sigriane
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -217,7 +217,7 @@
 	}
 }
 
-3382={ #巴阿卡
+3382={ #Baaka
 	terrain="dry_plains"
 	culture="amardian"
 	religion="zoroaster"
@@ -239,7 +239,7 @@
 	}
 }
 
-3391={ #阿纳洛乌斯
+3391={ #Anarous
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -258,7 +258,7 @@
 	}
 }
 
-3392={ #瑟巴比基纳
+3392={ #Sebabikina
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -280,7 +280,7 @@
 	}
 }
 
-3393={ #温迪耳尼
+3393={ #Onoadas
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -302,7 +302,7 @@
 	}
 }
 
-3394={ #塔尔汉
+3394={ #Charax Persias
 	terrain="dry_plains"
 	culture="amardian"
 	religion="zoroaster"
@@ -321,7 +321,7 @@
 	}
 }
 
-3395={ #阿耳萨基亚
+3395={ #Arsakia
 	terrain="dry_plains"
 	culture="amardian"
 	religion="zoroaster"
@@ -343,7 +343,7 @@
 	}
 }
 
-3396={ #亚忒什
+3396={ #Trauaxa
 	terrain="hills"
 	culture="cadusian"
 	religion="zoroaster"
@@ -365,7 +365,7 @@
 	}
 }
 
-3397={ #安吉尔
+3397={ #Gindes
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -384,7 +384,7 @@
 	}
 }
 
-3398={ #忒曼提卡
+3398={ #Themantika
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -406,7 +406,7 @@
 	}
 }
 
-3399={ #叙克塔
+3399={ #Sykta
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -428,7 +428,7 @@
 	}
 }
 
-3417={ #伊萨提斯
+3417={ #Issatis
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -450,7 +450,7 @@
 	}
 }
 
-3418={ #宁基尔戴
+3418={ #Ninkildai
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -469,7 +469,7 @@
 	}
 }
 
-3419={ #得西耳
+3419={ #Porthippa
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -491,7 +491,7 @@
 	}
 }
 
-3420={ #咖勒曼德
+3420={ #Isatichai
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -510,7 +510,7 @@
 	}
 }
 
-3428={ #阿耳塔卡纳
+3428={ #Artakana
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -532,7 +532,7 @@
 	}
 }
 
-3430={ #塔剌姆
+3430={ #Arboua
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -554,7 +554,7 @@
 	}
 }
 
-3431={ #阿谢特
+3431={ #Ashet
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -573,7 +573,7 @@
 	}
 }
 
-3432={ #库拉尔
+3432={ #Kular
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -592,7 +592,7 @@
 	}
 }
 
-3433={ #阿尔得什
+3433={ #Aradriphe
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -605,7 +605,7 @@
 	}
 }
 
-3442={ #卡那塔
+3442={ #Kanatha
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -621,7 +621,7 @@
 	}
 }
 
-3443={ #西亚科斯
+3443={ #Siakos
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -640,7 +640,7 @@
 	}
 }
 
-3452={ #戈齐里斯
+3452={ #Goziris
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -659,7 +659,7 @@
 	}
 }
 
-3453={ #古雷堡
+3453={ #Choara
 	terrain="desert"
 	culture="amardian"
 	religion="zoroaster"
@@ -678,7 +678,7 @@
 	}
 }
 
-4963={ #米底亚的拉俄狄刻亚
+4963={ #Laodikeia Chosroi
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -697,7 +697,7 @@
 	}
 }
 
-4964={ #马拉维耳
+4964={ #Niphaouanda
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -719,7 +719,7 @@
 	}
 }
 
-4965={ #马卡什
+4965={ #Tibrakana
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -735,7 +735,7 @@
 	}
 }
 
-4966={ #沙菩尔 夸斯特
+4966={ #Parachana
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -759,7 +759,7 @@
 	}
 }
 
-4967={ #咖尔德
+4967={ #Sabadan
 	terrain="mountain"
 	culture="cossian"
 	religion="zoroaster"
@@ -790,7 +790,7 @@
 	}
 }
 
-4968={ #忒佩
+4968={ #Thebarga
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -809,7 +809,7 @@
 	}
 }
 
-4972={ #伽比埃奈
+4972={ #Gabai
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -825,7 +825,7 @@
 	}
 }
 
-4973={ #阿斯帕达纳
+4973={ #Aspadana
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -859,7 +859,7 @@
 	}
 }
 
-4974={ #古尔拜伊甘
+4974={ #Gadamarga
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -878,7 +878,7 @@
 	}
 }
 
-4975={ #戈伊曼
+4975={ #Gauna
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -904,7 +904,7 @@
 	}
 }
 
-4976={ #帕赖塔刻涅
+4976={ #Paraitaka
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -926,7 +926,7 @@
 	}
 }
 
-4977={ #阿巴得赫
+4977={ #Axiana
 	terrain="hills"
 	culture="uxian"
 	religion="zoroaster"
@@ -942,7 +942,7 @@
 	}
 }
 
-4979={ #西狄刻斯
+4979={ #Sidikes
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -964,7 +964,7 @@
 	}
 }
 
-4980={ #阿什蒂安
+4980={ #Batina
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -986,7 +986,7 @@
 	}
 }
 
-4981={ #美甘
+4981={ #Rhapsa
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -1008,7 +1008,7 @@
 	}
 }
 
-4982={ #塔巴耳忒
+4982={ #Tabarte
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -1030,7 +1030,7 @@
 	}
 }
 
-4983={ #乌什刻
+4983={ #Zania
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -1052,7 +1052,7 @@
 	}
 }
 
-4991={ #剌盖
+4991={ #Europos Rhagai
 	terrain="hills"
 	culture="amardian"
 	religion="zoroaster"
@@ -1091,7 +1091,7 @@
 	}
 }
 
-4992={ #许耳卡尼斯的皮莱
+4992={ #Pylai Hyrkanikai
 	terrain="mountain"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -1101,7 +1101,7 @@
 	province_rank=""
 }
 
-4993={ #拉吉亚涅的阿帕墨亚
+4993={ #Apameia Rhagiane
 	terrain="hills"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -1132,7 +1132,7 @@
 	}
 }
 
-4999={ #德黑兰
+4999={ #Herakleia Achais
 	terrain="dry_plains"
 	culture="amardian"
 	religion="zoroaster"
@@ -1158,7 +1158,7 @@
 	}
 }
 
-6507={ #奈印
+6507={ #Nain
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -1171,7 +1171,7 @@
 	}
 }
 
-6508={ #皮克提斯
+6508={ #Pyktis
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -1193,7 +1193,7 @@
 	}
 }
 
-6509={ #巴德鲁德
+6509={ #Andriaka
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -1212,7 +1212,7 @@
 	}
 }
 
-6510={ #俄洛乌比卡里亚
+6510={ #Oroubikaria
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -1228,7 +1228,7 @@
 	}
 }
 
-6954={ #库姆
+6954={ #Choana
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -1265,7 +1265,7 @@
 	}
 }
 
-6955={ #萨阿瓦基涅
+6955={ #Gouriamna
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -1287,7 +1287,7 @@
 	}
 }
 
-6956={ #达那克
+6956={ #Rhazounda
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -1303,7 +1303,7 @@
 	}
 }
 
-6957={ #庇耳拉
+6957={ #Alisdaka
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -1325,7 +1325,7 @@
 	}
 }
 
-6958={ #比贾尔
+6958={ #Orakana
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -1344,7 +1344,7 @@
 	}
 }
 
-6959={ #维萨斯佩
+6959={ #Sanais
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -1360,7 +1360,7 @@
 	}
 }
 
-6960={ #伊阿宋尼亚
+6960={ #Dariausa
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -1382,7 +1382,7 @@
 	}
 }
 
-6961={ #维拉
+6961={ #Nigouza
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -1404,7 +1404,7 @@
 	}
 }
 
-6962={ #科罗弥亚
+6962={ #Choastra
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -1426,7 +1426,7 @@
 	}
 }
 
-6963={ #西格里亚
+6963={ #Bazigraban
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -1448,7 +1448,7 @@
 	}
 }
 
-6964={ #戈兰
+6964={ #Auradis
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"

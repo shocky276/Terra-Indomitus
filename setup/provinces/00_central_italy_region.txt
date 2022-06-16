@@ -1,4 +1,4 @@
-﻿1={ #罗马
+﻿1={ #Roma
 	terrain="farmland"
 	culture="roman"
 	religion="roman_pantheon"
@@ -29,7 +29,7 @@
 	holy_site=omen_jupiter
 }
 
-2={ #提部耳
+2={ #Tibur
 	terrain="farmland"
 	culture="roman"
 	religion="roman_pantheon"
@@ -48,7 +48,7 @@
 	}
 }
 
-3={ #拉维尼翁
+3={ #Lavinium
 	terrain="farmland"
 	culture="roman"
 	religion="roman_pantheon"
@@ -67,7 +67,7 @@
 	}
 }
 
-4={ #基耳刻伊
+4={ #Circeii
 	terrain="hills"
 	culture="roman"
 	religion="roman_pantheon"
@@ -86,7 +86,7 @@
 	}
 }
 
-5={ #丰迪
+5={ #Fundi
 	terrain="hills"
 	culture="roman"
 	religion="roman_pantheon"
@@ -105,11 +105,11 @@
 	}
 }
 
-6={ #卡普阿
+6={ #Capua
 	terrain="farmland"
 	culture="roman"
 	religion="roman_pantheon"
-	trade_goods="wine"
+	trade_goods="glass"
 	civilization_value=37
 	barbarian_power=0
 	province_rank="city"
@@ -133,7 +133,7 @@
 	holy_site=omen_diana
 }
 
-7={ #涅亚波利斯
+7={ #Neapolis
 	terrain="farmland"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -169,7 +169,7 @@
 	port_building=1
 }
 
-8={ #萨提库拉
+8={ #Saticula
 	terrain="farmland"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -188,7 +188,7 @@
 	}
 }
 
-9={ #庞贝
+9={ #Pompeii
 	terrain="plains"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -216,7 +216,7 @@
 	port_building=1
 }
 
-14={ #基斯拉
+14={ #Cisra
 	terrain="plains"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -244,7 +244,7 @@
 	holy_site=omen_apulu
 }
 
-15={ #奥斯蒂亚
+15={ #Ostia
 	terrain="farmland"
 	culture="roman"
 	religion="roman_pantheon"
@@ -272,7 +272,7 @@
 	port_building=2
 }
 
-16={ #维爱
+16={ #Veii
 	terrain="farmland"
 	culture="roman"
 	religion="roman_pantheon"
@@ -305,7 +305,7 @@
 	}
 }
 
-17={ #塔耳库那
+17={ #Tarchuna
 	terrain="farmland"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -327,7 +327,7 @@
 	}
 }
 
-18={ #涅珀忒
+18={ #Nepete
 	terrain="hills"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -353,7 +353,7 @@
 	}
 }
 
-19={ #卡耳西俄利
+19={ #Carsioli
 	terrain="hills"
 	culture="roman"
 	religion="roman_pantheon"
@@ -375,7 +375,7 @@
 	}
 }
 
-20={ #库雷斯
+20={ #Cures
 	terrain="hills"
 	culture="roman"
 	religion="roman_pantheon"
@@ -394,7 +394,7 @@
 	}
 }
 
-21={ #威森特
+21={ #Vesnth
 	terrain="plains"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -416,7 +416,7 @@
 	}
 }
 
-22={ #威尔卡尔
+22={ #Velcal
 	terrain="farmland"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -440,7 +440,7 @@
 	port_building=1
 }
 
-23={ #涅奎农
+23={ #Narnia
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -462,7 +462,7 @@
 	}
 }
 
-24={ #佩尔图伊农
+24={ #Peltuinum
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -484,7 +484,7 @@
 	}
 }
 
-25={ #诺耳巴
+25={ #Norba
 	terrain="hills"
 	culture="roman"
 	religion="roman_pantheon"
@@ -503,7 +503,7 @@
 	}
 }
 
-26={ #佛雷革拉
+26={ #Fregellae
 	terrain="plains"
 	culture="roman"
 	religion="roman_pantheon"
@@ -519,7 +519,7 @@
 	}
 }
 
-27={ #孚肯斯
+27={ #Alba Fucens
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -538,7 +538,7 @@
 	}
 }
 
-28={ #科耳腓尼翁
+28={ #Corfinium
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -560,7 +560,7 @@
 	}
 }
 
-29={ #希斯托尼翁
+29={ #Histonium
 	terrain="farmland"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -582,7 +582,7 @@
 	}
 }
 
-30={ #奥腓得纳
+30={ #Aufidena
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -604,7 +604,7 @@
 	}
 }
 
-31={ #维纳弗戎
+31={ #Venafrum
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -635,7 +635,7 @@
 	}
 }
 
-32={ #玻维亚农
+32={ #Bovianum
 	terrain="plains"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -660,7 +660,7 @@
 	}
 }
 
-33={ #科耳涅利亚尼
+33={ #Corneliani
 	terrain="hills"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -682,7 +682,7 @@
 	}
 }
 
-34={ #尤瓦农
+34={ #Iuvanum
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -704,7 +704,7 @@
 	}
 }
 
-35={ #布卡
+35={ #Buca
 	terrain="plains"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -727,7 +727,7 @@
 	port_building=1
 }
 
-40={ #诺拉
+40={ #Nola
 	terrain="hills"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -746,7 +746,7 @@
 	}
 }
 
-41={ #贝内文同
+41={ #Beneventum
 	terrain="hills"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -768,7 +768,7 @@
 	}
 }
 
-48={ #忒尔文同
+48={ #Terventum
 	terrain="hills"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -790,7 +790,7 @@
 	}
 }
 
-49={ #革鲁蒙
+49={ #Gerumum
 	terrain="farmland"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -812,7 +812,7 @@
 	}
 }
 
-102={ #图忒耳
+102={ #Tuter
 	terrain="plains"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -834,7 +834,7 @@
 	}
 }
 
-103={ #普勒斯提亚
+103={ #Spoletium
 	terrain="forest"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -859,7 +859,7 @@
 	}
 }
 
-104={ #阿弥忒耳农
+104={ #Amiternum
 	terrain="forest"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -881,7 +881,7 @@
 	}
 }
 
-105={ #特雷部拉
+105={ #Trebula
 	terrain="forest"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -900,7 +900,7 @@
 	}
 }
 
-106={ #阿忒农
+106={ #Aternum
 	terrain="farmland"
 	culture="south_picena"
 	religion="roman_pantheon"
@@ -923,7 +923,7 @@
 	port_building=1
 }
 
-107={ #因忒览尼亚
+107={ #Interamnia
 	terrain="forest"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -945,7 +945,7 @@
 	}
 }
 
-108={ #玛特里农
+108={ #Matrinum
 	terrain="farmland"
 	culture="south_picena"
 	religion="roman_pantheon"
@@ -968,7 +968,7 @@
 	}
 }
 
-109={ #阿斯库隆
+109={ #Asculum
 	terrain="plains"
 	culture="south_picena"
 	religion="roman_pantheon"
@@ -990,7 +990,7 @@
 	}
 }
 
-110={ #瑟普屯佩达
+110={ #Septempeda
 	terrain="forest"
 	culture="south_picena"
 	religion="roman_pantheon"
@@ -1012,7 +1012,7 @@
 	}
 }
 
-111={ #庇刻农
+111={ #Picenum
 	terrain="farmland"
 	culture="south_picena"
 	religion="roman_pantheon"
@@ -1038,7 +1038,7 @@
 	}
 }
 
-112={ #特拉蒙
+112={ #Tlamun
 	terrain="farmland"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1060,7 +1060,7 @@
 	}
 }
 
-113={ #乌里纳
+113={ #Urina
 	terrain="hills"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1082,7 +1082,7 @@
 	}
 }
 
-114={ #瓦特路纳
+114={ #Vatluna
 	terrain="plains"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1107,7 +1107,7 @@
 	}
 }
 
-115={ #卢斯勒
+115={ #Rusle
 	terrain="plains"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1129,7 +1129,7 @@
 	}
 }
 
-116={ #克琉西
+116={ #Cleusi
 	terrain="farmland"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1151,7 +1151,7 @@
 	}
 }
 
-117={ #安孔
+117={ #Ankon
 	terrain="farmland"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -1177,7 +1177,7 @@
 	port_building=1
 }
 
-118={ #金顾隆
+118={ #Cingulum
 	terrain="hills"
 	culture="south_picena"
 	religion="roman_pantheon"
@@ -1199,7 +1199,7 @@
 	}
 }
 
-119={ #森提农
+119={ #Sentinum
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -1221,7 +1221,7 @@
 	}
 }
 
-120={ #珀耳森纳
+120={ #Persna
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -1243,7 +1243,7 @@
 	}
 }
 
-121={ #塞纳
+121={ #Sena
 	terrain="plains"
 	culture="lepontic"
 	religion="druidism"
@@ -1283,7 +1283,7 @@
 	}
 }
 
-122={ #乌尔比农
+122={ #Urbinum
 	terrain="hills"
 	culture="north_picena"
 	religion="roman_pantheon"
@@ -1302,7 +1302,7 @@
 	}
 }
 
-123={ #伊库维翁
+123={ #Icuvium
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -1331,7 +1331,7 @@
 	}
 }
 
-124={ #库耳同
+124={ #Curtun
 	terrain="hills"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1356,7 +1356,7 @@
 	}
 }
 
-125={ #穆尔洛
+125={ #Murlo
 	terrain="farmland"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1378,7 +1378,7 @@
 	}
 }
 
-126={ #浦普路纳
+126={ #Pupluna
 	terrain="plains"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1403,7 +1403,7 @@
 	}
 }
 
-127={ #伊尔瓦
+127={ #Ilva
 	terrain="hills"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1425,7 +1425,7 @@
 	}
 }
 
-128={ #瓦达威拉特里
+128={ #Vada Velathri
 	terrain="plains"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1448,7 +1448,7 @@
 	port_building=1
 }
 
-129={ #威拉忒拉
+129={ #Velathera
 	terrain="plains"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1470,7 +1470,7 @@
 	}
 }
 
-130={ #塞纳
+130={ #Saina
 	terrain="plains"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1492,7 +1492,7 @@
 	}
 }
 
-131={ #亚里廷
+131={ #Arritim
 	terrain="hills"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1519,7 +1519,7 @@
 	holy_site=omen_tinia
 }
 
-132={ #萨尔西纳
+132={ #Sarsina
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -1541,7 +1541,7 @@
 	}
 }
 
-133={ #亚林纳
+133={ #Arimna
 	terrain="farmland"
 	culture="north_picena"
 	religion="roman_pantheon"
@@ -1575,7 +1575,7 @@
 	}
 }
 
-134={ #比壬特
+134={ #Birent
 	terrain="farmland"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1597,7 +1597,7 @@
 	}
 }
 
-135={ #瓦尔瓦塔
+135={ #Valvata
 	terrain="plains"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1619,7 +1619,7 @@
 	}
 }
 
-136={ #庇斯纳
+136={ #Pisna
 	terrain="farmland"
 	culture="etruscan"
 	religion="roman_pantheon"
@@ -1642,7 +1642,7 @@
 	port_building=1
 }
 
-140={ #淮苏拉
+140={ #Faesulae
 	terrain="mountain"
 	culture="umbrian"
 	religion="roman_pantheon"
@@ -1672,7 +1672,7 @@
 	}
 }
 
-148={ #腓克利涅
+148={ #Ficline
 	terrain="hills"
 	culture="lepontic"
 	religion="druidism"
@@ -1698,11 +1698,11 @@
 	}
 }
 
-1712={ #安提农
+1712={ #Antinum
 	terrain="hills"
 	culture="umbrian"
 	religion="roman_pantheon"
-	trade_goods="wine"
+	trade_goods="fruits"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
@@ -1720,7 +1720,7 @@
 	}
 }
 
-1713={ #努刻里亚
+1713={ #Nuceria
 	terrain="hills"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -1742,11 +1742,11 @@
 	}
 }
 
-1716={ #阿贝利农
+1716={ #Abellinum
 	terrain="hills"
 	culture="samnite"
 	religion="roman_pantheon"
-	trade_goods="wine"
+	trade_goods="fruits"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1764,7 +1764,7 @@
 	}
 }
 
-1718={ #埃克拉农
+1718={ #Aeclanum
 	terrain="plains"
 	culture="samnite"
 	religion="roman_pantheon"
@@ -1786,7 +1786,7 @@
 	}
 }
 
-3481={ #苏尔基
+3481={ #Sulki
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1809,7 +1809,7 @@
 	port_building=1
 }
 
-3482={ #涅亚波利斯的许达塔
+3482={ #Hydata Neapolitana
 	terrain="farmland"
 	culture="nuragic"
 	religion="animism"
@@ -1828,7 +1828,7 @@
 	}
 }
 
-3483={ #诺拉
+3483={ #Nora
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1844,7 +1844,7 @@
 	}
 }
 
-3484={ #卡拉利
+3484={ #Karali
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1863,7 +1863,7 @@
 	}
 }
 
-3485={ #墨塔拉
+3485={ #Metalla
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1885,7 +1885,7 @@
 	}
 }
 
-3486={ #费拉拉
+3486={ #Ferraria
 	terrain="hills"
 	culture="nuragic"
 	religion="animism"
@@ -1907,7 +1907,7 @@
 	}
 }
 
-3487={ #波耳提肯瑟斯
+3487={ #Porticenses
 	terrain="hills"
 	culture="nuragic"
 	religion="animism"
@@ -1929,7 +1929,7 @@
 	}
 }
 
-3488={ #苏尔喀斯
+3488={ #Sulcis
 	terrain="hills"
 	culture="nuragic"
 	religion="animism"
@@ -1951,7 +1951,7 @@
 	}
 }
 
-3489={ #卡里斯的法农
+3489={ #Fanum Carisi
 	terrain="hills"
 	culture="nuragic"
 	religion="animism"
@@ -1973,7 +1973,7 @@
 	}
 }
 
-3490={ #瑟斯提斯
+3490={ #Sestis
 	terrain="plains"
 	culture="nuragic"
 	religion="animism"
@@ -1995,7 +1995,7 @@
 	}
 }
 
-3491={ #瓦楞提亚
+3491={ #Lesa
 	terrain="mountain"
 	culture="nuragic"
 	religion="animism"
@@ -2014,7 +2014,7 @@
 	}
 }
 
-3492={ #撒耳多亚的涅亚波利斯
+3492={ #Neapolis Sardoa
 	terrain="plains"
 	culture="nuragic"
 	religion="carthaginian_pantheon"
@@ -2040,7 +2040,7 @@
 	}
 }
 
-3493={ #塔拉
+3493={ #Tara
 	terrain="farmland"
 	culture="nuragic"
 	religion="carthaginian_pantheon"
@@ -2066,7 +2066,7 @@
 	}
 }
 
-3494={ #科耳努斯
+3494={ #Cornus
 	terrain="hills"
 	culture="nuragic"
 	religion="carthaginian_pantheon"
@@ -2084,7 +2084,7 @@
 	port_building=1
 }
 
-3495={ #特赖安厅
+3495={ #Aquae Hypsitanae
 	terrain="mountain"
 	culture="nuragic"
 	religion="animism"
@@ -2106,7 +2106,7 @@
 	}
 }
 
-3496={ #顾鲁利斯
+3496={ #Gouroulis
 	terrain="plains"
 	culture="nuragic"
 	religion="animism"
@@ -2128,7 +2128,7 @@
 	}
 }
 
-3497={ #赫耳迈翁海角
+3497={ #Hermaion Akron
 	terrain="hills"
 	culture="nuragic"
 	religion="animism"
@@ -2150,7 +2150,7 @@
 	}
 }
 
-3498={ #马科普西斯
+3498={ #Makopsis
 	terrain="mountain"
 	culture="nuragic"
 	religion="animism"
@@ -2172,7 +2172,7 @@
 	}
 }
 
-3499={ #宁淮俄斯港
+3499={ #Nymphaios Limen
 	terrain="farmland"
 	culture="nuragic"
 	religion="animism"
@@ -2191,7 +2191,7 @@
 	}
 }
 
-3500={ #利比索尼斯塔
+3500={ #Turris Libisonis
 	terrain="farmland"
 	culture="nuragic"
 	religion="animism"
@@ -2210,7 +2210,7 @@
 	}
 }
 
-3501={ #勒西塔纳的海达塔
+3501={ #Erycinum
 	terrain="hills"
 	culture="nuragic"
 	religion="animism"
@@ -2232,7 +2232,7 @@
 	}
 }
 
-3502={ #索拉比勒
+3502={ #Sorabile
 	terrain="mountain"
 	culture="nuragic"
 	religion="animism"
@@ -2254,7 +2254,7 @@
 	}
 }
 
-3503={ #科克勒阿里亚
+3503={ #Coclearia
 	terrain="hills"
 	culture="nuragic"
 	religion="animism"
@@ -2270,7 +2270,7 @@
 	}
 }
 
-3504={ #拉斯纳的俄尔比亚
+3504={ #Olbia Rasna
 	terrain="plains"
 	culture="nuragic"
 	religion="carthaginian_pantheon"
@@ -2316,7 +2316,7 @@
 	port_building=1
 }
 
-3505={ #提部莱港
+3505={ #Portus Tibulae
 	terrain="hills"
 	culture="corsian"
 	religion="animism"
@@ -2335,7 +2335,7 @@
 	}
 }
 
-3506={ #维尼俄莱
+3506={ #Viniolae
 	terrain="hills"
 	culture="corsian"
 	religion="animism"
@@ -2354,7 +2354,7 @@
 	}
 }
 
-3507={ #卢布拉
+3507={ #Rhoubra
 	terrain="plains"
 	culture="corsian"
 	religion="roman_pantheon"
@@ -2376,7 +2376,7 @@
 	}
 }
 
-3508={ #腓卡里亚
+3508={ #Phikaria
 	terrain="hills"
 	culture="corsian"
 	religion="animism"
@@ -2396,7 +2396,7 @@
 	port_building=1
 }
 
-3509={ #保卡
+3509={ #Pauka
 	terrain="hills"
 	culture="corsian"
 	religion="animism"
@@ -2415,7 +2415,7 @@
 	}
 }
 
-3510={ #乌耳喀尼翁
+3510={ #Ourkinion
 	terrain="hills"
 	culture="corsian"
 	religion="animism"
@@ -2437,7 +2437,7 @@
 	}
 }
 
-3511={ #阿卢卡
+3511={ #Alouka
 	terrain="hills"
 	culture="corsian"
 	religion="animism"
@@ -2457,7 +2457,7 @@
 	port_building=1
 }
 
-3512={ #洛庇孔
+3512={ #Rhopikon
 	terrain="hills"
 	culture="corsian"
 	religion="animism"
@@ -2479,7 +2479,7 @@
 	}
 }
 
-3513={ #肯图里农
+3513={ #Kentourinon
 	terrain="hills"
 	culture="corsian"
 	religion="roman_pantheon"
@@ -2501,7 +2501,7 @@
 	}
 }
 
-3514={ #马里亚纳
+3514={ #Mariana
 	terrain="hills"
 	culture="corsian"
 	religion="roman_pantheon"
@@ -2523,7 +2523,7 @@
 	}
 }
 
-3515={ #阿拉利亚
+3515={ #Alalia
 	terrain="farmland"
 	culture="massalian"
 	religion="roman_pantheon"
@@ -2551,7 +2551,7 @@
 	port_building=1
 }
 
-3516={ #塞耳弥吉翁
+3516={ #Sermigion
 	terrain="mountain"
 	culture="corsian"
 	religion="roman_pantheon"

@@ -1,4 +1,4 @@
-﻿5586={ #芒域达莫宗
+﻿5586={ #Mangyul Takmo Dzong
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -8,7 +8,7 @@
 	province_rank="settlement"
 }
 
-5588={ #拉域
+5588={ #Lhayul
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -21,7 +21,7 @@
 	}
 }
 
-5589={ #布玛
+5589={ #Bhoma
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -34,7 +34,7 @@
 	}
 }
 
-5590={ #藏拉
+5590={ #Tsanghla
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -47,7 +47,7 @@
 	}
 }
 
-5605={ #达戈
+5605={ #Tago
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -60,7 +60,7 @@
 	}
 }
 
-5606={ #雅藏
+5606={ #Yartsang
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -73,7 +73,7 @@
 	}
 }
 
-5607={ #琼钦宗
+5607={ #Kyungchen Dzong
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -86,7 +86,7 @@
 	}
 }
 
-5608={ #当惹
+5608={ #Dangra
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -99,7 +99,7 @@
 	}
 }
 
-5610={ #江布
+5610={ #Kyangpu
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -112,7 +112,7 @@
 	}
 }
 
-5611={ #久禄
+5611={ #Gyulo
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -125,7 +125,7 @@
 	}
 }
 
-5613={ #朗沃
+5613={ #Nambo
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -138,7 +138,7 @@
 	}
 }
 
-5618={ #拉萨
+5618={ #Lhasa
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -155,7 +155,7 @@
 	holy_site=omen_insight
 }
 
-5619={ #唐古拉
+5619={ #Tanglha
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -168,7 +168,7 @@
 	}
 }
 
-5620={ #噶泽
+5620={ #Katsel
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -181,7 +181,7 @@
 	}
 }
 
-5621={ #桑耶
+5621={ #Samye
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -194,7 +194,7 @@
 	}
 }
 
-5622={ #曲德
+5622={ #Qoide
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -207,7 +207,7 @@
 	}
 }
 
-5623={ #钟巴甘
+5623={ #Trompagan
 	terrain="mountain"
 	culture="tsang"
 	religion="bon_religion"
@@ -220,7 +220,7 @@
 	}
 }
 
-5624={ #念孜
+5624={ #Nyentse
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -233,7 +233,7 @@
 	}
 }
 
-5625={ #内萨
+5625={ #Nesar
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -246,7 +246,7 @@
 	}
 }
 
-5626={ #藏张
+5626={ #Tsangdram
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -259,7 +259,7 @@
 	}
 }
 
-5627={ #达余尼
+5627={ #Dyuni
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -272,7 +272,7 @@
 	}
 }
 
-5629={ #考伊
+5629={ #Koryi
 	terrain="mountain"
 	culture="himalayan"
 	religion="bon_religion"
@@ -282,7 +282,7 @@
 	province_rank="settlement"
 }
 
-5630={ #雄雄
+5630={ #Zhongzhong
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -298,7 +298,7 @@
 	}
 }
 
-5631={ #不丹
+5631={ #Mon Bumtang
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -311,7 +311,7 @@
 	}
 }
 
-5632={ #考庭
+5632={ #Khoting
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -324,7 +324,7 @@
 	}
 }
 
-5633={ #措昊
+5633={ #Tsoho
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -340,7 +340,7 @@
 	}
 }
 
-5634={ #香波山
+5634={ #Mon Shampo
 	terrain="mountain"
 	culture="himalayan"
 	religion="bon_religion"
@@ -350,7 +350,7 @@
 	province_rank="settlement"
 }
 
-5635={ #罗扎
+5635={ #Lhodrak
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -363,7 +363,7 @@
 	}
 }
 
-5636={ #琼结
+5636={ #Chongye
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -379,7 +379,7 @@
 	}
 }
 
-5637={ #钦补余
+5637={ #Chimpyu
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -392,7 +392,7 @@
 	}
 }
 
-5638={ #琼号
+5638={ #Kyungho
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -405,7 +405,7 @@
 	}
 }
 
-5639={ #珠杰
+5639={ #Durbye
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -418,7 +418,7 @@
 	}
 }
 
-5640={ #念青
+5640={ #Nyenchen
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -431,7 +431,7 @@
 	}
 }
 
-5641={ #月康
+5641={ #Yokang
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -444,7 +444,7 @@
 	}
 }
 
-5642={ #日当
+5642={ #Ritang
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -460,7 +460,7 @@
 	}
 }
 
-5643={ #布久
+5643={ #Buchu
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -473,7 +473,7 @@
 	}
 }
 
-5644={ #工布
+5644={ #Kongpo
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -486,7 +486,7 @@
 	}
 }
 
-5645={ #利山
+5645={ #Lishan
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -499,7 +499,7 @@
 	}
 }
 
-5646={ #擦絨
+5646={ #Tsosong
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -512,7 +512,7 @@
 	}
 }
 
-5647={ #日那
+5647={ #Drena
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -525,7 +525,7 @@
 	}
 }
 
-5648={ #丹珠
+5648={ #Tandruk
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -538,7 +538,7 @@
 	}
 }
 
-5649={ #藏波
+5649={ #Tsangpo
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -551,7 +551,7 @@
 	}
 }
 
-5650={ #地东
+5650={ #Dodong
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -567,7 +567,7 @@
 	}
 }
 
-5651={ #西日
+5651={ #Shyri
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -580,7 +580,7 @@
 	}
 }
 
-5652={ #普龙
+5652={ #Pulong
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -596,7 +596,7 @@
 	}
 }
 
-5653={ #索索
+5653={ #Soso
 	terrain="mountain"
 	culture="yarlung"
 	religion="bon_religion"
@@ -609,7 +609,7 @@
 	}
 }
 
-5654={ #贡余
+5654={ #Kongyul
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -619,7 +619,7 @@
 	province_rank="settlement"
 }
 
-5655={ #薪那迦
+5655={ #Shingnak
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -632,7 +632,7 @@
 	}
 }
 
-5656={ #娘
+5656={ #Nyang
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -648,7 +648,7 @@
 	}
 }
 
-5657={ #贡嘎
+5657={ #Gong
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -661,7 +661,7 @@
 	}
 }
 
-5658={ #鲁玛
+5658={ #Lum
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -674,7 +674,7 @@
 	}
 }
 
-5659={ #夫戈
+5659={ #Fugo
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -687,7 +687,7 @@
 	}
 }
 
-5660={ #苏毗夷
+5660={ #Supiyi
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -701,7 +701,7 @@
 	holy_site=omen_spirits_inspiration
 }
 
-5661={ #饶登
+5661={ #Rabten
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -714,7 +714,7 @@
 	}
 }
 
-5662={ #吐蕃
+5662={ #Tufan
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -730,7 +730,7 @@
 	}
 }
 
-5663={ #那迦雪
+5663={ #Naksho
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"
@@ -746,7 +746,7 @@
 	}
 }
 
-5664={ #绕龙
+5664={ #Ronglung
 	terrain="mountain"
 	culture="sumpa"
 	religion="bon_religion"

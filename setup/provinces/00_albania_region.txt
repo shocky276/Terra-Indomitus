@@ -1,4 +1,4 @@
-﻿1502={ #塔苏克
+﻿1502={ #Tasuk
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -14,7 +14,7 @@
 	}
 }
 
-1503={ #萨拉马斯
+1503={ #Salamas
 	terrain="dry_plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -34,7 +34,7 @@
 	}
 }
 
-1504={ #加兹里克
+1504={ #Gazrik
 	terrain="dry_plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -61,7 +61,7 @@
 	}
 }
 
-1505={ #阿尔齐耶亚德山
+1505={ #Arziyayad tepe
 	terrain="dry_plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -80,7 +80,7 @@
 	}
 }
 
-1506={ #俄耳弥
+1506={ #Ormi
 	terrain="dry_plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -99,7 +99,7 @@
 	}
 }
 
-1507={ #索尔玛纳巴德山
+1507={ #Sormanabad tepe
 	terrain="dry_plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -118,7 +118,7 @@
 	}
 }
 
-1508={ #巴拉柱山
+1508={ #Balajuk tepe
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -134,7 +134,7 @@
 	}
 }
 
-1509={ #西拉伽农
+1509={ #Siraganon
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -150,7 +150,7 @@
 	}
 }
 
-1510={ #什诺
+1510={ #Shno
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -169,7 +169,7 @@
 	}
 }
 
-1511={ #咖拉特伽
+1511={ #Qalatgah
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -185,7 +185,7 @@
 	}
 }
 
-1512={ #谢塔纳巴德
+1512={ #Sagapani
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -204,7 +204,7 @@
 	}
 }
 
-1513={ #剌素赫山
+1513={ #Barozha
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -223,7 +223,7 @@
 	}
 }
 
-1514={ #法克里迦
+1514={ #Fakhrikah
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -242,7 +242,7 @@
 	}
 }
 
-1515={ #甘扎克
+1515={ #Ganzak
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -268,7 +268,7 @@
 	}
 }
 
-1516={ #沙阿山
+1516={ #Shah Tepe
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -287,7 +287,7 @@
 	}
 }
 
-1517={ #齐尔山
+1517={ #Zir Tepe
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -306,7 +306,7 @@
 	}
 }
 
-1518={ #绰尔布拉奇山
+1518={ #Kuh-i Chorblach
 	terrain="dry_plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -322,7 +322,7 @@
 	}
 }
 
-1519={ #咖拉特
+1519={ #Qalat
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -344,7 +344,7 @@
 	}
 }
 
-1520={ #博纳卜堡
+1520={ #Bonab Qal'eh
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -363,7 +363,7 @@
 	}
 }
 
-1521={ #阿克剌鲁兹
+1521={ #Akra-rudh
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -382,7 +382,7 @@
 	}
 }
 
-1522={ #戈杰尔
+1522={ #Godjer
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -401,7 +401,7 @@
 	}
 }
 
-1523={ #佛剌斯帕
+1523={ #Phraaspa
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -420,7 +420,7 @@
 	}
 }
 
-1524={ #咖剌谢申
+1524={ #Qara Sheshen
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -439,7 +439,7 @@
 	}
 }
 
-1525={ #古尔堡
+1525={ #Gurqal-eh
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -458,7 +458,7 @@
 	}
 }
 
-1526={ #大不里士
+1526={ #T'awres
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -477,7 +477,7 @@
 	}
 }
 
-1527={ #亚尼克山
+1527={ #Yanik tepe
 	terrain="dry_plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -496,7 +496,7 @@
 	}
 }
 
-1552={ #阿贾卢
+1552={ #Adjalu
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -515,7 +515,7 @@
 	}
 }
 
-1553={ #达什梵德
+1553={ #Dashband
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -534,7 +534,7 @@
 	}
 }
 
-1554={ #齐韦业
+1554={ #Ziwiye
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -553,7 +553,7 @@
 	}
 }
 
-1555={ #阿杜尔古什纳斯普
+1555={ #Shiz
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -573,7 +573,7 @@
 	holy_site=omen_adur_gushnasp
 }
 
-1556={ #吉亚乌耳
+1556={ #Giaur
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -592,7 +592,7 @@
 	}
 }
 
-1557={ #古察哈尔
+1557={ #Chahar Taq
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -611,7 +611,7 @@
 	}
 }
 
-1558={ #卡拉弗图
+1558={ #Karaftu
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -630,7 +630,7 @@
 	}
 }
 
-1565={ #沙希岛
+1565={ #Shahi Island
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -649,7 +649,7 @@
 	}
 }
 
-1574={ #刻利兴山口
+1574={ #Pylai Kelishinias
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -668,7 +668,7 @@
 	}
 }
 
-1593={ #弥亚纳
+1593={ #Miyana
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -690,7 +690,7 @@
 	}
 }
 
-1618={ #密什
+1618={ #Mish
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -703,7 +703,7 @@
 	}
 }
 
-1619={ #迪什
+1619={ #Dish
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -716,7 +716,7 @@
 	}
 }
 
-1620={ #阿哈剌万
+1620={ #Aharawan
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -735,7 +735,7 @@
 	}
 }
 
-1621={ #阿尔万杰
+1621={ #Arvandj
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -754,7 +754,7 @@
 	}
 }
 
-1622={ #塞钦得勒
+1622={ #Seqindel
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -773,7 +773,7 @@
 	}
 }
 
-1624={ #察哈尔拉
+1624={ #Chaharla
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -792,7 +792,7 @@
 	}
 }
 
-1625={ #博拉格山
+1625={ #Kuh-i Bolagh
 	terrain="dry_plains"
 	culture="median"
 	religion="zoroaster"
@@ -811,7 +811,7 @@
 	}
 }
 
-1626={ #密什钦沙赫尔
+1626={ #Mishkinshahr
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -830,7 +830,7 @@
 	}
 }
 
-1627={ #阿尔达庇勒
+1627={ #Ardabil
 	terrain="hills"
 	culture="cadusian"
 	religion="zoroaster"
@@ -850,7 +850,7 @@
 	holy_site=omen_zoroaster
 }
 
-1628={ #庇里
+1628={ #Piri
 	terrain="hills"
 	culture="cadusian"
 	religion="zoroaster"
@@ -872,7 +872,7 @@
 	}
 }
 
-1629={ #朔尔布拉克
+1629={ #Shorbulaq
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -891,7 +891,7 @@
 	}
 }
 
-1630={ #阑加尔咖难
+1630={ #Langarkanan
 	terrain="hills"
 	culture="caspian"
 	religion="zoroaster"
@@ -913,7 +913,7 @@
 	}
 }
 
-1631={ #斯潘达兰
+1631={ #Spandaran
 	terrain="hills"
 	culture="caspian"
 	religion="zoroaster"
@@ -932,7 +932,7 @@
 	}
 }
 
-1632={ #巴阑罗特
+1632={ #Balanrot
 	terrain="plains"
 	culture="caspian"
 	religion="zoroaster"
@@ -951,7 +951,7 @@
 	}
 }
 
-1638={ #瓦尔叁
+1638={ #Warthan
 	terrain="plains"
 	culture="caspian"
 	religion="zoroaster"
@@ -976,7 +976,7 @@
 	}
 }
 
-1648={ #吉齐勒阿加杰
+1648={ #Ghizil-Agaj
 	terrain="plains"
 	culture="caspian"
 	religion="zoroaster"
@@ -989,7 +989,7 @@
 	}
 }
 
-1649={ #马萨拉斯
+1649={ #Masalas
 	terrain="plains"
 	culture="caspian"
 	religion="zoroaster"
@@ -1002,7 +1002,7 @@
 	}
 }
 
-1652={ #塔利什
+1652={ #Talish
 	terrain="plains"
 	culture="caspian"
 	religion="zoroaster"
@@ -1015,7 +1015,7 @@
 	}
 }
 
-1654={ #摩基
+1654={ #Mochi
 	terrain="plains"
 	culture="caspian"
 	religion="zoroaster"
@@ -1038,7 +1038,7 @@
 	}
 }
 
-3383={ #奢帕
+3383={ #Shaapa
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1060,7 +1060,7 @@
 	}
 }
 
-3384={ #库勒
+3384={ #Kul
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1079,7 +1079,7 @@
 	}
 }
 
-3385={ #阿巴
+3385={ #Aba
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1105,7 +1105,7 @@
 	}
 }
 
-3386={ #比勒咖
+3386={ #Bilqa
 	terrain="hills"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1127,7 +1127,7 @@
 	}
 }
 
-3387={ #米底亚纳
+3387={ #Mediana
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1153,7 +1153,7 @@
 	}
 }
 
-3388={ #厄卡纳
+3388={ #Ekkana
 	terrain="hills"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1175,7 +1175,7 @@
 	}
 }
 
-3389={ #锡剌姆
+3389={ #Shiram
 	terrain="hills"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1201,7 +1201,7 @@
 	}
 }
 
-3390={ #法拉卜
+3390={ #Farrab
 	terrain="hills"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1223,7 +1223,7 @@
 	}
 }
 
-4984={ #卡斯品
+4984={ #Kazvin
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1243,7 +1243,7 @@
 	}
 }
 
-4985={ #居洛波利斯
+4985={ #Rasht
 	terrain="hills"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1277,7 +1277,7 @@
 	}
 }
 
-4986={ #帕剌察特罗亚斯
+4986={ #Padishkhvargar
 	terrain="farmland"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1303,7 +1303,7 @@
 	}
 }
 
-4987={ #锡曼
+4987={ #Shiman
 	terrain="mountain"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1325,7 +1325,7 @@
 	}
 }
 
-4988={ #阿甘扎纳
+4988={ #Zanjan
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1344,7 +1344,7 @@
 	}
 }
 
-4989={ #艾库尔
+4989={ #Ekur
 	terrain="dry_plains"
 	culture="cadusian"
 	religion="zoroaster"
@@ -1363,7 +1363,7 @@
 	}
 }
 
-4990={ #摩拉
+4990={ #Molla
 	terrain="hills"
 	culture="cadusian"
 	religion="zoroaster"
