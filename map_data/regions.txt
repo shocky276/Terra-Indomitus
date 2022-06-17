@@ -597,7 +597,7 @@ nubia_region = {
 }
 
 upper_egypt_region = {
-	#7 areas
+	#9 areas
 	areas = {
 		luxor_area
 		troglodytica_area
@@ -606,6 +606,8 @@ upper_egypt_region = {
 		khargana_area
 		hema_nome_area
 		aswan_area
+		eastern_desert_area
+		allaqi_area
 	}
 }
 
