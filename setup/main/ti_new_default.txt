@@ -14,5 +14,17 @@ country = {
 			}
 		}
 		
+		SYB = {
+			government = tribal_federation
+			primary_culture = syrbotian
+			religion = egyptian_pantheon
+
+			capital = 9933
+			
+			own_control_core = {
+				9931 9932 9933 9934 9935 9936 9937 9938 9939 #gezira
+			}
+		}
+		
 	}
 }
