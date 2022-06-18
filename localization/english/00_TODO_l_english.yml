@@ -91,7 +91,7 @@ yamato_heritage_desc:0 ""
 chinese_heritage:0 "Chinese Heritage"
 chinese_heritage_desc:0 ""
 
-
+#Province locs bugged for some reason
 PROV9760:0 "#D PROV9760#!"
 PROV9761:0 "#D PROV9761#!"
 PROV9762:0 "#D PROV9762#!"
