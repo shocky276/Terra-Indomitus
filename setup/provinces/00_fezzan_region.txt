@@ -1,0 +1,1053 @@
+﻿9944={ #Tarfawi
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9945={ #Qabr
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9946={ #Mawahi
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9947={ #Gicherra
+	terrain="oasis"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="cyrenaican"
+		religion="roman_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+9948={ #Gialo
+	terrain="oasis"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="middle_egyptian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9949={ #Augila
+	terrain="oasis"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="middle_egyptian"
+		religion="egyptian_pantheon"
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="middle_egyptian"
+		religion="egyptian_pantheon"
+		amount=2
+	}
+	slaves={
+		culture="cyrenaican"
+		religion="roman_pantheon"
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	aqueduct_building=1
+}
+
+9950={ #Bu Athla
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9951={ #Sahabi
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="cyrenaican"
+		religion="roman_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9952={ #Kalanshah
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9953={ #Jabbanah
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9954={ #Maradah
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9955={ #Jafr
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9956={ #Talhah
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9957={ #Tagrifet
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="psyllic"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9958={ #Meduin
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="macaean"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+9959={ #Zala
+	terrain="desert"
+	culture="nasamonian"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="macaean"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9960={ #Jufrah
+	terrain="desert"
+	culture="macaean"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9961={ #Fuqaha
+	terrain="desert"
+	culture="macaean"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9962={ #Waddan
+	terrain="oasis"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9963={ #Hun
+	terrain="oasis"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="nasamonian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+9964={ #Socna
+	terrain="oasis"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="nasamonian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9965={ #Wilyan
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9966={ #Tamshin
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9967={ #Mughattah
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9968={ #Harawa
+	terrain="desert"
+	culture="psyllic"
+	religion="berber_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9971={ #Umm Abid
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9972={ #Brak
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+	slaves={
+		culture="nasamonian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=2
+	}
+	aqueduct_building=1
+}
+
+
+9973={ #Mahruqah
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="macaean"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+9974={ #Bergin
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="macaean"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=2
+	}
+	tribesmen={
+		culture="nasamonian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	aqueduct_building=1
+}
+
+9975={ #Dedris
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+9976={ #Adri
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="camel"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+9977={ #Adwesa
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9978={ #Wanin
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9979={ #Samnu
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="macaean"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+9980={ #Sabha
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9981={ #Chlef
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9982={ #Gelah
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9983={ #Lecksair
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="libyan"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	slaves={
+		culture="macaean"
+		religion="berber_religion"
+		amount=1
+	}
+	slaves={
+		culture="nasamonian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=2
+	}
+}
+
+9984={ #Garama
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=4
+	}
+	slaves={
+		culture="macaean"
+		religion="berber_religion"
+		amount=2
+	}
+	slaves={
+		culture="nasamonian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	slaves={
+		culture="libyan"
+		religion="egyptian_pantheon"
+		amount=2
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=8
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="berber_religion"
+		amount=2
+	}
+	aqueduct_building=3
+}
+
+9985={ #Zinchekra
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="gems"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="psyllic"
+		religion="berber_religion"
+		amount=1
+	}
+	slaves={
+		culture="nasamonian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	aqueduct_building=2
+}
+
+
+9986={ #Gadduwah
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+9987={ #Ninah
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9988={ #Daydaban
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9989={ #Harakat
+	terrain="desert"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9990={ #Tmessa
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="nasamonian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+9991={ #Zuwila
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+9992={ #Traghen
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+9993={ #Murzuq
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="libyan"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=2
+	}
+	aqueduct_building=1
+}
+
+9994={ #Dujal
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+9995={ #Sharraba
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+9996={ #Baghira
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="camel"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="garamantic"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
+9997={ #Tisit
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9998={ #Terbu
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="camel"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+9999={ #Majdul
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10000={ #Izam
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10001={ #Qatrun
+	terrain="oasis"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10002={ #Tajhiri
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10003={ #Mastutah
+	terrain="desert"
+	culture="garamantic"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}

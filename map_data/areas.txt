@@ -1405,8 +1405,8 @@ cyrenaica_superioris_area = { #11
     provinces = { 3353 3359 3362 3364 3354 3358 3360 3361 3363 3365 3366 }
 }
 
-marmarica_occidentalis_area = {
-    provinces = { 3367 3368 3369 3370 3371 3372 3373 }
+marmarica_occidentalis_area = { #8
+    provinces = { 3367 3368 3369 3370 3371 3372 3373 9969 9970 }
 }
 
 marmarica_orientalis_area = {
@@ -2112,8 +2112,8 @@ khargana_area = { #11
     provinces = { 5513 5507 5516 5508 5515 5517 5518 5520 5519 5521 5506 }
 }
 
-ammon_area = { #12
-    provinces = { 5537 5555 5538 5539 5540 5551 5550 5554 5552 5553 5556 5536 }
+ammon_area = { #14
+    provinces = { 5537 5555 5538 5539 5540 5551 5550 5554 5552 5553 5556 5536 9942 9943 }
 }
 
 parva_area = { #12
@@ -3214,4 +3214,28 @@ muqaddam_area = { #9
 
 gezira_area = { #11
 	provinces = { 9931 9932 9933 9934 9935 9936 9937 9938 9939 9940 9941 }
+}
+
+nasamonia_area = { #12
+	provinces = { 9944 9945 9946 9947 9948 9949 9950 9951 9952 9953 9954 9955 }
+}
+
+soda_area = { #14
+	provinces = { 9956 9957 9958 9959 9960 9961 9962 9963 9964 9965 9966 9967 9968 9987 }
+}
+
+shatti_area = { #10
+	provinces = { 9971 9972 9973 9974 9975 9976 9977 9978 9988 9989 }
+}
+
+hayaa_area = { #8
+	provinces = { 9979 9980 9981 9982 9983 9984 9985 9986 }
+}
+
+murzuq_area = { #8
+	provinces = { 9990 9991 9992 9993 9994 9995 9996 9997 }
+}
+
+himka_area = { #6
+	provinces = { 9998 9999 10000 10001 10002 10003 }
 }

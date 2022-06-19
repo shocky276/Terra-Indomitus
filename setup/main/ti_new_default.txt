@@ -26,5 +26,60 @@ country = {
 			}
 		}
 		
+		NSM = {
+			government = tribal_federation
+			primary_culture = nasamonian
+			religion = egyptian_pantheon
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 9949
+			
+			own_control_core = {
+				9946 9947 9948 9949 9950 9951 9952 9953 9954 9955 #nasamonia
+				9956 9957 9958 9959 #soda
+			}
+		}
+		
+		MHY = {
+			government = tribal_chiefdom
+			primary_culture = macaean
+			religion = berber_religion
+			
+			
+			capital = 9963
+			
+			own_control_core = {
+			 9960 9961 9962 9963 9964 9965 9966 9967 #soda
+			}
+		} 
+		
+		GAR = {
+			government = tribal_kingdom
+			primary_culture = garamantic
+			religion = egyptian_pantheon
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 9984
+			
+			own_control_core = {
+				9971 9972 9973 9974 9975 9976 9977 9978 #Shatti
+				9979 9980 9981 9982 9983 9984 9985 9986 #Hayaa
+				9990 9991 9992 9993 9994 9995 9996 9997 Murzuq
+				9998 9999 10000 10001 10002 10003 #Himka
+			}
+		}
+		
 	}
 }

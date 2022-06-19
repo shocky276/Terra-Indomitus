@@ -6944,6 +6944,7 @@ country = {
 				7668 7688 7689 7690 7691 #new in 1.1
 				8003 # Sikyon
 				9896 9897 # Eastern Desert
+				9942 9943 #Ammon New
 			}
 
 			pantheon = {

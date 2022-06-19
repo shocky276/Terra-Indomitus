@@ -1019,6 +1019,9 @@ LUM = "setup/countries/india_tk/lumbini.txt"
 #TI New Africa
 GAE = "setup/countries/ti_africa/gaetulia.txt"
 SYB = "setup/countries/ti_africa/syrbotia.txt"
+GAR = "setup/countries/ti_africa/garamantes.txt"
+MHY = "setup/countries/ti_africa/machyles.txt"
+NSM = "setup/countries/ti_africa/nasamones.txt"
 
 #SEA
 TGU = "setup/countries/acb_others/taguang.txt"

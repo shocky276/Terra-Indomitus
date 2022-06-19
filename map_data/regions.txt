@@ -1463,3 +1463,15 @@ funan_region = {
 		rinan_area
 	}
 }
+
+fezzan_region = {
+	areas = {
+		nasamonia_area
+		soda_area
+		shatti_area
+		hayaa_area
+		murzuq_area
+		himka_area
+	}
+    color = rgb { 255 289 127 }
+}

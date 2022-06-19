@@ -1311,3 +1311,57 @@
 	}
 }
 
+9942={ #Tubat
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="camel"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+9943={ #Jaghbub
+	terrain="oasis"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="nasamonian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9969={ #Hait
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9970={ #Shaqiq
+	terrain="desert"
+	culture="libyan"
+	religion="egyptian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
