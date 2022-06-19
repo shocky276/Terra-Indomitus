@@ -8488,77 +8488,77 @@
 	province_rank=""
 }
 
-8063={ #Tulih
+8063={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="meroitic"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8064={ #Fura
+8064={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="nasamonian"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8065={ #Kurmut
+8065={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="macaean"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8066={ #Halfa
+8066={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="garamantic"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8067={ #Kalas
+8067={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="nasamonian"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8068={ #Kuweib
+8068={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="garamantic"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8069={ #Khafur
+8069={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="garamantic"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8070={ #Barkol
+8070={ #Desert
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
