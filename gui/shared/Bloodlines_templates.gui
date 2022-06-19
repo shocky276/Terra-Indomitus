@@ -1,4 +1,4 @@
-types Base_GUI_Types
+﻿types Base_GUI_Types
 {
 
 	type charpt_button_large_with_data = cpt_button_large { #cpt_button_large is directly above this
@@ -128,28 +128,20 @@ types Base_GUI_Types
 							margin = { 8 8 }
 							margin_bottom = 12
 						}
-						#using = NoninteractableBG
-						#blockoverride "BackAlpha" { alpha = @character_stats_bg_alpha }
 						icon_and_text_dark = {
-							name = "Culture"
 							size = { 168 26 }
 
 							blockoverride "Icon" { using = icon_culture }
 							blockoverride "Text" { text = "[Character.GetCulture.GetName]" }
-							fontsize_min = 9
 						}
 
 						icon_and_text_dark = {
-							name = "Religion"
 							size = { 168 26 }
 
 							blockoverride "Icon" { using = icon_religious }
 							blockoverride "Text" { text = "[Character.GetReligion.GetName]" }
-							fontsize_min = 9
 						}
-
 					}
-
 				}
 
 				flowcontainer = {

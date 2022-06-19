@@ -6,7 +6,7 @@
 
     chance = {}
 
-    potential = { 
+    potential = {
     	tag = THE
         has_completed_mission = thebes_missions_02_rivals
     	NOT = { has_variable = thebes_mission_cooldown_three }
@@ -108,7 +108,10 @@
                 }
                 custom_tooltip = {
                     text = boeotia_area_has_no_constuction_tooltip
-                    has_construction = no
+                     any_owned_province = {
+                        is_in_area = boeotia_area
+                        has_construction = no
+                    }
                 }
             }
         }
@@ -130,7 +133,7 @@
             custom_tooltip = {
                 text = thebes_missions_03_prosperity_task_4_tooltip
                     thebes_missions_03_prosperity_task_4_pops_current >= thebes_missions_03_prosperity_task_4_pops_total
-            }           
+            }
         }
 
         on_completion = {
@@ -166,7 +169,10 @@
                 }
                 custom_tooltip = {
                     text = attica_area_has_no_constuction_tooltip
-                    has_construction = no
+                     any_owned_province = {
+                        is_in_area = central_greece_area
+                        has_construction = no
+                    }
                 }
             }
         }
@@ -202,7 +208,10 @@
                 }
                 custom_tooltip = {
                     text = sparta_area_has_no_constuction_tooltip
-                    has_construction = no
+                     any_owned_province = {
+                        is_in_area = south_peleponnesos_area
+                        has_construction = no
+                    }
                 }
             }
         }
@@ -239,7 +248,10 @@
                 }
                 custom_tooltip = {
                     text = arcadia_area_has_no_constuction_tooltip
-                    has_construction = no
+                     any_owned_province = {
+                        is_in_area = arcadia_area
+                        has_construction = no
+                    }
                 }
             }
         }
@@ -284,7 +296,10 @@
                 }
                 custom_tooltip = {
                     text = achaea_area_has_no_constuction_tooltip
-                    has_construction = no
+                     any_owned_province = {
+                        is_in_area = achaea_area
+                        has_construction = no
+                    }
                 }
             }
         }
@@ -394,7 +409,7 @@
 
         on_completion = {
             add_country_modifier = {
-                name = promoted_citizenry 
+                name = promoted_citizenry
                 duration = -1
             }
         }
@@ -414,13 +429,13 @@
                 any_owned_province = {
                     count >= 5
                     num_of_academy_building >= 3
-                }                    
+                }
             }
         }
 
         on_completion = {
             add_country_modifier = {
-                name = promoted_nobles 
+                name = promoted_nobles
                 duration = -1
             }
         }

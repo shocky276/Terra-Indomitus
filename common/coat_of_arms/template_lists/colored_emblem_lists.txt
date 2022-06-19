@@ -1,4 +1,4 @@
-# File from base game.
+﻿# File from base game.
 # Invictus, Matt Alexi's contribution
 #	added viking emblems coloured emblem list
 #	added nuragic and nordic borders
@@ -16,7 +16,7 @@ colored_emblem_texture_lists = {
 		1 = "ce_stripes_horizontal_16.dds"
 		#1 = "ce_stripes_vertical_8.dds"
 		1 = "ce_stripes_vertical_16.dds"
-		
+
 		special_selection = {
 			trigger = { country_culture_group = "germanic" }
 			1 = "ce_germanic_pattern_01.dds"
@@ -33,13 +33,13 @@ colored_emblem_texture_lists = {
 		1 = "ce_stripes_horizontal_16.dds"
 		#1 = "ce_stripes_vertical_8.dds"
 		1 = "ce_stripes_vertical_16.dds"
-		
+
 		special_selection = {
 			trigger = { country_culture_group = "germanic" }
 			1 = "ce_germanic_pattern_02.dds"
 		}
 	}
-	
+
 	borders = {
 		2 = "ce_border_simple_01.tga"
 		4 = "ce_border_simple_02.tga"
@@ -61,7 +61,7 @@ colored_emblem_texture_lists = {
 		1 = "ce_border_zigzag_03.dds"
 		1 = "ce_border_zigzag_02.dds"
 		1 = "ce_border_simple_square.dds"
-		
+
 		special_selection = {
 			trigger = {
 				country_culture_group = "hellenic"
@@ -95,11 +95,6 @@ colored_emblem_texture_lists = {
 			1 = "ce_border_leaves_03.dds"
 		}
 		special_selection = {
-			trigger = { has_nuragic_flag_trigger = yes }
-			4 = "ce_border_nuragic_01.dds"
-			4 = "ce_border_iberian_01.dds"
-		}
-		special_selection = {
 			trigger = {
 				OR = {
 					primary_culture = scandian
@@ -109,7 +104,7 @@ colored_emblem_texture_lists = {
 			4 = "ce_border_runes_01.dds"
 			4 = "ce_border_runes_02.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				OR = {
@@ -124,7 +119,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_border_cantabrian_labaru_01.dds"
 			10 = "ce_border_cantabrian_labaru_02.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				country_culture_group = "iberia" #iberian
@@ -140,10 +135,10 @@ colored_emblem_texture_lists = {
 			10 = "ce_border_iberian_sun_02.dds"
 			10 = "ce_border_iberian_sun_03.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
-				country_culture_group = north_african 
+				country_culture_group = north_african
 			}
 			4 = "ce_border_ancient_egyptian_pattern_01.dds"
 		}
@@ -156,7 +151,7 @@ colored_emblem_texture_lists = {
 			4 = "ce_border_tarim_basin.dds"
 		}
 	}
-	
+
 	symbols = {
 		#1 = "ce_empty.dds"
 		1 = "ce_circle_concentric_01.dds"
@@ -177,7 +172,7 @@ colored_emblem_texture_lists = {
 		1 = "ce_crescent_01.dds"
 		1 = "ce_circle_wheel_01.dds"
 		1 = "ce_crescent_02.dds"
-		
+
 		special_selection = {
 			trigger = {
 				has_barbarian_flag_trigger = yes
@@ -185,7 +180,7 @@ colored_emblem_texture_lists = {
 			#chance that barbarian flags generate with just checkers and no symbol
 			20 = "ce_empty.dds"
 		}
-		
+
 		special_selection = {
 			trigger = { primary_culture = nuragic }
 			5 = "ce_nuragic_01.dds"
@@ -212,7 +207,7 @@ colored_emblem_texture_lists = {
 			2 = "ce_deer_02.dds"
 			2 = "ce_deer_03.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				has_celtic_flag_trigger = yes
@@ -250,7 +245,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_s_01.dds"
 			10 = "ce_stone_01.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				country_culture_group = "celt_iberia" #celtiberian
@@ -266,7 +261,7 @@ colored_emblem_texture_lists = {
 			5 = "ce_lauburu_01.dds"
 			5 = "ce_whirl_01.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				OR = {
@@ -291,7 +286,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_cantabrian_labaru_02.dds"
 			10 = "ce_cantabrian_labaru_03.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				country_culture_group = "iberia" #iberian
@@ -306,7 +301,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_circle_wheel_01.dds"
 			10 = "ce_iberian_sun_01.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				country_culture_group = "germanic"
@@ -355,7 +350,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_hellenic_5.dds"
 			10 = "ce_macedonian_sun.dds"
 			10 = "ce_samnite.dds"
-			
+
 			#hellenic
 			10 = "ce_bull_01.dds"
 			10 = "ce_chariot_01.dds"
@@ -369,7 +364,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_wheel_02.dds"
 			10 = "ce_wheel_03.dds"
 			10 = "ce_phrygia.dds"
-			
+
 			#latin
 			10 = "ce_bolts_01.dds"
 			10 = "ce_bull_02.dds"
@@ -378,16 +373,16 @@ colored_emblem_texture_lists = {
 			10 = "ce_wolf_01.dds"
 			10 = "ce_3.dds"
 			10 = "ce_4.dds"
-			
+
 		}
-		
+
 		special_selection = {
 			trigger = {
 				OR = {
 					country_culture_group = "south_levantine" # Arabian
 					country_culture_group = "aksumite_group" # Aksumite
 				}
-			} 
+			}
 			10 = "ce_cat_02.dds"
 			10 = "ce_crescent_02.dds"
 			10 = "ce_flower_01.dds"
@@ -396,7 +391,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_hellenic_5.dds"
 			10 = "ce_samnite.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				country_culture_group = "west_levantine" # Levantine
@@ -410,7 +405,7 @@ colored_emblem_texture_lists = {
 			 2 = "ce_hittite_01.dds"
 			 2 = "ce_hittite_02.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				OR = {
@@ -428,7 +423,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_scorpion_01.dds"
 			10 = "ce_achaemenid_empire.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				OR = {
@@ -442,7 +437,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_head_05.dds"
 			10 = "ce_goddess_01.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				OR = {
@@ -455,7 +450,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_aryan_02.dds"
 			10 = "ce_aryan_03.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				country_culture_group = "east_levantine" # Aramaic
@@ -467,7 +462,7 @@ colored_emblem_texture_lists = {
 			 5 = "ce_hittite_01.dds"
 			 5 = "ce_hittite_02.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				country_culture_group = "indian" # Dravidian
@@ -478,13 +473,13 @@ colored_emblem_texture_lists = {
 			10 = "ce_shell_01.dds"
 			10 = "ce_tiger_01.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				OR = {
 					country_culture_group = "north_african" # Egyptian
 					country_culture_group = "meroitic_group"
-					country_culture_group = "nilotic_group" 
+					country_culture_group = "nilotic_group"
 				}
 			}
 			10 = "ce_egyptian_01.dds"
@@ -495,7 +490,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_egyptian_06.dds"
 			10 = "ce_egyptian_07.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				OR = {
@@ -508,7 +503,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_numidian_03.dds"
 			10 = "ce_numidian_04.dds"
 		}
-		
+
 		special_selection = {
 			trigger = {
 				religion = "judaism"

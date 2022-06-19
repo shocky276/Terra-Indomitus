@@ -338,19 +338,6 @@ cr_sicily_flavour_events.11 = {
 			}
 			triggered_desc = {
 				trigger = {
-					OR = {
-						current_ruler = {
-							 party_type = democratic_party
-						}
-						current_co_ruler = {
-							party_type = democratic_party
-						}
-					}
-				}
-				desc = cr_sicily_flavour_events.11.desc_democratic
-			}
-			triggered_desc = {
-				trigger = {
 					always = yes
 				}
 				desc = cr_sicily_flavour_events.11.desc_generic

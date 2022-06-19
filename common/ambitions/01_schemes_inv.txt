@@ -12,17 +12,17 @@
 			has_variable = ongoing_scheme_target
 		}
 	}
-	
+
 	finished_when = {
 		custom_tooltip = {
 			text = "scheme_ambition_fulfillment_always_yes"
 		}
 	}
-	
+
 	duration = 730
-	
+
 	skip_initial_abort = yes
-	
+
 	abort = {
 		OR = {
 			is_alive = no
@@ -31,7 +31,7 @@
 			has_character_modifier = indisposed_charmod
 		}
 	}
-	
+
 	chance = {
 		base = 5
 	}
@@ -59,17 +59,17 @@ scheme_ruler_corruption = {
 			has_variable = ongoing_scheme_target
 		}
 	}
-	
+
 	finished_when = {
 		custom_tooltip = {
 			text = "scheme_ambition_fulfillment_always_yes"
 		}
 	}
-	
+
 	duration = 730
-	
+
 	skip_initial_abort = yes
-	
+
 	abort = {
 		OR = {
 			is_alive = no
@@ -79,7 +79,7 @@ scheme_ruler_corruption = {
 			has_character_modifier = indisposed_charmod
 		}
 	}
-	
+
 	chance = {
 		base = 5
 	}
@@ -119,17 +119,17 @@ scheme_convert_pops_in_holding = {
 			power_base >= 1
 		}
 	}
-	
+
 	finished_when = {
 		#custom_tooltip = {
 		#	text = "scheme_ambition_converting_pops"
 		#}
 	}
-	
+
 	duration = 365
-	
+
 	skip_initial_abort = yes
-	
+
 	abort = {
 		OR = {
 			#is_head_of_family = no
@@ -145,7 +145,7 @@ scheme_convert_pops_in_holding = {
 			}
 		}
 	}
-	
+
 	chance = {
 		base = 3
 		modifier = {
@@ -181,7 +181,7 @@ scheme_convert_pops_in_holding = {
 			has_trait = content
 		}
 	}
-	
+
 	#on_monthly = xyz
 	on_start = scheme_convert_pops_in_holding_start
 	on_finish = scheme_convert_pops_in_holding_finish
@@ -216,17 +216,17 @@ scheme_assimilate_pops_in_holding = {
 			power_base >= 1
 		}
 	}
-	
+
 	finished_when = {
 		#custom_tooltip = {
 		#	text = "scheme_ambition_converting_pops"
 		#}
 	}
-	
+
 	duration = 365
-	
+
 	skip_initial_abort = yes
-	
+
 	abort = {
 		OR = {
 			#is_head_of_family = no
@@ -243,7 +243,7 @@ scheme_assimilate_pops_in_holding = {
 			#}
 		}
 	}
-	
+
 	chance = {
 		base = 3
 		modifier = {
@@ -279,7 +279,7 @@ scheme_assimilate_pops_in_holding = {
 			has_trait = content
 		}
 	}
-	
+
 	#on_monthly = xyz
 	on_start = scheme_assimilate_pops_in_holding_start
 	on_finish = scheme_assimilate_pops_in_holding_finish
@@ -330,17 +330,17 @@ scheme_invest_in_port = {
 			power_base >= 1
 		}
 	}
-	
+
 	finished_when = {
 		#custom_tooltip = {
 		#	text = "scheme_ambition_invest_in_ports"
 		#}
 	}
-	
+
 	duration = 365
-	
+
 	skip_initial_abort = yes
-	
+
 	abort = {
 		OR = {
 			is_ruler = yes
@@ -356,7 +356,7 @@ scheme_invest_in_port = {
 			}
 		}
 	}
-	
+
 	chance = {
 		base = 2
 		modifier = {
@@ -380,7 +380,7 @@ scheme_invest_in_port = {
 			has_trait = founder
 		}
 	}
-	
+
 	#on_monthly = xyz
 	on_start = scheme_invest_in_ports_start
 	on_finish = scheme_invest_in_ports_finish
@@ -405,7 +405,6 @@ scheme_exploit_populous = {
 		corruption >= 20
 		num_holdings_owned > 0
 		any_holdings = {
-			NOT = { province_rank = city_metropolis }
 			total_population > 10
 		}
 		OR = {
@@ -413,17 +412,17 @@ scheme_exploit_populous = {
 			power_base >= 1
 		}
 	}
-	
+
 	finished_when = {
 		custom_tooltip = {
 			text = "scheme_exploit_populous_tooltip"
 		}
 	}
-	
+
 	duration = 365
-	
+
 	skip_initial_abort = yes
-	
+
 	abort = {
 		OR = {
 			#is_head_of_family = no
@@ -437,7 +436,7 @@ scheme_exploit_populous = {
 			}
 		}
 	}
-	
+
 	chance = {
 		base = 3
 		modifier = {
@@ -469,7 +468,7 @@ scheme_exploit_populous = {
 			has_trait = content
 		}
 	}
-	
+
 	#on_monthly = xyz
 	on_start = scheme_exploit_populous_start
 	on_finish = scheme_exploit_populous_finish
@@ -502,17 +501,17 @@ scheme_increase_statesmenship = {
 			power_base >= 1
 		}
 	}
-	
+
 	finished_when = {
 		#custom_tooltip = {
 		#	text = "scheme_exploit_populous_tooltip"
 		#}
 	}
-	
+
 	duration = 365
-	
+
 	skip_initial_abort = yes
-	
+
 	abort = {
 		OR = {
 			#is_head_of_family = no
@@ -523,7 +522,7 @@ scheme_increase_statesmenship = {
 			character_experience >= 80
 		}
 	}
-	
+
 	chance = {
 		base = 3
 		modifier = {
@@ -551,7 +550,7 @@ scheme_increase_statesmenship = {
 			has_trait = prominent
 		}
 	}
-	
+
 	#on_monthly = xyz
 	on_start = scheme_increase_statesmenship_start
 	on_finish = scheme_increase_statesmenship_finish
@@ -575,17 +574,17 @@ scheme_training_skill = {
 			power_base >= 1
 		}
 	}
-	
+
 	finished_when = {
 		#custom_tooltip = {
 		#	text = "scheme_exploit_populous_tooltip"
 		#}
 	}
-	
+
 	duration = 1460
-	
+
 	skip_initial_abort = yes
-	
+
 	abort = {
 		OR = {
 			#is_head_of_family = no
@@ -596,11 +595,11 @@ scheme_training_skill = {
 			has_character_modifier = indisposed_charmod
 		}
 	}
-	
+
 	chance = {
 		base = 3
 	}
-	
+
 	#on_monthly = xyz
 	on_start = scheme_training_skill_start
 	on_finish = scheme_training_skill_finish
@@ -626,23 +625,23 @@ scheme_promote_nobility = {
 			free_building_slots >= 2
 			num_of_nobles > 3
 			NOT = { has_building = library_building  }
-		}		
+		}
 		OR = {
 			title_importance_svalue > 1.25
 			power_base >= 10
 		}
 	}
-	
+
 	finished_when = {
 		#custom_tooltip = {
 		#	text = "scheme_exploit_populous_tooltip"
 		#}
 	}
-	
+
 	duration = 365
-	
+
 	skip_initial_abort = yes
-	
+
 	abort = {
 		OR = {
 			is_ruler = yes
@@ -659,7 +658,7 @@ scheme_promote_nobility = {
 			}
 		}
 	}
-	
+
 	chance = {
 		base = 3
 		modifier = {
@@ -683,7 +682,7 @@ scheme_promote_nobility = {
 			has_trait = prominent
 		}
 	}
-	
+
 	#on_monthly = xyz
 	on_start = scheme_promote_nobility_start
 	on_finish = scheme_promote_nobility_finish
@@ -704,25 +703,24 @@ scheme_exploit_slaves = {
 		wealth > 100
 		num_holdings_owned > 0
 		any_holdings = {
-			NOT = { province_rank = city_metropolis }
 			num_of_slaves > 5
-		}		
+		}
 		OR = {
 			title_importance_svalue > 1.25
 			power_base >= 10
 		}
 	}
-	
+
 	finished_when = {
 		#custom_tooltip = {
 		#	text = "scheme_exploit_populous_tooltip"
 		#}
 	}
-	
+
 	duration = 365
-	
+
 	skip_initial_abort = yes
-	
+
 	abort = {
 		OR = {
 			is_ruler = yes
@@ -734,7 +732,7 @@ scheme_exploit_slaves = {
 			}
 		}
 	}
-	
+
 	chance = {
 		base = 3
 		modifier = {
@@ -762,7 +760,7 @@ scheme_exploit_slaves = {
 			has_trait = cold
 		}
 	}
-	
+
 	#on_monthly = xyz
 	on_start = scheme_exploit_slaves_start
 	on_finish = scheme_exploit_slaves_finish

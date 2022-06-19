@@ -494,9 +494,7 @@ me_bactria_03_aria.14 = { # Task 12 - Greek Settlers - End
 
 me_bactria_03_aria.17 = { # Task 12 - Greek Settlers - Find
     type = province_event
-    title = me_bactria_03_aria.17.t
-    desc = me_bactria_03_aria.17.desc
-    picture = diadochi_new_city_founded
+    hidden = yes
 
     trigger = {
         has_city_status = yes
@@ -587,10 +585,6 @@ me_bactria_03_aria.17 = { # Task 12 - Greek Settlers - Find
             }
         }
     }
-
-    option = {
-        name = me_bactria_03_aria.17.a
-    }
 }
 
 
@@ -611,10 +605,10 @@ me_bactria_03_aria.18 = { # Task 12 - Greek Settlers - Pay
                 limit = {
                     var:aria_pop_move_variable = 1
                 }
-                custom_tooltip = me_bactria_aria_move_pop_tt_3
+                #custom_tooltip = me_bactria_aria_move_pop_tt_3
             }
             else = {
-                custom_tooltip = me_bactria_aria_move_pop_tt_4
+                #custom_tooltip = me_bactria_aria_move_pop_tt_4
             }
         }
     }

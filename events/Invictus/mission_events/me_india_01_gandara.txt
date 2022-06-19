@@ -1042,9 +1042,7 @@ me_india_01_gandara.26 = { # Task 23 - Greek Settlers - End
 
 me_india_01_gandara.27 = { # Task 23 - Greek Settlers
     type = province_event
-    title = me_india_01_gandara.27.t
-    desc = me_india_01_gandara.27.desc
-    picture = diadochi_new_city_founded
+    hidden = yes
 
     trigger = {
         has_city_status = yes
@@ -1130,10 +1128,6 @@ me_india_01_gandara.27 = { # Task 23 - Greek Settlers
                 }
             }
         }
-    }
-
-    option = {
-        name = me_india_01_gandara.27.a
     }
 }
 

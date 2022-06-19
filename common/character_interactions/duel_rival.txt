@@ -2,9 +2,9 @@
 
 	on_other_nation = no
 	#on_own_nation = yes
-	
+
 	sound = "event:/SFX/UI/Character/Unique/sfx_ui_character_hold_triumph"
-	
+
 	potential_trigger = {
 		hidden:scope:target = {
 			NOT = { this = scope:actor.current_ruler }
@@ -24,10 +24,10 @@
 			is_tribal = yes
 		}
 	}
-	
-	
+
+
 	allowed_trigger = {
-		
+
 		scope:actor = {
 			can_pay_price = price_tribal_duel
 			current_ruler = {
@@ -64,7 +64,7 @@
 			}
 		}
 	}
-	
+
 	effect = {
 		scope:actor = {
 			pay_price = price_tribal_duel
@@ -95,10 +95,10 @@
 				position = 4 #Don't get the best guy
 				max = 1
 
-		 		save_scope_as = champion	
+		 		save_scope_as = champion
 	 		}
 	 		hidden_effect = {
-				trigger_event = { 
+				trigger_event = {
 					id = tribal_duel.1
 					days = 1
 				}

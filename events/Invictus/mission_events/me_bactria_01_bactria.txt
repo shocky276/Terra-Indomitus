@@ -1005,9 +1005,7 @@ me_bactria_01_bactria.30 = { # Task 26 - Greek Immigration - End
 
 me_bactria_01_bactria.31 = { # Task 26 - Greek Settlers - Find
     type = province_event
-    title = me_bactria_01_bactria.31.t
-    desc = me_bactria_01_bactria.31.desc
-    picture = diadochi_new_city_founded
+    hidden = yes
 
     trigger = {
         has_city_status = yes
@@ -1103,11 +1101,6 @@ me_bactria_01_bactria.31 = { # Task 26 - Greek Settlers - Find
             }
             remove_variable = bactrian_chosen_city
         }
-    }
-
-    #if the event is visible, it needs an option:
-    option = {
-        name = me_bactria_01_bactria.31.a
     }
 }
 

@@ -1,4 +1,4 @@
-egyptian_flavor_theme = {
+﻿egyptian_flavor_theme = {
 	icon = ""
 	soundeffect = "event:/SFX/UI/Character/Unique/sfx_ui_character_accuse_crime"
 }
@@ -10,7 +10,7 @@ powerful_character_theme = {
 
 character_marriage_theme = {
 	icon = ""
-	soundeffect = "event:/SFX/UI/Character/Unique/sfx_ui_character_arrange_marriage"	
+	soundeffect = "event:/SFX/UI/Character/Unique/sfx_ui_character_arrange_marriage"
 }
 
 misson_task_completed_theme = {
@@ -20,7 +20,7 @@ misson_task_completed_theme = {
 
 battle_theme = {
 	icon = ""
-	soundeffect = "event:/SFX/UI/Unit/sfx_ui_unit_remove_pirate"	
+	soundeffect = "event:/SFX/UI/Unit/sfx_ui_unit_remove_pirate"
 }
 
 befriend_character_theme = {

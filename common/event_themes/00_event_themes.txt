@@ -12,72 +12,72 @@ Diplomacy  = {
 	icon = ""
 	soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_diplomacy"
  }
- 
+
 Trade = {
 	 icon = ""
 	 soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_trade"
 }
-	
-Civic = { 
+
+Civic = {
 		icon = ""
 		soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_civic"
 }
-	
-Senate = { 
+
+Senate = {
 		icon = ""
 		soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_senate"
 }
-	
-Religion = { 
+
+Religion = {
 		icon = ""
 		soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_religion"
 }
-	
+
 On_deified_ruler_death = {
 		icon = ""
-		soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_deified_ruler_death" 
+		soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_deified_ruler_death"
 }
 
-Death = { 
+Death = {
 	icon = ""
 	soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_sad"
  }
- 
-Happy = { 
+
+Happy = {
 	icon = ""
 	soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_happy"
  }
 
-Naval = { 
+Naval = {
 	icon = ""
 	soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_naval"
  }
- 
+
 Unrest = {
 	icon = ""
 	soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_unrest"
  }
- 
-Scholar = { 
+
+Scholar = {
 	icon = ""
 	soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_scholar"
  }
- 
-Marching = { 
+
+Marching = {
 	icon = ""
 	soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_marching"
  }
- 
-Hubbub = { 
+
+Hubbub = {
 	icon = ""
 	soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_marketplace"
  }
- 
-Wonder = { 
+
+Wonder = {
 	icon = ""
 	soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_wonder"
  }
- 
+
 volcanic = {
  	icon = ""
  	soundeffect = "event:/SFX/Events/Generic/sfx_event_generic_volcano" # Placeholder

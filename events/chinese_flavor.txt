@@ -1,0 +1,30 @@
+﻿namespace = chinese_flavor
+
+chinese_flavor.1 = {
+    type = country_event
+    hidden = yes
+
+    left_portrait = current_ruler
+
+    trigger = {
+
+    }
+
+    immediate = {
+    	ordered_country = {
+    		limit = {
+    			country_culture_group = "chinese"
+    		}
+    		max = 5
+    		order_by = num_of_cities
+    		current_ruler = {
+    			if = {
+    				limit = {
+    					NOT = { has_variable = chinese_ruler }
+    				}
+    				set_variable = chinese_ruler
+    			}
+    		}
+    	}
+    }
+}

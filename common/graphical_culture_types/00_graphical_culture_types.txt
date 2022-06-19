@@ -19,3 +19,11 @@ dacian_gfx = {}
 thracian_gfx = {}
 illyrian_gfx = {}
 chinese_gfx = {}
+
+
+
+##########################################################
+# THESE ARE UNUSED, but the city data is in the files. The culture groups just have to be made.
+###########################################################
+cretan_gfx = {}
+nuragic_gfx = {}

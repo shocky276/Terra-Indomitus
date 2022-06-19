@@ -49,12 +49,24 @@
 			}
 		}
 		hidden_effect = {
-			random_owned_province = {
+			if = {
 				limit = {
-					is_capital = no
-					trade_goods = grain
+					any_owned_province = {
+						trade_goods = grain
+					}
 				}
-				save_scope_as = scythian_grain_province_scope
+				random_owned_province = {
+					limit = {
+						is_capital = no
+						trade_goods = grain
+					}
+					save_scope_as = scythian_grain_province_scope
+				}
+			}
+			else = {
+				random_owned_province = {
+					save_scope_as = scythian_grain_province_scope
+				}
 			}
 		}
 		hidden_effect = {
@@ -87,7 +99,7 @@
     on_completion = {
         add_3_free_province_investments = yes
         complete_mission_effect = yes
-		trigger_event = me_scythia_01_greek_stance.2 
+		trigger_event = me_scythia_01_greek_stance.2
     }
 
     scythia_mission_01_greek_stance_task_1 = { # Task 1 - To Be or Not To Be Greek
@@ -101,15 +113,15 @@
 
 		on_start = {
 			trigger_event = {
-				id = me_scythia_01_greek_stance.4	
+				id = me_scythia_01_greek_stance.4
 				days = { 70 130 }
 			}
 			trigger_event = {
-				id = me_scythia_01_greek_stance.5	 
+				id = me_scythia_01_greek_stance.5
 				days = { 170 230 }
 			}
 			trigger_event = {
-				id = me_scythia_01_greek_stance.6	  
+				id = me_scythia_01_greek_stance.6
 				days = { 270 330 }
 			}
 			add_political_influence = -30
@@ -125,7 +137,7 @@
 			}
 		}
 
-        on_completion = {  
+        on_completion = {
 			trigger_event = {
 				id = me_scythia_01_greek_stance.7	 #
 			}
@@ -155,15 +167,15 @@
 				add_stability = -25
 			}
 			trigger_event = {
-				id = me_scythia_01_greek_stance.10	
+				id = me_scythia_01_greek_stance.10
 				days = { 70 130 }
 			}
 			trigger_event = {
-				id = me_scythia_01_greek_stance.11	  
+				id = me_scythia_01_greek_stance.11
 				days = { 170 230 }
 			}
 			trigger_event = {
-				id = me_scythia_01_greek_stance.12	 
+				id = me_scythia_01_greek_stance.12
 				days = { 270 330 }
 			}
 			add_political_influence = -30
@@ -172,7 +184,7 @@
 				days = 365
 			}
 		}
-        
+
 		on_completion = {
 			custom_tooltip = scythia_01_greek_stance_2_reward.tt    #
 		}
@@ -188,15 +200,15 @@
 				OR = {
 					AND = {
 						num_of_port_building >= 3
-                		num_of_commerce_building >= 1 
+                		num_of_commerce_building >= 1
 					}
 					AND = {
 						num_of_port_building >= 1
-                		num_of_commerce_building >= 2 
-						num_of_population_building >= 1 
+                		num_of_commerce_building >= 2
+						num_of_population_building >= 1
 					}
 				}
-            } 
+            }
 		}
 
         highlight = {
@@ -210,7 +222,7 @@
 			trigger_event = me_scythia_01_greek_stance.8
 			capital_scope = {
 				add_province_modifier = {
-					name = me_scy_1_3_pmod   
+					name = me_scy_1_3_pmod
 					duration = -1
 				}
 			}
@@ -228,9 +240,9 @@
                 has_truce_with = BPK
 			}
 		}
-        
+
         on_completion = {
-			trigger_event = { id = me_scythia_01_greek_stance.20 }  
+			trigger_event = { id = me_scythia_01_greek_stance.20 }
 		}
     }
 
@@ -249,7 +261,7 @@
 			treasury >= 400
             political_influence >= 100
 		}
-       
+
         highlight = {
 			scope:province = {
 				OR = {
@@ -262,7 +274,7 @@
 		}
 
         on_start = {
-			trigger_event = { id = me_scythia_01_greek_stance.25 }  
+			trigger_event = { id = me_scythia_01_greek_stance.25 }
 			set_variable = {
 				name = ongoing_mission_pulse_flag
 				days = 730
@@ -270,31 +282,31 @@
 		}
 
 		on_completion = {
-			trigger_event = { id = me_scythia_01_greek_stance.26 } 
+			trigger_event = { id = me_scythia_01_greek_stance.26 }
 			custom_tooltip = scythia_01_greek_stance_5_reward.tt    #
 			hidden_effect = {
-				p:4535 = { 
+				p:4535 = {
 					set_city_status = city
 					add_province_modifier = {
 						name = me_scy_1_5_pmod
 						duration = 7300	# 20 years
 					}
 				}
-				p:4545 = { 
+				p:4545 = {
 					set_city_status = city
 					add_province_modifier = {
 						name = me_scy_1_5_pmod
 						duration = 7300	# 20 years
 					}
 				}
-				p:4547 = { 
+				p:4547 = {
 					set_city_status = city
 					add_province_modifier = {
 						name = me_scy_1_5_pmod
 						duration = 7300	# 20 years
 					}
 				}
-				p:4548 = { 
+				p:4548 = {
 					set_city_status = city
 					add_province_modifier = {
 						name = me_scy_1_5_pmod
@@ -315,12 +327,12 @@
 			has_law = absolute_authority
 			has_law = formalized_industry_law_tribal
 		}
-        
+
         on_completion = {
-			trigger_event = { id = me_scythia_01_greek_stance.27 } 
+			trigger_event = { id = me_scythia_01_greek_stance.27 }
 			current_ruler = { add_popularity = popularity_small  }
 			add_country_modifier = {
-				name = me_scy_1_6_cmod      
+				name = me_scy_1_6_cmod
 				duration = 3650 # 10 years
 			}
         }
@@ -341,7 +353,7 @@
 				num_of_academy_building >= 1
 				num_of_forum_building >= 1
 				dominant_province_culture = root.culture
-			}    
+			}
 		}
 
         on_start = {
@@ -353,7 +365,7 @@
 		}
 
 		on_completion = {
-			trigger_event = { id = me_scythia_01_greek_stance.29 } 
+			trigger_event = { id = me_scythia_01_greek_stance.29 }
 			custom_tooltip = scythia_01_greek_stance_7_reward.tt   #
 		}
     }
@@ -373,17 +385,17 @@
         }
 
         on_start = {
-			trigger_event = { id = me_scythia_01_greek_stance.33 } 
+			trigger_event = { id = me_scythia_01_greek_stance.33 }
 			trigger_event = {
-				id = me_scythia_01_greek_stance.30	
+				id = me_scythia_01_greek_stance.30
 				days = { 60 90 }
 			}
 			trigger_event = {
-				id = me_scythia_01_greek_stance.31	 
+				id = me_scythia_01_greek_stance.31
 				days = { 120 180 }
 			}
 			trigger_event = {
-				id = me_scythia_01_greek_stance.32	 
+				id = me_scythia_01_greek_stance.32
 				days = { 200 260 }
 			}
 			set_variable = {
@@ -406,7 +418,7 @@
 						martial <= scope:current_ruler.martial
 					}
 				}
-				trigger_event = { id = me_scythia_01_greek_stance.34 } 
+				trigger_event = { id = me_scythia_01_greek_stance.34 }
 			}
 			else_if = {
 				limit = {
@@ -415,13 +427,13 @@
 						martial > scope:current_ruler.martial
 					}
 				}
-				trigger_event = { id = me_scythia_01_greek_stance.35 } 
+				trigger_event = { id = me_scythia_01_greek_stance.35 }
 			}
 			else = {
-				trigger_event = { id = me_scythia_01_greek_stance.36 } 
+				trigger_event = { id = me_scythia_01_greek_stance.36 }
 			}
 			trigger_event = {
-				id = me_scythia_01_greek_stance.39	
+				id = me_scythia_01_greek_stance.39
 				days = { 5 10 }
 			}
 		}
@@ -443,7 +455,7 @@
 		}
 
         on_completion = {
-			trigger_event = { id = me_scythia_01_greek_stance.40 } 
+			trigger_event = { id = me_scythia_01_greek_stance.40 }
 		}
     }
 
@@ -485,7 +497,7 @@
 		on_start = {
 			add_treasury = -200
 			trigger_event = {
-				id = me_scythia_01_greek_stance.41	
+				id = me_scythia_01_greek_stance.41
 			}
 		}
 
@@ -505,10 +517,10 @@
 		final = yes
 
         on_completion = {
-			set_country_heritage = hellenized_barbarian_heritage 
-			trigger_event = { id = me_scythia_01_greek_stance.49 } 		
+			set_country_heritage = hellenized_barbarian_heritage
+			trigger_event = { id = me_scythia_01_greek_stance.49 }
 			###     The following was taken directly from the tribal reform mission
-            change_government = despotic_monarchy		
+            change_government = despotic_monarchy
 			switch_government_type_event_clearup_effect = yes
 			if = {
 				limit = {
@@ -691,7 +703,7 @@
 		}
     }
 
-    scythia_mission_01_greek_stance_task_12 = { # They Will Die 
+    scythia_mission_01_greek_stance_task_12 = { # They Will Die
         requires = { scythia_mission_01_greek_stance_task_1 }
 
         icon = "task_expansion"
@@ -706,7 +718,7 @@
         }
 
 		on_start = {
-			trigger_event = { id = me_scythia_01_greek_stance.50 } 
+			trigger_event = { id = me_scythia_01_greek_stance.50 }
 			if = {
 				limit = {
 					var:scythian_greek_stance_counter > 0
@@ -748,7 +760,7 @@
 		}
     }
 
-    scythia_mission_01_greek_stance_task_13 = { # Unify The Scythian People 
+    scythia_mission_01_greek_stance_task_13 = { # Unify The Scythian People
         requires = { scythia_mission_01_greek_stance_task_12 }
 
         icon = "task_political"
@@ -776,7 +788,7 @@
 		}
 		on_completion = {
 			trigger_event = { id = me_scythia_01_greek_stance.78 }
-			add_stability = 15 
+			add_stability = 15
 			current_ruler = {
 				add_gold = 200
 				add_popularity = popularity_small
@@ -794,14 +806,14 @@
 		}
 
 		on_completion = {
-			trigger_event = { id = me_scythia_01_greek_stance.52 } 
+			trigger_event = { id = me_scythia_01_greek_stance.52 }
 			add_military_experience = 40
-			current_ruler = { 
+			current_ruler = {
 				add_martial = 1
 				add_zeal = 2
 				add_popularity = popularity_large
 			}
-			
+
 		}
     }
 
@@ -832,7 +844,7 @@
 
 		on_completion = {
 			add_military_experience = 20
-			trigger_event = { id = me_scythia_01_greek_stance.55 } 
+			trigger_event = { id = me_scythia_01_greek_stance.55 }
 		}
     }
 
@@ -869,16 +881,16 @@
 
 		on_completion = {
 			add_country_modifier = {
-				name = me_scy_1_18_cmod 	
+				name = me_scy_1_18_cmod
 				duration = 7300 # 20 years
 			}
 			add_country_modifier = {
-				name = me_scy_1_180_cmod 	
+				name = me_scy_1_180_cmod
 				duration = 7300 # 20 years
 			}
 		}
     }
-	
+
     scythia_mission_01_greek_stance_task_19 = { # The Great Horde
         requires = { scythia_mission_01_greek_stance_task_20 }
 
@@ -890,15 +902,15 @@
 				any_subject = { # check if root country has 3 or more subjects with primary culture in the Scythian culture group
 					count = 3
 					country_culture_group = scythian_east
-				}	 
+				}
 			}
 		}
-		
+
 		on_completion = {
 			add_manpower = 4
 			scope:root = {
 				add_country_modifier = {
-					name = me_scy_1_19_cmod 	
+					name = me_scy_1_19_cmod
 					duration = -1 # permanent
 				}
 			}
@@ -919,15 +931,15 @@
 		on_start = {
 			trigger_event = {
 				id = me_scythia_01_greek_stance.60	#
-				days = 100 
+				days = 100
 			}
 			trigger_event = {
 				id = me_scythia_01_greek_stance.61	  #
-				days = 200 
+				days = 200
 			}
 			trigger_event = {
 				id = me_scythia_01_greek_stance.62	  #
-				days = 300 
+				days = 300
 			}
 		}
 
@@ -945,11 +957,11 @@
         allow = {
 			owns_or_subject_owns = 4549
 		}
-		
+
 		on_completion = {
-			trigger_event = { id = me_scythia_01_greek_stance.75 } 
-			trigger_event = { 
-				id = me_scythia_01_greek_stance.76 
+			trigger_event = { id = me_scythia_01_greek_stance.75 }
+			trigger_event = {
+				id = me_scythia_01_greek_stance.76
 				days = { 3 5 }
 			}
 		}
@@ -976,10 +988,10 @@
 		}
 
 		on_completion = {
-			trigger_event = { id = me_scythia_01_greek_stance.77 } 
+			trigger_event = { id = me_scythia_01_greek_stance.77 }
 			add_innovation = 4
 			add_country_modifier = {
-				name = me_scy_1_22_cmod 	
+				name = me_scy_1_22_cmod
 				duration = 7300 # 20 years
 			}
 		}
@@ -991,18 +1003,18 @@
         icon = "task_political"
 
         final = yes
-		
+
 		allow = {
 			stability >= 50
-			centralization <= 80 
+			centralization <= 80
 		}
 
 		on_completion = {
 			add_stability = -25
 			add_political_influence = 100
-			trigger_event = { id = me_scythia_01_greek_stance.89 } 		
+			trigger_event = { id = me_scythia_01_greek_stance.89 }
 			###     The following was taken directly from the tribal reform mission
-            change_government = steppe_horde ###  will change to tribal_confederacy once coded ### 		
+            change_government = steppe_horde ###  will change to tribal_confederacy once coded ###
 			switch_government_type_event_clearup_effect = yes
 			if = {
 				limit = {
@@ -1242,12 +1254,12 @@
 		on_start = {
 			trigger_event = { id = me_scythia_01_greek_stance.100 } #
 		}
-        
+
 		on_completion = {
 			trigger_event = { id = me_scythia_01_greek_stance.101 } #
 			add_manpower = 2
 			add_country_modifier = {
-				name = me_scy_1_25_cmod 	
+				name = me_scy_1_25_cmod
 				duration = 7300 # 20 years
 			}
 		}
@@ -1255,7 +1267,7 @@
 
 	scythia_mission_01_greek_stance_task_26 = { # Man The Walls
 		requires = { scythia_mission_01_greek_stance_task_25 }
-	
+
 		icon = "task_political"
 
         allow = {
@@ -1286,7 +1298,7 @@
 			}
 			add_centralization = 5
 			add_country_modifier = {
-				name = me_scy_1_26_cmod 	
+				name = me_scy_1_26_cmod
 				duration = 7300 # 20 years
 			}
 		}
@@ -1307,7 +1319,7 @@
 				has_building = basic_settlement_infratructure_building
 			}
 		}
-		
+
 
 		highlight = {
 			scope:province = {
@@ -1323,18 +1335,18 @@
 				}
 			}
 		}
-		
+
 		on_completion = {
 			trigger_event = { id = me_scythia_01_greek_stance.108 } #
 			scope:scythian_grain_province_scope = {
 				add_province_modifier = {
-					name = me_scy_1_27_1_pmod	
+					name = me_scy_1_27_1_pmod
 					duration = -1
 				}
 			}
 			scope:scythian_livestock_province_scope = {
 				add_province_modifier = {
-					name = me_scy_1_27_2_pmod	
+					name = me_scy_1_27_2_pmod
 					duration = -1
 				}
 			}
@@ -1343,7 +1355,7 @@
 
 	scythia_mission_01_greek_stance_task_28 = { # Luxuries Are Necessities
 		requires = { scythia_mission_01_greek_stance_task_26 scythia_mission_01_greek_stance_task_27 }
-		
+
 		icon = "task_economical"
 
 		allow = {
@@ -1382,15 +1394,15 @@
 				}
 			}
 		}
-	
+
 		on_completion = {
 			add_country_modifier = {
-				name = me_scy_1_28_cmod      
+				name = me_scy_1_28_cmod
 				duration = -1
 			}
 			capital_scope = {
 				add_province_modifier = {
-					name = me_scy_1_28_pmod	
+					name = me_scy_1_28_pmod
 					duration = 7300
 				}
 			}

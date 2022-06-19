@@ -24,7 +24,7 @@ flavor_gaul.1 = {
 		}
 	}
 	picture = celtic_chiefs
-	
+
 	left_portrait = current_ruler
 
 	trigger = {
@@ -76,7 +76,7 @@ flavor_gaul.1 = {
 			}
 		}
 	}
-	
+
 	option = { # Fortune
 		name = "flavor_gaul.1.b"
 		add_political_influence = subtract_influence_medium
@@ -91,7 +91,7 @@ flavor_gaul.1 = {
 			}
 		}
 	}
-	
+
 	option = { # Navy
 		name = "flavor_gaul.1.c"
 		add_political_influence = subtract_influence_small
@@ -204,9 +204,9 @@ flavor_gaul.2 = { #Healing followup
 		}
 	}
 	picture = celtic_chiefs
-	
+
 	left_portrait = current_ruler
-	
+
 	immediate = {
 		hidden_effect = {
 			random_list = {
@@ -231,7 +231,7 @@ flavor_gaul.2 = { #Healing followup
 			}
 		}
 	}
-	
+
 	option = { #Successful
 		name = "flavor_gaul.2.a"
 		trigger = {
@@ -240,7 +240,7 @@ flavor_gaul.2 = { #Healing followup
 				is_male = yes
 			}}
 		}
-		current_ruler = { 
+		current_ruler = {
 			remove_trait = plague
 			remove_trait = hemorrhagic_fever
 			remove_trait = gangrene
@@ -283,7 +283,7 @@ flavor_gaul.2 = { #Healing followup
 				is_male = no
 			}}
 		}
-		current_ruler = { 
+		current_ruler = {
 			remove_trait = plague
 			remove_trait = hemorrhagic_fever
 			remove_trait = gangrene
@@ -342,9 +342,9 @@ flavor_gaul.3 = { #Fortune followup
 		}
 	}
 	picture = celtic_chiefs
-	
+
 	left_portrait = current_ruler
-	
+
 	immediate = {
 		hidden_effect = {
 			random_list = {
@@ -369,13 +369,13 @@ flavor_gaul.3 = { #Fortune followup
 			}
 		}
 	}
-	
+
 	option = { #Successful
 		name = "flavor_gaul.3.a"
 		trigger = {
 			has_variable = flag_yellow
 		}
-		current_ruler = { 
+		current_ruler = {
 			add_trait = lustful
 			remove_trait = lazy
 			add_trait = energetic
@@ -442,9 +442,9 @@ flavor_gaul.4 = { #Navy followup
 		}
 	}
 	picture = celtic_chiefs
-	
+
 	left_portrait = current_ruler
-	
+
 	immediate = {
 		hidden_effect = {
 			random_list = {
@@ -469,7 +469,7 @@ flavor_gaul.4 = { #Navy followup
 			}
 		}
 	}
-	
+
 	option = { #Successful
 		name = "flavor_gaul.4.a"
 		trigger = {
@@ -542,9 +542,9 @@ flavor_gaul.5 = { #Army followup
 		}
 	}
 	picture = celtic_chiefs
-	
+
 	left_portrait = current_ruler
-	
+
 	immediate = {
 		hidden_effect = {
 			random_list = {
@@ -569,7 +569,7 @@ flavor_gaul.5 = { #Army followup
 			}
 		}
 	}
-	
+
 	option = { #Successful
 		name = "flavor_gaul.5.a"
 		trigger = {
@@ -612,7 +612,7 @@ flavor_gaul.6 = {                            # Lugian League - START
     right_portrait = scope:league_2.current_ruler
     right_portrait = scope:league_3.current_ruler
 
-    trigger = { 
+    trigger = {
         has_land = yes
     }
 
@@ -653,7 +653,7 @@ flavor_gaul.6 = {                            # Lugian League - START
         add_political_influence = -100
     }
 
-    option = {      
+    option = {
         name = flavor_gaul.6.a
         custom_tooltip = bohemia_lugian_league_reward_tt
     }
@@ -675,17 +675,13 @@ flavor_gaul.7 = {                            # Lugian League - OFFER
     right_portrait = c:BOA.current_ruler
     goto_location = c:BOA.capital_scope
 
-    trigger = { 
+    trigger = {
         has_land = yes
     }
 
     option = {
         name = flavor_gaul.7.a
         set_variable = bohemian_subject_league_flag
-        if = {
-            limit = { is_ai = no  }
-            custom_tooltip = flavor_gaul.7.at
-        }
         ai_chance = {
             factor = 6
             modifier = {
@@ -747,7 +743,7 @@ flavor_gaul.8 = {                            # Lugian League - END
                     any_in_list = {
                         list = bohemian_league_list
                         has_variable = bohemian_subject_league_flag
-                    }  
+                    }
                 }
                 desc = flavor_gaul.8.desc_1 # someone said yes
             }
@@ -762,12 +758,11 @@ flavor_gaul.8 = {                            # Lugian League - END
     right_portrait = scope:lugian_league_head_scope.current_ruler
     goto_location = scope:lugian_league_head_scope.capital_scope
 
-    trigger = { 
+    trigger = {
         has_land = yes
     }
 
     immediate = {
-        custom_tooltip = flavor_gaul.8.tt
         if = {
             limit = {
                 any_in_list = {
@@ -781,7 +776,7 @@ flavor_gaul.8 = {                            # Lugian League - END
                         list = bohemian_league_list
                         has_variable = bohemian_subject_league_flag
                         is_ai = no
-                    }   
+                    }
                 }
                 random_in_list = {
                     list = bohemian_league_list
@@ -855,12 +850,12 @@ flavor_gaul.9 = { #Bohemian assembly
 	type = country_event
 	title = "flavor_gaul.9.t"
 	desc = "flavor_gaul.9.desc"
-	
+
 	picture = celtic_village
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.9.a"
 		add_centralization = 10
@@ -871,12 +866,12 @@ flavor_gaul.10 = { #Bohemian coins
 	type = country_event
 	title = "flavor_gaul.10.t"
 	desc = "flavor_gaul.10.desc"
-	
+
 	picture = celtic_village
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.10.a"
 		root.current_ruler = {
@@ -890,12 +885,12 @@ flavor_gaul.11 = { #Bohemian akropolis
 	type = country_event
 	title = "flavor_gaul.11.t"
 	desc = "flavor_gaul.11.desc"
-	
+
 	picture = celtic_village
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.11.a"
 		root.current_ruler = {
@@ -908,12 +903,12 @@ flavor_gaul.12 = { #Bohemians defeat Germanics
 	type = country_event
 	title = "flavor_gaul.12.t"
 	desc = "flavor_gaul.12.desc"
-	
+
 	picture = looting
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.12.a"
 		root.current_ruler = {
@@ -926,19 +921,19 @@ flavor_gaul.13 = { #Bohemians defeat Dacians
 	type = country_event
 	title = "flavor_gaul.13.t"
 	desc = "flavor_gaul.13.desc"
-	
+
 	picture = looting
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.13.a"
-		#all Dacian lands get modifier 
-		custom_tooltip = flavor_gaul_13_tooltip
+		#all Dacian lands get modifier
+		#custom_tooltip = flavor_gaul_13_tooltip
 		hidden_effect = {
             		area:porolissensis_inferioris_area = {
-                		every_area_province = { 
+                		every_area_province = {
                 			add_province_modifier = {
                 				name = "boii_dacia"
 						duration = 7200
@@ -946,7 +941,7 @@ flavor_gaul.13 = { #Bohemians defeat Dacians
                 		}
             		}
 			area:porolissensis_area = {
-                		every_area_province = { 
+                		every_area_province = {
                 			add_province_modifier = {
                 				name = "boii_dacia"
 						duration = 7200
@@ -954,7 +949,7 @@ flavor_gaul.13 = { #Bohemians defeat Dacians
                 		}
             		}
 			area:apulensis_area = {
-                		every_area_province = { 
+                		every_area_province = {
                 			add_province_modifier = {
                 				name = "boii_dacia"
 						duration = 7200
@@ -962,7 +957,7 @@ flavor_gaul.13 = { #Bohemians defeat Dacians
                 		}
             		}
 			area:malvensis_area = {
-                		every_area_province = { 
+                		every_area_province = {
                 			add_province_modifier = {
                 				name = "boii_dacia"
 						duration = 7200
@@ -977,12 +972,12 @@ flavor_gaul.14 = { #Bohemian colonisation - west
 	type = country_event
 	title = "flavor_gaul.14.t"
 	desc = "flavor_gaul.14.desc"
-	
+
 	picture = celtic_village
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.14.a"
 		add_treasury = -100
@@ -1086,7 +1081,7 @@ flavor_gaul.14 = { #Bohemian colonisation - west
 				set_conquered_by = root
 			}
 		}
-		
+
 	}
 	option = {
 		name = "flavor_gaul.14.c"
@@ -1098,12 +1093,12 @@ flavor_gaul.15 = { #Bohemian colonisation - north
 	type = country_event
 	title = "flavor_gaul.15.t"
 	desc = "flavor_gaul.15.desc"
-	
+
 	picture = celtic_village
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.15.a"
 		add_political_influence = -20
@@ -1219,7 +1214,7 @@ flavor_gaul.15 = { #Bohemian colonisation - north
 				set_conquered_by = root
 			}
 		}
-		
+
 	}
 	option = {
 		name = "flavor_gaul.15.c"
@@ -1231,12 +1226,12 @@ flavor_gaul.16 = { #Bohemian colonisation - east
 	type = country_event
 	title = "flavor_gaul.16.t"
 	desc = "flavor_gaul.16.desc"
-	
+
 	picture = celtic_village
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.16.a"
 		add_manpower = -5
@@ -1352,7 +1347,7 @@ flavor_gaul.16 = { #Bohemian colonisation - east
 				set_conquered_by = root
 			}
 		}
-		
+
 	}
 	option = {
 		name = "flavor_gaul.16.c"
@@ -1364,15 +1359,14 @@ flavor_gaul.17 = { #Bohemian colonisation - start
 	type = country_event
 	title = "flavor_gaul.17.t"
 	desc = "flavor_gaul.17.desc"
-	
+
 	picture = celtic_chiefs
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.17.a"
-		no_effect_tooltip = yes
 	}
 }
 
@@ -1380,12 +1374,12 @@ flavor_gaul.18 = { #Bohemian colonisation of Sudetia
 	type = country_event
 	title = "flavor_gaul.18.t"
 	desc = "flavor_gaul.18.desc"
-	
+
 	picture = celtic_chiefs
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.18.a"
 		if = {
@@ -1418,12 +1412,12 @@ flavor_gaul.19 = { #Bohemian commonwealth
 	type = country_event
 	title = "flavor_gaul.19.t"
 	desc = "flavor_gaul.19.desc"
-	
+
 	picture = celtic_chiefs
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.19.a"
 		add_country_modifier = {
@@ -1796,9 +1790,9 @@ flavor_gaul.24 = {		#Aremorican Albion
         		}
         	}
 		}
-		
-		
-		
+
+
+
 		p:2190 = {
 			hidden_effect = {
 				create_country = {
@@ -1871,9 +1865,9 @@ flavor_gaul.24 = {		#Aremorican Albion
         		}
         	}
 		}
-		
-		
-		
+
+
+
 		p:2109 = {
 			hidden_effect = {
 				create_country = {
@@ -1996,7 +1990,7 @@ flavor_gaul.25 = {		#Aremorican Republic
 			}
 		}
 	}
-	
+
 	option = { #dont change
 		name = flavor_gaul.25.b
 		add_stability = 10
@@ -2007,12 +2001,12 @@ flavor_gaul.26 = { #Asterix in Rome
 	type = country_event
 	title = "flavor_gaul.26.t"
 	desc = "flavor_gaul.26.desc"
-	
+
 	picture = celtic_chiefs
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.26.a"
 		add_country_modifier = {
@@ -2026,12 +2020,12 @@ flavor_gaul.27 = { #Asterix in Egypt initial
 	type = country_event
 	title = "flavor_gaul.27.t"
 	desc = "flavor_gaul.27.desc"
-	
+
 	picture = celtic_chiefs
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.27.a"
 		trigger_event = {
@@ -2045,12 +2039,12 @@ flavor_gaul.28 = { #Asterix in Egypt final
 	type = country_event
 	title = "flavor_gaul.28.t"
 	desc = "flavor_gaul.28.desc"
-	
+
 	picture = celtic_chiefs
-	
+
 	left_portrait = root.current_ruler
 
-	
+
 	option = {
 		name = "flavor_gaul.28.a"
 		add_country_modifier = {
