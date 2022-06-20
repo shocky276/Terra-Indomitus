@@ -8569,88 +8569,88 @@
 
 8070={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="macaean"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8071={ #Ileigha
+8071={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="macaean"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8072={ #Abraq
+8072={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="macaean"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8073={ #Hudi
+8073={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="macaean"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8074={ #Shabbabah
+8074={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="phazanian"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8075={ #Karim
+8075={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="phazanian"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8076={ #Asele
+8076={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="phazanian"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8077={ #Ghaloa
+8077={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="phazanian"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8078={ #Tuyur
+8078={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="phazanian"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

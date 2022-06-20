@@ -24,10 +24,11 @@ sea_zones = RANGE { 7847 7860 } # New Impassable Seazones
 sea_zones = LIST { 6418 6436 6437 7906 7907 8019 8020 }
 
 #Wastelands, List:
-wasteland = LIST { 3222 5020 6044 6046 6300 6482 7299 5981 }				#impassable - will never be colored in any map mode
-wasteland = RANGE { 5936 5965 } #Changed in AOS
+wasteland = LIST { 3222 5020 6044 6046 6300 6482 7299 5981 5990 }				#impassable - will never be colored in any map mode
+wasteland = RANGE { 5936 5946 }
+wasteland = RANGE { 5949 5965 } #Changed in AOS and TI
 wasteland = RANGE { 5970 5976 }
-wasteland = RANGE { 5984 5992 }
+wasteland = RANGE { 5984 5988 }
 wasteland = RANGE { 6048 6049 }
 wasteland = RANGE { 7640 7644 } 
 wasteland = RANGE { 7847 7860 } # New Impassable Seazones
@@ -59,7 +60,7 @@ impassable_terrain = RANGE { 8000 8002 } # New Anatolian impassables
 impassable_terrain = RANGE { 8004 8006 } # New Anatolian impassables
 impassable_terrain = RANGE { 8055 8062 } # New Anatolian impassables
 #Impassables, List:
-impassable_terrain = LIST { 768 783 3138 3316 5962 5963 5968 6045 6483 6488 6493 6494 6495 6496 6497 6498 6499 7357 7280 7281 7646 7647 7648 7649 7761 7762 7764 7796 7797 7861 7895 7900 7940 7950 7952 7953 7955 7957 7959 7960 7969 7970 7992 7993 8012 8013 8014 8017 8305}
+impassable_terrain = LIST { 768 783 3138 3316 5947 5948 5962 5963 5968 5989 5991 5992 6045 6483 6488 6493 6494 6495 6496 6497 6498 6499 7357 7280 7281 7646 7647 7648 7649 7761 7762 7764 7796 7797 7861 7895 7900 7940 7950 7952 7953 7955 7957 7959 7960 7969 7970 7992 7993 8012 8013 8014 8017 8305}
 
 #Uninhabitables, Ranges:
 uninhabitable = RANGE { 7546 7558 }
@@ -136,11 +137,11 @@ sea_zones = RANGE { 9852 9864 }
 sea_zones = RANGE { 9865 9870 }
 
 #Reserved for provinces that may be added to the original game in the future
-wasteland = RANGE { 8070 8207 }
+wasteland = RANGE { 8079 8207 }
 
 #Uninhabitables, TI:
 uninhabitable = LIST { 9944 9945 9968 9969 9970 9987 9988 9989 }
 
 #Impassables, TI:
 impassable_terrain = LIST { 3292 }
-impassable_terrain = RANGE { 8063 8069 }
+impassable_terrain = RANGE { 8063 8078 }
