@@ -1,12 +1,12 @@
 ﻿increase_civilization_cap_button = {
 	scope = province
 
-	confirm_title = "increase_civ_cap_t"    
+	confirm_title = "increase_civ_cap_t"
     confirm_text = "increase_civ_cap_desc"
 
 	saved_scopes = {
 		player
-	} 
+	}
 
 	is_valid = {
 		trigger_if = {
@@ -56,7 +56,7 @@
 		add_civilization_scaling_gold_cost_trigger = yes
 	}
 	effect = {
-		hidden:scope:player = {
+		scope:player = {
 			if = {
 				limit = {
 					has_variable = free_investments

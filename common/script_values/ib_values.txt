@@ -1,4 +1,41 @@
-﻿#Improved Buildings Values
+﻿#FMO VALUES
+
+#Vanilla province investment scaling gold cost, increased.
+calc_governor_investment_fee = {
+    value = 0
+    if = {
+        limit = {
+            has_variable = num_state_investments
+        }
+        add = {
+            value = 25 #vanilla = 20
+            multiply = {
+                value = var:num_state_investments
+                #multiply = {
+                #   value = var:num_state_investments
+                #   multiply = 0.5
+                #}
+            }
+        }
+    }
+}
+
+calc_civ_cap_fee = {
+    value = 0
+    if = {
+        limit = {
+            has_variable = num_civ_investments
+        }
+        add = {
+            value = 25 #vanilla = 20
+            multiply = {
+                value = var:num_civ_investments
+            }
+        }
+    }
+}
+
+#Improved Buildings Values
 
 ### Buildings ###
 
