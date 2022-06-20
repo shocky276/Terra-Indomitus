@@ -635,10 +635,17 @@ mint_building = { #mint
 	allow = {
 		exists = owner
 		OR = {
-			has_law = minting_laws_1
 			has_law = minting_laws_2
-			has_law = minting_laws_3
 			trigger_if = {
+				limit = {
+					OR = {
+						has_law = minting_laws_1
+						has_law = minting_laws_3
+					}
+				}
+				this.governorship = capital_scope.governorship
+			}
+			trigger_else_if = {
 				limit = { is_subject = yes }
 				overlord = { has_law = minting_laws_3 }
 			}
