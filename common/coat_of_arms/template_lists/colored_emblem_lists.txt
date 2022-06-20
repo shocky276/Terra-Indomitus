@@ -41,16 +41,12 @@ colored_emblem_texture_lists = {
 	}
 
 	borders = {
-		2 = "ce_border_simple_01.tga"
-		4 = "ce_border_simple_02.tga"
-		4 = "ce_border_simple_03.tga"
-		1 = "ce_border_checker_01.tga"
-		1 = "ce_border_checker_02.tga"
-		1 = "ce_border_checker_03.tga"
-		1 = "ce_border_checker_04.tga"
-		1 = "ce_border_rug_01.tga"
-		1 = "ce_border_rug_02.tga"
-		1 = "ce_border_rug_03.tga"
+		4 = "ce_border_simple_03.dds"
+		1 = "ce_border_checker_02.dds"
+		1 = "ce_border_checker_03.dds"
+		1 = "ce_border_checker_04.dds"
+		1 = "ce_border_rug_02.dds"
+		1 = "ce_border_rug_03.dds"
 		1 = "ce_border_stars_01.dds"
 		1 = "ce_border_stars_04.dds"
 		1 = "ce_border_triangles_01.dds"
@@ -66,15 +62,12 @@ colored_emblem_texture_lists = {
 			trigger = {
 				country_culture_group = "hellenic"
 			}
-			4 = "ce_border_meander_01.tga"
-			4 = "ce_border_meander_02.tga"
-			4 = "ce_border_meander_03.tga"
-			4 = "ce_border_meander_04.tga"
-			4 = "ce_border_meander_05.tga"
-			4 = "ce_border_meander_07.tga"
-			4 = "ce_border_meander_08.tga"
-			4 = "ce_border_meander_09.tga"
-			4 = "ce_border_meander_10.tga"
+			4 = "ce_border_meander_04.dds"
+			4 = "ce_border_meander_05.dds"
+			4 = "ce_border_meander_07.dds"
+			4 = "ce_border_meander_08.dds"
+			4 = "ce_border_meander_09.dds"
+			4 = "ce_border_meander_10.dds"
 			special_selection = {
 				trigger = { primary_culture = macedonian }
 				1 = "ce_border_stars_02.dds"
@@ -82,8 +75,8 @@ colored_emblem_texture_lists = {
 			}
 			special_selection = {
 				trigger = { primary_culture = cretan }
-				4 = "ce_border_meander_06.tga"
-				8 = "ce_border_meander_07.tga"
+				4 = "ce_border_meander_06.dds"
+				8 = "ce_border_meander_07.dds"
 			}
 		}
 		special_selection = {
