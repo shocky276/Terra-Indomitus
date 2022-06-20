@@ -1,0 +1,9 @@
+﻿l_english:
+
+#laws loc
+#tooltips
+minting_laws_mint_building_capital_region:0 "The mint building can only be constructed in the capital region."
+minting_laws_mint_building_everywhere:0 "The mint building can be constructed in any city. Governors may do so independently."
+minting_laws_mint_building_subjects:0 "Our subject states may build their own mints, as long as they are civilised."
+minting_laws_mint_building_disabled_for_player:0 "Only private entities may build mints."
+mint_metals_prerequisites:0 "We need to have access to precious metals, either by way of production or by way of import."

@@ -1,0 +1,148 @@
+﻿minting_laws = { #minting laws - only for civilised states
+	potential = {
+		is_tribal = no
+		is_subject = no
+	}
+
+	minting_laws_0 = { #default - no precious metals, no own coin
+
+	}
+
+	minting_laws_1 = { #state monopoly - allows the building of the mint in the capital region only
+		custom_tooltip = minting_laws_mint_building_capital_region
+
+		allow = {
+			custom_tooltip = {
+				text = mint_metals_prerequisites
+				any_province = {
+					OR = {
+						trade_goods = precious_metals
+						is_importing_trade_good = precious_metals
+					}
+				}
+			}
+		}
+
+		on_enact = {
+			add_party_approval = {
+				party_type = democratic_party
+				value = 5
+			}
+			add_party_approval = {
+				party_type = oligarchic_party
+				value = -5
+			}
+			add_party_approval = {
+				party_type = traditionalist_party
+				value = 10
+			}
+		}
+	}
+
+	minting_laws_2 = { #decentralised minting - allows the building of the mint in all provinces (but has downsides) - allows ai governors to build the mint (is that possible to do?)	
+		modifier = {
+			governor_loyalty = 5 #more power
+			monthly_governor_wage = 0.1 #self-payment 
+		}
+		custom_tooltip = minting_laws_mint_building_everywhere
+
+		allow = {
+			custom_tooltip = {
+				text = mint_metals_prerequisites
+				any_province = {
+					OR = {
+						trade_goods = precious_metals
+						is_importing_trade_good = precious_metals
+					}
+				}
+			}
+		}
+
+		on_enact = {
+			add_party_approval = {
+				party_type = oligarchic_party
+				value = 10
+			}
+			add_party_approval = {
+				party_type = traditionalist_party
+				value = -5
+			}
+		}
+	}
+
+	minting_laws_3 = { #independent coinage - subjects are allowed to mint their own coin (i.e. they are more independent)
+		allow = {
+			any_subject = {
+				count > 0
+				exists = this
+			}
+			custom_tooltip = {
+				text = mint_metals_prerequisites
+				any_province = {
+					OR = {
+						trade_goods = precious_metals
+						is_importing_trade_good = precious_metals
+					}
+				}
+			}
+		}
+		modifier = {
+			subject_opinions = 35 #they like you for giving them more rights
+			subject_loyalty = -10 #they are more autonomous, i.e. independent
+			global_commerce_modifier = 0.05 #different coinage having different values
+		}
+		custom_tooltip = minting_laws_mint_building_capital_region
+		custom_tooltip = minting_laws_mint_building_subjects
+
+		on_enact = {
+			add_party_approval = {
+				party_type = oligarchic_party
+				value = -10
+			}
+			add_party_approval = {
+				party_type = traditionalist_party
+				value = -5
+			}
+			add_party_approval = {
+				party_type = democratic_party
+				value = 10
+			}
+		}
+	}
+
+	minting_laws_4 = { #privatised minting - disallows the mint for the player, only ai characters can build it (schemes)
+		modifier = {
+			character_loyalty = 5 #privilege
+			monthly_corruption = 0.01 #power corrupts
+			build_cost = -0.05
+		}
+		custom_tooltip = minting_laws_mint_building_disabled_for_player
+
+		allow = {
+			custom_tooltip = {
+				text = mint_metals_prerequisites
+				any_province = {
+					OR = {
+						trade_goods = precious_metals
+						is_importing_trade_good = precious_metals
+					}
+				}
+			}
+		}
+
+		on_enact = {
+			add_party_approval = {
+				party_type = oligarchic_party
+				value = 10
+			}
+			add_party_approval = {
+				party_type = traditionalist_party
+				value = -5
+			}
+			add_party_approval = {
+				party_type = democratic_party
+				value = -10
+			}
+		}
+	}
+}
