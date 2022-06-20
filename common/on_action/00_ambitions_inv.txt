@@ -756,3 +756,57 @@ scheme_exploit_slaves_finish = {
 		}
 	}
 }
+
+scheme_invest_in_mint_start = {
+	effect = {
+		save_scope_as = ongoing_scheme_target
+		set_variable = {
+			name = ongoing_scheme_target
+			value = scope:ongoing_scheme_target
+			days = 400
+		}
+		add_character_modifier = {
+			name = "encroaching_on_public_land_modifier"
+			duration = 365
+		}
+		if = {
+			limit = { is_governor = yes }
+			random_governorship_province = {
+				limit = {
+					has_city_status = yes
+					has_construction = no
+					NOR = {
+						has_province_modifier = urban_development_in_progress
+						has_building = mint_building
+					}
+				}
+				save_scope_as = mint_holding
+			}
+		}
+		else = {
+			random_holdings = {
+				limit = {
+					has_city_status = yes
+					has_construction = no
+					NOR = {
+						has_province_modifier = urban_development_in_progress
+						has_building = mint_building
+					}
+				}
+				save_scope_as = mint_holding
+			}
+		}
+	}	
+}
+
+scheme_invest_in_mint_finish = {
+	effect = {
+		custom_tooltip = scheme_ambition_invest_in_ports
+		hidden_effect = {
+			scope:ports_holding = {
+				add_building_level = mint_building
+			}
+			remove_scheme_variables_effect = yes
+		}
+	}
+}

@@ -769,3 +769,114 @@ scheme_exploit_slaves = {
 		monthly_character_wealth = 5
 	}
 }
+
+scheme_build_mint = {
+	can_be_picked = {
+		scheme_preconditions = yes
+		NOR = {
+			has_variable = ongoing_scheme_target
+		}
+		is_ruler = no
+		employer = { is_tribal = no }
+		wealth >= 300
+		OR = {
+			AND = {
+				num_holdings_owned > 0
+				any_holdings = {
+					has_city_status = yes
+					has_construction = no
+					NOT = {
+						has_province_modifier = urban_development_in_progress
+					}
+					NOT = {
+						has_building = mint_building
+					}
+				}
+			}
+			AND = {
+				is_governor = yes
+				any_governorship_province = {
+					has_city_status = yes
+					has_construction = no
+					NOT = {
+						has_province_modifier = urban_development_in_progress
+					}
+					NOT = {
+						has_building = mint_building
+					}
+				}
+			}
+		}
+		OR = {
+			title_importance_svalue > 1.25
+			power_base >= 1
+		}
+	}
+
+	finished_when = {
+		#custom_tooltip = {
+		#	text = "scheme_ambition_invest_in_ports"
+		#}
+	}
+
+	duration = 365
+
+	skip_initial_abort = yes
+
+	abort = {
+		OR = {
+			is_ruler = yes
+			is_alive = no
+			prisoner = yes
+			has_character_modifier = indisposed_charmod
+			scope:mint_holding = {
+				OR = {
+					has_construction = yes
+					num_of_port_building >= 1
+					has_province_modifier = urban_development_in_progress
+				}
+			}
+		}
+	}
+
+	chance = {
+		base = 2
+		modifier = {
+			add = 2
+			wealth >= 500
+		}
+		modifier = {
+			add = 5
+			wealth >= 1000
+		}
+		modifier = {
+			add = 5
+			has_trait = ambitious
+		}
+		modifier = {
+			add = 5
+			has_trait = crafty
+		}
+		modifier = {
+			add = 5
+			has_trait = founder
+		}
+		modifier = {
+			add = 5
+			is_governor = yes
+		}
+		modifier = {
+			add = 5
+			is_head_of_family = yes
+		}
+	}
+
+	#on_monthly = xyz
+	on_start = scheme_invest_in_mint_start
+	on_finish = scheme_invest_in_mint_finish
+	on_abort = scheme_abort
+
+	modifier = {
+		monthly_character_wealth = -10
+	}
+}
