@@ -1350,7 +1350,7 @@ gaetulia_centralis_area = {
 }
 
 gaetulia_orientalis_area = {
-    provinces = { 3191 3190 3195 3194 3196 3198 3199 3200 3201 3202 3290 }
+    provinces = { 3194 3195 3196 3198 3199 3200 3201 3202 }
 }
 
 gaetulia_septentrionalis_area = {
@@ -1385,8 +1385,8 @@ africa_meridionalis_area = {
     provinces = { 3279 3286 3276 3277 3282 3281 3278 3280 3283 3287 3285 3288 3289 3284 }
 }
 
-tripolitania_occidentalis_area = { #10
-    provinces = { 3292 3291 3293 3294 3295 3296 3297 3298 3299 3300 }
+tripolitania_occidentalis_area = { #9
+    provinces = { 3291 3293 3294 3295 3296 3297 3298 3299 3300 }
 }
 
 tripolitania_centralis_area = { #10
@@ -3220,8 +3220,8 @@ nasamonia_area = { #12
 	provinces = { 9944 9945 9946 9947 9948 9949 9950 9951 9952 9953 9954 9955 }
 }
 
-soda_area = { #14
-	provinces = { 9956 9957 9958 9959 9960 9961 9962 9963 9964 9965 9966 9967 9968 9987 }
+soda_area = { #12
+	provinces = { 9956 9957 9958 9959 9960 9961 9962 9963 9964 9965 9966 9967 }
 }
 
 shatti_area = { #10
@@ -3238,4 +3238,32 @@ murzuq_area = { #8
 
 himka_area = { #6
 	provinces = { 9998 9999 10000 10001 10002 10003 }
+}
+
+psyllia_area = { #9
+	provinces = { 9968 10004 10005 10006 10007 10008 10009 10010 10011 }
+}
+
+zamzam_area = { #10
+	provinces = { 9987 10012 10013 10014 10015 10016 10017 10018 10019 10020 }
+}
+
+girgiri_area = { #8
+	provinces = { 10021 10022 10023 10024 10025 10026 10027 10028 }
+}
+
+soffegin_area = { #9
+	provinces = { 10029 10030 10031 10032 10033 10034 10035 10036 10037 }
+}
+
+phazania_area = { #12
+	provinces = { 10038 10039 10040 10041 10042 10043 10044 10045 10046 10047 10048 10049  }
+}
+
+lotophagia_area = { #10
+	provinces = { 10050 10051 10052 10053 10054 10055 10056 10057 10058 10059 }
+}
+
+tritonia_area = { #10
+	provinces = { 3190 3191 3290 10060 10061 10062 10063 10064 10065 10066 }
 }

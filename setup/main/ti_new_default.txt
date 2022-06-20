@@ -1,3 +1,13 @@
+diplomacy = {
+
+#Nasamones
+	dependency = { first = NAS second = PSY subject_type = tributary } #Psylli
+	
+#Carthage New
+	dependency = { first = CAR second = GIN subject_type = vassal_tribe } # Gindanes
+}
+
+
 country = {
 	countries = {
 		
@@ -78,6 +88,89 @@ country = {
 				9979 9980 9981 9982 9983 9984 9985 9986 #Hayaa
 				9990 9991 9992 9993 9994 9995 9996 9997 #Murzuq
 				9998 9999 10000 10001 10002 10003 #Himka
+			}
+		}
+		
+		PSY = { #Nasamonian Tributary
+			government = tribal_chiefdom
+			primary_culture = psyllic
+			religion = berber_religion
+			
+			capital = 3333
+			
+			own_control_core = { 
+				10008 10009 10010 10011 #psyllia
+				3332 3333 3334 3335 3336 3337 #syrtica
+				
+			}
+		}
+		
+		MKA = {
+			government = tribal_federation
+			primary_culture = macaean
+			religion = berber_religion
+			
+			capital = 10027
+			
+			own_control_core = {
+				10004 10005 10006 10007 #psyllia
+				9987 10012 10013 10014 10015 10016 10017 10018 10019 10020 #zamzam
+				10021 10022 10023 10024 10025 10026 10027 10028 #girgiri
+				10029 10030 10031 10032 10033 10034 10035 10036 10037 #soffegin
+			}
+		}
+		
+		PHZ = { 
+			government = tribal_federation
+			primary_culture = phazani
+			religion = berber_religion
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 10042
+			
+			own_control_core = { 
+				10038 10039 10040 10041 10042 10043 10044 10045 10046 10047 #phazania
+				
+			}
+		}
+		
+		GIN = { #Carthaginian Tributary
+			government = tribal_federation
+			primary_culture = lotophagoi
+			religion = berber_religion
+			
+			capital = 10051
+			
+			own_control_core = { 
+				10050 10051 10052 10053 10054 10055 10056 10057 10058 10059 #lotophagia
+				
+			}
+		}
+		
+		GYZ = { 
+			government = tribal_kingdom
+			primary_culture = gyzantian
+			religion = berber_religion
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 3190
+			
+			own_control_core = { 
+				3196 3202  #mauretania_orientalis
+				3190 3191 3290 10060 10061 10062 10063 10064 10065 10066 #tritonia
+				
 			}
 		}
 		

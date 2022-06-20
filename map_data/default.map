@@ -142,4 +142,5 @@ wasteland = RANGE { 8070 8207 }
 uninhabitable = LIST { 9944 9945 9968 9969 9970 9987 9988 9989 }
 
 #Impassables, TI:
+impassable_terrain = LIST { 3292 }
 impassable_terrain = RANGE { 8063 8069 }

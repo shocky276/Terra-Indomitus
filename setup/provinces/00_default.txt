@@ -157,6 +157,15 @@
 	barbarian_power=0
 	province_rank=""
 }
+3292={ #Desert
+	terrain="impassable_terrain"
+	culture="massylian"
+	religion="berber_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
 
 3316={ #Sindhian Mountains
 	terrain="impassable_terrain"

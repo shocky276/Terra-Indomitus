@@ -946,7 +946,7 @@ cisalpine_gaul_region = {
 }
 
 africa_region = {
-	#7 areas
+	#9 areas
 	areas = {
 		carthage_area
 		africa_septentrionalis_area
@@ -957,6 +957,8 @@ africa_region = {
 		tripolitania_occidentalis_area
 		tripolitania_centralis_area
 		tripolitania_orientalis_area
+		lotophagia_area
+		tritonia_area
 	}
 }
 
@@ -1472,6 +1474,11 @@ fezzan_region = {
 		hayaa_area
 		murzuq_area
 		himka_area
+		psyllia_area
+		zamzam_area
+		girgiri_area
+		soffegin_area
+		phazania_area
 	}
     color = rgb { 255 289 127 }
 }

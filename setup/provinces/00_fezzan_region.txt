@@ -1051,3 +1051,690 @@
 		amount=1
 	}
 }
+
+10004={ #Jashalam
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10005={ #Gholaia
+	terrain="oasis"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="psyllic"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10006={ #Zayden
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="psyllic"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+10007={ #Auxiqua
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10008={ #Manfuchia
+	terrain="desert"
+	culture="psyllic"
+	religion="berber_religion"
+	trade_goods="camel"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10009={ #Nagdiyah
+	terrain="desert"
+	culture="psyllic"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10010={ #Qarinah
+	terrain="desert"
+	culture="psyllic"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10011={ #Majdubiyah
+	terrain="desert"
+	culture="psyllic"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10012={ #Faschia
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10013={ #Ghirza
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10014={ #Scedeua
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10015={ #Duraybikah
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10016={ #Gharbya
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="psyllic"
+		religion="berber_religion"
+		amount=1
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10017={ #Tabaqah
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10018={ #Sherbia
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="precious_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10019={ #Schiueref
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="camel"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10020={ #Shawi
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10021={ #Mizda
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10022={ #Centenarium
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10023={ #Thenteos
+	terrain="desert_hills"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10024={ #Vinaza
+	terrain="desert_hills"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10025={ #Garian
+	terrain="desert_hills"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10026={ #Thenadassa
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10027={ #Mesphe
+	terrain="hills"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		culture="psyllic"
+		religion="berber_religion"
+		amount=1
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+10028={ #Subututtu
+	terrain="hills"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10029={ #Banat
+	terrain="desert_hills"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10030={ #Sdada
+	terrain="desert_hills"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10031={ #Khnafes
+	terrain="desert_hills"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="precious_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10032={ #Bularkan
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10033={ #Lebr
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10034={ #Scemech
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="camel"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10035={ #Rimoniana
+	terrain="oasis"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10036={ #Ajdab
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10037={ #Dnar
+	terrain="desert"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10038={ #Giosc
+	terrain="desert_hills"
+	culture="macaean"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10039={ #Tabuinati
+	terrain="desert_hills"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="garamantic"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10040={ #Sinawen
+	terrain="desert"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods="camel"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+10041={ #Derg
+	terrain="desert"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10042={ #Cydamus
+	terrain="oasis"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	slaves={
+		amount=4
+	}
+	slaves={
+		culture="macaean"
+		religion="berber_religion"
+		amount=2
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	tribesmen={
+		amount=9
+	}
+	aqueduct_building=2
+}
+
+10043={ #Debdeb
+	terrain="desert"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=6
+	}
+}
+
+10044={ #Praesidium
+	terrain="desert_hills"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10045={ #Zar
+	terrain="desert"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10046={ #Bourma
+	terrain="desert"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10047={ #Tillibari
+	terrain="desert_hills"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10048={ #Dekrlet
+	terrain="desert"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10049={ #Jebil
+	terrain="desert"
+	culture="phazani"
+	religion="berber_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}

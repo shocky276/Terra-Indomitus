@@ -19,37 +19,61 @@
 }
 
 3190={ #Thiges
-	terrain="dry_plains"
-	culture="massylian"
+	terrain="plains"
+	culture="gyzantian"
 	religion="berber_religion"
 	trade_goods="elephants"
-	civilization_value=0
+	civilization_value=15
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
 		amount=1
 	}
-	tribesmen={
+	slaves={
+		amount=4
+	}
+	slaves={
+		culture="gaetulian"
+		religion="berber_religion"
 		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+	tribesmen={
+		culture="gaetulian"
+		religion="berber_religion"
+		amount=1
 	}
 }
 
 3191={ #Castra Neptitana
-	terrain="dry_plains"
-	culture="gaetulian"
+	terrain="plains"
+	culture="gyzantian"
 	religion="berber_religion"
-	trade_goods="horses"
-	civilization_value=0
+	trade_goods="honey"
+	civilization_value=10
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1860,8 +1884,8 @@
 }
 
 3290={ #Aves
-	terrain="dry_plains"
-	culture="massylian"
+	terrain="plains"
+	culture="gyzantian"
 	religion="berber_religion"
 	trade_goods="wood"
 	civilization_value=0
@@ -1880,7 +1904,7 @@
 
 3291={ #Takapes
 	terrain="plains"
-	culture="carthaginian"
+	culture="gyzantian"
 	religion="carthaginian_pantheon"
 	trade_goods="salt"
 	civilization_value=31
@@ -1896,39 +1920,21 @@
 		amount=5
 	}
 	freemen={
-		culture="massylian"
+		culture="lotophagoi"
 		religion="berber_religion"
 		amount=2
 	}
 	slaves={
-		culture="massylian"
+		culture="lotophagoi"
 		religion="berber_religion"
 		amount=3
 	}
 	tribesmen={
-		culture="massylian"
+		culture="lotophagoi"
 		religion="berber_religion"
 		amount=2
 	}
 	port_building=1
-}
-
-3292={ #Arelliorum
-	terrain="dry_plains"
-	culture="carthaginian"
-	religion="berber_religion"
-	trade_goods="wood"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		culture="massylian"
-		religion="berber_religion"
-		amount=3
-	}
 }
 
 3293={ #Gigthis
@@ -2555,6 +2561,373 @@
 	}
 	slaves={
 		amount=1
+	}
+}
+
+10050={ #Tabalati
+	terrain="desert"
+	culture="lotophagoi"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="phazani"
+		religion="berber_religion"
+		amount=1
+	}
+}
+
+10051={ #Augemmi
+	terrain="desert"
+	culture="lotophagoi"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="lotophagoi"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		culture="phazani"
+		religion="berber_religion"
+		amount=1
+	}
+}
+
+10052={ #Recheb
+	terrain="desert"
+	culture="lotophagoi"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="lotophagoi"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+10053={ #Mahalla
+	terrain="desert"
+	culture="lotophagoi"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="lotophagoi"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+10054={ #Tisavar
+	terrain="desert"
+	culture="lotophagoi"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10055={ #Tibubuci
+	terrain="desert"
+	culture="lotophagoi"
+	religion="berber_religion"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="lotophagoi"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+10056={ #Bezereos
+	terrain="desert"
+	culture="lotophagoi"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="lotophagoi"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+10057={ #Tabria
+	terrain="desert"
+	culture="lotophagoi"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10058={ #Naffatiyah
+	terrain="desert"
+	culture="lotophagoi"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="lotophagoi"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+}
+
+10059={ #Arelliorum
+	terrain="dry_plains"
+	culture="carthaginian"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		culture="massylian"
+		religion="berber_religion"
+		amount=3
+	}
+}
+
+10060={ #Turris Tamaleni
+	terrain="plains"
+	culture="gyzantian"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="lotophagoi"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	tribesmen={
+		culture="gaetulian"
+		religion="berber_religion"
+		amount=1
+	}
+}
+
+10061={ #Aquae Tacapitanae
+	terrain="plains"
+	culture="gyzantian"
+	religion="berber_religion"
+	trade_goods="honey"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10062={ #Jamnah
+	terrain="plains"
+	culture="gyzantian"
+	religion="berber_religion"
+	trade_goods="dates"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="gaetulian"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10063={ #Ghidma
+	terrain="plains"
+	culture="gyzantian"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10064={ #Faouar
+	terrain="plains"
+	culture="gyzantian"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10065={ #Rjim Maatoug
+	terrain="plains"
+	culture="gyzantian"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10066={ #Talib
+	terrain="plains"
+	culture="gyzantian"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
 	}
 }
 
