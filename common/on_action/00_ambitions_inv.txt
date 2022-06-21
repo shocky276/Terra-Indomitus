@@ -803,7 +803,7 @@ scheme_invest_in_mint_finish = {
 	effect = {
 		custom_tooltip = scheme_ambition_invest_in_ports
 		hidden_effect = {
-			scope:ports_holding = {
+			scope:mint_holding = {
 				add_building_level = mint_building
 			}
 			remove_scheme_variables_effect = yes
