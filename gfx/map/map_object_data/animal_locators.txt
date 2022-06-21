@@ -1,4 +1,67 @@
 ﻿object={
+	name="Brown_bear"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="monument_layer"
+	entity="brown_bear_entity"
+	count=2
+	transform="1017.021240 0.000000 1407.459595 0.000000 -0.540903 0.000000 0.841085 0.616165 0.616165 0.616165
+399.039001 0.000000 1769.294922 0.000000 0.323727 0.000000 0.946150 0.743478 0.743478 0.743478
+"}
+object={
+	name="Camel"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="monument_layer"
+	entity="camel_entity"
+	count=1
+	transform="934.911194 0.000000 579.657837 0.000000 0.340494 0.000000 0.940247 1.000000 1.000000 1.000000
+"}
+object={
+	name="Crocodile"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="monument_layer"
+	entity="crocodile_entity"
+	count=3
+	transform="1617.473022 0.000000 801.219116 0.000000 -0.631796 0.000000 0.775135 0.766352 0.766352 0.766352
+1628.670776 0.000000 852.335144 0.000000 -0.045029 0.000000 0.998986 1.003714 1.003714 1.003714
+1740.022827 0.000000 655.998108 0.000000 0.570785 0.000000 -0.821100 0.871643 0.871643 0.871643
+"}
+object={
+	name="Eagle"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="monument_layer"
+	entity="eagle_entity"
+	count=1
+	transform="893.426880 7.074707 1281.885864 0.000000 0.000000 0.000000 1.000000 0.197883 0.197883 0.197883
+"}
+object={
+	name="elephant_african"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="monument_layer"
+	entity="elephant_african_entity"
+	count=1
+	transform="1909.367065 0.000000 269.357391 0.000000 0.446646 0.000000 0.894711 0.817676 0.817676 0.817676
+"}
+object={
+	name="giraffe"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="monument_layer"
+	entity="giraffe_entity"
+	count=1
+	transform="1887.741821 0.000000 151.484390 0.000000 -0.311698 0.000000 -0.950181 0.934308 0.934308 0.934308
+"}
+object={
 	name="seagulls"
 	clamp_to_water_level=yes
 	render_under_water=no
@@ -389,4 +452,24 @@
 1129.806396 0.000000 2063.483887 0.000000 0.000000 0.000000 0.516129 0.516129 0.516129 1.000000
 1116.903198 0.000000 1924.645142 0.000000 0.000000 0.000000 0.516129 0.516129 0.516129 1.000000
 1304.774170 0.000000 1161.806396 0.000000 0.000000 0.000000 0.516129 0.516129 0.516129 1.000000
+"}
+object={
+	name="whales"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="monument_layer"
+	entity="whale_entity"
+	count=1
+	transform="2810.199951 0.622681 280.340942 0.000000 0.558967 0.000000 0.829190 1.000000 1.000000 1.000000
+"}
+object={
+	name="zebra"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="monument_layer"
+	entity="zebra_entity"
+	count=1
+	transform="1905.754883 0.000000 111.671875 0.000000 -0.794008 0.000000 0.607908 0.766846 0.766846 0.766846
 "}
