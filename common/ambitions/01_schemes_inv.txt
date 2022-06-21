@@ -841,7 +841,7 @@ scheme_build_mint = {
 			scope:mint_holding = {
 				OR = {
 					has_construction = yes
-					num_of_port_building >= 1
+					num_of_mint_building >= 1
 					has_province_modifier = urban_development_in_progress
 				}
 			}
