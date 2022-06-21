@@ -2115,3 +2115,62 @@ logging_camps = {
 	}
 	
 }
+
+mint_building = { #mint
+	tax_income = 1
+	local_migration_attraction = 5
+	local_output_modifier = 0.05
+
+	potential = {
+		has_city_status = yes
+	}
+
+	allow = {
+		exists = owner
+		OR = {
+			has_law = minting_laws_2
+			trigger_if = {
+				limit = {
+					OR = {
+						has_law = minting_laws_1
+						has_law = minting_laws_3
+					}
+				}
+				this.governorship = capital_scope.governorship
+			}
+			trigger_else_if = {
+				limit = { is_subject = yes }
+				overlord = { has_law = minting_laws_3 }
+			}
+		}
+	}
+
+	max_amount = 1
+
+	cost = 320
+	time = 360
+
+	modification_display = {
+		0 = local_output_modifier
+		1 = tax_income
+		2 = local_migration_attraction
+	}
+
+	chance = {
+		modifier = {
+			total_population > 20
+			add = 2
+		}
+		modifier = {
+			total_population > 35
+			add = 4
+		}
+		modifier = {
+			OR = {
+				has_law = minting_laws_0
+				has_law = minting_laws_4
+			}
+			multiply = 0
+		}
+	}
+}
