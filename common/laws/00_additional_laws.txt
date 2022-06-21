@@ -61,11 +61,15 @@
 		on_enact = {
 			add_party_approval = {
 				party_type = oligarchic_party
-				value = 10
+				value = 5
 			}
 			add_party_approval = {
 				party_type = traditionalist_party
 				value = -5
+			}
+			add_party_approval = {
+				party_type = democratic_party
+				value = 5
 			}
 		}
 	}

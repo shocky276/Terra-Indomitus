@@ -8,6 +8,11 @@ minting_laws_mint_building_subjects:0 "Our subject states may build their own mi
 minting_laws_mint_building_disabled_for_player:0 "Only private entities may build mints."
 mint_metals_prerequisites:0 "We need to have access to precious metals, either by way of production or by way of import."
 
+#tooltips senate agenda
+senate_objective_change_law_oli_generic_tt_7:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $minting_laws_4$#!' law."
+senate_objective_change_law_dem_generic_tt_7:0 "[sen_obj_cha_law_dem_party.GetCountry.GetName] has passed the '#Y $minting_laws_3$#!' law."
+senate_objective_change_law_dem_generic_tt_7:0 "[sen_obj_cha_law_tra_party.GetCountry.GetName] has passed the '#Y $minting_laws_1$#!' law."
+
 #laws themselves
 minting_laws:0 "Minting Laws"
 minting_laws_0: "No Minting" #default, no coins minted
@@ -20,3 +25,4 @@ minting_laws_3_0 "Autonomous Minting"
 minting_laws_3_desc:0 "Our subjects are allowed to mint their own coins, increasing the trade between our nations."
 minting_laws_4:0 "Privatised Minting"
 minting_laws_4_desc:0 "The minting of coins has been delegated to private institutions and characters, the state does not have a say."
+
