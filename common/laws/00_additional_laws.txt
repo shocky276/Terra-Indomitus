@@ -70,7 +70,7 @@
 		}
 	}
 
-	minting_laws_3 = { #independent coinage - subjects are allowed to mint their own coin (i.e. they are more independent)
+	minting_laws_3 = { #autonomous coinage - subjects are allowed to mint their own coin (i.e. they are more independent)
 		allow = {
 			any_subject = {
 				count > 0

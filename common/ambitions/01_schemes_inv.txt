@@ -781,6 +781,9 @@ scheme_build_mint = {
 		wealth >= 300
 		OR = {
 			AND = {
+				employer = {
+					has_law = minting_laws_4
+				}
 				num_holdings_owned > 0
 				any_holdings = {
 					has_city_status = yes
@@ -794,6 +797,12 @@ scheme_build_mint = {
 				}
 			}
 			AND = {
+				employer = {
+					OR = {
+						has_law = minting_laws_2
+						has_law = minting_laws_4
+					}
+				}
 				is_governor = yes
 				any_governorship_province = {
 					has_city_status = yes

@@ -7,3 +7,16 @@ minting_laws_mint_building_everywhere:0 "The mint building can be constructed in
 minting_laws_mint_building_subjects:0 "Our subject states may build their own mints, as long as they are civilised."
 minting_laws_mint_building_disabled_for_player:0 "Only private entities may build mints."
 mint_metals_prerequisites:0 "We need to have access to precious metals, either by way of production or by way of import."
+
+#laws themselves
+minting_laws:0 "Minting Laws"
+minting_laws_0: "No Minting" #default, no coins minted
+minting_laws_0_desc:0 "We do no mint our own coins, instead relying on the influx of currency of neighbouring staes."
+minting_laws_1:0 "State Monopoly"
+minting_laws_1_desc:0 "Only the state has the right to mint coins."
+minting_laws_2:0 "Decentralised Minting"
+minting_laws_2_desc:0 "Every province can mint their own coins."
+minting_laws_3_0 "Autonomous Minting"
+minting_laws_3_desc:0 "Our subjects are allowed to mint their own coins, increasing the trade between our nations."
+minting_laws_4:0 "Privatised Minting"
+minting_laws_4_desc:0 "The minting of coins has been delegated to private institutions and characters, the state does not have a say."
