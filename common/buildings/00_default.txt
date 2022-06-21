@@ -114,47 +114,47 @@ port_building = {
 }
 
 
-military_harbor_building = { #Military Harbor [UNIQUE]
-	local_ship_recruit_speed = 0.5
-	local_ship_start_experience = 40
+#military_harbor_building = { #Military Harbor [UNIQUE]
+#	local_ship_recruit_speed = 0.5
+#	local_ship_start_experience = 40
 
 
-	cost = 150
-	time = 180
-	max_amount = 1
+#	cost = 150
+#	time = 180
+#	max_amount = 1
 
-	potential = {
-		has_city_status = yes
-	}
+#	potential = {
+#		has_city_status = yes
+#	}
 
-	allow = {
-		is_port = yes
-	}
+#	allow = {
+#		is_port = yes
+#	}
 
-	modification_display = {
-		0 = local_ship_recruit_speed
-		1 = local_ship_start_experience
-	}
+#	modification_display = {
+#		0 = local_ship_recruit_speed
+#		1 = local_ship_start_experience
+#	}
 
-	chance = {
-		modifier = {
-			trade_goods = wood
-			add = 10
-		}
-		modifier = {
-			is_port = yes
-			add = 5
-		}
-		modifier = {
-			num_of_port_building >= 2
-			add = 5
-		}
-		modifier = {
-			num_of_port_building >= 3
-			add = 10
-		}
-	}
-}
+#	chance = {
+#		modifier = {
+#			trade_goods = wood
+#			add = 10
+#		}
+#		modifier = {
+#			is_port = yes
+#			add = 5
+#		}
+#		modifier = {
+#			num_of_port_building >= 2
+#			add = 5
+#		}
+#		modifier = {
+#			num_of_port_building >= 3
+#			add = 10
+#		}
+#	}
+#}
 
 foundry_building = { #Foundry
 	local_start_experience = 40
@@ -916,35 +916,35 @@ court_building = { #Court of Law
 # Population
 ##############################
 
-food_trader_building = { #Food Trader (UNIQUE)
-	local_monthly_food_modifier = 0.05
-	pop_food_consumption = 0.4
-	local_country_civilization_value = 2
+#food_trader_building = { #Food Trader (UNIQUE)
+#	local_monthly_food_modifier = 0.05
+#	pop_food_consumption = 0.4
+#	local_country_civilization_value = 2
 
-	cost = 250
-	time = 180
+#	cost = 250
+#	time = 180
 
-	max_amount = 1
+#	max_amount = 1
 
-	potential = {
-		has_city_status = yes
-	}
+#	potential = {
+#		has_city_status = yes
+#	}
 
-	modification_display = {
-		0 = local_monthly_food_modifier
-		1 = pop_food_consumption
-	}
+#	modification_display = {
+#		0 = local_monthly_food_modifier
+#		1 = pop_food_consumption
+#	}
 
-	chance = {
-		modifier = {
-			add = {
-				value = 0.1
-			  	multiply = total_population
-			}
-		}
-	}
+#	chance = {
+#		modifier = {
+#			add = {
+#				value = 0.1
+#			  	multiply = total_population
+#			}
+#		}
+#	}
 
-}
+#}
 
 population_building = { #Granary
 	local_food_capacity = 300
@@ -2127,20 +2127,25 @@ mint_building = { #mint
 
 	allow = {
 		exists = owner
-		OR = {
-			has_law = minting_laws_2
-			trigger_if = {
-				limit = {
-					OR = {
-						has_law = minting_laws_1
-						has_law = minting_laws_3
-					}
+		owner = {
+			OR = {
+				trigger_if = {
+					limit = { has_law = minting_laws_2 }
+					has_law = minting_laws_2
 				}
-				this.governorship = capital_scope.governorship
-			}
-			trigger_else_if = {
-				limit = { is_subject = yes }
-				overlord = { has_law = minting_laws_3 }
+				trigger_else_if = {
+					limit = {
+						OR = {
+							has_law = minting_laws_1
+							has_law = minting_laws_3
+						}
+					}
+					this.governorship = capital_scope.governorship
+				}
+				trigger_else_if = {
+					limit = { is_subject = yes }
+					overlord = { has_law = minting_laws_3 }
+				}
 			}
 		}
 	}
@@ -2172,5 +2177,29 @@ mint_building = { #mint
 			}
 			multiply = 0
 		}
+	}
+}
+
+baths_building = {
+	#if we ever add a disease system, have this building and the aqueduct be relevant and a fountain in the settlements
+	local_population_happiness = 0.05
+	local_country_civilization_value = 5
+	local_monthly_civilization = 0.01
+	local_pop_assimilation_speed = 0.08
+
+	potential = {
+		has_city_status = yes
+	}
+
+	max_amount = 3
+
+	cost = 350
+	time = 720
+
+	modification_display = {
+		0 = local_country_civilization_value
+		1 = local_monthly_civilization
+		2 = local_pop_assimilation_speed
+		3 = local_population_happiness
 	}
 }

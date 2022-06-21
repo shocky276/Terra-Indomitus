@@ -41,8 +41,10 @@ construct_city_buildings = {
 		library_building
 		town_hall_building
 		workshop_building
-		military_harbor_building
+		#military_harbor_building
 		trade_harbor_building
+		mint_building
+		baths_building
 	}
 	
 	sound = "event:/SFX/UI/Province/sfx_ui_province_build_building"
