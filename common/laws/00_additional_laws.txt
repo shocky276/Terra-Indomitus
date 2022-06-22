@@ -9,7 +9,6 @@
 	}
 
 	minting_laws_1 = { #state monopoly - allows the building of the mint in the capital region only
-		custom_tooltip = minting_laws_mint_building_capital_region
 		modifier = {
 			global_capital_trade_routes = 1
 		}
@@ -27,18 +26,24 @@
 		}
 
 		on_enact = {
-			add_party_approval = {
-				party_type = democratic_party
-				value = 5
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 5
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = 10
+				}
 			}
-			add_party_approval = {
-				party_type = oligarchic_party
-				value = -5
-			}
-			add_party_approval = {
-				party_type = traditionalist_party
-				value = 10
-			}
+			custom_tooltip = minting_laws_mint_building_capital_region
 		}
 	}
 
@@ -47,7 +52,7 @@
 			governor_loyalty = 5 #more power
 			monthly_governor_wage = 0.1 #self-payment
 		}
-		custom_tooltip = minting_laws_mint_building_everywhere
+		
 
 		allow = {
 			custom_tooltip = {
@@ -59,18 +64,24 @@
 		}
 
 		on_enact = {
-			add_party_approval = {
-				party_type = oligarchic_party
-				value = 5
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = 5
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 5
+				}
 			}
-			add_party_approval = {
-				party_type = traditionalist_party
-				value = -5
-			}
-			add_party_approval = {
-				party_type = democratic_party
-				value = 5
-			}
+			custom_tooltip = minting_laws_mint_building_everywhere
 		}
 	}
 
@@ -92,22 +103,28 @@
 			subject_loyalty = -10 #they are more autonomous, i.e. independent
 			global_commerce_modifier = 0.05 #different coinage having different values
 		}
-		custom_tooltip = minting_laws_mint_building_capital_region
-		custom_tooltip = minting_laws_mint_building_subjects
+		
 
 		on_enact = {
-			add_party_approval = {
-				party_type = oligarchic_party
-				value = -10
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = -10
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 10
+				}
 			}
-			add_party_approval = {
-				party_type = traditionalist_party
-				value = -5
-			}
-			add_party_approval = {
-				party_type = democratic_party
-				value = 10
-			}
+			custom_tooltip = minting_laws_mint_building_capital_region
+			custom_tooltip = minting_laws_mint_building_subjects
 		}
 	}
 
@@ -117,7 +134,7 @@
 			monthly_corruption = 0.01 #power corrupts
 			build_cost = -0.05
 		}
-		custom_tooltip = minting_laws_mint_building_disabled_for_player
+		
 
 		allow = {
 			custom_tooltip = {
@@ -129,18 +146,24 @@
 		}
 
 		on_enact = {
-			add_party_approval = {
-				party_type = oligarchic_party
-				value = 10
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = 10
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = -10
+				}
 			}
-			add_party_approval = {
-				party_type = traditionalist_party
-				value = -5
-			}
-			add_party_approval = {
-				party_type = democratic_party
-				value = -10
-			}
+			custom_tooltip = minting_laws_mint_building_disabled_for_player
 		}
 	}
 }

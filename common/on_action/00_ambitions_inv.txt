@@ -771,16 +771,18 @@ scheme_invest_in_mint_start = {
 		}
 		if = {
 			limit = { is_governor = yes }
-			random_governorship_province = {
-				limit = {
-					has_city_status = yes
-					has_construction = no
-					NOR = {
-						has_province_modifier = urban_development_in_progress
-						has_building = mint_building
+			random_governorship_state = {
+				random_state_province = {
+					limit = {
+						has_city_status = yes
+						has_construction = no
+						NOR = {
+							has_province_modifier = urban_development_in_progress
+							has_building = mint_building
+						}
 					}
+					save_scope_as = mint_holding
 				}
-				save_scope_as = mint_holding
 			}
 		}
 		else = {

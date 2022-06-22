@@ -7,6 +7,7 @@ minting_laws_mint_building_everywhere:0 "The mint building can be constructed in
 minting_laws_mint_building_subjects:0 "Our subject states may build their own mints, as long as they are civilised."
 minting_laws_mint_building_disabled_for_player:0 "Only private entities may build mints."
 mint_metals_prerequisites:0 "Any owned province produces precious metals @precious_metals!"
+mint_building_mint_laws_0_tt:0 "We must enact one of the #Y $minting_laws$#! that allows for the mint to be built."
 
 #tooltips senate agenda
 
@@ -16,12 +17,12 @@ mint_metals_prerequisites:0 "Any owned province produces precious metals @precio
 
 senate_objective_change_law_oli_generic_tt_7:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $minting_laws_4$#!' law."
 senate_objective_change_law_dem_generic_tt_7:0 "[sen_obj_cha_law_dem_party.GetCountry.GetName] has passed the '#Y $minting_laws_3$#!' law."
-senate_objective_change_law_dem_generic_tt_7:0 "[sen_obj_cha_law_tra_party.GetCountry.GetName] has passed the '#Y $minting_laws_1$#!' law."
+senate_objective_change_law_tra_generic_tt_7:0 "[sen_obj_cha_law_tra_party.GetCountry.GetName] has passed the '#Y $minting_laws_1$#!' law."
 
 #laws themselves
 minting_laws:0 "Minting Laws"
 minting_laws_0: "No Minting" #default, no coins minted
-minting_laws_0_desc:0 "We do no mint our own coins, instead relying on the influx of currency of neighbouring staes."
+minting_laws_0_desc:0 "We do no mint our own coins, instead relying on the influx of currency of neighbouring states."
 minting_laws_1:0 "State Monopoly"
 minting_laws_1_desc:0 "Only the state has the right to mint coins."
 minting_laws_2:0 "Decentralised Minting"
@@ -32,6 +33,6 @@ minting_laws_4:0 "Privatised Minting"
 minting_laws_4_desc:0 "The minting of coins has been delegated to private institutions and characters, the state does not have a say."
 
 
-#trigger from vanilla bc it isn't loced
+#trigger from vanilla bc it isn't localised
 
 any_subject_trigger:0 "Any Subject"

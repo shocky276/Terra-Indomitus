@@ -804,14 +804,18 @@ scheme_build_mint = {
 					}
 				}
 				is_governor = yes
-				any_governorship_province = {
-					has_city_status = yes
-					has_construction = no
-					NOT = {
-						has_province_modifier = urban_development_in_progress
-					}
-					NOT = {
-						has_building = mint_building
+				governorship = {
+					any_governorship_state = {
+						any_state_province = {
+							has_city_status = yes
+							has_construction = no
+							NOT = {
+								has_province_modifier = urban_development_in_progress
+							}
+							NOT = {
+								has_building = mint_building
+							}
+						}
 					}
 				}
 			}

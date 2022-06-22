@@ -167,24 +167,37 @@ mint_building = { #mint
 	allow = {
 		exists = owner
 		owner = {
-			OR = {
-				trigger_if = {
-					limit = { has_law = minting_laws_2 }
-					has_law = minting_laws_2
-				}
-				trigger_else_if = {
-					limit = {
-						OR = {
-							has_law = minting_laws_1
-							has_law = minting_laws_3
-						}
+			trigger_if = {
+				limit = { has_law = minting_laws_2 }
+				has_law = minting_laws_2
+			}
+			trigger_else_if = {
+				limit = {
+					OR = {
+						has_law = minting_laws_1
+						has_law = minting_laws_3
 					}
-					this.governorship = capital_scope.governorship
 				}
-				trigger_else_if = {
-					limit = { is_subject = yes }
-					overlord = { has_law = minting_laws_3 }
+				prev.governorship = capital_scope.governorship
+			}
+			trigger_else_if = {
+				limit = { is_subject = yes }
+				overlord = { has_law = minting_laws_3 }
+			}
+			trigger_else_if = {
+				limit = {
+					has_law = minting_laws_0
 				}
+				custom_tooltip = {
+					text = mint_building_mint_laws_0_tt
+					always = no
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mint_current_amount > mint_max_amount
+				}
+				always = no
 			}
 		}
 	}
@@ -210,11 +223,13 @@ mint_building = { #mint
 			add = 4
 		}
 		modifier = {
-			OR = {
-				has_law = minting_laws_0
-				has_law = minting_laws_4
+			owner = {
+				OR = {
+					has_law = minting_laws_0
+					has_law = minting_laws_4
+				}
 			}
-			multiply = 0
+			add = -1000
 		}
 	}
 }

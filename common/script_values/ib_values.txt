@@ -127,3 +127,22 @@ num_of_freemen_building_sv = {
 num_of_slave_building_sv = {
     value = num_of_slave_building
 }
+
+#mint building
+
+mint_current_amount = {
+    value = {
+        every_owned_province = {
+            limit = {
+                has_building = mint_building
+            }
+        }
+    }
+}
+
+mint_max_amount = {
+    value = owner.country_population
+    multiply = 0.001
+    max = 8
+    min = 1
+}

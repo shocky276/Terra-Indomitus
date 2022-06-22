@@ -927,7 +927,7 @@ senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalis
 				trigger_else_if = {
 					limit = { var:sen_obj_cha_law_tra_target = 7 } # minting state monopoly
 					custom_tooltip = {
-						text = senate_objective_change_law_dem_generic_tt_7
+						text = senate_objective_change_law_tra_generic_tt_7
 						has_law = minting_laws_1
 					}
 				}
