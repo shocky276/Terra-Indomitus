@@ -874,7 +874,7 @@ armorica_region = {
 }
 
 mauretainia_region = {
-	#6 areas!
+	#7 areas
 	areas = {
 		rutubis_area
 		tadla_area
@@ -882,6 +882,7 @@ mauretainia_region = {
 		mauretania_tingitana_meridionalis_area
 		mauretania_caesariensis_occidentalis_area
 		mauretania_caesariensis_centralis_area
+		rif_area
 	}
 }
 
@@ -1481,4 +1482,19 @@ fezzan_region = {
 		phazania_area
 	}
     color = rgb { 255 289 127 }
+}
+
+atlas_region = {
+	areas = {
+		souss_area
+		marrakesh_area
+		upper_draa_area
+		upper_moulouya_area
+		lower_moulouya_area
+		sijilmasa_area
+		figuig_area
+		saharan_atlas_area
+		jedi_area
+		chefia_area
+	}
 }

@@ -140,6 +140,7 @@ sea_zones = RANGE { 9865 9870 }
 wasteland = RANGE { 8084 8207 }
 
 #Uninhabitables, TI:
+uninhabitable = RANGE { 10176 10180 }
 uninhabitable = LIST { 9944 9945 9968 9969 9970 9987 9988 9989 10048 10049 }
 
 #Impassables, TI:
