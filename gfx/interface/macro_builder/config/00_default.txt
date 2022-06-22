@@ -3,10 +3,10 @@
 construct_buildings = {
     base = build_in_province
     layout = build_in_province_with_list
-	
+
 	map_mode = macro_builder_build_in_province
 
-	
+
 	includes = {
 		fortress_building
 		barracks_building
@@ -21,17 +21,17 @@ construct_buildings = {
 		shipyards
 		sanctuary_building
 	}
-	
+
 	sound = "event:/SFX/UI/Province/sfx_ui_province_build_building"
 }
 
 construct_city_buildings = {
     base = build_in_province
     layout = build_in_province_with_list
-	
+
 	map_mode = macro_builder_build_in_province
 
-	
+
 	includes = {
 		fortress_building
 		foundry_building
@@ -41,12 +41,12 @@ construct_city_buildings = {
 		library_building
 		town_hall_building
 		workshop_building
-		#military_harbor_building
+		mint_building
 		trade_harbor_building
 		mint_building
 		baths_building
 	}
-	
+
 	sound = "event:/SFX/UI/Province/sfx_ui_province_build_building"
 
 }
@@ -81,10 +81,10 @@ construct_pop_buildings = {
         freemen_building
 		slave_building
 		aqueduct_building
-		food_trader_building
+		baths_building
 		population_building
 	}
-	
+
 	sound = "event:/SFX/UI/Province/sfx_ui_province_build_building"
 }
 
@@ -92,13 +92,13 @@ construct_pop_buildings = {
 recruit_naval_units = {
     base = build_in_province
     layout = build_in_province
-	
+
 	map_mode = macro_builder_build_in_province
 
     includes = {
         ships
     }
-	
+
 	sound = "event:/SFX/UI/Province/sfx_ui_province_build_unit"
 }
 
@@ -109,7 +109,7 @@ import_tradegood = {
     base = trade_goods
     layout = trade_goods
     map_mode = trade
-	
+
 	includes = all
 
 	sound = "event:/SFX/UI/Trade/sfx_ui_trade_trade"

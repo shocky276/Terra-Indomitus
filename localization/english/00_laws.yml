@@ -9,6 +9,11 @@ minting_laws_mint_building_disabled_for_player:0 "Only private entities may buil
 mint_metals_prerequisites:0 "We need to have access to precious metals, either by way of production or by way of import."
 
 #tooltips senate agenda
+
+###############################################
+# FIX THESE 3 TOOLTIPS THEY ARE BROKE
+###############################################
+
 senate_objective_change_law_oli_generic_tt_7:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $minting_laws_4$#!' law."
 senate_objective_change_law_dem_generic_tt_7:0 "[sen_obj_cha_law_dem_party.GetCountry.GetName] has passed the '#Y $minting_laws_3$#!' law."
 senate_objective_change_law_dem_generic_tt_7:0 "[sen_obj_cha_law_tra_party.GetCountry.GetName] has passed the '#Y $minting_laws_1$#!' law."

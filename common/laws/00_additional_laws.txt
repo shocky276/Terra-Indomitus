@@ -10,15 +10,18 @@
 
 	minting_laws_1 = { #state monopoly - allows the building of the mint in the capital region only
 		custom_tooltip = minting_laws_mint_building_capital_region
-
+		modifier = {
+			global_capital_trade_routes = 1
+		}
 		allow = {
 			custom_tooltip = {
 				text = mint_metals_prerequisites
-				any_province = {
-					OR = {
+				any_owned_province = {
+					#OR = {
 						trade_goods = precious_metals
-						is_importing_trade_good = precious_metals
-					}
+						#Commented this out because it is thowing MILLIONS of errors and idk how to fix, should do something else instead.
+						#is_importing_trade_good = precious_metals
+					#}
 				}
 			}
 		}
@@ -39,21 +42,18 @@
 		}
 	}
 
-	minting_laws_2 = { #decentralised minting - allows the building of the mint in all provinces (but has downsides) - allows ai governors to build the mint (is that possible to do?)	
+	minting_laws_2 = { #decentralised minting - allows the building of the mint in all provinces (but has downsides) - allows ai governors to build the mint (is that possible to do?)
 		modifier = {
 			governor_loyalty = 5 #more power
-			monthly_governor_wage = 0.1 #self-payment 
+			monthly_governor_wage = 0.1 #self-payment
 		}
 		custom_tooltip = minting_laws_mint_building_everywhere
 
 		allow = {
 			custom_tooltip = {
 				text = mint_metals_prerequisites
-				any_province = {
-					OR = {
-						trade_goods = precious_metals
-						is_importing_trade_good = precious_metals
-					}
+				any_owned_province = {
+					trade_goods = precious_metals
 				}
 			}
 		}
@@ -82,16 +82,13 @@
 			}
 			custom_tooltip = {
 				text = mint_metals_prerequisites
-				any_province = {
-					OR = {
-						trade_goods = precious_metals
-						is_importing_trade_good = precious_metals
-					}
+				any_owned_province = {
+					trade_goods = precious_metals
 				}
 			}
 		}
 		modifier = {
-			subject_opinions = 35 #they like you for giving them more rights
+			subject_opinions = 20 #they like you for giving them more rights
 			subject_loyalty = -10 #they are more autonomous, i.e. independent
 			global_commerce_modifier = 0.05 #different coinage having different values
 		}
@@ -116,7 +113,7 @@
 
 	minting_laws_4 = { #privatised minting - disallows the mint for the player, only ai characters can build it (schemes)
 		modifier = {
-			character_loyalty = 5 #privilege
+			character_loyalty = 3 #privilege
 			monthly_corruption = 0.01 #power corrupts
 			build_cost = -0.05
 		}
@@ -125,11 +122,8 @@
 		allow = {
 			custom_tooltip = {
 				text = mint_metals_prerequisites
-				any_province = {
-					OR = {
-						trade_goods = precious_metals
-						is_importing_trade_good = precious_metals
-					}
+				any_owned_province = {
+					trade_goods = precious_metals
 				}
 			}
 		}

@@ -64,4 +64,9 @@ tavern_building_cost = {
 villa_building_cost = {
     positive = "gfx/interface/icons/modifiers/villa_building_cost.dds"
 }
-
+mint_building_cost = {
+    positive = "gfx/interface/icons/modifiers/mint_building_cost.dds"
+}
+baths_building_cost = {
+    positive = "gfx/interface/icons/modifiers/baths_building_cost.dds"
+}
