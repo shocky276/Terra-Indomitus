@@ -8657,50 +8657,50 @@
 	province_rank=""
 }
 
-8079={ #Contra Pselchis
+8079={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8080={ #Hairiri
+8080={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8081={ #Dhahab
+8081={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8082={ #Heimur
+8082={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8083={ #Garaiyat
+8083={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="blemmyan"
+	religion="egyptian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
