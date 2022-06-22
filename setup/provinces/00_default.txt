@@ -8609,7 +8609,7 @@
 
 8074={ #Desert
 	terrain="impassable_terrain"
-	culture="phazanian"
+	culture="phazani"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8619,7 +8619,7 @@
 
 8075={ #Desert
 	terrain="impassable_terrain"
-	culture="phazanian"
+	culture="phazani"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8629,7 +8629,7 @@
 
 8076={ #Desert
 	terrain="impassable_terrain"
-	culture="phazanian"
+	culture="phazani"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8639,7 +8639,7 @@
 
 8077={ #Desert
 	terrain="impassable_terrain"
-	culture="phazanian"
+	culture="phazani"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8649,7 +8649,7 @@
 
 8078={ #Desert
 	terrain="impassable_terrain"
-	culture="phazanian"
+	culture="phazani"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
