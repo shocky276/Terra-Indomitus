@@ -137,11 +137,11 @@ sea_zones = RANGE { 9852 9864 }
 sea_zones = RANGE { 9865 9870 }
 
 #Reserved for provinces that may be added to the original game in the future
-wasteland = RANGE { 8079 8207 }
+wasteland = RANGE { 8084 8207 }
 
 #Uninhabitables, TI:
 uninhabitable = LIST { 9944 9945 9968 9969 9970 9987 9988 9989 }
 
 #Impassables, TI:
 impassable_terrain = LIST { 3292 }
-impassable_terrain = RANGE { 8063 8078 }
+impassable_terrain = RANGE { 8063 8083 }
