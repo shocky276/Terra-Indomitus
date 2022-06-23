@@ -1,14 +1,17 @@
 ﻿qin_bloodline = {
 	type = status
-	
+
 	prominence = 20
 	martial = 1
 	finesse = 1
+	modifier = {
+		war_score_cost = -0.1
+	}
 }
 
 chu_bloodline = {
 	type = status
-	
+
 	prominence = 30
 	charisma = 1
 	unit = {
@@ -18,9 +21,8 @@ chu_bloodline = {
 
 wei_bloodline = {
 	type = status
-	
+
 	prominence = 20
-	charisma = 1
 	unit = {
 		chariots_discipline = 0.10
 	}
@@ -28,11 +30,10 @@ wei_bloodline = {
 
 zhou_bloodline = {
 	type = status
-	
-	prominence = 40
-	charisma = 3
+
+	prominence = 30
+	zeal = 1
 	unit = {
-		chariots_discipline = 0.10
 		chariots_offensive = 0.10
 		chariots_defensive = 0.10
 		chariots_morale = 0.10
@@ -41,9 +42,8 @@ zhou_bloodline = {
 
 yue_bloodline = {
 	type = status
-	
+
 	prominence = 20
-	martial = 1
 	unit = {
 		archers_morale = 0.10
 		archers_offensive = 0.10
@@ -52,9 +52,8 @@ yue_bloodline = {
 
 yan_bloodline = {
 	type = status
-	
+
 	prominence = 25
-	finesse = 1
 	unit = {
 		land_morale_modifier = 0.08
 	}
@@ -62,9 +61,8 @@ yan_bloodline = {
 
 song_bloodline = {
 	type = status
-	
+
 	prominence = 25
-	zeal = 1
 	unit = {
 		light_infantry_offensive = 0.10
 	}
@@ -72,11 +70,8 @@ song_bloodline = {
 
 lu_bloodline = {
 	type = status
-	
-	prominence = 30
-	zeal = 1
-	finesse = 1
-	character_loyalty = 8
+
+	prominence = 20
 	unit = {
 		land_morale_modifier = 0.05
 	}
@@ -84,9 +79,8 @@ lu_bloodline = {
 
 wii_bloodline = {
 	type = status
-	
+
 	prominence = 20
-	finesse = 1
 	unit = {
 		chariots_morale = 0.10
 	}
@@ -94,9 +88,8 @@ wii_bloodline = {
 
 han_bloodline = {
 	type = status
-	
+
 	prominence = 20
-	finesse = 1
 	unit = {
 		archers_offensive = 0.10
 		light_infantry_offensive = 0.10
@@ -105,9 +98,8 @@ han_bloodline = {
 
 zhao_bloodline = {
 	type = status
-	
+
 	prominence = 20
-	martial = 1
 	unit = {
 		light_cavalry_offensive = 0.10
 		horse_archers_offensive = 0.10
@@ -116,50 +108,54 @@ zhao_bloodline = {
 
 zhongshan_bloodline = {
 	type = status
-	
+
 	prominence = 10
-	martial = 2
 	unit = {
-		light_cavalry_offensive = 0.25
-		horse_archers_offensive = 0.25
-		heavy_cavalry_offensive = 0.25
+		light_cavalry_offensive = 0.1
+		horse_archers_offensive = 0.1
+		heavy_cavalry_offensive = 0.1
 	}
 }
 
 qii_bloodline = {
 	type = status
-	
+
 	prominence = 20
-	finesse = 1
-	unit = {
-		chariots_discipline = 0.10
+	country = {
+		global_commerce_modifier = 0.025
 	}
 }
 
 nii_bloodline = {
 	type = status
-	
+
 	prominence = 10
 	finesse = 1
 }
 
 zou_bloodline = {
 	type = status
-	
+
 	prominence = 10
 	finesse = 1
+	unit = {
+		discipline = 0.1
+	}
 }
 
 teng_bloodline = {
 	type = status
-	
+
 	prominence = 15
 	finesse = 1
 }
 
 zhaoxian_bloodline = {
 	type = status
-	
+
 	prominence = 20
 	finesse = 1
+	country = {
+		diplomatic_reputation = 1
+	}
 }

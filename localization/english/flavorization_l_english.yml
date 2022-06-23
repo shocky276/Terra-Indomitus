@@ -1,0 +1,18 @@
+﻿l_english:
+
+# Main file for all kinds of flavor related to anything at all.
+
+
+# RELIGOUS CONVERSIONS
+convert_to_puntic_religion:0 "Embrace Waaq"
+convert_to_puntic_religion_desc:0 ""
+convert_to_chinese_religions:0 "Embrace Chinese Faith"
+convert_to_chinese_religions_desc:0 ""
+convert_to_hu_religions:0 "Embrace Hu Faith"
+convert_to_hu_religions_desc:0 ""
+convert_to_baiyue_religions:0 "Embrace Baiyue Faith"
+convert_to_baiyue_religions_desc:0 ""
+convert_to_yi_religions:0 "Embrace Yi Faith"
+convert_to_yi_religions_desc:0 ""
+convert_to_wa_religions:0 "Embrace Wa Faith"
+convert_to_wa_religions_desc:0 ""

@@ -1280,7 +1280,7 @@ me_fezzani.28 = { # carthage ping
 
 	option = {	# alliance with improved relations
 		name = me_fezzani.28.a
-		custom_tooltip = me_fezzani.28.at
+		#custom_tooltip = me_fezzani.28.at
 		scope:me_fezzani_scope = {
 			set_variable = {
 				name = fezzan_carthage_owner_response
@@ -1329,7 +1329,7 @@ me_fezzani.28 = { # carthage ping
 
 	option = {	# Gain An Alliance
 		name = me_fezzani.28.b
-		custom_tooltip = me_fezzani.28.bt
+		#custom_tooltip = me_fezzani.28.bt
 		scope:me_fezzani_scope = {
 			set_variable = {
 				name = fezzan_carthage_owner_response
@@ -1374,7 +1374,7 @@ me_fezzani.28 = { # carthage ping
 
 	option = {	# Do Nothing
 		name = me_fezzani.28.c
-		custom_tooltip = me_fezzani.28.ct
+		#custom_tooltip = me_fezzani.28.ct
 		scope:me_fezzani_scope = {
 			set_variable = {
 				name = fezzan_carthage_owner_response

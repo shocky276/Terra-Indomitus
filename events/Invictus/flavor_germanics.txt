@@ -344,13 +344,13 @@ flavor_germanics.7 = {
 
 	option = {
 		name = "flavor_germanics.7.a"
-			p:coastl_nerthus_scope = {
+			scope:coastl_nerthus_scope = {
 				random_pops_in_province = {
-                    limit = {
-                        pop_type = slaves
-                    }
-                    save_scope_as = nerthus_pop
-                    kill_pop = yes
+                limit = {
+                    pop_type = slaves
+                }
+                save_scope_as = nerthus_pop
+                kill_pop = yes
             }
 		}
 		add_stability = 5

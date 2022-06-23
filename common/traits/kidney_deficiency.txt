@@ -1,6 +1,0 @@
-﻿shenxu = { 
-	type = health
-	charisma = -1
-	fertility = -0.8
-	health = -0.3
-}

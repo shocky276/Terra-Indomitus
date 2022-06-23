@@ -1,11 +1,11 @@
-﻿##Blood Of Menander and Ariovistus added by mission - therefore only edit the 3rd event which appears on yearly pulse to correct any issues. 
+﻿##Blood Of Menander and Ariovistus added by mission - therefore only edit the 3rd event which appears on yearly pulse to correct any issues.
 
 namespace = bloodlines_setup_completion
 
 bloodlines_setup_completion.1 = {
 	type = country_event
 	hidden = yes
-	
+
 	immediate = {
 		every_character = {
 			limit = {
@@ -148,7 +148,7 @@ bloodlines_setup_completion.1 = {
 				add_trait = zadok
 			}
 			if = {
-				limit = {	
+				limit = {
 					exists = father
 					father = {
 						has_trait = aeacidae
@@ -484,6 +484,210 @@ bloodlines_setup_completion.1 = {
 				add_trait = blood_of_zipoetes
 			}
 			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = qin_bloodline
+			        }
+			        NOT = {
+			            has_trait = qin_bloodline
+			        }
+			    }
+			    add_trait = qin_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = chu_bloodline
+			        }
+			        NOT = {
+			            has_trait = chu_bloodline
+			        }
+			    }
+			    add_trait = chu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = wei_bloodline
+			        }
+			        NOT = {
+			            has_trait = wei_bloodline
+			        }
+			    }
+			    add_trait = wei_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhou_bloodline
+			        }
+			    }
+			    add_trait = zhou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = yue_bloodline
+			        }
+			        NOT = {
+			            has_trait = yue_bloodline
+			        }
+			    }
+			    add_trait = yue_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = yan_bloodline
+			        }
+			        NOT = {
+			            has_trait = yan_bloodline
+			        }
+			    }
+			    add_trait = yan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = song_bloodline
+			        }
+			        NOT = {
+			            has_trait = song_bloodline
+			        }
+			    }
+			    add_trait = song_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = lu_bloodline
+			        }
+			        NOT = {
+			            has_trait = lu_bloodline
+			        }
+			    }
+			    add_trait = lu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = wii_bloodline
+			        }
+			        NOT = {
+			            has_trait = wii_bloodline
+			        }
+			    }
+			    add_trait = wii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = han_bloodline
+			        }
+			        NOT = {
+			            has_trait = han_bloodline
+			        }
+			    }
+			    add_trait = han_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhao_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhao_bloodline
+			        }
+			    }
+			    add_trait = zhao_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhongshan_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhongshan_bloodline
+			        }
+			    }
+			    add_trait = zhongshan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = qii_bloodline
+			        }
+			        NOT = {
+			            has_trait = qii_bloodline
+			        }
+			    }
+			    add_trait = qii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = nii_bloodline
+			        }
+			        NOT = {
+			            has_trait = nii_bloodline
+			        }
+			    }
+			    add_trait = nii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zou_bloodline
+			        }
+			    }
+			    add_trait = zou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = teng_bloodline
+			        }
+			        NOT = {
+			            has_trait = teng_bloodline
+			        }
+			    }
+			    add_trait = teng_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			    }
+			    add_trait = zhaoxian_bloodline
+			}
+			if = {
 				limit = {
 					exists = father
 					father = {
@@ -541,7 +745,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = agiad
 					}
 				}
-				add_trait = agiad	
+				add_trait = agiad
 			}
 			if = {
 				limit = {
@@ -553,7 +757,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = maurya
 					}
 				}
-				add_trait = maurya	
+				add_trait = maurya
 			}
 			if = {
 				limit = {
@@ -565,7 +769,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = achaemenid
 					}
 				}
-				add_trait = achaemenid	
+				add_trait = achaemenid
 			}
 			if = {
 				limit = {
@@ -577,7 +781,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = seleucids
 					}
 				}
-				add_trait = seleucids	
+				add_trait = seleucids
 			}
 			if = {
 				limit = {
@@ -589,7 +793,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = lagids
 					}
 				}
-				add_trait = lagids	
+				add_trait = lagids
 			}
 			if = {
 				limit = {
@@ -601,7 +805,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = antipatrid
 					}
 				}
-				add_trait = antipatrid	
+				add_trait = antipatrid
 			}
 			if = {
 				limit = {
@@ -613,7 +817,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = antigonids
 					}
 				}
-				add_trait = antigonids	
+				add_trait = antigonids
 			}
 			if = {
 				limit = {
@@ -625,7 +829,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = alcimachid
 					}
 				}
-				add_trait = alcimachid	
+				add_trait = alcimachid
 			}
 			if = {
 				limit = {
@@ -649,7 +853,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = zadok
 					}
 				}
-				add_trait = zadok	
+				add_trait = zadok
 			}
 			if = {
 				limit = {
@@ -673,7 +877,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = agathocles
 					}
 				}
-				add_trait = agathocles	
+				add_trait = agathocles
 			}
 			if = {
 				limit = {
@@ -685,7 +889,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = orontid
 					}
 				}
-				add_trait = orontid	
+				add_trait = orontid
 			}
 			if = {
 				limit = {
@@ -697,7 +901,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = atropates
 					}
 				}
-				add_trait = atropates	
+				add_trait = atropates
 			}
 			if = {
 				limit = {
@@ -709,7 +913,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = barca
 					}
 				}
-				add_trait = barca	
+				add_trait = barca
 			}
 			if = {
 				limit = {
@@ -721,7 +925,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = magonid
 					}
 				}
-				add_trait = magonid	
+				add_trait = magonid
 			}
 			if = {
 				limit = {
@@ -733,7 +937,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = hannonid
 					}
 				}
-				add_trait = hannonid	
+				add_trait = hannonid
 			}
 			if = {
 				limit = {
@@ -745,7 +949,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = arsaces
 					}
 				}
-				add_trait = arsaces	
+				add_trait = arsaces
 			}
 			if = {
 				limit = {
@@ -757,7 +961,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = spartocid
 					}
 				}
-				add_trait = spartocid	
+				add_trait = spartocid
 			}
 			if = {
 				limit = {
@@ -769,7 +973,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = sophytid
 					}
 				}
-				add_trait = sophytid	
+				add_trait = sophytid
 			}
 			if = {
 				limit = {
@@ -781,7 +985,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = diodotus
 					}
 				}
-				add_trait = diodotus	
+				add_trait = diodotus
 			}
 			if = {
 				limit = {
@@ -793,7 +997,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = brennus
 					}
 				}
-				add_trait = brennus	
+				add_trait = brennus
 			}
 			if = {
 				limit = {
@@ -805,7 +1009,7 @@ bloodlines_setup_completion.1 = {
 						has_trait = illyrius
 					}
 				}
-				add_trait = illyrius	
+				add_trait = illyrius
 			}
 			if = {
 				limit = {
@@ -988,6 +1192,210 @@ bloodlines_setup_completion.1 = {
 				add_trait = blood_of_zipoetes
 			}
 			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = qin_bloodline
+			        }
+			        NOT = {
+			            has_trait = qin_bloodline
+			        }
+			    }
+			    add_trait = qin_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = chu_bloodline
+			        }
+			        NOT = {
+			            has_trait = chu_bloodline
+			        }
+			    }
+			    add_trait = chu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = wei_bloodline
+			        }
+			        NOT = {
+			            has_trait = wei_bloodline
+			        }
+			    }
+			    add_trait = wei_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhou_bloodline
+			        }
+			    }
+			    add_trait = zhou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = yue_bloodline
+			        }
+			        NOT = {
+			            has_trait = yue_bloodline
+			        }
+			    }
+			    add_trait = yue_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = yan_bloodline
+			        }
+			        NOT = {
+			            has_trait = yan_bloodline
+			        }
+			    }
+			    add_trait = yan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = song_bloodline
+			        }
+			        NOT = {
+			            has_trait = song_bloodline
+			        }
+			    }
+			    add_trait = song_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = lu_bloodline
+			        }
+			        NOT = {
+			            has_trait = lu_bloodline
+			        }
+			    }
+			    add_trait = lu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = wii_bloodline
+			        }
+			        NOT = {
+			            has_trait = wii_bloodline
+			        }
+			    }
+			    add_trait = wii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = han_bloodline
+			        }
+			        NOT = {
+			            has_trait = han_bloodline
+			        }
+			    }
+			    add_trait = han_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhao_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhao_bloodline
+			        }
+			    }
+			    add_trait = zhao_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhongshan_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhongshan_bloodline
+			        }
+			    }
+			    add_trait = zhongshan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = qii_bloodline
+			        }
+			        NOT = {
+			            has_trait = qii_bloodline
+			        }
+			    }
+			    add_trait = qii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = nii_bloodline
+			        }
+			        NOT = {
+			            has_trait = nii_bloodline
+			        }
+			    }
+			    add_trait = nii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zou_bloodline
+			        }
+			    }
+			    add_trait = zou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = teng_bloodline
+			        }
+			        NOT = {
+			            has_trait = teng_bloodline
+			        }
+			    }
+			    add_trait = teng_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			    }
+			    add_trait = zhaoxian_bloodline
+			}
+			if = {
 				limit = {
 					exists = mother
 					mother = {
@@ -1022,7 +1430,7 @@ bloodlines_setup_completion.1 = {
 					}
 				}
 				add_trait = blood_of_aratus
-			}		
+			}
 		}
 		hidden_effect = {
 			trigger_event = {
@@ -1035,7 +1443,7 @@ bloodlines_setup_completion.1 = {
 bloodlines_setup_completion.2 = {
 	type = country_event
 	hidden = yes
-	
+
 	immediate = {
 		every_character = {
 			limit = {
@@ -1178,7 +1586,7 @@ bloodlines_setup_completion.2 = {
 				add_trait = zadok
 			}
 			if = {
-				limit = {	
+				limit = {
 					exists = father
 					father = {
 						has_trait = aeacidae
@@ -1512,7 +1920,211 @@ bloodlines_setup_completion.2 = {
 					}
 				}
 				add_trait = blood_of_zipoetes
-			}		
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = qin_bloodline
+			        }
+			        NOT = {
+			            has_trait = qin_bloodline
+			        }
+			    }
+			    add_trait = qin_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = chu_bloodline
+			        }
+			        NOT = {
+			            has_trait = chu_bloodline
+			        }
+			    }
+			    add_trait = chu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = wei_bloodline
+			        }
+			        NOT = {
+			            has_trait = wei_bloodline
+			        }
+			    }
+			    add_trait = wei_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhou_bloodline
+			        }
+			    }
+			    add_trait = zhou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = yue_bloodline
+			        }
+			        NOT = {
+			            has_trait = yue_bloodline
+			        }
+			    }
+			    add_trait = yue_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = yan_bloodline
+			        }
+			        NOT = {
+			            has_trait = yan_bloodline
+			        }
+			    }
+			    add_trait = yan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = song_bloodline
+			        }
+			        NOT = {
+			            has_trait = song_bloodline
+			        }
+			    }
+			    add_trait = song_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = lu_bloodline
+			        }
+			        NOT = {
+			            has_trait = lu_bloodline
+			        }
+			    }
+			    add_trait = lu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = wii_bloodline
+			        }
+			        NOT = {
+			            has_trait = wii_bloodline
+			        }
+			    }
+			    add_trait = wii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = han_bloodline
+			        }
+			        NOT = {
+			            has_trait = han_bloodline
+			        }
+			    }
+			    add_trait = han_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhao_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhao_bloodline
+			        }
+			    }
+			    add_trait = zhao_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhongshan_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhongshan_bloodline
+			        }
+			    }
+			    add_trait = zhongshan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = qii_bloodline
+			        }
+			        NOT = {
+			            has_trait = qii_bloodline
+			        }
+			    }
+			    add_trait = qii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = nii_bloodline
+			        }
+			        NOT = {
+			            has_trait = nii_bloodline
+			        }
+			    }
+			    add_trait = nii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zou_bloodline
+			        }
+			    }
+			    add_trait = zou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = teng_bloodline
+			        }
+			        NOT = {
+			            has_trait = teng_bloodline
+			        }
+			    }
+			    add_trait = teng_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			    }
+			    add_trait = zhaoxian_bloodline
+			}
 			if = {
 				limit = {
 					exists = father
@@ -1524,7 +2136,7 @@ bloodlines_setup_completion.2 = {
 					}
 				}
 				add_trait = battiad
-			}	
+			}
 			if = {
 				limit = {
 					exists = father
@@ -1536,7 +2148,7 @@ bloodlines_setup_completion.2 = {
 					}
 				}
 				add_trait = dido
-			}	
+			}
 			if = {
 				limit = {
 					exists = father
@@ -1547,8 +2159,8 @@ bloodlines_setup_completion.2 = {
 						has_trait = blood_of_aratus
 					}
 				}
-				add_trait = blood_of_aratus	
-			}		
+				add_trait = blood_of_aratus
+			}
 			if = {
 				limit = {
 					exists = mother
@@ -1571,7 +2183,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = agiad
 					}
 				}
-				add_trait = agiad	
+				add_trait = agiad
 			}
 			if = {
 				limit = {
@@ -1583,7 +2195,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = maurya
 					}
 				}
-				add_trait = maurya	
+				add_trait = maurya
 			}
 			if = {
 				limit = {
@@ -1595,7 +2207,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = achaemenid
 					}
 				}
-				add_trait = achaemenid	
+				add_trait = achaemenid
 			}
 			if = {
 				limit = {
@@ -1607,7 +2219,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = seleucids
 					}
 				}
-				add_trait = seleucids	
+				add_trait = seleucids
 			}
 			if = {
 				limit = {
@@ -1619,7 +2231,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = lagids
 					}
 				}
-				add_trait = lagids	
+				add_trait = lagids
 			}
 			if = {
 				limit = {
@@ -1631,7 +2243,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = antipatrid
 					}
 				}
-				add_trait = antipatrid	
+				add_trait = antipatrid
 			}
 			if = {
 				limit = {
@@ -1643,7 +2255,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = antigonids
 					}
 				}
-				add_trait = antigonids	
+				add_trait = antigonids
 			}
 			if = {
 				limit = {
@@ -1655,7 +2267,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = alcimachid
 					}
 				}
-				add_trait = alcimachid	
+				add_trait = alcimachid
 			}
 			if = {
 				limit = {
@@ -1679,7 +2291,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = zadok
 					}
 				}
-				add_trait = zadok	
+				add_trait = zadok
 			}
 			if = {
 				limit = {
@@ -1703,7 +2315,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = agathocles
 					}
 				}
-				add_trait = agathocles	
+				add_trait = agathocles
 			}
 			if = {
 				limit = {
@@ -1715,7 +2327,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = orontid
 					}
 				}
-				add_trait = orontid	
+				add_trait = orontid
 			}
 			if = {
 				limit = {
@@ -1727,7 +2339,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = atropates
 					}
 				}
-				add_trait = atropates	
+				add_trait = atropates
 			}
 			if = {
 				limit = {
@@ -1739,7 +2351,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = barca
 					}
 				}
-				add_trait = barca	
+				add_trait = barca
 			}
 			if = {
 				limit = {
@@ -1751,7 +2363,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = magonid
 					}
 				}
-				add_trait = magonid	
+				add_trait = magonid
 			}
 			if = {
 				limit = {
@@ -1763,7 +2375,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = hannonid
 					}
 				}
-				add_trait = hannonid	
+				add_trait = hannonid
 			}
 			if = {
 				limit = {
@@ -1775,7 +2387,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = arsaces
 					}
 				}
-				add_trait = arsaces	
+				add_trait = arsaces
 			}
 			if = {
 				limit = {
@@ -1787,7 +2399,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = spartocid
 					}
 				}
-				add_trait = spartocid	
+				add_trait = spartocid
 			}
 			if = {
 				limit = {
@@ -1799,7 +2411,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = sophytid
 					}
 				}
-				add_trait = sophytid	
+				add_trait = sophytid
 			}
 			if = {
 				limit = {
@@ -1811,7 +2423,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = diodotus
 					}
 				}
-				add_trait = diodotus	
+				add_trait = diodotus
 			}
 			if = {
 				limit = {
@@ -1823,7 +2435,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = brennus
 					}
 				}
-				add_trait = brennus	
+				add_trait = brennus
 			}
 			if = {
 				limit = {
@@ -1835,7 +2447,7 @@ bloodlines_setup_completion.2 = {
 						has_trait = illyrius
 					}
 				}
-				add_trait = illyrius	
+				add_trait = illyrius
 			}
 			if = {
 				limit = {
@@ -2018,6 +2630,210 @@ bloodlines_setup_completion.2 = {
 				add_trait = blood_of_zipoetes
 			}
 			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = qin_bloodline
+			        }
+			        NOT = {
+			            has_trait = qin_bloodline
+			        }
+			    }
+			    add_trait = qin_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = chu_bloodline
+			        }
+			        NOT = {
+			            has_trait = chu_bloodline
+			        }
+			    }
+			    add_trait = chu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = wei_bloodline
+			        }
+			        NOT = {
+			            has_trait = wei_bloodline
+			        }
+			    }
+			    add_trait = wei_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhou_bloodline
+			        }
+			    }
+			    add_trait = zhou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = yue_bloodline
+			        }
+			        NOT = {
+			            has_trait = yue_bloodline
+			        }
+			    }
+			    add_trait = yue_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = yan_bloodline
+			        }
+			        NOT = {
+			            has_trait = yan_bloodline
+			        }
+			    }
+			    add_trait = yan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = song_bloodline
+			        }
+			        NOT = {
+			            has_trait = song_bloodline
+			        }
+			    }
+			    add_trait = song_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = lu_bloodline
+			        }
+			        NOT = {
+			            has_trait = lu_bloodline
+			        }
+			    }
+			    add_trait = lu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = wii_bloodline
+			        }
+			        NOT = {
+			            has_trait = wii_bloodline
+			        }
+			    }
+			    add_trait = wii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = han_bloodline
+			        }
+			        NOT = {
+			            has_trait = han_bloodline
+			        }
+			    }
+			    add_trait = han_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhao_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhao_bloodline
+			        }
+			    }
+			    add_trait = zhao_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhongshan_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhongshan_bloodline
+			        }
+			    }
+			    add_trait = zhongshan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = qii_bloodline
+			        }
+			        NOT = {
+			            has_trait = qii_bloodline
+			        }
+			    }
+			    add_trait = qii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = nii_bloodline
+			        }
+			        NOT = {
+			            has_trait = nii_bloodline
+			        }
+			    }
+			    add_trait = nii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zou_bloodline
+			        }
+			    }
+			    add_trait = zou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = teng_bloodline
+			        }
+			        NOT = {
+			            has_trait = teng_bloodline
+			        }
+			    }
+			    add_trait = teng_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			    }
+			    add_trait = zhaoxian_bloodline
+			}
+			if = {
 				limit = {
 					exists = mother
 					mother = {
@@ -2028,7 +2844,7 @@ bloodlines_setup_completion.2 = {
 					}
 				}
 				add_trait = battiad
-			}	
+			}
 			if = {
 				limit = {
 					exists = mother
@@ -2040,7 +2856,7 @@ bloodlines_setup_completion.2 = {
 					}
 				}
 				add_trait = dido
-			}	
+			}
 			if = {
 				limit = {
 					exists = mother
@@ -2051,8 +2867,8 @@ bloodlines_setup_completion.2 = {
 						has_trait = blood_of_aratus
 					}
 				}
-				add_trait = blood_of_aratus	
-			}		
+				add_trait = blood_of_aratus
+			}
 		}
 		hidden_effect = {
 			trigger_event = {
@@ -2065,7 +2881,7 @@ bloodlines_setup_completion.2 = {
 bloodlines_setup_completion.3 = {
 	type = country_event
 	hidden = yes
-	
+
 	immediate = {
 		every_character = {
 			limit = {
@@ -2098,7 +2914,7 @@ bloodlines_setup_completion.3 = {
 					}
 				}
 				add_trait = blood_of_bharata
-			}			
+			}
 			if = {
 				limit = {
 					exists = father
@@ -2232,7 +3048,7 @@ bloodlines_setup_completion.3 = {
 				add_trait = zadok
 			}
 			if = {
-				limit = {	
+				limit = {
 					exists = father
 					father = {
 						has_trait = aeacidae
@@ -2566,6 +3382,210 @@ bloodlines_setup_completion.3 = {
 					}
 				}
 				add_trait = blood_of_zipoetes
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = qin_bloodline
+			        }
+			        NOT = {
+			            has_trait = qin_bloodline
+			        }
+			    }
+			    add_trait = qin_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = chu_bloodline
+			        }
+			        NOT = {
+			            has_trait = chu_bloodline
+			        }
+			    }
+			    add_trait = chu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = wei_bloodline
+			        }
+			        NOT = {
+			            has_trait = wei_bloodline
+			        }
+			    }
+			    add_trait = wei_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhou_bloodline
+			        }
+			    }
+			    add_trait = zhou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = yue_bloodline
+			        }
+			        NOT = {
+			            has_trait = yue_bloodline
+			        }
+			    }
+			    add_trait = yue_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = yan_bloodline
+			        }
+			        NOT = {
+			            has_trait = yan_bloodline
+			        }
+			    }
+			    add_trait = yan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = song_bloodline
+			        }
+			        NOT = {
+			            has_trait = song_bloodline
+			        }
+			    }
+			    add_trait = song_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = lu_bloodline
+			        }
+			        NOT = {
+			            has_trait = lu_bloodline
+			        }
+			    }
+			    add_trait = lu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = wii_bloodline
+			        }
+			        NOT = {
+			            has_trait = wii_bloodline
+			        }
+			    }
+			    add_trait = wii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = han_bloodline
+			        }
+			        NOT = {
+			            has_trait = han_bloodline
+			        }
+			    }
+			    add_trait = han_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhao_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhao_bloodline
+			        }
+			    }
+			    add_trait = zhao_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhongshan_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhongshan_bloodline
+			        }
+			    }
+			    add_trait = zhongshan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = qii_bloodline
+			        }
+			        NOT = {
+			            has_trait = qii_bloodline
+			        }
+			    }
+			    add_trait = qii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = nii_bloodline
+			        }
+			        NOT = {
+			            has_trait = nii_bloodline
+			        }
+			    }
+			    add_trait = nii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zou_bloodline
+			        }
+			    }
+			    add_trait = zou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = teng_bloodline
+			        }
+			        NOT = {
+			            has_trait = teng_bloodline
+			        }
+			    }
+			    add_trait = teng_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			    }
+			    add_trait = zhaoxian_bloodline
 			}
 			if = {
 				limit = {
@@ -2590,7 +3610,7 @@ bloodlines_setup_completion.3 = {
 					}
 				}
 				add_trait = battiad
-			}	
+			}
 			if = {
 				limit = {
 					exists = father
@@ -2602,7 +3622,7 @@ bloodlines_setup_completion.3 = {
 					}
 				}
 				add_trait = dido
-			}	
+			}
 			if = {
 				limit = {
 					exists = father
@@ -2613,8 +3633,8 @@ bloodlines_setup_completion.3 = {
 						has_trait = blood_of_aratus
 					}
 				}
-				add_trait = blood_of_aratus	
-			}		
+				add_trait = blood_of_aratus
+			}
 			if = {
 				limit = {
 					exists = mother
@@ -2638,7 +3658,7 @@ bloodlines_setup_completion.3 = {
 					}
 				}
 				add_trait = blood_of_bharata
-			}			
+			}
 			if = {
 				limit = {
 					exists = mother
@@ -2673,7 +3693,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = agiad
 					}
 				}
-				add_trait = agiad	
+				add_trait = agiad
 			}
 			if = {
 				limit = {
@@ -2685,7 +3705,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = maurya
 					}
 				}
-				add_trait = maurya	
+				add_trait = maurya
 			}
 			if = {
 				limit = {
@@ -2697,7 +3717,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = achaemenid
 					}
 				}
-				add_trait = achaemenid	
+				add_trait = achaemenid
 			}
 			if = {
 				limit = {
@@ -2709,7 +3729,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = seleucids
 					}
 				}
-				add_trait = seleucids	
+				add_trait = seleucids
 			}
 			if = {
 				limit = {
@@ -2721,7 +3741,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = lagids
 					}
 				}
-				add_trait = lagids	
+				add_trait = lagids
 			}
 			if = {
 				limit = {
@@ -2733,7 +3753,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = antipatrid
 					}
 				}
-				add_trait = antipatrid	
+				add_trait = antipatrid
 			}
 			if = {
 				limit = {
@@ -2745,7 +3765,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = antigonids
 					}
 				}
-				add_trait = antigonids	
+				add_trait = antigonids
 			}
 			if = {
 				limit = {
@@ -2757,7 +3777,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = alcimachid
 					}
 				}
-				add_trait = alcimachid	
+				add_trait = alcimachid
 			}
 			if = {
 				limit = {
@@ -2769,7 +3789,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = zadok
 					}
 				}
-				add_trait = zadok	
+				add_trait = zadok
 			}
 			if = {
 				limit = {
@@ -2793,7 +3813,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = agathocles
 					}
 				}
-				add_trait = agathocles	
+				add_trait = agathocles
 			}
 			if = {
 				limit = {
@@ -2805,7 +3825,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = orontid
 					}
 				}
-				add_trait = orontid	
+				add_trait = orontid
 			}
 			if = {
 				limit = {
@@ -2817,7 +3837,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = atropates
 					}
 				}
-				add_trait = atropates	
+				add_trait = atropates
 			}
 			if = {
 				limit = {
@@ -2829,7 +3849,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = barca
 					}
 				}
-				add_trait = barca	
+				add_trait = barca
 			}
 			if = {
 				limit = {
@@ -2841,7 +3861,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = magonid
 					}
 				}
-				add_trait = magonid	
+				add_trait = magonid
 			}
 			if = {
 				limit = {
@@ -2853,7 +3873,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = hannonid
 					}
 				}
-				add_trait = hannonid	
+				add_trait = hannonid
 			}
 			if = {
 				limit = {
@@ -2865,7 +3885,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = arsaces
 					}
 				}
-				add_trait = arsaces	
+				add_trait = arsaces
 			}
 			if = {
 				limit = {
@@ -2877,7 +3897,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = spartocid
 					}
 				}
-				add_trait = spartocid	
+				add_trait = spartocid
 			}
 			if = {
 				limit = {
@@ -2889,7 +3909,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = sophytid
 					}
 				}
-				add_trait = sophytid	
+				add_trait = sophytid
 			}
 			if = {
 				limit = {
@@ -2901,7 +3921,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = diodotus
 					}
 				}
-				add_trait = diodotus	
+				add_trait = diodotus
 			}
 			if = {
 				limit = {
@@ -2913,7 +3933,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = brennus
 					}
 				}
-				add_trait = brennus	
+				add_trait = brennus
 			}
 			if = {
 				limit = {
@@ -2925,7 +3945,7 @@ bloodlines_setup_completion.3 = {
 						has_trait = illyrius
 					}
 				}
-				add_trait = illyrius	
+				add_trait = illyrius
 			}
 			if = {
 				limit = {
@@ -3106,6 +4126,210 @@ bloodlines_setup_completion.3 = {
 					}
 				}
 				add_trait = blood_of_zipoetes
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = qin_bloodline
+			        }
+			        NOT = {
+			            has_trait = qin_bloodline
+			        }
+			    }
+			    add_trait = qin_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = chu_bloodline
+			        }
+			        NOT = {
+			            has_trait = chu_bloodline
+			        }
+			    }
+			    add_trait = chu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = wei_bloodline
+			        }
+			        NOT = {
+			            has_trait = wei_bloodline
+			        }
+			    }
+			    add_trait = wei_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhou_bloodline
+			        }
+			    }
+			    add_trait = zhou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = yue_bloodline
+			        }
+			        NOT = {
+			            has_trait = yue_bloodline
+			        }
+			    }
+			    add_trait = yue_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = yan_bloodline
+			        }
+			        NOT = {
+			            has_trait = yan_bloodline
+			        }
+			    }
+			    add_trait = yan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = song_bloodline
+			        }
+			        NOT = {
+			            has_trait = song_bloodline
+			        }
+			    }
+			    add_trait = song_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = lu_bloodline
+			        }
+			        NOT = {
+			            has_trait = lu_bloodline
+			        }
+			    }
+			    add_trait = lu_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = wii_bloodline
+			        }
+			        NOT = {
+			            has_trait = wii_bloodline
+			        }
+			    }
+			    add_trait = wii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = han_bloodline
+			        }
+			        NOT = {
+			            has_trait = han_bloodline
+			        }
+			    }
+			    add_trait = han_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhao_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhao_bloodline
+			        }
+			    }
+			    add_trait = zhao_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhongshan_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhongshan_bloodline
+			        }
+			    }
+			    add_trait = zhongshan_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = qii_bloodline
+			        }
+			        NOT = {
+			            has_trait = qii_bloodline
+			        }
+			    }
+			    add_trait = qii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = nii_bloodline
+			        }
+			        NOT = {
+			            has_trait = nii_bloodline
+			        }
+			    }
+			    add_trait = nii_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zou_bloodline
+			        }
+			        NOT = {
+			            has_trait = zou_bloodline
+			        }
+			    }
+			    add_trait = zou_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = teng_bloodline
+			        }
+			        NOT = {
+			            has_trait = teng_bloodline
+			        }
+			    }
+			    add_trait = teng_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			        NOT = {
+			            has_trait = zhaoxian_bloodline
+			        }
+			    }
+			    add_trait = zhaoxian_bloodline
 			}
 			if = {
 				limit = {
