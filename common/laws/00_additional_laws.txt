@@ -167,3 +167,168 @@
 		}
 	}
 }
+
+education_laws_civilised = {
+	potential = {
+		is_tribal = no
+	}
+
+	education_laws_civilised_0 = { #default - nobles only can afford to educate their children
+		modifier = {
+			global_nobles_happyness = 0.03
+			global_nobles_output = 0.01
+		}
+
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = 10
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = 5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = -10
+				}
+			}
+		}
+	}
+
+	education_laws_civilised_1 = { #subsidise craftsmen
+		allow = {
+			invention = research_points_modifier_inv_2
+		}
+
+		modifier = {
+			global_freemen_output = 0.06
+			global_monthly_civilization = 0.02
+		}
+
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = -10
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 10
+				}
+			}
+		}
+	}
+
+	education_laws_civilised_2 = { #religious schools
+		allow = {
+			invention = research_points_modifier_inv_2
+		}
+
+		modifier = {
+			global_pop_conversion_speed_modifier = 0.03
+			happiness_for_same_religion_modifier = 0.08
+		}
+
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = 5
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = 10
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = -10
+				}
+			}
+		}
+	}
+
+	education_laws_civilised_3 = { #subsidise/free education for everyone
+		allow = {
+			invention = research_points_modifier_inv_2
+			has_monthly_income >= 50
+		}
+
+		modifier = {
+			technology_investment = 0.05
+			global_tax_income = -5
+		}
+
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = -10
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 10
+				}
+			}
+		}
+	}
+}
+
+education_laws_tribal = {
+	potential = {
+		is_tribal = yes
+	}
+
+	education_laws_tribal_0 = { #oral traditions
+		modifier = {
+			happiness_for_same_culture_modifier = 0.03
+		}
+	}
+
+	education_laws_tribal_1 = { #formalised warrior schools
+		modifier = {
+			discipline = 0.03
+		}
+	}
+
+	education_laws_tribal_2 = { #copy the civilised states
+		modifier = {
+			global_monthly_civilization = 0.01
+			monthly_centralization = 0.03
+		}
+
+		allow = {
+			any_neighbour_country = {
+				OR = {
+					is_republic = yes
+					is_monarchy = yes
+				}
+				opinion = {
+					target = root
+					value >= 100
+				}
+			}
+		}
+	}
+}

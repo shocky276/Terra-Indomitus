@@ -1374,6 +1374,15 @@ civic_2 = {
 
     research_points_modifier_inv_2 = { 
         modifier = { build_cost = -0.025 }
+
+		on_activate = {
+			if = {
+				limit = {
+					is_tribal = no
+				}
+				custom_tooltip = education_laws_tt
+			}
+		}
         
         requires = { global_tribesmen_output_inv_3 } 
     } 

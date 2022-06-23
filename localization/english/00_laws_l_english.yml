@@ -8,16 +8,17 @@ minting_laws_mint_building_subjects:0 "Our subject states may build their own mi
 minting_laws_mint_building_disabled_for_player:0 "Only private entities may build mints."
 mint_metals_prerequisites:0 "Any owned province produces precious metals @precious_metals!"
 mint_building_mint_laws_0_tt:0 "We must enact one of the #Y $minting_laws$#! that allows for the mint to be built."
+education_laws_tt:0 "This will unlock the #Y $education_laws_civilised$#!"
 
 #tooltips senate agenda
-
-###############################################
-# FIX THESE 3 TOOLTIPS THEY ARE BROKE
-###############################################
 
 senate_objective_change_law_oli_generic_tt_7:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $minting_laws_4$#!' law."
 senate_objective_change_law_dem_generic_tt_7:0 "[sen_obj_cha_law_dem_party.GetCountry.GetName] has passed the '#Y $minting_laws_3$#!' law."
 senate_objective_change_law_tra_generic_tt_7:0 "[sen_obj_cha_law_tra_party.GetCountry.GetName] has passed the '#Y $minting_laws_1$#!' law."
+
+senate_objective_change_law_oli_generic_tt_8:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $education_laws_civilised_0$#!' law."
+senate_objective_change_law_dem_generic_tt_8:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $education_laws_civilised_3$#!' law."
+senate_objective_change_law_tra_generic_tt_8:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $education_laws_civilised_2$#!' law."
 
 #laws themselves
 minting_laws:0 "Minting Laws"
@@ -31,6 +32,24 @@ minting_laws_3:0 "Autonomous Minting"
 minting_laws_3_desc:0 "Our subjects are allowed to mint their own coins, increasing the trade between our nations."
 minting_laws_4:0 "Privatised Minting"
 minting_laws_4_desc:0 "The minting of coins has been delegated to private institutions and characters, the state does not have a say."
+
+education_laws_civilised:0 "Education Laws"
+education_laws_civilised_0:0 "Noble Privilege"
+education_laws_civilised_0_desc:0 "Only the rich can afford to educate their offspring."
+education_laws_civilised_1:0 "Subsidise the Freemen"
+education_laws_civilised_1_desc:0 "The freemen are the backbone of our nation, their hard work nourishing. clothing and maintaining the lavish lifestyle of the nobles. "
+education_laws_civilised_2:0 "Religious Schools"
+education_laws_civilised_2_desc:0 "The priests are in charge of the education."
+education_laws_civilised_3:0 "Free Education"
+education_laws_civilised_3_desc:0 "Not so free for the state!"
+
+education_laws_tribal:0 "Education Principles"
+education_laws_tribal_0:0 "Oral Traditions"
+education_laws_tribal_0_desc:0 "Only from our own experience, the tales of our elders and old myths can we learn how the world functions."
+education_laws_tribal_1_:0 "Formalised Warrior Training"
+education_laws_tribal_1_desc:0 "Life is war. To live is to fight. Those who fight better live longer."
+education_laws_tribal_2:0 "Civic Pursuits"
+education_laws_tribal_2_desc:0 "Copy others so that we can be just as successful."
 
 
 #trigger from vanilla bc it isn't localised

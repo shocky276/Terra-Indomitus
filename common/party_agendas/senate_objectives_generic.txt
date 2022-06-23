@@ -66,6 +66,11 @@
 					}
 				}
 				trigger_if = {
+					limit = {
+						any_owned_province = {
+							trade_goods = precious_metals
+						}
+					}
 					NAND = { # Minting
 						OR = {
 							has_law = minting_laws_4 # privatised minting
@@ -74,6 +79,18 @@
 						trigger_if = {
 							limit = { has_variable = party_law_change_cooldown }
 							var:party_law_change_cooldown = 7
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						invention = research_points_modifier_inv_2
+					}
+					NAND = { # education
+						has_law = education_laws_civilised_0 # noble privilege
+						trigger_if = {
+							limit = { has_variable = party_law_change_cooldown }
+							var:party_law_change_cooldown = 8
 						}
 					}
 				}
@@ -198,6 +215,9 @@
 					}
 					2 = { # minting
 						trigger = {
+							any_owned_province = {
+								trade_goods = precious_metals
+							}
 							NAND = { 
 								OR = {
 									has_law = minting_laws_4 # privatised minting
@@ -212,6 +232,22 @@
 						set_variable = {
 							name = sen_obj_cha_law_oli_target
 							value = 7 # minting
+						}
+					}
+					2 = { # education
+						trigger = {
+							invention = research_points_modifier_inv_2
+							NAND = { 
+								has_law = education_laws_civilised_0
+								trigger_if = {
+    								limit = { has_variable = party_law_change_cooldown }
+									var:party_law_change_cooldown = 8
+								}
+							}
+						}
+						set_variable = {
+							name = sen_obj_cha_law_oli_target
+							value = 8 # noble privilege
 						}
 					}
 				}
@@ -273,6 +309,13 @@
 				custom_tooltip = {
 					text = senate_objective_change_law_oli_generic_tt_7
 					has_law = republic_corruption_4 # Abolish Assemblies
+				}
+			}
+			trigger_else_if = { #education
+				limit = { var:sen_obj_cha_law_oli_target = 8 }
+				custom_tooltip = {
+					text = senate_objective_change_law_oli_generic_tt_8
+					has_law = education_laws_civilised_0 #noble privilege
 				}
 			}
 			custom_tooltip = {
@@ -405,11 +448,31 @@ senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 					}
 				}
 				trigger_if = {
-						NAND = { # minting
+					limit = {
+						any_owned_province = {
+							trade_goods = precious_metals
+						}
+					}
+					NAND = { # minting
 						has_law = minting_laws_3 #autonomous coinage
 						trigger_if = {
 							limit = { has_variable = party_law_change_cooldown }
 							var:party_law_change_cooldown = 7
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						invention = research_points_modifier_inv_2
+					}
+					NAND = { # education
+						OR = {
+							has_law = education_laws_civilised_3 # "free" education
+							has_law = education_laws_civilised_1 # craftsmen supported
+						}
+						trigger_if = {
+							limit = { has_variable = party_law_change_cooldown }
+							var:party_law_change_cooldown = 8
 						}
 					}
 				}
@@ -534,6 +597,9 @@ senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 					}
 					2 = { # minting
 						trigger = {
+							any_owned_province = {
+								trade_goods = precious_metals
+							}
 							NAND = {
 								has_law = minting_laws_3 # coinage
 								trigger_if = {
@@ -545,6 +611,25 @@ senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 						set_variable = {
 							name = sen_obj_cha_law_dem_target
 							value = 7
+						}
+					}
+					2 = { # education
+						trigger = {
+							invention = research_points_modifier_inv_2
+							NAND = { # education
+								OR = {
+									has_law = education_laws_civilised_3 # "free" education
+									has_law = education_laws_civilised_1 # craftsmen supported
+								}
+								trigger_if = {
+									limit = { has_variable = party_law_change_cooldown }
+									var:party_law_change_cooldown = 8
+								}
+							}
+						}
+						set_variable = {
+							name = sen_obj_cha_law_dem_target
+							value = 8
 						}
 					}
 				}
@@ -607,6 +692,13 @@ senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 					custom_tooltip = {
 						text = senate_objective_change_law_dem_generic_tt_7
 						has_law = minting_laws_3 # autonomous coinage
+					}
+				}
+				trigger_else_if = { # minting
+					limit = { var:sen_obj_cha_law_dem_target = 8 }
+					custom_tooltip = {
+						text = senate_objective_change_law_dem_generic_tt_8
+						has_law = education_laws_civilised_3 # "free" education
 					}
 				}
 			}
@@ -744,6 +836,11 @@ senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalis
 					}
 				}
 				trigger_if = {
+					limit = {
+						any_owned_province = {
+							trade_goods = precious_metals
+						}
+					}
 					AND = { # minting
 						NOT = {
 							has_law = minting_laws_1 # state monopoly
@@ -751,6 +848,20 @@ senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalis
 						trigger_if = {
 							limit = { has_variable = party_law_change_cooldown }
 							var:party_law_change_cooldown = 7
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						invention = research_points_modifier_inv_2
+					}
+					AND = { # education
+						NOT = {
+							has_law = education_laws_civilised_2 # religious schools
+						}
+						trigger_if = {
+							limit = { has_variable = party_law_change_cooldown }
+							var:party_law_change_cooldown = 8
 						}
 					}
 				}
@@ -864,7 +975,7 @@ senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalis
 					2 = {
 						trigger = {
 							NOT = {
-								has_law = republic_corruption_1 # state monopoly
+								has_law = minting_laws_1 # state monopoly
 							}
 							trigger_if = {
 								limit = { has_variable = party_law_change_cooldown }
@@ -874,6 +985,22 @@ senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalis
 						set_variable = {
 							name = sen_obj_cha_law_tra_target
 							value = 7
+						}
+					}
+					2 = {
+						trigger = {
+							invention = research_points_modifier_inv_2
+							NOT = {
+								has_law = education_laws_civilised_2 # religious schools
+							}
+							trigger_if = {
+								limit = { has_variable = party_law_change_cooldown }
+								NOT = { var:party_law_change_cooldown = 8 }
+							}
+						}
+						set_variable = {
+							name = sen_obj_cha_law_tra_target
+							value = 8
 						}
 					}
 				}
@@ -931,7 +1058,14 @@ senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalis
 						has_law = minting_laws_1
 					}
 				}
-			}
+				trigger_else_if = {
+					limit = { var:sen_obj_cha_law_tra_target = 8 } # minting state monopoly
+					custom_tooltip = {
+						text = senate_objective_change_law_tra_generic_tt_8
+						has_law = education_laws_civilised_2
+					}
+				}
+			}	
 			custom_tooltip = {
 				text = law_change_category_tt
 				trigger_if = {
