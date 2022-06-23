@@ -8,6 +8,8 @@ minting_laws_mint_building_subjects:0 "Our subject states may build their own mi
 minting_laws_mint_building_disabled_for_player:0 "Only private entities may build mints."
 mint_metals_prerequisites:0 "Any owned province produces precious metals @precious_metals!"
 mint_building_mint_laws_0_tt:0 "We must enact one of the #Y $minting_laws$#! that allows for the mint to be built."
+mint_building_mint_laws_1_tt:0 "We must enact the #Y $minting_laws_2$#! that allows for the mint to be built everywhere, not just in our capital region."
+mint_building_mint_laws_2_tt:0 "The #Y $minting_laws_4$#! law disallows the building of mints for the state."
 education_laws_tt:0 "This will unlock the #Y $education_laws_civilised$#!"
 
 #tooltips senate agenda

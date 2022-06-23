@@ -449,6 +449,10 @@ senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 				}
 				trigger_if = {
 					limit = {
+						any_subject = {
+							count > 0
+							exists = this
+						}
 						any_owned_province = {
 							trade_goods = precious_metals
 						}
@@ -597,6 +601,10 @@ senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 					}
 					2 = { # minting
 						trigger = {
+							any_subject = {
+								count > 0
+								exists = this
+							}
 							any_owned_province = {
 								trade_goods = precious_metals
 							}

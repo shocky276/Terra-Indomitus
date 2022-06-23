@@ -167,14 +167,8 @@ mint_building = { #mint
 	allow = {
 		exists = owner
 		owner = {
+			mint_current_amount < mint_max_amount
 			trigger_if = {
-				limit = {
-					mint_current_amount >= mint_max_amount
-				}
-				always = no
-				#custom_tooltip = max_amount_mint_building
-			}
-			trigger_else_if = {
 				limit = { has_law = minting_laws_2 }
 				has_law = minting_laws_2
 			}
@@ -185,11 +179,17 @@ mint_building = { #mint
 						has_law = minting_laws_3
 					}
 				}
-				prev.governorship = capital_scope.governorship
+				custom_tooltip = {
+					text = mint_building_mint_laws_1_tt
+					prev.governorship = capital_scope.governorship
+				}
 			}
 			trigger_else_if = {
-				limit = { is_subject = yes }
+				limit = { 
+					is_subject = yes 
+				}
 				overlord = { has_law = minting_laws_3 }
+				is_tribal = no
 			}
 			trigger_else_if = {
 				limit = {
@@ -197,6 +197,15 @@ mint_building = { #mint
 				}
 				custom_tooltip = {
 					text = mint_building_mint_laws_0_tt
+					always = no
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					has_law = minting_laws_4
+				}
+				custom_tooltip = {
+					text = mint_building_mint_laws_2_tt
 					always = no
 				}
 			}
