@@ -168,6 +168,13 @@ mint_building = { #mint
 		exists = owner
 		owner = {
 			trigger_if = {
+				limit = {
+					mint_current_amount >= mint_max_amount
+				}
+				always = no
+				#custom_tooltip = max_amount_mint_building
+			}
+			trigger_else_if = {
 				limit = { has_law = minting_laws_2 }
 				has_law = minting_laws_2
 			}
@@ -192,12 +199,6 @@ mint_building = { #mint
 					text = mint_building_mint_laws_0_tt
 					always = no
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mint_current_amount > mint_max_amount
-				}
-				always = no
 			}
 		}
 	}

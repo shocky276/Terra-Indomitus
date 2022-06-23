@@ -804,7 +804,7 @@ scheme_build_mint = {
 					}
 				}
 				is_governor = yes
-				governorship = {
+				this.governorship = {
 					any_governorship_state = {
 						any_state_province = {
 							has_city_status = yes

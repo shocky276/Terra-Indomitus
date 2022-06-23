@@ -132,17 +132,23 @@ num_of_slave_building_sv = {
 
 mint_current_amount = {
     value = {
-        every_owned_province = {
-            limit = {
-                has_building = mint_building
+        value = 0
+        add = {
+            every_owned_province = {
+                limit = {
+                    has_building = mint_building
+                }
             }
         }
     }
 }
 
 mint_max_amount = {
-    value = owner.country_population
-    multiply = 0.001
-    max = 8
-    min = 1
+    value = {
+        value = 0
+        add = country_population
+        multiply = 0.001
+        min = 1
+        max = 8
+    }
 }
