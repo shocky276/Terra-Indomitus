@@ -332,3 +332,27 @@ education_laws_tribal = {
 		}
 	}
 }
+
+
+#################
+### Law Ideas ###
+#################
+#emigration/immigration 
+#social welfare
+#confiscation
+#ownership of land and cattle
+#ownership of weapons
+#marriage laws (have the character interactions be influecne by this
+#family laws (maybe same as marriage?)
+#maintenance (roads, buildings; maybe two different sets)
+#moral laws (prostitution f.ex.)
+#contracts
+#taxes more defined; probably multiple sets
+#collection of taxes
+#census
+#colonisation
+#civic obligations
+#prices and monopolies
+#some religious laws that might allow for a syncretic gameplay; if possible have Religious Unity get a bonus that helps that gameplay style the lower the RU is
+#military doctrines; ideally not a law but in the military tab
+#hunting and farming laws
