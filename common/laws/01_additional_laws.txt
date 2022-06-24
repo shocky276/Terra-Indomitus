@@ -333,131 +333,131 @@ education_laws_tribal = {
 	}
 }
 
-weapons_ownership_laws = { #who can own weapons - and what effect that has...
-	potential = {
-		always = yes
-	}
+# weapons_ownership_laws = { #who can own weapons - and what effect that has...
+# 	potential = {
+# 		always = yes
+# 	}
 
-	weapons_ownership_laws_0 = { # default - no regulations on small weapons such as knives and bows
+# 	weapons_ownership_laws_0 = { # default - no regulations on small weapons such as knives and bows
 
-		on_enact = {
-			if = {
-				limit = {
-					is_republic = yes
-				}
-				add_party_approval = {
-					party_type = oligarchic_party
-					value = -5
-				}
-				add_party_approval = {
-					party_type = traditionalist_party
-					value = 10
-				}
-				add_party_approval = {
-					party_type = democratic_party
-					value = 5
-				}
-			}
-		}
-	}
-	weapons_ownership_laws_1 = { #total prohibition on weapon ownership for the populace - cooking and hunting won't be easy...
-		allow = {}
+# 		on_enact = {
+# 			if = {
+# 				limit = {
+# 					is_republic = yes
+# 				}
+# 				add_party_approval = {
+# 					party_type = oligarchic_party
+# 					value = -5
+# 				}
+# 				add_party_approval = {
+# 					party_type = traditionalist_party
+# 					value = 10
+# 				}
+# 				add_party_approval = {
+# 					party_type = democratic_party
+# 					value = 5
+# 				}
+# 			}
+# 		}
+# 	}
+# 	weapons_ownership_laws_1 = { #total prohibition on weapon ownership for the populace - cooking and hunting won't be easy...
+# 		allow = {}
 
-		on_enact = {
-			if = {
-				limit = {
-					is_republic = yes
-				}
-				add_party_approval = {
-					party_type = oligarchic_party
-					value = 10
-				}
-				add_party_approval = {
-					party_type = traditionalist_party
-					value = 5
-				}
-				add_party_approval = {
-					party_type = democratic_party
-					value = -10
-				}
-			}
-		}
+# 		on_enact = {
+# 			if = {
+# 				limit = {
+# 					is_republic = yes
+# 				}
+# 				add_party_approval = {
+# 					party_type = oligarchic_party
+# 					value = 10
+# 				}
+# 				add_party_approval = {
+# 					party_type = traditionalist_party
+# 					value = 5
+# 				}
+# 				add_party_approval = {
+# 					party_type = democratic_party
+# 					value = -10
+# 				}
+# 			}
+# 		}
 
-		modifier = { #have an event chain that could create a revolt?
-			unrest = 1
-			global_monthly_state_loyalty = 0.05
-		}
-	}
+# 		modifier = { #have an event chain that could create a revolt?
+# 			unrest = 1
+# 			global_monthly_state_loyalty = 0.05
+# 		}
+# 	}
 
-	weapons_ownership_laws_2 = { #no restrictions
-		allow = {}
+# 	weapons_ownership_laws_2 = { #no restrictions
+# 		allow = {}
 
-		on_enact = {
-			if = {
-				limit = {
-					is_republic = yes
-				}
-				add_party_approval = {
-					party_type = oligarchic_party
-					value = -10
-				}
-				add_party_approval = {
-					party_type = traditionalist_party
-					value = -5
-				}
-				add_party_approval = {
-					party_type = democratic_party
-					value = 10
-				}
-			}
-		}
+# 		on_enact = {
+# 			if = {
+# 				limit = {
+# 					is_republic = yes
+# 				}
+# 				add_party_approval = {
+# 					party_type = oligarchic_party
+# 					value = -10
+# 				}
+# 				add_party_approval = {
+# 					party_type = traditionalist_party
+# 					value = -5
+# 				}
+# 				add_party_approval = {
+# 					party_type = democratic_party
+# 					value = 10
+# 				}
+# 			}
+# 		}
 
-		modifier = {
-			unrest = -1
-			governor_loyalty = -5
-			general_loyalty = -5
-		}
-	}
+# 		modifier = {
+# 			unrest = -1
+# 			governor_loyalty = -5
+# 			general_loyalty = -5
+# 		}
+# 	}
 
-	weapons_ownership_laws_3 = { #italian culture possibilty - pomerium - weapons prohibited inside of cities for non-lictors
-		potential = {
-			country_culture_group = latin
-		}
+# 	weapons_ownership_laws_3 = { #italian culture possibilty - pomerium - weapons prohibited inside of cities for non-lictors
+# 		potential = {
+# 			country_culture_group = latin
+# 		}
 
-		on_enact = { #tie in triumph char interaction maybe
-			if = {
-				limit = {
-					is_republic = yes
-				}
-				add_party_approval = {
-					party_type = oligarchic_party
-					value = 5
-				}
-				add_party_approval = {
-					party_type = traditionalist_party
-					value = 5
-				}
-				add_party_approval = {
-					party_type = democratic_party
-					value = 5
-				}
-			}
-		}
+# 		on_enact = { #tie in triumph char interaction maybe
+# 			if = {
+# 				limit = {
+# 					is_republic = yes
+# 				}
+# 				add_party_approval = {
+# 					party_type = oligarchic_party
+# 					value = 5
+# 				}
+# 				add_party_approval = {
+# 					party_type = traditionalist_party
+# 					value = 5
+# 				}
+# 				add_party_approval = {
+# 					party_type = democratic_party
+# 					value = 5
+# 				}
+# 			}
+# 		}
 
-		allow = {
-			is_tribal = no
-			any_owned_province = {
-				has_city_status = yes
-			}
-		}
+# 		allow = {
+# 			is_tribal = no
+# 			any_owned_province = {
+# 				has_city_status = yes
+# 			}
+# 		}
 
-		modifier = {
-			happiness_for_same_culture_modifier = 0.06
-			global_monthly_state_loyalty = 0.02
-		}
-	}
+# 		modifier = {
+# 			happiness_for_same_culture_modifier = 0.06
+# 			global_monthly_state_loyalty = 0.02
+# 		}
+# 	}
 
-}
+# }
 
 
 #################
@@ -470,27 +470,21 @@ weapons_ownership_laws = { #who can own weapons - and what effect that has...
 
 ###These are done/being worked on
 
-#ownership of weapons (I don't like these laws they don't make sense to me and feel unnessesary)
 #minting
 #education
 
-###These are ideas only - for now
-
-#emigration/immigration (This is covered by governor policies, don't do this.)
-#social welfare (This is a good idea.)
-#confiscation (Land confiscation? If so I don't like that seems dumb.)
-#ownership of land and cattle (No.)
-#marriage laws (already in vanilla, not necessary)
-#family laws (already in vanilla, not necessary)
-#maintenance (This isn't a thing that should be a law)
 #moral laws (prostitution f.ex.) (This is a good idea.)
+#social welfare (This is a good idea.)
+#holdings laws
+#colonisation - Dementive
+
+###ruled out - for now
+
+#ownership of weapons (I don't like these laws they don't make sense to me and feel unnessesary)
 #contracts (I don't like this as a law, it should be something else if it exists at all)
+
+### Should be Economic Policies or the like
+
 #taxes more defined; probably multiple sets (These are economic policies, laws do not cover this. Nah.)
-#collection of taxes (These are economic policies, laws do not cover this. Nah.)
-#census (This seems like it might be nice but why would it be a law...events would do just fine.)
-#colonisation (This is a REALLY good idea. For each type of law the way that your nation colonizes could be different. LET ME DO THIS ONE. IT'S REALLY COMPLICATED)
-#civic obligations (Maybe, you'd have to elaborate on this more before I can say if I like it.)
+#maintenance (This isn't a thing that should be a law)
 #prices and monopolies (This isn't the 19th century, this one doesn't make much sense imo.)
-#some religious laws that might allow for a syncretic gameplay; if possible have Religious Unity get a bonus that helps that gameplay style the lower the RU is (If you are going to do this you do NOT need a new set of laws just add it into the existing vanilla religious laws.)
-#military doctrines; ideally not a law but in the military tab (This is literally military traditions, no?)
-#hunting and farming laws (This doens't seem like a good idea to me. Too petty of a thing for the state to have to manage)
