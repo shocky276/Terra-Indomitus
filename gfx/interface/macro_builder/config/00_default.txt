@@ -42,8 +42,6 @@ construct_city_buildings = {
 		town_hall_building
 		workshop_building
 		mint_building
-		trade_harbor_building
-		mint_building
 		baths_building
 	}
 

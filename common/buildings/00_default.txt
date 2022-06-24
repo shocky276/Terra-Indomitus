@@ -156,8 +156,9 @@ port_building = {
 #	}
 #}
 mint_building = { #mint
-	tax_income = 0.25
-	local_migration_attraction = 3
+	tax_income = 0.35
+	local_migration_attraction = 5
+	local_country_civilization_value = 5
 	local_output_modifier = 0.05
 
 	potential = {
@@ -167,7 +168,6 @@ mint_building = { #mint
 	allow = {
 		exists = owner
 		owner = {
-			mint_current_amount < mint_max_amount
 			trigger_if = {
 				limit = { has_law = minting_laws_2 }
 				has_law = minting_laws_2
@@ -185,8 +185,8 @@ mint_building = { #mint
 				}
 			}
 			trigger_else_if = {
-				limit = { 
-					is_subject = yes 
+				limit = {
+					is_subject = yes
 				}
 				overlord = { has_law = minting_laws_3 }
 				is_tribal = no
@@ -214,7 +214,7 @@ mint_building = { #mint
 
 	max_amount = 1
 
-	cost = 320
+	cost = 900
 	time = 360
 
 	modification_display = {
