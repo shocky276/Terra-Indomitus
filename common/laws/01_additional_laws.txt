@@ -52,7 +52,7 @@
 			governor_loyalty = 5 #more power
 			monthly_governor_wage = 0.1 #self-payment
 		}
-		
+
 
 		allow = {
 			custom_tooltip = {
@@ -103,7 +103,7 @@
 			subject_loyalty = -10 #they are more autonomous, i.e. independent
 			global_commerce_modifier = 0.05 #different coinage having different values
 		}
-		
+
 
 		on_enact = {
 			if = {
@@ -134,7 +134,7 @@
 			monthly_corruption = 0.01 #power corrupts
 			build_cost = -0.05
 		}
-		
+
 
 		allow = {
 			custom_tooltip = {
@@ -359,7 +359,7 @@ weapons_ownership_laws = { #who can own weapons - and what effect that has...
 				}
 			}
 		}
-	} 
+	}
 	weapons_ownership_laws_1 = { #total prohibition on weapon ownership for the populace - cooking and hunting won't be easy...
 		allow = {}
 
@@ -382,12 +382,12 @@ weapons_ownership_laws = { #who can own weapons - and what effect that has...
 				}
 			}
 		}
-		
-		modifier = { #have an event chain that could create a revolt? 
+
+		modifier = { #have an event chain that could create a revolt?
 			unrest = 1
 			global_monthly_state_loyalty = 0.05
 		}
-	} 
+	}
 
 	weapons_ownership_laws_2 = { #no restrictions
 		allow = {}
@@ -411,20 +411,20 @@ weapons_ownership_laws = { #who can own weapons - and what effect that has...
 				}
 			}
 		}
-		
+
 		modifier = {
 			unrest = -1
 			governor_loyalty = -5
 			general_loyalty = -5
 		}
-	} 
+	}
 
 	weapons_ownership_laws_3 = { #italian culture possibilty - pomerium - weapons prohibited inside of cities for non-lictors
 		potential = {
 			country_culture_group = latin
 		}
 
-		on_enact = { #tie in triumph char interaction maybe 
+		on_enact = { #tie in triumph char interaction maybe
 			if = {
 				limit = {
 					is_republic = yes
@@ -442,7 +442,7 @@ weapons_ownership_laws = { #who can own weapons - and what effect that has...
 					value = 5
 				}
 			}
-		} 
+		}
 
 		allow = {
 			is_tribal = no
@@ -455,7 +455,7 @@ weapons_ownership_laws = { #who can own weapons - and what effect that has...
 			happiness_for_same_culture_modifier = 0.06
 			global_monthly_state_loyalty = 0.02
 		}
-	} 
+	}
 
 }
 
@@ -464,29 +464,33 @@ weapons_ownership_laws = { #who can own weapons - and what effect that has...
 ### Law Ideas ###
 #################
 
+### NOTE: We CANNOT have this many sets of laws it would just be awful for the player to manage them. I would say that adding a MAX of like 5 new sets of laws is all that we should do, any more than that is just unncessary bloat and becomes annoying to manage for players. It's also not possible to balance so there's that too.
+# If you want to make this many new laws you have to hide them behind potentials so a single nation doesn't have 25 different law sets because that would be awful.
+
+
 ###These are done/being worked on
 
-#ownership of weapons
+#ownership of weapons (I don't like these laws they don't make sense to me and feel unnessesary)
 #minting
 #education
 
 ###These are ideas only - for now
 
-#emigration/immigration 
-#social welfare
-#confiscation
-#ownership of land and cattle
-#marriage laws (have the character interactions be influenced by this
-#family laws (maybe same as marriage?)
-#maintenance (roads, buildings; maybe two different sets)
-#moral laws (prostitution f.ex.)
-#contracts
-#taxes more defined; probably multiple sets
-#collection of taxes
-#census
-#colonisation
-#civic obligations
-#prices and monopolies
-#some religious laws that might allow for a syncretic gameplay; if possible have Religious Unity get a bonus that helps that gameplay style the lower the RU is
-#military doctrines; ideally not a law but in the military tab
-#hunting and farming laws
+#emigration/immigration (This is covered by governor policies, don't do this.)
+#social welfare (This is a good idea.)
+#confiscation (Land confiscation? If so I don't like that seems dumb.)
+#ownership of land and cattle (No.)
+#marriage laws (already in vanilla, not necessary)
+#family laws (already in vanilla, not necessary)
+#maintenance (This isn't a thing that should be a law)
+#moral laws (prostitution f.ex.) (This is a good idea.)
+#contracts (I don't like this as a law, it should be something else if it exists at all)
+#taxes more defined; probably multiple sets (These are economic policies, laws do not cover this. Nah.)
+#collection of taxes (These are economic policies, laws do not cover this. Nah.)
+#census (This seems like it might be nice but why would it be a law...events would do just fine.)
+#colonisation (This is a REALLY good idea. For each type of law the way that your nation colonizes could be different. LET ME DO THIS ONE. IT'S REALLY COMPLICATED)
+#civic obligations (Maybe, you'd have to elaborate on this more before I can say if I like it.)
+#prices and monopolies (This isn't the 19th century, this one doesn't make much sense imo.)
+#some religious laws that might allow for a syncretic gameplay; if possible have Religious Unity get a bonus that helps that gameplay style the lower the RU is (If you are going to do this you do NOT need a new set of laws just add it into the existing vanilla religious laws.)
+#military doctrines; ideally not a law but in the military tab (This is literally military traditions, no?)
+#hunting and farming laws (This doens't seem like a good idea to me. Too petty of a thing for the state to have to manage)
