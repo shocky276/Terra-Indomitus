@@ -53,6 +53,16 @@ education_laws_tribal_1_desc:0 "Life is war. To live is to fight. Those who figh
 education_laws_tribal_2:0 "Civic Pursuits"
 education_laws_tribal_2_desc:0 "Copy others so that we can be just as successful."
 
+weapons_ownership_laws:0 "Security Laws"
+weapons_ownership_laws_0:0 "Small Weapons Allowed"
+weapons_ownership_laws_0_desc:0 "Small weapons such as bows and knives are commonplace items, prohibiting their use seems to be wasteful."
+weapons_ownership_laws_1:0 "Weapons are Prohibited"
+weapons_ownership_laws_1_desc:0 "The ownership of any and all weapons is strictly punished - but only for the simple citizen."
+weapons_ownership_laws_2:0 "Unrestricted Weapon Ownership"
+weapons_ownership_laws_2_desc:0 "Every imaginable weapon is allowed for private uses."
+weapons_ownership_laws_3:0 "The Pomerium"
+weapons_ownership_laws_3_desc:0 "The Pomerium is the border between a city and the surrounding land. Inside of it, no weapons are permitted for all except the lictors."
+
 
 #trigger from vanilla bc it isn't localised
 

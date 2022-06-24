@@ -333,16 +333,150 @@ education_laws_tribal = {
 	}
 }
 
+weapons_ownership_laws = { #who can own weapons - and what effect that has...
+	potential = {
+		always = yes
+	}
+
+	weapons_ownership_laws_0 = { # default - no regulations on small weapons such as knives and bows
+
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = 10
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 5
+				}
+			}
+		}
+	} 
+	weapons_ownership_laws_1 = { #total prohibition on weapon ownership for the populace - cooking and hunting won't be easy...
+		allow = {}
+
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = 10
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = 5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = -10
+				}
+			}
+		}
+		
+		modifier = { #have an event chain that could create a revolt? 
+			unrest = 1
+			global_monthly_state_loyalty = 0.05
+		}
+	} 
+
+	weapons_ownership_laws_2 = { #no restrictions
+		allow = {}
+
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = -10
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 10
+				}
+			}
+		}
+		
+		modifier = {
+			unrest = -1
+			governor_loyalty = -5
+			general_loyalty = -5
+		}
+	} 
+
+	weapons_ownership_laws_3 = { #italian culture possibilty - pomerium - weapons prohibited inside of cities for non-lictors
+		potential = {
+			country_culture_group = latin
+		}
+
+		on_enact = { #tie in triumph char interaction maybe 
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = 5
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = 5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 5
+				}
+			}
+		} 
+
+		allow = {
+			is_tribal = no
+			any_owned_province = {
+				has_city_status = yes
+			}
+		}
+
+		modifier = {
+			happiness_for_same_culture_modifier = 0.06
+			global_monthly_state_loyalty = 0.02
+		}
+	} 
+
+}
+
 
 #################
 ### Law Ideas ###
 #################
+
+###These are done/being worked on
+
+#ownership of weapons
+#minting
+#education
+
+###These are ideas only - for now
+
 #emigration/immigration 
 #social welfare
 #confiscation
 #ownership of land and cattle
-#ownership of weapons
-#marriage laws (have the character interactions be influecne by this
+#marriage laws (have the character interactions be influenced by this
 #family laws (maybe same as marriage?)
 #maintenance (roads, buildings; maybe two different sets)
 #moral laws (prostitution f.ex.)
