@@ -452,7 +452,7 @@ himalayan_region = {
 }
 
 sogdiana_region = {
-	#7
+	#8
 	areas = {
 		cyropolis_area
 		sogdiana_area
@@ -460,11 +460,12 @@ sogdiana_region = {
 		transoxus_area
 		kharesmia_superior
 		jaxartia_area
+		upper_jaxartia_area
 	}
 }
 
 scythia_region = {
-	#9
+	#10
 	areas = {
 		darn_area
 		scythia_ultima_area
@@ -473,6 +474,7 @@ scythia_region = {
 		scythia_ad_pontem_area
 		kharesmia_area
 		sirdarya_area
+		eastern_aral_area
 	}
 }
 

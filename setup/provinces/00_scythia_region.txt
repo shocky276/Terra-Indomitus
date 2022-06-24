@@ -1473,174 +1473,121 @@
 	}
 }
 
-7246={ #Yangikent
-	terrain="steppe"
-	culture="massagetaen"
-	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-7247={ #Altinasar
-	terrain="steppe"
-	culture="massagetaen"
-	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-7248={ #Janaqala
-	terrain="steppe"
-	culture="massagetaen"
-	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-7249={ #Akkum
-	terrain="steppe"
-	culture="massagetaen"
-	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-7250={ #Koga
-	terrain="steppe"
-	culture="massagetaen"
-	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-7251={ #Besta
-	terrain="steppe"
-	culture="massagetaen"
-	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
 7252={ #Lek
-	terrain="steppe"
-	culture="massagetaen"
+	terrain="plains"
+	culture="sakan"
 	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="horses"
+	civilization_value=5
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
 }
 
 7253={ #Ziram
-	terrain="steppe"
-	culture="massagetaen"
+	terrain="plains"
+	culture="sakan"
 	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="fur"
+	civilization_value=5
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
 }
 
 7254={ #Boot
-	terrain="desert"
-	culture="massagetaen"
+	terrain="plains"
+	culture="sakan"
 	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="steppe_horses"
+	civilization_value=5
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
 }
 
 7255={ #Palisha
-	terrain="desert"
-	culture="massagetaen"
+	terrain="plains"
+	culture="sakan"
 	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="leather"
+	civilization_value=5
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
 }
 
 7256={ #Zantak
-	terrain="desert"
-	culture="massagetaen"
+	terrain="plains"
+	culture="sakan"
 	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="horses"
+	civilization_value=5
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
 }
 
 7257={ #Qala
-	terrain="desert"
-	culture="massagetaen"
+	terrain="plains"
+	culture="sakan"
 	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="cattle"
+	civilization_value=5
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
 }
 
 7258={ #Birim
-	terrain="desert"
-	culture="massagetaen"
+	terrain="plains"
+	culture="sakan"
 	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="steppe_horses"
+	civilization_value=5
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
 }
 
 7259={ #Baraq
-	terrain="desert"
-	culture="massagetaen"
+	terrain="plains"
+	culture="sakan"
 	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=5
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
 }
 
 7260={ #Kupir
-	terrain="desert"
-	culture="massagetaen"
+	terrain="plains"
+	culture="kharesmian"
 	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="cattle"
+	civilization_value=7
 	barbarian_power=0
-	province_rank=""
-}
-
-7261={ #Maidankoga
-	terrain="steppe"
-	culture="sakan"
-	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-7262={ #Maidankuyryk
-	terrain="steppe"
-	culture="sakan"
-	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
 }
 
 7265={ #Zintik
@@ -1669,19 +1616,6 @@
 	}
 }
 
-7269={ #Jaxartia
-	terrain="steppe"
-	culture="sakan"
-	religion="indo_iranian_religion"
-	trade_goods="camel"
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-	tribesmen={
-		amount=3
-	}
-}
-
 7271={ #Kush
 	terrain="steppe"
 	culture="sakan"
@@ -1695,16 +1629,5 @@
 	}
 }
 
-7272={ #Khanus
-	terrain="steppe"
-	culture="sakan"
-	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-	tribesmen={
-		amount=3
-	}
-}
+
 
