@@ -8807,20 +8807,20 @@
 	province_rank=""
 }
 
-8094={ #Murrat
-	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+8094={ #Oceanus Atlanticus
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8095={ #Sufar
-	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+8095={ #Oceanus Atlanticus
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
