@@ -171,6 +171,7 @@ country = {
 			capital = 3190
 			
 			own_control_core = { 
+				3288 3289 #africa meridionalis
 				3196 3202  #mauretania_orientalis
 				3190 3191 3290 10060 10061 10062 10063 10064 10065 10066 #tritonia
 				
