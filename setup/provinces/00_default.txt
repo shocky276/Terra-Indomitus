@@ -3577,10 +3577,10 @@
 	province_rank=""
 }
 
-5320={ #Eastern Gaetulia
-	terrain="impassable_terrain"
-	culture="gaetulian"
-	religion="berber_religion"
+5320={ #Salinae Tubunenses
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4047,10 +4047,10 @@
 	province_rank=""
 }
 
-5367={ #Eastern Musalamia
-	terrain="impassable_terrain"
-	culture="gaetulian"
-	religion="berber_religion"
+5367{ #Lake Tritonis
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8609,7 +8609,7 @@
 
 8074={ #Desert
 	terrain="impassable_terrain"
-	culture="phazanian"
+	culture="phazani"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8619,7 +8619,7 @@
 
 8075={ #Desert
 	terrain="impassable_terrain"
-	culture="phazanian"
+	culture="phazani"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8629,7 +8629,7 @@
 
 8076={ #Desert
 	terrain="impassable_terrain"
-	culture="phazanian"
+	culture="phazani"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8639,7 +8639,7 @@
 
 8077={ #Desert
 	terrain="impassable_terrain"
-	culture="phazanian"
+	culture="phazani"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8649,7 +8649,7 @@
 
 8078={ #Desert
 	terrain="impassable_terrain"
-	culture="phazanian"
+	culture="phazani"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8707,120 +8707,120 @@
 	province_rank=""
 }
 
-8084={ #Seiga
+8084={ #Atlas Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="daphnitaean"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8085={ #Shoshoba
+8085={ #Atlas Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="daphnitaean"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8086={ #Allaqi
+8086={ #Atlas Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="daphnitaean"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8087={ #Fas
+8087={ #Atlas Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="capariensian"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8088={ #Eigat
+8088={ #Sahara
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="canarian"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8089={ #Berenike Pancrysia
+8089={ #Sahara
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="perorsian"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8090={ #Gidmib
-	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+8090={ #Lake Bazensis
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8091={ #Biyar
+8091={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="garamantic"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8092={ #Duweb
+8092={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="garamantic"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8093={ #Hidiglib
+8093={ #Desert
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="garamantic"
+	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8094={ #Murrat
-	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+8094={ #Oceanus Atlanticus
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8095={ #Sufar
-	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+8095={ #Oceanus Atlanticus
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

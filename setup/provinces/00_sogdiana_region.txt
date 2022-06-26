@@ -1459,6 +1459,110 @@
 	}
 }
 
+7246={ #Yangikent
+	terrain="steppe"
+	culture="sakan"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7247={ #Altinasar
+	terrain="steppe"
+	culture="sakan"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+7248={ #Janaqala
+	terrain="steppe"
+	culture="sakan"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=6
+	}
+}
+
+7249={ #Akkum
+	terrain="steppe"
+	culture="sakan"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7250={ #Koga
+	terrain="steppe"
+	culture="sakan"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7251={ #Besta
+	terrain="steppe"
+	culture="sakan"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7261={ #Maidankoga
+	terrain="steppe"
+	culture="sakan"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7262={ #Maidankuyryk
+	terrain="steppe"
+	culture="sakan"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
 7263={ #Jaxartes
 	terrain="dry_plains"
 	culture="sogdian"
@@ -1508,6 +1612,32 @@
 	province_rank="settlement"
 	tribesmen={
 		amount=3
+	}
+}
+
+7269={ #Jaxartia
+	terrain="steppe"
+	culture="sogdian"
+	religion="eastern_animism"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7272={ #Khanus
+	terrain="steppe"
+	culture="sogdian"
+	religion="eastern_animism"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
 	}
 }
 

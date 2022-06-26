@@ -452,7 +452,7 @@ himalayan_region = {
 }
 
 sogdiana_region = {
-	#7
+	#8
 	areas = {
 		cyropolis_area
 		sogdiana_area
@@ -460,11 +460,12 @@ sogdiana_region = {
 		transoxus_area
 		kharesmia_superior
 		jaxartia_area
+		upper_jaxartia_area
 	}
 }
 
 scythia_region = {
-	#9
+	#10
 	areas = {
 		darn_area
 		scythia_ultima_area
@@ -473,6 +474,7 @@ scythia_region = {
 		scythia_ad_pontem_area
 		kharesmia_area
 		sirdarya_area
+		eastern_aral_area
 	}
 }
 
@@ -874,7 +876,7 @@ armorica_region = {
 }
 
 mauretainia_region = {
-	#6 areas!
+	#7 areas
 	areas = {
 		rutubis_area
 		tadla_area
@@ -882,6 +884,7 @@ mauretainia_region = {
 		mauretania_tingitana_meridionalis_area
 		mauretania_caesariensis_occidentalis_area
 		mauretania_caesariensis_centralis_area
+		rif_area
 	}
 }
 
@@ -1481,4 +1484,19 @@ fezzan_region = {
 		phazania_area
 	}
     color = rgb { 255 289 127 }
+}
+
+atlas_region = {
+	areas = {
+		souss_area
+		marrakesh_area
+		upper_draa_area
+		upper_moulouya_area
+		lower_moulouya_area
+		sijilmasa_area
+		figuig_area
+		saharan_atlas_area
+		jedi_area
+		chefia_area
+	}
 }

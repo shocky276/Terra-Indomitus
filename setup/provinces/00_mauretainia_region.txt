@@ -1383,3 +1383,229 @@
 	}
 }
 
+10117={ #Zaio
+	terrain="plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10118={ #Laatamna
+	terrain="plains"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="elephants"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10128={ #Kach Kouch
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="earthware"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+10129={ #Jebha
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10130={ #Hoceima
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+10131={ #Sidi Driss
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+10132={ #Tiztoutine
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+}
+
+10133={ #Midar
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10134={ #Ajdir
+	terrain="mountain"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="precious_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10135={ #Mnoud Nekkour
+	terrain="hills"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10136={ #Ziam
+	terrain="mountain"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10137={ #Senada
+	terrain="mountain"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10171={ #Agourai
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="cedar"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+10172={ #Kandar
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+10173={ #Guigou
+	terrain="forest"
+	culture="socossian"
+	religion="berber_religion"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
