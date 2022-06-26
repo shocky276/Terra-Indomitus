@@ -8779,7 +8779,7 @@
 
 8091={ #Desert
 	terrain="impassable_terrain"
-	culture="garamantian"
+	culture="garamantic"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8789,7 +8789,7 @@
 
 8092={ #Desert
 	terrain="impassable_terrain"
-	culture="garamantian"
+	culture="garamantic"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
@@ -8799,7 +8799,7 @@
 
 8093={ #Desert
 	terrain="impassable_terrain"
-	culture="garamantian"
+	culture="garamantic"
 	religion="berber_religion"
 	trade_goods=""
 	civilization_value=0
