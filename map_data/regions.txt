@@ -1500,3 +1500,19 @@ atlas_region = {
 		chefia_area
 	}
 }
+
+borysthenia_region = {
+	areas = {
+		gelonia_area
+		budinia_area
+		dnieper_area
+		volyn_area
+		milograd_area
+		desna_area
+		yukhnovo_area
+		seym_area
+		ozeros_area
+		minsk_area
+		polatsk_area
+	}
+}

@@ -7127,16 +7127,6 @@
 	province_rank=""
 }
 
-7299={ #Pirhirci
-	terrain="impassable_terrain"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
 7357={ #Sundarbans
 	terrain="impassable_terrain"
 	culture="bangli"
@@ -7167,30 +7157,10 @@
 	province_rank=""
 }
 
-7642={ #Sylvana
-	terrain="impassable_terrain"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
 7643={ #Fennia
 	terrain="impassable_terrain"
 	culture="aestian"
 	religion="matrist_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-7644={ #Donetsk
-	terrain="impassable_terrain"
-	culture="sarmatian"
-	religion="indo_iranian_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

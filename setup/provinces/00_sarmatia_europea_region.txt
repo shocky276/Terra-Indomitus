@@ -1249,3 +1249,276 @@
 	}
 }
 
+10332={ #Krepkaya
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10333={ #Liska
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10334={ #Bazki
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10335={ #Kalmykovskii
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10336={ #Bolshoi
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10337={ #Berezovaya
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10338={ #Tikhaya
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10339={ #Olkhovaya
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10340={ #Bogucharka
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10341={ #Titarevka
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10342={ #Komyshna
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10343={ #Kurennoe
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10344={ #Tikhaya Sosna
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10345={ #Chernyanka
+	terrain="plains"
+	culture="budinian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10346={ #Rovenki
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10347={ #Bila
+	terrain="plains"
+	culture="sarmatian"
+	religion="indo_iranian_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10348={ #Kupyansk
+	terrain="plains"
+	culture="budinian"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10349={ #Horyane
+	terrain="plains"
+	culture="budinian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10350={ #Kozynka
+	terrain="plains"
+	culture="budinian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10351={ #Volchya
+	terrain="plains"
+	culture="budinian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10352={ #Artilne
+	terrain="plains"
+	culture="budinian"
+	religion="indo_iranian_religion"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+

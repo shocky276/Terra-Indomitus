@@ -1489,3 +1489,523 @@
 	}
 }
 
+10263={ #Maciejowice
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10264={ #Lukow
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10265={ #Ogorodniki
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10266={ #Lysobyki
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10267={ #Starorzecze
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10268={ #Seroczyn
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10269={ #Bielsk
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10270={ #Biebrzankski
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10271={ #Kulesze
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10272={ #Bialystok
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10273={ #Monki
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10274={ #Grodno
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10275={ #Sniardwy
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10276={ #Mamry
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10277={ #Dob
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="iron"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10278={ #Wigierski
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10279={ #Utinoye
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10280={ #Vistytis
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10281={ #Orija
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10282={ #Dzukjos
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10283={ #Pagramancio
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10284={ #Timofeevo
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10285={ #Borodinskoye
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10286={ #Paezeriai
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10287={ #Glitu
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10288={ #Tytuvenu
+	terrain="marsh"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10289={ #Aristava
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10290={ #Zagares
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10291={ #Joniskis
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10292={ #Zirnajai
+	terrain="marsh"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10293={ #Asvejos
+	terrain="marsh"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10294={ #Bauska
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10295={ #Birzu
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10296={ #Sartu
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10297={ #Grazutes
+	terrain="marsh"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10298={ #Paliene
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10299={ #Daugava
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10300={ #Viku
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10301={ #Jekabpils
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10302={ #Garais
+	terrain="marsh"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+

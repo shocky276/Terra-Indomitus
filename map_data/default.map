@@ -24,13 +24,13 @@ sea_zones = RANGE { 7847 7860 } # New Impassable Seazones
 sea_zones = LIST { 6418 6436 6437 7906 7907 8019 8020 }
 
 #Wastelands, List:
-wasteland = LIST { 3222 5020 6044 6046 6300 6482 7299 5984 5981 5990 }				#impassable - will never be colored in any map mode changed by TI
+wasteland = LIST { 3222 5020 5981 5984 5990 6044 6046 6300 6482 7643 }				#impassable - will never be colored in any map mode changed by TI
 wasteland = RANGE { 5936 5946 }
 wasteland = RANGE { 5949 5965 } #Changed in AOS and TI
 wasteland = RANGE { 5970 5976 }
 wasteland = RANGE { 5986 5988 }
 wasteland = RANGE { 6048 6049 }
-wasteland = RANGE { 7640 7644 } 
+wasteland = RANGE { 7640 7641 } 
 wasteland = RANGE { 7847 7860 } # New Impassable Seazones
 
 #Impassables, Ranges:
@@ -124,7 +124,7 @@ uninhabitable = LIST { 5665 5669 8848 }
 uninhabitable = LIST { 9780 9836 9837 }
 
 #Impassables, TK:
-uninhabitable = LIST { 944 5518 5520 578 6527 4369 7386 4334 7133 7099 7054 7056 7178 7179 7118 7119 7010 7014 7024 7034 7052 7059 7103 7104 7107 7112 6772 6788 6768 7616 6774}
+uninhabitable = LIST { 944 5518 5520 578 6527 4369 7386 4334 7133 7099 7054 7056 7178 7179 7118 7119 7010 7014 7024 7034 7052 7059 7103 7104 7107 7112 6772 6788 6768 7616 6774 }
 
 #Major Rivers, ACB:
 river_provinces = RANGE { 9221 9232 } # Jiang River (Jiangshui)

@@ -5242,22 +5242,13 @@ provinces = { #Any entry must contain a comment with city name.
 	7357 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
-	7299 = {
-		modifier = { modifier = major_barbarian_spawn_place }
-	}
 	7640 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
 	7641 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
-	7642 = {
-		modifier = { modifier = major_barbarian_spawn_place }
-	}
 	7643 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	7644 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
 }
@@ -13591,10 +13582,18 @@ country = {
 			religion = indo_iranian_religion
 			centralization=20
 			
-			capital = 4547 
+			capital = 6144 
 			
 			own_control_core = {
-				4535 4545 4546 4547 4548
+				4535 4545 4533 4551 4552 4532 4546 4547 4548 #moved to Iazygia: 4553 7193 4554 4555 4556 4557
+				7188 7191 7190 7192 6124 
+				6144 6146 6147 # new provinces
+				6145 6142 6139 6130 6129 6128 6117 6107 6141 6121 #borysthenia invictus
+				6103 6102 6119 6118 6123 6122 6108 #sarmatia superior additional invictus
+				6098 6100 7187 #sarmatia invictus
+				6099 6104 6105 #hypania invictus
+				6140 6143 6148 #borysthenia maioris invictus
+				6131 #transborysthenia invictus
 			}
 		}
 		
@@ -13711,19 +13710,21 @@ country = {
 			
 			own_control_core = {
 				4525 4526 4527
+				7185 #invictus
 			}
 			
 		}
 		
 		TYG = {
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = getian
 			religion = shamanism
 			
-			capital = 4800
+			capital = 4915
 			
 			own_control_core = {
-				4800 4521 4919 4522 4523 4524 4918 4920 4917 4922 4921 #4925 4916 4929 4915
+			4930 4931 4932
+			4915 4916 4925 4928 4929 4934 
 			}
 		}
 		

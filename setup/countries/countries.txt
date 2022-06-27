@@ -1038,6 +1038,18 @@ CPA = "setup/countries/ti_africa/caparienses.txt"
 ABA = "setup/countries/ti_africa/abannae.txt"
 CET = "setup/countries/ti_africa/cetiani.txt"
 
+#TI New Steppe
+
+GLO = "setup/countries/ti_steppe/gelonia.txt"
+BDI = "setup/countries/ti_steppe/budinia.txt"
+MLN = "setup/countries/ti_steppe/melanchlaenia.txt"
+ALZ = "setup/countries/ti_steppe/alizonia.txt"
+ARO = "setup/countries/ti_steppe/aroteria.txt"
+BRY = "setup/countries/ti_steppe/borysthenia.txt"
+NEU = "setup/countries/ti_steppe/neuria.txt"
+AGA = "setup/countries/ti_steppe/agathyrsia.txt"
+HRP = "setup/countries/ti_steppe/harpia.txt"
+
 #SEA
 TGU = "setup/countries/acb_others/taguang.txt"
 HAL = "setup/countries/acb_others/halin.txt"

@@ -8,6 +8,10 @@ diplomacy = {
 	
 #Mauretania New	
 	dependency = { first = MAU  second = SOC subject_type = tributary } #Socosia
+	
+#Budini
+	dependency = { first = BDI second = GLO subject_type = tributary } #Gelonia
+	
 }
 
 
@@ -310,6 +314,185 @@ country = {
 				10128 10129 10130 10131 10132 10133 10134 10135 10136 10137
 			}
 			
+		}
+		
+		#Gelon
+		GLO = { 
+			government = despotic_monarchy
+			primary_culture = gelonian
+			religion = indo_iranian_religion
+			diplomatic_stance=trading_stance
+			
+			technology={
+			military_tech={ level=1 progress=0 }
+			civic_tech={ level=1 progress=0 }
+			oratory_tech={ level=1 progress=0 }
+			religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 10181
+			
+			poptype_rights = { 
+				{
+					culture = scythian 
+					type = citizen
+				}
+				{
+					culture = budinian 
+					type = citizen
+				}
+			}
+
+			own_control_core = {
+				10181 10182 10188
+				10189
+				6114 6116 6120 6127
+				6115 6125 6126 #transborysthenia invictus
+			}
+		}
+		
+		#Budini
+		BDI = { 
+			government = tribal_chiefdom
+			primary_culture = budinian
+			religion = matrist_religion
+			diplomatic_stance=warmongering_stance
+			
+			centralization = -50
+			
+			capital = 10195
+
+			own_control_core = {
+				7644 10183 10184 10185 10186 10187
+				10190 10191 10192 10193 10194 10195 10196 10197 10198 10199 10200
+				10234 10235 10236 10238 10239 10240 #desna
+				10258 10259 #seym
+				10210
+			}
+		}
+		
+		#Melanchlaeni
+		MLN = { 
+			government = tribal_chiefdom
+			primary_culture = melanchlaenian
+			religion = matrist_religion
+			diplomatic_stance=warmongering_stance
+			
+			centralization = -75
+			
+			capital = 10248
+
+			own_control_core = {
+				10241 10242 10243 #desna
+				10245 10246 10247 10248 10249 10250 10251 10252 10253 10254 #yukhnovo
+				10255 10256 10257 10260 10261 10262 #seym
+			}
+		}
+		
+		#Alizones
+		ALZ = { 
+			government = tribal_chiefdom
+			primary_culture = scythian
+			religion = indo_iranian_religion
+			diplomatic_stance=warmongering_stance
+			
+			centralization = -75
+			
+			capital = 6086
+
+			own_control_core = {
+				6088 6096 6097 7186 7189 7194 7195 #sarmatia europea
+				6095 #hypania
+			}
+		}
+		
+		#Aroteres
+		ARO = { 
+			government = tribal_chiefdom
+			primary_culture = scythian
+			religion = indo_iranian_religion
+			
+			centralization = -75
+			
+			capital = 7299
+
+			own_control_core = {
+				6073 6074 6075 6077 6078 6079 6080 6081 6082 #transhypania
+				6083 6087 #hypania
+				6072 6084 6085 6086 #hypania minoris
+			}
+		}
+		
+		#Borysthenia
+		BRY = { 
+			government = tribal_chiefdom
+			primary_culture = scythian
+			religion = indo_iranian_religion
+			diplomatic_stance=warmongering_stance
+			
+			centralization = -75
+			
+			capital = 7299
+
+			own_control_core = {
+				6090 6091 6092 #transhypania
+				6109 6111 6112 6113 #transborysthenia
+				6093 6094 6101 6106 6110 #hypania
+				7299 10201 10202 10203 10204 10205 10206 10207 10208 10209 #dnieper
+			}
+		}
+		
+		#Neuri
+		NEU = { 
+			government = tribal_chiefdom
+			primary_culture = neuric
+			religion = matrist_religion
+			diplomatic_stance=warmongering_stance
+			
+			centralization = -75
+			
+			capital = 10219
+
+			own_control_core = {
+				7642 10211 10212 10213 10214 10215 10216 10217 10218 10219 10220 10221 #volyn
+				6237 6089 #bassetia
+				6240 6241 7828 #amodocia occidentalis
+				10222 10223 10224 10225 10226 10227 10228 10229 10230 10231 10232 10233 #milograd
+				10237 10243 #desna
+			}
+		}
+		
+		#Agathyrsi
+		AGA = { 
+			government = tribal_federation
+			primary_culture = agathyrsian
+			religion = indo_iranian_religion
+			diplomatic_stance=warmongering_stance
+			
+			centralization = -25
+			
+			capital = 2543
+
+			own_control_core = {
+				6067 6069 6070 6068 6071
+				4936 4937
+				2543 5383 6065 6066 6233 6234 6235 6236 6239 6242 #bassetia
+				6076
+			}
+		}
+		#Harpii
+		HRP = { 
+			government = tribal_chiefdom
+			primary_culture = harpii
+			religion = shamanism
+			
+			centralization = -75
+			
+			capital = 4800
+
+			own_control_core = {
+				4800 4521 4919 4522 4523 4524 4918 4920 4917 4922 4921
+			}
 		}
 		
 	}
