@@ -299,32 +299,6 @@ country = {
 			}
 		}
 		
-		IAZ = {
-			government = tribal_chiefdom
-			primary_culture = agathyrsian
-			religion = indo_iranian_religion
-			
-			capital = 6248 
-			centralization = -30
-			
-			own_control_core = {
-				6248 6247 6245 6244
-			}
-		}
-		
-		ROX = {
-			government = tribal_chiefdom
-			primary_culture = agathyrsian
-			religion = indo_iranian_religion
-			centralization = -20
-			
-			capital = 6087 
-			
-			own_control_core = {
-				6087 6096 6088
-			}
-		}
-		
 		THY = {
 			government = tribal_chiefdom
 			primary_culture = thyssagetaen
@@ -393,19 +367,6 @@ country = {
 		
 			own_control_core = 	{ 
 				4450 4457 5584
-			}
-		}
-		
-		ANT = {
-			government = tribal_chiefdom
-			primary_culture = slavian
-			religion = matrist_religion
-			centralization=-50
-
-			capital = 6240 
-		
-			own_control_core = 	{
-				6240
 			}
 		}
 		

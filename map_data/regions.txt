@@ -26,7 +26,7 @@ taurica_region = {
 }
 
 sarmatia_asiatica_region = {
-	#8 areas
+	#18 areas
 	areas = {
 		borysthenia_maioris_area
 		danaia_superioris_area
@@ -44,6 +44,8 @@ sarmatia_asiatica_region = {
 		transhyrcania_area
 		scythia_trans_montem_area
 		sarmatia_hyrcania_area
+		donbas_area
+		zarubinets_area
 	}
 }
 
@@ -793,10 +795,11 @@ vistulia_region = {
 		hypania_minoris_area
 		transhypania_area
 	}
+	color = rgb { 137 207 240 }
 }
 
 venedia_region = {
-	#9 areas
+	#13 areas
 	areas = {
 		rugia_area
 		helveconia_area
@@ -807,7 +810,12 @@ venedia_region = {
 		marsignia_area
 		chrononis_area
 		turuntia_area
+		biebrzankski_area
+		neman_area
+		aristavos_area
+		daugava_area
 	}
+	color = rgb { 255 191 0 }
 }
 
 macedonia_region = {
@@ -820,6 +828,7 @@ macedonia_region = {
 		illyria_graeca_area
 		macedonia_salutaris_area
 	}
+	color = rgb { 19 48 175 }
 }
 
 central_gaul_region = {
