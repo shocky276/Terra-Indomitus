@@ -2540,8 +2540,8 @@ sequana_river_area = {
     provinces = { 7868 7869 7870 }
 }
 
-borysthenes_river_area = {
-    provinces = { 7871 7872 7873 7874 7875 7876 7877 7878 7879 7880 }
+borysthenes_river_area = { #22
+    provinces = { 7871 7872 7873 7874 7875 7876 7877 7878 7879 7880 10353 10354 10355 10356 10357 10358 10359 10360 10361 10362 10363 10364 }
 }
 
 tyras_river_area = {
@@ -2576,8 +2576,8 @@ ebro_river_area = {
     provinces = { 8037 8038 8039 }
 }
 
-don_river_area = {
-    provinces = { 8042 8043 8044 8045 8046 }
+don_river_area = { #9
+    provinces = { 8042 8043 8044 8045 8046 10365 10366 10367 10368 }
 }
 
 volga_river_area = {
@@ -3384,4 +3384,8 @@ donbas_area = { #11
 
 zarubinets_area = { #10
     provinces = { 10343 10344 10345 10346 10347 10348 10349 10350 10351 10352 }
+}
+
+daugava_river_area = { #4
+    provinces = { 10369 10370 10371 10372 }
 }

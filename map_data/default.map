@@ -154,3 +154,10 @@ lakes = LIST { 5320 5367 8090 }
 
 #Seazones, TI:
 sea_zones = LIST { 8094 8095 }
+
+#Major Rivers, TI:
+river_provinces = RANGE { 10353 10364 } #Borysthenes ext
+river_provinces = RANGE { 10365 10368 } #Tanais ext
+river_provinces = RANGE { 10369 10372 } #Daugava
+
+
