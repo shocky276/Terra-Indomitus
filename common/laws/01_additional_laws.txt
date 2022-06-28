@@ -131,7 +131,7 @@
 	minting_laws_4 = { #privatised minting - disallows the mint for the player, only ai characters can build it (schemes)
 		modifier = {
 			character_loyalty = 3 #privilege
-			monthly_corruption = 0.01 #power corrupts
+			monthly_corruption = 0.025 #power corrupts
 			build_cost = -0.05
 		}
 
@@ -459,6 +459,123 @@ education_laws_tribal = {
 
 # }
 
+social_welfare_laws = {
+	potential = {
+		always = yes
+	}
+
+	social_welfare_laws_0 = { #default - no social welfare
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = 10
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = 5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = -10
+				}
+			}
+		}
+	}
+
+	social_welfare_laws_1 = { #help orphans and found orphanages
+		allow = {}
+
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 10
+				}
+			}
+		}
+
+		modifier = {
+			global_population_growth = 0.1 #they'd die otherwise
+			global_tax_income = -8
+		}
+	}
+
+	social_welfare_laws_2 = { #support the elderly
+		allow = {}
+
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = 5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 5
+				}
+			}
+		}
+
+		modifier = {
+			monthly_military_experience_modifier = 0.1 #teaching the youths for longer (bcs not dead)
+			global_tax_income = -8
+		}
+	}
+
+	social_welfare_laws_3 = { #feed the poor
+		allow = {}
+
+		on_enact = {
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				add_party_approval = {
+					party_type = oligarchic_party
+					value = -10
+				}
+				add_party_approval = {
+					party_type = traditionalist_party
+					value = -5
+				}
+				add_party_approval = {
+					party_type = democratic_party
+					value = 10
+				}
+			}
+		}
+
+		modifier = {
+			global_freemen_output = 0.05
+			global_freemen_happyness = 0.05
+			global_monthly_food_modifier = -0.05
+		}
+	}
+}
+
+
 
 #################
 ### Law Ideas ###
@@ -473,8 +590,8 @@ education_laws_tribal = {
 #minting
 #education
 
-#moral laws (prostitution f.ex.) (This is a good idea.)
-#social welfare (This is a good idea.)
+#moral laws (prostitution f.ex.) 
+#social welfare 
 #holdings laws
 #colonisation - Dementive
 
@@ -485,6 +602,6 @@ education_laws_tribal = {
 
 ### Should be Economic Policies or the like
 
-#taxes more defined; probably multiple sets (These are economic policies, laws do not cover this. Nah.)
-#maintenance (This isn't a thing that should be a law)
-#prices and monopolies (This isn't the 19th century, this one doesn't make much sense imo.)
+#taxes more defined; probably multiple sets 
+#maintenance 
+#prices and monopolies 

@@ -94,6 +94,15 @@
 						}
 					}
 				}
+				trigger_if = {
+					NAND = { # welfare
+						has_law = social_welfare_laws_0 #no social welfare
+						trigger_if = {
+							limit = { has_variable = party_law_change_cooldown }
+							var:party_law_change_cooldown = 9
+						}
+					}
+				}
 			}
 		}
 	}
@@ -250,6 +259,21 @@
 							value = 8 # noble privilege
 						}
 					}
+					2 = { # welfare
+						trigger = {
+							NAND = { 
+								has_law = social_welfare_laws_0 #no social welfare
+								trigger_if = {
+    								limit = { has_variable = party_law_change_cooldown }
+									var:party_law_change_cooldown = 9
+								}
+							}
+						}
+						set_variable = {
+							name = sen_obj_cha_law_oli_target
+							value = 9 # noble privilege
+						}
+					}
 				}
 			}
 		}
@@ -316,6 +340,13 @@
 				custom_tooltip = {
 					text = senate_objective_change_law_oli_generic_tt_8
 					has_law = education_laws_civilised_0 #noble privilege
+				}
+			}
+			trigger_else_if = { #education
+				limit = { var:sen_obj_cha_law_oli_target = 9 }
+				custom_tooltip = {
+					text = senate_objective_change_law_oli_generic_tt_9
+					has_law = social_welfare_laws_0 #no social welfare
 				}
 			}
 			custom_tooltip = {
@@ -480,6 +511,18 @@ senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 						}
 					}
 				}
+				trigger_if = {
+					NAND = { # education
+						OR = {
+							has_law = social_welfare_laws_3 # poor fed
+							has_law = social_welfare_laws_1 # orphans supported
+						}
+						trigger_if = {
+							limit = { has_variable = party_law_change_cooldown }
+							var:party_law_change_cooldown = 9
+						}
+					}
+				}
 			}
 		}
 	}
@@ -640,6 +683,24 @@ senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 							value = 8
 						}
 					}
+					2 = { # wlefare
+						trigger = {
+							NAND = { # education
+								OR = {
+									has_law = social_welfare_laws_3 # POOR
+									has_law = social_welfare_laws_1 # orphans
+								}
+								trigger_if = {
+									limit = { has_variable = party_law_change_cooldown }
+									var:party_law_change_cooldown = 9
+								}
+							}
+						}
+						set_variable = {
+							name = sen_obj_cha_law_dem_target
+							value = 9
+						}
+					}
 				}
 			}
 		}
@@ -702,11 +763,18 @@ senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 						has_law = minting_laws_3 # autonomous coinage
 					}
 				}
-				trigger_else_if = { # minting
+				trigger_else_if = { # education
 					limit = { var:sen_obj_cha_law_dem_target = 8 }
 					custom_tooltip = {
 						text = senate_objective_change_law_dem_generic_tt_8
 						has_law = education_laws_civilised_3 # "free" education
+					}
+				}
+				trigger_else_if = { # welfare
+					limit = { var:sen_obj_cha_law_dem_target = 9 }
+					custom_tooltip = {
+						text = senate_objective_change_law_dem_generic_tt_9
+						has_law = social_welfare_laws_3 # feed the poor
 					}
 				}
 			}
@@ -873,6 +941,17 @@ senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalis
 						}
 					}
 				}
+				trigger_if = {
+					AND = { # welfare
+						NOT = {
+							has_law = social_welfare_laws_2 #elderly
+						}
+						trigger_if = {
+							limit = { has_variable = party_law_change_cooldown }
+							var:party_law_change_cooldown = 9
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1011,6 +1090,21 @@ senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalis
 							value = 8
 						}
 					}
+					2 = {
+						trigger = {
+							NOT = {
+								has_law = social_welfare_laws_2 # religious schools
+							}
+							trigger_if = {
+								limit = { has_variable = party_law_change_cooldown }
+								NOT = { var:party_law_change_cooldown = 9 }
+							}
+						}
+						set_variable = {
+							name = sen_obj_cha_law_tra_target
+							value = 9
+						}
+					}
 				}
 			}
 		}
@@ -1067,10 +1161,17 @@ senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalis
 					}
 				}
 				trigger_else_if = {
-					limit = { var:sen_obj_cha_law_tra_target = 8 } # minting state monopoly
+					limit = { var:sen_obj_cha_law_tra_target = 8 } # priests education 
 					custom_tooltip = {
 						text = senate_objective_change_law_tra_generic_tt_8
 						has_law = education_laws_civilised_2
+					}
+				}
+				trigger_else_if = {
+					limit = { var:sen_obj_cha_law_tra_target = 9 } # elderely support
+					custom_tooltip = {
+						text = senate_objective_change_law_tra_generic_tt_9
+						has_law = social_welfare_laws_2
 					}
 				}
 			}	

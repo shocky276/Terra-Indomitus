@@ -22,6 +22,10 @@ senate_objective_change_law_oli_generic_tt_8:0 "[sen_obj_cha_law_oli_party.GetCo
 senate_objective_change_law_dem_generic_tt_8:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $education_laws_civilised_3$#!' law."
 senate_objective_change_law_tra_generic_tt_8:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $education_laws_civilised_2$#!' law."
 
+senate_objective_change_law_oli_generic_tt_9:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $social_welfare_laws_0$#!' law."
+senate_objective_change_law_dem_generic_tt_9:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $social_welfare_laws_3$#!' law."
+senate_objective_change_law_tra_generic_tt_9:0 "[sen_obj_cha_law_oli_party.GetCountry.GetName] has passed the '#Y $social_welfare_laws_2$#!' law."
+
 #laws themselves
 minting_laws:0 "Minting Laws"
 minting_laws_0: "No Minting" #default, no coins minted
@@ -53,6 +57,7 @@ education_laws_tribal_1_desc:0 "Life is war. To live is to fight. Those who figh
 education_laws_tribal_2:0 "Civic Pursuits"
 education_laws_tribal_2_desc:0 "Copy others so that we can be just as successful."
 
+#these (weapon laws) have been discarded for now, no elaborate desc need
 weapons_ownership_laws:0 "Security Laws"
 weapons_ownership_laws_0:0 "Small Weapons Allowed"
 weapons_ownership_laws_0_desc:0 "Small weapons such as bows and knives are commonplace items, prohibiting their use seems to be wasteful."
@@ -62,6 +67,16 @@ weapons_ownership_laws_2:0 "Unrestricted Weapon Ownership"
 weapons_ownership_laws_2_desc:0 "Every imaginable weapon is allowed for private uses."
 weapons_ownership_laws_3:0 "The Pomerium"
 weapons_ownership_laws_3_desc:0 "The Pomerium is the border between a city and the surrounding land. Inside of it, no weapons are permitted for all except the lictors."
+
+social_welfare_laws:0 "Social Welfare Laws"
+social_welfare_laws_0:0 "No Social Welfare"
+social_welfare_laws_0_desc:0 "There is no social welfare."
+social_welfare_laws_1:0 "Support Orphans"
+social_welfare_laws_1_desc:0 "Orphans, like all children, are part of our society's future. Thus, we have to support them so they become productive memebers of our society."
+social_welfare_laws_2:0 "Care for the Old"
+social_welfare_laws_2_desc:0 "They lived their lives as prodcutive members of our society. Now, they should be able to comfortably live to their ends."
+social_welfare_laws_3:0 "Feed the Poor"
+social_welfare_laws_3_desc:0 "No one should go hungry, not even the poorest of street rats."
 
 
 #trigger from vanilla bc it isn't localised
