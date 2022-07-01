@@ -204,6 +204,7 @@ country = {
 			religion = chinese_religions
 			capital = 8313
 			diplomatic_stance = warmongering_stance
+			is_antagonist = yes
 			monarchy_military_reforms = recruit_from_nobles
 			technology = {
 				military_tech = {
@@ -369,9 +370,9 @@ country = {
 			treasures = {
 				1003
 			}
-			#			poptype_rights = { 
+			#			poptype_rights = {
 			#				{
-			#					culture = zhongyuan 
+			#					culture = zhongyuan
 			#					type = citizen
 			#				}
 			#			}
@@ -3665,6 +3666,7 @@ country = {
 			primary_culture = wa
 			religion = wa_religions
 			capital = 9328
+			is_antagonist = yes
 			technology = {
 				military_tech = {
 					level = 1
@@ -6100,7 +6102,7 @@ country = {
 			}
 		}
 		HON = {
-			#褒 
+			#褒
 			government = tribal_kingdom
 			primary_culture = aduma
 			religion = wa_religions
@@ -6660,7 +6662,7 @@ country = {
 			}
 		}
 		KSI = {
-			#句 
+			#句
 			government = tribal_kingdom
 			primary_culture = aduma
 			religion = wa_religions
@@ -7052,7 +7054,7 @@ country = {
 			}
 		}
 		NAS = {
-			#怒 
+			#怒
 			government = tribal_kingdom
 			primary_culture = aduma
 			religion = wa_religions
@@ -7892,7 +7894,7 @@ country = {
 			}
 		}
 		TUN = {
-			#屯 
+			#屯
 			government = tribal_kingdom
 			primary_culture = kumaso
 			religion = wa_religions
@@ -8004,7 +8006,7 @@ country = {
 			}
 		}
 		YAS = {
-			#谢 
+			#谢
 			government = tribal_kingdom
 			primary_culture = wa
 			religion = wa_religions
@@ -8056,7 +8058,7 @@ country = {
 				}
 			}
 			own_control_core = {
-				9207 9208 9209 9210 9211 9427 9428 
+				9207 9208 9209 9210 9211 9427 9428
 			}
 		}
 		YUS = {
@@ -8084,7 +8086,7 @@ country = {
 				}
 			}
 			own_control_core = {
-				 9200 9201 9202 9203 9204 9205 
+				 9200 9201 9202 9203 9204 9205
 			}
 		}
 		XIT = {
