@@ -587,7 +587,7 @@ numidia_region = {
 }
 
 nubia_region = {
-	#11 areas
+	#13 areas
 	areas = {
 		south_nubia_area
 		napata_area
@@ -600,6 +600,8 @@ nubia_region = {
 		gabgaba_area
 		muqaddam_area
 		gezira_area
+		awateib_area
+		hawad_area
 	}
 }
 

@@ -3389,3 +3389,11 @@ zarubinets_area = { #10
 daugava_river_area = { #4
     provinces = { 10369 10370 10371 10372 }
 }
+
+awateib_area = { #8
+	provinces = { 10373 10374 10375 10376 10377 10378 10379 10380 }
+}
+
+hawad_area = { #8
+	provinces = { 10381 10382 10383 10384 10385 10386 10387 10388 }
+}
