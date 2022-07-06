@@ -439,33 +439,6 @@
 	port_building=1
 }
 
-3081={ #Visum Montis
-	terrain="mountain"
-	culture="socossian"
-	religion="berber_religion"
-	trade_goods="stone"
-	civilization_value=16
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-	holy_site=omen_shaheded
-}
-
-3082={ #Mons Ambulatis
-	terrain="forest"
-	culture="socossian"
-	religion="berber_religion"
-	trade_goods="stone"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
 3083={ #Lemnis
 	terrain="forest"
 	culture="massaesylian"

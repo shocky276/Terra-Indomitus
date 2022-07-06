@@ -2915,3 +2915,354 @@
 		amount=2
 	}
 }
+
+10419={ #Gamal
+	terrain="plains"
+	culture="rhizophagian"
+	religion="egyptian_pantheon"
+	trade_goods="honey"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=9
+	}
+}
+
+10420={ #Matamir
+	terrain="plains"
+	culture="rhizophagian"
+	religion="egyptian_pantheon"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+10421={ #Kassala
+	terrain="plains"
+	culture="rhizophagian"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=7
+	}
+}
+
+10422={ #Hagiz
+	terrain="plains"
+	culture="rhizophagian"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=7
+	}
+}
+
+10423={ #Gash
+	terrain="plains"
+	culture="rhizophagian"
+	religion="egyptian_pantheon"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=8
+	}
+}
+
+10424={ #Taragaga
+	terrain="plains"
+	culture="boran"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="rhizophagian"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10425={ #Tuwesat
+	terrain="plains"
+	culture="boran"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10426={ #Kalakoy
+	terrain="plains"
+	culture="boran"
+	religion="egyptian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10427={ #Haykota
+	terrain="plains"
+	culture="rhizophagian"
+	religion="egyptian_pantheon"
+	trade_goods="fruits"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10428={ #Mareb
+	terrain="plains"
+	culture="athagaun"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10429={ #Hambok
+	terrain="hills"
+	culture="athagaun"
+	religion="arabian_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10430={ #Durna
+	terrain="hills"
+	culture="athagaun"
+	religion="arabian_pantheon"
+	trade_goods="elephants"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10431={ #Baqbaqah
+	terrain="forest"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="earthware"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="aksumite"
+		religion="arabian_pantheon"
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+10432={ #Gabub
+	terrain="forest"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="aksumite"
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10433={ #Barakit
+	terrain="forest"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="elephants"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="aksumite"
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10434={ #Boval
+	terrain="forest"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10435={ #Metemmeh
+	terrain="hills"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+10436={ #Tawirda
+	terrain="forest"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="aksumite"
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10437={ #Gherma
+	terrain="forest"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10438={ #Haria
+	terrain="hills"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="gems"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="aksumite"
+		religion="arabian_pantheon"
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10439={ #Maganan
+	terrain="forest"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="aksumite"
+		religion="arabian_pantheon"
+		amount=2
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+10440={ #Uacne
+	terrain="hills"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="aksumite"
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10441={ #Samtarru
+	terrain="forest"
+	culture="kumuzan"
+	religion="egyptian_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10442={ #Weyto
+	terrain="forest"
+	culture="athagaun"
+	religion="arabian_pantheon"
+	trade_goods="fish"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
