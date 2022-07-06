@@ -495,5 +495,98 @@ country = {
 			}
 		}
 		
+		MEM = {
+			government = tribal_chiefdom
+			primary_culture = nubian
+			religion = egyptian_pantheon
+			
+			
+			capital = 10387
+			
+			own_control_core = {
+				10384 10385 10386 10387 10388 #Hawad
+			}
+		}
+
+		DAB = {
+			government = tribal_chiefdom
+			primary_culture = nubian
+			religion = egyptian_pantheon
+			
+			
+			capital = 10410
+			
+			own_control_core = {
+				10407 #Kartub
+				10408 10409 10410 10411 #Qadarif
+			}
+		}
+
+		CRT = {
+			government = tribal_chiefdom
+			primary_culture = nubian
+			religion = egyptian_pantheon
+			
+			
+			capital = 10412
+			
+			own_control_core = {
+				10412 10413 10414 10415 10416 #Qadarif
+			}
+		}
+
+		RHZ = {
+			government = tribal_chiefdom
+			primary_culture = rhizophagian
+			religion = egyptian_pantheon
+			
+			
+			capital = 10419
+			
+			own_control_core = {
+				10419 10420 10421 10422 10423 #Gash
+			}
+		}
+		
+		DOC = {
+			government = tribal_chiefdom
+			primary_culture = kumuzan
+			religion = egyptian_pantheon
+			
+			
+			capital = 10431
+			
+			own_control_core = {
+				10431 10432 10433 10434 10435 #Kumuzia
+				7593 #atbaras
+			}
+		}
+
+		GYM = {
+			government = tribal_chiefdom
+			primary_culture = kumuzan
+			religion = egyptian_pantheon
+			
+			
+			capital = 10439
+			
+			own_control_core = {
+				10436 10437 10438 10439 10440 #Kumuzia
+			}
+		}  		
+		
+		ADA = {
+			government = tribal_chiefdom
+			primary_culture = adabulian
+			religion = egyptian_pantheon
+			
+			
+			capital = 10390
+			
+			own_control_core = {
+				10389 10390 10391 10392 10393 10394 10395 10396 10397 10398 #Sinkat
+			}
+		}
+		
 	}
 }
