@@ -8797,140 +8797,140 @@
 	province_rank=""
 }
 
-8096={ #Doum
+8096={ #Sudan Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="nubian"
+	religion="egyptian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8097={ #Gabgaba
+8097={ #Sudan Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="nubian"
+	religion="egyptian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8098={ #Dayyub
+8098={ #Ethiopia Mountains
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="daamoti"
+	religion="arabian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8099={ #Meragh
+8099={ #Ethiopia Mountains
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="athagaun"
+	religion="arabian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8100={ #Hosh
+8100={ #Ethiopia Mountains
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="ona"
+	religion="arabian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8101={ #Bum
+8101={ #Ethiopia Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="athagaun"
+	religion="arabian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8102={ #Baggura
+8102={ #Sudan Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="athagaun"
+	religion="arabian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8103={ #Samra
+8103={ #Sudan Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="adabulian"
+	religion="egyptian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8104={ #Fashfash
+8104={ #Sudan Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="ona"
+	religion="arabian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8105={ #Muqaddam
+8105={ #Somali Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="avalitian"
+	religion="arabian_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8106={ #Amara
+8106={ #Somali Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="berberian"
+	religion="puntic_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8107={ #Sennar
+8107={ #Somali Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="puntic"
+	religion="puntic_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8108={ #Jebel Moya
+8108={ #Somali Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="puntic"
+	religion="puntic_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8109={ #Rabak
+8109={ #Somali Impassable
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="puntic"
+	religion="puntic_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

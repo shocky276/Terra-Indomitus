@@ -495,7 +495,7 @@ cyrenaica_region = {
 }
 
 punt_region = {
-	#7
+	#13
 	areas = {
 		mosylon_area
 		tana_area
@@ -503,6 +503,13 @@ punt_region = {
 		punt_area
 		ptolemais_area
 		ona_area
+		upper_punt_area
+		aromata_area
+		elephas_area
+		zingis_area
+		webiyada_area
+		awash_area
+		ichthyophagia_area
 	}
 }
 
