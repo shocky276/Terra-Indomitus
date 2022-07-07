@@ -13736,12 +13736,15 @@ country = {
 				639 640 641 642 7592 3321 # Meroe
 				9888 9889 9890 9891 9892 9893 9894 9895 #Bayuda
 				9922 9923 #Muqaddam
+				10373 10374 10375 10376 10377 10378 10379 10380 #Awateib
+				10381 10382 10383 #Hawad
+				10399 10400 #Kartub
+				644 643 #Old Alut
 			}
 		} 
 	
 		AXM = {
-			government = tribal_kingdom
-			centralization = 40
+			government = despotic_monarchy
 			primary_culture = aksumite
 			religion = arabian_pantheon
 			
@@ -13755,7 +13758,7 @@ country = {
 			capital = 7506
 			
 			own_control_core = {
-				7506 7509 7515 7540 7508 7593 651
+				7506 10443 10445 10447 10448 10449 10451
 			}
 		} 
 		
@@ -13800,19 +13803,21 @@ country = {
 		
 		BOR = {
 			government = tribal_kingdom
-			primary_culture = meroitic
+			primary_culture = boran
 			religion = egyptian_pantheon
 			
 			capital = 7589
 			
 			own_control_core = {
-				7589 7590 7588 7587 3328 3323 3322 # 633 3331 7591
+				633 3322 3323 3328 3331 7587 7588 7589 7590 7591
+				10401 10402 10403 10404 10405 10406 #kartub
+				10424 10425 10426 #Gash
 			}
 		} 
 		
 		AUT = {
 			government = despotic_monarchy
-			primary_culture = meroitic
+			primary_culture = alutan
 			religion = egyptian_pantheon
 			
 			technology={
@@ -13825,7 +13830,7 @@ country = {
 			capital = 3314
 			
 			own_control_core = {
-				3314 3320 3319 3317 3318 3315 3312 3313 3311 3310 644 643
+				3314 3320 3319 3317 3318 3315 3312 3313 3311 3310
 				9924 9925 9926 9927 9928 #muqaddam
 			}
 		} 
@@ -13833,7 +13838,7 @@ country = {
 		DAL = {
 			government = tribal_kingdom
 			centralization = 20
-			primary_culture = aksumite
+			primary_culture = ona
 			religion = arabian_pantheon
 			
 			technology={
@@ -13853,7 +13858,7 @@ country = {
 		ADO = {
 			government = tribal_kingdom
 			centralization = 20
-			primary_culture = aksumite
+			primary_culture = ona
 			religion = arabian_pantheon
 			
 			technology={
@@ -13866,14 +13871,14 @@ country = {
 			capital = 7503
 			
 			own_control_core = {
-				7503 7504 7507 7513
+				7503 7507
 			}
 		} 
 		
 		YEH = {
 			government = tribal_kingdom
 			centralization = 20
-			primary_culture = aksumite
+			primary_culture = daamoti
 			religion = arabian_pantheon
 			
 			technology={
@@ -13886,14 +13891,14 @@ country = {
 			capital = 7505
 			
 			own_control_core = {
-				7505 7510 
+				7505 7508 7510 10446
 			}
 		} 
 		
 		GWN = {
 			government = tribal_kingdom
 			centralization = 20
-			primary_culture = cushite
+			primary_culture = athagaun
 			religion = egyptian_pantheon
 			
 			technology={
@@ -13906,7 +13911,7 @@ country = {
 			capital = 7536
 			
 			own_control_core = {
-				7536 7538 7537 7512 7539 7514 7511
+				7511 7512 7514 7536 7537 7538 7539 7545 10502
 			}
 		} 
 		
@@ -13922,10 +13927,10 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 			
-			capital = 7527
+			capital = 7523
 			
 			own_control_core = {
-				7527
+				7523
 			}
 		} 
 		
@@ -13941,10 +13946,10 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 			
-			capital = 7524
+			capital = 7532
 			
 			own_control_core = {
-				7524
+				7532
 			}
 		}
 		
@@ -13963,13 +13968,13 @@ country = {
 			capital = 7528
 			
 			own_control_core = {
-				7528
+				7528 10470
 			}
 		}
 		
 		AVL = {
 			government = tribal_kingdom
-			primary_culture = puntic
+			primary_culture = avalitian
 			religion = arabian_pantheon
 			
 			technology={
@@ -15645,16 +15650,6 @@ trade = { #If any are changed also change trade agreements.
 	}
 	
 	#Africa
-	route = {
-		from = 4650 #Aden
-		to = 7524 #Mosylon
-		trade_goods = "fish"
-	}
-	route = {
-		from = 4642 #Adedo Kome
-		to = 7524 #Mosylon
-		trade_goods = "fish"
-	}
 	
 	##### Marius #####
 	### Antigonids imports ###

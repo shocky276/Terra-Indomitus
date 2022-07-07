@@ -495,13 +495,21 @@ cyrenaica_region = {
 }
 
 punt_region = {
-	#6 areas!
+	#13
 	areas = {
 		mosylon_area
 		tana_area
 		aksum_area
 		punt_area
 		ptolemais_area
+		ona_area
+		upper_punt_area
+		aromata_area
+		elephas_area
+		zingis_area
+		webiyada_area
+		awash_area
+		ichthyophagia_area
 	}
 }
 
@@ -587,7 +595,7 @@ numidia_region = {
 }
 
 nubia_region = {
-	#11 areas
+	#18 areas
 	areas = {
 		south_nubia_area
 		napata_area
@@ -600,6 +608,13 @@ nubia_region = {
 		gabgaba_area
 		muqaddam_area
 		gezira_area
+		awateib_area
+		hawad_area
+		sinkat_area
+		kartub_area
+		qadarif_area
+		gash_area
+		kumuzia_area
 	}
 }
 

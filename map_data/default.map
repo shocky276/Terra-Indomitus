@@ -65,7 +65,7 @@ impassable_terrain = RANGE { 8055 8062 } # New Anatolian impassables
 impassable_terrain = LIST { 768 783 3138 3316 5947 5948 5962 5963 5968 5985 5989 5991 5992 6045 6483 6488 6493 6494 6495 6496 6497 6498 6499 7357 7280 7281 7646 7647 7648 7649 7761 7762 7764 7796 7797 7861 7895 7900 7940 7950 7952 7953 7955 7957 7959 7960 7969 7970 7992 7993 8012 8013 8014 8017 8305}
 
 #Uninhabitables, Ranges:
-uninhabitable = RANGE { 7546 7558 }
+uninhabitable = RANGE { 7554 7558 }
 uninhabitable = RANGE { 5602 5604 }
 uninhabitable = RANGE { 7561 7573 }
 uninhabitable = RANGE { 5399 5407 }
@@ -138,16 +138,18 @@ sea_zones = RANGE { 9852 9864 }
 sea_zones = RANGE { 9865 9870 }
 
 #Reserved for provinces that may be added to the original game in the future
-wasteland = RANGE { 8096 8207 }
+wasteland = RANGE { 8110 8207 }
 
 #Uninhabitables, TI:
 uninhabitable = RANGE { 10176 10180 }
+uninhabitable = RANGE { 10498 10501 }
 uninhabitable = LIST { 9944 9945 9968 9969 9970 9987 9988 9989 10048 10049 10169 }
 
 #Impassables, TI:
 impassable_terrain = LIST { 3292 }
 impassable_terrain = RANGE { 8063 8089 }
 impassable_terrain = RANGE { 8091 8093 }
+impassable_terrain = RANGE { 8096 8109 }
 
 #Lakes, TI:
 lakes = LIST { 5320 5367 8090 }
@@ -159,5 +161,4 @@ sea_zones = LIST { 8094 8095 }
 river_provinces = RANGE { 10353 10364 } #Borysthenes ext
 river_provinces = RANGE { 10365 10368 } #Tanais ext
 river_provinces = RANGE { 10369 10372 } #Daugava
-
 

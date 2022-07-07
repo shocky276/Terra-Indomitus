@@ -962,89 +962,104 @@
 }
 
 7546={ #Beilul
-	terrain="desert"
-	culture="puntic"
+	terrain="desert_hills"
+	culture="avalitian"
 	religion="arabian_pantheon"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="fish"
+	civilization_value=7
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
 }
 
-7547={ #Punt Desert
+7547={ #Undulli
 	terrain="desert"
-	culture="puntic"
+	culture="avalitian"
 	religion="arabian_pantheon"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="salt"
+	civilization_value=7
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
 }
 
-7548={ #Punt Desert
+7548={ #Thio
 	terrain="desert"
-	culture="puntic"
+	culture="avalitian"
 	religion="arabian_pantheon"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="salt"
+	civilization_value=7
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
 }
 
-7549={ #Punt Desert
+7549={ #Ras Andada
 	terrain="desert"
-	culture="aksumite"
+	culture="ona"
 	religion="arabian_pantheon"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="leather"
+	civilization_value=7
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
 }
 
 7550={ #Imberimi
 	terrain="desert"
-	culture="aksumite"
-	religion="arabian_pantheon"
-	trade_goods=""
-	civilization_value=0
+	culture="ona"
+	religion="egyptian_pantheon"
+	trade_goods="fish"
+	civilization_value=7
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
 }
 
 7551={ #Gulbub
 	terrain="desert"
-	culture="blemmyan"
+	culture="ona"
 	religion="egyptian_pantheon"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="fish"
+	civilization_value=7
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
 }
 
 7552={ #Deresa
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="salt"
+	civilization_value=7
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
 }
 
 7553={ #Aqiq
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=7
 	barbarian_power=0
-	province_rank=""
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
+	province_rank="settlement"
 	tribesmen={
 		amount=1
 	}
@@ -1133,6 +1148,1204 @@
 	religion="egyptian_pantheon"
 	trade_goods="gems"
 	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10443={ #Enda Cherqos
+	terrain="hills"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="daamoti"
+		amount=2
+	}
+	tribesmen={
+		culture="athagaun"
+		amount=1
+	}
+}
+
+10444={ #Mai Adrasha
+	terrain="farmland"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="earthware"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		culture="athagaun"
+		amount=3
+	}
+}
+
+10445={ #Seglamen
+	terrain="hills"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="honey"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		culture="daamoti"
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10446={ #Gijet
+	terrain="hills"
+	culture="daamoti"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="aksumite"
+		amount=2
+	}
+}
+
+10447={ #Tembien
+	terrain="hills"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="grain"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="daamoti"
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		culture="athagaun"
+		amount=3
+	}
+}
+
+10448={ #Tsirhan
+	terrain="hills"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="grain"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="daamoti"
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		culture="athagaun"
+		amount=4
+	}
+}
+
+10449={ #Mezber
+	terrain="hills"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="gems"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="daamoti"
+		amount=5
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		culture="ona"
+		amount=3
+	}
+}
+
+10450={ #Sembel
+	terrain="hills"
+	culture="ona"
+	religion="arabian_pantheon"
+	trade_goods="elephants"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		culture="athagaun"
+		amount=4
+	}
+}
+
+10451={ #Adi Ugri
+	terrain="hills"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="incense"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		culture="athagaun"
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10452={ #Debarwa
+	terrain="hills"
+	culture="ona"
+	religion="arabian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10453={ #Taille
+	terrain="desert_hills"
+	culture="athagaun"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10454={ #Akordat
+	terrain="hills"
+	culture="athagaun"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+10455={ #Tucul
+	terrain="hills"
+	culture="aksumite"
+	religion="arabian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		culture="athagaun"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10456={ #Tokore
+	terrain="hills"
+	culture="athagaun"
+	religion="arabian_pantheon"
+	trade_goods="leather"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="aksumite"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10457={ #Tokolay
+	terrain="desert_hills"
+	culture="athagaun"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="ona"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10458={ #Isis
+	terrain="desert"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="myrrh"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10459={ #Bagan
+	terrain="hills"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="precious_metals"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="sheban"
+		religion="arabian_pantheon"
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10460={ #Barkhadle
+	terrain="plains"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="grain"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="sheban"
+		religion="arabian_pantheon"
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10461={ #Hargeysa
+	terrain="plains"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="cloth"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="sheban"
+		religion="arabian_pantheon"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10462={ #Gebiilay
+	terrain="hills"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="myrrh"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="sheban"
+		religion="arabian_pantheon"
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10463={ #Suuqsade
+	terrain="plains"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="incense"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10464={ #Gidheys
+	terrain="plains"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="myrrh"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+	holy_site=omen_biriir_ina_barqo
+}
+
+10465={ #Seeto
+	terrain="desert"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10466={ #Haqayo Malaas
+	terrain="desert"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="cattle"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="sheban"
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10467={ #Lafaha
+	terrain="desert"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="wild_game"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10468={ #Goyar
+	terrain="plains"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="elephants"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10469={ #Bandarbeyla
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="salt"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10470={ #Mudun
+	terrain="desert_hills"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10471={ #Qandala
+	terrain="desert_hills"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="incense"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	citizen={
+		culture="sheban"
+		religion="arabian_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+10472={ #Shalcaw
+	terrain="desert_hills"
+	culture="sheban"
+	religion="arabian_pantheon"
+	trade_goods="earthware"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		culture="berberian"
+		religion="puntic_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="berberian"
+		religion="puntic_religion"
+		amount=2
+	}
+}
+
+10473={ #Ceerigabo
+	terrain="hills"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="myrrh"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10474={ #Jidali
+	terrain="hills"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="wood"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10475={ #Hadaaftimo
+	terrain="hills"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="cattle"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10476={ #Kalabeyr
+	terrain="hills"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="leather"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+10477={ #Mindigale
+	terrain="hills"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="elephants"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10478={ #Iskushuban
+	terrain="plains"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="cattle"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10479={ #Kob Dehad
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="wild_game"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10480={ #Hodmane
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="leather"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10481={ #Aelal
+	terrain="desert_hills"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="precious_metals"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+10482={ #Xood
+	terrain="desert"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="cattle"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10483={ #Danano
+	terrain="desert_hills"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="precious_metals"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10484={ #Qoridheere
+	terrain="desert_hills"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="base_metals"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10485={ #Gar Adag
+	terrain="desert_hills"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="leather"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10486={ #Bohol
+	terrain="desert"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="cattle"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+10487={ #Afweyn
+	terrain="desert_hills"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="leather"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10488={ #Jidbaaley
+	terrain="desert"
+	culture="berberian"
+	religion="puntic_religion"
+	trade_goods="wild_game"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10489={ #Raas Xoor
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="salt"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10490={ #Apocopa
+	terrain="plains"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="incense"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=5
+	}
+	citizen={
+		culture="himjar"
+		religion="arabian_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	freemen={
+		culture="himjar"
+		religion="arabian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_ayaanle
+	port_building=1
+}
+
+10491={ #Dalmoxor
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="cattle"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10492={ #Qarxis
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="stone"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10493={ #Gallacoodday
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="spices"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10494={ #Garacad
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="elephants"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10495={ #Moqor Yar
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="wild_game"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10496={ #Mulug
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="cattle"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10497={ #Afdugweyne
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods="leather"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10498={ #Bililicweyn
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10499={ #Garowe
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10500={ #Laanle
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10501={ #Sool
+	terrain="desert"
+	culture="puntic"
+	religion="puntic_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10502={ #Gondar
+	terrain="mountain"
+	culture="athagaun"
+	religion="arabian_pantheon"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10503={ #Yoboki
+	terrain="mountain"
+	culture="avalitian"
+	religion="arabian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10504={ #Gehar
+	terrain="plains"
+	culture="avalitian"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10505={ #Logiya
+	terrain="plains"
+	culture="avalitian"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10506={ #Mille
+	terrain="plains"
+	culture="avalitian"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10507={ #Weki
+	terrain="hills"
+	culture="avalitian"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10508={ #Weama
+	terrain="forest"
+	culture="avalitian"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10509={ #Gher
+	terrain="desert_hills"
+	culture="ona"
+	religion="arabian_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10510={ #Nakfa
+	terrain="desert_hills"
+	culture="ona"
+	religion="arabian_pantheon"
+	trade_goods="gems"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10511={ #Afabet
+	terrain="desert_hills"
+	culture="ona"
+	religion="arabian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={

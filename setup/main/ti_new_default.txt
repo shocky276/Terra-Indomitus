@@ -495,5 +495,312 @@ country = {
 			}
 		}
 		
+		MEM = {
+			government = tribal_chiefdom
+			primary_culture = nubian
+			religion = egyptian_pantheon
+			
+			
+			capital = 10387
+			
+			own_control_core = {
+				10384 10385 10386 10387 10388 #Hawad
+			}
+		}
+
+		DAB = {
+			government = tribal_chiefdom
+			primary_culture = nubian
+			religion = egyptian_pantheon
+			
+			
+			capital = 10410
+			
+			own_control_core = {
+				10407 #Kartub
+				10408 10409 10410 10411 #Qadarif
+			}
+		}
+
+		CRT = {
+			government = tribal_chiefdom
+			primary_culture = nubian
+			religion = egyptian_pantheon
+			
+			
+			capital = 10412
+			
+			own_control_core = {
+				10412 10413 10414 10415 10416 #Qadarif
+			}
+		}
+
+		RHZ = {
+			government = tribal_chiefdom
+			primary_culture = rhizophagian
+			religion = egyptian_pantheon
+			
+			
+			capital = 10419
+			
+			own_control_core = {
+				10419 10420 10421 10422 10423 #Gash
+			}
+		}
+		
+		DOC = {
+			government = tribal_chiefdom
+			primary_culture = kumuzan
+			religion = egyptian_pantheon
+			
+			
+			capital = 10431
+			
+			own_control_core = {
+				10431 10432 10433 10434 10435 #Kumuzia
+				7593 #atbaras
+			}
+		}
+
+		GYM = {
+			government = tribal_chiefdom
+			primary_culture = kumuzan
+			religion = egyptian_pantheon
+			
+			
+			capital = 10439
+			
+			own_control_core = {
+				10436 10437 10438 10439 10440 #Kumuzia
+			}
+		}  		
+		
+		ADA = {
+			government = tribal_chiefdom
+			primary_culture = adabulian
+			religion = egyptian_pantheon
+			
+			
+			capital = 10390
+			
+			own_control_core = {
+				10389 10390 10391 10392 10393 10394 10395 10396 10397 10398 #Sinkat
+			}
+		}
+		
+		MDR = {
+			government = despotic_monarchy
+			primary_culture = aksumite
+			religion = arabian_pantheon
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 10444
+			
+			own_control_core = {
+				651 7509 7540 10444 10455
+			}
+		}
+
+		ONA = {
+			government = despotic_monarchy
+			primary_culture = ona
+			religion = arabian_pantheon
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 10450
+			
+			own_control_core = {
+				7515 10450 10452
+			}
+		}
+
+		QOH = {
+			government = despotic_monarchy
+			primary_culture = aksumite
+			religion = arabian_pantheon
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 7504
+			
+			own_control_core = {
+				7504 7513
+			}
+		} 		
+
+		ATG = {
+			government = despotic_monarchy
+			primary_culture = athagaun
+			religion = arabian_pantheon
+			
+			capital = 10454
+			
+			own_control_core = {
+				10453 10454 10456 10457
+			}
+		}
+		
+		APC = {
+			government = plutocratic_monarchy
+			primary_culture = puntic
+			religion = puntic_religion
+			diplomatic_stance=trading_stance
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 10490
+			
+			own_control_core = {
+				10490
+			}
+		}
+		
+		QAN = {
+			government = plutocratic_republic
+			primary_culture = puntic
+			religion = puntic_religion
+			diplomatic_stance=trading_stance
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 10471
+			
+			own_control_core = {
+				10471
+			}
+		}
+		
+		SHW = {
+			government = plutocratic_republic
+			primary_culture = sheban
+			religion = arabian_pantheon
+			diplomatic_stance=trading_stance
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 10472
+			
+			own_control_core = {
+				10472
+			}
+		}
+		
+		
+		MAL = {
+			government = plutocratic_republic
+			primary_culture = berberian
+			religion = puntic_religion
+			diplomatic_stance=trading_stance
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 7522
+			
+			own_control_core = {
+				7522
+			}
+		}
+		
+		DRY = {
+			government = tribal_federation
+			primary_culture = berberian
+			religion = puntic_religion
+			
+			capital = 10459
+			
+			own_control_core = {
+				10459 10460
+			}
+		}
+		
+		BER = {
+			government = tribal_federation
+			primary_culture = berberian
+			religion = puntic_religion
+			
+			capital = 10464
+			
+			own_control_core = {
+				10463 10464 10465 10468
+			}
+		}
+		
+		AMO = {
+			government = stratocratic_monarchy
+			primary_culture = puntic
+			religion = puntic_religion
+			diplomatic_stance=trading_stance
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 7526
+			
+			own_control_core = {
+				7526
+			}
+		}
+		
+		DIO = {
+			government = plutocratic_monarchy
+			primary_culture = puntic
+			religion = puntic_religion
+			diplomatic_stance=trading_stance
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 7530
+			
+			own_control_core = {
+				7530
+			}
+		}
+		
 	}
 }

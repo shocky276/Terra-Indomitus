@@ -1013,7 +1013,7 @@ ELY = "setup/countries/italia_tk/elymia.txt"
 SOA = "setup/countries/india_tk/soma.txt"
 LUM = "setup/countries/india_tk/lumbini.txt"
 
-#TI New Africa
+#TI New Africa Fezzan
 GAE = "setup/countries/ti_africa/gaetulia.txt"
 SYB = "setup/countries/ti_africa/syrbotia.txt"
 GAR = "setup/countries/ti_africa/garamantes.txt"
@@ -1034,6 +1034,28 @@ SOC = "setup/countries/ti_africa/socosii.txt"
 CPA = "setup/countries/ti_africa/caparienses.txt"
 ABA = "setup/countries/ti_africa/abannae.txt"
 CET = "setup/countries/ti_africa/cetiani.txt"
+
+#TI New East Africa
+MEM = "setup/countries/ti_africa/memnones.txt"
+ADA = "setup/countries/ti_africa/adabulia.txt"
+DAB = "setup/countries/ti_africa/dabeli.txt"
+CRT = "setup/countries/ti_africa/critensia.txt"
+RHZ = "setup/countries/ti_africa/rhizophagia.txt"
+DOC = "setup/countries/ti_africa/dochia.txt"
+GYM = "setup/countries/ti_africa/gymnetia.txt"
+MDR = "setup/countries/ti_africa/maiadrasha.txt"
+ONA = "setup/countries/ti_africa/ona.txt"
+ATG = "setup/countries/ti_africa/athagaus.txt"
+QOH = "setup/countries/ti_africa/qohaito.txt"
+MAL = "setup/countries/ti_africa/malao.txt"
+AMO = "setup/countries/ti_africa/aromata.txt"
+QAN = "setup/countries/ti_africa/qandala.txt"
+SHW = "setup/countries/ti_africa/shalcaw.txt"
+DIO = "setup/countries/ti_africa/dioscoridus.txt"
+DRY = "setup/countries/ti_africa/darayley.txt"
+BER = "setup/countries/ti_africa/berberia.txt"
+APC = "setup/countries/ti_africa/apocopa.txt"
+
 
 #TI New Steppe
 
