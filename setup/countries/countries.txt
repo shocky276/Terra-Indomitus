@@ -1043,6 +1043,10 @@ CRT = "setup/countries/ti_africa/critensia.txt"
 RHZ = "setup/countries/ti_africa/rhizophagia.txt"
 DOC = "setup/countries/ti_africa/dochia.txt"
 GYM = "setup/countries/ti_africa/gymnetia.txt"
+MDR = "setup/countries/africa/maiadrasha.txt"
+ONA = "setup/countries/africa/ona.txt"
+ATG = "setup/countries/africa/athagaus.txt"
+QOH = "setup/countries/africa/qohaito.txt"
 
 
 #TI New Steppe

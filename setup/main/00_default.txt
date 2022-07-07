@@ -13744,8 +13744,7 @@ country = {
 		} 
 	
 		AXM = {
-			government = tribal_kingdom
-			centralization = 40
+			government = despotic_monarchy
 			primary_culture = aksumite
 			religion = arabian_pantheon
 			
@@ -13759,7 +13758,7 @@ country = {
 			capital = 7506
 			
 			own_control_core = {
-				7506 7509 7515 7540 7508 7593 651
+				7506 10443 10445 10447 10448 10449 10451
 			}
 		} 
 		
@@ -13810,7 +13809,7 @@ country = {
 			capital = 7589
 			
 			own_control_core = {
-				633 3322 3323 3328 3331 7587 7589 7589 7590 7591
+				633 3322 3323 3328 3331 7587 7588 7589 7590 7591
 				10401 10402 10403 10404 10405 10406 #kartub
 				10424 10425 10426 #Gash
 			}
@@ -13872,7 +13871,7 @@ country = {
 			capital = 7503
 			
 			own_control_core = {
-				7503 7504 7507 7513
+				7503 7507
 			}
 		} 
 		
@@ -13892,7 +13891,7 @@ country = {
 			capital = 7505
 			
 			own_control_core = {
-				7505 7510 
+				7505 7508 7510 10446
 			}
 		} 
 		

@@ -588,5 +588,74 @@ country = {
 			}
 		}
 		
+		MDR = {
+			government = despotic_monarchy
+			primary_culture = aksumite
+			religion = arabian_pantheon
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 10444
+			
+			own_control_core = {
+				651 7509 7540 10444 10453
+			}
+		}
+
+		ONA = {
+			government = despotic_monarchy
+			primary_culture = ona
+			religion = arabian_pantheon
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 10450
+			
+			own_control_core = {
+				7515 10450 10452
+			}
+		}
+
+		QOH = {
+			government = despotic_monarchy
+			primary_culture = aksumite
+			religion = arabian_pantheon
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 7504
+			
+			own_control_core = {
+				7504 7513
+			}
+		} 		
+
+		ATG = {
+			government = despotic_monarchy
+			primary_culture = athagaun
+			religion = arabian_pantheon
+			
+			capital = 10454
+			
+			own_control_core = {
+				 10454 10455 10456 10457
+			}
+		}
+		
 	}
 }
