@@ -495,13 +495,14 @@ cyrenaica_region = {
 }
 
 punt_region = {
-	#6 areas!
+	#7
 	areas = {
 		mosylon_area
 		tana_area
 		aksum_area
 		punt_area
 		ptolemais_area
+		ona_area
 	}
 }
 
