@@ -155,6 +155,7 @@ impassable_terrain = RANGE { 8096 8109 }
 lakes = LIST { 5320 5367 8090 }
 
 #Seazones, TI:
+sea_zones = RANGE { 10512 10527 }
 sea_zones = LIST { 8094 8095 }
 
 #Major Rivers, TI:
