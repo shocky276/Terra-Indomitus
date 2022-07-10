@@ -9104,11 +9104,6 @@ diplomacy = {
 	}
 	dependency = {
 		first = JNG
-		second = ILA
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
 		second = MOJ
 		subject_type = tributary
 	}
