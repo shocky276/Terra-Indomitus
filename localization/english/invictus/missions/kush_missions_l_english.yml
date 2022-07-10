@@ -1,5 +1,10 @@
 ﻿l_english:
 
+country_improvement_war_osiris_blessing:0 "Blessing of Osiris"
+country_improvement_war_isis_blessing:0 "Blessing of Isis"
+country_improvement_war_amun_blessing:0 "Blessing of Amun"
+country_improvement_war_set_blessing:0 "Blessing of Set"
+
 kush_missions:0 "The Kingdom of Kush"
 kush_missions_DESCRIPTION:0 "The people of Kush have all but faded into obscurity after the fall of the 25th dynasty. We will reverse our fortunes and grow to become the strongest Pharaoh the world has ever seen!"
 kush_missions_CRITERIA_DESCRIPTION:0 "This mission will be considered complete when we have assured our hegemony over much of the Greek world."
