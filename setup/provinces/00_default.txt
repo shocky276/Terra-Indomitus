@@ -8937,10 +8937,10 @@
 	province_rank=""
 }
 
-8110={ #Kawah
+8110={ #Mongolian Mountain
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="xiongnu"
+	religion="hu_religions"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

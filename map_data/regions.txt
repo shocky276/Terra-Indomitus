@@ -1439,7 +1439,6 @@ wa_region = {
 }
 
 mobei_region = {
-	#塞北
 	areas = {
 		jiankun_area
 		hujie_area
@@ -1449,11 +1448,13 @@ mobei_region = {
 		fuyangju_area
 		yinshan_north_area
 		gonglu_area
+		transbaikal_area
+		ulangom_area
+		khuvsgul_area
 	}
 }
 
 modong_region = {
-	#漠东
 	areas = {
 		modong_area
 		daxianbeishan_east_area

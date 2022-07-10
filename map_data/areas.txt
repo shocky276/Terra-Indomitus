@@ -3075,11 +3075,11 @@ yinshan_north_area = {
 }
 
 dingling_area = {
-	provinces = { 9477 9478 9479 9480 9481 9482 }
+	provinces = { 9477 9478 9479 9481 9482 10530 10534 10535 10536 10537 10554 }
 }
 
 guyan_area = {
-	provinces = { 9483 9488 9489 9490 9491 9492 9493 9494 9495 9508 }
+	provinces = { 9490 9492 9493 9494 9495 9508 10528 10529 }
 }
 
 gonglu_area = {
@@ -3452,4 +3452,16 @@ awash_area = { #11
 
 ichthyophagia_area = { #7
 	provinces = { 7550 7551 7552 7553 10509 10510 10511 }
+}
+
+transbaikal_area = { #10
+	provinces = { 9480 9483 9488 9489 9491 10531 10533 10532 10538 10539 }
+}
+
+ulangom_area = { #7
+	provinces = { 10540 10541 10542 10543 10544 10545 10546 }
+}
+
+khuvsgul_area = { #7
+	provinces = { 10547 10548 10549 10550 10551 10552 10553 }
 }

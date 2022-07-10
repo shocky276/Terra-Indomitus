@@ -1132,3 +1132,361 @@
 	province_rank=""
 }
 
+10528={ #Astyn Gol
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+10529={ #Longcheng
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	nobles={
+		amount=2
+	}
+	tribesmen={
+		amount=11
+	}
+	slaves={
+		amount=4
+		culture="jiankun"
+	}
+}
+
+10530={ #Egiin Gol
+	terrain="hills"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+10531={ #Boroo
+	terrain="hills"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+10532={ #Darkhan
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10533={ #Ivolga
+	terrain="steppe"
+	culture="dingling"
+	religion="hu_religions"
+	trade_goods="iron"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=7
+	}
+}
+
+10534={ #Tsakir
+	terrain="steppe"
+	culture="dingling"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10535={ #Sagan
+	terrain="taiga"
+	culture="dingling"
+	religion="hu_religions"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10536={ #Irkutsk
+	terrain="taiga"
+	culture="dingling"
+	religion="hu_religions"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10537={ #Baykalsk
+	terrain="steppe"
+	culture="dingling"
+	religion="hu_religions"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10538={ #Bayannuur
+	terrain="hills"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+10539={ #Zuunmod
+	terrain="hills"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10540={ #Ayrmyrlyg
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=11
+	}
+}
+
+10541={ #Dusdag
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10542={ #Ulangom
+	terrain="mountain"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=9
+	}
+}
+
+10543={ #Zuungovi
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=9
+	}
+}
+
+10544={ #Huryee
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10545={ #Baishint
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+10546={ #Terekhol
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10547={ #Haraa Boomiin
+	terrain="hills"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="precious_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+10548={ #Burenhaan
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10549={ #Bulag
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10550={ #Gurvansaikhan
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+10551={ #Altraga
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10552={ #Kungurtug
+	terrain="steppe"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="steppe_horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+10553={ #Yanzeli
+	terrain="hills"
+	culture="xiongnu"
+	religion="hu_religions"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10554={ #Elga
+	terrain="taiga"
+	culture="dingling"
+	religion="hu_religions"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
