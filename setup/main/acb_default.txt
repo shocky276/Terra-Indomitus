@@ -1656,8 +1656,7 @@ country = {
 			}
 		}
 		JNG = {
-			#辰国
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = mahan
 			religion = yi_religions
 			capital = 9595
@@ -1679,12 +1678,8 @@ country = {
 					progress = 0
 				}
 			}
-			centralization = 30
 			own_control_core = {
-				9279
-				9281
-				9284
-				9595
+				9278 9279 9280 9281 9282 9284 9289 9290 9590 9591 9592 9593 9594 9595 9598 9599
 			}
 		}
 		BAE = {
@@ -1714,146 +1709,6 @@ country = {
 			}
 			own_control_core = {
 				9608
-			}
-		}
-		GBL = {
-			#古卑离
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9278
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9278
-			}
-		}
-		BUM = {
-			#不弥
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9280
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9280
-			}
-		}
-		MOB = {
-			#牟卢卑离
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9282
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9282
-			}
-		}
-		GAM = {
-			#甘路
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9290
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9290
-			}
-		}
-		NNG = {
-			#乐奴
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9289
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9289
 			}
 		}
 		BLO = {
@@ -4322,11 +4177,10 @@ country = {
 			}
 		}
 		XNU = {
-			#挛鞮
-			government = tribal_chiefdom
+			government = tribal_federation
 			primary_culture = xiongnu
 			religion = hu_religions
-			capital = 9512
+			capital = 10529
 			technology = {
 				military_tech = {
 					level = 1
@@ -4346,11 +4200,7 @@ country = {
 				}
 			}
 			own_control_core = {
-				9515
-				9512
-				9517
-				9513
-				9516
+				9492 9493 9490 9495 10528 10529 10530
 			}
 		}
 		HEZ = {
@@ -4586,7 +4436,6 @@ country = {
 			}
 		}
 		DLG = {
-			#丁令
 			government = tribal_chiefdom
 			primary_culture = dingling
 			religion = hu_religions
@@ -4611,11 +4460,7 @@ country = {
 				}
 			}
 			own_control_core = {
-				9477
-				9480
-				9478
-				9482
-				9479
+				9477 9478 9479 9480 9482 10533 10534 10537
 			}
 		}
 		XHI = {
@@ -4654,7 +4499,6 @@ country = {
 			}
 		}
 		AHO = {
-			#安侯
 			government = tribal_chiefdom
 			primary_culture = xiongnu
 			religion = hu_religions
@@ -4679,18 +4523,10 @@ country = {
 				}
 			}
 			own_control_core = {
-				9489
-				9494
-				9490
-				9495
-				9491
-				9492
-				9493
-				9481
+				9481 9489 9491 9494
 			}
 		}
 		GYN = {
-			#孤衍
 			government = tribal_chiefdom
 			primary_culture = xiongnu
 			religion = hu_religions
@@ -4720,6 +4556,7 @@ country = {
 				9485
 				9486
 				9488
+				10538
 			}
 		}
 		JUJ = {
@@ -5009,146 +4846,6 @@ country = {
 				9283
 			}
 		}
-		GNM = {
-			#乾马
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9590
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9590
-			}
-		}
-		GRP = {
-			#古蜡
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9591
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9591
-			}
-		}
-		AIM = {
-			#儿林
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9592
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9592
-			}
-		}
-		ILA = {
-			#一难
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9593
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9593
-			}
-		}
-		BRN = {
-			#不云
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9594
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9594
-			}
-		}
 		GRI = {
 			#古离
 			government = tribal_kingdom
@@ -5203,62 +4900,6 @@ country = {
 			}
 			own_control_core = {
 				9597
-			}
-		}
-		WNJ = {
-			#爰池
-			government = tribal_kingdom
-			primary_culture = mahan
-			religion = yi_religions
-			capital = 9598
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9598
-			}
-		}
-		GMI = {
-			#军弥
-			government = tribal_kingdom
-			primary_culture = byeonhan
-			religion = yi_religions
-			capital = 9599
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			own_control_core = {
-				9599
 			}
 		}
 		ANY = {
@@ -9423,31 +9064,6 @@ diplomacy = {
 	}
 	dependency = {
 		first = JNG
-		second = GBL
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
-		second = BUM
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
-		second = MOB
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
-		second = GAM
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
-		second = NNG
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
 		second = BLO
 		subject_type = tributary
 	}
@@ -9488,27 +9104,7 @@ diplomacy = {
 	}
 	dependency = {
 		first = JNG
-		second = GNM
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
-		second = GRP
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
-		second = AIM
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
 		second = ILA
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
-		second = BRN
 		subject_type = tributary
 	}
 	dependency = {
@@ -9524,16 +9120,6 @@ diplomacy = {
 	dependency = {
 		first = JNG
 		second = SOB
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
-		second = WNJ
-		subject_type = tributary
-	}
-	dependency = {
-		first = JNG
-		second = GMI
 		subject_type = tributary
 	}
 	dependency = {
