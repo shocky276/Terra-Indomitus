@@ -1342,11 +1342,8 @@
  PHY_ADJ:0 "Phrynian"
  MGT:0 "Massagetae"
  MGT_ADJ:0 "Massagetae"
- ###################
- #Changed from Wusun, Wusun now appears via event
- WUS:0 "Amyrgia"
- WUS_ADJ:0 "Amyrgia"
- ###################
+ WUS:0 "Wusun"
+ WUS_ADJ:0 "Wusuni"
  TAY:0 "Tayuan"
  TAY_ADJ:0 "Tayuan"
  SOG:0 "Sogdia"
