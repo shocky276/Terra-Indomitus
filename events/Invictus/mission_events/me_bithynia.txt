@@ -6,7 +6,7 @@ bithynian_city.1 = {
     desc = bithynian_city.1.desc
     picture = great_library
     left_portrait = current_ruler
-    option = {
+    option = {      
         name = bithynian_city.1.a
         random_owned_province = {
             limit = {
@@ -63,12 +63,12 @@ bithynia_battle_counting.1 = {
                 name = legion_battle_counter
                 add = 1
             }
-        }
-    }
+        }        
+    }     
 }
 namespace = me_bithynia
 
-me_bithynia.1 = {
+me_bithynia.1 = { 
     type = country_event
 
     title = me_bithynia_1_title
@@ -87,12 +87,12 @@ me_bithynia.1 = {
         }
     }
 
-    option = {
+    option = { 
         name = me_bithynia_1.a
         custom_tooltip = me_bithynia_1_tooltip
         if = {
             limit = {
-                capital_scope = { has_city_status = yes }
+                capital_scope = { has_city_status = yes } 
             }
             add_treasury = 100
             add_1_free_province_investments = yes
@@ -123,10 +123,10 @@ me_bithynia.1 = {
                     }
                 }
             }
-        }
+        }    
     }
 }
-me_bithynia.2 = {
+me_bithynia.2 = { 
     type = country_event
 
     title = me_bithynia_2_title
@@ -134,7 +134,7 @@ me_bithynia.2 = {
     picture = hellenic_marketplace
     goto_location = capital_scope
     left_portrait = current_ruler
-    option = {
+    option = { 
         name = me_bithynia_2.a
         custom_tooltip = me_bithynia_2_tooltip
         capital_scope = {
@@ -146,18 +146,18 @@ me_bithynia.2 = {
         }
     }
 }
-me_bithynia.3 = {
+me_bithynia.3 = { 
     type = country_event
 
     title = me_bithynia_3_title
     desc = me_bithynia_3_desc
     picture = interesting_histories_greek_lady
 
-    option = {
+    option = { 
         name = me_bithynia_3.a
         custom_tooltip = me_bithynia_3_tooltip
         if = {
-            limit = {
+            limit = { 
                 c:HCP = { has_land = yes }
                 char:306 = { is_alive = yes }
             }
@@ -188,13 +188,13 @@ me_bithynia.3 = {
         }
         else_if = {
             limit = {
-                c:HCP = {
+                c:HCP = { 
                     has_land = yes
                     any_character = {
                         has_trait = achaemenid
                         is_female = yes
                         age <= 40
-                        age > 15
+                        age > 15                        
                     }
                 }
             }
@@ -221,7 +221,6 @@ me_bithynia.3 = {
                         is_alive = yes
                     }
                     order_by = age
-                    position = end
                     max = 1
                     if = {
                         limit = { is_married = yes }
@@ -242,14 +241,14 @@ me_bithynia.3 = {
         }
     }
 }
-me_bithynia.4 = {
+me_bithynia.4 = { 
     type = country_event
 
     title = me_bithynia_4_title
     desc = me_bithynia_4_desc
     picture = interesting_histories_generic_city_soldiers
 
-    option = {
+    option = { 
         name = me_bithynia_4.a
         custom_tooltip = me_bithynia_4_tooltip
         add_legitimacy = 10
@@ -271,20 +270,20 @@ me_bithynia.4 = {
         }
     }
 }
-me_bithynia.5 = {
+me_bithynia.5 = { 
     type = country_event
 
     title = me_bithynia_5_title
     desc = me_bithynia_5_desc
     picture = interesting_histories_fish_market
 
-    option = {
+    option = { 
         name = me_bithynia_5.a
         custom_tooltip = me_bithynia_5_tooltip
         ordered_owned_province = {
             limit = {
                 has_province_rank = settlement
-                num_of_basic_settlement_infratructure_building = 1
+                num_of_basic_settlement_infratructure_building = 1                    
             }
             order_by = num_goods_produced
             max = 3
@@ -294,7 +293,7 @@ me_bithynia.5 = {
         }
     }
 }
-me_bithynia.6 = {
+me_bithynia.6 = { 
     type = country_event
 
     title = me_bithynia_6_title
@@ -309,14 +308,14 @@ me_bithynia.6 = {
             }
         }
         if = {
-            limit = { p:240.owner = { is_subject = yes } }
+            limit = { p:240.owner = { is_subject = yes } } 
             p:240.owner.overlord = {
                 release_subject = p:240.owner
             }
         }
     }
 
-    option = {
+    option = { 
         name = me_bithynia_6.a
         custom_tooltip = me_bithynia_6_tooltip
         declare_war_with_wargoal = {
@@ -328,29 +327,29 @@ me_bithynia.6 = {
             war_goal = conquer_wargoal
             province = p:243
             target = p:243.owner
-        }
-    }
+        }        
+    }  
 }
 
-me_bithynia.7 = {
+me_bithynia.7 = { 
     type = country_event
 
     title = me_bithynia_7_title
     desc = {
         first_valid = {
             triggered_desc = {  ##Subject Accepted
-                trigger = { has_variable = yup }
+                trigger = { has_variable = yup }    
                 desc = "me_bithynia_7_desc_1"
             }
             triggered_desc = {  ##Subject Rejected
-                trigger = { has_variable = nope }
+                trigger = { has_variable = nope }    
                 desc = "me_bithynia_7_desc_2"
-            }
+            }           
         }
     }
     picture = Event_roman_senate_speaks
 
-    option = {
+    option = { 
         name = me_bithynia_7.a #Those Fools
         trigger = { has_variable = nope }
         custom_tooltip = me_bithynia_7_tooltip
@@ -358,7 +357,7 @@ me_bithynia.7 = {
             every_owned_province = { add_claim = ROOT }
         }
     }
-    option = {
+    option = { 
         name = me_bithynia_7.b #Nice
         trigger = { has_variable = yup }
         custom_tooltip = me_bithynia_7_tooltip
@@ -368,14 +367,14 @@ me_bithynia.7 = {
         }
     }
 }
-me_bithynia.8 = {
+me_bithynia.8 = { 
     type = country_event
 
     title = me_bithynia_8_title
     desc = me_bithynia_8_desc
     picture = Event_tribal_raid
 
-    option = {
+    option = { 
         name = me_bithynia_8.a
         custom_tooltip = me_bithynia_8_tooltip
         add_country_modifier = {
@@ -384,7 +383,7 @@ me_bithynia.8 = {
         }
     }
 }
-me_bithynia.9 = {
+me_bithynia.9 = { 
     type = country_event
     title = me_bithynia_9_title
     desc = me_bithynia_9_desc
@@ -409,14 +408,14 @@ me_bithynia.9 = {
         }
     }
 }
-me_bithynia.10 = {
+me_bithynia.10 = { 
     type = country_event
 
     title = me_bithynia_10_title
     desc = me_bithynia_10_desc
     picture = interesting_histories_city_mountains
 
-    option = {
+    option = { 
         name = me_bithynia_10.a
         custom_tooltip = me_bithynia_10_tooltip
         add_legitimacy = 5
@@ -430,17 +429,17 @@ me_bithynia.10 = {
                     duration = -1
                 }
             }
-        }
+        }        
     }
 }
-me_bithynia.11 = {
+me_bithynia.11 = { 
     type = country_event
 
     title = me_bithynia_11_title
     desc = me_bithynia_11_desc
     picture = great_library
 
-    option = {
+    option = { 
         name = me_bithynia_11.a
         custom_tooltip = me_bithynia_11_tooltip
         custom_tooltip = bithynia_missions_task_11_tt
@@ -458,28 +457,28 @@ me_bithynia.11 = {
         }
     }
 }
-me_bithynia.12 = {
+me_bithynia.12 = { 
     type = country_event
 
     title = me_bithynia_12_title
     desc = me_bithynia_12_desc
     picture = interesting_histories_italic_hilltop
 
-    option = {
+    option = { 
         name = me_bithynia_12.a
         custom_tooltip = me_bithynia_12_tooltip
         custom_tooltip = bithynia_missions_task_12_tt
         add_political_influence = 50
     }
 }
-me_bithynia.13 = {
+me_bithynia.13 = { 
     type = country_event
 
     title = me_bithynia_13_title
     desc = me_bithynia_13_desc
     picture = interesting_histories_greek_city_temple
 
-    option = {
+    option = { 
         name = me_bithynia_13.a
         custom_tooltip = me_bithynia_13_tooltip
         add_2_free_province_investments = yes
@@ -496,14 +495,14 @@ me_bithynia.13 = {
         }
     }
 }
-me_bithynia.14 = {
+me_bithynia.14 = { 
     type = country_event
 
     title = me_bithynia_14_title
     desc = me_bithynia_14_desc
     picture = Event_massive_naval_battle
 
-    option = {
+    option = { 
         name = me_bithynia_14.a
         custom_tooltip = me_bithynia_14_tooltip
         add_country_modifier = {
@@ -512,7 +511,7 @@ me_bithynia.14 = {
         }
     }
 }
-me_bithynia.15 = {
+me_bithynia.15 = { 
     type = country_event
 
     title = me_bithynia_15_title
@@ -537,14 +536,14 @@ me_bithynia.15 = {
         }
     }
 }
-me_bithynia.16 = {
+me_bithynia.16 = { 
     type = country_event
 
     title = me_bithynia_16_title
     desc = me_bithynia_16_desc
     picture = city_country
     left_portrait = current_ruler
-    option = {
+    option = { 
         name = me_bithynia_16.a
         custom_tooltip = me_bithynia_16_tooltip
         add_stability = 10
@@ -553,14 +552,14 @@ me_bithynia.16 = {
         }
     }
 }
-me_bithynia.17 = {
+me_bithynia.17 = { 
     type = country_event
 
     title = me_bithynia_17_title
     desc = me_bithynia_17_desc
     picture = interesting_histories_greek_soldiers
 
-    option = {
+    option = { 
         name = me_bithynia_17.a
         custom_tooltip = me_bithynia_17_tooltip
         scope:legion_of_bithynia = {
@@ -571,14 +570,14 @@ me_bithynia.17 = {
         }
     }
 }
-me_bithynia.18 = {
+me_bithynia.18 = { 
     type = country_event
 
     title = me_bithynia_18_title
     desc = me_bithynia_18_desc
     picture = interesting_histories_ship_port_africa
 
-    option = {
+    option = { 
         name = me_bithynia_18.a
         custom_tooltip = me_bithynia_18_tooltip
         ordered_owned_province = {
@@ -594,14 +593,14 @@ me_bithynia.18 = {
         }
     }
 }
-me_bithynia.19 = {
+me_bithynia.19 = { 
     type = country_event
 
     title = me_bithynia_19_title
     desc = me_bithynia_19_desc
     picture = interesting_histories_sparta_city
 
-    option = {
+    option = { 
         name = me_bithynia_19.a
         custom_tooltip = me_bithynia_19_tooltip
         ordered_owned_province = {
@@ -617,14 +616,14 @@ me_bithynia.19 = {
         }
     }
 }
-me_bithynia.20 = {
+me_bithynia.20 = { 
     type = country_event
 
     title = me_bithynia_20_title
     desc = me_bithynia_20_desc
     picture = interesting_histories_celt_hills
 
-    option = {
+    option = { 
         name = me_bithynia_20.a
         custom_tooltip = me_bithynia_20_tooltip
         custom_tooltip = bithynia_missions_task_20_tt
@@ -637,14 +636,14 @@ me_bithynia.20 = {
         }
     }
 }
-me_bithynia.21 = {
+me_bithynia.21 = { 
     type = country_event
 
     title = me_bithynia_21_title
     desc = me_bithynia_21_desc
     picture = interesting_histories_greek_debate
 
-    option = {
+    option = { 
         name = me_bithynia_21.a
         custom_tooltip = me_bithynia_21_tooltip
         custom_tooltip = bithynia_missions_task_21_tt
@@ -657,20 +656,20 @@ me_bithynia.21 = {
         }
     }
 }
-me_bithynia.22 = {
+me_bithynia.22 = { 
     type = country_event
 
     title = me_bithynia_22_title
     desc = me_bithynia_22_desc
     picture = interesting_histories_greek_soldiers
 
-    option = {
+    option = { 
         name = me_bithynia_22.a
         custom_tooltip = me_bithynia_22_tooltip
         add_2_free_province_investments = yes
     }
 }
-me_bithynia.23 = {
+me_bithynia.23 = { 
     type = country_event
 
     title = me_bithynia_23_title
@@ -702,20 +701,20 @@ me_bithynia.23 = {
     option = { #We are stronger when seperated
         name = me_bithynia_23.b
         custom_tooltip = me_bithynia_23_tooltip
-        add_country_modifier = {
+        add_country_modifier = { 
             name = thracian_unity
             duration = -1
         }
     }
 }
-me_bithynia.24 = {
+me_bithynia.24 = { 
     type = country_event
 
     title = me_bithynia_24_title
     desc = me_bithynia_24_desc
     picture = interesting_histories_celt_chariot
 
-    option = {
+    option = { 
         name = me_bithynia_24.a
         custom_tooltip = me_bithynia_24_tooltip
         custom_tooltip = bithynia_missions_task_24_tt
@@ -728,14 +727,14 @@ me_bithynia.24 = {
         }
     }
 }
-me_bithynia.25 = {
+me_bithynia.25 = { 
     type = country_event
 
     title = me_bithynia_25_title
     desc = me_bithynia_25_desc
     picture = interesting_histories_veneti_horses
 
-    option = {
+    option = { 
         name = me_bithynia_25.a
         custom_tooltip = me_bithynia_25_tooltip
         custom_tooltip = bithynia_missions_task_25_tt
@@ -748,14 +747,14 @@ me_bithynia.25 = {
         }
     }
 }
-me_bithynia.26 = {
+me_bithynia.26 = { 
     type = country_event
 
     title = me_bithynia_26_title
     desc = me_bithynia_26_desc
     picture = Event_massive_naval_battle
 
-    option = {
+    option = { 
         name = me_bithynia_26.a
         custom_tooltip = me_bithynia_26_tooltip
         add_country_modifier = {
@@ -764,14 +763,14 @@ me_bithynia.26 = {
         }
     }
 }
-me_bithynia.27 = {
+me_bithynia.27 = { 
     type = country_event
 
     title = me_bithynia_27_title
     desc = me_bithynia_27_desc
     picture = interesting_histories_celt_town
 
-    option = {
+    option = { 
         name = me_bithynia_27.a
         custom_tooltip = me_bithynia_27_tooltip
         custom_tooltip = bithynia_missions_task_27_tt
@@ -782,14 +781,14 @@ me_bithynia.27 = {
         }
     }
 }
-me_bithynia.28 = {
+me_bithynia.28 = { 
     type = country_event
 
     title = me_bithynia_28_title
     desc = me_bithynia_28_desc
     picture = interesting_histories_levant_town
 
-    option = {
+    option = { 
         name = me_bithynia_28.a
         custom_tooltip = me_bithynia_28_tooltip
         random_owned_province = {
@@ -816,14 +815,14 @@ me_bithynia.28 = {
         }
     }
 }
-me_bithynia.29 = {
+me_bithynia.29 = { 
     type = country_event
 
     title = me_bithynia_29_title
     desc = me_bithynia_29_desc
     picture = great_library
     immediate = { custom_tooltip = me_bithynia_29_tooltip }
-    option = {
+    option = { 
         name = me_bithynia_29.a #Crete
         random_owned_province = {
             limit = {
@@ -835,9 +834,9 @@ me_bithynia.29 = {
                     duration = -1
                 }
             }
-        }
+        }         
     }
-    option = {
+    option = { 
         name = me_bithynia_29.b #Sporades
         random_owned_province = {
             limit = {
@@ -849,9 +848,9 @@ me_bithynia.29 = {
                     duration = -1
                 }
             }
-        }
+        } 
     }
-    option = {
+    option = { 
         name = me_bithynia_29.c #Aegean Islands
         random_owned_province = {
             limit = {
@@ -863,17 +862,17 @@ me_bithynia.29 = {
                     duration = -1
                 }
             }
-        }
+        } 
     }
 }
-me_bithynia.30 = {
+me_bithynia.30 = { 
     type = country_event
 
     title = me_bithynia_30_title
     desc = me_bithynia_30_desc
     picture = interesting_histories_greek_port
 
-    option = {
+    option = { 
         name = me_bithynia_30.a
         custom_tooltip = me_bithynia_30_tooltip
         p:427.state = {
@@ -884,14 +883,14 @@ me_bithynia.30 = {
         }
     }
 }
-me_bithynia.31 = {
+me_bithynia.31 = { 
     type = country_event
 
     title = me_bithynia_31_title
     desc = me_bithynia_31_desc
     picture = interesting_histories_greek_soldiers_pops
 
-    option = {
+    option = { 
         name = me_bithynia_31.a
         custom_tooltip = me_bithynia_31_tooltip
         current_ruler = { add_popularity = 10 }
@@ -906,27 +905,27 @@ me_bithynia.31 = {
         }
     }
 }
-me_bithynia.32 = {
+me_bithynia.32 = { 
     type = country_event
 
     title = me_bithynia_32_title
     desc = me_bithynia_32_desc
     picture = interesting_histories_generic_market
 
-    option = {
+    option = { 
         name = me_bithynia_32.a
         custom_tooltip = me_bithynia_32_tooltip
         add_treasury = 500
     }
 }
-me_bithynia.33 = {
+me_bithynia.33 = { 
     type = country_event
 
     title = me_bithynia_33_title
     desc = me_bithynia_33_desc
     picture = interesting_histories_punic_ship_city
 
-    option = {
+    option = { 
         name = me_bithynia_33.a
         custom_tooltip = me_bithynia_33_tooltip
         ordered_owned_province = {
@@ -942,14 +941,14 @@ me_bithynia.33 = {
         }
     }
 }
-me_bithynia.34 = {
+me_bithynia.34 = { 
     type = country_event
 
     title = me_bithynia_34_title
     desc = me_bithynia_34_desc
     picture = council_country
 
-    option = {
+    option = { 
         name = me_bithynia_34.a
         custom_tooltip = me_bithynia_34_tooltip
         add_1_free_province_investments = yes
@@ -959,14 +958,14 @@ me_bithynia.34 = {
         }
     }
 }
-me_bithynia.35 = {
+me_bithynia.35 = { 
     type = country_event
 
     title = me_bithynia_35_title
     desc = me_bithynia_35_desc
     picture = Event_roman_senate_speaks
 
-    option = {
+    option = { 
         name = me_bithynia_35.a
         custom_tooltip = me_bithynia_35_tooltip
         add_treasury = 250
@@ -976,27 +975,27 @@ me_bithynia.35 = {
         }
     }
 }
-me_bithynia.36 = {
+me_bithynia.36 = { 
     type = country_event
 
     title = me_bithynia_36_title
     desc = me_bithynia_36_desc
     picture = interesting_histories_norse_tribes
 
-    option = {
+    option = { 
         name = me_bithynia_36.a
         custom_tooltip = me_bithynia_36_tooltip
         add_2_free_province_investments = yes
     }
 }
-me_bithynia.37 = {
+me_bithynia.37 = { 
     type = country_event
 
     title = me_bithynia_37_title
     desc = me_bithynia_37_desc
     picture = interesting_histories_generic_city_soldiers
 
-    option = {
+    option = { 
         name = me_bithynia_37.a
         custom_tooltip = me_bithynia_37_tooltip
         add_country_modifier = {
@@ -1005,14 +1004,14 @@ me_bithynia.37 = {
         }
     }
 }
-me_bithynia.38 = {
+me_bithynia.38 = { 
     type = country_event
 
     title = me_bithynia_38_title
     desc = me_bithynia_38_desc
     picture = interesting_histories_greek_city_temple
 
-    option = {
+    option = { 
         name = me_bithynia_38.a
         custom_tooltip = me_bithynia_38_tooltip
         add_innovation = 2
@@ -1023,14 +1022,14 @@ me_bithynia.38 = {
         }
     }
 }
-me_bithynia.39 = {
+me_bithynia.39 = { 
     type = country_event
 
     title = me_bithynia_39_title
     desc = me_bithynia_39_desc
     picture = interesting_histories_levant_town
 
-    option = {
+    option = { 
         name = me_bithynia_39.a
         custom_tooltip = me_bithynia_39_tooltip
         custom_tooltip = bithynia_missions_task_39_tt
@@ -1044,14 +1043,14 @@ me_bithynia.39 = {
         }
     }
 }
-me_bithynia.40 = {
+me_bithynia.40 = { 
     type = country_event
 
     title = me_bithynia_40_title
     desc = me_bithynia_40_desc
     picture = Event_roman_legion_vs_calvary_charge
 
-    option = {
+    option = { 
         name = me_bithynia_40.a
         custom_tooltip = me_bithynia_40_tooltip
         ordered_owned_province = {
@@ -1082,14 +1081,14 @@ me_bithynia.40 = {
         }
     }
 }
-me_bithynia.41 = {
+me_bithynia.41 = { 
     type = country_event
 
     title = me_bithynia_41_title
     desc = me_bithynia_41_desc
     picture = interesting_histories_ship_port_africa
 
-    option = {
+    option = { 
         name = me_bithynia_41.a
         custom_tooltip = me_bithynia_41_tooltip
         ordered_owned_province = {
@@ -1108,14 +1107,14 @@ me_bithynia.41 = {
         add_stability = 5
     }
 }
-me_bithynia.42 = {
+me_bithynia.42 = { 
     type = country_event
 
     title = me_bithynia_42_title
     desc = me_bithynia_42_desc
     picture = interesting_histories_kush_capital
 
-    option = {
+    option = { 
         name = me_bithynia_42.a
         custom_tooltip = me_bithynia_42_tooltip
         hidden_effect = {
@@ -1127,7 +1126,7 @@ me_bithynia.42 = {
         }
     }
 }
-me_bithynia.43 = {
+me_bithynia.43 = { 
     type = country_event
 
     title = me_bithynia_43_title
@@ -1156,7 +1155,7 @@ me_bithynia.43 = {
         }
     }
 
-    option = {
+    option = { 
         name = me_bithynia_43.a
         custom_tooltip = me_bithynia_43_tooltip
     }
@@ -1168,14 +1167,14 @@ me_bithynia.43 = {
         set_variable = new_egyptian_dynasty
     }
 }
-me_bithynia.44 = {
+me_bithynia.44 = { 
     type = country_event
 
     title = me_bithynia_44_title
     desc = me_bithynia_44_desc
     picture = interesting_histories_greek_debate
 
-    option = {
+    option = { 
         name = me_bithynia_44.a
         custom_tooltip = me_bithynia_44_tooltip
         add_country_modifier = {
@@ -1183,14 +1182,14 @@ me_bithynia.44 = {
         }
     }
 }
-me_bithynia.45 = {
+me_bithynia.45 = { 
     type = country_event
 
     title = me_bithynia_45_title
     desc = me_bithynia_45_desc
     picture = Event_roman_triumph
 
-    option = {
+    option = { 
         name = me_bithynia_45.a
         custom_tooltip = me_bithynia_45_tooltip
         random_owned_province = {
@@ -1206,27 +1205,27 @@ me_bithynia.45 = {
         }
     }
 }
-me_bithynia.46 = {
+me_bithynia.46 = { 
     type = country_event
 
     title = me_bithynia_46_title
     desc = me_bithynia_46_desc
     picture = interesting_histories_greek_city_man
 
-    option = {
+    option = { 
         name = me_bithynia_46.a
         custom_tooltip = me_bithynia_46_tooltip
         add_treasury = 750
     }
 }
-me_bithynia.47 = {
+me_bithynia.47 = { 
     type = country_event
 
     title = me_bithynia_47_title
     desc = me_bithynia_47_desc
     picture = Event_roman_senate_speaks
 
-    option = {
+    option = { 
         name = me_bithynia_47.a
         custom_tooltip = me_bithynia_47_tooltip
         add_country_modifier = {
@@ -1234,27 +1233,27 @@ me_bithynia.47 = {
         }
     }
 }
-me_bithynia.48 = {
+me_bithynia.48 = { 
     type = country_event
 
     title = me_bithynia_48_title
     desc = me_bithynia_48_desc
     picture = interesting_histories_celt_city
 
-    option = {
+    option = { 
         name = me_bithynia_48.a
         custom_tooltip = me_bithynia_48_tooltip
         add_stability = 15
     }
 }
-me_bithynia.49 = {
+me_bithynia.49 = { 
     type = country_event
 
     title = me_bithynia_49_title
     desc = me_bithynia_49_desc
     picture = Event_tribal_raid
 
-    option = {
+    option = { 
         name = me_bithynia_49.a
         custom_tooltip = me_bithynia_49_tooltip
         add_treasury = 250
@@ -1274,14 +1273,14 @@ me_bithynia.49 = {
         }
     }
 }
-me_bithynia.50 = {
+me_bithynia.50 = { 
     type = country_event
 
     title = me_bithynia_50_title
     desc = me_bithynia_50_desc
     picture = Event_invasion_of_britian
 
-    option = {
+    option = { 
         name = me_bithynia_50.a
         custom_tooltip = me_bithynia_50_tooltip
         current_ruler.family = {
@@ -1294,14 +1293,14 @@ me_bithynia.50 = {
         }
     }
 }
-me_bithynia.51 = {
+me_bithynia.51 = { 
     type = country_event
 
     title = me_bithynia_51_title
     desc = me_bithynia_51_desc
     picture = greek_philosophers
 
-    option = {
+    option = { 
         name = me_bithynia_51.a
         custom_tooltip = me_bithynia_51_tooltip
         add_country_modifier = {
@@ -1309,14 +1308,14 @@ me_bithynia.51 = {
         }
     }
 }
-me_bithynia.52 = {
+me_bithynia.52 = { 
     type = country_event
 
     title = me_bithynia_52_title
     desc = me_bithynia_52_desc
     picture = interesting_histories_city_mountains
 
-    option = {
+    option = { 
         name = me_bithynia_52.a
         custom_tooltip = me_bithynia_52_tooltip
         add_country_modifier = {
@@ -1325,14 +1324,14 @@ me_bithynia.52 = {
         }
     }
 }
-me_bithynia.53 = {
+me_bithynia.53 = { 
     type = country_event
 
     title = me_bithynia_53_title
     desc = me_bithynia_53_desc
     picture = interesting_histories_hellenic_town_man
 
-    option = {
+    option = { 
         name = me_bithynia_53.a
         custom_tooltip = me_bithynia_53_tooltip
         capital_scope = {
@@ -1343,27 +1342,27 @@ me_bithynia.53 = {
         }
     }
 }
-me_bithynia.54 = {
+me_bithynia.54 = { 
     type = country_event
 
     title = me_bithynia_54_title
     desc = me_bithynia_54_desc
     picture = interesting_histories_hellenic_city_rebuild
 
-    option = {
+    option = { 
         name = me_bithynia_54.a
         custom_tooltip = me_bithynia_54_tooltip
         add_4_free_province_investments = yes
     }
 }
-me_bithynia.55 = {
+me_bithynia.55 = { 
     type = country_event
 
     title = me_bithynia_55_title
     desc = me_bithynia_55_desc
     picture = interesting_histories_hellenic_dock
 
-    option = {
+    option = { 
         name = me_bithynia_55.a
         custom_tooltip = me_bithynia_55_tooltip
         ordered_owned_province = {
@@ -1388,31 +1387,31 @@ me_bithynia.55 = {
         }
     }
 }
-me_bithynia.56 = {
+me_bithynia.56 = { 
     type = country_event
 
     title = me_bithynia_56_title
     desc = me_bithynia_56_desc
     picture = bakery
 
-    option = {
+    option = { 
         name = me_bithynia_56.a
         custom_tooltip = me_bithynia_56_tooltip
         add_2_free_province_investments = yes
         add_country_modifier = {
             name = mac_developed_agriculture
             duration = -1
-        }
+        } 
     }
 }
-me_bithynia.57 = {
+me_bithynia.57 = { 
     type = country_event
 
     title = me_bithynia_57_title
     desc = me_bithynia_57_desc
     picture = interesting_histories_city_mountains
 
-    option = {
+    option = { 
         name = me_bithynia_57.a
         custom_tooltip = me_bithynia_57_tooltip
         add_country_modifier = {
@@ -1421,20 +1420,20 @@ me_bithynia.57 = {
         }
     }
 }
-me_bithynia.58 = {
+me_bithynia.58 = { 
     type = country_event
 
     title = me_bithynia_58_title
     desc = me_bithynia_58_desc
     picture = interesting_histories_hellenic_town_man
 
-    option = {
+    option = { 
         name = me_bithynia_58.a
         custom_tooltip = me_bithynia_58_tooltip
         add_4_free_province_investments = yes
     }
 }
-me_bithynia.59 = {
+me_bithynia.59 = { 
     type = country_event
 
     title = me_bithynia_59_title
@@ -1442,9 +1441,9 @@ me_bithynia.59 = {
     picture = interesting_histories_hellenic_dock
 
     immediate = {
-        custom_tooltip = me_bithynia_59_tooltip
+        custom_tooltip = me_bithynia_59_tooltip        
     }
-    option = {
+    option = { 
         name = me_bithynia_59.a
         custom_tooltip = me_bithynia_59_tooltip_2
         hidden_effect = {
@@ -1469,7 +1468,7 @@ me_bithynia.59 = {
             }
         }
     }
-    option = {
+    option = { 
         name = me_bithynia_59.b
         #Add a few more provinces to the list
         custom_tooltip = me_bithynia_59_tooltip_B
@@ -1535,14 +1534,14 @@ me_bithynia.5999 = {
         }
     }
 }
-me_bithynia.60 = {
+me_bithynia.60 = { 
     type = country_event
 
     title = me_bithynia_60_title
     desc = me_bithynia_60_desc
     picture = interesting_histories_hellenic_city_rebuild
 
-    option = {
+    option = { 
         name = me_bithynia_60.a
         custom_tooltip = me_bithynia_60_tooltip
         ordered_owned_province = {
@@ -1563,27 +1562,27 @@ me_bithynia.60 = {
         }
     }
 }
-me_bithynia.61 = {
+me_bithynia.61 = { 
     type = country_event
 
     title = me_bithynia_61_title
     desc = me_bithynia_61_desc
     picture = interesting_histories_hellenic_dock
 
-    option = {
+    option = { 
         name = me_bithynia_61.a
         custom_tooltip = me_bithynia_61_tooltip
         add_4_free_province_investments = yes
     }
 }
-me_bithynia.62 = {
+me_bithynia.62 = { 
     type = country_event
 
     title = me_bithynia_62_title
     desc = me_bithynia_62_desc
     picture = interesting_histories_greek_debate
 
-    option = {
+    option = { 
         name = me_bithynia_62.a
         custom_tooltip = me_bithynia_62_tooltip
         add_2_free_province_investments = yes
@@ -1613,7 +1612,7 @@ me_bithynia.62 = {
         }
     }
 }
-me_bithynia.63 = {
+me_bithynia.63 = { 
     type = country_event
 
     title = me_bithynia_63_title
@@ -1629,7 +1628,7 @@ me_bithynia.63 = {
             save_scope_as = philosopher
         }
     }
-    option = {
+    option = { 
         name = me_bithynia_63.a
         custom_tooltip = me_bithynia_63_tooltip
         custom_tooltip = bithynia_missions_task_63_C_tt
@@ -1659,14 +1658,14 @@ me_bithynia.63 = {
         }
     }
 }
-me_bithynia.64 = {
+me_bithynia.64 = { 
     type = country_event
 
     title = me_bithynia_64_title
     desc = me_bithynia_64_desc
     picture = interesting_histories_greek_city_man
 
-    option = {
+    option = { 
         name = me_bithynia_64.a
         custom_tooltip = me_bithynia_64_tooltip
         add_country_modifier = {
@@ -1675,14 +1674,14 @@ me_bithynia.64 = {
         }
     }
 }
-me_bithynia.65 = {
+me_bithynia.65 = { 
     type = country_event
 
     title = me_bithynia_65_title
     desc = me_bithynia_65_desc
     picture = great_library
 
-    option = {
+    option = { 
         name = me_bithynia_65.a
         custom_tooltip = me_bithynia_65_tooltip
         add_country_modifier = {
@@ -1692,14 +1691,14 @@ me_bithynia.65 = {
         add_2_free_province_investments = yes
     }
 }
-me_bithynia.66 = {
+me_bithynia.66 = { 
     type = country_event
 
     title = me_bithynia_66_title
     desc = me_bithynia_66_desc
     picture = interesting_histories_generic_city_soldiers
 
-    option = {
+    option = { 
         name = me_bithynia_66.a
         custom_tooltip = me_bithynia_66_tooltip
         add_country_modifier = {
@@ -1718,14 +1717,14 @@ me_bithynia.66 = {
     }
 }
 
-me_bithynia.67 = {
+me_bithynia.67 = { 
     type = country_event
 
     title = me_bithynia_67_title
     desc = me_bithynia_67_desc
     picture = interesting_histories_hellenic_city_rebuild
 
-    option = {
+    option = { 
         name = me_bithynia_67.a
         custom_tooltip = me_bithynia_67_tooltip
         random_owned_province = {
@@ -1752,7 +1751,7 @@ me_bithynia.67 = {
         }
     }
 }
-me_bithynia.68 = {
+me_bithynia.68 = { 
     type = country_event
 
     title = me_bithynia_68_title
@@ -1778,7 +1777,7 @@ me_bithynia.68 = {
                 is_male = yes
                 is_ruler = no
                 age >= 16
-                trigger_if = {
+                trigger_if = { 
                     limit = {
                         exists = scope:right_por
                     }
@@ -1793,12 +1792,12 @@ me_bithynia.68 = {
                 is_male = yes
                 is_ruler = no
                 age >= 16
-                trigger_if = {
+                trigger_if = { 
                     limit = {
                         exists = scope:right_por
                         exists = scope:right_por_2
                     }
-                    NOR = {
+                    NOR = { 
                         THIS = scope:right_por
                         THIS = scope:right_por_2
                     }
@@ -1807,21 +1806,21 @@ me_bithynia.68 = {
             save_scope_as = right_por_3
         }
     }
-    option = {
+    option = { 
         name = me_bithynia_68.a
         custom_tooltip = me_bithynia_68_tooltip
         custom_tooltip = bithynia_missions_task_68_B_tt
         add_political_influence = 50
     }
 }
-me_bithynia.69 = {
+me_bithynia.69 = { 
     type = country_event
 
     title = me_bithynia_69_title
     desc = me_bithynia_69_desc
     picture = Event_army_marches
 
-    option = {
+    option = { 
         name = me_bithynia_69.a
         custom_tooltip = me_bithynia_69_tooltip
         add_country_modifier = {
@@ -1830,7 +1829,7 @@ me_bithynia.69 = {
         }
     }
 }
-me_bithynia.699 = {
+me_bithynia.699 = { 
     type = country_event
 
     title = me_bithynia_699_title
@@ -1852,19 +1851,19 @@ me_bithynia.699 = {
         }
     }
 
-    option = {
+    option = { 
         name = me_bithynia_699.a
 
     }
 }
-me_bithynia.70 = {
+me_bithynia.70 = { 
     type = country_event
 
     title = me_bithynia_70_title
     desc = me_bithynia_70_desc
     picture = interesting_histories_italic_hilltop
 
-    option = {
+    option = { 
         name = me_bithynia_70.a
         custom_tooltip = me_bithynia_70_tooltip
         add_country_modifier = {

@@ -385,7 +385,7 @@ RasterizerState ShadowRasterizerState
 
 DepthStencilState DepthStencilState
 {
-	StencilEnable = false
+	StencilEnable = no
 	FrontStencilPassOp = replace
 	StencilRef = 1
 }

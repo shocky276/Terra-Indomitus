@@ -41,7 +41,7 @@
 					}
 				}
 			}
-			hidden:scope:player = {
+			scope:player = {
 				can_pay_price = price_local_civ_button
 			}
 		}

@@ -4,7 +4,7 @@
 	prominence = 20
 	martial = 1
 	finesse = 1
-	modifier = {
+	country = {
 		war_score_cost = -0.1
 	}
 }

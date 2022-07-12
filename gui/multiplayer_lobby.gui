@@ -1,11 +1,53 @@
-﻿#template LobbyViewBackground
-#{
-#	texture = "gfx/interface/tiles/marble_tile_l.dds"
-#	spriteType = Corneredtiled
-#	spriteborder = { 0 0 }
-#	margin = { -6 -6 }
-#	shaderfile = "gfx/FX/pdxgui_default.shader"
-#}
+template double_piece_tooltip_vert {
+	container = {
+		using = GeneralTooltipSetup
+		alwaystransparent = no
+		widget = {
+			name = "background"
+			using = DefaultTooltipBackground
+			size = { 100% 100% }
+			alwaystransparent = no
+		}
+		flowcontainer = {
+			flowcontainer = {
+				direction = vertical
+				ignoreinvisible = yes
+
+				textbox = {
+					name = "TooltipText1"
+					using = DefaultTooltipText
+					margin = { 20 20 }
+					margin_top = 10
+					multiline = yes
+					# maximumsize = { 350 -1 }
+					block "TopText" {}
+					block "visible" {}
+				}
+				icon = {
+					size = { 85% 1 }
+					using = flat_background_white
+					alpha = 0.7
+					parentanchor = hcenter
+					block "visible" {}
+				}
+				textbox = {
+					name = "TooltipText2"
+					using = DefaultTooltipText
+					margin = { 20 20 }
+					margin_top = 10
+					multiline = yes
+					# maximumsize = { 350 -1 }
+					block "BotText" {}
+				}
+			}
+			margin_widget = {
+				size = { 10 100% }
+				margin = { 0 6 }
+				using = ProgressLockIndicator
+			}
+		}
+	}
+}
 
 template LobbyViewModuleBackground
 {
@@ -18,8 +60,230 @@ template LobbyViewModuleBackground
 	}
 }
 
+#mod
+#limits description size for rules
+@textwidth = 560
+
 types MultiplayerLobby
 {
+	#mod
+	type game_rule = vbox {
+		layoutpolicy_horizontal = expanding
+
+		checkbox_entry = {
+			blockoverride "Frame" {
+				frame = "[Select_int32(ScriptedGui.IsShown(GuiScope.SetRoot(Player.MakeScope).End), '(int32)2', '(int32)1')]"
+			}
+			blockoverride "On_click" {
+				onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(Player.MakeScope).End)]"
+			}
+			blockoverride "Text" {
+				block "name" {
+					text = ""
+					#tooltip = "[Select_CString(ScriptedGui.IsShown(GuiScope.SetRoot(Player.MakeScope).End), 'enabled', 'disabled')]"
+				}
+				align = left|nobaseline
+				margin_left = 10
+			}
+		}
+
+		tag = {
+			#visible = no  # hide it if you don't want descriptions
+
+			# uncomment lines below to have a fixed size for each rule. Make sure to add tooltips
+			#size = { 0 50 }
+			#autoresize = no
+			layoutpolicy_horizontal = expanding
+			max_width = @textwidth
+			multiline = yes
+			using = FontSizeS
+			align = left|top
+			elide = right
+
+			blockoverride "LineVisibility" {
+				visible = no #remove to add a line below a rule
+			}
+			margin_bottom = 5
+			margin_left = 20
+			block "desc" {
+				text = "[Select_CString(ScriptedGui.IsShown(GuiScope.SetRoot(Player.MakeScope).End), 'enabled', 'disabled')]"
+				#tooltip = "[Select_CString(ScriptedGui.IsShown(GuiScope.SetRoot(Player.MakeScope).End), 'enabled', 'disabled')]"
+			}
+		}
+
+		expand = {}
+	}
+
+	type game_rule_radio = vbox {
+		layoutpolicy_horizontal = expanding
+		margin_left = 5
+
+		radial_button_entry = {
+			margin_right = -20
+			using = NoninteractableBG
+			blockoverride "Margins" {
+				margin = { -28 10 }
+				margin_right = 3
+				margin_top = 6
+				visible = "[ScriptedGui.IsShown(GuiScope.SetRoot(Player.MakeScope).End)]"
+			}
+
+			layoutpolicy_horizontal = expanding
+			block "transparency" {}
+
+			blockoverride "On_click"
+			{
+				onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(Player.MakeScope).End)]"
+			}
+
+			blockoverride "ShowDot"
+			{
+				trigger_when = "[ScriptedGui.IsShown(GuiScope.SetRoot(Player.MakeScope).End)]"
+			}
+
+			blockoverride "HideDot"
+			{
+				trigger_when = "[Not(ScriptedGui.IsShown(GuiScope.SetRoot(Player.MakeScope).End))]"
+			}
+			blockoverride "Text" {
+				margin_left = 5
+				max_width = @textwidth
+				elide = right
+				block "name" {
+					text = "TEST"
+					tooltip = "TEST"
+				}
+			}
+		}
+	}
+
+	type JominiMultiplayerLobby_BUI = widget {
+		name = "lobbyview"
+		size = { 100% 100% }
+
+		block "left_panel"
+		{
+			widget = {
+				block "left_panel_properties"
+				{
+					size = { 390 100% }
+				}
+
+				vbox = {
+					block "left_panel_content"
+					{
+						JominiLobbyViewBack = {}
+						JominiLobbyViewHost = {}
+						JominiLobbyViewHostError = {}
+						JominiLobbyViewHostingStatus = {}
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							visible = "[GameIsMultiplayer]"
+
+							background = {
+								using = JominiLobbyViewModuleBackground
+							}
+
+							JominiLobbyViewButton = {
+								layoutpolicy_horizontal = expanding
+								name = "show_players"
+								maximumsize = { 200 40 }
+								text = "JOMINI_MULTIPLAYER_GUI_SHOW_PLAYERS"
+								enabled = "[GameIsMultiplayer]"
+								visible = "[GameIsMultiplayer]"
+								onclick = "[LobbyView.SetShowPlayerList('(bool)yes')]"
+								tooltip = "JOMINI_MULTIPLAYER_GUI_SHOW_PLAYERS_TT"
+
+								block "host_modify_button" {
+									layoutpolicy_horizontal = expanding
+								}
+							}
+
+							JominiLobbyViewButton = {
+								layoutpolicy_horizontal = expanding
+								name = "show_settings"
+								maximumsize = { 200 40 }
+								text = "JOMINI_MULTIPLAYER_GUI_SHOW_SETTINGS"
+								enabled = "[GameIsMultiplayer]"
+								visible = "[GameIsMultiplayer]"
+								onclick = "[LobbyView.SetShowPlayerList( '(bool)no' )]"
+								tooltip = "JOMINI_MULTIPLAYER_GUI_SHOW_SETTINGS_TT"
+
+								block "host_modify_button" {
+									layoutpolicy_horizontal = expanding
+								}
+							}
+						}
+
+						JominiLobbyViewMPInfo = {
+							visible = "[And( GameIsMultiplayer, Not( LobbyView.ShowPlayerList ) )]"
+						}
+
+						JominiLobbyViewPlayerList = {
+							layoutpolicy_vertical = expanding
+							layoutpolicy_horizontal = expanding
+							visible = "[And( GameIsMultiplayer, LobbyView.ShowPlayerList )]"
+						}
+
+						widget = {
+							layoutpolicy_vertical = growing
+							layoutpolicy_horizontal = growing
+						}
+					}
+				}
+			}
+		}
+
+		block "observer_button"
+		{
+			JominiLobbyObserverButton = {
+				parentanchor = bottom|left
+				size = { 200 40 }
+				position = { 400 0 }
+
+				block "lobby_observer_button" {
+
+				}
+			}
+		}
+
+		block "right_panel"
+		{
+			widget = {
+				parentanchor = top|right
+				widgetanchor = top|right
+
+				block "right_panel_properties"
+				{
+					size = { 370 100% }
+				}
+
+				vbox = {
+					block "right_panel_content"
+					{
+						JominiLobbyViewGameInfoPanel = {}
+						JominiLobbyViewSelectionWidget = {}
+						JominiLobbyViewPreparation = {}
+					}
+				}
+
+			}
+		}
+	}
+
+	type bg_glow = button {
+		position = { 0 0 }
+		parentanchor = center
+		size = { 36 36 }
+		using = flat_background_white
+
+		glow = {
+			glow_radius = 4
+			color = { 1.0  0.75  0.0 0.7 }
+		}
+	}
+
 	type LobbyViewTitle = textbox {
 		size = { 100% 24 }
 		using = BaseFontM
@@ -83,640 +347,654 @@ types MultiplayerLobby
 				visible = "[Not( LobbyView.HasSelectedPlayable )]"
 			}
 
-			vbox = {
-				layoutpolicy_vertical = expanding
+			scrollarea = {
+
 				layoutpolicy_horizontal = expanding
-				visible = "[LobbyView.HasSelectedPlayable]"
-				margin_widget = {
-					size = { 0 220 }
-					margin_top = 4
-					layoutpolicy_horizontal = expanding
-					visible = "[LobbyView.HasSelectedPlayable]"
-					alwaystransparent = no
-					filter_mouse = left|right
-					icon = {
-						texture = "gfx/interface/event_window/Event_great_thriving_city_seen_slightly_from_a_distance.dds"
-						scale = 0.22
-						parentanchor = right
-						position = { -12 -2 }
-					}
-					banner_migrant_horde = {
-						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
+				layoutpolicy_vertical = expanding
 
-						position = { 12 0 }
-						visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)0')]"
-						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
-					}
-
-					banner_city_state = {
-						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
-
-						position = { 12 0 }
-						visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)1')]"
-						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
-					}
-
-					banner_local_power = {
-						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
-
-						position = { 12 0 }
-						visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)2')]"
-						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
-					}
-
-					banner_regional_power = {
-						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
-
-						position = { 12 0 }
-						visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)3')]"
-						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
-					}
-					banner_major_power = {
-						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
-
-						position = { 12 0 }
-						visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)4')]"
-						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
-					}
-
-					banner_great_power = {
-						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
-
-						position = { 12 0 }
-						visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)5')]"
-						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
-					}
-
-					icon_and_text = {
-						size = { 204 0 }
-						position = { 108 78 }
-
-						tooltipwidget = {
-							heritage_pop_out = {
-								datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetHeritage]"
-							}
-						}
-
-						blockoverride "Icon" {
-							modifier_icon = {
-								position = { 3 3 }
-								datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetHeritage.GetModifier]"
-								size = { 28 28 }
-							}
-						}
-						blockoverride "Text" {
-							text = "[LobbyView.GetSelectedPlayable.GetCountry.GetHeritage.GetName]"
-							using = BaseFontS
-							using = Black_FontColor
-						}
-					}
-
-					icon_and_text = {
-						size = { 296 0 }
-						position = { 16 110 }
-
-						blockoverride "Icon" {
-							textbox = {
-								text = "GOVERNMENT"
-								using = BaseFontS
-								using = Black_FontColor
-								position = { 0 17 }
-							}
-						}
-						blockoverride "Text" {
-							text = "[LobbyView.GetSelectedPlayable.GetCountry.GetGovernment.GetName]"
-							using = BaseFontS
-							using = Black_FontColor
-						}
-					}
-
-					icon_and_text = {
-						size = { 296 0 }
-						position = { 16 142 }
-
-						blockoverride "Icon" {
-							textbox = {
-								text = "RELIGION"
-								using = BaseFontS
-								using = Black_FontColor
-								position = { 0 17 }
-							}
-						}
-						blockoverride "Text" {
-							text = "[LobbyView.GetSelectedPlayable.GetCountry.GetReligion.GetName]"
-							using = BaseFontS
-							using = Black_FontColor
-						}
-					}
-
-					icon_and_text = {
-						size = { 296 0 }
-						position = { 16 176 }
-
-						blockoverride "Icon" {
-							textbox = {
-								text = "CULTURE"
-								using = BaseFontS
-								using = Black_FontColor
-								position = { 0 17 }
-							}
-						}
-						blockoverride "Text" {
-							text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPrimaryCulture.GetName]"
-							using = BaseFontS
-							using = Black_FontColor
-						}
-					}
-
+				scrollbar_vertical = {
+					using = VerticalScrollBar
 				}
+				scrollbarpolicy_horizontal = always_off
 
-				margin_widget = {
-					layoutpolicy_horizontal = expanding
-					size = { 0 192 }
-					margin = { 12 0 }
-					sub_header = {
-						size = { 100% 0 }
-						blockoverride "Title_text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRulerTitle]" }
-						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetHeaderToolTip]"
-					}
+				scrollwidget = {
 
-					cpt_button = {
-						position = { 4 36 }
-						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
-						tooltipwidget = Character_tooltip
-						blockoverride "portrait_button_template_onclick" {}
-						blockoverride "portrait_button_template_onrightclick" {}
-						blockoverride "portrait_button_template_tooltip" {}
-
-					}
-
-					container = {
-						using = NoninteractableBG
-						position = { 110 24 }
-						blockoverride "Margins" {
-							margin_top = -8
-							margin_bottom = 12
-							margin_left = 7
-							margin_right = 14
-						}
-						widget = {
-							size = { 188 41 }
-							position = { 0 8 }
-							textbox = {
-								using = BaseFontS
-								using = Black_FontColor
-								text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetNameWithNoTooltip]"
-								maximumsize = { 188 62 }
-								autoresize = yes
-								position =  { 4 10 }
-								multiline = yes
-								align = left
-								parentanchor = left
-								elide = right
-							}
-
-							#icon = {
-							#	position = { 0 32 }
-							#	texture = "gfx/interface/base_parts/brown_underline_x60bd.dds"
-							#	spriteType = Corneredtiled
-							#	spriteborder = { 30 0 }
-							#	size = { 100% 6 }
-							#}
-						}
-
-						flowcontainer = {
-							position = { 0 74 }
-							spacing = 26
-
-							icon_and_text = {
-								size = { 80 0 }
-								blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/military.dds" }
-								blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetMartial]" }
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetMartialToolTip]"
-							}
-
-							icon_and_text = {
-								size = { 80 0 }
-								blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/civic.dds" }
-								blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetFinesse]" }
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetFinesseToolTip]"
-							}
-
-						}
-
-						flowcontainer = {
-							position = { 0 124 }
-							spacing = 26
-							icon_and_text = {
-								size = { 80 0 }
-								blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/oratory.dds" }
-								blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCharisma]" }
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCharismaToolTip]"
-							}
-
-							icon_and_text = {
-								size = { 80 0 }
-								blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/religious.dds" }
-								blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetZeal]" }
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetZealToolTip]"
-							}
-
-						}
-					}
-				}
-
-				margin_widget = {
-					name = "coruler_details"
-					layoutpolicy_horizontal = expanding
-					visible = "[LobbyView.GetSelectedPlayable.GetCountry.UseCoRuler]"
-					size = { 0 192 }
-					margin = { 12 0 }
-					sub_header = {
-						size = { 100% 0 }
-						blockoverride "Title_text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRulerTitle]" }
-						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetHeaderToolTip]"
-					}
-
-					cpt_button = {
-						position = { 4 36 }
-						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]" }
-						tooltipwidget = Character_tooltip
-						blockoverride "portrait_button_template_onclick" {}
-						blockoverride "portrait_button_template_onrightclick" {}
-						blockoverride "portrait_button_template_tooltip" {}
-
-					}
-
-					container = {
-						using = NoninteractableBG
-						position = { 110 24 }
-						blockoverride "Margins" {
-							margin_top = -8
-							margin_bottom = 12
-							margin_left = 7
-							margin_right = 14
-						}
-						widget = {
-							size = { 188 41 }
-							position = { 0 8 }
-							textbox = {
-								using = BaseFontS
-								using = Black_FontColor
-								text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetNameWithNoTooltip]"
-								maximumsize = { 176 32 }
-								autoresize = yes
-								position =  { 4 10 }
-								multiline = yes
-								align = left
-								parentanchor = left
-								elide = right
-							}
-						}
-
-						flowcontainer = {
-							position = { 0 74 }
-							spacing = 26
-
-							icon_and_text = {
-								size = { 80 0 }
-								blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/military.dds" }
-								blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetMartial]" }
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetMartialToolTip]"
-							}
-
-							icon_and_text = {
-								size = { 80 0 }
-								blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/civic.dds" }
-								blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetFinesse]" }
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetFinesseToolTip]"
-							}
-
-						}
-
-						flowcontainer = {
-							position = { 0 124 }
-							spacing = 26
-							icon_and_text = {
-								size = { 80 0 }
-								blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/oratory.dds" }
-								blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCharisma]" }
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCharismaToolTip]"
-							}
-
-							icon_and_text = {
-								size = { 80 0 }
-								blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/religious.dds" }
-								blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetZeal]" }
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetZealToolTip]"
-							}
-
-						}
-					}
-				}
-
-				margin_widget = {
-					size = { 0 100 }
-					layoutpolicy_horizontal = expanding
-					margin = { 12 0 }
-					sub_header = {
-						size = { 100% 0 }
-						blockoverride "Title_text" { text = "LOBBY_LABEL_POPULATION" }
-						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulationHeaderToolTip]"
-					}
-
-					widget = {
-						position = { 0 36 }
-						size = { 100% 90 }
-
-						widget = {
-							size = { 40 62 }
-							position = { 2 0 }
-							using = NoninteractableBG
-							blockoverride "Margins" {
-								margin_left = 4
-								margin_right = 2
-								margin_top = 6
-								margin_bottom = 4
-							}
-							tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetOwnedProvinceTooltip]"
-
+					vbox = {
+						layoutpolicy_vertical = expanding
+						layoutpolicy_horizontal = expanding
+						visible = "[LobbyView.HasSelectedPlayable]"
+						margin_widget = {
+							size = { 0 220 }
+							margin_top = 4
+							layoutpolicy_horizontal = expanding
+							visible = "[LobbyView.HasSelectedPlayable]"
+							alwaystransparent = no
+							filter_mouse = left|right
 							icon = {
-								position = { 2 0 }
-								using = icon_local
-								size = { 34 34 }
+								texture = "gfx/interface/event_window/Event_great_thriving_city_seen_slightly_from_a_distance.dds"
+								scale = 0.22
+								parentanchor = right
+								position = { -12 -2 }
+							}
+							banner_migrant_horde = {
+								datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
+
+								position = { 12 0 }
+								visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)0')]"
+								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
 							}
 
-							textbox = {
-								position = { 0 37 }
-								autoresize = yes
-								using = BaseFontS
-								using = Black_FontColor
-								text = "[LobbyView.GetSelectedPlayable.GetCountry.GetOwnedProvinceCount]"
-								widgetanchor = top|hcenter
-								parentanchor = hcenter
-								align = center
+							banner_city_state = {
+								datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
+
+								position = { 12 0 }
+								visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)1')]"
+								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
+							}
+
+							banner_local_power = {
+								datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
+
+								position = { 12 0 }
+								visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)2')]"
+								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
+							}
+
+							banner_regional_power = {
+								datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
+
+								position = { 12 0 }
+								visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)3')]"
+								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
+							}
+							banner_major_power = {
+								datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
+
+								position = { 12 0 }
+								visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)4')]"
+								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
+							}
+
+							banner_great_power = {
+								datacontext = "[LobbyView.GetSelectedPlayable.GetCountry]"
+
+								position = { 12 0 }
+								visible = "[LobbyView.GetSelectedPlayable.GetCountry.HasRank('(int32)5')]"
+								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRankInformation]"
+							}
+
+							icon_and_text = {
+								size = { 204 0 }
+								position = { 108 78 }
+
+								tooltipwidget = {
+									heritage_pop_out = {
+										datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetHeritage]"
+									}
+								}
+
+								blockoverride "Icon" {
+									modifier_icon = {
+										position = { 3 3 }
+										datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetHeritage.GetModifier]"
+										size = { 28 28 }
+									}
+								}
+								blockoverride "Text" {
+									text = "[LobbyView.GetSelectedPlayable.GetCountry.GetHeritage.GetName]"
+									using = BaseFontS
+									using = Black_FontColor
+								}
+							}
+
+							icon_and_text = {
+								size = { 296 0 }
+								position = { 16 110 }
+
+								blockoverride "Icon" {
+									textbox = {
+										text = "GOVERNMENT"
+										using = BaseFontS
+										using = Black_FontColor
+										position = { 0 17 }
+									}
+								}
+								blockoverride "Text" {
+									text = "[LobbyView.GetSelectedPlayable.GetCountry.GetGovernment.GetName]"
+									using = BaseFontS
+									using = Black_FontColor
+								}
+							}
+
+							icon_and_text = {
+								size = { 296 0 }
+								position = { 16 142 }
+
+								blockoverride "Icon" {
+									textbox = {
+										text = "RELIGION"
+										using = BaseFontS
+										using = Black_FontColor
+										position = { 0 17 }
+									}
+								}
+								blockoverride "Text" {
+									text = "[LobbyView.GetSelectedPlayable.GetCountry.GetReligion.GetName]"
+									using = BaseFontS
+									using = Black_FontColor
+								}
+							}
+
+							icon_and_text = {
+								size = { 296 0 }
+								position = { 16 176 }
+
+								blockoverride "Icon" {
+									textbox = {
+										text = "CULTURE"
+										using = BaseFontS
+										using = Black_FontColor
+										position = { 0 17 }
+									}
+								}
+								blockoverride "Text" {
+									text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPrimaryCulture.GetName]"
+									using = BaseFontS
+									using = Black_FontColor
+								}
+							}
+
+						}
+
+						margin_widget = {
+							layoutpolicy_horizontal = expanding
+							size = { 0 192 }
+							margin = { 12 0 }
+							sub_header = {
+								size = { 100% 0 }
+								blockoverride "Title_text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRulerTitle]" }
+								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetHeaderToolTip]"
+							}
+
+							cpt_button = {
+								position = { 4 36 }
+								blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
+								tooltipwidget = Character_tooltip
+								blockoverride "portrait_button_template_onclick" {}
+								blockoverride "portrait_button_template_onrightclick" {}
+								blockoverride "portrait_button_template_tooltip" {}
+
+							}
+
+							container = {
+								using = NoninteractableBG
+								position = { 110 24 }
+								blockoverride "Margins" {
+									margin_top = -8
+									margin_bottom = 12
+									margin_left = 7
+									margin_right = 14
+								}
+								widget = {
+									size = { 188 41 }
+									position = { 0 8 }
+									textbox = {
+										using = BaseFontS
+										using = Black_FontColor
+										text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetNameWithNoTooltip]"
+										maximumsize = { 188 62 }
+										autoresize = yes
+										position =  { 4 10 }
+										multiline = yes
+										align = left
+										parentanchor = left
+										elide = right
+									}
+
+									#icon = {
+									#	position = { 0 32 }
+									#	texture = "gfx/interface/base_parts/brown_underline_x60bd.dds"
+									#	spriteType = Corneredtiled
+									#	spriteborder = { 30 0 }
+									#	size = { 100% 6 }
+									#}
+								}
+
+								flowcontainer = {
+									position = { 0 74 }
+									spacing = 26
+
+									icon_and_text = {
+										size = { 80 0 }
+										blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/military.dds" }
+										blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetMartial]" }
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetMartialToolTip]"
+									}
+
+									icon_and_text = {
+										size = { 80 0 }
+										blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/civic.dds" }
+										blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetFinesse]" }
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetFinesseToolTip]"
+									}
+
+								}
+
+								flowcontainer = {
+									position = { 0 124 }
+									spacing = 26
+									icon_and_text = {
+										size = { 80 0 }
+										blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/oratory.dds" }
+										blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCharisma]" }
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCharismaToolTip]"
+									}
+
+									icon_and_text = {
+										size = { 80 0 }
+										blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/religious.dds" }
+										blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetZeal]" }
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetZealToolTip]"
+									}
+
+								}
 							}
 						}
 
-						widget = {
-							size = { 44 62 }
-							position = { 42 0 }
-							tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildTotalPopulationToolTip]"
-							using = NoninteractableBG
-							blockoverride "Margins" {
-								margin_left = 4
-								margin_right = 2
-								margin_top = 6
-								margin_bottom = 4
-							}
-							icon = {
-								position = { 2 0 }
-								using = icon_population
-								size = { 34 34 }
+						margin_widget = {
+							name = "coruler_details"
+							layoutpolicy_horizontal = expanding
+							visible = "[LobbyView.GetSelectedPlayable.GetCountry.UseCoRuler]"
+							size = { 0 192 }
+							margin = { 12 0 }
+							sub_header = {
+								size = { 100% 0 }
+								blockoverride "Title_text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRulerTitle]" }
+								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetHeaderToolTip]"
 							}
 
-							textbox = {
-								position = { 0 37 }
-								autoresize = yes
-								using = BaseFontS
-								using = Black_FontColor
-								text = "[LobbyView.GetSelectedPlayable.GetCountry.GetTotalPopulation]"
-								widgetanchor = top|hcenter
-								parentanchor = hcenter
-								align = center
+							cpt_button = {
+								position = { 4 36 }
+								blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]" }
+								tooltipwidget = Character_tooltip
+								blockoverride "portrait_button_template_onclick" {}
+								blockoverride "portrait_button_template_onrightclick" {}
+								blockoverride "portrait_button_template_tooltip" {}
+
+							}
+
+							container = {
+								using = NoninteractableBG
+								position = { 110 24 }
+								blockoverride "Margins" {
+									margin_top = -8
+									margin_bottom = 12
+									margin_left = 7
+									margin_right = 14
+								}
+								widget = {
+									size = { 188 41 }
+									position = { 0 8 }
+									textbox = {
+										using = BaseFontS
+										using = Black_FontColor
+										text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetNameWithNoTooltip]"
+										maximumsize = { 176 32 }
+										autoresize = yes
+										position =  { 4 10 }
+										multiline = yes
+										align = left
+										parentanchor = left
+										elide = right
+									}
+								}
+
+								flowcontainer = {
+									position = { 0 74 }
+									spacing = 26
+
+									icon_and_text = {
+										size = { 80 0 }
+										blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/military.dds" }
+										blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetMartial]" }
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetMartialToolTip]"
+									}
+
+									icon_and_text = {
+										size = { 80 0 }
+										blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/civic.dds" }
+										blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetFinesse]" }
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetFinesseToolTip]"
+									}
+
+								}
+
+								flowcontainer = {
+									position = { 0 124 }
+									spacing = 26
+									icon_and_text = {
+										size = { 80 0 }
+										blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/oratory.dds" }
+										blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCharisma]" }
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCharismaToolTip]"
+									}
+
+									icon_and_text = {
+										size = { 80 0 }
+										blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/religious.dds" }
+										blockoverride "Text" { text = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetZeal]" }
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetZealToolTip]"
+									}
+
+								}
 							}
 						}
 
-						flowcontainer = {
-							spacing = 2
-							position = { 110 0 }
-							widget = {
-								size = { 38 62 }
-								#position = { 116 42 }
-								using = NoninteractableBG
-								blockoverride "Margins" {
-									margin_left = 4
-									margin_right = 4
-									margin_top = 6
-									margin_bottom = 4
-								}
-								icon = {
-									using = icon_pop_nobles
-									position = { 4 0 }
-									size = { 32 32 }
-								}
-
-								textbox = {
-									position = { 0 37 }
-									autoresize = yes
-									using = BaseFontS
-									using = Black_FontColor
-									text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulation('nobles')]"
-									widgetanchor = top|hcenter
-									parentanchor = hcenter
-									align = center
-								}
-
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildPopulationToolTip('nobles')]"
+						margin_widget = {
+							size = { 0 100 }
+							layoutpolicy_horizontal = expanding
+							margin = { 12 0 }
+							sub_header = {
+								size = { 100% 0 }
+								blockoverride "Title_text" { text = "LOBBY_LABEL_POPULATION" }
+								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulationHeaderToolTip]"
 							}
 
 							widget = {
-								size = { 38 62 }
-								using = NoninteractableBG
-								blockoverride "Margins" {
-									margin_left = 4
-									margin_right = 4
-									margin_top = 6
-									margin_bottom = 4
-								}
-								icon = {
-									using = icon_pop_citizens
-									position = { 4 0 }
-									size = { 32 32 }
+								position = { 0 36 }
+								size = { 100% 90 }
+
+								widget = {
+									size = { 40 62 }
+									position = { 2 0 }
+									using = NoninteractableBG
+									blockoverride "Margins" {
+										margin_left = 4
+										margin_right = 2
+										margin_top = 6
+										margin_bottom = 4
+									}
+									tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetOwnedProvinceTooltip]"
+
+									icon = {
+										position = { 2 0 }
+										using = icon_local
+										size = { 34 34 }
+									}
+
+									textbox = {
+										position = { 0 37 }
+										autoresize = yes
+										using = BaseFontS
+										using = Black_FontColor
+										text = "[LobbyView.GetSelectedPlayable.GetCountry.GetOwnedProvinceCount]"
+										widgetanchor = top|hcenter
+										parentanchor = hcenter
+										align = center
+									}
 								}
 
-								textbox = {
-									position = { 0 37 }
-									autoresize = yes
-									using = BaseFontS
-									using = Black_FontColor
-									text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulation('citizen')]"
-									widgetanchor = top|hcenter
-									parentanchor = hcenter
-									align = center
+								widget = {
+									size = { 44 62 }
+									position = { 42 0 }
+									tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildTotalPopulationToolTip]"
+									using = NoninteractableBG
+									blockoverride "Margins" {
+										margin_left = 4
+										margin_right = 2
+										margin_top = 6
+										margin_bottom = 4
+									}
+									icon = {
+										position = { 2 0 }
+										using = icon_population
+										size = { 34 34 }
+									}
+
+									textbox = {
+										position = { 0 37 }
+										autoresize = yes
+										using = BaseFontS
+										using = Black_FontColor
+										text = "[LobbyView.GetSelectedPlayable.GetCountry.GetTotalPopulation]"
+										widgetanchor = top|hcenter
+										parentanchor = hcenter
+										align = center
+									}
 								}
 
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildPopulationToolTip('citizen')]"
-							}
+								flowcontainer = {
+									spacing = 2
+									position = { 110 0 }
+									widget = {
+										size = { 38 62 }
+										#position = { 116 42 }
+										using = NoninteractableBG
+										blockoverride "Margins" {
+											margin_left = 4
+											margin_right = 4
+											margin_top = 6
+											margin_bottom = 4
+										}
+										icon = {
+											using = icon_pop_nobles
+											position = { 4 0 }
+											size = { 32 32 }
+										}
 
-							widget = {
-								size = { 38 62 }
-								#position = { 160 42 }
-								using = NoninteractableBG
-								blockoverride "Margins" {
-									margin_left = 4
-									margin_right = 4
-									margin_top = 6
-									margin_bottom = 4
-								}
-								icon = {
-									using = icon_pop_freemen
-									position = { 4 0 }
-									size = { 32 32 }
-								}
+										textbox = {
+											position = { 0 37 }
+											autoresize = yes
+											using = BaseFontS
+											using = Black_FontColor
+											text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulation('nobles')]"
+											widgetanchor = top|hcenter
+											parentanchor = hcenter
+											align = center
+										}
 
-								textbox = {
-									position = { 0 37 }
-									autoresize = yes
-									using = BaseFontS
-									using = Black_FontColor
-									text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulation('freemen')]"
-									widgetanchor = top|hcenter
-									parentanchor = hcenter
-									align = center
-								}
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildPopulationToolTip('nobles')]"
+									}
 
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildPopulationToolTip('freemen')]"
-							}
+									widget = {
+										size = { 38 62 }
+										using = NoninteractableBG
+										blockoverride "Margins" {
+											margin_left = 4
+											margin_right = 4
+											margin_top = 6
+											margin_bottom = 4
+										}
+										icon = {
+											using = icon_pop_citizens
+											position = { 4 0 }
+											size = { 32 32 }
+										}
 
-							widget = {
-								size = { 38 62 }
-								#position = { 204 42 }
-								using = NoninteractableBG
-								blockoverride "Margins" {
-									margin_left = 4
-									margin_right = 4
-									margin_top = 6
-									margin_bottom = 4
-								}
-								icon = {
-									using = icon_pop_tribal
-									position = { 4 0 }
-									size = { 32 32 }
-								}
+										textbox = {
+											position = { 0 37 }
+											autoresize = yes
+											using = BaseFontS
+											using = Black_FontColor
+											text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulation('citizen')]"
+											widgetanchor = top|hcenter
+											parentanchor = hcenter
+											align = center
+										}
 
-								textbox = {
-									position = { 0 37 }
-									autoresize = yes
-									using = BaseFontS
-									using = Black_FontColor
-									text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulation('tribesmen')]"
-									widgetanchor = top|hcenter
-									parentanchor = hcenter
-									align = center
-								}
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildPopulationToolTip('citizen')]"
+									}
 
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildPopulationToolTip('tribesmen')]"
-							}
+									widget = {
+										size = { 38 62 }
+										#position = { 160 42 }
+										using = NoninteractableBG
+										blockoverride "Margins" {
+											margin_left = 4
+											margin_right = 4
+											margin_top = 6
+											margin_bottom = 4
+										}
+										icon = {
+											using = icon_pop_freemen
+											position = { 4 0 }
+											size = { 32 32 }
+										}
 
-							widget = {
-								size = { 38 62 }
-								#position = { 248 42 }
-								using = NoninteractableBG
-								blockoverride "Margins" {
-									margin_left = 4
-									margin_right = 4
-									margin_top = 6
-									margin_bottom = 4
-								}
-								icon = {
-									using = icon_pop_slaves
-									position = { 4 0 }
-									size = { 32 32 }
-								}
+										textbox = {
+											position = { 0 37 }
+											autoresize = yes
+											using = BaseFontS
+											using = Black_FontColor
+											text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulation('freemen')]"
+											widgetanchor = top|hcenter
+											parentanchor = hcenter
+											align = center
+										}
 
-								textbox = {
-									position = { 0 37 }
-									autoresize = yes
-									using = BaseFontS
-									using = Black_FontColor
-									text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulation('slaves')]"
-									widgetanchor = top|hcenter
-									parentanchor = hcenter
-									align = center
-								}
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildPopulationToolTip('freemen')]"
+									}
 
-								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildPopulationToolTip('slaves')]"
+									widget = {
+										size = { 38 62 }
+										#position = { 204 42 }
+										using = NoninteractableBG
+										blockoverride "Margins" {
+											margin_left = 4
+											margin_right = 4
+											margin_top = 6
+											margin_bottom = 4
+										}
+										icon = {
+											using = icon_pop_tribal
+											position = { 4 0 }
+											size = { 32 32 }
+										}
+
+										textbox = {
+											position = { 0 37 }
+											autoresize = yes
+											using = BaseFontS
+											using = Black_FontColor
+											text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulation('tribesmen')]"
+											widgetanchor = top|hcenter
+											parentanchor = hcenter
+											align = center
+										}
+
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildPopulationToolTip('tribesmen')]"
+									}
+
+									widget = {
+										size = { 38 62 }
+										#position = { 248 42 }
+										using = NoninteractableBG
+										blockoverride "Margins" {
+											margin_left = 4
+											margin_right = 4
+											margin_top = 6
+											margin_bottom = 4
+										}
+										icon = {
+											using = icon_pop_slaves
+											position = { 4 0 }
+											size = { 32 32 }
+										}
+
+										textbox = {
+											position = { 0 37 }
+											autoresize = yes
+											using = BaseFontS
+											using = Black_FontColor
+											text = "[LobbyView.GetSelectedPlayable.GetCountry.GetPopulation('slaves')]"
+											widgetanchor = top|hcenter
+											parentanchor = hcenter
+											align = center
+										}
+
+										tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.BuildPopulationToolTip('slaves')]"
+									}
+								}
 							}
 						}
-					}
-				}
 
-				margin_widget = {
-					size = { 0 200 }
-					layoutpolicy_horizontal = expanding
-					margin = { 12 0 }
-					margin_top = 2
-					sub_header = {
-						size = { 100% 0 }
-						blockoverride "Title_text" { text = "LOBBY_LABEL_DIPLOMACY" }
-						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetDiplomacyHeaderToolTip]"
-					}
-
-					# DIPLOMATIC RELATIONS
-					widget = {
-						position = { 0 32 }
-						size = { 100% 100% }
-
-						scrollarea = {
-							size = { 100% 120 }
-							parentanchor = hcenter
-
-							scrollbar_vertical = {
-								using = VerticalScrollBar
+						margin_widget = {
+							size = { 0 200 }
+							layoutpolicy_horizontal = expanding
+							margin = { 12 0 }
+							margin_top = 2
+							sub_header = {
+								size = { 100% 0 }
+								blockoverride "Title_text" { text = "LOBBY_LABEL_DIPLOMACY" }
+								tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetDiplomacyHeaderToolTip]"
 							}
-							scrollbarpolicy_horizontal = always_off
 
-							scrollwidget = {
-								fixedgridbox = {
-									name = "diplomatic_relations"
+							# DIPLOMATIC RELATIONS
+							widget = {
+								position = { 0 32 }
+								size = { 100% 100% }
+
+								scrollarea = {
 									size = { 100% 120 }
-									addrow = 45
-									addcolumn = 300
+									parentanchor = hcenter
 
-									item = {
-										flowcontainer = {
-											spacing = 5
+									scrollbar_vertical = {
+										using = VerticalScrollBar
+									}
+									scrollbarpolicy_horizontal = always_off
 
-											widget = {
-												size = { 40 40 }
-												icon = {
-													texture = "[RelationTypeItem.AccessIcon]"
-													tooltip = "[RelationTypeItem.GetToolTip]"
-													size = { 30 30 }
-													parentanchor = center
-												}
-											}
+									scrollwidget = {
+										fixedgridbox = {
+											name = "diplomatic_relations"
+											size = { 100% 120 }
+											addrow = 45
+											addcolumn = 300
 
-											overlappingitembox = {
-												datamodel = "[RelationTypeItem.GetRelations]"
-												size = { 245 40 }
-												spacing = 5
+											item = {
+												flowcontainer = {
+													spacing = 5
 
-												item = {
-													margin_widget = {
-														size = { 35 35 }
-														margin = { 8 5 }
+													widget = {
+														size = { 40 40 }
+														icon = {
+															texture = "[RelationTypeItem.AccessIcon]"
+															tooltip = "[RelationTypeItem.GetToolTip]"
+															size = { 30 30 }
+															parentanchor = center
+														}
+													}
 
-														country_flag = {
-															tooltip = "[RelationDescItem.GetToolTip]"
-															datacontext = "[RelationDescItem.GetCountry]"
+													overlappingitembox = {
+														datamodel = "[RelationTypeItem.GetRelations]"
+														size = { 245 40 }
+														spacing = 5
 
-															blockoverride "flag"
-															{
-																texture = "[RelationDescItem.AccessFlagIcon]"
-																frame = "[RelationDescItem.GetFlagFrame]"
-																framesize = { 56 56 }
-															}
+														item = {
+															margin_widget = {
+																size = { 35 35 }
+																margin = { 8 5 }
 
-															blockoverride "size"
-															{
-																size = { 30 30 }
-															}
+																country_flag = {
+																	tooltip = "[RelationDescItem.GetToolTip]"
+																	datacontext = "[RelationDescItem.GetCountry]"
 
-															blockoverride "click"
-															{
-																onclick = "[RelationDescItem.OnClick]"
+																	blockoverride "flag"
+																	{
+																		texture = "[RelationDescItem.AccessFlagIcon]"
+																		frame = "[RelationDescItem.GetFlagFrame]"
+																		framesize = { 56 56 }
+																	}
+
+																	blockoverride "size"
+																	{
+																		size = { 30 30 }
+																	}
+
+																	blockoverride "click"
+																	{
+																		onclick = "[RelationDescItem.OnClick]"
+																	}
+																}
 															}
 														}
 													}
@@ -727,15 +1005,16 @@ types MultiplayerLobby
 								}
 							}
 						}
+
+						vbox = {
+							layoutpolicy_vertical = expanding
+						}
 					}
 				}
-
-				vbox = {
-					layoutpolicy_vertical = expanding
-				}
-
 			}
 		}
+
+
 
 		state = {
 			name = "jomini_preselected_changed"
@@ -781,118 +1060,118 @@ types MultiplayerLobby
 	}
 
 	type LobbyViewButtons = vbox {
+
+
 		margin_widget = {
-			size = { 332 44 }
+			size = { 332 32 }
+
 			background = {
 				using = flat_background_white
 				using = border_medium_torn_alpha
 				shaderfile = "gfx/FX/pdxgui_default.shader"
 				margin = { 0 10 }
 			}
+
 			alwaystransparent = no
 			filter_mouse = all
 			margin_left = 12
 			margin_right = 12
+
+
 			flowcontainer = {
-
+				direction = vertical
+				spacing = 10
 				ignoreinvisible = yes
-				position = { 0 8 }
-				spacing = 12
-				#widget = { #Leave for reference
-				#	size = { 138 41 }
-				#	container = {
-				#		position = { 14 5 }
-				#		button = {
-				#			texture = "gfx/interface/buttons/checkbox.dds"
-				#			framesize = { 36 36 }
-				#			frame = "[Select_int32(LobbyView.IsObserver,'(int32)2','(int32)1'))]"
-				#			onclick = "[LobbyView.ToggleObserve]"
-				#			using = tooltip_ne
-				#			tooltip = "JOMINI_MULTIPLAYER_GUI_OBSERVE_TOOLTIP"
-				#		}
-				#		textbox = {
-				#			using = MarbleButtonFont
-				#			text = "JOMINI_MULTIPLAYER_GUI_OBSERVE"
-				#			tooltip = "JOMINI_MULTIPLAYER_GUI_OBSERVE_TOOLTIP"
-				#			align = nobaseline
-				#			using = tooltip_ne
-				#			autoresize = yes
-				#			position = { 38 5 }
-				#			maximumsize = { 75 -1 }
-				#			elide = right
-				#		}
-				#	}
-				#}
 
+				#mod
 				text_button_square = {
-					size = { 148 0 }
-					blockoverride "On_click" { onclick = "[LobbyView.ToggleObserve]" }
-					blockoverride "Center_text" { text = "[SelectLocalization(LobbyView.IsObserver, 'JOMINI_MULTIPLAYER_GUI_DISABLE_OBSERVE', 'JOMINI_MULTIPLAYER_GUI_OBSERVE')]" }
-					tooltip = "JOMINI_MULTIPLAYER_GUI_OBSERVE_TOOLTIP"
+					visible = no
+					size = { 308 30 }
+					layoutpolicy_horizontal = expanding
+					blockoverride "On_click" { onclick = "[GetVariableSystem.Toggle('game_rules')]" }
+					blockoverride "Center_text" { text = "game_rules" }
+					enabled = "[LobbyView.HasSelectedPlayable]"
+					tooltip = "select_country_first"
 				}
 
-				text_button_square = {
-					size = { 148 0 }
-					blockoverride "Center_text" { text = "JOMINI_MULTIPLAYER_GUI_START" }
-					using = tooltip_ne
-					blockoverride "On_click" {
-						onclick = "[LobbyView.Start]"
-						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_game_start"
+				flowcontainer = {
+
+					ignoreinvisible = yes
+					spacing = 12
+
+					text_button_square = {
+						size = { 148 0 }
+						blockoverride "On_click" { onclick = "[LobbyView.ToggleObserve]" }
+						blockoverride "Center_text" { text = "[SelectLocalization(LobbyView.IsObserver, 'JOMINI_MULTIPLAYER_GUI_DISABLE_OBSERVE', 'JOMINI_MULTIPLAYER_GUI_OBSERVE')]" }
+						tooltip = "JOMINI_MULTIPLAYER_GUI_OBSERVE_TOOLTIP"
 					}
-					enabled = "[LobbyView.CanStart]"
-					tooltip = "[LobbyView.StartToolTip]"
-					visible = "[And(PlayerIsHost, And(GameIsMultiplayer,IsPreparationLobby))]"
 
-				}
+					text_button_square = {
+						size = { 148 0 }
+						blockoverride "Center_text" { text = "JOMINI_MULTIPLAYER_GUI_START" }
+						using = tooltip_ne
+						blockoverride "On_click" {
+							onclick = "[LobbyView.Start]"
+							clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_game_start"
+						}
+						enabled = "[LobbyView.CanStart]"
+						tooltip = "[LobbyView.StartToolTip]"
+						visible = "[And(PlayerIsHost, And(GameIsMultiplayer,IsPreparationLobby))]"
 
-				text_button_square = {
-					size = { 148 0 }
-					blockoverride "Center_text" { text = "JOMINI_MULTIPLAYER_GUI_START" }
-					using = tooltip_ne
-					blockoverride "On_click" {
-						onclick = "[GameLobby.StartGame]"
-						onclick = "[LobbyView.Ready]"
-						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_game_start"
 					}
-					enabled = "[LobbyView.CanControlSelected]"
-					tooltip = "[LobbyView.GetControlToolTip]"
-					visible = "[And(PlayerIsHost,And(Or(Not(GameIsMultiplayer),Not(IsPreparationLobby)),Or(LobbyView.HasSelectedPlayable,LobbyView.IsObserver)))]"
-				}
 
-				####### PLAYER READY CHECKBOX
-				widget = {
-					size = { 130 30 }
-					visible = "[And(IsPreparationLobby, Not(PlayerIsHost))]"
-					hbox = {
-
-						check_box_button = {
-							size = { 30 30 }
-							blockoverride "Frame" { frame = "[BoolTo1And2( LobbyView.IsReady )]" }
-							enabled = "[LobbyView.CanReady]"
-							tooltip = "[LobbyView.GetReadyToolTip]"
-							blockoverride "On_click" { onclick = "[LobbyView.Ready]" }
-							visible = "[Not( LobbyView.IsReady )]"
+					text_button_square = {
+						size = { 148 0 }
+						blockoverride "Center_text" { text = "JOMINI_MULTIPLAYER_GUI_START" }
+						using = tooltip_ne
+						blockoverride "On_click" {
+							onclick = "[GameLobby.StartGame]"
+							onclick = "[LobbyView.Ready]"
+							clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_game_start"
+							shortcut = "confirm"
 						}
+						enabled = "[LobbyView.CanControlSelected]"
+						tooltip = "[LobbyView.GetControlToolTip]‎"
+						shortcut = "confirm"
+						visible =  "[And(PlayerIsHost,And(Or(Not(GameIsMultiplayer),Not(IsPreparationLobby)),Or(LobbyView.HasSelectedPlayable,LobbyView.IsObserver)))]"
+					}
 
-						check_box_button = {
-							size = { 30 30 }
-							blockoverride "Frame" { frame = "[BoolTo1And2( LobbyView.IsReady )]" }
-							blockoverride "On_click" { onclick = "[LobbyView.UnReady]" }
-							visible = "[LobbyView.IsReady]"
-						}
+					####### PLAYER READY CHECKBOX
+					widget = {
+						size = { 130 30 }
+						visible = "[And(IsPreparationLobby, Not(PlayerIsHost))]"
+						hbox = {
 
-						textbox = {
-							using = BaseFontM
-							using = Black_FontColor
-							text = "JOMINI_MULTIPLAYER_GUI_READY"
-							tooltip = "[LobbyView.GetReadyToolTip]"
-							align = left
-							autoresize = yes
-							using = tooltip_ne
+							check_box_button = {
+								size = { 30 30 }
+								blockoverride "Frame" { frame = "[BoolTo1And2( LobbyView.IsReady )]" }
+								enabled = "[LobbyView.CanReady]"
+								tooltip = "[LobbyView.GetReadyToolTip]"
+								blockoverride "On_click" { onclick = "[LobbyView.Ready]" }
+								visible = "[Not( LobbyView.IsReady )]"
+							}
+
+							check_box_button = {
+								size = { 30 30 }
+								blockoverride "Frame" { frame = "[BoolTo1And2( LobbyView.IsReady )]" }
+								blockoverride "On_click" { onclick = "[LobbyView.UnReady]" }
+								visible = "[LobbyView.IsReady]"
+							}
+
+							textbox = {
+								using = BaseFontM
+								using = Black_FontColor
+								text = "JOMINI_MULTIPLAYER_GUI_READY"
+								tooltip = "[LobbyView.GetReadyToolTip]"
+								align = left
+								autoresize = yes
+								using = tooltip_ne
+							}
 						}
 					}
 				}
 			}
+
 		}
 
 		widget = {# Spacer
@@ -1435,7 +1714,7 @@ types MultiplayerLobby
 	}
 }
 
-JominiMultiplayerLobby = {
+JominiMultiplayerLobby_BUI = {
 	blockoverride "window_background" {
 		texture = "gfx/interface/tiles/small_window_frame_corners_copy.dds"
 		spriteType = Corneredtiled
@@ -1740,6 +2019,7 @@ JominiMultiplayerLobby = {
 	blockoverride "left_panel_content"
 	{
 		base_window = {
+			#visible = "[GetVariableSystem.Exists('multiplayer_visible')]"
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
 			blockoverride "GradientAlpha" {
@@ -1772,31 +2052,7 @@ JominiMultiplayerLobby = {
 				}
 				LobbyViewGameConfiguration = {}
 			}
-
 		}
-
-		#widget = {
-		#	size = { 0 64 }
-		#	layoutpolicy_horizontal = expanding
-		#	layoutpolicy_vertical = fixed
-
-		#	icon = {
-		#		texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
-		#		spriteType = Corneredtiled
-		#		size = { 332 51 }
-		#		spriteborder = { 16 0 }
-		#		shaderfile = "gfx/FX/pdxgui_default.shader"
-		#	}
-
-		#	textbox = {
-		#		using = HeaderFont
-		#		using = Black_FontColor
-		#		text = "JOMINI_MULTIPLAYER_GUI_SESSION_HEADER"
-		#		autoresize = yes
-		#		align = center
-		#	}
-		#}
-
 	}
 
 	blockoverride "player_loading_progress"
@@ -1814,10 +2070,10 @@ JominiMultiplayerLobby = {
 
 	blockoverride "left_panel_properties"
 	{
+		visible = "[GetVariableSystem.Exists('multiplayer_visible')]"
 		size = { 332 100% }
 		alwaystransparent = no
 	}
-
 
 	blockoverride "right_panel_properties"
 	{
@@ -1862,6 +2118,31 @@ JominiMultiplayerLobby = {
 	{
 		texture = "gfx/interface/buttons/checkbox.dds"
 		framesize = { 36 36 }
+	}
+
+	base_window = {
+		size = { 332 60 }
+		movable = no
+		parentanchor = bottom|left
+		blockoverride "BackgroundGradient" { visible = no }
+
+		text_button_square = {
+			size = { 210 28 }
+			parentanchor = vcenter|hcenter
+
+			blockoverride "Center_text"
+			{
+				text = "BACK"
+			}
+
+			enabled = "[LobbyView.CanGoBack]"
+			tooltip = "[LobbyView.GetGoBackToolTip]"
+			blockoverride "On_click"
+			{
+				onclick = "[GetVariableSystem.Clear('game_rules'))]"
+				onclick = "[LobbyView.GoBack]"
+			}
+		}
 	}
 
 	textbox = {
@@ -2015,846 +2296,1251 @@ JominiMultiplayerLobby = {
 			}
 		}
 	}
-
+	state = {
+		name = _show
+		on_start = "[GetVariableSystem.Set( 'show_south_europe_missions', 'yes' )]"
+		trigger_on_create = yes
+	}
 	window = {
-		position = { 338 10 }
-
-		flowcontainer = {
-			ignoreinvisible = yes
-			visible = "[Not(IsSaveGame)]"
-			spacing = 9
-			direction = vertical
-			resizeparent = yes
-
-			country_flag = {
-				name = "Rome"
-				tooltip = "ROMINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ROM').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'The Punic Wars' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('ROM').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ROM').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
+		size = { 742 165 }
+		filter_mouse = left|right
+		alwaystransparent = no
+		movable = no
+		parentanchor = hcenter|bottom
+		visible = "[Not(IsSaveGame)]"
+		base_window = {
+			vbox = {
+				position = { 0 -60 }
+				top_window_header_for_layout_centered = {
+					layoutpolicy_horizontal = expanding
+					visible = "[Not(IsLocalPlayerReplayingCommands)]"
+					blockoverride "Title_text" { text = "Nations with Missions" }
+					blockoverride "White_buttons" {}
+					tooltip = "All nations that have a unique mission tree can be seen here."
 				}
+			}
+			movable = no
+			size = { 742 165 }
+			parentanchor = bottom
+			blockoverride "BackgroundGradient" { visible = no }
+			container = {
+				name = "reccommended_nations_container"
+				flowcontainer = {
+					position = { 13 55 }
+					@mincategorybuttonwidth = 143
+					@maxcategorybuttonwidth = 143
+					@mincategorybuttonheight = 28
+					@maxcategorybuttonheight = 32
 
-				blockoverride "size"
-				{
-					size = { 42 42 }
+					category_tab = {
+						name = "greek_missions_tab"
+						blockoverride "MinSize" { size = { @mincategorybuttonwidth @mincategorybuttonheight } }
+						blockoverride "MaxSize" { size = { @maxcategorybuttonwidth @maxcategorybuttonheight } }
+						blockoverride "MinVisible" { visible = "[Not( GetVariableSystem.HasValue( 'show_south_europe_missions', 'yes' ) )]" }
+						blockoverride "MaxVisible" { visible = "[GetVariableSystem.HasValue( 'show_south_europe_missions', 'yes' )]" }
+						blockoverride "Center_text" { text = "South Europe" }
+						blockoverride "Icon" { visible = no }
+						blockoverride "ClickFunction"
+						{
+							onclick = "[GetVariableSystem.Set( 'show_south_europe_missions', 'yes' )]"
+							onclick = "[GetVariableSystem.Set( 'show_north_europe_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_africa_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_asia_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_indian_missions', 'no' )]"
+						}
+					}
+					category_tab = {
+						name = "german_missions_tab"
+						blockoverride "MinSize" { size = { @mincategorybuttonwidth @mincategorybuttonheight } }
+						blockoverride "MaxSize" { size = { @maxcategorybuttonwidth @maxcategorybuttonheight } }
+						blockoverride "MinVisible" { visible = "[Not( GetVariableSystem.HasValue( 'show_north_europe_missions', 'yes' ) )]" }
+						blockoverride "MaxVisible" { visible = "[GetVariableSystem.HasValue( 'show_north_europe_missions', 'yes' )]" }
+						blockoverride "Center_text" { text = "North Europe" }
+						blockoverride "Icon" { visible = no }
+						blockoverride "ClickFunction"
+						{
+							onclick = "[GetVariableSystem.Set( 'show_south_europe_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_north_europe_missions', 'yes' )]"
+							onclick = "[GetVariableSystem.Set( 'show_africa_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_asia_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_indian_missions', 'no' )]"
+						}
+					}
+					category_tab = {
+						name = "africa_missions_tab"
+						blockoverride "MinSize" { size = { @mincategorybuttonwidth @mincategorybuttonheight } }
+						blockoverride "MaxSize" { size = { @maxcategorybuttonwidth @maxcategorybuttonheight } }
+						blockoverride "MinVisible" { visible = "[Not( GetVariableSystem.HasValue( 'show_africa_missions', 'yes' ) )]" }
+						blockoverride "MaxVisible" { visible = "[GetVariableSystem.HasValue( 'show_africa_missions', 'yes' )]" }
+						blockoverride "Center_text" { text = "Africa" }
+						blockoverride "Icon" { visible = no }
+						blockoverride "ClickFunction"
+						{
+							onclick = "[GetVariableSystem.Set( 'show_south_europe_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_north_europe_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_africa_missions', 'yes' )]"
+							onclick = "[GetVariableSystem.Set( 'show_asia_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_indian_missions', 'no' )]"
+						}
+					}
+					category_tab = {
+						name = "asia_missions_tab"
+						blockoverride "MinSize" { size = { @mincategorybuttonwidth @mincategorybuttonheight } }
+						blockoverride "MaxSize" { size = { @maxcategorybuttonwidth @maxcategorybuttonheight } }
+						blockoverride "MinVisible" { visible = "[Not( GetVariableSystem.HasValue( 'show_asia_missions', 'yes' ) )]" }
+						blockoverride "MaxVisible" { visible = "[GetVariableSystem.HasValue( 'show_asia_missions', 'yes' )]" }
+						blockoverride "Center_text" { text = "Asia" }
+						blockoverride "Icon" { visible = no }
+						blockoverride "ClickFunction"
+						{
+							onclick = "[GetVariableSystem.Set( 'show_south_europe_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_north_europe_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_africa_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_asia_missions', 'yes' )]"
+							onclick = "[GetVariableSystem.Set( 'show_indian_missions', 'no' )]"
+						}
+					}
+					category_tab = {
+						name = "indian_missions_tab"
+						blockoverride "MinSize" { size = { @mincategorybuttonwidth @mincategorybuttonheight } }
+						blockoverride "MaxSize" { size = { @maxcategorybuttonwidth @maxcategorybuttonheight } }
+						blockoverride "MinVisible" { visible = "[Not( GetVariableSystem.HasValue( 'show_indian_missions', 'yes' ) )]" }
+						blockoverride "MaxVisible" { visible = "[GetVariableSystem.HasValue( 'show_indian_missions', 'yes' )]" }
+						blockoverride "Center_text" { text = "India" }
+						blockoverride "Icon" { visible = no }
+						blockoverride "ClickFunction"
+						{
+							onclick = "[GetVariableSystem.Set( 'show_south_europe_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_north_europe_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_africa_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_asia_missions', 'no' )]"
+							onclick = "[GetVariableSystem.Set( 'show_indian_missions', 'yes' )]"
+						}
+					}
 				}
+				flowcontainer = {
+					spacing = 11
+					position = { 14 100 }
+					visible = "[GetVariableSystem.HasValue( 'show_south_europe_missions', 'yes' )]"
+					country_flag = {
+						tooltip = "rome_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ROM').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
 
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('ROM')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('ROM').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('ROM').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('ROM')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					widget = {
+						size = { 50 50 }
+
+						bg_glow = {
+							visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
+						}
+
+						country_flag = {
+							#position = { 164 0 }
+							name = "Macedon2"
+							onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAC').Self )]"
+							onmousehierarchyleave = "[ClearHighlightColors]"
+
+							tooltipwidget = {
+								using = double_piece_tooltip_vert
+
+								blockoverride "visible" {
+									visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
+								}
+
+								blockoverride "TopText" {
+									text = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
+								}
+								blockoverride "BotText" {
+									text = "MACINTRO"
+								}
+							}
+
+							blockoverride "flag"
+							{
+								texture = "[GetCountry('MAC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+								frame = "[GetCountry('MAC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+								framesize = { 120 120 }
+							}
+
+							blockoverride "size"
+							{
+								size = { 50 50 }
+							}
+
+							blockoverride "click"
+							{
+								onclick = "[SetLobbyCountryTag('MAC')]"
+								clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+								oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+							}
+						}
+					}
+					country_flag = {
+						tooltip = "epirus_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EPI').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('EPI').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('EPI').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('EPI')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "syracuse_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SYR').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('SYR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('SYR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('SYR')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "thrace_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('TRE').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('TRE').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('TRE').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('TRE')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					widget = {
+						size = { 50 50 }
+
+						bg_glow = {
+							visible = "[Not( HasDlc( 'Magna Graecia' ) )]"
+						}
+
+						country_flag = {
+							name = "Athens2"
+							onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ATH').Self )]"
+							onmousehierarchyleave = "[ClearHighlightColors]"
+
+							tooltipwidget = {
+								using = double_piece_tooltip_vert
+
+								blockoverride "visible" {
+									visible = "[Not( HasDlc( 'Magna Graecia' ) )]"
+								}
+
+								blockoverride "TopText" {
+									text = "UNOWNED_DLC_STRING_MAGNA_GRAECIA"
+								}
+								blockoverride "BotText" {
+									text = "ATHINTRO"
+								}
+							}
+
+							blockoverride "flag"
+							{
+								texture = "[GetCountry('ATH').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+								frame = "[GetCountry('ATH').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+								framesize = { 120 120 }
+							}
+
+							blockoverride "size"
+							{
+								size = { 50 50 }
+							}
+
+							blockoverride "click"
+							{
+								onclick = "[SetLobbyCountryTag('ATH')]"
+								clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+								oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+							}
+						}
+					}
+					widget = {
+						size = { 50 50 }
+
+						bg_glow = {
+							visible = "[Not( HasDlc( 'Magna Graecia' ) )]"
+						}
+
+						country_flag = {
+							name = "Sparta2"
+							onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SPA').Self )]"
+							onmousehierarchyleave = "[ClearHighlightColors]"
+
+							tooltipwidget = {
+								using = double_piece_tooltip_vert
+
+								blockoverride "visible" {
+									visible = "[Not( HasDlc( 'Magna Graecia' ) )]"
+								}
+
+								blockoverride "TopText" {
+									text = "UNOWNED_DLC_STRING_MAGNA_GRAECIA"
+								}
+								blockoverride "BotText" {
+									text = "SPAINTRO"
+								}
+							}
+
+							blockoverride "flag"
+							{
+								texture = "[GetCountry('SPA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+								frame = "[GetCountry('SPA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+								framesize = { 120 120 }
+							}
+
+							blockoverride "size"
+							{
+								size = { 50 50 }
+							}
+
+							blockoverride "click"
+							{
+								onclick = "[SetLobbyCountryTag('SPA')]"
+								clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+								oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+							}
+						}
+
+					}
+					country_flag = {
+						tooltip = "argos_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ARG').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('ARG').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('ARG').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('ARG')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "thebes_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('THE').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('THE').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('THE').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('THE')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "massilia_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAS').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('MAS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('MAS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('MAS')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+				}
+				flowcontainer = {
+					spacing = 11
+					position = { 14 100 }
+					visible = "[GetVariableSystem.HasValue( 'show_north_europe_missions', 'yes' )]"
+					country_flag = {
+						tooltip = "scythia_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SCY').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('SCY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('SCY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('SCY')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					#country_flag = {
+					#	tooltip = "boihaemia_start"
+					#	onmousehierarchyenter = "[SetHighlightCountry( GetCountry('BOA').Self )]"
+					#	onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+					#	blockoverride "flag"
+					#	{
+					#		texture = "[GetCountry('BOA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					#		frame = "[GetCountry('BOA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					#		framesize = { 120 120 }
+					#	}
+
+					#	blockoverride "size"
+					#	{
+					#		size = { 50 50 }
+					#	}
+
+					#	blockoverride "click"
+					#	{
+					#		onclick = "[SetLobbyCountryTag('BOA')]"
+					#		clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					#		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					#	}
+					#}
+					#country_flag = {
+					#	tooltip = "haria_start"
+					#	onmousehierarchyenter = "[SetHighlightCountry( GetCountry('X28').Self )]"
+					#	onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+					#	blockoverride "flag"
+					#	{
+					#		texture = "[GetCountry('X28').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					#		frame = "[GetCountry('X28').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					#		framesize = { 120 120 }
+					#	}
+
+					#	blockoverride "size"
+					#	{
+					#		size = { 50 50 }
+					#	}
+
+					#	blockoverride "click"
+					#	{
+					#		onclick = "[SetLobbyCountryTag('X28')]"
+					#		clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					#		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					#	}
+					#}
+					#country_flag = {
+					#	tooltip = "semnonia_start"
+					#	onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SMN').Self )]"
+					#	onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+					#	blockoverride "flag"
+					#	{
+					#		texture = "[GetCountry('SMN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					#		frame = "[GetCountry('SMN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					#		framesize = { 120 120 }
+					#	}
+
+					#	blockoverride "size"
+					#	{
+					#		size = { 50 50 }
+					#	}
+
+					#	blockoverride "click"
+					#	{
+					#		onclick = "[SetLobbyCountryTag('SMN')]"
+					#		clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					#		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					#	}
+					#}
+					#country_flag = {
+					#	tooltip = "marcomannia_start"
+					#	onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MCM').Self )]"
+					#	onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+					#	blockoverride "flag"
+					#	{
+					#		texture = "[GetCountry('MCM').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					#		frame = "[GetCountry('MCM').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					#		framesize = { 120 120 }
+					#	}
+
+					#	blockoverride "size"
+					#	{
+					#		size = { 50 50 }
+					#	}
+
+					#	blockoverride "click"
+					#	{
+					#		onclick = "[SetLobbyCountryTag('MCM')]"
+					#		clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					#		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					#	}
+					#}
+					#country_flag = {
+					#	tooltip = "frisia_start"
+					#	onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SXS').Self )]"
+					#	onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+					#	blockoverride "flag"
+					#	{
+					#		texture = "[GetCountry('SXS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					#		frame = "[GetCountry('SXS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					#		framesize = { 120 120 }
+					#	}
+
+					#	blockoverride "size"
+					#	{
+					#		size = { 50 50 }
+					#	}
+
+					#	blockoverride "click"
+					#	{
+					#		onclick = "[SetLobbyCountryTag('SXS')]"
+					#		clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					#		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					#	}
+					#}
+					#country_flag = {
+					#	tooltip = "guthonia_start"
+					#	onmousehierarchyenter = "[SetHighlightCountry( GetCountry('GTH').Self )]"
+					#	onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+					#	blockoverride "flag"
+					#	{
+					#		texture = "[GetCountry('GTH').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					#		frame = "[GetCountry('GTH').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					#		framesize = { 120 120 }
+					#	}
+
+					#	blockoverride "size"
+					#	{
+					#		size = { 50 50 }
+					#	}
+
+					#	blockoverride "click"
+					#	{
+					#		onclick = "[SetLobbyCountryTag('GTH')]"
+					#		clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					#		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					#	}
+					#}
+					#country_flag = {
+					#	tooltip = "bastarnia_start"
+					#	onmousehierarchyenter = "[SetHighlightCountry( GetCountry('BST').Self )]"
+					#	onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+					#	blockoverride "flag"
+					#	{
+					#		texture = "[GetCountry('BST').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					#		frame = "[GetCountry('BST').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					#		framesize = { 120 120 }
+					#	}
+
+					#	blockoverride "size"
+					#	{
+					#		size = { 50 50 }
+					#	}
+
+					#	blockoverride "click"
+					#	{
+					#		onclick = "[SetLobbyCountryTag('BST')]"
+					#		clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					#		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					#	}
+					#}
+					#country_flag = {
+					#	tooltip = "osismia_start"
+					#	onmousehierarchyenter = "[SetHighlightCountry( GetCountry('OSM').Self )]"
+					#	onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+					#	blockoverride "flag"
+					#	{
+					#		texture = "[GetCountry('OSM').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					#		frame = "[GetCountry('OSM').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					#		framesize = { 120 120 }
+					#	}
+
+					#	blockoverride "size"
+					#	{
+					#		size = { 50 50 }
+					#	}
+
+					#	blockoverride "click"
+					#	{
+					#		onclick = "[SetLobbyCountryTag('OSM')]"
+					#		clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					#		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					#	}
+					#}
+					#country_flag = {
+					#	tooltip = "chattia_start"
+					#	onmousehierarchyenter = "[SetHighlightCountry( GetCountry('X01').Self )]"
+					#	onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+					#	blockoverride "flag"
+					#	{
+					#		texture = "[GetCountry('X01').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					#		frame = "[GetCountry('X01').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					#		framesize = { 120 120 }
+					#	}
+
+					#	blockoverride "size"
+					#	{
+					#		size = { 50 50 }
+					#	}
+
+					#	blockoverride "click"
+					#	{
+					#		onclick = "[SetLobbyCountryTag('X01')]"
+					#		clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					#		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					#	}
+					#}
+					#country_flag = {
+					#	tooltip = "insubria_start"
+					#	onmousehierarchyenter = "[SetHighlightCountry( GetCountry('INS').Self )]"
+					#	onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+					#	blockoverride "flag"
+					#	{
+					#		texture = "[GetCountry('INS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					#		frame = "[GetCountry('INS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					#		framesize = { 120 120 }
+					#	}
+
+					#	blockoverride "size"
+					#	{
+					#		size = { 50 50 }
+					#	}
+
+					#	blockoverride "click"
+					#	{
+					#		onclick = "[SetLobbyCountryTag('INS')]"
+					#		clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					#		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					#	}
+					#}
+				}
+				flowcontainer = {
+					spacing = 11
+					position = { 14 100 }
+					visible = "[GetVariableSystem.HasValue( 'show_africa_missions', 'yes' )]"
+					widget = {
+						size = { 50 50 }
+
+						bg_glow = {
+							visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
+						}
+
+						country_flag = {
+							name = "Carthage2"
+							onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CAR').Self )]"
+							onmousehierarchyleave = "[ClearHighlightColors]"
+
+							tooltipwidget = {
+								using = double_piece_tooltip_vert
+
+								blockoverride "visible" {
+									visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
+								}
+								blockoverride "TopText" {
+									text = "UNOWNED_DLC_STRING_PUNIC_WARS"
+								}
+								blockoverride "BotText" {
+									text = "CARINTRO"
+								}
+							}
+
+							blockoverride "flag"
+							{
+								texture = "[GetCountry('CAR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+								frame = "[GetCountry('CAR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+								framesize = { 120 120 }
+							}
+
+							blockoverride "size"
+							{
+								size = { 50 50 }
+							}
+
+							blockoverride "click"
+							{
+								onclick = "[SetLobbyCountryTag('CAR')]"
+								clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+								oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+							}
+						}
+					}
+					country_flag = {
+						tooltip = "egypt_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EGY').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('EGY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('EGY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('EGY')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "cyrenaica_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CYR').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('CYR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('CYR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('CYR')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						name = "Kush"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('KSH').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+						tooltip = "kush_start"
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('KSH').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('KSH').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('KSH')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						name = "Aksum"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('AXM').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+						tooltip = "aksum_start"
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('AXM').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('AXM').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('AXM')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						name = "Fezzan"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('GAR').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+						tooltip = "garamantia_start"
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('GAR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('GAR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('GAR')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						name = "Numidia"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MSS').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+						tooltip = "massaesylia_start"
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('MSS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('MSS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('MSS')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+				}
+				flowcontainer = {
+					spacing = 11
+					position = { 14 100 }
+					visible = "[GetVariableSystem.HasValue( 'show_asia_missions', 'yes' )]"
+					country_flag = {
+						tooltip = "antigonid_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PRY').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('PRY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('PRY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('PRY')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "seleukid_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SEL').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('SEL').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('SEL').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('SEL')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "bithynia_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('BIT').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('BIT').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('BIT').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('BIT')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "rhodes_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('RHO').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('RHO').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('RHO').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('RHO')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "judea_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('JUD').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('JUD').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('JUD').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('JUD')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "bactria_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('BAC').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('BAC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('BAC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('BAC')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+				}
+				flowcontainer = {
+					spacing = 11
+					position = { 14 100 }
+					visible = "[GetVariableSystem.HasValue( 'show_indian_missions', 'yes' )]"
+					country_flag = {
+						tooltip = "maurya_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MRY').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('MRY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('MRY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('MRY')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "anuradhpura_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ANU').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('ANU').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('ANU').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('ANU')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "chola_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CHL').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('CHL').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('CHL').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('CHL')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "pandya_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PND').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('PND').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('PND').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('PND')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "chera_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CHR').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('CHR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('CHR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('CHR')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
+					country_flag = {
+						tooltip = "kalinga_start"
+						onmousehierarchyenter = "[SetHighlightCountry( GetCountry('KAL').Self )]"
+						onmousehierarchyleave = "[ClearHighlightColors]"
+
+
+						blockoverride "flag"
+						{
+							texture = "[GetCountry('KAL').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+							frame = "[GetCountry('KAL').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+							framesize = { 120 120 }
+						}
+
+						blockoverride "size"
+						{
+							size = { 50 50 }
+						}
+
+						blockoverride "click"
+						{
+							onclick = "[SetLobbyCountryTag('KAL')]"
+							clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						}
+					}
 				}
 			}
 
-			country_flag = {
-				name = "Rome2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ROM').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('ROM').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ROM').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('ROM')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Carthage"
-				tooltip = "CARINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CAR').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'The Punic Wars' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('CAR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('CAR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('CAR')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Carthage2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CAR').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('CAR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('CAR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('CAR')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Epirus"
-				tooltip = "EPIINTRO" #TODO TEAM CD
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EPI').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Epirus Flavor Pack' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('EPI').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('EPI').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('EPI')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Epirus2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EPI').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Epirus Flavor Pack' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_EPIRUS_FLAVOR"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('EPI').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('EPI').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('EPI')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Sparta"
-				tooltip = "SPAINTRO" #TODO TEAM CD
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SPA').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Magna Graecia' )]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('SPA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('SPA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('SPA')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Sparta2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SPA').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Magna Graecia' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_MAGNA_GRAECIA"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('SPA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('SPA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('SPA')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Syracusae"
-				tooltip = "SYRINTRO" #TODO TEAM CD
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SYR').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Magna Graecia' )]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('SYR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('SYR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('SYR')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Syracusae2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SYR').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Magna Graecia' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_MAGNA_GRAECIA"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('SYR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('SYR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('SYR')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Athens"
-				tooltip = "ATHINTRO" #TODO TEAM CD
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ATH').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Magna Graecia' )]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('ATH').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ATH').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('ATH')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Athens2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ATH').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Magna Graecia' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_MAGNA_GRAECIA"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('ATH').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ATH').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('ATH')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Massalia"
-				tooltip = "MASINTRO" #TODO TEAM CD
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAS').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('MAS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('MAS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('MAS')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Egypt"
-				tooltip = "EGYINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EGY').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Heirs of Alexander' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('EGY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('EGY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('EGY')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Egypt2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EGY').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('EGY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('EGY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('EGY')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				#position = { 164 0 }
-				name = "Macedon"
-				tooltip = "MACINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAC').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Heirs of Alexander' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('MAC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('MAC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('MAC')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				#position = { 164 0 }
-				name = "Macedon2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAC').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('MAC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('MAC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('MAC')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				#position = { 218 0 }
-				name = "Seleucids"
-				tooltip = "SELINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SEL').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Heirs of Alexander' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('SEL').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('SEL').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('SEL')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				#position = { 218 0 }
-				name = "Seleucids2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SEL').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('SEL').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('SEL').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('SEL')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				#position = { 272 0 }
-				name = "Phrygia"
-				tooltip = "PRYINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PRY').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Heirs of Alexander' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('PRY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('PRY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('PRY')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				#position = { 272 0 }
-				name = "Phrygia2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PRY').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('PRY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('PRY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('PRY')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				#position = { 272 0 }
-				name = "Thrace"
-				tooltip = "TREINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('TRE').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Heirs of Alexander' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('TRE').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('TRE').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('TRE')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				#position = { 272 0 }
-				name = "Thrace2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('TRE').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('TRE').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('TRE').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('TRE')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-			country_flag = {
-				name = "Qin"
-				tooltip = "QININTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('QIN').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('QIN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('QIN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('QIN')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Qi"
-				tooltip = "QIIINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('QII').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('QII').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('QII').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('QII')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Chu"
-				tooltip = "CHUINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CHU').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('CHU').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('CHU').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('CHU')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Yan"
-				tooltip = "YANINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('YAN').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('YAN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('YAN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('YAN')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Zhao"
-				tooltip = "ZHAINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ZHA').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('ZHA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ZHA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('ZHA')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Wei"
-				tooltip = "WEIINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('WEI').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('WEI').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('WEI').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('WEI')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Joseon"
-				tooltip = "JOSEONINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('JSN').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('JSN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('JSN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('JSN')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-
-			country_flag = {
-				name = "Yamato"
-				tooltip = "YAMATOINTRO" #
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('YMT').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('YMT').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('YMT').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('YMT')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
 		}
+
+
 	}
 
 	base_window = {
@@ -2912,6 +3598,185 @@ JominiMultiplayerLobby = {
 							}
 						}
 					}
+				}
+			}
+		}
+	}
+
+	base_window = {
+		movable = no
+		size = { 332 55 }
+		#visible = "[Not( GetVariableSystem.Exists('multiplayer_visible') )]"
+		blockoverride "GradientAlpha" {
+			alpha = 0.35
+			size = { 100% 100% }
+		}
+		vbox = {
+			using = MainWindowHeaderBoxState
+			margin_bottom = 8
+
+			blockoverride "Title_text"
+			{
+				text = "JOMINI_MULTIPLAYER_GUI_SESSION_HEADER"
+			}
+
+			blockoverride "Max_text_width"
+			{
+				max_width = 300
+			}
+
+			blockoverride "HideButton"
+			{
+				onclick = "[GetVariableSystem.Toggle('multiplayer_visible')]"
+			}
+
+			blockoverride "White_buttons"
+			{
+			}
+		}
+		flowcontainer = {
+			ignoreinvisible = yes
+			parentanchor = vcenter|right
+			position = { -15 0 }
+			white_button_round = {
+				alwaystransparent = yes
+				size = { 26 26 }
+				visible = "[GetVariableSystem.Exists('multiplayer_visible')]"
+				blockoverride "Icon" { texture = "gfx/interface/base_parts/up_arrow.dds" }
+				blockoverride "On_click" { alwaystransparent = yes }
+				layoutpolicy_horizontal = fixed
+			}
+
+			white_button_round = {
+				alwaystransparent = yes
+				layoutpolicy_horizontal = fixed
+				size = { 26 26 }
+				blockoverride "Icon" { texture = "gfx/interface/base_parts/down_arrow.dds" }
+				visible = "[Not( GetVariableSystem.Exists('multiplayer_visible') )]"
+				blockoverride "On_click" { alwaystransparent = yes }
+
+			}
+		}
+	}
+
+	#mod
+	base_window = {
+		movable = yes
+		minimumsize = { -1 100 }
+		parentanchor = center
+		visible = "[GetVariableSystem.Exists('game_rules')]"
+
+		vbox = {
+			resizeparent = yes
+			margin_bottom = 10
+			top_window_header_for_layout = {
+				layoutpolicy_horizontal = expanding
+				blockoverride "Title_text" { text = "game_rules" }
+				blockoverride "White_buttons" {
+					button_close = {
+						onclick = "[GetVariableSystem.Clear('game_rules')]"
+					}
+				}
+			}
+
+			widget = {
+				size = { 0 5 }
+			}
+
+			scrollarea = {
+				#resize the window  here, also change @textwidth at the top
+				maximumsize = { 650 600 }
+				minimumsize = { 650 40 }
+				scrollbar_vertical = {
+					using = VerticalScrollBar
+				}
+				scrollbarpolicy_horizontal = always_off
+
+				scrollwidget = {
+					vbox = {
+						resizeparent = yes
+						margin = { 20 0 }
+						margin_top = 15
+						enabled = "[PlayerIsHost]"
+						spacing = 5
+
+						tag = {
+							text = "host_rules"
+							visible = "[And(GameIsMultiplayer, Not(PlayerIsHost))]"
+						}
+
+						#game_rule = {
+						#	datacontext = "[GetScriptedGui('test_rule')]"
+						#	blockoverride "name" {
+						#		text = "Start with 1000 extra gold"
+						#	}
+						#	blockoverride "desc" {
+						#		text = "[Select_CString(ScriptedGui.IsShown(GuiScope.SetRoot(Player.MakeScope).End), 'Every contry recieves 1000 gold on start', 'No gold bonus on start')]"
+						#	}
+						#}
+
+						game_rule = {
+							datacontext = "[GetScriptedGui('diadochi_names')]"
+							blockoverride "name" {
+								text = "diadochi_names"
+							}
+							blockoverride "desc" {
+								text = "diadochi_names_desc"
+							}
+						}
+
+						#game_rule_radio = {
+						#	datacontext = "[GetScriptedGui('test_radio_1')]"
+						#	blockoverride "name" {
+						#		text = "No stability bonus"
+						#	}
+						#}
+
+						#game_rule_radio = {
+						#	datacontext = "[GetScriptedGui('test_radio_2')]"
+						#	blockoverride "name" {
+						#		text = "Start with 10 extra stability"
+						#		tooltip = "Applies to all countries"
+						#	}
+						#}
+
+						#game_rule_radio = {
+						#	datacontext = "[GetScriptedGui('test_radio_3')]"
+						#	blockoverride "name" {
+						#		text = "Start with 50 extra stability"
+						#		tooltip = "Applies to all countries"
+						#	}
+						#}
+
+						widget = {
+							size = { 0 10 }
+						}
+
+						game_rule = {
+							datacontext = "[GetScriptedGui('diadochi_old')]"
+							blockoverride "name" {
+								text = "diadochi_old"
+							}
+							blockoverride "desc" {
+								text = "diadochi_old_desc"
+							}
+						}
+
+						expand = {}
+					}
+				}
+			}
+
+			hbox = {
+				#visible = no
+				margin = { 20 0 }
+				margin_top = 10
+				layoutpolicy_horizontal = expanding
+				text_button_square = {
+					size = { 0 30 }
+					layoutpolicy_horizontal = expanding
+					blockoverride "On_click" { onclick = "[GetVariableSystem.Clear('game_rules')]" }
+					blockoverride "Center_text" { text = "MENU_BAR_CLOSE" }
 				}
 			}
 		}
@@ -3265,110 +4130,4 @@ JominiMultiplayerOosMessage = {
 			}
 		}
 	}
-
-	########################################
-	###### OLD, KEEP FOR REFERENCE
-	########################################
-	#	background = {
-	#		texture = "gfx/interface/tiles/marble_tile_l.dds"
-	#		spriteType = Corneredtiled
-	#		spriteborder = { 0 0 }
-	#		margin = { -6 -6 }
-	#		shaderfile = "gfx/FX/pdxgui_default.shader"
-	#	}
-	#}
-
-	#blockoverride "oos_item" {
-	#	layoutpolicy_horizontal = expanding
-
-	#	hbox = {
-	#		datacontext = "[OosData.GetPlayable.GetCountry]"
-	#		layoutpolicy_horizontal = expanding
-
-	#		widget = {
-	#			size = { 120 120 }
-
-	#			country_flag = {
-	#				visible = "[Not( OosData.IsObserver )]"
-
-	#				blockoverride "flag" {
-	#					texture = "[Country.AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-	#					frame = "[Country.AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-	#					framesize = { 120 120 }
-	#				}
-	#			}
-	#		}
-
-	#		vbox = {
-	#			layoutpolicy_horizontal = expanding
-	#			margin = { 5 0 }
-
-	#			textbox = {
-	#				text = "[Country.GetName]"
-	#				visible = "[Not( OosData.IsObserver )]"
-	#				autoresize = yes
-	#					layoutpolicy_horizontal = expanding
-	#					using = MarbleButtonFontS
-	#				}
-	#
-	#			textbox = {
-	#				text = "JOMINI_MULTIPLAYER_GUI_OBSERVER"
-	#				visible = "[OosData.IsObserver]"
-	#				autoresize = yes
-	#				layoutpolicy_horizontal = expanding
-	#				using = MarbleButtonFontS
-	#			}
-
-	#			textbox = {
-	#				text = "JOMINI_MULTIPLAYER_GUI_OOS_MESSAGE_PLAYER_NAME"
-	#				max_width = 490
-	#				autoresize = yes
-	#				layoutpolicy_horizontal = expanding
-	#				using = MarbleButtonFontS
-	#			}
-
-	#			textbox = {
-	#				text = "JOMINI_MULTIPLAYER_GUI_OOS_MESSAGE_TYPE"
-	#				max_width = 490
-	#				autoresize = yes
-	#				layoutpolicy_horizontal = expanding
-	#				using = MarbleButtonFontS
-	#			}
-
-	#			textbox = {
-	#				text = "JOMINI_MULTIPLAYER_GUI_OOS_MESSAGE_FOLDER"
-	#				max_width = 490
-	#				autoresize = yes
-	#				layoutpolicy_horizontal = expanding
-	#				using = MarbleButtonFontS
-	#				multiline = yes
-	#			}
-	#		}
-	#	}
-	#}
-
-	#blockoverride "oos_textbox" {
-	#	using = MarbleButtonFontS
-	#}
-
-	#blockoverride "oos_button" {
-	#	text = "Words.."
-	#	gfxtype = buttongfx
-	#	shaderfile = "gfx/FX/pdxgui_pushbutton.shader"
-	#	oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-	#	clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
-	#	texture = "gfx/interface/tiles/text_button_tiles.dds"
-	#	spriteType = Corneredtiled
-	#	spriteborder = { 80 0 }
-	#	size = { 300 46 }
-
-	#	buttonText = {
-	#		textbox = {
-	#			parentanchor = bottom|hcenter
-	#			using = MarbleButtonFont
-	#			autoresize = yes
-	#			position = { 0 -16 }
-	#		}
-	#	}
-	#}
 }

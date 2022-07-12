@@ -10,7 +10,7 @@ me_greek_5_pontus.1 = {							# Mission start
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.1.a
         add_country_modifier = {
         	name = me_gre_5_cmod
@@ -31,7 +31,7 @@ me_greek_5_pontus.2 = {							# Mission end
 		add_3_free_province_investments = yes
     }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.2.a
         custom_tooltip = me_greek_5_pontus.2.at
     }
@@ -47,7 +47,7 @@ me_greek_5_pontus.3 = {							#	2 - Expanding the Poleis
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.3.a
         custom_tooltip = me_greek_5_pontus.3.at
     }
@@ -63,7 +63,7 @@ me_greek_5_pontus.4 = {							#	3 - Convincing the Assembly start
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.4.a
         custom_tooltip = me_greek_5_pontus.4.at
     }
@@ -79,7 +79,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.5.a
         custom_tooltip = me_greek_5_pontus.5.at
     }
@@ -98,7 +98,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #
 #    trigger = { has_land = yes }
 #
-#    option = {      #
+#    option = {      # 
 #        name = me_greek_5_pontus.6.a
 #        custom_tooltip = me_greek_5_pontus.6.at
 #    }
@@ -122,7 +122,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #				value = 1
 #			}
 #		}
-#		hidden_effect = {
+#		hidden_effect = {	
 #			while = {	# Save up to 6 colonies
 #				limit = {
 #					any_country = {
@@ -153,7 +153,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #								this = scope:gm_5_colony_scope_6
 #							}
 #							this = root
-#						}
+#						}				
 #					}
 #				}
 #				ordered_country = {
@@ -185,7 +185,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #								this = scope:gm_5_colony_scope_6
 #							}
 #							this = root
-#						}
+#						}	
 #					}
 #					if = {
 #						limit = {
@@ -196,7 +196,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #					else_if = {
 #						limit = {
 #							exists = scope:gm_5_colony_scope_1
-#							NOR = {
+#							NOR = { 
 #								exists = scope:gm_5_colony_scope_2
 #								this = scope:gm_5_colony_scope_1
 #							}
@@ -207,7 +207,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #						limit = {
 #							exists = scope:gm_5_colony_scope_1
 #							exists = scope:gm_5_colony_scope_2
-#							NOR = {
+#							NOR = { 
 #								exists = scope:gm_5_colony_scope_3
 #								this = scope:gm_5_colony_scope_1
 #								this = scope:gm_5_colony_scope_2
@@ -220,7 +220,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #							exists = scope:gm_5_colony_scope_1
 #							exists = scope:gm_5_colony_scope_2
 #							exists = scope:gm_5_colony_scope_3
-#							NOR = {
+#							NOR = { 
 #								exists = scope:gm_5_colony_scope_4
 #								this = scope:gm_5_colony_scope_1
 #								this = scope:gm_5_colony_scope_2
@@ -235,7 +235,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #							exists = scope:gm_5_colony_scope_2
 #							exists = scope:gm_5_colony_scope_3
 #							exists = scope:gm_5_colony_scope_4
-#							NOR = {
+#							NOR = { 
 #								exists = scope:gm_5_colony_scope_5
 #								this = scope:gm_5_colony_scope_1
 #								this = scope:gm_5_colony_scope_2
@@ -252,7 +252,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #							exists = scope:gm_5_colony_scope_3
 #							exists = scope:gm_5_colony_scope_4
 #							exists = scope:gm_5_colony_scope_5
-#							NOR = {
+#							NOR = { 
 #								exists = scope:gm_5_colony_scope_6
 #								this = scope:gm_5_colony_scope_1
 #								this = scope:gm_5_colony_scope_2
@@ -278,7 +278,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #        gm_1_colony_option_effect = yes
 #    }
 
-#    option = {  	# City 2
+#    option = {  	# City 2    
 #        name = me_greek_5_pontus.7.b
 #		trigger = {
 #        	root.var:gm_colony_tracker = 1
@@ -317,7 +317,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #        gm_1_colony_option_effect = yes
 #    }
 
-#    option = {    	# City 5
+#    option = {    	# City 5  
 #        name = me_greek_5_pontus.7.e
 #        trigger = {
 #        	root.var:gm_colony_tracker = 2
@@ -349,14 +349,14 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #        	}
 #        }
 #        if = {
-#        	limit = { root.var:gm_colony_tracker = 1 }
+#        	limit = { root.var:gm_colony_tracker = 1 }	
 #        	change_variable = {
 #        		name = gm_colony_tracker
 #        		add = 1
 #        	}
 #        }
 #        else_if = {
-#        	limit = { root.var:gm_colony_tracker = 2 }
+#        	limit = { root.var:gm_colony_tracker = 2 }	
 #        	change_variable = {
 #        		name = gm_colony_tracker
 #        		subtract = 1
@@ -435,11 +435,11 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #			base = 2
 #		}
 #    }
-
-#    option = {   	# Counter offer
+	
+#    option = {   	# Counter offer 
 #        name = me_greek_5_pontus.71.b
 #        custom_tooltip = me_greek_5_pontus.71.bt
-#        scope:gm_5_greek_scope = {
+#        scope:gm_5_greek_scope = { 
 #			set_variable = {
 #				name = gm_colony_response
 #				value = 2
@@ -466,7 +466,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #		}
 #	}
 
-#	option = {   	# Reject
+#	option = {   	# Reject 
 #        name = me_greek_5_pontus.71.c
 #        current_ruler = { add_popularity = popularity_small }
 #        custom_tooltip = me_greek_5_pontus.71.ct
@@ -474,7 +474,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #			target = scope:gm_5_greek_scope
 #			modifier = me_gre_1_barter_rejection_opmod
 #		}
-#        scope:gm_5_greek_scope = {
+#        scope:gm_5_greek_scope = { 
 #			set_variable = {
 #				name = gm_colony_response
 #				value = 3
@@ -555,7 +555,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #        name = me_greek_5_pontus.72.a
 #        trigger = { root.var:gm_colony_response = 1 }
 #    }
-
+	
 #    option = {    # Counter offer - accept
 #        name = me_greek_5_pontus.72.b
 #        trigger = { root.var:gm_colony_response = 2 }
@@ -587,7 +587,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #        name = me_greek_5_pontus.72.d
 #        trigger = { root.var:gm_colony_response = 3 }
 #        scope:gm_family_head_5 = { add_popularity = subtract_popularity_small }
-#        scope:gm_5_colony_target_country = {
+#        scope:gm_5_colony_target_country = { 
 #        	every_owned_province = { add_claim = root }
 #        }
 #	}
@@ -602,13 +602,13 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 #    	desc = me_greek_5_pontus.73.desc
 #		first_valid = {
 #			triggered_desc = {		# Accepted
-#				trigger = {
+#				trigger = { 
 #					is_subject_of = scope:gm_5_greek_scope
 #				}
 #				desc = "me_greek_5_pontus.73.desc_1"
 #			}
 #			triggered_desc = {		# Rejected
-#				trigger = {
+#				trigger = { 
 #					NOT = { is_subject_of = scope:gm_5_greek_scope }
 #				}
 #				desc = "me_greek_5_pontus.73.desc_2"
@@ -623,8 +623,8 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 
 #    trigger = { has_land = yes }
 
-#    option = {      # Counter accepted
-#        name = me_greek_5_pontus.73.a
+#    option = {      # Counter accepted 
+#        name = me_greek_5_pontus.73.a			
 #        trigger = { is_subject_of = scope:gm_5_greek_scope }
 #        add_treasury = { 	# Add double price
 #			value = gm_1_colony_double_value
@@ -639,7 +639,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 
 #    option = {      # Counter rejected
 #        name = me_greek_5_pontus.73.b
-#        trigger = {
+#        trigger = { 
 #        	NOT = { is_subject_of = scope:gm_5_greek_scope }
 #        }
 #        custom_tooltip = me_greek_5_pontus.73.ct
@@ -654,7 +654,7 @@ me_greek_5_pontus.5 = {							#	3 - Convincing the Assembly end
 
 #    trigger = { has_land = yes }
 
-#    option = {
+#    option = {      
 #        name = me_greek_5_pontus.8.a
 #        custom_tooltip = me_greek_5_pontus.8.at
 #    }
@@ -673,7 +673,7 @@ me_greek_5_pontus.9 = {							#	5 - Border Friction start
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.9.a
     }
 }
@@ -691,7 +691,7 @@ me_greek_5_pontus.10 = {							#	5 - Border Friction end
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.10.a
         custom_tooltip = me_greek_5_pontus.10.at
     }
@@ -705,7 +705,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.11.a
         custom_tooltip = me_greek_5_pontus.11.at
     }
@@ -721,7 +721,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 
 #    trigger = { has_land = yes }
 
-#    option = {      #
+#    option = {      # 
 #        name = me_greek_5_pontus.12.a
 #        custom_tooltip = me_greek_5_pontus.12.at
 #    }
@@ -746,14 +746,14 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #			name = gm_bartering_tracker
 #			value = 1
 #		}
-#		hidden_effect = {
+#		hidden_effect = {	
 #			while = {	# Save up to 6 barbarian owned Euxine ports
 #				limit = {
 #					any_in_list = {
 #						list = gm_1_list
 #						exists = owner
 #						owner = {
-#							NOR = {
+#							NOR = { 
 #								this = root
 #								country_culture_group = hellenic
 #								war_with = root
@@ -796,14 +796,14 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #							exists = scope:gm_5_bartering_scope_5
 #							exists = scope:gm_5_bartering_scope_6
 #						}
-#					}
+#					}	
 #				}
 #				random_in_list = {
 #					list = gm_1_list
 #					limit = {
 #						exists = owner
 #						owner = {
-#							NOR = {
+#							NOR = { 
 #								this = root
 #								country_culture_group = hellenic
 #							}
@@ -820,7 +820,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #					else_if = {
 #						limit = {
 #							exists = scope:gm_5_bartering_scope_1
-#							NOR = {
+#							NOR = { 
 #								exists = scope:gm_5_bartering_scope_2
 #								this = scope:gm_5_bartering_scope_1
 #							}
@@ -831,7 +831,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #						limit = {
 #							exists = scope:gm_5_bartering_scope_1
 #							exists = scope:gm_5_bartering_scope_2
-#							NOR = {
+#							NOR = { 
 #								exists = scope:gm_5_bartering_scope_3
 #								this = scope:gm_5_bartering_scope_1
 #								this = scope:gm_5_bartering_scope_2
@@ -844,7 +844,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #							exists = scope:gm_5_bartering_scope_1
 #							exists = scope:gm_5_bartering_scope_2
 #							exists = scope:gm_5_bartering_scope_3
-#							NOR = {
+#							NOR = { 
 #								exists = scope:gm_5_bartering_scope_4
 #								this = scope:gm_5_bartering_scope_1
 #								this = scope:gm_5_bartering_scope_2
@@ -859,7 +859,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #							exists = scope:gm_5_bartering_scope_2
 #							exists = scope:gm_5_bartering_scope_3
 #							exists = scope:gm_5_bartering_scope_4
-#							NOR = {
+#							NOR = { 
 #								exists = scope:gm_5_bartering_scope_5
 #								this = scope:gm_5_bartering_scope_1
 #								this = scope:gm_5_bartering_scope_2
@@ -876,7 +876,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #							exists = scope:gm_5_bartering_scope_3
 #							exists = scope:gm_5_bartering_scope_4
 #							exists = scope:gm_5_bartering_scope_5
-#							NOR = {
+#							NOR = { 
 #								exists = scope:gm_5_bartering_scope_6
 #								this = scope:gm_5_bartering_scope_1
 #								this = scope:gm_5_bartering_scope_2
@@ -902,7 +902,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #        gm_1_barter_territory_effect = yes
 #    }
 
-#    option = {  	# City 2
+#    option = {  	# City 2    
 #        name = me_greek_5_pontus.121.b
 #		trigger = {
 #        	root.var:gm_bartering_tracker = 1
@@ -941,7 +941,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #        gm_1_barter_territory_effect = yes
 #    }
 
-#    option = {    	# City 5
+#    option = {    	# City 5  
 #        name = me_greek_5_pontus.121.e
 #        trigger = {
 #        	root.var:gm_bartering_tracker = 2
@@ -973,14 +973,14 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #        	}
 #        }
 #        if = {
-#        	limit = { root.var:gm_bartering_tracker = 1 }
+#        	limit = { root.var:gm_bartering_tracker = 1 }	
 #        	change_variable = {
 #        		name = gm_bartering_tracker
 #        		add = 1
 #        	}
 #        }
 #        else_if = {
-#        	limit = { root.var:gm_bartering_tracker = 2 }
+#        	limit = { root.var:gm_bartering_tracker = 2 }	
 #        	change_variable = {
 #        		name = gm_bartering_tracker
 #        		subtract = 1
@@ -998,12 +998,12 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #	    }
 #        custom_tooltip = me_greek_5_pontus.121.ht
 #        if = {
-#        	limit = {
+#        	limit = { 
 #        		exists = scope:gm_family_head_5
 #        		scope:gm_family_head_1 = { is_alive = yes }
 #        	}
 #        	scope:gm_family_head_5 = { add_loyalty = loyalty_encourager_dismissed }
-#        }
+#        } 
 #    }
 
 #    after = {
@@ -1062,11 +1062,11 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #			}
 #		}
 #    }
-
-#    option = {   	# Counter offer
+	
+#    option = {   	# Counter offer 
 #        name = me_greek_5_pontus.122.b
 #        custom_tooltip = me_greek_5_pontus.122.bt
-#        scope:gm_5_greek_scope = {
+#        scope:gm_5_greek_scope = { 
 #			set_variable = {
 #				name = gm_barter_response
 #				value = 2
@@ -1093,19 +1093,19 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #		}
 #	}
 
-#	option = {   	# Reject
+#	option = {   	# Reject 
 #       name = me_greek_5_pontus.122.c
 #        current_ruler = { add_popularity = popularity_small }
 #        custom_tooltip = me_greek_5_pontus.122.ct
 #		add_opinion = {
 #			target = scope:gm_5_greek_scope
 #			modifier = me_gre_1_barter_rejection_opmod
-#		}
+#		} 
 #		reverse_add_opinion = {
 #			target = scope:gm_5_greek_scope
 #			modifier = me_gre_1_barter_rejection_opmod
 #		}
-#       scope:gm_5_greek_scope = {
+#       scope:gm_5_greek_scope = { 
 #			set_variable = {
 #				name = gm_barter_response
 #				value = 3
@@ -1183,12 +1183,12 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #    option = {      # Accepted - holy mackerel
 #        name = me_greek_5_pontus.123.a
 #        trigger = { root.var:gm_barter_response = 1 }
-#        scope:gm_5_barter_target_territory = {
+#        scope:gm_5_barter_target_territory = { 
 #        	set_variable = gm_5_bartered_flag
 #        	set_conquered_by = root
 #        }
 #    }
-
+	
 #    option = {    # Counter offer - accept
 #        name = me_greek_5_pontus.123.b
 #        trigger = { root.var:gm_barter_response = 2 }
@@ -1200,7 +1200,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #			limit = { exists = scope:gm_family_head_5 }
 #			scope:gm_family_head_5 = { add_loyalty = loyalty_defended_interests }
 #		}
-#		scope:gm_5_barter_target_territory = {
+#		scope:gm_5_barter_target_territory = { 
 #			set_variable = gm_5_bartered_flag
 #			set_conquered_by = root
 #		}
@@ -1233,7 +1233,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #        add_opinion = {
 #			target = scope:gm_5_barter_target_country
 #			modifier = me_gre_1_barter_rejection_opmod
-#		}
+#		} 
 #    	reverse_add_opinion = {
 #			target = scope:gm_5_barter_target_country
 #			modifier = me_gre_1_barter_rejection_opmod
@@ -1250,7 +1250,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 #    	desc = me_greek_5_pontus.124.desc
 #		first_valid = {
 #			triggered_desc = {		# Accepted
-#				trigger = {
+#				trigger = { 
 #					NOT = { scope:gm_5_barter_target_territory = root }
 #				}
 #				desc = "me_greek_5_pontus.124.desc_1"
@@ -1273,9 +1273,9 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 
 #    }
 
-#    option = {      # Counter accepted
-#        name = me_greek_5_pontus.124.a
-#        trigger = {
+#    option = {      # Counter accepted 
+#        name = me_greek_5_pontus.124.a			
+#        trigger = { 
 #        	NOT = { scope:gm_5_barter_target_territory.owner = root }
 #        }
 #        add_treasury = { 	# Add double price
@@ -1299,7 +1299,7 @@ me_greek_5_pontus.11 = { 						# 	5 - Border Friction bypass
 
 #    trigger = { has_land = yes }
 
-#    option = {
+#    option = {      
 #        name = me_greek_5_pontus.14.a
 #        custom_tooltip = me_greek_5_pontus.14.at
 #    }
@@ -1317,10 +1317,10 @@ me_greek_5_pontus.15 = {							#	7 - Hellenizing the Chora start
     right_portrait = scope:gm_family_head_5
 
 	goto_location = scope:temp_hellenizing_province_scope
-
+	
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.15.a
         custom_tooltip = me_greek_5_pontus.15.at
     }
@@ -1341,7 +1341,7 @@ me_greek_5_pontus.16 = {							#	7 - Hellenizing the Chora end
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.16.a
         custom_tooltip = me_greek_5_pontus.16.at
     }
@@ -1355,7 +1355,7 @@ me_greek_5_pontus.17 = { 						# 	7 - Hellenizing the Chora bypass
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.17.a
         custom_tooltip = me_greek_5_pontus.17.at
     }
@@ -1372,7 +1372,7 @@ me_greek_5_pontus.18 = {							#	8 - A Bastion for the Hellenes
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.18.a
         custom_tooltip = me_greek_5_pontus.18.at
     }
@@ -1418,7 +1418,7 @@ me_greek_5_pontus.20 = { 						# 	9 - Forming Istrian League bypass
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.20.a
         custom_tooltip = me_greek_5_pontus.20.at
     }
@@ -1464,7 +1464,7 @@ me_greek_5_pontus.22 = { 						# 	10 - Forming Bosporan League bypass
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.22.a
         custom_tooltip = me_greek_5_pontus.22.at
     }
@@ -1510,7 +1510,7 @@ me_greek_5_pontus.24 = { 						# 	11 - Forming Pontic League bypass
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.24.a
         custom_tooltip = me_greek_5_pontus.24.at
     }
@@ -1524,7 +1524,7 @@ me_greek_5_pontus.25 = { 						# 	12 - At the Crossroads
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.25.a
         custom_tooltip = me_greek_5_pontus.25.at
     }
@@ -1539,7 +1539,7 @@ me_greek_5_pontus.26 = { 						# 	12 - At the Crossroads bypass
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.26.a
         custom_tooltip = me_greek_5_pontus.26.at
     }
@@ -1554,7 +1554,7 @@ me_greek_5_pontus.27 = { 						# 	13 - Masters of the Steppe
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.27.a
         custom_tooltip = me_greek_5_pontus.27.at
     }
@@ -1569,7 +1569,7 @@ me_greek_5_pontus.28 = { 						# 	13 - Masters of the Steppe bypass
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.28.a
         custom_tooltip = me_greek_5_pontus.28.at
     }
@@ -1584,7 +1584,7 @@ me_greek_5_pontus.29 = { 						# 	14 - A Pontic Fortress
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.29.a
         custom_tooltip = me_greek_5_pontus.29.at
     }
@@ -1599,7 +1599,7 @@ me_greek_5_pontus.30 = { 						# 	14 - A Pontic Fortress bypass
 
     trigger = { has_land = yes }
 
-    option = {
+    option = {      
         name = me_greek_5_pontus.30.a
         custom_tooltip = me_greek_5_pontus.30.at
     }
@@ -1680,21 +1680,21 @@ me_greek_5_pontus.32 = {						#	17 - Guarding the Merchant Fleet
     	custom_tooltip = me_greek_5_pontus.32.tt
     }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.32.a
         scope:gm_5_euxine_navy = {
         	add_unit_modifier = {
-        		name = gm_1_hardy_navy
+        		name = gm_1_hardy_navy 
         		duration = 7300
         	}
         }
     }
 
-    option = {      #
+    option = {      #  
         name = me_greek_5_pontus.32.b
         scope:gm_5_euxine_navy = {
         	add_unit_modifier = {
-        		name = gm_1_swift_navy
+        		name = gm_1_swift_navy 
         		duration = 7300
         	}
         }
@@ -1711,7 +1711,7 @@ me_greek_5_pontus.33 = {							#	19 - Legacy of Colonization start
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.33.a
         custom_tooltip = me_greek_5_pontus.33.at
 		add_treasury = -100
@@ -1720,7 +1720,7 @@ me_greek_5_pontus.33 = {							#	19 - Legacy of Colonization start
 		}
     }
 
-	option = {      #
+	option = {      # 
 		name = me_greek_5_pontus.33.b
 		custom_tooltip = me_greek_5_pontus.33.bt
 		add_treasury = -150
@@ -1737,10 +1737,10 @@ me_greek_5_pontus.34 = {							#	19 - Legacy of Colonization end
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.34.a
         custom_tooltip = me_greek_5_pontus.34.at
-		if = {
+		if = { 
 			limit = {
 				has_variable = gm_5_19_1
 			}
@@ -1759,7 +1759,7 @@ me_greek_5_pontus.34 = {							#	19 - Legacy of Colonization end
 					duration = 7300	# 20 years
 				}
 				add_building_level = port_building
-			}
+			}	
 		}
     }
 }
@@ -1803,7 +1803,7 @@ me_greek_5_pontus.37 = {							#	21 - In Iphegeneia's Footsteps
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.37.a
         custom_tooltip = me_greek_5_pontus.37.at
     }
@@ -1818,7 +1818,7 @@ me_greek_5_pontus.38 = {							#	22 - Exploring Taurica end
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.38.a
         custom_tooltip = me_greek_5_pontus.38.at
     }
@@ -1833,7 +1833,7 @@ me_greek_5_pontus.52 = {							#	22 - Exploring Taurica start
 
     trigger = { has_land = yes }
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.52.a
         custom_tooltip = me_greek_5_pontus.52.at
     }
@@ -1859,7 +1859,7 @@ me_greek_5_pontus.39 = {							#	23 - Enshrining the Goddess Protector start
 		}
 	}
 
-    option = {      #
+    option = {      # 
         name = me_greek_5_pontus.39.a
     }
 }
@@ -1961,7 +1961,7 @@ me_greek_5_pontus.46 = {
 	immediate = {
 		if = {	# Building progresses
 			limit = {
-				var:taurican_temple_progress < 3
+				var:taurican_temple_progress < 3 
 				owns = scope:taurican_temple_territory_scope
 			}
 			random_list = {
@@ -2278,7 +2278,7 @@ me_greek_5_pontus.41 = {							#	24 - Founding Manitra
 
     immediate = {
     	current_ruler = { add_popularity = popularity_medium }
-		add_country_modifier = {
+		add_country_modifier = { 
 			name = me_gre_5_24_cmod
 			duration = 7300
 		}
@@ -2286,7 +2286,7 @@ me_greek_5_pontus.41 = {							#	24 - Founding Manitra
 			create_state_pop = citizen
 			create_state_pop = citizen
 			create_state_pop = freemen
-			create_state_pop = freemen
+			create_state_pop = freemen			
 			add_province_modifier = {
 				name = me_gre_5_24_pmod
 				duration = 7300
@@ -2294,7 +2294,7 @@ me_greek_5_pontus.41 = {							#	24 - Founding Manitra
 		}
 	}
 
-    option = {
+    option = {       
         name = me_greek_5_pontus.41.a
         custom_tooltip = me_greek_5_pontus.41.at
     }
@@ -2310,7 +2310,7 @@ me_greek_5_pontus.42 = {							#	25 - Scythian Traders start
 
     trigger = { has_land = yes }
 
-    option = {
+    option = { 
         name = me_greek_5_pontus.42.a
         custom_tooltip = me_greek_5_pontus.42.at
     }
@@ -2330,12 +2330,9 @@ me_greek_5_pontus.43 = {							#	25 - Scythian Traders - Offer
 		p:4557.owner = {
 			save_scope_as = tanais_owner_scope
 		}
-		p:6114 = {
-            exists = owner
-            owner = {
-			 save_scope_as = royal_scythian_scope
-            }
-        }
+		p:6114.owner = {
+			save_scope_as = royal_scythian_scope
+		}
 	}
 
     option = {		# Offer Large Sum Iazyges
@@ -2356,7 +2353,7 @@ me_greek_5_pontus.43 = {							#	25 - Scythian Traders - Offer
 			}
 		}
     }
-
+	
     option = {   	# Offer modest amount Iazyges
         name = me_greek_5_pontus.43.b
 		trigger = {
@@ -2364,7 +2361,7 @@ me_greek_5_pontus.43 = {							#	25 - Scythian Traders - Offer
 		}
         custom_tooltip = me_greek_5_pontus.43.bt
 		add_treasury = -100
-        scope:gm_5_greek_scope = {
+        scope:gm_5_greek_scope = { 
 			set_variable = {
 				name = gm_trade_offer
 				value = 2
@@ -2384,7 +2381,7 @@ me_greek_5_pontus.43 = {							#	25 - Scythian Traders - Offer
 			target = scope:tanais_owner_scope
 			modifier = me_gre_5_trader_neg_opmod
         }
-        scope:gm_5_greek_scope = {
+        scope:gm_5_greek_scope = { 
 			set_variable = {
 				name = gm_trade_offer
 				value = 3
@@ -2411,7 +2408,7 @@ me_greek_5_pontus.43 = {							#	25 - Scythian Traders - Offer
 			}
 		}
     }
-
+	
     option = {   	# Offer modest amount Scythia
         name = me_greek_5_pontus.43.f
 		trigger = {
@@ -2420,7 +2417,7 @@ me_greek_5_pontus.43 = {							#	25 - Scythian Traders - Offer
 		}
         custom_tooltip = me_greek_5_pontus.43.ft
 		add_treasury = -75
-        scope:gm_5_greek_scope = {
+        scope:gm_5_greek_scope = { 
 			set_variable = {
 				name = gm_trade_offer
 				value = 5
@@ -2441,7 +2438,7 @@ me_greek_5_pontus.43 = {							#	25 - Scythian Traders - Offer
 			target = scope:royal_scythian_scope
 			modifier = me_gre_5_trader_neg_opmod
         }
-        scope:gm_5_greek_scope = {
+        scope:gm_5_greek_scope = { 
 			set_variable = {
 				name = gm_trade_offer
 				value = 6
@@ -2464,7 +2461,7 @@ me_greek_5_pontus.43 = {							#	25 - Scythian Traders - Offer
 				NOT = { has_variable = exclusive_trading } # iazyges does not already have exclusive trading rights
 			}
 			scope:tanais_owner_scope = {
-				trigger_event = {
+				trigger_event = { 
 					id = me_greek_5_pontus.44
 					days = { 5 10 }
 				}
@@ -2476,7 +2473,7 @@ me_greek_5_pontus.43 = {							#	25 - Scythian Traders - Offer
 				NOT = { has_variable = exclusive_trading_2 } # scythia does not already have exclusive trading rights
 			}
 			scope:royal_scythian_scope = {
-				trigger_event = {
+				trigger_event = { 
 					id = me_greek_5_pontus.44
 					days = { 5 10 }
 				}
@@ -2493,7 +2490,7 @@ me_greek_5_pontus.44 = {							#	25 - Scythian Traders - Iazyges/Scythia makes a
     	desc = "me_greek_5_pontus.44.desc"
 		first_valid = {
 			triggered_desc = {		# Large sum offered
-				trigger = {
+				trigger = { 
 					OR = {
 						scope:gm_5_greek_scope.var:gm_trade_offer = 1
 						scope:gm_5_greek_scope.var:gm_trade_offer = 4
@@ -2502,16 +2499,16 @@ me_greek_5_pontus.44 = {							#	25 - Scythian Traders - Iazyges/Scythia makes a
 				desc = "me_greek_5_pontus.44.desc_1"
 			}
 			triggered_desc = {		# Normal sum offered
-				trigger = {
+				trigger = { 
 					OR = {
 						scope:gm_5_greek_scope.var:gm_trade_offer = 2
 						scope:gm_5_greek_scope.var:gm_trade_offer = 5
 					}
-				}
+				}	
 				desc = "me_greek_5_pontus.44.desc_2"
 			}
 			triggered_desc = {		# Small sum offered
-				trigger = {
+				trigger = { 
 					OR = {
 						scope:gm_5_greek_scope.var:gm_trade_offer = 3
 						scope:gm_5_greek_scope.var:gm_trade_offer = 6
@@ -2528,7 +2525,7 @@ me_greek_5_pontus.44 = {							#	25 - Scythian Traders - Iazyges/Scythia makes a
 
 	immediate = {	# Less money for balance reasons
 		if = {
-			limit = {
+			limit = { 
 				OR = {
 					scope:gm_5_greek_scope.var:gm_trade_offer = 1
 					scope:gm_5_greek_scope.var:gm_trade_offer = 4
@@ -2540,7 +2537,7 @@ me_greek_5_pontus.44 = {							#	25 - Scythian Traders - Iazyges/Scythia makes a
 			}
 		}
 		else_if = {
-			limit = {
+			limit = { 
 				OR = {
 					scope:gm_5_greek_scope.var:gm_trade_offer = 2
 					scope:gm_5_greek_scope.var:gm_trade_offer = 5
@@ -2747,8 +2744,8 @@ me_greek_5_pontus.44 = {							#	25 - Scythian Traders - Iazyges/Scythia makes a
 
 	after = {
 		scope:gm_5_greek_scope = {
-			trigger_event = {
-				id = me_greek_5_pontus.45
+			trigger_event = { 
+				id = me_greek_5_pontus.45 
 				days = { 5 10 }
 			}
 		}
@@ -2762,7 +2759,7 @@ me_greek_5_pontus.45 = {							#	25 - Scythian Traders - Response
     	desc = "me_greek_5_pontus.45.desc"
 		first_valid = {
 			triggered_desc = {		# Secured Exclusive Rights
-				trigger = {
+				trigger = { 
 					OR = {
 						root.var:gm_trader_response = 1
 						root.var:gm_trader_response = 4
@@ -2771,7 +2768,7 @@ me_greek_5_pontus.45 = {							#	25 - Scythian Traders - Response
 				desc = "me_greek_5_pontus.45.desc_1"
 			}
 			triggered_desc = {		# Secured Normal Trade Deal
-				trigger = {
+				trigger = { 
 					OR = {
 						root.var:gm_trader_response = 2
 						root.var:gm_trader_response = 5
@@ -2824,16 +2821,16 @@ me_greek_5_pontus.45 = {							#	25 - Scythian Traders - Response
 			scope:tanais_owner_scope = {
 				random_owned_province = {
 					limit = { NOT = { province_id = 4557 } }
-    				while = {
-    					count = 2
-    					random_pops_in_province = {
-    						limit = {
-    							pop_type = slaves
-    						}
-    						move_pop = root.capital_scope
-    					}
-    				}
-                }
+				}
+				while = {
+					count = 2
+					random_pops_in_province = {
+						limit = {
+							pop_type = slaves
+						}
+						move_pop = root.capital_scope
+					}
+				}
 			}
 		}
 		else_if = {
@@ -2989,17 +2986,17 @@ me_greek_5_pontus.45 = {							#	25 - Scythian Traders - Response
 
     option = {	# Secured Exclusive Rights
         name = me_greek_5_pontus.45.a
-        trigger = {
+        trigger = { 
 			OR = {
 				root.var:gm_trader_response = 1
 				root.var:gm_trader_response = 4
 			}
 		 }
     }
-
+	
     option = {	# Secured Normal Trade Deal
         name = me_greek_5_pontus.45.b
-        trigger = {
+        trigger = { 
 			OR = {
 				root.var:gm_trader_response = 2
 				root.var:gm_trader_response = 5
@@ -3009,7 +3006,7 @@ me_greek_5_pontus.45 = {							#	25 - Scythian Traders - Response
 
 	option = {	# Secured Unfavorable Trade Deal
         name = me_greek_5_pontus.45.c
-        trigger = {
+        trigger = { 
 			OR = {
 				root.var:gm_trader_response = 3
 				root.var:gm_trader_response = 6
