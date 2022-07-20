@@ -1,0 +1,16 @@
+version="0.01"
+tags={
+	"Characters"
+	"Flags"
+	"Historical"
+	"Interface"
+	"Overhaul"
+	"Portraits"
+	"Total Conversions"
+	"Unit Graphics"
+	"Unit Types"
+}
+name="Terra Indomitus"
+supported_version="2.0.3"
+path="C:/Users/Joshua/Documents/Paradox Interactive/Imperator/mod/Terra-Indomitus"
+remote_file_id=""
