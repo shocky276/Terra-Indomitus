@@ -197,6 +197,7 @@
             qin_01_shan_yang_task_9
             qin_01_shan_yang_task_10
         }
+        final = yes
         allow = {}
         on_completion = {
             trigger_event = me_qin_shan_yang.11
@@ -489,6 +490,7 @@ qin_02_li_si = {
             qin_02_li_si_task_12
             qin_02_li_si_task_11
         }
+        final = yes
         allow = {
             stability >= 40
         }
@@ -734,6 +736,7 @@ qin_03_empire = {
     qin_03_empire_task_17 = { #One Nation Under Qin
         icon = "task_political"
         requires = { qin_03_empire_task_16 }
+        final = yes
         allow = {}
         on_completion = {
             trigger_event = me_qin_empire.17

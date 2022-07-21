@@ -96,7 +96,7 @@ me_yamato_heartland.6 = {
             }
             order_by = total_population
             add_province_modifier = {
-                name = major_food_source
+                name = major_food_source_prov_mod
                 duration = -1
             }
         }

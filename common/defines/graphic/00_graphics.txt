@@ -14,7 +14,7 @@ NJominiMapGraphics = {
 	RIVER_FADE_TO = 3.0
 	MAP_OBJECT_CELL_COUNT = 200
     MAP_OBJECT_FADE_SPEED = 3.0
-	
+
 	COUNTRY_NAMES_TEST_LINES_SPACING = 3.0
 	COUNTRY_NAMES_SCALE = 0.8
 	COUNTRY_NAMES_SCALE_CAP_WIDTH = 0.9
@@ -45,13 +45,13 @@ NGraphics = {
 	ARROW_MOVEMENT_SPEED = 4.0
 	DRAG_SELECTION_THRESHOLD = 10.0 # if selecting less than this it will count as a click instead of dragselect
 	HIGHLIGHT_TIMEOUT = 2.0
-	
+
 	FLAT_MAP_HEIGHT = 2.02
 	FLAT_MAP_FADE_SPEED = 3	# How fast to fade to/from flat map state
 	FLAT_MAP_ZOOM_STEP = 14 #@country_zoomstep_min	# At which zoom step to fade to flat map
-	
+
 	FORT_MAX_FRAMES = 3 # Number of frames for the fort map icon shown in the mapmode
-	
+
 	SURROUND_MAP_INNER_RECT = { 1000.0 1200.0 1010.0 1210.0 } 			#x-start, y-start, x-end, y-end
 	SURROUND_MAP_OUTER_RECT = { -10000.0 -10000.0 20000.0 20000.0 }		#x-start, y-start, x-end, y-end
 	SURROUND_MAP_TILE_FACTOR = { 4.0 2.0 }
@@ -75,15 +75,15 @@ NGraphics = {
 	SURROUND_MAP_LOWCLOUDCOLOR = { 0.6 0.16 0.5 }
 	SURROUND_MAP_HIGHCLOUDCOLOR = { 0.6 0.16 0.9 }
 	SURROUND_MAP_SHADOWCOLOR = { 0.66 0.3 0.35 }
-	
+
 	UNIMPORTANT_ELEMENT_ALPHA = 0.5							# Used by TransparentIfTrue and variants
 	SIEGE_IMAGE_LEVELS = { 1 3 5 }							# At which siege progress levels does the image change?
 	MAX_INCOME_PROVINCES = 20								# Cap on number of provinces shown in the income tooltips
-	
+
 	DYNAMIC_GAME_OBJECT_END_STATE = "end"
-	
+
 	GREAT_WORK_VIEW_GROUND_MESH = "gw_ground_01_entity"
-	
+
 	PORT_LEVEL_TO_ICON_FRAME = { 1 1 2 2 3 } #Anything above last index will use the value of the last index
 }
 
@@ -101,23 +101,23 @@ NCamera = {
 	#						0	 1 	 2	 3	 4	 5	 6	 7	 8	  9	  10   11	12	 13	  14   15	16	 17
     ZOOM_STEPS = { 			52 77 103 142 194 258 335 439 568 723 903 1110 1342 1574 1806 2065 2323 2581 }	# Zoom steps
     ZOOM_STEPS_TILT 	= { 40  40  45  50  55  60  65  70   72   73  78    80   85   85   85   85   85   85 }	# Zoom steps
-	ZOOM_STEPS_MIN_TILT = { 30  30  35  35  34  36  38  40   42   44  50    50   50   50   50   50   50   50 }
+	ZOOM_STEPS_MIN_TILT = { 37  30  35  35  34  36  38  40   42   44  50    50   50   50   50   50   50   50 } #TI - Moved up lowest tilt so you can't clip into surround mask
 	ZOOM_STEPS_MAX_TILT = { 89  89  89  89  89  89  89  89   89   89  89    83   89   89   89   89   89   89 }
 
 #	Zoom before mountain issue
 #   ZOOM_STEPS = 		{ 50 100 150 200 275 375 500 650 850 1100 1400 1750 2150 2600 3050 3500 4000 4500 5000 }	# Zoom steps
 #   ZOOM_STEPS_TILT	=	{ 30  35  40  45  50  55  60  65  70   72   73  78    80   85   85   85   85   85   85 }	# Zoom steps
-	
+
 
     MAX_PAN_TO_ZOOM_STEP = 3							# The camera will lower to this height (but only if above it) when panning to characters/provinces etc.
     START_LOOK_AT = { 4058 0 2747 }					# Initial look at (X/Y)
-    
+
     # Debug defines
     DEBUG_GAMEPAD_LOWSPEED 		= 25.0
     DEBUG_GAMEPAD_NORMALSPEED 	= 100.0
     DEBUG_GAMEPAD_HIGHSPEED 	= 300.0
     DEBUG_GAMEPAD_SENSITIVITY 	= 2.0
-	
+
 	# world projection faky stuff
 	# The map projection is a bit freaky and there is no point that can make a good substitute for a north pole
 	# So what we do is that we decide two imaginary north poles, one that we use in europe, and one in india, roughly
@@ -136,9 +136,9 @@ NMapColors = {
 	OCEAN_MAP_COLOR = 					{ 0.58 0.35 0.35 }
 	IMPASSABLE_LAND_MAP_COLOR = 		{ 0.17 0.05 0.0 }
 
-	AI_UNIT_EVAL_CENTER = 	{ 10000.0 25000.0 40000.0 80000.0 150000.0 500000.0 } 
+	AI_UNIT_EVAL_CENTER = 	{ 10000.0 25000.0 40000.0 80000.0 150000.0 500000.0 }
 	AI_UNIT_EVAL_RANGE = 	{ 0.4 0.1 0.1 0.15 0.15 0.22 } #green cyan blue yellow magenta red
-	
+
 	DIPLOMACY_OWNED_PROVINCE_COLOR =	{ 0.333	0.848	0.66 	}
 	DIPLOMACY_WAR_ALLIES_COLOR = 		{ 0.333	0.855	0.344	}
 	DIPLOMACY_DEPENDENCY_COLOR = 		{ 0.463	0.961	0.76	}
@@ -151,18 +151,18 @@ NMapColors = {
 	DIPLOMACY_OUT_OF_RANGE_COLOR = 		{ 0.0	0.0 	0.3 	}
 	DIPLOMACY_MIL_ACCESS_COLOR = 		{ 0.34	0.34 	0.6 	}
 	DIPLOMACY_CLAIM_SECOND_COLOR = 		{ 0.135	0.7		1.0 	}
-	
+
 	BARBARIAN_POWER_COLOR_LOW = 		{ 0.0	0.8		0.05 }
 	BARBARIAN_POWER_COLOR_HIGH = 		{ 0.0	0.8		0.95 }
-	
+
 	POPULATION_COLOR_MAX_POPS = 130	# this is what COLOR_HIGH is targeted against
 	POPULATION_COLOR_LOW =  			{ 0		0		0	 }
 	POPULATION_COLOR_HIGH = 			{ 0.333 0.8		1 	 }
 	POP_STARVING_COLOR_STRIPE = 		{ 0.0	0.8		0.95 }
-	
+
 	CULTURE_COLOR_MAX_POPS = 50 # this is what COLOR_HIGH is targeted against
 	CULTURE_COLOR_HIGH_OFFSET_FACTOR =	{ 0.25 0.25 0.25 }
-	
+
 	CIVILIZATION_COLOR_LOW = 			{ 0.0	1		0.1  }
 	CIVILIZATION_COLOR_HIGH = 			{ 0.333	0.8		0.75 }
 
@@ -177,27 +177,27 @@ NMapColors = {
 
 	SUPPLY_COLOR_LOW = 					{ 0.0	1		0.1  }
 	SUPPLY_COLOR_HIGH = 				{ 0.333	0.8		1	 }
-	
+
 	SUPPLY_TOO_LITTLE = 				{ 0.0	0.95	0.3  }
 	SUPPLY_ENOUGH = 					{ 0.167 0.8		0.5  }
 	SUPPLY_MORE_THAN_ENOUGH = 			{ 0.333 0.9 	0.75 }
-	
+
 	MACRO_BUILDER_CAN_BUILD_COLOR = 	{ 0.333	0.848	0.66 }
 	MACRO_BUILDER_CAN_NOT_BUILD_COLOR =	{ 0.0	0.8		0.7	 }
 	MACRO_BUILDER_ALREADY_BUILDING_STRIPES_COLOR = { 0.333 1.0 0.75  }
 	MACRO_BUILDER_CAN_NOT_BUILD_FORT =	{ 0.5	0.9		0.9  }
 	MACRO_BUILDER_GOT_ONE_ALREADY_BUILDING_COLOR = { 0.8	0.8		0.3	 }
-	
+
 	AI_OBJECTIVE_REGION_SELECTED = 		{ 0 0.9 1  }
 	AI_OBJECTIVE_REGION_OLD_SELECTED = 	{ 0 1 0.3  }
-	
+
 	OFFER_PEACE_AVAILABLE_COLOR = 		{ 0.333	0.8		0.6  }
 	OFFER_PEACE_UNAVAILABLE_COLOR =		{ 0.0	0.8		0.7  }
 	OFFER_PEACE_BECOME_SUBJECT_COLOR =	{ 0.333	0.8		0.7  }
 	OFFER_PEACE_CANCEL_SUBJECT_COLOR =	{ 0.666	0.8 	0.7  }
 	OFFER_PEACE_RELEASE_NATION_COLOR =	{ 0.833	0.8 	0.7  }
-	
-	
+
+
 	FRIEND_ZOC_COLOR =					{ 0.592	0.962	0.91 }
 	ENEMY_ZOC_COLOR =					{ 0.0	1.0		1.0  }
 	FRIEND_FORT_COLOR =					{ 0.592	0.962	0.91 }
@@ -207,33 +207,33 @@ NMapColors = {
 	FRIEND_FORT_IN_PROGRES_COLOR =		{ 0.333	0.848	1.0  }
 	ENEMY_FORT_IN_PROGRES_COLOR =		{ 0.0	1.0		1.0  }
 	NEUTRAL_FORT_IN_PROGRES_COLOR =		{ 0.167	0.8		1.0  }
-	
+
 
 	TRADE_CAN_TRADE =					{ 0.333	0.8		0.7	 }
 	TRADE_AI_DECLINE =					{ 0.167	0.8		0.7	 }
 	TRADE_PRODUCES =					{ 0.666	0.8		0.7	 }
 	TRADE_TARGET =						{ 0.833	0.8		0.7	 }
 	TRADE_OUT_OF_RANGE =				{ 0.0	0.0		0.3	 }
-	
+
 	TRADE_ROUTES_COLOR_LOW =			{ 0.333 0.8 	0.95 }
 	TRADE_ROUTES_COLOR_HIGH =			{ 0.333 0.8 	0.05 }
 	TRADE_ROUTES_NUM_HIGH = 3
-	
+
 	DIPLOMATIC_ACTION_SELECTED_COLOR =	{ 0.592 0.962	0.91 }
 	DIPLOMATIC_ACTION_VALID_COLOR =		{ 0.333 0.848	0.66 }
-	
+
 	PROVINCE_HIGHLIGHT_COLOR =			{ 0.606 0.8		0.66	0.25 	}
 	CITY_HIGHLIGHT_COLOR =				{ 0.306 0.8		0.66	0.5 	}
 	GENERAL_HIGHLIGHT_ALPHA = 0.85 # For the GUI-script triggered highlighting, this overrides the alpha completely, even for PROVINCE/CITY_HIGHLIGHT_COLOR
 	WASTELAND_HIGHLIGHT_ALPHA = 0.55 # Used for wastelands when highlighting a country
 	INACCESSIBLE_HIGHLIGHT_COLOR =		{ 0.0	1.0		0.7 	0.2 	}
 	LOW_SUPPLY_HIGHLIGHT_COLOR =		{ 0.18	1.0		0.7 	0.25 	}
-	
+
 	NAVAL_RANGE_INSIDE_COLOR_LOW =		{ 0.333 0.8		0.6 }
 	NAVAL_RANGE_INSIDE_COLOR_HIGH =		{ 0.333 0.1		0 }
 	NAVAL_RANGE_OUTSIDE_COLOR_LOW =		{ 0		0.8		0.6 }
 	NAVAL_RANGE_OUTSIDE_COLOR_HIGH =	{ 0		0.1		0 }
-	
+
 	CAN_RAISE_LEVY_HERE = 				{ 0		0.5		1 }
 	CANT_RAISE_LEVY_HERE = 				{ 1		0.2		0.2 }
 }
@@ -276,10 +276,10 @@ NUnitGraphics = {
 	UNIT_SCALE_PER_ZOOM_STEP = 		{ 0.258 0.290 0.348 0.426 0.516 0.516 0.516 0.258 0.206 0.129  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0	}	#0 will hide the unit model				#2x Size
 	UNIT_RIVER_SCALE = 0.5 # Applied on top of UNIT_SCALE_PER_ZOOM_STEP
 	UNIT_MAP_MARKER_MAP_PIXELS_SOUTH = 2	# The unit map marker (# of troops, etc.) will be positioned as if it was this many pixels on the map south of where the unit is standing
-	
+
 	UNIT_LEVY_TAG = "_levy_"
 	UNIT_LEGION_TAG = "_legion_"
-}		
+}
 
 
 NMapName = {
@@ -317,7 +317,7 @@ NGui = {
 NMapIcon = {
 	FADE_IN_SPEED = 5.0
 	FADE_OUT_SPEED = 5.0
-	
+
 	#Only visible in the "province" zoom level
 	ZOOM_STEP_RANGE_FORT = 				{ @province_zoomstep_min @province_zoomstep_max }
 	ZOOM_STEP_RANGE_CITY = 				{  @province_zoomstep_min @province_zoomstep_max }
@@ -329,11 +329,11 @@ NMapIcon = {
 
 	#Visible in the "state" zoom level
 	ZOOM_STEP_RANGE_COUNTRY_CAPITAL = 	{ 0 20 }
-	
+
 	#Visible in anything "state" and lower
-	
+
 	ZOOM_STEP_RANGE_DECORATIVE = 				{ -1 20 }
-	
+
 	ZOOM_STEP_RANGE_PORT = 				{ @province_zoomstep_min @state_zoomstep_max }
 	ZOOM_STEP_RANGE_UNIT = 				{ -1 @state_zoomstep_max }
 	ZOOM_STEP_RANGE_COMBAT = 			{ -1 @state_zoomstep_min }
@@ -348,12 +348,12 @@ NMapIcon = {
 	ZOOM_STEP_RANGE_CHARACTER = 		{ 0 0 }
 
 	ZOOM_STEP_RANGE_SMALL_UNIT = { @country_zoomstep_min @country_zoomstep_max }
-	
+
 	CITY_ICON_FADE = 0.9
-	
+
 	ARMY_BANNER_STACK_OFFSET = 29.0
 	ARMY_BANNER_MERGE_NUM = 1 #More than X army banners will be merged into the last banner as a group which you can click on to cycle through
-	
+
 	ANIMATED_TEXT_COMBAT_LOSS_OFFSET = 36.0
 }
 
@@ -368,7 +368,7 @@ NGameIcons = {
 	FLAG_TEXT_ICON_FONT_SIZE = 16
 	FLAG_TEXT_ICON_SIZE = { 14 14 }
 	FLAG_TEXT_ICON_OFFSET = { 0 1 }
-	
+
 	ICON_PATH = "gfx/interface/icons"
 	ICON_SMALL_POSTFIX = "small"
 	ICON_BIG_POSTFIX = "big"
@@ -435,10 +435,10 @@ NMapGraphics = {
 	WINTER_ALPHA_MILD = 0.25
 	WINTER_ALPHA_NORMAL = 0.5
 	WINTER_ALPHA_SEVERE = 1
-	
+
 	WINTER_TERRAIN_MATERIAL_SNOW = "Snow"	#Which material in gfx/map/terrain/materials.settings to use for snow
 	WINTER_TERRAIN_MATERIAL_ICE = "Ice"		#Which material in gfx/map/terrain/materials.settings to use for ice
-	
+
 	PORT_SHIP_LOCATOR = "ship_locator"
 	FORT_SIEGE_LOCATOR = "siege_locator"
 	GREAT_WORK_CONSTRUCTION_ENTITY = "gw_construction_site_entity"
@@ -448,7 +448,7 @@ NCities = {
 	#Select a province and use the "Cities.DrawDebugLines" for easy tweaking
 	GRID_SCALE = 0.9			#small scales will cause uneven distribution of base score for cells. Values <= sqrt(2) will cause some cells to get 0 base score
 	MESH_SCALE = 0.4		#scale all meshes by this
-	
+
 	CELL_SCORE_BASE = 1.0					# A cell that is 100% within the province will get the full base score. A cell outside the province will get 0. A 50/50 cell will get approximately half base score.
 	CELL_SCORE_UNDER_WATER_PENALTY = 0.5	# penalty per depth-units under water. Added for each corner of the cell
 	CELL_SCORE_SLOPE_MIN = 0.1 				# amount of slope allowed before penalty kicks in. value corresponds to the slope's 'k' in f(x)=kx+m
@@ -479,18 +479,18 @@ NWarOverview = {
 NCombatPrediction = {
 	CLEAR_VICTORY_THRESHOLD = 2.0
 	PROBABLE_VICTORY_THRESHOLD = 1.0
-	
+
 	LEADER_CONTRIBUTION = 0.5
-	
+
 	STRENGTH_THRESHOLD = 0.15
 	STRENGTH_CONTRIBUTION = 2.5
-	
+
 	MORALE_THRESHOLD = 0.1
 	MORALE_CONTRIBUTION = 2.0
-	
+
 	QUALITY_THRESHOLD = 0.1
 	QUALITY_CONTRIBUTION = 3.0
-	
+
 	TERRAIN_CONTRIBUTION = 0.667
 }
 

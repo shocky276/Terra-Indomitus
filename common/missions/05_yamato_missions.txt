@@ -1,4 +1,4 @@
-yamato_01_heartland = {
+﻿yamato_01_heartland = {
     header = "mission_image_general"
     icon = "general_1"
 
@@ -388,7 +388,7 @@ yamato_02_consolidate = {
                 text = yamato_02_consolidate_task_5_tt
                 any_character = {
                     count >= 3
-                    has_office = yes
+                    has_any_office = yes
                     loyalty >= 80
                     character_experience >= 50
                 }
@@ -572,7 +572,7 @@ yamato_02_consolidate = {
                 current_yam_buildings_svalue >= total_yam_buildings_svalues
                 region:wa_region = {
                     NOT = {
-                        any_area_province = {
+                        any_region_province = {
                             owner = root
                             has_construction = yes
                         }

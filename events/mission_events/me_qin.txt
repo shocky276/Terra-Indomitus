@@ -1,4 +1,4 @@
-namespace = me_qin_shan_yang
+﻿namespace = me_qin_shan_yang
 
 me_qin_shan_yang.1 = {
     type = country_event
@@ -22,16 +22,16 @@ me_qin_shan_yang.1 = {
 
     after = {
         trigger_event = {
-            id = me_qin_shan_yang.1b
+            id = me_qin_shan_yang.1000
             days = { 30 60 }
         }
     }
 }
-me_qin_shan_yang.1b = {
+me_qin_shan_yang.1000 = {
     type = country_event
 
-    title = me_qin_shan_yang_1b_title
-    desc = me_qin_shan_yang_1b_desc
+    title = me_qin_shan_yang_1000_title
+    desc = me_qin_shan_yang_1000_desc
     picture = great_library
     trigger = {
         has_variable = abrogating_fengjian
@@ -81,7 +81,7 @@ me_qin_shan_yang.1b = {
 
 
     option = {
-        name = "me_qin_shan_yang_1b.a"
+        name = "me_qin_shan_yang_1000.a"
         scope:neighbor = {
             ordered_owned_province = {
                 limit = {
@@ -103,14 +103,14 @@ me_qin_shan_yang.1b = {
             }
             set_variable = {
                 name = pops_stolen
-                duration = 750
+                days = 750
             }
         }
     }
 
     after = {
         trigger_event =  {
-            id = me_qin_shan_yang.1b
+            id = me_qin_shan_yang.1000
             days = { 365 600 }
         }
     }

@@ -50,7 +50,7 @@ qin_01_shan_yang_DESC:0 ""
 
 #Tooltips
 
-qin_01_shan_yang_task_1_tt:0 "Freemen from neighboring Zhou states may migrate to [ROOT.GetCountry.GetName] lands."
+qin_01_shan_yang_task_1_tt:0 "Freemen from neighboring Zhou states may migrate to [THIS.GetCountry.GetName|Y] lands."
 qin_01_shan_yang_task_2_tt:0 "Gain claims on the areas of $anding_area$ and $tianshui_area$"
 qin_01_shan_yang_task_5_tt:0 "Our administrators will attempt to woo the people of Sechuan"
 #Modifiers
@@ -74,9 +74,9 @@ me_qin_shan_yang_1_desc:0 ""
 me_qin_shan_yang_1.a:0 ""
 me_qin_shan_yang_1_tooltip:0 "The mission task '#Y $qin_01_shan_yang_task_1$#!' has now been #G Completed#!!"
 
-me_qin_shan_yang_1b_title:0 "Freemen of [neighbor.GetName]"
-me_qin_shan_yang_1b_desc:0 "The Freemen in the province of [migration_prov.GetName] have decided to"
-me_qin_shan_yang_1b.a:0 ""
+me_qin_shan_yang_1000_title:0 "Freemen of [neighbor.GetName]"
+me_qin_shan_yang_1000_desc:0 "The Freemen in the province of [migration_prov.GetName] have decided to"
+me_qin_shan_yang_1000.a:0 ""
 
 me_qin_shan_yang_2_title:0 "$qin_01_shan_yang_task_2$"
 me_qin_shan_yang_2_desc:0 ""
