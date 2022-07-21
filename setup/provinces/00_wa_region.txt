@@ -1416,7 +1416,7 @@
 	terrain="forest"
 	culture="ainu"
 	religion="yi_religions"
-	trade_goods="wild_game"
+	trade_goods="jade"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"

@@ -66,6 +66,7 @@ has_bloodline_trigger = {
 		has_trait = blood_of_zipoetes
 		has_trait = magonid
 		has_trait = hannonid
+		has_trait = yamato_bloodline
 		has_trait = qin_bloodline
 		has_trait = chu_bloodline
 		has_trait = wei_bloodline

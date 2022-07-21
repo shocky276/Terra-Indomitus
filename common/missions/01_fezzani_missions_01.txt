@@ -13,7 +13,7 @@
         OR = {
             tag = MKA # MAKAE
             tag = PSY # PSYLLI
-            tag = NAS # NASAMONES
+            tag = NSM # NASAMONES
             tag = GAR # GARAMANTES
             tag = MHY # MACHYLES
             tag = PHZ # PHAZANI
@@ -211,7 +211,7 @@
         icon = "task_conquest"
         potential = {
             is_ai = no
-            tag = NAS
+            tag = NSM
         }
         allow = {
             political_influence >= 50
@@ -234,7 +234,7 @@
             hidden:c:GAR = { # Garamantes still exist
                 has_land = yes
                 is_subject = no # they are not a subject
-                opinion = { target = NAS value >= 100 }
+                opinion = { target = NSM value >= 100 }
             }
         }
 
@@ -272,7 +272,7 @@
             }
             trigger_if = {
                 limit = {
-                    tag = NAS
+                    tag = NSM
                 }
                 owns_or_subject_owns_area = soda_area
                 owns_or_subject_owns_area = tripolitania_orientalis_area
@@ -391,7 +391,7 @@
 
     fezzani_mission_01_task_09 = { # The Nasamones
         icon = "task_diplomatic"
-        potential = { tag = NAS }
+        potential = { tag = NSM }
         allow = {
             political_influence >= 25
         }
@@ -873,7 +873,7 @@
     fezzani_mission_01_task_40 = { # Building within the conquered NAS lands
         requires = { fezzani_mission_01_task_41 }
         icon = "task_conquest"
-        potential = { NOT = { tag = NAS } }
+        potential = { NOT = { tag = NSM } }
 
         allow = {
             owns_area = nasamonia_area
@@ -1211,7 +1211,7 @@
 
     fezzani_mission_01_task_30 = { # The Crown Capital
         icon = "task_diplomatic"
-        potential = {  tag = NAS }
+        potential = {  tag = NSM }
         allow = {
             owns = 8128 # Augila
             hidden:p:8128 = {
@@ -1239,7 +1239,7 @@
     fezzani_mission_01_task_31 = { # Preparing the cities
         requires = { fezzani_mission_01_task_30 }
         icon = "task_conquest"
-        potential = {  tag = NAS }
+        potential = {  tag = NSM }
 
         allow = {
             hidden:p:8127 = { # Gialo
@@ -1280,7 +1280,7 @@
     fezzani_mission_01_task_32 = { # Preparing the Troops from the settlements
         requires = { fezzani_mission_01_task_31 }
         icon = "task_conquest"
-        potential = {  tag = NAS }
+        potential = {  tag = NSM }
 
         allow = {
             hidden:p:8137 = {

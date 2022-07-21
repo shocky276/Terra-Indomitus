@@ -66,6 +66,7 @@
 		bloodlines_startup.47
 		bloodlines_startup.48
 		bloodlines_startup.49
+		bloodlines_startup.50
 		###Capadocian Flavor delay =  days =  10 30 for later Pulse for this now see above
 		#flavor_cap.1
 

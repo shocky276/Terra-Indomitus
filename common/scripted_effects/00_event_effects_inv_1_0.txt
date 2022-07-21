@@ -1229,7 +1229,33 @@ pass_down_traits_effect = {
 		    }
 		    add_trait = chu_bloodline
 		}
-
+		##yamato_bloodline
+		if = {
+		    limit = {
+		        is_alive = yes
+		        exists = father
+		        father = {
+		            has_trait = yamato_bloodline
+		        }
+		        NOT = {
+		            has_trait = yamato_bloodline
+		        }
+		    }
+		    add_trait = yamato_bloodline
+		}
+		if = {
+		    limit = {
+		        is_alive = yes
+		        exists = mother
+		        mother = {
+		            has_trait = yamato_bloodline
+		        }
+		        NOT = {
+		            has_trait = yamato_bloodline
+		        }
+		    }
+		    add_trait = yamato_bloodline
+		}
 		##wei_bloodline
 		if = {
 		    limit = {
@@ -1948,6 +1974,14 @@ bastard_major_bloodline_effect = {
 			}
 		}
 		add_trait = blood_of_aratus
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = yamato_bloodline
+			}
+		}
+		add_trait = yamato_bloodline
 	}
 	if = {
 	    limit = {

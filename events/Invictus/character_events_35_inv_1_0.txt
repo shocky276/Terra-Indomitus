@@ -1125,7 +1125,33 @@ character_events.35 = { #add bloodline traits. this has to be an event, don't pu
 		    }
 		    add_trait = chu_bloodline
 		}
-
+		##yamato_bloodline
+		if = {
+		    limit = {
+		        is_alive = yes
+		        exists = father
+		        father = {
+		            has_trait = yamato_bloodline
+		        }
+		        NOT = {
+		            has_trait = yamato_bloodline
+		        }
+		    }
+		    add_trait = yamato_bloodline
+		}
+		if = {
+		    limit = {
+		        is_alive = yes
+		        exists = mother
+		        mother = {
+		            has_trait = yamato_bloodline
+		        }
+		        NOT = {
+		            has_trait = yamato_bloodline
+		        }
+		    }
+		    add_trait = yamato_bloodline
+		}
 		##wei_bloodline
 		if = {
 		    limit = {

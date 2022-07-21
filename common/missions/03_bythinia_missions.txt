@@ -1578,6 +1578,7 @@
 
         on_completion = {
             #Claims on lower egypt region
+            current_ruler = { add_trait = pharaoh }
             trigger_event = me_bithynia.42
             custom_tooltip = bithynia_missions_task_42_tt
         }

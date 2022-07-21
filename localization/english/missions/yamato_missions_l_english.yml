@@ -1,0 +1,310 @@
+﻿l_english:
+
+yamato_01_heartland:0 "Heartland of Yamato"
+yamato_01_heartland_DESCRIPTION:0 "Mission description"
+yamato_01_heartland_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
+yamato_01_heartland_BUTTON_TOOLTIP:0 ""
+
+#Missions
+
+yamato_01_heartland_task_1:0 "Trustworthy Allies"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_2:0 "Preparations for War"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_3:0 "Outward Expansion"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_4:0 "The First Steps"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_5:0 "Great City of Yamato"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_6:0 "Cultivation of Rice"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_7:0 "On Proper Footing"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_8:0 "Control the Heartland"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_9:0 "Developing Yamato"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_10:0 "Bringing the Chiefs Together"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_11:0 "A New Way Forward"
+yamato_01_heartland_DESC:0 ""
+
+yamato_01_heartland_task_12:0 "Kingdom of Yamato"
+yamato_01_heartland_DESC:0 ""
+
+
+#Misc
+
+any_allied_country_trigger:0 "Any Allied Country"
+
+yamato_empire:0 "Yamato Empire"
+#the govenment type at the end of the tree needs desc
+yamato_empire_desc:0 ""
+
+#Tooltips
+
+yamato_01_heartland_task_8_tt:0 "[GetProvince('(int32)9328').GetArea.GetName|Y] is owned by [ROOT.GetCountry.GetName]"
+
+yamato_01_heartland_task_9_tt:0 "[GetProvince('(int32)9328').GetArea.GetName|Y] has a province investment of any kind."
+
+yamato_01_heartland_task_10_tt:0 "At least #Y 2#! Clan Chiefs have #Y 50#! or more loyalty."
+yamato_01_heartland_task_10_ttt:0 "Gain access to the #Y Gather Support#! character interaction. This can be used on clan chiefs to gather support for the upcoming changes in our nation."
+
+yamato_01_heartland_task_12_tt:0 "[THIS.GetCountry.GetName|Y] will become a #Y Kingdom#!"
+
+#Modifiers
+
+strong_alliance_network:0 "Strong Alliance Network"
+war_preparations_country_mod:0 "War Perparations"
+great_city_of_yamato:0 "Great City of Yamato"
+major_food_source_prov_mod:0 "Major Food Source"
+prosperity_of_yamato:0 "Prosperity of Yamato"
+ascension_of_yamato:0 "Ascension of Yamato"
+warriors_of_yamato:0 "Warrior of Yamato"
+
+yamato_influence_state_mod:0 "Yamato Influence"
+organized_admin_country_mod:0 "Organized Administration"
+yamato_warrior_class_mod:0 "Yamato Warrior Class"
+developing_navy_mod:0 "Developing Navy"
+authority_of_the_king_mod:0 "Authority of the King"
+cities_of_wa:0 "Cities of Wa"
+
+
+#Events
+me_yamato_heartland_1_title:0 "$yamato_01_heartland_task_1$"
+me_yamato_heartland_1_desc:0 ""
+me_yamato_heartland_1.a:0 ""
+me_yamato_heartland_1_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_1$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_2_title:0 "$yamato_01_heartland_task_2$"
+me_yamato_heartland_2_desc:0 ""
+me_yamato_heartland_2.a:0 ""
+me_yamato_heartland_2_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_2$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_3_title:0 "$yamato_01_heartland_task_3$"
+me_yamato_heartland_3_desc:0 ""
+me_yamato_heartland_3.a:0 ""
+me_yamato_heartland_3_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_3$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_4_title:0 "$yamato_01_heartland_task_4$"
+me_yamato_heartland_4_desc:0 ""
+me_yamato_heartland_4.a:0 ""
+me_yamato_heartland_4_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_4$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_5_title:0 "$yamato_01_heartland_task_5$"
+me_yamato_heartland_5_desc:0 ""
+me_yamato_heartland_5.a:0 ""
+me_yamato_heartland_5_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_5$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_6_title:0 "$yamato_01_heartland_task_6$"
+me_yamato_heartland_6_desc:0 ""
+me_yamato_heartland_6.a:0 ""
+me_yamato_heartland_6_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_6$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_7_title:0 "$yamato_01_heartland_task_7$"
+me_yamato_heartland_7_desc:0 ""
+me_yamato_heartland_7.a:0 ""
+me_yamato_heartland_7_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_7$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_8_title:0 "$yamato_01_heartland_task_8$"
+me_yamato_heartland_8_desc:0 ""
+me_yamato_heartland_8.a:0 ""
+me_yamato_heartland_8_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_8$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_9_title:0 "$yamato_01_heartland_task_9$"
+me_yamato_heartland_9_desc:0 ""
+me_yamato_heartland_9.a:0 ""
+me_yamato_heartland_9_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_9$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_10_title:0 "$yamato_01_heartland_task_10$"
+me_yamato_heartland_10_desc:0 ""
+me_yamato_heartland_10.a:0 ""
+me_yamato_heartland_10_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_10$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_11_title:0 "$yamato_01_heartland_task_11$"
+me_yamato_heartland_11_desc:0 ""
+me_yamato_heartland_11.a:0 ""
+me_yamato_heartland_11_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_11$#!' has now been #G Completed#!!"
+
+me_yamato_heartland_12_title:0 "$yamato_01_heartland_task_12$"
+me_yamato_heartland_12_desc:0 ""
+me_yamato_heartland_12.a:0 "We Need a Despotic Monarch"
+me_yamato_heartland_12.b:0 "A Aristocratic Monarchy"
+me_yamato_heartland_12.c:0 "A Stratocratic Monarchy"
+me_yamato_heartland_12.d:0 "Theocracy is the only Way"
+me_yamato_heartland_12.e:0 "Plutocracy suits us well"
+me_yamato_heartland_12_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_12$#!' has now been #G Completed#!!"
+
+
+#Descriptions copied from argos, may need some tweaks but should be mostly good
+yamato_gather_support_title:0 "Gathering Support"
+yamato_gather_support_1_desc:0 "[ROOT.GetCountry.GetRuler.GetName] has seemed preoccupied the last few days, refusing to divulge what is on [ROOT.GetCountry.GetRuler.GetHerHis] mind. Despite this minor distraction, as irritable moods are a rare thing for [ROOT.GetCountry.GetRuler.GetFirstName], life goes on, as usual, at the capital. The endless debates in the Gerousia continue, the streets are filled with merchants and tradesmen, and the common people go about their days. The less ambitious might even be satisfied by this state.\n\nYet heads would certainly turn if they knew the real reason that [ROOT.GetCountry.GetRuler.GetFirstName] seems anxious; as we speak, secret emissaries have been sent to [target.GetName], hoping to build support for a change in government. Even now, our campaign of whispers continues..."
+yamato_gather_support_1_desc_2:0 "You have made a difficult decision, one that causes your body to tremble with excitement when you truly consider the ramifications. By seeking to depose the authority of the Gerousia and replace it with your rule, you have made the fatal decision; any misstep, any flaw in your plans, will result in your public execution as an enemy of the state. The small-minded might say what I am proposing is treason...I cannot do this alone; I must seek support among those who think like me, in order to give my claims legitimacy."
+yamato_gather_support_1_desc_3:0 "[ROOT.GetCountry.GetRuler.GetName] has decided that the support of [target.GetName] will be a requirement moving forward, as [ROOT.GetCountry.GetRuler.GetFirstName] cannot hope to stand on [ROOT.GetCountry.GetRuler.GetHerHis] own two legs when the time for rebellion is at hand. Still, it is known that [target.GetFirstName] is a faithful sort, although [target.GetHerHis] loyalty could certainly be purchased. As with everything in life, there are no promises."
+yamato_gather_support_1_desc_4:0 "'You are aware of what you are proposing, [ROOT.GetCountry.GetRuler.GetFirstName]?' [target.GetName] reclines back onto a couch, a fierce twinkle in [ROOT.GetCountry.GetRuler.GetHerHis] eyes. The hour is late; all of the household slaves are asleep, save for the one attendant sleepily standing in the doorway. 'Don't worry about Phaedo; he's deaf.' [target.GetName] states matter of factly. 'He won't run off to the Gerousia to report what you are saying.' \n\n'What do you say then, [target.GetFirstName]? Your support will be vital for what is to come.'"
+yamato_gather_support_1.a:0 "A small sum is all that is needed"
+yamato_gather_support_1.b:0 "[target.GetName] will need more to be convinced"
+
+yamato_gather_support_2_title:0 "Response from [target.GetName]"
+yamato_gather_support_2_desc_success:0 "You have sent a trusted advisor to [target.GetName], asking them to clandestinely support your attempt to overthrow the Tribes and install yourself as King. You must admit that you are surprised when [target.GetFirstName] shows up in person at your home one evening, face hidden underneath the folds of their long tunic. 'Forgive the unexpected visit,' [target.GetFirstName] whispers, drawing close to you, 'but I dare not trust anyone else to answer such a sensitive request. I wanted to tell you, in person, that you can count on us when the time comes.'"
+yamato_gather_support_2_desc_failed:0 "You have received the reply from [target.GetName], a letter filled with insults and outright derision...and a threat! 'If you continue down this rebellious path, we shall make it known to the authorities that you are plotting - abandon your foolishness and remember your place.' Crumbling the parchment into a wad, you sneer and toss it to the ground. Remember [target.GetName] and add their family to the proscription list; when the time comes, you will not forget their cowardly lack of support."
+yamato_gather_support_2.a:0 "[target.GetName] will join us!"
+yamato_gather_support_2.b:0 "[target.GetName] has rejected to join!"
+
+
+
+# -------------------------------------------------
+# -                  Mission Two                  -
+# -------------------------------------------------
+
+
+
+yamato_02_consolidate:0 "Island Consolidation"
+yamato_02_consolidate_DESCRIPTION:0 "Mission description"
+yamato_02_consolidate_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
+yamato_02_consolidate_BUTTON_TOOLTIP:0 ""
+
+#Missions
+
+yamato_02_consolidate_task_1:0 "The Kingdom of Yamato"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_2:0 "Southern Push"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_3:0 "Coastal Ventures"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_4:0 "Up North"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_5:0 "A Functional Administration"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_6:0 "Northern Consolidation"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_7:0 "Cleaning up the Kumaso"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_8:0 "Yamato Warrior Class"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_9:0 "A Proper Navy"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_10:0 "Authority of the King"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_11:0 "Divine Emperor"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_12:0 "Masters of Wa"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_13:0 "Developing the Island"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_14:0 "Builders of Yamato"
+yamato_02_consolidate_DESC:0 ""
+
+yamato_02_consolidate_task_15:0 "A City Fit for an Emperor"
+yamato_02_consolidate_DESC:0 ""
+
+
+#Tooltips
+
+yamato_02_consolidate_task_1_tt:0 "Gain claims on the provinces of #Y $iya_area$#!, #Y $kii_area$#!, #Y $tsuma_area$#!, #Y $mino_area$#!, and #Y $owari_area$#!"
+
+yamato_02_consolidate_task_5_tt:0 "At least #Y 3#! characters that hold office have at least #Y 80#! loyalty and #Y 50#! statemenship. (Current: #Y [SCOPE.ScriptValue('current_yamato_chad_office_holders')|0]#!)"
+
+yamato_02_consolidate_task_10_tt:0 "No characters have less than #Y 30#! loyalty."
+
+yamato_02_consolidate_task_14_tt:0 "The region of [GetProvince('(int32)9328').GetArea.GetRegion.GetName] has at least #Y 250#! buildings and no ongoing construction.\nThere are currently #Y [SCOPE.ScriptValue('current_yam_buildings_svalue')|0]#!"
+
+#Events
+me_yamato_consolidate_1_title:0 "$yamato_02_consolidate_task_1$"
+me_yamato_consolidate_1_desc:0 ""
+me_yamato_consolidate_1.a:0 ""
+me_yamato_consolidate_1_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_1$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_2_title:0 "$yamato_02_consolidate_task_2$"
+me_yamato_consolidate_2_desc:0 ""
+me_yamato_consolidate_2.a:0 ""
+me_yamato_consolidate_2_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_2$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_3_title:0 "$yamato_02_consolidate_task_3$"
+me_yamato_consolidate_3_desc:0 ""
+me_yamato_consolidate_3.a:0 ""
+me_yamato_consolidate_3_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_3$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_4_title:0 "$yamato_02_consolidate_task_4$"
+me_yamato_consolidate_4_desc:0 ""
+me_yamato_consolidate_4.a:0 ""
+me_yamato_consolidate_4_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_4$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_5_title:0 "$yamato_02_consolidate_task_5$"
+me_yamato_consolidate_5_desc:0 ""
+me_yamato_consolidate_5.a:0 ""
+me_yamato_consolidate_5_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_5$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_6_title:0 "$yamato_02_consolidate_task_6$"
+me_yamato_consolidate_6_desc:0 ""
+me_yamato_consolidate_6.a:0 ""
+me_yamato_consolidate_6_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_6$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_7_title:0 "$yamato_02_consolidate_task_7$"
+me_yamato_consolidate_7_desc:0 ""
+me_yamato_consolidate_7.a:0 ""
+me_yamato_consolidate_7_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_7$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_8_title:0 "$yamato_02_consolidate_task_8$"
+me_yamato_consolidate_8_desc:0 ""
+me_yamato_consolidate_8.a:0 ""
+me_yamato_consolidate_8_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_8$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_9_title:0 "$yamato_02_consolidate_task_9$"
+me_yamato_consolidate_9_desc:0 ""
+me_yamato_consolidate_9.a:0 ""
+me_yamato_consolidate_9_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_9$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_10_title:0 "$yamato_02_consolidate_task_10$"
+me_yamato_consolidate_10_desc:0 ""
+me_yamato_consolidate_10.a:0 ""
+me_yamato_consolidate_10_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_10$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_11_title:0 "$yamato_02_consolidate_task_11$"
+me_yamato_consolidate_11_desc:0 ""
+me_yamato_consolidate_11.a:0 ""
+me_yamato_consolidate_11_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_11$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_12_title:0 "$yamato_02_consolidate_task_12$"
+me_yamato_consolidate_12_desc:0 ""
+me_yamato_consolidate_12.a:0 ""
+me_yamato_consolidate_12_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_12$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_13_title:0 "$yamato_02_consolidate_task_13$"
+me_yamato_consolidate_13_desc:0 ""
+me_yamato_consolidate_13.a:0 ""
+me_yamato_consolidate_13_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_13$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_14_title:0 "$yamato_02_consolidate_task_14$"
+me_yamato_consolidate_14_desc:0 ""
+me_yamato_consolidate_14.a:0 ""
+me_yamato_consolidate_14_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_14$#!' has now been #G Completed#!!"
+
+me_yamato_consolidate_15_title:0 "$yamato_02_consolidate_task_15$"
+me_yamato_consolidate_15_desc:0 ""
+me_yamato_consolidate_15.a:0 ""
+me_yamato_consolidate_15_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_15$#!' has now been #G Completed#!!"

@@ -3,7 +3,7 @@
  paradisial_garden_past:0 "Built a Garden"
  paradisial_garden_act:0 "Build a Garden"
  paradisial_garden_act_past:0 "Built a Garden"
- 
+
  entice_governor_cooldown_tt:0 "The governors of [target.GetCountry.GetName] cannot be enticed again until [SCOPE.sChar('target').GetCountry.GetVariableExpiry('entice_governor_cooldown_var')|Y]."
  #Buddhist
  inward_journey:0 "Inward Journey"
@@ -27,7 +27,7 @@
  tribal_duel.1.b:0 "Have [champion.GetName] fight for me"
 
  tribal_duel.2.t:0 "Glorious Combat"
- tribal_duel_2_desc_loser:0 "When the tribal elders gather together on sacred days to remember our ancestors, those brave men and women who fought and gave their lives to make our people what they are today, another esteemed name shall by added to the list of heroes; your own. Although you fought to the best of your ability, it was not enough to triumph over your enemy, but there is no shame in dying in glorious combat." 
+ tribal_duel_2_desc_loser:0 "When the tribal elders gather together on sacred days to remember our ancestors, those brave men and women who fought and gave their lives to make our people what they are today, another esteemed name shall by added to the list of heroes; your own. Although you fought to the best of your ability, it was not enough to triumph over your enemy, but there is no shame in dying in glorious combat."
 
  tribal_duel_2_desc_axe_killer:0 "[target.GetName] launches one final, desperate attack, with each wild swing meeting nothing but air. This is the best that they can do? And they thought themselves able to stand against you in combat...you are filled with pity for a brief moment, but soon an icy contempt overtakes you, and you do the business that must be done. With a powerful blow, you bury your axe deep in [target.GetName]'s skull, cleaving it in twain."
  tribal_duel_2_desc_spear_killer:0 "The air is filled with a terrible cracking of wood as [target.GetName]'s weapon is shattered, unable to withstand the fierce torrent of blows you unleashed upon it. Your opponent, realizing the end is near, begins to cry out, filling the air with a hoarse wailing that raises the hair on your arms. Falling forward, you plunge your spear deep into [target.GetName]'s throat, ending their life alongside their pitiful mewling."
@@ -189,6 +189,10 @@
 #Gather support Argos unique interaction
  gather_support:0 "Gather Support"
  gather_support_act:0 "Support will be needed in the upcoming revolution. A transition of government is never pretty..."
+
+#Gather support Yamato unique interaction
+ ymt_gather_support:0 "Gather Support"
+ ymt_gather_support_act:0 "Support will be needed in the upcoming change of governement. A transition of government is never pretty..."
 
 #Force Divorce interaction
  force_retirement:0 "Force Retirement"

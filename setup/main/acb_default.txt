@@ -189,6 +189,12 @@ family = {
 			culture = mahan
 			prestige = 300
 		}
+		1027 = {
+			key = "Yamato"
+			owner = YMT
+			culture = wa
+			prestige = 500
+		}
 	}
 }
 
@@ -3522,6 +3528,7 @@ country = {
 			religion = wa_religions
 			capital = 9328
 			is_antagonist = yes
+			family = 1027
 			technology = {
 				military_tech = {
 					level = 1

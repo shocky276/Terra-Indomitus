@@ -511,6 +511,18 @@ bloodlines_setup_completion.1 = {
 			    limit = {
 			        exists = father
 			        father = {
+			            has_trait = yamato_bloodline
+			        }
+			        NOT = {
+			            has_trait = yamato_bloodline
+			        }
+			    }
+			    add_trait = yamato_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
 			            has_trait = wei_bloodline
 			        }
 			        NOT = {
@@ -1202,6 +1214,18 @@ bloodlines_setup_completion.1 = {
 			        }
 			    }
 			    add_trait = qin_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = yamato_bloodline
+			        }
+			        NOT = {
+			            has_trait = yamato_bloodline
+			        }
+			    }
+			    add_trait = yamato_bloodline
 			}
 			if = {
 			    limit = {
@@ -1925,6 +1949,18 @@ bloodlines_setup_completion.2 = {
 			    limit = {
 			        exists = father
 			        father = {
+			            has_trait = yamato_bloodline
+			        }
+			        NOT = {
+			            has_trait = yamato_bloodline
+			        }
+			    }
+			    add_trait = yamato_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
 			            has_trait = qin_bloodline
 			        }
 			        NOT = {
@@ -2628,6 +2664,18 @@ bloodlines_setup_completion.2 = {
 					}
 				}
 				add_trait = blood_of_zipoetes
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = yamato_bloodline
+			        }
+			        NOT = {
+			            has_trait = yamato_bloodline
+			        }
+			    }
+			    add_trait = yamato_bloodline
 			}
 			if = {
 			    limit = {
@@ -3387,6 +3435,18 @@ bloodlines_setup_completion.3 = {
 			    limit = {
 			        exists = father
 			        father = {
+			            has_trait = yamato_bloodline
+			        }
+			        NOT = {
+			            has_trait = yamato_bloodline
+			        }
+			    }
+			    add_trait = yamato_bloodline
+			}
+			if = {
+			    limit = {
+			        exists = father
+			        father = {
 			            has_trait = qin_bloodline
 			        }
 			        NOT = {
@@ -4126,6 +4186,18 @@ bloodlines_setup_completion.3 = {
 					}
 				}
 				add_trait = blood_of_zipoetes
+			}
+			if = {
+			    limit = {
+			        exists = mother
+			        mother = {
+			            has_trait = yamato_bloodline
+			        }
+			        NOT = {
+			            has_trait = yamato_bloodline
+			        }
+			    }
+			    add_trait = yamato_bloodline
 			}
 			if = {
 			    limit = {

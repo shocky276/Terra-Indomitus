@@ -1,4 +1,17 @@
-﻿qin_bloodline = {
+﻿yamato_bloodline = {
+	type = status
+
+	prominence = 20
+	martial = 1
+	country = {
+		global_manpower_modifier = 0.025
+	}
+	unit = {
+		discipline = 0.05
+	}
+}
+
+qin_bloodline = {
 	type = status
 
 	prominence = 20

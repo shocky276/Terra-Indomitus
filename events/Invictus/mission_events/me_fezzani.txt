@@ -207,7 +207,7 @@ me_fezzani.6 = { # task 6 - befriend the garamantes - garamantes ping
 	}
 	picture = greek_city
 	left_portrait = current_ruler
-	right_portrait = c:NAS.current_ruler
+	right_portrait = c:NSM.current_ruler
     goto_location = p:8128 # Nasamone's capital
 
 	option = {	# Alliance
@@ -220,7 +220,7 @@ me_fezzani.6 = { # task 6 - befriend the garamantes - garamantes ping
 			}
 		}
 		reverse_add_opinion = {
-			target = NAS
+			target = NSM
 			modifier = me_fezzani_1_nasamones_50_pos_opmod
         }
 		reverse_add_opinion = {
@@ -258,7 +258,7 @@ me_fezzani.6 = { # task 6 - befriend the garamantes - garamantes ping
 			}
 		}
 		reverse_add_opinion = {
-			target = NAS
+			target = NSM
 			modifier = me_fezzani_1_nasamones_100_pos_opmod
         }
 		reverse_add_opinion = {
@@ -311,7 +311,7 @@ me_fezzani.6 = { # task 6 - befriend the garamantes - garamantes ping
 				factor = 3
 				scope:me_fezzani_scope = {
 					opinion = {
-						target = NAS
+						target = NSM
 						value < 0
 					}
 				}
@@ -365,7 +365,7 @@ me_fezzani.7 = { # Garamantes Response to nas
 				root.var:nasamones_garamantes_owner_response = 1
 			}
 			scope:me_fezzani_scope = {
-				add_alliance = c:NAS
+				add_alliance = c:NSM
 			}
 		}
 		else_if = {
@@ -476,7 +476,7 @@ me_fezzani.10 = { # Conquering our neighbors garamantia
 
 		if = {
 			limit = {
-				tag = NAS
+				tag = NSM
 			}
 			area:soda_area = {
 				add_provincial_claim_effect = yes
@@ -609,16 +609,16 @@ me_fezzani.12 = {
 		}
 		if = {
 			limit = {
-				c:NAS = { # NAS still exist
+				c:NSM = { # NSM still exist
 					is_ai = yes
 					has_land = yes
 					is_subject_of = ROOT # they are a subject
                     is_subject_type = tributary
 				}
 			}
-			release_subject = c:NAS
+			release_subject = c:NSM
 			make_subject = {
-				target = c:NAS
+				target = c:NSM
 				type = feudatory
 			}
 		}
@@ -781,7 +781,7 @@ me_fezzani.21 = { # Fezzani Domination all end
 
 		if = {
 			limit = {
-				tag = NAS
+				tag = NSM
 			}
 			area:psyllia_area = {
 				add_provincial_claim_effect = yes
