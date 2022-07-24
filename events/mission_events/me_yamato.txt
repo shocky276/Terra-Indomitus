@@ -5,7 +5,7 @@ me_yamato_heartland.1 = {
 
     title = me_yamato_heartland_1_title
     desc = me_yamato_heartland_1_desc
-    picture = great_library
+    picture = scribe_tools
 
     option = {
         name = "me_yamato_heartland_1.a"
@@ -21,7 +21,7 @@ me_yamato_heartland.2 = {
 
     title = me_yamato_heartland_2_title
     desc = me_yamato_heartland_2_desc
-    picture = great_library
+    picture = great_work_supplies
 
     option = {
         name = "me_yamato_heartland_2.a"
@@ -37,7 +37,7 @@ me_yamato_heartland.3 = {
 
     title = me_yamato_heartland_3_title
     desc = me_yamato_heartland_3_desc
-    picture = great_library
+    picture = steppe_cavalry_honor
 
     option = {
         name = "me_yamato_heartland_3.a"
@@ -54,7 +54,7 @@ me_yamato_heartland.4 = {
 
     title = me_yamato_heartland_4_title
     desc = me_yamato_heartland_4_desc
-    picture = great_library
+    picture = war_chest
 
     option = {
         name = "me_yamato_heartland_4.a"
@@ -67,7 +67,8 @@ me_yamato_heartland.5 = {
 
     title = me_yamato_heartland_5_title
     desc = me_yamato_heartland_5_desc
-    picture = great_library
+    picture = road_construction
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_heartland_5.a"
@@ -85,7 +86,8 @@ me_yamato_heartland.6 = {
 
     title = me_yamato_heartland_6_title
     desc = me_yamato_heartland_6_desc
-    picture = great_library
+    picture = bakery
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_heartland_6.a"
@@ -107,7 +109,8 @@ me_yamato_heartland.7 = {
 
     title = me_yamato_heartland_7_title
     desc = me_yamato_heartland_7_desc
-    picture = great_library
+    picture = indian_city
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_heartland_7.a"
@@ -123,7 +126,8 @@ me_yamato_heartland.8 = {
 
     title = me_yamato_heartland_8_title
     desc = me_yamato_heartland_8_desc
-    picture = great_library
+    picture = slaves_working
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_heartland_8.a"
@@ -139,7 +143,8 @@ me_yamato_heartland.9 = {
 
     title = me_yamato_heartland_9_title
     desc = me_yamato_heartland_9_desc
-    picture = great_library
+    picture = hanging_gardens
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_heartland_9.a"
@@ -158,7 +163,8 @@ me_yamato_heartland.10 = {
 
     title = me_yamato_heartland_10_title
     desc = me_yamato_heartland_10_desc
-    picture = great_library
+    picture = shrine_city
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_heartland_10.a"
@@ -171,7 +177,8 @@ me_yamato_heartland.11 = {
 
     title = me_yamato_heartland_11_title
     desc = me_yamato_heartland_11_desc
-    picture = great_library
+    picture = council_country
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_heartland_11.a"
@@ -185,7 +192,7 @@ me_yamato_heartland.12 = {
 
     title = me_yamato_heartland_12_title
     desc = me_yamato_heartland_12_desc
-    picture = great_library
+    picture = throneroom
 
     option = { #We Need a Despotic Monarch
         name = "me_yamato_heartland_12.a"

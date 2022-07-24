@@ -2,46 +2,46 @@
 
 yamato_01_heartland:0 "Heartland of Yamato"
 yamato_01_heartland_DESCRIPTION:0 "Mission description"
-yamato_01_heartland_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
+yamato_01_heartland_CRITERIA_DESCRIPTION:0 "This mission will be completed when the heartlands of Yamato have been unified under a single banner, for it is the destiny of these lands to be ruled by one hand."
 yamato_01_heartland_BUTTON_TOOLTIP:0 ""
 
 #Missions
 
 yamato_01_heartland_task_1:0 "Trustworthy Allies"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "If we are to set our plans into action, we will not only need allies protecting our backs, but they must be trustworthy and honorable - we shall accept nothing less. \n\n\n\n\n\n\n\n\n\n\n@india_mil20! "
 
 yamato_01_heartland_task_2:0 "Preparations for War"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "The time has come for us to set aside diplomacy, relying on force of arms to accomplish our will instead. Prepare our men for war. \n\n\n\n\n\n\n\n\n\n\n@celt_mil6!"
 
 yamato_01_heartland_task_3:0 "Outward Expansion"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "Our soldiers are eager for battle, ready to destroy the enemies of Yamato as we expand our borders outward. May our warriors lead us to victory! \n\n\n\n\n\n\n\n\n\n\n@celt_mil6!"
 
 yamato_01_heartland_task_4:0 "The First Steps"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "There is much wealth to be extracted from the peoples surrounding us; the first step is to get our financial house in order. \n\n\n\n\n\n\n\n\n\n\n@egypt_mil19!"
 
 yamato_01_heartland_task_5:0 "Great City of Yamato"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "Would not the farmlands of [GetProvince('(int32)9328').GetName] be a most auspicious place to build a city? Our people deserve a capital that reflects their refinement and nobility. \n\n\n\n\n\n\n\n\n\n\n@india_mil18!"
 
 yamato_01_heartland_task_6:0 "Cultivation of Rice"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "As our lands expand and grow, so do our responsibilities, and we have many an empty belly to fill - it is clear that [GetProvince('(int32)9328').GetName] needs a major food source to supply her demands. \n\n\n\n\n\n\n\n\n\n\n@celt_mil14!"
 
 yamato_01_heartland_task_7:0 "On Proper Footing"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "[GetProvince('(int32)9328').GetName] has finally settled into a comfortable state, finding proper footing in an uncertain world. We rest secure knowing that greater things lie in store. \n\n\n\n\n\n\n\n\n\n\n@event_pic7!"
 
 yamato_01_heartland_task_8:0 "Control the Heartland"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "Our efforts at unification are sanctioned by the gods, who continuously bless us with good fortune - [GetProvince('(int32)9328').GetName] has unified the heartland, bringing it firmly under our control. \n\n\n\n\n\n\n\n\n\n\n@india_mil23!"
 
 yamato_01_heartland_task_9:0 "Developing Yamato"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "Building a city in [GetProvince('(int32)9328').GetName] was a start, but it is clear that there remains much work to be done. We must develop our capital to the best of our ability. \n\n\n\n\n\n\n\n\n\n\n@persia_mil7!"
 
 yamato_01_heartland_task_10:0 "Bringing the Chiefs Together"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "Before we consider any foreign entanglements, it would be wise to gather a consensus amongst the Clan Chiefs, for harmony between our own peoples remains our primary goal. \n\n\n\n\n\n\n\n\n\n\n@india_mil22!"
 
 yamato_01_heartland_task_11:0 "A New Way Forward"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "There is growing talk of reform, of proposals for a new way forward for [GetProvince('(int32)9328').GetName] - in time, we will see if these efforts will amount to anything. \n\n\n\n\n\n\n\n\n\n\n@celt_mil3!"
 
 yamato_01_heartland_task_12:0 "Kingdom of Yamato"
-yamato_01_heartland_DESC:0 ""
+yamato_01_heartland_DESC:0 "The way forward has revealed itself to us, with promises of eternal glory awaiting if we seize the moment. Let it be known that [GetProvince('(int32)9328').GetName] shall become a kingdom, one unlike the world has ever known! \n\n\n\n\n\n\n\n\n\n\n@persia_mil9!"
 
 
 #Misc
@@ -61,7 +61,7 @@ yamato_01_heartland_task_9_tt:0 "[GetProvince('(int32)9328').GetArea.GetName|Y] 
 yamato_01_heartland_task_10_tt:0 "At least #Y 2#! Clan Chiefs have #Y 50#! or more loyalty."
 yamato_01_heartland_task_10_ttt:0 "Gain access to the #Y Gather Support#! character interaction. This can be used on clan chiefs to gather support for the upcoming changes in our nation."
 
-yamato_01_heartland_task_12_tt:0 "[THIS.GetCountry.GetName|Y] will become a #Y Kingdom#!"
+yamato_01_heartland_task_12_tt:0 "[THIS.GetCountry.GetName|Y] will become a #Y Kingdom.#!"
 
 #Modifiers
 
@@ -83,81 +83,81 @@ cities_of_wa:0 "Cities of Wa"
 
 #Events
 me_yamato_heartland_1_title:0 "$yamato_01_heartland_task_1$"
-me_yamato_heartland_1_desc:0 ""
-me_yamato_heartland_1.a:0 ""
+me_yamato_heartland_1_desc:0 "[ROOT.GetCountry.GetRuler.GetName], we have received word from the emissaries that you commanded be sent abroad. Knowing that you desired allies with a strong moral character, letting it be known that the people of [GetProvince('(int32)9328').GetName] do not seek friendship with those of poor repute, our ambassadors doubled their efforts, vowing not to rest until all has been achieved. You will be pleased to know that, because of their exceptional efforts, our diplomatic reputation has grown - we have obtained the respect of the like-minded."
+me_yamato_heartland_1.a:0 "Yamato deserves nothing less"
 me_yamato_heartland_1_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_1$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_2_title:0 "$yamato_01_heartland_task_2$"
-me_yamato_heartland_2_desc:0 ""
-me_yamato_heartland_2.a:0 ""
+me_yamato_heartland_2_desc:0 "Word has spread that the people of [GetProvince('(int32)9328').GetName] are preparing for war, despite the best efforts of [ROOT.GetCountry.GetRuler.GetName] to keep these martial initiatives a secret. Blacksmiths have been working practically non-stop, making sure that enough weapons and armor have been prepared for whatever it is they are planning, and local farmers have been observed bringing large quantities of foodstuffs to the capital. Yamato is stockpiling resources...it won't be long before we all hear news of the war."
+me_yamato_heartland_2.a:0 "The men of Yamato prepare to march!"
 me_yamato_heartland_2_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_2$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_3_title:0 "$yamato_01_heartland_task_3$"
-me_yamato_heartland_3_desc:0 ""
-me_yamato_heartland_3.a:0 ""
+me_yamato_heartland_3_desc:0 "War has erupted! At daybreak, skirmishers from [GetProvince('(int32)9328').GetName] spilled forth from their hidden camps, crossing the markers that divide territories and invading the sleepy fields and farmlands of our unsuspecting neighbors. Even now, [ROOT.GetCountry.GetRuler.GetName] has issued orders to show no mercy to our enemies - at long last, we embrace our destiny!"
+me_yamato_heartland_3.a:0 "May Hi ride alongside us to victory!"
 me_yamato_heartland_3_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_3$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_4_title:0 "$yamato_01_heartland_task_4$"
-me_yamato_heartland_4_desc:0 ""
-me_yamato_heartland_4.a:0 ""
+me_yamato_heartland_4_desc:0 "We have received a message from our financial administrators, my Chief, and no, before you ask, it is not an unexpected bill - quite the opposite, in fact. Without getting into the particulars, we shall say that the local people willingly showed a generous spirit when giving to our tax collectors. They understand that war is expensive, after all."
+me_yamato_heartland_4.a:0 "How much did we get, exactly?"
 me_yamato_heartland_4_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_4$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_5_title:0 "$yamato_01_heartland_task_5$"
-me_yamato_heartland_5_desc:0 ""
-me_yamato_heartland_5.a:0 ""
+me_yamato_heartland_5_desc:0 "It is mid-morning, and [ROOT.GetCountry.GetRuler.GetName] is leading a procession of engineers through the fertile farmlands of [GetProvince('(int32)9328').GetName] towards the newly-erected city in the center of the valley. Construction in Yamato has been on-going for a great many months, and [ROOT.GetCountry.GetRuler.GetName] has expressed [ROOT.GetCountry.GetRuler.GetHerHis] desire to personally oversee the final stages.\n\n[ROOT.GetCountry.GetRuler.GetFirstName] walks silently through the street, the only activity on [ROOT.GetCountry.GetRuler.GetHerHis] face being the measured movement of [ROOT.GetCountry.GetRuler.GetHerHis] eyes; clearly, [ROOT.GetCountry.GetRuler.GetFirstName] is taking everything in. After an eternity of expressionless silence, there is an audible sigh of relief from the Chief Architect when [ROOT.GetCountry.GetRuler.GetFirstName] nods [ROOT.GetCountry.GetRuler.GetHerHis] head in approval. 'A tremendous effort, one worthy of the people who shall live here. You have my thanks for the work that you have done.'"
+me_yamato_heartland_5.a:0 "We have a vision of unprecedented greatness for our city..."
 me_yamato_heartland_5_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_5$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_6_title:0 "$yamato_01_heartland_task_6$"
-me_yamato_heartland_6_desc:0 ""
-me_yamato_heartland_6.a:0 ""
+me_yamato_heartland_6_desc:0 "Excellent news! Our farming settlement has finally been completed, and already we are enjoying the fruits of our harvest. Now we have a steady supply of rice, able to fill the bowls of our people to overflowing, and they have no one but [ROOT.GetCountry.GetRuler.GetName] to thank for it. As a way of expressing gratitude, there is to be a feast in your honor tonight, [ROOT.GetCountry.GetRuler.GetFirstName]."
+me_yamato_heartland_6.a:0 "I can smell the fragrant dishes being prepared..."
 me_yamato_heartland_6_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_6$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_7_title:0 "$yamato_01_heartland_task_7$"
-me_yamato_heartland_7_desc:0 ""
-me_yamato_heartland_7.a:0 ""
+me_yamato_heartland_7_desc:0 "Once considered a backwater of sorts, [GetProvince('(int32)9328').GetName] has become known as a power broker in the region, able to project her strength far beyond the city walls of her capital region. There is nothing that happens in our land without [ROOT.GetCountry.GetRuler.GetName] being completely aware of it, and there are many warlords and generals that curse [ROOT.GetCountry.GetRuler.GetHerHis] name for it, openly lamenting a time when they could have hoped to stop the rise of Yamato, for those days are long gone."
+me_yamato_heartland_7.a:0 "I have promised prosperity, and it is prosperity I have delivered"
 me_yamato_heartland_7_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_7$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_8_title:0 "$yamato_01_heartland_task_8$"
-me_yamato_heartland_8_desc:0 ""
-me_yamato_heartland_8.a:0 ""
+me_yamato_heartland_8_desc:0 "The province that cradles the mighty seat of the [GetProvince('(int32)9328').GetName] is something to behold, especially now that the armies of [ROOT.GetCountry.GetRuler.GetName] have accomplished what no one was able to do before; the complete unification of a region known for the independence of its peoples. Yet the squabbling has finally been silenced, and all gather to pay homage to one; [ROOT.GetCountry.GetRuler.GetFirstName]. Now that the heartland has been joined together under one flag, ushering in an era of prosperity and growth, who can foresee what awaits Yamato?"
+me_yamato_heartland_8.a:0 "All shall witness our ascension, and all shall tremble at our majesty"
 me_yamato_heartland_8_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_8$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_9_title:0 "$yamato_01_heartland_task_9$"
-me_yamato_heartland_9_desc:0 ""
-me_yamato_heartland_9.a:0 ""
+me_yamato_heartland_9_desc:0 "[GetProvince('(int32)9328').GetName] has quickly become the most important city in the area; a development that has surprised no one. It is known that the surrounding countryside is hilly, filled with rocks and poor soil, yet the farmlands that cradle Yamato are generous and inviting, able to sustain the mighty city that has sprouted within. Even now, her tall buildings can be seen at a vast distance, relieving the travelers who know they will find comfort in her city walls before nightfall. The citizens of this noble town owe their thanks to [ROOT.GetCountry.GetRuler.GetName]."
+me_yamato_heartland_9.a:0 "Did I not tell you that these things would happen?"
 me_yamato_heartland_9_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_9$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_10_title:0 "$yamato_01_heartland_task_10$"
-me_yamato_heartland_10_desc:0 ""
-me_yamato_heartland_10.a:0 ""
+me_yamato_heartland_10_desc:0 "For a long time, [ROOT.GetCountry.GetRuler.GetName] has been troubled, for there is a puzzle that they have been unable to solve; can the people of [GetProvince('(int32)9328').GetName] truly trust the Clan Chiefs, who are known to be selfish in their desires? How will we know if they will offer their support to [ROOT.GetCountry.GetRuler.GetFirstName] when the appointed hour comes?\n\nAnd then, one day when everyone was gathered to make sacrifices, the answer made itself apparent."
+me_yamato_heartland_10.a:0 "Enough; I shall personally seek their assurances"
 me_yamato_heartland_10_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_10$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_11_title:0 "$yamato_01_heartland_task_11$"
-me_yamato_heartland_11_desc:0 ""
-me_yamato_heartland_11.a:0 ""
+me_yamato_heartland_11_desc:0 "After weeks of meeting with the Clan Chiefs, [ROOT.GetCountry.GetRuler.GetName] was able to begrudgingly obtain oaths, albeit at great personal cost. Although it was a frustrating process at times, requiring hours and hours of delicate negotiation and animated conversation, [ROOT.GetCountry.GetRuler.GetFirstName] is pleased enough with the outcome. Yamato awaits your next orders, my Chief."
+me_yamato_heartland_11.a:0 "Excellent news indeed - our time...and cash...was well spent"
 me_yamato_heartland_11_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_11$#!' has now been #G Completed#!!"
 
 me_yamato_heartland_12_title:0 "$yamato_01_heartland_task_12$"
-me_yamato_heartland_12_desc:0 ""
+me_yamato_heartland_12_desc:0 "Known as a fastidious planner, able to calculate the ramifications of every twist and turn in an imagined plan, it should come as no surprise that, when the time came for [ROOT.GetCountry.GetRuler.GetName] to proclaim a new form of government for the people of [GetProvince('(int32)9328').GetName], there were no dissenting voices, no angry cries of treason or sedition. All opposition had been silenced well in advance, with all seemingly in agreement; the only task that remains is for [ROOT.GetCountry.GetRuler.GetFirstName] to give [ROOT.GetCountry.GetRuler.GetHerHis] final seal of approval."
 me_yamato_heartland_12.a:0 "We Need a Despotic Monarch"
-me_yamato_heartland_12.b:0 "A Aristocratic Monarchy"
-me_yamato_heartland_12.c:0 "A Stratocratic Monarchy"
+me_yamato_heartland_12.b:0 "An Aristocratic Monarchy suits us best"
+me_yamato_heartland_12.c:0 "A Stratocratic Monarchy is my preferred choice"
 me_yamato_heartland_12.d:0 "Theocracy is the only Way"
 me_yamato_heartland_12.e:0 "Plutocracy suits us well"
 me_yamato_heartland_12_tooltip:0 "The mission task '#Y $yamato_01_heartland_task_12$#!' has now been #G Completed#!!"
 
 
-#Descriptions copied from argos, may need some tweaks but should be mostly good
+
 yamato_gather_support_title:0 "Gathering Support"
-yamato_gather_support_1_desc:0 "[ROOT.GetCountry.GetRuler.GetName] has seemed preoccupied the last few days, refusing to divulge what is on [ROOT.GetCountry.GetRuler.GetHerHis] mind. Despite this minor distraction, as irritable moods are a rare thing for [ROOT.GetCountry.GetRuler.GetFirstName], life goes on, as usual, at the capital. The endless debates in the Gerousia continue, the streets are filled with merchants and tradesmen, and the common people go about their days. The less ambitious might even be satisfied by this state.\n\nYet heads would certainly turn if they knew the real reason that [ROOT.GetCountry.GetRuler.GetFirstName] seems anxious; as we speak, secret emissaries have been sent to [target.GetName], hoping to build support for a change in government. Even now, our campaign of whispers continues..."
-yamato_gather_support_1_desc_2:0 "You have made a difficult decision, one that causes your body to tremble with excitement when you truly consider the ramifications. By seeking to depose the authority of the Gerousia and replace it with your rule, you have made the fatal decision; any misstep, any flaw in your plans, will result in your public execution as an enemy of the state. The small-minded might say what I am proposing is treason...I cannot do this alone; I must seek support among those who think like me, in order to give my claims legitimacy."
+yamato_gather_support_1_desc:0 "[ROOT.GetCountry.GetRuler.GetName] has seemed preoccupied the last few days, refusing to divulge what is on [ROOT.GetCountry.GetRuler.GetHerHis] mind. Despite this minor distraction, as irritable moods are a rare thing for [ROOT.GetCountry.GetRuler.GetFirstName], life goes on, as usual, at the capital. The endless debates amongst the Elders continue, the streets are filled with merchants and tradesmen, and the common people go about their days. The less ambitious might even be satisfied by this state.\n\nYet heads would certainly turn if they knew the real reason that [ROOT.GetCountry.GetRuler.GetFirstName] seems anxious; as we speak, secret emissaries have been sent to [target.GetName], hoping to build support for a change in government. Even now, our campaign of whispers continues..."
+yamato_gather_support_1_desc_2:0 "You have made a difficult decision, one that causes your body to tremble with excitement when you truly consider the ramifications. By seeking to depose the authority of the Tribal Elders and replace it with your rule, you have made the fatal decision; any misstep, any flaw in your plans, will result in your public execution as an enemy of the state. The small-minded might say what you are proposing is treason...but you cannot do this alone; you must seek support among those who think like me, in order to give your claims legitimacy."
 yamato_gather_support_1_desc_3:0 "[ROOT.GetCountry.GetRuler.GetName] has decided that the support of [target.GetName] will be a requirement moving forward, as [ROOT.GetCountry.GetRuler.GetFirstName] cannot hope to stand on [ROOT.GetCountry.GetRuler.GetHerHis] own two legs when the time for rebellion is at hand. Still, it is known that [target.GetFirstName] is a faithful sort, although [target.GetHerHis] loyalty could certainly be purchased. As with everything in life, there are no promises."
-yamato_gather_support_1_desc_4:0 "'You are aware of what you are proposing, [ROOT.GetCountry.GetRuler.GetFirstName]?' [target.GetName] reclines back onto a couch, a fierce twinkle in [ROOT.GetCountry.GetRuler.GetHerHis] eyes. The hour is late; all of the household slaves are asleep, save for the one attendant sleepily standing in the doorway. 'Don't worry about Phaedo; he's deaf.' [target.GetName] states matter of factly. 'He won't run off to the Gerousia to report what you are saying.' \n\n'What do you say then, [target.GetFirstName]? Your support will be vital for what is to come.'"
+yamato_gather_support_1_desc_4:0 "'You are aware of what you are proposing, [ROOT.GetCountry.GetRuler.GetFirstName]?' [target.GetName] reclines back onto a couch, a fierce twinkle in [ROOT.GetCountry.GetRuler.GetHerHis] eyes. The hour is late; all of the household slaves are asleep, save for the one attendant sleepily standing in the doorway. 'Don't worry about Tian Bo; he's deaf.' [target.GetName] states matter of factly. 'He won't run off to the Elders to report what you are saying.' \n\n'What do you say then, [target.GetFirstName]? Your support will be vital for what is to come.'"
 yamato_gather_support_1.a:0 "A small sum is all that is needed"
 yamato_gather_support_1.b:0 "[target.GetName] will need more to be convinced"
 
 yamato_gather_support_2_title:0 "Response from [target.GetName]"
-yamato_gather_support_2_desc_success:0 "You have sent a trusted advisor to [target.GetName], asking them to clandestinely support your attempt to overthrow the Tribes and install yourself as King. You must admit that you are surprised when [target.GetFirstName] shows up in person at your home one evening, face hidden underneath the folds of their long tunic. 'Forgive the unexpected visit,' [target.GetFirstName] whispers, drawing close to you, 'but I dare not trust anyone else to answer such a sensitive request. I wanted to tell you, in person, that you can count on us when the time comes.'"
+yamato_gather_support_2_desc_success:0 "You have sent a trusted advisor to [target.GetName], asking them to clandestinely support your attempt to overthrow the Elders and install yourself as King. You must admit that you are surprised when [target.GetFirstName] shows up in person at your home one evening, face hidden underneath the folds of their long tunic. 'Forgive the unexpected visit,' [target.GetFirstName] whispers, drawing close to you, 'but I dare not trust anyone else to answer such a sensitive request. I wanted to tell you, in person, that you can count on us when the time comes.'"
 yamato_gather_support_2_desc_failed:0 "You have received the reply from [target.GetName], a letter filled with insults and outright derision...and a threat! 'If you continue down this rebellious path, we shall make it known to the authorities that you are plotting - abandon your foolishness and remember your place.' Crumbling the parchment into a wad, you sneer and toss it to the ground. Remember [target.GetName] and add their family to the proscription list; when the time comes, you will not forget their cowardly lack of support."
 yamato_gather_support_2.a:0 "[target.GetName] will join us!"
 yamato_gather_support_2.b:0 "[target.GetName] has rejected to join!"
