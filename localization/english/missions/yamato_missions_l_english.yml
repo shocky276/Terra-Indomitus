@@ -1,7 +1,7 @@
 ﻿l_english:
 
 yamato_01_heartland:0 "Heartland of Yamato"
-yamato_01_heartland_DESCRIPTION:0 "Mission description"
+yamato_01_heartland_DESCRIPTION:0 "In the mountainous countryside of southern Honshu, if one follows the winding paths through the craggy defiles through the treacherous landscape, eventually your tired feet will reach the abundant farmlands of Yamato; a welcome sight for a traveler's aching back. It is here, in this province that is cradled by the surrounding hills like an egg in a nest, where a vision for a glorious future was born."
 yamato_01_heartland_CRITERIA_DESCRIPTION:0 "This mission will be completed when the heartlands of Yamato have been unified under a single banner, for it is the destiny of these lands to be ruled by one hand."
 yamato_01_heartland_BUTTON_TOOLTIP:0 ""
 
@@ -72,6 +72,7 @@ major_food_source_prov_mod:0 "Major Food Source"
 prosperity_of_yamato:0 "Prosperity of Yamato"
 ascension_of_yamato:0 "Ascension of Yamato"
 warriors_of_yamato:0 "Warrior of Yamato"
+thriving_coastal_province_state_mod:0 "Thriving Coastal Province State"
 
 yamato_influence_state_mod:0 "Yamato Influence"
 organized_admin_country_mod:0 "Organized Administration"
@@ -171,56 +172,56 @@ yamato_gather_support_2.b:0 "[target.GetName] has rejected to join!"
 
 
 yamato_02_consolidate:0 "Island Consolidation"
-yamato_02_consolidate_DESCRIPTION:0 "Mission description"
-yamato_02_consolidate_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
+yamato_02_consolidate_DESCRIPTION:0 "All have witnessed the meteoric rise of Yamato, who have managed the nigh-impossible task of unifying their core homelands under a single leader; who could have foreseen her breathtaking ascent? And yet, it is no secret that Yamato has ambitious desires to accomplish what has never been done before - the creation of a mighty empire."
+yamato_02_consolidate_CRITERIA_DESCRIPTION:0 "This mission will be completed when Kingdom of Yamato has destroyed the petty warlords surrounding her and taken complete control of the islands."
 yamato_02_consolidate_BUTTON_TOOLTIP:0 ""
 
 #Missions
 
 yamato_02_consolidate_task_1:0 "The Kingdom of Yamato"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "By now, our claims to the lands around us should be understood by those living there. For our future prosperity, we must control the hinterlands surrouding our home."
 
 yamato_02_consolidate_task_2:0 "Southern Push"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "Momentum in martial matters can be an ally, especially when striking from a position of strength. Do not allow our enemies to find their footing but continue to push against them!"
 
 yamato_02_consolidate_task_3:0 "Coastal Ventures"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "The coasts of [GetProvince('(int32)9679').GetArea.GetName] are known for their natural harbors, a fact of nature that we could bolster with directed investments."
 
 yamato_02_consolidate_task_4:0 "Up North"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "We are uncomfortable with the growing power of the Northern barbarians, and, rather than letting them accumulate their strength, we have decided to put an end to their delusions of grandeur once and for all."
 
 yamato_02_consolidate_task_5:0 "A Functional Administration"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "Having a dysfunctional bureacracy is an intolerable state of affairs; one discordant note in a beautiful song is enough to dispel the reverie. We must make sure our Administrators are competent."
 
 yamato_02_consolidate_task_6:0 "Northern Consolidation"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "There is much silver and gold to be found in the hideouts of the Northern barbarians, who eschew honest ways of making money and embrace a life of dissolute brigandry instead. We can tolerate this no more."
 
-yamato_02_consolidate_task_7:0 "Cleaning up the Kumaso"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_task_7:0 "Cleaning Up the Kumaso"
+yamato_02_consolidate_DESC:0 "The time has come for us to expand to the island of Kyushu. The inhabitants of this area are known to be deadly warriors, skilled at fighting at land and sea, so we must prepare ourselves for a ferocious campaign."
 
 yamato_02_consolidate_task_8:0 "Yamato Warrior Class"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "The backbone of our armies should be comprised of a Warrior Class, who will willingly embrace their duty as the Vanguard of Yamato. Our elite corp shall be an inspiration to our fighting men everywhere."
 
 yamato_02_consolidate_task_9:0 "A Proper Navy"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "Because we are an island, we need a proper navy in order to protect our shores. Fell the trees and begin construction immediately!"
 
 yamato_02_consolidate_task_10:0 "Authority of the King"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "The word of our King cannot be questioned or challenged; once an order has been given, it is our duty to complete the royal wishes to the best of our ability."
 
 yamato_02_consolidate_task_11:0 "Divine Emperor"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "The Hour of Apotheosis draws upon us, the culmination of our life's work. To truly embrace our destiny as a divine Empire, we must first be ruled by a living god."
 
 yamato_02_consolidate_task_12:0 "Masters of Wa"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "We have become the unchallenged Masters of Wa, the final authority of what happens in this region, and as such, we are entitled to a share of the wealth generated in our territory."
 
 yamato_02_consolidate_task_13:0 "Developing the Island"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "Conquering new territories is only half of the coin; we must develop the infrastructure, especially if we want our new subjects to embrace us."
 
 yamato_02_consolidate_task_14:0 "Builders of Yamato"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "It is true that our cities are growing, but we need to invest in buildings for our people to use and enjoy. The days are long, and there is much work to be done in them, but we shall triumph."
 
 yamato_02_consolidate_task_15:0 "A City Fit for an Emperor"
-yamato_02_consolidate_DESC:0 ""
+yamato_02_consolidate_DESC:0 "Yamato, the capital city, is bursting at the seams, thanks to the unprecedented growth ushered in by this Dynasty. Before overcrowding becomes a problem, we might have to start drawing up plans to build a metropolis."
 
 
 #Tooltips
@@ -235,73 +236,73 @@ yamato_02_consolidate_task_14_tt:0 "The region of [GetProvince('(int32)9328').Ge
 
 #Events
 me_yamato_consolidate_1_title:0 "$yamato_02_consolidate_task_1$"
-me_yamato_consolidate_1_desc:0 ""
-me_yamato_consolidate_1.a:0 ""
+me_yamato_consolidate_1_desc:0 "[ROOT.GetCountry.GetRuler.GetName], we have finished preparing our claims on $iya_area$, $kii_area$, $tsuma_area$ and $mino_area$. Not even the lands of the Owari were forgotten; soon, we shall dispel the barbarians and bring civilization to where it did not exist before. At dawn, our messengers shall ride for the courts of our enemies, presenting them with the warning."
+me_yamato_consolidate_1.a:0 "Our soldiers gird themselves for battle"
 me_yamato_consolidate_1_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_1$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_2_title:0 "$yamato_02_consolidate_task_2$"
-me_yamato_consolidate_2_desc:0 ""
-me_yamato_consolidate_2.a:0 ""
+me_yamato_consolidate_2_desc:0 "Now that our warriors have destroyed the armies of Iya and Kii, we can properly begin to administer the area. One of the first things that was presented to [ROOT.GetCountry.GetRuler.GetName] was the suggestion that we increase our efforts to influence Iya; we want to see our coastlands become a proper part of our Yamato culture."
+me_yamato_consolidate_2.a:0 "Perhaps one day we shall build ports and cities there, once they are civilized"
 me_yamato_consolidate_2_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_2$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_3_title:0 "$yamato_02_consolidate_task_3$"
-me_yamato_consolidate_3_desc:0 ""
-me_yamato_consolidate_3.a:0 ""
+me_yamato_consolidate_3_desc:0 "The province of [GetProvince('(int32)9679').GetArea.GetName] is uniquely poised to become the seat of our northern naval power, with an auspicious location that will allow us to project our strength in the Mare Iaponicum. Realizing the future importance of Tsuma, [ROOT.GetCountry.GetRuler.GetName] has proclaimed that our engineers do everything they can to make this area a thriving coastal province."
+me_yamato_consolidate_3.a:0 "I want harbors, ports, shipyards...build them all"
 me_yamato_consolidate_3_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_3$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_4_title:0 "$yamato_02_consolidate_task_4$"
-me_yamato_consolidate_4_desc:0 ""
-me_yamato_consolidate_4.a:0 ""
+me_yamato_consolidate_4_desc:0 "How quickly the provinces of [GetProvince('(int32)9672').GetArea.GetName] and [GetProvince('(int32)9331').GetArea.GetName] capitulated! Perhaps the information fed to us by our scouts was incomplete, but one can never be too prepared when it comes to matters of life and death. When presented with the reports from our generals, [ROOT.GetCountry.GetRuler.GetName] drily noted 'When it comes to the people of [GetProvince('(int32)9684').GetArea.GetName], no undertaking is too great, no price too steep - I willingly sacrifice everything that is mine in order to protect my own. I make no apologies for what I have done.'"
+me_yamato_consolidate_4.a:0 "I give freely to my people, who have given everything to me"
 me_yamato_consolidate_4_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_4$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_5_title:0 "$yamato_02_consolidate_task_5$"
-me_yamato_consolidate_5_desc:0 ""
-me_yamato_consolidate_5.a:0 ""
+me_yamato_consolidate_5_desc:0 "Not only are the people of Yamato blessed with an exceptional leader in [ROOT.GetCountry.GetRuler.GetName], but they are fortunate enough to have their affairs administered by only the best and brightest in the kingdom. It is apparent that Yamato has taken the adage of Kong Fuzi to heart; 'The strength of a nation derives from the integrity of the home.'"
+me_yamato_consolidate_5.a:0 "We are blessed to have such fastidious caretakers"
 me_yamato_consolidate_5_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_5$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_6_title:0 "$yamato_02_consolidate_task_6$"
-me_yamato_consolidate_6_desc:0 ""
-me_yamato_consolidate_6.a:0 ""
+me_yamato_consolidate_6_desc:0 "Buried in the morning's correspondence was a letter from a financial administrator that was tasked with overseeing our Northern consolidation. All good news today; we have confiscated the treasuries of the warlords and shall bring them to our coffers. Thankfully, this money will not be used to fund any insurgencies."
+me_yamato_consolidate_6.a:0 "We shall use this windfall wisely"
 me_yamato_consolidate_6_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_6$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_7_title:0 "$yamato_02_consolidate_task_7$"
-me_yamato_consolidate_7_desc:0 ""
-me_yamato_consolidate_7.a:0 ""
+me_yamato_consolidate_7_desc:0 "At long last, the armies of Yamato have triumphed yet again, this time by conquering the dread inhabitants of [GetProvince('(int32)9690').GetArea.GetName] and [GetProvince('(int32)9308').GetArea.GetName]. Although the omens taken before our wars were favorable, no one could have truly foreseen the fierceness of the fighting men from Kyushu, and the desperate lengths they would go to in order to remain free. Our men suffered immensely, but in the end, they persevered."
+me_yamato_consolidate_7.a:0 "We are unstoppable!"
 me_yamato_consolidate_7_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_7$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_8_title:0 "$yamato_02_consolidate_task_8$"
-me_yamato_consolidate_8_desc:0 ""
-me_yamato_consolidate_8.a:0 ""
+me_yamato_consolidate_8_desc:0 "It is late in the afternoon, with the sun gently beginning to hide its face behind the bristling walls of [GetProvince('(int32)9328').GetArea.GetName], and yet the city is not quiet, as one might expect. Down in the training camps, soldiers are still drilling; the air is filled with the cacophony of angry war cries and the bitter clanging of iron upon iron. Even now, as dusk gently wraps her fingers around the capital, [ROOT.GetCountry.GetRuler.GetName] is there watching the legion, deeply engrossed in the combat taking place. Two of our best warriors are dueling, faces twisted in grim determination, as no one wishes to dishonor themselves before the watching eyes of the assembly.\n\n'There is an opening, Korei - strike!' [ROOT.GetCountry.GetRuler.GetFirstName] bellows, and immediately the soldier takes the initiative, knocking his opponent to the ground. There is scattered applause at this feat, yet [ROOT.GetCountry.GetRuler.GetFirstName] raises [ROOT.GetCountry.GetRuler.GetHerHis] hand to stop it immediately. 'This is a good beginning, but we have much work to do. Let us meet here again in the morning.' Walking over to the prostrate soldier, who is lying on the ground in shame, [ROOT.GetCountry.GetRuler.GetFirstName] smiles and offers to help them to their feet. 'I am proud of you - I see how hard you are working. I'll show you a thing or two tomorrow that might be of use.'\n\nAt this pronouncement, the applause resumes."
+me_yamato_consolidate_8.a:0 "A true commander leads from the front"
 me_yamato_consolidate_8_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_8$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_9_title:0 "$yamato_02_consolidate_task_9$"
-me_yamato_consolidate_9_desc:0 ""
-me_yamato_consolidate_9.a:0 ""
+me_yamato_consolidate_9_desc:0 "We have received word that our ship building initiative has completed. Well, perhaps 'word' isn't the correct term; this afternoon, we received a final tally of our expenditures. Although you will undoubtedly agree that it was worth the cost, it will take a little longer than usual to build our fleet, as our boatwrights are still developing their craft. Still, this is all very pleasing to us."
+me_yamato_consolidate_9.a:0 "Soon, the strength of our navy shall be equal to that of our armies"
 me_yamato_consolidate_9_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_9$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_10_title:0 "$yamato_02_consolidate_task_10$"
-me_yamato_consolidate_10_desc:0 ""
-me_yamato_consolidate_10.a:0 ""
+me_yamato_consolidate_10_desc:0 "When travelers reach the bustling city of [GetProvince('(int32)9684').GetArea.GetName], their eyes filled with the wonderment of what has been achieved, their minds gradually turn to the King who has made all of this possible; who can question the authority of the semi-divine [ROOT.GetCountry.GetRuler.GetName]? Do the people of Yamato have a living god as their liege?"
+me_yamato_consolidate_10.a:0 "Surely [ROOT.GetCountry.GetRuler.GetFirstName] is descended from the goddess of the Sun, Amaterasu"
 me_yamato_consolidate_10_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_10$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_11_title:0 "$yamato_02_consolidate_task_11$"
-me_yamato_consolidate_11_desc:0 ""
-me_yamato_consolidate_11.a:0 ""
+me_yamato_consolidate_11_desc:0 "As the sun rises over the waters to our east, shining her divine countenance first upon our lands, the morning finds [ROOT.GetCountry.GetRuler.GetName] at repose, dressed in simple white robes and meditating with [ROOT.GetCountry.GetRuler.GetHerHis] face towards a window. The city of [GetProvince('(int32)9684').GetArea.GetName] is already filled with commotion, even at this early hour, for today is a special day in the history of our kingdom. In mere hours, a political and religious ceremony will take place; [ROOT.GetCountry.GetRuler.GetFirstName] will enter the Temple as a mortal, but, upon receiving the Blessing of Heaven, shall walk from the sacred halls as a living god, a Divine Emperor.\n\nDeep in thought, [ROOT.GetCountry.GetRuler.GetFirstName] does not at first notice the attendants gathering in the Royal Chambers, their hands reverently folded and faces modestly turned down. A few peaceful moments later, an advisor gently clears his throat before stating 'The time has come, your Majesty. All is prepared.'\n\nRising to [ROOT.GetCountry.GetRuler.GetHerHis] feet, the perfect picture of celestial serenity, [ROOT.GetCountry.GetRuler.GetFirstName] nods without speaking and rises to [ROOT.GetCountry.GetRuler.GetHerHis] feet, and as if at command, the sun shines brightly, filling the room with a heavenly glow."
+me_yamato_consolidate_11.a:0 "I willingly embrace my destiny. Come, lead the way"
 me_yamato_consolidate_11_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_11$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_12_title:0 "$yamato_02_consolidate_task_12$"
-me_yamato_consolidate_12_desc:0 ""
-me_yamato_consolidate_12.a:0 ""
+me_yamato_consolidate_12_desc:0 "[ROOT.GetCountry.GetRuler.GetName], we have an exciting development from [GetProvince('(int32)9328').GetArea.GetRegion.GetName] to share with you. Although the land is difficult to work, as the ground is stony, our indomitable people have managed to work the earth despite this unfortunate circumstance. Because of this exhausting work our people have undertaken, our taxes from Wa have increased dramatically - the first proceeds arrived today."
+me_yamato_consolidate_12.a:0 "Most excellent news, Administrator"
 me_yamato_consolidate_12_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_12$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_13_title:0 "$yamato_02_consolidate_task_13$"
-me_yamato_consolidate_13_desc:0 ""
-me_yamato_consolidate_13.a:0 ""
+me_yamato_consolidate_13_desc:0 "The builders of [GetProvince('(int32)9684').GetArea.GetName] have been truly industrious, erecting cities all throughout their growing domain. A distinctive style of architecture, one heavily influenced by the ancient citadel of the capital, can be seen throughout the new towns built by the orders of [ROOT.GetCountry.GetRuler.GetName]; surely these impressive achievements of brick and stone will last ages to come."
+me_yamato_consolidate_13.a:0 "We must apply these lessons learned to our future cities"
 me_yamato_consolidate_13_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_13$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_14_title:0 "$yamato_02_consolidate_task_14$"
-me_yamato_consolidate_14_desc:0 ""
-me_yamato_consolidate_14.a:0 ""
+me_yamato_consolidate_14_desc:0 "What an accomplishment, o [ROOT.GetCountry.GetRuler.GetName]! When the first instructions were given, commanding that our cities and towns be beautified with proper facilities, we had no idea that we would be as successful as we are. The locals thank your benevolence daily, going about the mundane tasks of their daily lives with simple gratitude, for they know that their Ruler keeps their well-being in the forefront of [ROOT.GetCountry.GetRuler.GetHerHis] mind."
+me_yamato_consolidate_14.a:0 "From the first light of dawn, my mind is with Yamato and how I might serve her"
 me_yamato_consolidate_14_tooltip:0 "The mission task '#Y $yamato_02_consolidate_task_14$#!' has now been #G Completed#!!"
 
 me_yamato_consolidate_15_title:0 "$yamato_02_consolidate_task_15$"

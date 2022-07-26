@@ -333,7 +333,9 @@ me_yamato_consolidate.1 = {
 
     title = me_yamato_consolidate_1_title
     desc = me_yamato_consolidate_1_desc
-    picture = great_library
+    picture = scribe_tools
+    left_portrait = current_ruler
+
 
     option = {
         name = "me_yamato_consolidate_1.a"
@@ -353,7 +355,9 @@ me_yamato_consolidate.2 = {
 
     title = me_yamato_consolidate_2_title
     desc = me_yamato_consolidate_2_desc
-    picture = great_library
+    picture = steppe_cavalry
+    left_portrait = current_ruler
+
 
     option = {
         name = "me_yamato_consolidate_2.a"
@@ -366,7 +370,8 @@ me_yamato_consolidate.3 = {
 
     title = me_yamato_consolidate_3_title
     desc = me_yamato_consolidate_3_desc
-    picture = great_library
+    picture = trade_port
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_consolidate_3.a"
@@ -379,7 +384,8 @@ me_yamato_consolidate.4 = {
 
     title = me_yamato_consolidate_4_title
     desc = me_yamato_consolidate_4_desc
-    picture = great_library
+    picture = throneroom
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_consolidate_4.a"
@@ -393,6 +399,7 @@ me_yamato_consolidate.5 = {
     title = me_yamato_consolidate_5_title
     desc = me_yamato_consolidate_5_desc
     picture = great_library
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_consolidate_5.a"
@@ -405,7 +412,7 @@ me_yamato_consolidate.6 = {
 
     title = me_yamato_consolidate_6_title
     desc = me_yamato_consolidate_6_desc
-    picture = great_library
+    picture = war_chest
 
     option = {
         name = "me_yamato_consolidate_6.a"
@@ -418,7 +425,7 @@ me_yamato_consolidate.7 = {
 
     title = me_yamato_consolidate_7_title
     desc = me_yamato_consolidate_7_desc
-    picture = great_library
+    picture = naval_battle
 
     option = {
         name = "me_yamato_consolidate_7.a"
@@ -431,7 +438,9 @@ me_yamato_consolidate.8 = {
 
     title = me_yamato_consolidate_8_title
     desc = me_yamato_consolidate_8_desc
-    picture = great_library
+    picture = gladiators
+    left_portrait = current_ruler
+
 
     option = {
         name = "me_yamato_consolidate_8.a"
@@ -444,7 +453,7 @@ me_yamato_consolidate.9 = {
 
     title = me_yamato_consolidate_9_title
     desc = me_yamato_consolidate_9_desc
-    picture = great_library
+    picture = ship_in_storm
 
     option = {
         name = "me_yamato_consolidate_9.a"
@@ -457,7 +466,8 @@ me_yamato_consolidate.10 = {
 
     title = me_yamato_consolidate_10_title
     desc = me_yamato_consolidate_10_desc
-    picture = great_library
+    picture = great_city
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_consolidate_10.a"
@@ -470,7 +480,8 @@ me_yamato_consolidate.11 = {
 
     title = me_yamato_consolidate_11_title
     desc = me_yamato_consolidate_11_desc
-    picture = great_library
+    picture = diadochi_coronation
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_consolidate_11.a"
@@ -483,7 +494,8 @@ me_yamato_consolidate.12 = {
 
     title = me_yamato_consolidate_12_title
     desc = me_yamato_consolidate_12_desc
-    picture = great_library
+    picture = farming
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_consolidate_12.a"
@@ -496,7 +508,9 @@ me_yamato_consolidate.13 = {
 
     title = me_yamato_consolidate_13_title
     desc = me_yamato_consolidate_13_desc
-    picture = great_library
+    picture = road_construction
+    left_portrait = current_ruler
+
 
     option = {
         name = "me_yamato_consolidate_13.a"
@@ -509,7 +523,8 @@ me_yamato_consolidate.14 = {
 
     title = me_yamato_consolidate_14_title
     desc = me_yamato_consolidate_14_desc
-    picture = great_library
+    picture = slaves_working
+    left_portrait = current_ruler
 
     option = {
         name = "me_yamato_consolidate_14.a"
