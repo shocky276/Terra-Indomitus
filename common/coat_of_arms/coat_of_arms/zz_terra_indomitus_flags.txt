@@ -19,3 +19,22 @@ QIN = {
 		color2 = "bone_white"
 	}
 }
+
+#Zhou
+ZHO = {
+	pattern = "pattern_solid.tga"
+	color1 = "phrygia_red"
+	color2 = "phrygia_red"
+
+	colored_emblem = {
+		texture = "ce_zhou.dds"
+		color1 = "light_gold"
+	}
+
+	colored_emblem = {
+		texture = "ce_border_chinese_banner_1.dds"
+		color1 = rgb { 198 172 123 }
+		color2 = "light_gold"
+	}
+}
+
