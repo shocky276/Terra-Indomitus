@@ -1,0 +1,280 @@
+# OPEN WITH: gui.createwidget gui/ti_windows.gui chinese_empire
+# Just replace "chinese_empire" with the name of your widget
+
+@bottom_china_container_x = 510
+@bottom_china_container_y = 270
+
+local_template border_texture {
+    texture = "gfx/interface/icons/arrows/arrow_texture_black.dds"
+}
+
+base_window = {
+	name = "chinese_empire" #name used in console command to open widget
+    gfxtype = windowgfx
+    parentanchor = center
+    size = { 635 510 }
+    vbox = {
+        using = MainWindowHeaderBoxCentered
+
+        blockoverride "Title_text" { text = "Emperor of China" }
+
+        vbox = {
+            layoutpolicy_vertical = expanding
+        }
+
+    }
+    button_close = {
+        onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets chinese_empire')]"
+        tooltip = "CLOSE"
+        parentanchor = top|right
+        position = { -7 10}
+    }
+    icon = {
+        position = { 30 60 }
+        size = { 134 149 }
+        texture = "gfx/interface/china/retcon_dragon.dds"
+    }
+    icon = {
+        texture = "gfx/interface/china/emperor_of_china_icon.dds"
+        position = { 38 159 }
+        size = { 33 33 }
+        tooltip = "Current Meritocracy: #BOLD;COLOR:{0.0,1.0,0.6} Todo#!"
+    }
+    icon = {
+        position = { 39 87 }
+        texture = "gfx/interface/china/china_temple.dds"
+        #texture = "gfx/interface/icons/shared_icons/political_influence.dds"
+        size = { 32 32 }
+        tooltip = "The current Emperor of China is [Player.GetRuler.GetName]"
+    }
+    banner_great_power = {
+        position = { 173 85 }
+        datacontext = "[Player]"
+        tooltip = "[Player.GetRankInformation]"
+    }
+    icon_and_text = {
+        size = { 110 0 }
+        position = { 265 95 }
+        datacontext = "[Player]"
+        visible = "[EqualTo_int32( Player.GetId, DiplomaticView.GetTargetCountry.GetId )]"
+        blockoverride "Icon"
+        {
+            texture = "gfx/interface/china/emperor_of_china_icon.dds"
+        }
+        blockoverride "Text"
+        {
+            text = "[Player.GetManpower]" #this will be mandate value
+        }
+        tooltip = "Current Mandate: #BOLD;COLOR:{0.0,1.0,0.6} Todo#!"
+    }
+    icon_and_text = {
+        size = { 110 0 }
+        position = { 265 155 }
+        datacontext = "[Player]"
+        visible = "[EqualTo_int32( Player.GetId, DiplomaticView.GetTargetCountry.GetId )]"
+        blockoverride "Icon"
+        {
+            texture = "gfx/interface/china/mandate_of_heaven_icon.dds"
+            size = { 32 32 }
+        }
+        blockoverride "Text"
+        {
+            text = "0" #this will be mandate growth value
+        }
+        tooltip = "Monthly Mandate Growth: #BOLD;COLOR:{0.0,1.0,0.6} Todo#!"
+    }
+    margin_widget = {
+        size = { 240 110 }
+        position = { 389 90 }
+        icon = {
+            size = { 240 110 }
+            texture = "gfx/interface/base_parts/background_noninteractable_texture.dds"
+            alpha = 0.5
+            using = border_slightly_torn_alpha
+        }
+        scrollarea = {
+            name = "celestial_reforms_scroll_area"
+            #position = { 389 90 }
+            size = { 240 110 }
+            scrollbar_vertical = {
+                using = VerticalScrollBar
+            }
+            scrollbarpolicy_horizontal = always_off
+            scrollwidget = {
+                flowcontainer = {
+                    position = { 1 2 }
+                    direction = vertical
+                    spacing = 5
+                    list_button = {
+                        size = { 230 32 }
+                        tooltip = "Hi"
+                        #onclick = "[CultureDecisionItem.Enact]"
+                        #enabled = "[CultureDecisionItem.IsAllowed]"
+                        text = "#COLOR:{0.0,0.0,0.0} Introduce Gaituguiliu#!"
+                    }
+                    list_button = {
+                        size = { 230 32 }
+                        # tooltip = "[CultureDecisionItem.GetEffect]"
+                        #onclick = "[CultureDecisionItem.Enact]"
+                        #enabled = "[CultureDecisionItem.IsAllowed]"
+                        text = "#COLOR:{0.0,0.0,0.0} Reform Seaban#!"
+                    }
+                    list_button = {
+                        size = { 230 32 }
+                        # tooltip = "[CultureDecisionItem.GetEffect]"
+                        #onclick = "[CultureDecisionItem.Enact]"
+                        #enabled = "[CultureDecisionItem.IsAllowed]"
+                        text = "#COLOR:{0.0,0.0,0.0} Delegate Zongdu#!"
+                    }
+                    list_button = {
+                        size = { 230 32 }
+                        # tooltip = "[CultureDecisionItem.GetEffect]"
+                        #onclick = "[CultureDecisionItem.Enact]"
+                        #enabled = "[CultureDecisionItem.IsAllowed]"
+                        text = "#COLOR:{0.0,0.0,0.0} Establish Lifan Yuan#!"
+                    }
+                    list_button = {
+                        size = { 230 32 }
+                        # tooltip = "[CultureDecisionItem.GetEffect]"
+                        #onclick = "[CultureDecisionItem.Enact]"
+                        #enabled = "[CultureDecisionItem.IsAllowed]"
+                        text = "#COLOR:{0.0,0.0,0.0} Reshape Bureaucratic Ranks#!"
+                    }
+                    list_button = {
+                        size = { 230 32 }
+                        # tooltip = "[CultureDecisionItem.GetEffect]"
+                        #onclick = "[CultureDecisionItem.Enact]"
+                        #enabled = "[CultureDecisionItem.IsAllowed]"
+                        text = "#COLOR:{0.0,0.0,0.0} Introduce Gaituguiliu#!"
+                    }
+                }
+            }
+        }
+    }
+    container = {
+        name = "bottom_margin_container"
+        #resizeparent = yes
+        ignoreinvisible = yes
+        parentanchor = bottom|hcenter
+        position = {0 -15}
+        margin_widget = {
+            size = { @bottom_china_container_x @bottom_china_container_y }
+            icon = {
+                size = { @bottom_china_container_x @bottom_china_container_y }
+                texture = "gfx/interface/base_parts/background_noninteractable_texture.dds"
+                alpha = 0.5
+                using = border_slightly_torn_alpha
+            }
+            icon = {
+                parentanchor = center
+                position = { 0 45 }
+                size = { 510 2 }
+                using = border_texture
+                alpha = 0.5
+            }
+            icon = {
+                parentanchor = top
+                size = { 510 2 }
+                using = border_texture
+                alpha = 0.5
+            }
+            icon = {
+                parentanchor = bottom
+                size = { 510 2 }
+                using = border_texture
+                alpha = 0.5
+            }
+            icon = {
+                parentanchor = left
+                size = { 2 269 }
+                using = border_texture
+                alpha = 0.5
+            }
+            icon = {
+                parentanchor = right
+                size = { 2 269 }
+                using = border_texture
+                alpha = 0.5
+            }
+            icon_and_text = {
+                size = { 110 0 }
+                parentanchor = top|center
+                position = { 0 7 }
+                datacontext = "[Player]"
+                visible = "[EqualTo_int32( Player.GetId, DiplomaticView.GetTargetCountry.GetId )]"
+                blockoverride "Icon"
+                {
+                    texture = "gfx/interface/china/meritocracy.dds"
+                    size = { 32 32 }
+                }
+                blockoverride "Text"
+                {
+                    text = "0" #this will be mandate growth value
+                }
+                tooltip = "Current Meritocracy: #BOLD;COLOR:{0.0,1.0,0.6} Todo#!"
+            }
+            flowcontainer = {
+                spacing = 10
+                direction = vertical
+                position = { 15 45 }
+                list_button = {
+                    size = { 230 32 }
+                    tooltip = "hi"
+                    #onclick = "[CultureDecisionItem.Enact]"
+                    #enabled = "[CultureDecisionItem.IsAllowed]"
+                    text = "#COLOR:{0.0,0.0,0.0} Expand Palace Bureacracy#!"
+                }
+                list_button = {
+                    size = { 230 32 }
+                    tooltip = "hi"
+                    #onclick = "[CultureDecisionItem.Enact]"
+                    #enabled = "[CultureDecisionItem.IsAllowed]"
+                    text = "#COLOR:{0.0,0.0,0.0} Promote Naval Officers#!"
+                }
+                list_button = {
+                    size = { 230 32 }
+                    tooltip = "hi"
+                    #onclick = "[CultureDecisionItem.Enact]"
+                    #enabled = "[CultureDecisionItem.IsAllowed]"
+                    text = "#COLOR:{0.0,0.0,0.0} Improve Defense Effort#!"
+                }
+            }
+            flowcontainer = {
+                spacing = 10
+                direction = vertical
+                position = { 267 45 }
+                list_button = {
+                    size = { 230 32 }
+                    tooltip = "hi"
+                    #onclick = "[CultureDecisionItem.Enact]"
+                    #enabled = "[CultureDecisionItem.IsAllowed]"
+                    text = "#COLOR:{0.0,0.0,0.0} Conduct Population Census#!"
+                }
+                list_button = {
+                    size = { 230 32 }
+                    tooltip = "hi"
+                    #onclick = "[CultureDecisionItem.Enact]"
+                    #enabled = "[CultureDecisionItem.IsAllowed]"
+                    text = "#COLOR:{0.0,0.0,0.0} Increase Tariff Control#!"
+                }
+                list_button = {
+                    size = { 230 32 }
+                    tooltip = "hi"
+                    #onclick = "[CultureDecisionItem.Enact]"
+                    #enabled = "[CultureDecisionItem.IsAllowed]"
+                    text = "#COLOR:{0.0,0.0,0.0} Boost Officer Corps#!"
+                }
+            }
+            textbox = {
+                position = { 0 180 }
+                using = MarbleButtonFontM
+                using = Black_FontColor
+                parentanchor = center|bottom
+                autoresize = yes
+                text = "0 Subjects"
+            }
+            # Make a datamodel when the window is opened and fill it with the
+            # emperors subjects
+        }
+    }
+}
