@@ -2624,6 +2624,7 @@ family={
 			culture =argolian
 			owner=ARG
 		}
+		
 	}
 }
 diplomacy = {
@@ -2878,6 +2879,10 @@ diplomacy = {
 		member = AMS
 		member = TRZ
 	}
+	
+	#Germania
+	dependency = { first = X01 second = X24 subject_type = tributary }
+	dependency = { first = CRS second = FOS subject_type = tributary }
 
 	MAC = {
 		EGY = {
@@ -6139,9 +6144,9 @@ country = {
 		
 		TAU = {
 			government = tribal_kingdom
-			primary_culture = salluvian
+			primary_culture = lepontic
 			religion = druidism
-			centralization=10
+			centralization=60
 			
 			poptype_rights = { 
 				{
@@ -6160,7 +6165,7 @@ country = {
 			}
 		
 			own_control_core = 	{
-				3551 3563 3548 3564 3559 3535 3534 3560 3562 3555 3558
+				3551 3563 3548 3564 3559 3535 3534 3560 3562 3555 3558 3530 
 			}
 		}
 		
@@ -6248,16 +6253,17 @@ country = {
 			}
 		}
 		
-		KRN = {
+		#Palando setup changes
+		KRN = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = carnian
-			religion = druidism
+			religion = roman_pantheon
 			centralization=10
 
 			capital = 4025 
 		
 			own_control_core = 	{
-				4025 4026 4024 3671
+				4025 4026 4024 
 			}
 		}
 		
@@ -6274,16 +6280,16 @@ country = {
 			}
 		}
 		
-		BRE = {
+		BRE = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = noric
-			religion = druidism
+			religion = roman_pantheon
 			centralization=10
 
-			capital = 3667 
+			capital = 3670 
 		
 			own_control_core = 	{
-				3667 3668 3669 3664
+				3669 3670
 			}
 		}
 		
@@ -7072,15 +7078,15 @@ country = {
 		}
 		
 		ULT = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = voluntian
 			religion = druidism
-			centralization=5
+			centralization=0
 
-			capital = 2172
+			capital = 2195
 
 			own_control_core = 	{
-				2172 2205
+				2195 2208 2170
 			}
 		}
 		
@@ -7112,7 +7118,7 @@ country = {
 		
 		PAS = {
 			government = tribal_kingdom
-			primary_culture = brigantic
+			primary_culture = parisian
 			religion = druidism
 			centralization=5
 
@@ -8032,16 +8038,15 @@ country = {
 		#GAUL
 		
 		BOA = {
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = boian
 			religion = druidism
 			centralization=0
 			
-			capital = 3916
+			capital = 3937
 			
 			own_control_core = {
-				3916 3923 3933 3917 3819 3934 3817 3818#3938 3935 3937 3936 3914 3939 
-				3815 3920 3921 3922
+				3938 3939 3931 3935 3937 3914 3916 3923 3933 3917 3819 3934 3817 3818 3936
 			}
 		}
 		
@@ -8106,7 +8111,7 @@ country = {
 			capital = 3536
 
 			own_control_core = 	{
-				3529 3524 3536 3530 3532
+				3529 3524 3536 3532
 			}
 		}
 		
@@ -8178,7 +8183,7 @@ country = {
 		CNS = {
 			government = tribal_kingdom
 			primary_culture = aquitani
-			religion = animism
+			religion = pre_indo_european_religion
 			centralization=10
 
 			capital = 2253
@@ -8203,7 +8208,7 @@ country = {
 		
 		ALL = {
 			government = tribal_kingdom
-			primary_culture = helvetian
+			primary_culture = allobrogian
 			religion = druidism
 			centralization=10
 
@@ -8216,7 +8221,7 @@ country = {
 		
 		SGL = {
 			government = tribal_kingdom
-			primary_culture = arverni
+			primary_culture = allobrogian
 			religion = druidism
 			centralization=10
 
@@ -8257,7 +8262,7 @@ country = {
 		BIG = {
 			government = tribal_kingdom
 			primary_culture = aquitani
-			religion = animism
+			religion = pre_indo_european_religion
 			centralization=10
 
 			capital = 2252
@@ -8270,7 +8275,7 @@ country = {
 		ASC = {
 			government = tribal_kingdom
 			primary_culture = aquitani
-			religion = animism
+			religion = pre_indo_european_religion
 			centralization=10
 
 			capital = 2275
@@ -8283,7 +8288,7 @@ country = {
 		TRB = {
 			government = tribal_kingdom
 			primary_culture = aquitani
-			religion = animism
+			religion = pre_indo_european_religion
 			centralization=10
 
 			capital = 2243
@@ -8296,7 +8301,7 @@ country = {
 		SBZ = {
 			government = tribal_kingdom
 			primary_culture = aquitani
-			religion = animism
+			religion = pre_indo_european_religion
 			centralization=10
 
 			capital = 2248
@@ -8309,7 +8314,7 @@ country = {
 		VCT = {
 			government = tribal_kingdom
 			primary_culture = aquitani
-			religion = animism
+			religion = pre_indo_european_religion
 			centralization=10
 
 			capital = 2272
@@ -8322,7 +8327,7 @@ country = {
 		CCS = {
 			government = tribal_kingdom
 			primary_culture = aquitani
-			religion = animism
+			religion = pre_indo_european_religion
 			centralization=10
 
 			capital = 2241
@@ -8334,7 +8339,7 @@ country = {
 		
 		BTU = {
 			government = tribal_kingdom
-			primary_culture = santonian
+			primary_culture = biturigan
 			religion = druidism
 			centralization=10
 
@@ -8348,7 +8353,7 @@ country = {
 		TRS = {
 			government = tribal_kingdom
 			primary_culture = aquitani
-			religion = animism
+			religion = pre_indo_european_religion
 			centralization=10
 
 			capital = 2250
@@ -8373,7 +8378,7 @@ country = {
 		
 		LMV = {
 			government = tribal_kingdom
-			primary_culture = lemovician
+			primary_culture = arverni
 			religion = druidism
 			centralization=10
 
@@ -8399,7 +8404,7 @@ country = {
 		
 		CUT = {
 			government = tribal_kingdom
-			primary_culture = salluvian
+			primary_culture = allobrogian
 			religion = druidism
 			centralization=10
 
@@ -8443,10 +8448,10 @@ country = {
 			religion = druidism
 			centralization=10
 
-			capital = 3634
+			capital = 3741
 
 			own_control_core = 	{
-				3634 3635 3732 3731
+				3746 3733 3741 3744 3734 3743 3742 
 			}
 		}
 		
@@ -8498,11 +8503,11 @@ country = {
 			capital = 3638
 
 			own_control_core = 	{
-				3638 3740 3747 3750
+				3638 3740 3747
 			}
 		}
 		
-		VNN = {
+		VNN = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = vindelician
 			religion = druidism
@@ -8511,11 +8516,11 @@ country = {
 			capital = 3640
 
 			own_control_core = 	{
-				3640 3641 3751 3642 3753
+				3640 3641 3751 3753
 			}
 		}
 		
-		CTN = {
+		CTN = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = vindelician
 			religion = druidism
@@ -8524,20 +8529,20 @@ country = {
 			capital = 3752
 
 			own_control_core = 	{
-				3752 3757 3755 3754 3749 3748
+				3752 3757 3749 3748 3773
 			}
 		}
 		
 		TLG = {
 			government = tribal_kingdom
-			primary_culture = vindelician
+			primary_culture = helvetian
 			religion = druidism
 			centralization=10
 
-			capital = 3744
+			capital = 3634
 
 			own_control_core = 	{
-				3744 3745 3746 3733 3741 
+				3745 3634 3635 3732 3731
 			}
 		}
 		
@@ -8550,33 +8555,33 @@ country = {
 			capital = 3012
 
 			own_control_core = 	{
-				3012 
+				3012 3020 3018 3019 3022
 			}
 		}
 		
 		LTG = {
 			government = tribal_kingdom
-			primary_culture = vindelician
+			primary_culture = helvetian
 			religion = druidism
 			centralization=10
 
-			capital = 3742
+			capital = 3772
 
 			own_control_core = 	{
-				3742 3743 3770 3736 3734 3771 3772 3769 3775 3774 3767 3768 3766 3773 3765 
+				3770 3736 3771 3772 3769 3774 3767 3768 3766 3735 3738 3052 3804 3800 3801 3803 
 			}
 		}
 		
-		SVC = {
+		SVC = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = noric
 			religion = druidism
 			centralization=10
 
-			capital = 3760
+			capital = 3664
 
 			own_control_core = 	{
-				3760 3761 3756 3759 3758
+				3664
 			}
 		}
 		
@@ -8608,7 +8613,7 @@ country = {
 		
 		ADC = {
 			government = tribal_kingdom
-			primary_culture = lemovician
+			primary_culture = arverni
 			religion = druidism
 			centralization=10
 
@@ -8634,7 +8639,7 @@ country = {
 		
 		NMN = {
 			government = tribal_kingdom
-			primary_culture = aulercian
+			primary_culture = aremorican
 			religion = druidism
 			centralization=10
 
@@ -8751,7 +8756,7 @@ country = {
 		
 		ESV = {
 			government = tribal_kingdom
-			primary_culture = aremorican
+			primary_culture = aulercian
 			religion = druidism
 			centralization=10
 
@@ -8764,7 +8769,7 @@ country = {
 		
 		LXV = {
 			government = tribal_kingdom
-			primary_culture = aremorican
+			primary_culture = aulercian
 			religion = druidism
 			centralization=10
 
@@ -8803,7 +8808,7 @@ country = {
 		
 		AMB = {
 			government = tribal_kingdom
-			primary_culture = helvetian
+			primary_culture = allobrogian
 			religion = druidism
 			centralization=10
 
@@ -8816,7 +8821,7 @@ country = {
 		
 		SQI = {
 			government = tribal_kingdom
-			primary_culture = helvetian
+			primary_culture = haedui
 			religion = druidism
 			centralization=10
 
@@ -8927,16 +8932,16 @@ country = {
 			}
 		}
 		
-		TBC = {
+		TBC = { #moved to the east of the Rhine
 			government = tribal_kingdom
-			primary_culture = helvetian
+			primary_culture = ubian
 			religion = druidism
 			centralization=10
 
-			capital = 3023
+			capital = 3700
 
 			own_control_core = 	{
-				3023 3025 3021 3020 3024 3019 3022 3018
+				3699 3700 3797 3055 3702 3737 3802 3798 7732
 			}
 		}
 		
@@ -8962,13 +8967,13 @@ country = {
 			capital = 2454
 
 			own_control_core = 	{
-				2454 3691 3692 3694 3695 3696
+				2454 3691 3692 3694 3695 3023 3025 3021 3024 3054 3053 3693
 			}
 		}
 		
-		NMI = {
+		NMI = { #move to the east of the Rhine
 			government = tribal_kingdom
-			primary_culture = treverian
+			primary_culture = ubian
 			religion = druidism
 			centralization=10
 
@@ -8983,8 +8988,10 @@ country = {
 			
 			}
 
+			capital = 3822
+
 			own_control_core = 	{
-				3697 3693 3053 3054 3052 3738 3735 3698 
+				3948 3821 3820 3822 3807 3805 3799 3806 3811 3946
 			}
 		}
 		
@@ -8992,12 +8999,12 @@ country = {
 			government = tribal_kingdom
 			primary_culture = treverian
 			religion = druidism
-			centralization=10
+			centralization=50
 
-			capital = 3690
+			capital = 3687
 
 			own_control_core = 	{
-				3690 3724 3725 3723 3722 3726 3721 3730 3689 3685 3729 3728 3688 3001 2455 2494 3050 3686 3687 7738
+				3690 3724 3725 3723 3722 3726 3721 3730 3689 3685 3729 3688 3001 2455 3686 3687 7738 3696 3697 3698 3701 3056
 			}
 		}
 		
@@ -9007,23 +9014,20 @@ country = {
 			religion = druidism
 			centralization=10
 
-			capital = 3681
 
 			own_control_core = 	{
-				3681 3682 3719 3718 3727 3720 3717 3716
+			
 			}
 		}
 		
 		CGN = {
 			government = tribal_kingdom
-			primary_culture = istvaeonic
-			religion = germanic_religion
+			primary_culture = aduatacian
+			religion = druidism
 			centralization=10
 
-			capital = 3714
 
 			own_control_core = 	{
-				3714 3715 3776 3777
 			}
 		}
 		
@@ -9033,10 +9037,10 @@ country = {
 			religion = druidism
 			centralization=10
 
-			capital = 3708 
+			capital = 3712 
 
 			own_control_core = 	{
-				3708 3709 3710 3706 3707 3680
+				3710 3714 3713 3711 3712 3849 3708 3709 3715 3716 3717
 			}
 		}
 		
@@ -9049,7 +9053,7 @@ country = {
 			capital = 3028 
 
 			own_control_core = 	{
-				3028 3675 3677 3843 3844 3678 3713 3711 3712 3676 3845 3849 3846
+				3028 3675 3677 3843 3844 3845 3846 3041 3676
 			}
 		}
 		
@@ -9127,7 +9131,7 @@ country = {
 			capital = 3043
 
 			own_control_core = 	{
-				3043 3044 3031 3038 
+				3043 3044 3031 3038 3045
 			}
 		}
 		
@@ -9140,7 +9144,7 @@ country = {
 			capital = 3042
 
 			own_control_core = 	{
-				3042 3046 3045 3047 3041 3679 3705 3704
+				3042 3046 3047 3679 3705 3704 3680 3707 3678 3706
 			}
 		}
 		
@@ -9153,7 +9157,7 @@ country = {
 			capital = 2451
 
 			own_control_core = 	{
-				2451 3049 3048 3051 3703 3684 3683
+				2451 3049 3048 3051 3050 2494
 			}
 		}
 		
@@ -9689,27 +9693,27 @@ country = {
 			}
 		}
 		
-		CAA = {
+		CAA = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = catari
 			religion = roman_pantheon
 
-			capital = 4038
+			capital = 4177
 
 			own_control_core = 	{
-				4038 4044 4045 4042 4046 4041 4177 4181 4176 4040
+				4177 4181 4176 4178 4179 4180 4182
 			}
 		}
 		
-		LTB = {
+		LTB = { #change Galatia
 			government = tribal_kingdom
-			primary_culture = letobician
-			religion = druidism
+			primary_culture = carnian
+			religion = roman_pantheon
 
 			capital = 4027
 
 			own_control_core = 	{
-				4027 4028 4039 4175 4030 4029
+				4027 4028 
 			}
 		}
 		
@@ -9737,7 +9741,7 @@ country = {
 			}
 		}
 		
-		DNT = {
+		DNT = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = greco_illyrian
 			religion = roman_pantheon
@@ -9745,19 +9749,19 @@ country = {
 			capital = 4061
 
 			own_control_core = 	{
-				4061 4070 4071 4065 4068 4069
+				4061 4065
 			}
 		}
 		
 		BCI = {
 			government = tribal_kingdom
-			primary_culture = deurian
+			primary_culture = pannonian
 			religion = roman_pantheon
 
-			capital = 4123
+			capital = 4077
 
 			own_control_core = 	{
-				4129 4130 4128 4123
+				4129 4128 4075 4076 4077 4074 4072 4043 4073
 			}
 		}
 		
@@ -9766,10 +9770,10 @@ country = {
 			primary_culture = deurian
 			religion = roman_pantheon
 
-			capital = 4074
+			capital = 4068
 
 			own_control_core = 	{
-				4077 4076 4075 4072 4043 4073 4074 4178 4183
+				4068 4069 4070 4071
 			}
 		}
 		
@@ -9781,7 +9785,7 @@ country = {
 			capital = 4106
 
 			own_control_core = 	{
-				4106 4103 4127
+				4106 4103
 			}
 		}
 		
@@ -9797,60 +9801,62 @@ country = {
 			}
 		}
 		
-		SCD = {
+		SCD = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = celtic_pannonian
 			religion = druidism
 			centralization=10
+			
+			family = 1005
+			family = 1006
 
 			capital = 4195
 
 			own_control_core = 	{
-				4195 4198 4197 4199 4193 4196 4194 4189 4124 4125 4190 4191 4192 4126
+				4195 4198 4197 4193 4196 4194 4189 4190 4826 4831 4206 4120 4122 4121
 			}
 		}
 		
-		DND = {
+		DND = { #changes Galatia
 			government = tribal_kingdom
 			primary_culture = celtic_pannonian
 			religion = druidism
 			centralization=10
 
-			capital = 4206
+			capital = 4124
 
 			own_control_core = 	{
-				4206 4120 4203 4118 4205 4204 4122 4121
+				4127 4124 4125 4126 4123 4130
 			}
 		}
 		
 		OTN = {
 			government = tribal_kingdom
-			primary_culture = eravisci
+			primary_culture = cotinian
 			religion = druidism
 			centralization=10
-
-			capital = 3919
-
+			
+			capital = 4870
+		
 			own_control_core = 	{
-				3919 3927 4868 4867 3924 3925 4869 4872
+				4892 4870
 			}
 		}
 		
 		HCN = {
 			government = tribal_kingdom
-			primary_culture = celtic_pannonian
+			primary_culture = eravisci
 			religion = druidism
 			centralization=10
 
-			capital = 4170
+			capital = 4164
 
 			own_control_core = 	{
-				4842 4843 4846 4845 4844 4848 #4847 4854 4850
-				4168 4169 4170 4188 4187 4185 4171 4186
+				4164 4161 4160 4162 4163 4166 
 			}
 		}
 		
-		EVS = {
+		EVS = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = eravisci
 			religion = druidism
@@ -9859,7 +9865,7 @@ country = {
 			capital = 4157
 
 			own_control_core = 	{
-				4157 4158 4159 4156 4155 4149 4148 4150 4151 4146 4144 4142 4138 4147 4164 4161 4160 4162 4163 4849 4855
+				4157 4158 4159 4156 4155 4149 4148 4150 4151 4146 4144 4142 4138 4147 3653 3918 4145
 			}
 		}
 		
@@ -9876,21 +9882,21 @@ country = {
 			}
 		}
 		
-		TLT = {
+		TLT = { #change Galatia
 			government = tribal_kingdom
-			primary_culture = celtic_pannonian
-			religion = druidism
+			primary_culture = triballoi
+			religion = shamanism
 
 			capital = 4219
 
 			own_control_core = 	{
-				4219 4202 4112 4111 4213 4212 4218
+				4219 4202 4112 4111 4213 4218 4118 4203 4204
 			}
 		}
 		
 		DRD = {
 			family = 52
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = dardanian
 			religion = roman_pantheon
 
@@ -9909,15 +9915,14 @@ country = {
 		
 		SDI = {
 			government = tribal_kingdom
-			primary_culture = celtic_pannonian
-			religion = druidism
+			primary_culture = triballoi
+			religion = shamanism
 			centralization=10
 			
 			capital = 477
 
 			own_control_core = 	{
 				477 4097 499
-				4222 4115 4116 4230
 			}
 		}
 		
@@ -9929,7 +9934,7 @@ country = {
 			capital = 4227
 
 			own_control_core = 	{
-				4227 4226 4224 4223 4217 4220 4221 4228 4225 4232 4229 4234 4235 4233 4231
+				4227 4226 4224 4223 4217 4220 4221 4222 4115 4116 4230 4228 4225 4232 4229 4234 4235 4233 4231
 			}
 		}
 		
@@ -9971,27 +9976,27 @@ country = {
 			}
 		}
 		
-		SLD = {
+		SLD = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = buridavensi
 			religion = shamanism
 
-			capital = 4208
+			capital = 4210
 
 			own_control_core = 	{
-				4208 4214 4209 4207 4210 4262 4263 4211 4275 4274 4200 4201
+				 4210 4262 4263 4211 4275 4274
 			}
 		}
 		
-		ABN = {
+		ABN = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = dacian
 			religion = shamanism
 
-			capital = 4829
+			capital = 4260
 
 			own_control_core = 	{
-				4260 4261 4265 4264 4826 4831 4827 4828 4833 4832 4835 4834 4837 4829 4838 4830
+				4260 4261 4265 4827
 			}
 		}
 		
@@ -10007,7 +10012,7 @@ country = {
 			}
 		}
 		
-		APP = {
+		APP = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = caucoensi
 			religion = shamanism
@@ -10015,7 +10020,7 @@ country = {
 			capital = 4291 
 
 			own_control_core = 	{
-				4291 4286 4289 4290 4288 4285 4284 4282 4283 4296
+				4291 4286 4289 4290 4288 4285 4284 4282 4283 4296 4830 4264
 			}
 		}
 		
@@ -10052,45 +10057,44 @@ country = {
 
 			own_control_core = 	{
 				4505 4297 4503 4504
-				4508 4507 4506 4511 4510 4509
 			}
 		}
 		
 		ANS = {
 			government = tribal_kingdom
-			primary_culture = biephi
+			primary_culture = caucoensi
 			religion = shamanism
 
-			capital = 4851
+			capital = 4508
 
 			own_control_core = 	{
-				4840 4841 4851 4836 4839 4861 4860 4859 # 4858 4857 4856
+				4508 4507 4506 4511 4510 4509
 			}
 		}
 		
-		NRC = {
+		NRC = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = noric
 			religion = druidism
-			centralization=10
+			centralization=75
 
-			capital = 3643
+			capital = 3671
 
 			own_control_core = 	{
-				3643 3670 3644 3764 3762 3645
+				3671 3672 3673 4131 3674 3649 3648 3647 3650 3651 3652
 			}
 		}
 		
-		TSC = {
+		TSC = { #change Galatia
 			government = tribal_kingdom
-			primary_culture = noric
+			primary_culture = carnian
 			religion = druidism
 			centralization=10
 
-			capital = 3647
+			capital = 4029
 
 			own_control_core = 	{
-				3647 3646 3763 3648 3649 3650 3651 3652 3653 4145 3918 3674
+				4175 4030 4029 4137 4136 4140 4048 4039
 			}
 		}
 		
@@ -12650,30 +12654,29 @@ country = {
 			government = tribal_chiefdom
 			primary_culture = legian
 			religion = indo_iranian_religion
-			centralization = -25
 
 			capital = 5866
 
 			own_control_core = 	{
-				7633 7632 7602 7623 #7629 7631 7627 7628 7626 7625 1674 7624 7621 
-				5866 5867 #5871 5872 5869 5870 5875 5868 5874 5873 
-				#7604 7605
+				7629 7631 7627 7628 7626 7625 1674 7624 7623 # moved to Albania: 7602 7632 7633 7621
+				5871 5872 5869 5870 5875 5867 5866 5868 5874 5873 
+				5926 5924 #new
+				7602 7632 7633 7621 # in Invictus part of Albania --> Shocky please check it
 			}
 		
 		}
 		
 		SCA = {
 			government = tribal_chiefdom
-			primary_culture = massagetaen
+			primary_culture = sakan
 			religion = indo_iranian_religion
 			is_antagonist = yes
 			capital = 5485
 
 			own_control_core = 	{
-				#5457 5471 5493 5496 5497 5498 5499 5494 5495 5492 5491 5490
-				5477 5480 5481 5479 5483 5484 5482 5486 5485 5487 5488
-				#5478 5468 5467
-				#5489
+				5457 5471 5493 5496 5497 5498 5499 5494 5495 5492 5491 5490
+				5477 5480 5481 5479 5483 5484 5482 5486 5485 5487 5488 5489
+				5478 5468 5467
 			}
 		
 		}
@@ -13513,13 +13516,12 @@ country = {
 		SND = {
 			government = tribal_kingdom
 			primary_culture = sindi
-			religion = caucasian_religion
-			centralization = -10
+			religion = indo_iranian_religion
 			
 			capital = 7600
 			
 			own_control_core = {
-				7600 7612 7613 7608 7614# 7616 7615
+				7600 7608 7616 7614 7615
 			}
 		}
 		
@@ -13528,12 +13530,12 @@ country = {
 			government = tribal_chiefdom
 			primary_culture = siraci
 			religion = indo_iranian_religion
-			centralization = -25
 			
-			capital = 7620
+			capital = 7607
 			
 			own_control_core = {
-				7619 7620 5930 7630 # 7607 7606 7610 7609 7622 7630 7611 
+				7607 7611 7610 7609 7620 7619 7606 7622 7630
+				5925 5929 5927 5928 5895 5893 5931 5930 5932 5933 5890 5886 7635 # new
 			}
 		}
 		
@@ -13658,13 +13660,12 @@ country = {
 		MAE = {
 			government = tribal_kingdom
 			primary_culture = maeotian
-			religion = caucasian_religion
-			centralization = -10
+			religion = indo_iranian_religion
 			
 			capital = 7634
 			
 			own_control_core = {
-				7634 7637 4558 7636 7618 7617 #7613
+				7634 7637 7636 7618 7617 7612 7613 4558
 			}
 		}
 		
@@ -14005,211 +14006,320 @@ country = {
 		
 		### Germania
 		
-		BST = {
+		BST = { #change
 			government = tribal_chiefdom
 			primary_culture = bastarnae
 			religion = germanic_religion
 			centralization=-50
 			
-			capital = 4773
+			pantheon = { #Vandal/Bastarnian deities
+			
+			{ deity = 1012 }
+			{ deity = 1013 }
+			{ deity = 1002 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 6259
 			
 			own_control_core = {
-				4773 #4774 4772 4770 4769 4762 4761 4775 4777 4904 
+				4901 6259 4895 6265 6266
 			}
 		}
 		
-		CHC = {
+		CHC = { #change
 			government = tribal_chiefdom
-			primary_culture = saxonian
+			primary_culture = ingvaeonic
 			religion = germanic_religion
 			centralization=-50
 			
-			capital = 3837
+			pantheon = { #North-Sea Germanic deities
+				{ deity = 1006 }
+				{ deity = 1008 }
+				{ deity = 1009 }
+				{ deity = 1003 }
+			}
+			
+			capital = 3842
 			
 			own_control_core = {
-				3837 #3890 3888 3855 3889
+				3842 3839 3836 3833 3841 3840 3838 3834
 			}
 		}
 		
-		GIT = {
+		GIT = { #change
 			government = tribal_chiefdom
-			primary_culture = gutones
+			primary_culture = scandian #unified culture for Scandinavia, vanilla setup is based on 550AD setup
 			religion = germanic_religion
 			centralization=-50
 			
-			capital = 6016
+			pantheon = { #Scandian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 6009
 			
 			own_control_core = {
-				6016 #6017 6009 6008 6007 6018 6020
+				6006 6005 6007 6009 6010
 			}
 		}
 		
-		SWE = {
+		SWE = { #change
 			government = tribal_chiefdom
-			primary_culture = suiones
+			primary_culture = scandian #unified culture for Scandinavia, vanilla setup is based on 550AD setup
 			religion = germanic_religion
 			centralization=-50
 			
-			capital = 6032
+			pantheon = { #Scandian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 6030
 			
 			own_control_core = {
-				6032 #6030 6031 6029 6026 6028 6021 6019
+				6030 6032 6031 6029 6026
 			}
 		}
 		
-		RAM = {
-			government = tribal_chiefdom
-			primary_culture = raumarician
-			religion = germanic_religion
-			centralization=-50
-			
-			capital = 6034
-			
-			own_control_core = {
-				6034 #6033 6036 6025 6037 6035 
-			}
-		}
-		
-		HRE = {
-			government = tribal_chiefdom
-			primary_culture = herulian
-			religion = germanic_religion
-			centralization=-50
-			
-			capital = 3885
-			
-			own_control_core = {
-				3885 #3887 3886 3884 3881 3883 3882
-			}
-		}
-		
-		TIT = {
-			government = tribal_chiefdom
-			primary_culture = teutonian
-			religion = germanic_religion
-			centralization=-50
-			
-			capital = 3876
-			
-			own_control_core = {
-				3876 #3875 3874 3867 3866 
-			}
-		}
-		
-		CMB = {
+		HRE = { #change to Ambronia
 			government = tribal_chiefdom
 			primary_culture = cimbrian
 			religion = germanic_religion
 			centralization=-50
 			
-			capital = 3877
+			capital = 3881
+			
+			pantheon = { #North-Sea Germanic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
 			
 			own_control_core = {
-				3877 #3871 3873 3878 3880 3879
+				3881 3883 3882
 			}
 		}
 		
-		LVA = {
+		TIT = { #change
+			government = tribal_chiefdom
+			primary_culture = cimbrian
+			religion = germanic_religion
+			centralization=-50
+			
+			capital = 3876
+			
+			pantheon = { #North-Sea Germanic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
+			
+			own_control_core = {
+				3876 3875 3874 3867 3866 
+			}
+		}
+		
+		CMB = { #change
+			government = tribal_chiefdom
+			primary_culture = cimbrian
+			religion = germanic_religion
+			centralization=-50
+			
+			pantheon = { #North-Sea Germanic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3877
+			
+			own_control_core = {
+				3877 3871 3878 3880 3879
+			}
+		}
+		
+		LVA = { #change
 			government = tribal_chiefdom
 			primary_culture = gothonic
 			religion = germanic_religion
 			centralization=-50
 			
-			capital = 4757
+			pantheon = { #Gothonic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 4755
 			
 			own_control_core = {
-				4757 #4760 4756 
+				4756 4757 4750 4755
 			}
 		}
 		
-		VRI = {
+		VRI = { #change
 			government = tribal_chiefdom
-			primary_culture = suebian
+			primary_culture = irminonic
 			religion = germanic_religion
 			centralization=-50
 			
-			capital = 3900
+			pantheon = { #Suebian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1010 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3899
 			
 			own_control_core = {
-				3900 #3896 3897 3901 3894 3905 3902 3898 3899 3903
+				3896 3897 3901 3902 3898 3899 3903
 			}
 		}
 		
-		LGI = {
+		LGI = { #change
 			government = tribal_chiefdom
 			primary_culture = vandal
 			religion = germanic_religion
 			centralization=-50
 			
-			capital = 4758
 			
 			own_control_core = {
-				4758 #4754 4753 4759 4768 4767 4766
 			}
 		}
 		
-		SMN = {
+		SMN = { #change
 			government = tribal_chiefdom
-			primary_culture = suebian
+			primary_culture = irminonic
 			religion = germanic_religion
 			centralization=-50
+			
+			pantheon = { #Suebian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1010 }
+			{ deity = 1003 }
+			
+			}
 			
 			capital = 3986
 			
 			own_control_core = {
-				3986 #3989 3909 3987 3994 3996 3995 4000 3999 3982 3984 3908 3983
+				3989 3909 3987 3994 3996 3995 4000 3999 3982 3986 3984 3983
 			}
 		}
 		
-		LGB = {
+		LGB = { #change
 			government = tribal_chiefdom
-			primary_culture = suebian
+			primary_culture = irminonic
 			religion = germanic_religion
 			centralization=-50
+			
+			pantheon = { #Suebian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1010 }
+			{ deity = 1003 }
+			
+			}
 			
 			capital = 3970
 			
 			own_control_core = {
-				3970 #3971 3969 3968 3975 3907 3893
+				3970 3971 3969 3968 3975 3972 
 			}
 		}
 		
-		MCM = {
+		MCM = { #change
 			government = tribal_chiefdom
-			primary_culture = suebian
+			primary_culture = irminonic
 			religion = germanic_religion
 			centralization=-50
 			
-			capital = 3974
+			pantheon = { #Suebian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1010 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3990
 			
 			own_control_core = {
-				3974 #3978 3976 3967 3966
+				3990 3981 3991 3988				
 			}
 		}
 		
-		ANG = {
+		ANG = { #change
 			government = tribal_chiefdom
-			primary_culture = anglian
+			primary_culture = ingvaeonic
 			religion = germanic_religion
 			centralization=-50
+			
+			pantheon = { #North-Sea Germanic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
 			
 			capital = 3861
 			
 			own_control_core = {
-				3861 #3857 3860 3859 3862
+				3865 3868 3861 3862
 			}
 		}
 		
-		SXS = {
-			government = tribal_kingdom
-			primary_culture = saxonian
+		SXS = { #change
+			government = tribal_chiefdom
+			primary_culture = ingvaeonic
 			religion = germanic_religion
-			centralization=-20
+			centralization=-50
 			
-			capital = 3832
+			pantheon = { #North-Sea Germanic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3852
 			
 			own_control_core = {
-				3836 3833 3834 3852 3832 3854 #3839 3841
+				3852 3832 3847 3848
 			}
 		}
 		
@@ -14219,10 +14329,10 @@ country = {
 			religion = matrist_religion
 			centralization=-50
 			
-			capital = 4865
+			capital = 7835
 			
 			own_control_core = {
-				4865 #4864 6285 7830 7831 7832
+				 7833 7835 7298 7836 7804
 			}
 		}
 		
@@ -14277,172 +14387,298 @@ country = {
 			}
 		}
 		
-		GTH = {
-			government = tribal_chiefdom
-			primary_culture = irminonic
-			religion = germanic_religion
-			
-			capital = 6265
-			
-			own_control_core = {
-				6265 6268 6263 #4750 4755 4862 4863
-			}
-			
-		}
-		
-		RGG = {
+		GTH = { #change Germania
 			government = tribal_chiefdom
 			primary_culture = gothonic
 			religion = germanic_religion
 			
+			pantheon = { #Gothonic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 4764
+			
+			own_control_core = {
+				4764 4765 4760 4754 4766 
+			}
+			
+		}
+		
+		RGG = { #Germania change
+			government = tribal_chiefdom
+			primary_culture = gothonic
+			religion = germanic_religion
+			
+			pantheon = { #Gothonic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			
 			capital = 4751
 			
 			own_control_core = {
-				4751 #4752 3904 3906 3985
+				4751 4752 3904 3906 4753
 			}
 		}
 		
-		SCI = {
+		SCI = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = vandal
+			primary_culture = bastarnae
 			religion = germanic_religion
 			
-			capital = 4763
+			pantheon = { #Vandal/Bastarnian deities
+			
+			{ deity = 1012 }
+			{ deity = 1013 }
+			{ deity = 1002 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 6275
 			
 			own_control_core = {
-				4763 #4764 4776 4765 6280 6281
+				6268 6273 6274 6277 6267 6275
 			}
 		}
 		
-		FOS = {
+		FOS = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = suebian
+			primary_culture = irminonic
 			religion = germanic_religion
 			
-			capital = 3972
+			pantheon = { #Suebian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1010 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3978
 			
 			own_control_core = {
-				3972 #3962 3964 3973
+				3978 3974 3967
 			}
 		}
 		
-		REU = {
+		REU = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = suebian
+			primary_culture = ingvaeonic
 			religion = germanic_religion
 			
-			capital = 3895
+			pantheon = { #North-Sea Germanic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3855
 			
 			own_control_core = {
-				3895 #3892 3891 3858
+				3855 3857 3889 3888 3890 3837
 			}
 		}
 		
-		AVO = {
+		AVO = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = saxonian
+			primary_culture = ingvaeonic
 			religion = germanic_religion
 			
-			capital = 3863
+			pantheon = { #North-Sea Germanic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3864
 			
 			own_control_core = {
-				3863 #3863 3856
+				3864 3863 3856
 			}
 		}
 		
-		CRS = {
+		CRS = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = suebian
+			primary_culture = irminonic
 			religion = germanic_religion
 			
-			capital = 3977
+			pantheon = { #Suebian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1010 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3963
 			
 			own_control_core = {
-				3977 #3963 3828 3965 3827
+				3977 3963 3964 3973 3976 3965
 			}
 		}
 		
-		EUD = {
+		EUD = { #change Germania
 			government = tribal_chiefdom
 			primary_culture = cimbrian
 			religion = germanic_religion
 			
-			capital = 3868
+			pantheon = { #North-Sea Germanic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3885
 			
 			own_control_core = {
-				3868 #3865 3869 3872 3870
+				3887 3886 3885 3884
 			}
 		}
 		
-		AGR = {
+		AGR = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = saxonian
+			primary_culture = ingvaeonic
 			religion = germanic_religion
 			
-			capital = 3838
+			pantheon = { #North-Sea Germanic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3835
 			
 			own_control_core = {
-				3838 #3840 3829
+				3829 3835 3962
 			}
 		}
 				#More scandis
-		VDL = {
+		VDL = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = rugian
+			primary_culture = scandian #unified culture for Scandinavia, vanilla setup is based on 550AD setup
 			religion = germanic_religion
 			
-			capital = 6042
+			pantheon = { #Scandian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 6028
 			
 			own_control_core = {
-				6042 #6041 6043
+				6028 6027 6021
 			}
 		}
 		
-		RUG = {
+		RUG = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = rugian
+			primary_culture = scandian #unified culture for Scandinavia, vanilla setup is based on 550AD setup
 			religion = germanic_religion
 			
-			capital = 6039
+			pantheon = { #Scandian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 6038
 			
 			own_control_core = {
-				6039 #6038 6040 
+				6038 6039 6037 6035
 			}
 		}
 		
-		LEU = {
+		LEU = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = raumarician
+			primary_culture = scandian #unified culture for Scandinavia, vanilla setup is based on 550AD setup
 			religion = germanic_religion
 			
-			capital = 6013
+			pantheon = { #Scandian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 6012
 			
 			own_control_core = {
-				6013 #6012 6011 6022 6023
+				6011 6012 6013 6023 6034 6025
 			}
 		}
 		
-		DAN = {
+		DAN = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = gutones
+			primary_culture = scandian #unified culture for Scandinavia, vanilla setup is based on 550AD setup
 			religion = germanic_religion
 			
-			capital = 6006
+			pantheon = { #Scandian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 6000
 			
 			own_control_core = {
-				6006 #6005 6014 6015
+				6000 6001 6002 6003 6004
 			}
 		}
 		
-		BUR = {
+		BUR = { #change Germania
 			government = tribal_chiefdom
-			primary_culture = herulian
+			primary_culture = vandal #Burgundians were continental Vandals
 			religion = germanic_religion
 			
-			capital = 6004
+			pantheon = { #Vandal/Bastarnian deities
+			
+			{ deity = 1012 }
+			{ deity = 1013 }
+			{ deity = 1002 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 4761
 			
 			own_control_core = {
-				6004 #6001 6002 6003 6000 
+				4763 4768 4761 4769
 			}
 		}
 		
@@ -14450,153 +14686,146 @@ country = {
 			government = tribal_federation
 			primary_culture = nuragic
 			religion = carthaginian_pantheon
+
 			
-			capital = 3501
-			
-			own_control_core = {
-				3501 3496 3502 3498 3505 3500 3499 3489 3503
+			pantheon = {
+				{ deity = 430 }
+				{ deity = 401 } 
+				{ deity = 432 } 
+				{ deity = 431 }
 			}
-		}
-		
-		IOI = {
-			government = tribal_kingdom
-			primary_culture = nuragic
-			religion = carthaginian_pantheon
-			
-			capital = 3491
 			
 			own_control_core = {
-				3491 3495 3487 3488
 			}
 		}
 		
 		DAR = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = voluntian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
-			capital = 2173
+			capital = 2172
 
-			own_control_core = {
-				2173 2208
+			own_control_core = 	{
+				2173 2172 2205
 			}
 		}
 
 		ELA = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = voluntian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
-			capital = 2170
+			capital = 2168
 
-			own_control_core = {
-				2170 2195
+			own_control_core = 	{
+				2168 2193 2194 2196
 			}
 		}
 
 		MNA = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = ivernian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
 			capital = 2165
 
-			own_control_core = {
-				2190 2165
+			own_control_core = 	{
+				2165 2164 2192
 			}
 		}
 
 		CAU = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = voluntian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
-			capital = 2168
+			capital = 2190
 
-			own_control_core = {
-				2168 2193
+			own_control_core = 	{
+				2190 2167 2191
 			}
 		}
 
 		COR = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = ivernian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
-			capital = 2189
+			capital = 2188
 
-			own_control_core = {
+			own_control_core = 	{
 				2188 2189
 			}
 		}
 
 		IVE = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = ivernian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
 			capital = 2161
 
-			own_control_core = {
-				2161 2177
+			own_control_core = 	{
+				2161 2177 2176 2179 2163
 			}
 		}
 
 		USD = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = ivernian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
-			capital = 2178
+			capital = 2162
 
-			own_control_core = {
-				2178 2162
+			own_control_core = 	{
+				 2162 2178 2182
 			}
 		}
 
 		ROB = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = voluntian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
 			capital = 2207
 
-			own_control_core = {
-				2207 2174
+			own_control_core = 	{
+				2207 2174 2206
 			}
 		}
 
 		VEN = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = voluntian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
-			capital = 2203
+			capital = 2204
 
-			own_control_core = {
-				2203 2204
+			own_control_core = 	{
+				2203 2175 2204 2171 2202
 			}
 		}
 
 		BGA = {
-			government = tribal_kingdom
-			primary_culture = hibernian
+			government = tanist_chiefdom
+			primary_culture = ivernian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
-			capital = 2187
+			capital = 2186
 
-			own_control_core = {
-				2187 2186
+			own_control_core = 	{
+				2186 2187
 			}
 		}
 
@@ -14604,7 +14833,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = caledonian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
 			capital = 2119
 
@@ -14617,7 +14846,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = caledonian
 			religion = druidism
-			centralization = 25
+			centralization = 0
 
 			capital = 2122
 
@@ -14626,19 +14855,19 @@ country = {
 			}
 		}	
 
-		VND = {
+		VND = { #change Germania
 			government = tribal_chiefdom
 			primary_culture = aestian
 			religion = matrist_religion
 			centralization = -50
 
-			capital = 7833
+			capital = 7830
 
 			own_control_core = {
-				7833 #6286 6282 6283 6287 7298
+				7830 7832 6285 4865 7831 7834 7807
 			}
 		}	
-
+		
 		SUD = {
 			government = tribal_chiefdom
 			primary_culture = aestian
@@ -14648,7 +14877,7 @@ country = {
 			capital = 7805
 
 			own_control_core = {
-				7805 #7804 7836 7835
+				7806 7805
 			}
 		}
 
@@ -14657,11 +14886,10 @@ country = {
 			primary_culture = aestian
 			religion = matrist_religion
 			centralization = -50
-
-			capital = 7807
-
+		
+		
 			own_control_core = {
-				7807 #7834 7806 7808
+
 			}
 		}
 
@@ -15331,6 +15559,996 @@ country = {
 			
 			own_control_core = {
 				1464
+			}
+		}
+		
+		#added for Germania and Pannonia
+
+		AUA = {
+			government = tribal_chiefdom
+			primary_culture = aestian
+			religion = matrist_religion
+			centralization=-50
+			
+			capital = 4862
+			
+			own_control_core = {
+				4862 4864 4863 6282 6286 6283 6287 6284 6288 6281
+			}
+		}
+		#Chattia
+		X01 = {
+			government = tribal_chiefdom
+			primary_culture = istvaeonic
+			
+			religion = germanic_religion
+			centralization=-25
+			
+			pantheon = { #Rhine-Weser deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1011 }
+			{ deity = 1007 }
+			
+			}
+			
+			capital = 3831
+			
+			own_control_core = {
+				3830 3831 3828 3827
+			}
+		}
+		#Suardonia
+		X02 = {
+			government = tribal_chiefdom
+			primary_culture = irminonic
+			
+			pantheon = { #Suebian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1010 }
+			{ deity = 1003 }
+			
+			}
+
+			religion = germanic_religion
+			centralization=-50
+			
+			capital = 3858
+			
+			own_control_core = {
+				3859 3860 3858 3891 3892 3895 3893
+			}
+		}
+		#Nuithonia
+		X03 = {
+			government = tribal_chiefdom
+			primary_culture = irminonic
+
+			religion = germanic_religion
+			centralization=-50
+			
+			pantheon = { #Suebian deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1010 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3894
+			
+			own_control_core = {
+				3900 3907 3894 3905 3985
+			}
+		}
+		#Charudia
+		X04 = {
+			government = tribal_chiefdom
+			primary_culture = cimbrian
+
+			religion = germanic_religion
+			centralization=-50
+			
+			pantheon = { #North-Sea Germanic deities
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
+			
+			capital = 3870
+			
+			own_control_core = {
+				3873 3869 3870 3872
+			}
+		}
+		#Firaesia
+		X05 = { 
+			government = tribal_chiefdom
+			primary_culture = scandian #unified culture for Scandinavia, vanilla setup is based on 550AD setup
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			centralization=-50
+			
+			capital = 6008
+			
+			own_control_core = {
+				6008 6019 6020
+			}
+		}
+		#Favonia
+		X06 = {
+			government = tribal_chiefdom
+			primary_culture = scandian #unified culture for Scandinavia, vanilla setup is based on 550AD setup
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1012 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			centralization=-50
+			
+			capital = 6014
+			
+			own_control_core = {
+				6014 6015 6016 6017 6018
+			}
+		}
+		#Tectosagia
+		X07 = {
+			government = tribal_chiefdom
+			primary_culture = eravisci
+			religion = druidism
+			centralization=-25
+			
+			family = 1000
+
+			capital = 4853
+
+			own_control_core = 	{
+				4876 4880 4852 4855 4853 4854 4857 4877
+			}
+		}
+		#Tolistobogia
+		X08 = {
+			government = tribal_chiefdom
+			primary_culture = eravisci
+			religion = druidism
+			centralization=-25
+			
+			family = 1003
+			family = 1004
+
+
+			capital = 4850
+
+			own_control_core = 	{
+				4856 4840 4847 4850 4848 4849
+			}
+		}
+		#Trocmeria
+		X09 = {
+			government = tribal_chiefdom
+			primary_culture = eravisci
+			religion = druidism
+			centralization=-25
+			
+			family = 1001
+			family = 1002
+
+			capital = 4842
+
+			own_control_core = 	{
+				4844 4845 4846 4835 4832 4842 4843 4169 4170
+			}
+		}
+		#Biephia
+		X10 = {
+			government = tribal_kingdom
+			primary_culture = biephi
+			religion = shamanism
+
+			capital = 4834
+
+			own_control_core = 	{
+				4833 4828 4829 4838 4837 4834
+			}
+		}
+		#Anartia
+		X11 = {
+			government = tribal_kingdom
+			primary_culture = eravisci
+			religion = druidism
+			centralization=25
+
+			capital = 4861
+
+			own_control_core = 	{
+				4861 4839 4836 4841 4851 4860 4858
+			}
+		}
+		#Celegeria
+		X12 = {
+			government = tribal_kingdom
+			primary_culture = celtic_pannonian
+			religion = druidism
+
+			capital = 4208
+
+			own_control_core = 	{
+				4207 4208 4209 4199 4200 4201 4205
+			}
+		}
+		#Timachia
+		X13 = {
+			government = tribal_kingdom
+			primary_culture = celtic_pannonian
+			religion = druidism
+
+			capital = 4212
+
+			own_control_core = 	{
+				4212 4214
+			}
+		}
+		#Arabiatia
+		X14 = {
+			government = tribal_kingdom
+			primary_culture = carnian
+			religion = druidism
+			centralization = 25
+
+			capital = 4134
+
+
+			own_control_core = 	{
+				4031 4134 4135 4143 4133 4141 4139 4132
+			}
+		}
+		#Andizetia
+		X15 = {
+			government = tribal_kingdom
+			primary_culture = pannonian
+			religion = roman_pantheon
+			centralization = 25
+			
+
+			capital = 4167
+
+			own_control_core = 	{
+				4167 4168 4172 4174 4173 4165 4171
+			}
+		}
+		#Amantinia
+		X16 = {
+			government = tribal_kingdom
+			primary_culture = pannonian
+			religion = roman_pantheon
+			centralization = 25
+
+			capital = 4192
+
+			own_control_core = 	{
+				4187 4188 4184 4185 4186 4191 4192 4183
+			}
+		}
+		#Cosuanetia
+		X17 = {
+			government = tribal_kingdom
+			primary_culture = vindelician
+			religion = druidism
+			centralization=50
+			
+			capital = 3761
+			
+			own_control_core = {
+				3756 3760 3761
+			}
+		}
+		#Rucinatia
+		X18 = {
+			government = tribal_kingdom
+			primary_culture = vindelician
+			religion = druidism
+			centralization=50
+			
+			capital = 3758
+			
+			own_control_core = {
+				3765 3758 3759 3808 3809
+			}
+		}
+		#Alaunia
+		X19 = {
+			government = tribal_kingdom
+			primary_culture = noric
+			religion = druidism
+			centralization=50
+			
+			capital = 3642
+			
+			own_control_core = {
+				3643 3644 3764 3762 3645 3763 3646 3642 3754 3755
+			}
+		}
+		#Laiancia
+		X20 = {
+			government = tribal_kingdom
+			primary_culture = noric
+			religion = druidism
+			centralization=50
+			
+			capital = 3667
+			
+			own_control_core = {
+				3667
+			}
+		}
+		
+		X21 = { #Ambidravia
+			government = tribal_kingdom
+			primary_culture = noric
+			religion = druidism
+			centralization=50
+			
+			capital = 3668
+			
+			own_control_core = {
+				3668
+			}
+		}
+		
+		X22 = { #Uperacia
+			government = tribal_kingdom
+			primary_culture = noric
+			religion = druidism
+			centralization=50
+			
+			capital = 4047
+			
+			own_control_core = {
+				4047 
+			}
+		}
+		
+		X23 = { #Segestania
+			government = tribal_kingdom
+			primary_culture = catari
+			religion = roman_pantheon
+			centralization = 25
+			
+
+			capital = 4041
+
+			own_control_core = 	{
+				4044 4038 4040 4041 4042 4045 4046
+			}
+		}
+		
+		#Batavia
+		X24 = {
+			government = tribal_chiefdom
+			primary_culture = istvaeonic
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1011 }
+			{ deity = 1007 }
+			
+			}
+			religion = germanic_religion
+			centralization=-25
+			
+			capital = 3784
+			
+			own_control_core = {
+				3784
+			}
+		}
+		
+		#Chamavia
+		X25 = {
+			government = tribal_chiefdom
+			primary_culture = ingvaeonic
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			centralization=-25
+			
+			capital = 3854
+			
+			own_control_core = {
+				3854 3781
+			}
+		}
+		#Ampsivaria
+		X26 = {
+			government = tribal_chiefdom
+			primary_culture = ingvaeonic
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1009 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			centralization=-25
+			
+			capital = 3779
+			
+			own_control_core = {
+				3779 3780
+			}
+		}
+		
+		#Manimia
+		X27 = {
+			government = tribal_chiefdom
+			primary_culture = vandal
+			pantheon = { #Vandal/Bastarnian deities
+			
+			{ deity = 1012 }
+			{ deity = 1013 }
+			{ deity = 1002 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			
+			capital = 4904
+			
+			own_control_core = {
+				4776 4775 4904 6272 6276 6279 6280 6278
+			}
+		}
+		#Haria
+		X28 = {
+			government = tribal_chiefdom
+			primary_culture = vandal
+			pantheon = { #Vandal/Bastarnian deities
+			
+			{ deity = 1012 }
+			{ deity = 1013 }
+			{ deity = 1002 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			
+			capital = 6270
+			
+			own_control_core = {
+				6271 6270 6269 4902 4903 4900
+			}
+		}
+		#Helisia
+		X29 = {
+			government = tribal_chiefdom
+			primary_culture = vandal
+			pantheon = { #Vandal/Bastarnian deities
+			
+			{ deity = 1012 }
+			{ deity = 1013 }
+			{ deity = 1002 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			
+			capital = 4773
+			
+			own_control_core = {
+				4774 4773 4772 4777
+			}
+		}
+		#Naharvalia
+		X30 = {
+			government = tribal_chiefdom
+			primary_culture = vandal
+			pantheon = { #Vandal/Bastarnian deities
+			
+			{ deity = 1012 }
+			{ deity = 1013 }
+			{ deity = 1002 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			
+			capital = 4004
+			
+			own_control_core = {
+				4770 4004
+			}
+		}
+		
+		#Hermunduria
+		X31 = {
+			government = tribal_chiefdom
+			primary_culture = irminonic
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1010 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			centralization=-50
+			
+			capital = 3966
+			
+			own_control_core = {
+				3950 3959 3961 3966 3967
+			}
+		}
+		#Teuria
+		X32 = {
+			government = tribal_chiefdom
+			primary_culture = teurian
+			religion = druidism
+			centralization=20
+			
+			capital = 3953
+			
+			own_control_core = {
+				3953 3952 3954 3956
+			}
+		}
+		
+		#Quadia
+		X33 = {
+			government = tribal_chiefdom
+			primary_culture = irminonic
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1010 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			
+			centralization=-50
+			
+			capital = 3955
+			
+			own_control_core = {
+				3955 3951 3957
+			}
+		}
+		#Vangionia
+		X34 = {
+			government = tribal_kingdom
+			primary_culture = ubian
+			religion = druidism
+			centralization=50
+			
+			capital = 3823
+			
+			own_control_core = {
+				3823 3947 3949 3795 3958
+			}
+		}
+		#Ubia
+		X35 = {
+			government = tribal_kingdom
+			primary_culture = ubian
+			religion = druidism
+			centralization=50
+			
+			capital = 3791
+			
+			own_control_core = {
+				3791 3790 3792 3788 3789 3793 3794 3796
+			}
+		}
+		#Usipetia
+		X36 = {
+			government = tribal_chiefdom
+			primary_culture = istvaeonic
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1011 }
+			{ deity = 1007 }
+			
+			}
+			religion = germanic_religion
+			centralization=-25
+			
+			capital = 3824
+			
+			own_control_core = {
+				3824 3960
+			}
+		}
+		#Tencteria
+		X37 = {
+			government = tribal_chiefdom
+			primary_culture = istvaeonic
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1011 }
+			{ deity = 1007 }
+			
+			}
+			religion = germanic_religion
+			centralization=-25
+			
+			capital = 3825
+			
+			own_control_core = {
+				3825 3826
+			}
+		}
+		#Sugambria
+		X38 = {
+			government = tribal_chiefdom
+			primary_culture = istvaeonic
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1011 }
+			{ deity = 1007 }
+			
+			}
+			religion = germanic_religion
+			centralization=-25
+
+			capital = 3785 
+
+			own_control_core = 	{
+				3785 3786 3787
+			}
+		}
+		#Bructeria
+		X39 = {
+			government = tribal_chiefdom
+			primary_culture = istvaeonic
+			pantheon = {
+			
+			{ deity = 1006 }
+			{ deity = 1008 }
+			{ deity = 1011 }
+			{ deity = 1007 }
+			
+			}
+			religion = germanic_religion
+			centralization=-25
+
+			capital = 3776
+
+			own_control_core = 	{
+				3776 3850 3851 3778 3777 3783 3782
+			}
+		}
+		
+		X40 = {
+			government = tribal_chiefdom
+			primary_culture = vandal
+			pantheon = { #Vandal/Bastarnian deities
+			
+			{ deity = 1012 }
+			{ deity = 1013 }
+			{ deity = 1002 }
+			{ deity = 1003 }
+			
+			}
+			religion = germanic_religion
+			centralization=-50
+			
+			capital = 4758
+			
+			own_control_core = {
+				3908 4758 4759 4767 4762
+			}
+		}
+		
+		#Caerosia
+		X41 = {
+			government = tribal_kingdom
+			primary_culture = eburonian
+			religion = druidism
+			centralization=50
+
+			capital = 3720
+
+			own_control_core = 	{
+				3720 3727 3728
+			}
+		}
+		#Segnia
+		X42 = {
+			government = tribal_kingdom
+			primary_culture = eburonian
+			religion = druidism
+			centralization=50
+
+			capital = 3683
+
+			own_control_core = 	{
+				3683
+			}
+		}
+		#Condrusia
+		X43 = {
+			government = tribal_kingdom
+			primary_culture = eburonian
+			religion = druidism
+			centralization=50
+
+			capital = 3681
+
+			own_control_core = 	{
+				3719 3682 3681 3718 
+			}
+		}
+		#Paemania
+		X44 = {
+			government = tribal_kingdom
+			primary_culture = eburonian
+			religion = druidism
+			centralization=50
+
+			capital = 3684
+
+			own_control_core = 	{
+				3684 3703
+			}
+		}
+		
+		#Leunia
+		X45 = {
+			government = tribal_kingdom
+			primary_culture = vindelician
+			religion = druidism
+			centralization=50
+			
+			capital = 3750
+			
+			own_control_core = {
+				3775 3750
+			}
+		}
+		
+		#Tibulatia
+		X47 = {
+			government = tribal_kingdom
+			primary_culture = corsian
+			religion = carthaginian_pantheon
+			centralization = 50
+			
+			pantheon = {
+				{ deity = 430 }
+				{ deity = 401 } 
+				{ deity = 432 } 
+				{ deity = 431 }
+			}
+			
+			capital = 3505
+			
+			own_control_core = {
+				3505 3506
+			}
+		}
+		#Coracensia 
+		X48 = {
+			government = tribal_kingdom
+			primary_culture = nuragic
+			religion = carthaginian_pantheon
+			centralization = 50
+			
+			pantheon = {
+				{ deity = 430 }
+				{ deity = 401 } 
+				{ deity = 432 } 
+				{ deity = 431 }
+			}
+			
+			capital = 3496
+			
+			own_control_core = {
+				3496 3499 3500
+			}
+		}
+		#Luguidonensia
+		X49 = {
+			government = tribal_kingdom
+			primary_culture = nuragic
+			religion = carthaginian_pantheon
+			centralization = 50
+			
+			pantheon = {
+				{ deity = 430 }
+				{ deity = 401 } 
+				{ deity = 432 } 
+				{ deity = 431 }
+			}
+			
+			capital = 3501
+			
+			own_control_core = {
+				3501 3502 3503
+			}
+		}
+		#Celesitania
+		X50 = {
+			government = tribal_kingdom
+			primary_culture = nuragic
+			religion = carthaginian_pantheon
+			centralization = 50
+			
+			pantheon = {
+				{ deity = 430 }
+				{ deity = 401 } 
+				{ deity = 432 } 
+				{ deity = 431 }
+			}
+			
+			capital = 3495
+			
+			own_control_core = {
+				3495 3498 3491
+			}
+		}
+		#Rubrinsia
+		X51 = {
+			government = tribal_kingdom
+			primary_culture = nuragic
+			religion = carthaginian_pantheon
+			centralization = 50
+			
+			pantheon = {
+				{ deity = 430 }
+				{ deity = 401 } 
+				{ deity = 432 } 
+				{ deity = 431 }
+			}
+			
+			capital =  3488
+			
+			own_control_core = {
+				 3488 3489 3487
+			}
+		}	
+		
+		#Iazygia
+		X52 = { 
+			government = tribal_chiefdom
+			primary_culture = sarmatian
+			religion = indo_iranian_religion
+			diplomatic_stance=warmongering_stance
+			
+			centralization = -75
+			
+			capital = 4557
+
+			own_control_core = {
+				4553 7193 4554 4555 4556 4557 6154 6155 6157 6163 6164 6165 6170 6177 6178 6180 6187 6189
+				6149 6153 #borysthenia maioris
+				6156 6159 6158 6151 6169 6162 6138 6161 6160 6135 6167 #danaia
+				6168 6172 6173 6176 6175 6179 6183 #danaia superioris
+				6132 6133 6134 6136 6137 6150 6152 #borysthenia maioris
+				
+			}
+		}
+		#Roxolania
+		X53 = { 
+			government = tribal_chiefdom
+			primary_culture = sarmatian
+			religion = indo_iranian_religion
+			diplomatic_stance=warmongering_stance
+			
+			centralization = -75
+			
+			capital = 5884
+
+			own_control_core = {
+				6190 6192 6193 6201 6202
+				5884 5885 5887 5888 5889 5891 5899 5892
+				6186 6188 6191 6194 6197 6198 6200
+			}
+		}
+		#Aorsia
+		X54 = { 
+			government = tribal_chiefdom
+			primary_culture = sarmatian
+			religion = indo_iranian_religion
+			diplomatic_stance=warmongering_stance
+			is_antagonist = yes
+			
+			centralization = -75
+			
+			capital = 6225
+
+			own_control_core = {
+				8050 5908 5909 5877 5905 6221 5904 6218 6225 6228
+			}
+		}
+		
+		#Nagnatia
+		X55 = {
+			government = tanist_chiefdom
+			primary_culture = voluntian
+			religion = druidism
+			centralization=0
+
+			capital = 2199
+
+			own_control_core = 	{
+				2197 2199 2198 2201
+			}
+		}
+		#Auteinia
+		X56 = {
+			government = tanist_chiefdom
+			primary_culture = voluntian
+			religion = druidism
+			centralization=0
+
+			capital = 2169
+
+			own_control_core = 	{
+				2200 2169 2184
+			}
+		}
+		#Gangania
+		X57 = {
+			government = tanist_chiefdom
+			primary_culture = voluntian
+			religion = druidism
+			centralization=0
+
+			capital = 2183
+
+			own_control_core = 	{
+				2166 2183 2180 2181 2185
+			}
+		}
+		
+		#Monapia
+		X58 = {
+			government = tanist_chiefdom
+			primary_culture = monapian
+			religion = druidism
+			centralization=0
+
+			capital = 2108
+
+			own_control_core = 	{
+				2108
 			}
 		}
 	}

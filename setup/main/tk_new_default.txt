@@ -12,71 +12,6 @@ diplomacy = {
 country = {
 	countries = {
 		
-		AAB = {
-			government = tribal_kingdom
-			primary_culture = carnian
-			religion = druidism
-			centralization=10
-
-			capital = 4135 
-		
-			own_control_core = 	{
-				4031 4135 3672 3673 4131 4048 4047
-			}
-		}
-		
-		ABD = {
-			government = tribal_kingdom
-			primary_culture = letobician
-			religion = druidism
-			centralization=10
-
-			capital = 4136 
-		
-			own_control_core = 	{
-			 	4133 4140 4137 4136 4143 4134 4141 4139 4132
-			}
-		}
-		
-		VRC = {
-			government = tribal_kingdom
-			primary_culture = celtic_pannonian
-			religion = druidism
-			centralization=10
-
-			capital = 4174 
-		
-			own_control_core = 	{
-				4174 4173 4165 4179 4182 4180 4184 4172 4167 4166 
-			}
-		}
-		
-		VLC = {
-			government = tribal_kingdom
-			primary_culture = helvetian
-			religion = druidism
-			centralization=0
-
-			capital = 3803
-
-			own_control_core = 	{
-				3805 3801 3804 3800 3803 3806 3807 3809 3808
-			}
-		}
-		
-		VGN = {
-			government = tribal_kingdom
-			primary_culture = treverian
-			religion = druidism
-			centralization=0
-
-			capital = 3798
-
-			own_control_core = 	{
-				3798 3802 3737 3702 7732 3055 3056 3701 3700 3797
-			}
-		}
-		
 		SOP = {
 			government = despotic_monarchy
 			primary_culture = sophene
@@ -140,32 +75,6 @@ country = {
 			}
 			
 		
-		}
-		
-		BAT = {
-			government = tribal_kingdom
-			primary_culture = ingvaeonic
-			religion = germanic_religion
-			centralization=-30
-			
-			capital = 3847
-			
-			own_control_core = {
-				3847 3851 3850 3848
-			}
-		}
-		
-		TEN = {
-			government = tribal_kingdom
-			primary_culture = istvaeonic
-			religion = germanic_religion
-			centralization=-20
-			
-			capital = 3787
-			
-			own_control_core = {
-				3787 3785 3790 3788 3699 3789 3793
-			}
 		}
 		
 		BEK = {
@@ -286,32 +195,6 @@ country = {
 			}
 		}
 		
-		YNC = {
-			government = tribal_chiefdom
-			primary_culture = massagetaen
-			religion = indo_iranian_religion
-			centralization = -20
-			
-			capital = 5496
-			
-			own_control_core = {
-				5496 5493 5471
-			}
-		}
-		
-		THY = {
-			government = tribal_chiefdom
-			primary_culture = thyssagetaen
-			religion = indo_iranian_religion
-			centralization = -20
-			
-			capital = 5908 
-			
-			own_control_core = {
-				8050 5877 5908 5909
-			}
-		}
-		
 		SIC = {
 			government = tribal_kingdom
 			primary_culture = sicanian
@@ -367,19 +250,6 @@ country = {
 		
 			own_control_core = 	{ 
 				4450 4457 5584
-			}
-		}
-		
-		SCL = {
-			government = tribal_chiefdom
-			primary_culture = slavian
-			religion = matrist_religion
-			centralization=-50
-
-			capital = 6298 
-		
-			own_control_core = 	{
-				6298 6292
 			}
 		}
 		
