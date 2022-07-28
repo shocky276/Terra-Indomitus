@@ -1,0 +1,21 @@
+﻿#######################################
+#China
+#######################################
+
+#Qin
+QIN = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_black"
+	color2 = "ck2_black"
+
+	colored_emblem = {
+		texture = "ce_qin.dds"
+		color1 = "bone_white"
+	}
+
+	colored_emblem = {
+		texture = "ce_border_chinese_banner_1.dds"
+		color1 = "ck2_black"
+		color2 = "bone_white"
+	}
+}
