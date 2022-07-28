@@ -16105,7 +16105,7 @@ country = {
 			capital = 3966
 			
 			own_control_core = {
-				3950 3959 3961 3966 3967
+				3950 3959 3961 3966
 			}
 		}
 		#Teuria
