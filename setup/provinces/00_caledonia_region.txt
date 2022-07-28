@@ -56,7 +56,7 @@
 
 2108={ #Manavia
 	terrain="plains"
-	culture="manavian"
+	culture="monapian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=0
@@ -403,7 +403,7 @@
 
 2161={ #Ivernia
 	terrain="marsh"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=8
@@ -416,7 +416,7 @@
 
 2162={ #Usdia Occidentalis
 	terrain="forest"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=10
@@ -430,7 +430,7 @@
 
 2163={ #Velaboria Australis
 	terrain="forest"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=0
@@ -443,7 +443,7 @@
 
 2164={ #Brigantia Borealis
 	terrain="plains"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=0
@@ -456,7 +456,7 @@
 
 2165={ #Coriondia Borealis
 	terrain="forest"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=10
@@ -469,7 +469,7 @@
 
 2166={ #Gangania
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -482,7 +482,7 @@
 
 2167={ #Manapia Borealis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="woad"
 	civilization_value=0
@@ -495,7 +495,7 @@
 
 2168={ #Caucia
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=12
@@ -508,7 +508,7 @@
 
 2169={ #Autenia Australis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=0
@@ -519,9 +519,9 @@
 	}
 }
 
-2170={ #Eblania
+2170={ #Voluntia Australis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=12
@@ -534,7 +534,7 @@
 
 2171={ #Nagnatia Occidentalis
 	terrain="hills"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="salt"
 	civilization_value=0
@@ -547,7 +547,7 @@
 
 2172={ #Voluntia Orientalis
 	terrain="forest"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=8
@@ -560,7 +560,7 @@
 
 2173={ #Darinia Borealis
 	terrain="forest"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=10
@@ -573,7 +573,7 @@
 
 2174={ #Robogdia Occidentalis
 	terrain="marsh"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=8
@@ -586,7 +586,7 @@
 
 2175={ #Venicnia Australis
 	terrain="forest"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=0
@@ -599,7 +599,7 @@
 
 2176={ #Ivernia Borealis
 	terrain="marsh"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="precious_metals"
 	civilization_value=0
@@ -612,7 +612,7 @@
 
 2177={ #Ivernia Australis
 	terrain="marsh"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=8
@@ -625,7 +625,7 @@
 
 2178={ #Usdia Orientalis
 	terrain="plains"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="salt"
 	civilization_value=12
@@ -638,7 +638,7 @@
 
 2179={ #Velaboria Occidentalis
 	terrain="marsh"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=0
@@ -651,7 +651,7 @@
 
 2180={ #Velaboria Borealis
 	terrain="marsh"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=0
@@ -664,7 +664,7 @@
 
 2181={ #Velaboria Orientalis
 	terrain="plains"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -677,7 +677,7 @@
 
 2182={ #Velaboria
 	terrain="plains"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=0
@@ -690,7 +690,7 @@
 
 2183={ #Gangania Australis
 	terrain="marsh"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=0
@@ -703,7 +703,7 @@
 
 2184={ #Gangania Borealis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -716,7 +716,7 @@
 
 2185={ #Gangania Orientalis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -729,7 +729,7 @@
 
 2186={ #Brigantia Australis
 	terrain="forest"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=10
@@ -743,7 +743,7 @@
 
 2187={ #Brigantia
 	terrain="plains"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="precious_metals"
 	civilization_value=12
@@ -756,7 +756,7 @@
 
 2188={ #Coriondia Australis
 	terrain="marsh"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=8
@@ -769,7 +769,7 @@
 
 2189={ #Coriondia
 	terrain="hills"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=10
@@ -782,7 +782,7 @@
 
 2190={ #Eblana
 	terrain="forest"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=10
@@ -796,7 +796,7 @@
 
 2191={ #Manapia Occidentalis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=0
@@ -809,7 +809,7 @@
 
 2192={ #Manapia Australis
 	terrain="plains"
-	culture="hibernian"
+	culture="ivernian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=0
@@ -822,7 +822,7 @@
 
 2193={ #Caucia Orientalis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=12
@@ -835,7 +835,7 @@
 
 2194={ #Caucia Occidentalis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=0
@@ -848,7 +848,7 @@
 
 2195={ #Isamnion
 	terrain="forest"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=10
@@ -861,7 +861,7 @@
 
 2196={ #Eblania Occidentalis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=0
@@ -874,7 +874,7 @@
 
 2197={ #Autenia Borealis
 	terrain="marsh"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=0
@@ -887,7 +887,7 @@
 
 2198={ #Autenia Orientalis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=0
@@ -900,7 +900,7 @@
 
 2199={ #Autenia
 	terrain="marsh"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=0
@@ -913,7 +913,7 @@
 
 2200={ #Autenia Occidentalis
 	terrain="marsh"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="salt"
 	civilization_value=0
@@ -926,7 +926,7 @@
 
 2201={ #Nagnatia Australis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=0
@@ -939,7 +939,7 @@
 
 2202={ #Nagnatia Orientalis
 	terrain="hills"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=0
@@ -952,7 +952,7 @@
 
 2203={ #Venicnia Orientalis
 	terrain="forest"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=10
@@ -965,7 +965,7 @@
 
 2204={ #Venicnia Borealis
 	terrain="forest"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=10
@@ -978,7 +978,7 @@
 
 2205={ #Voluntia Occidentalis
 	terrain="plains"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=10
@@ -991,7 +991,7 @@
 
 2206={ #Voluntia Borealis
 	terrain="marsh"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=0
@@ -1004,7 +1004,7 @@
 
 2207={ #Robogdia Orientalis
 	terrain="marsh"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=8
@@ -1017,7 +1017,7 @@
 
 2208={ #Darinia Australis
 	terrain="forest"
-	culture="hibernian"
+	culture="voluntian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=10

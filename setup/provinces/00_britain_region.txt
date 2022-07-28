@@ -62,7 +62,7 @@
 	trade_goods="base_metals"
 	civilization_value=16
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=2
 	}
@@ -249,7 +249,7 @@
 	trade_goods="wood"
 	civilization_value=14
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=1
 	}
@@ -408,7 +408,7 @@
 	trade_goods="hemp"
 	civilization_value=16
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=2
 	}
@@ -540,7 +540,7 @@
 	trade_goods="earthware"
 	civilization_value=14
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=1
 	}
@@ -617,7 +617,7 @@
 	trade_goods="earthware"
 	civilization_value=21
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=1
 	}
@@ -1315,7 +1315,7 @@
 
 2075={ #Eboracum
 	terrain="marsh"
-	culture="brigantic"
+	culture="parisian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=6
@@ -1332,7 +1332,7 @@
 
 2076={ #Derventio
 	terrain="marsh"
-	culture="brigantic"
+	culture="parisian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=6
@@ -1384,7 +1384,7 @@
 
 2079={ #Dictium
 	terrain="plains"
-	culture="brigantic"
+	culture="parisian"
 	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=10

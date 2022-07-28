@@ -1,6 +1,23 @@
-﻿3856={ #Charudia
+﻿3855={ #Mariones
 	terrain="marsh"
-	culture="saxonian"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+3856={ #Charudia
+	terrain="marsh"
+	culture="ingvaeonic"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=1
@@ -16,7 +33,7 @@
 
 3857={ #Charudiana
 	terrain="plains"
-	culture="anglian"
+	culture="ingvaeonic"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=5
@@ -29,7 +46,7 @@
 
 3859={ #Sardonia
 	terrain="plains"
-	culture="anglian"
+	culture="irminonic"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=5
@@ -42,7 +59,7 @@
 
 3860={ #Anglia Meridionalis
 	terrain="plains"
-	culture="anglian"
+	culture="irminonic"
 	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=5
@@ -55,7 +72,7 @@
 
 3861={ #Anglia Centralis
 	terrain="plains"
-	culture="anglian"
+	culture="ingvaeonic"
 	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=5
@@ -71,7 +88,7 @@
 
 3862={ #Anglia Borealis
 	terrain="plains"
-	culture="anglian"
+	culture="ingvaeonic"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=5
@@ -84,7 +101,7 @@
 
 3863={ #Avionia Minor
 	terrain="marsh"
-	culture="saxonian"
+	culture="ingvaeonic"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=1
@@ -100,7 +117,7 @@
 
 3864={ #Avionia Maior
 	terrain="marsh"
-	culture="saxonian"
+	culture="ingvaeonic"
 	religion="germanic_religion"
 	trade_goods="amber"
 	civilization_value=1
@@ -117,7 +134,7 @@
 
 3865={ #Cimbrica Minor
 	terrain="forest"
-	culture="cimbrian"
+	culture="ingvaeonic"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=3
@@ -133,7 +150,7 @@
 
 3866={ #Sigulonia Australis
 	terrain="forest"
-	culture="teutonian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="amber"
 	civilization_value=3
@@ -149,7 +166,7 @@
 
 3867={ #Sigulonia Borealis
 	terrain="forest"
-	culture="teutonian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=3
@@ -163,7 +180,7 @@
 
 3868={ #Cobandia Minor
 	terrain="forest"
-	culture="cimbrian"
+	culture="ingvaeonic"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=3
@@ -254,7 +271,7 @@
 
 3874={ #Teutonia Minor
 	terrain="forest"
-	culture="teutonian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="amber"
 	civilization_value=3
@@ -270,7 +287,7 @@
 
 3875={ #Teutonia Maior
 	terrain="forest"
-	culture="teutonian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=3
@@ -290,7 +307,7 @@
 
 3876={ #Teutonia Centralis
 	terrain="forest"
-	culture="teutonian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="stone"
 	civilization_value=3
@@ -322,7 +339,7 @@
 
 3878={ #Cimbria Centralis
 	terrain="forest"
-	culture="teutonian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=3
@@ -335,7 +352,7 @@
 
 3879={ #Cimbria Borealis
 	terrain="forest"
-	culture="teutonian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="amber"
 	civilization_value=3
@@ -355,7 +372,7 @@
 
 3880={ #Cimbria Maior
 	terrain="forest"
-	culture="teutonian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=3
@@ -371,7 +388,7 @@
 
 3881={ #Insula Anglorum
 	terrain="plains"
-	culture="herulian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="amber"
 	civilization_value=5
@@ -391,7 +408,7 @@
 
 3882={ #Reudingia Maior
 	terrain="plains"
-	culture="herulian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=5
@@ -404,7 +421,7 @@
 
 3883={ #Reudingia Minor
 	terrain="plains"
-	culture="herulian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=5
@@ -423,7 +440,7 @@
 
 3884={ #Herulia Australis
 	terrain="plains"
-	culture="herulian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="amber"
 	civilization_value=5
@@ -442,7 +459,7 @@
 
 3885={ #Herulia Centralis
 	terrain="plains"
-	culture="herulian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=5
@@ -461,7 +478,7 @@
 
 3886={ #Herulia Borealis
 	terrain="plains"
-	culture="herulian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=5
@@ -478,7 +495,7 @@
 
 3887={ #Herulia Orientalis
 	terrain="plains"
-	culture="herulian"
+	culture="cimbrian"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=5
@@ -493,9 +510,44 @@
 	port_building=1
 }
 
+3888={ #Leuphana
+	terrain="plains"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3889={ #Treva
+	terrain="plains"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
 6000={ #Uppakra
 	terrain="plains"
-	culture="herulian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=5
@@ -514,7 +566,7 @@
 
 6001={ #Svimraros
 	terrain="plains"
-	culture="herulian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=5
@@ -527,7 +579,7 @@
 
 6002={ #Guthisbo
 	terrain="forest"
-	culture="herulian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=3
@@ -543,7 +595,7 @@
 
 6003={ #Bergio
 	terrain="forest"
-	culture="herulian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="hemp"
 	civilization_value=3
@@ -559,7 +611,7 @@
 
 6004={ #Burgundarholm
 	terrain="plains"
-	culture="herulian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=5
@@ -575,7 +627,7 @@
 
 6005={ #Vang
 	terrain="plains"
-	culture="herulian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=5
@@ -589,7 +641,7 @@
 
 6006={ #Borgamo
 	terrain="plains"
-	culture="gutones"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=5
@@ -605,7 +657,7 @@
 
 6007={ #Meore
 	terrain="forest"
-	culture="gutones"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=3
@@ -617,8 +669,8 @@
 }
 
 6008={ #Theustia
-	terrain="taiga"
-	culture="gutones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=3
@@ -631,7 +683,7 @@
 
 6009={ #Eowia
 	terrain="forest"
-	culture="gutones"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=3
@@ -644,8 +696,8 @@
 }
 
 6010={ #Vineta
-	terrain="taiga"
-	culture="gutones"
+	terrain="plains"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=0
@@ -658,7 +710,7 @@
 
 6011={ #Feruiria
 	terrain="forest"
-	culture="raumarician"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=3
@@ -671,7 +723,7 @@
 
 6012={ #Konghelle
 	terrain="forest"
-	culture="raumarician"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=3
@@ -683,8 +735,8 @@
 }
 
 6013={ #Gautigothia
-	terrain="taiga"
-	culture="raumarician"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=3
@@ -697,7 +749,7 @@
 
 6014={ #Finnaithae
 	terrain="forest"
-	culture="herulian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=3
@@ -710,7 +762,7 @@
 
 6015={ #Warinia
 	terrain="forest"
-	culture="gutones"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=3
@@ -722,8 +774,8 @@
 }
 
 6016={ #Thwetum
-	terrain="taiga"
-	culture="gutones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=3
@@ -738,8 +790,8 @@
 }
 
 6017={ #Vitala
-	terrain="taiga"
-	culture="gutones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=3
@@ -751,8 +803,8 @@
 }
 
 6018={ #Vist
-	terrain="taiga"
-	culture="gutones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=3
@@ -764,8 +816,8 @@
 }
 
 6019={ #Vikbo
-	terrain="taiga"
-	culture="suiones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=3
@@ -777,8 +829,8 @@
 }
 
 6020={ #Kinda
-	terrain="taiga"
-	culture="gutones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=3
@@ -790,8 +842,8 @@
 }
 
 6021={ #Aska
-	terrain="taiga"
-	culture="suiones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=3
@@ -803,8 +855,8 @@
 }
 
 6022={ #Hio
-	terrain="taiga"
-	culture="raumarician"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=3
@@ -816,8 +868,8 @@
 }
 
 6023={ #Gothalia
-	terrain="taiga"
-	culture="raumarician"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=3
@@ -832,8 +884,8 @@
 }
 
 6024={ #Rane
-	terrain="taiga"
-	culture="raumarician"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="horses"
 	civilization_value=0
@@ -846,7 +898,7 @@
 
 6025={ #Ragnaricia
 	terrain="forest"
-	culture="raumarician"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=3
@@ -858,8 +910,8 @@
 }
 
 6026={ #Miriquidui
-	terrain="taiga"
-	culture="suiones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=3
@@ -871,8 +923,8 @@
 }
 
 6027={ #Tivedia
-	terrain="taiga"
-	culture="suiones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=0
@@ -884,8 +936,8 @@
 }
 
 6028={ #Arbugae
-	terrain="taiga"
-	culture="suiones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=3
@@ -897,8 +949,8 @@
 }
 
 6029={ #Rekarne
-	terrain="taiga"
-	culture="suiones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=3
@@ -910,8 +962,8 @@
 }
 
 6030={ #Birka
-	terrain="taiga"
-	culture="suiones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=3
@@ -924,8 +976,8 @@
 }
 
 6031={ #Arosia
-	terrain="taiga"
-	culture="suiones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=3
@@ -937,8 +989,8 @@
 }
 
 6032={ #Broborg
-	terrain="taiga"
-	culture="suiones"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=3
@@ -951,8 +1003,8 @@
 }
 
 6033={ #Vrine
-	terrain="taiga"
-	culture="raumarician"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=3
@@ -965,7 +1017,7 @@
 
 6034={ #Tanum
 	terrain="forest"
-	culture="raumarician"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=3
@@ -978,7 +1030,7 @@
 
 6035={ #Vinovilothia
 	terrain="forest"
-	culture="rugian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=3
@@ -990,8 +1042,8 @@
 }
 
 6036={ #Rania
-	terrain="taiga"
-	culture="raumarician"
+	terrain="forest"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="hemp"
 	civilization_value=3
@@ -1004,7 +1056,7 @@
 
 6037={ #Raumariki
 	terrain="forest"
-	culture="rugian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=3
@@ -1020,7 +1072,7 @@
 
 6038={ #Lingum
 	terrain="forest"
-	culture="rugian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="hemp"
 	civilization_value=3
@@ -1034,7 +1086,7 @@
 
 6039={ #Grannia
 	terrain="forest"
-	culture="rugian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=3
@@ -1047,7 +1099,7 @@
 
 6040={ #Augandzia
 	terrain="forest"
-	culture="rugian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=3
@@ -1060,7 +1112,7 @@
 
 6041={ #Aetelrugia
 	terrain="forest"
-	culture="rugian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=3
@@ -1073,7 +1125,7 @@
 
 6042={ #Eunixia
 	terrain="forest"
-	culture="rugian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=3
@@ -1086,7 +1138,7 @@
 
 6043={ #Arothia
 	terrain="forest"
-	culture="rugian"
+	culture="scandian"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=3
