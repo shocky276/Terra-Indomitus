@@ -55,8 +55,8 @@
 	}
 
 	culture = {
-		caledonian = {}
-		taexalian = {}
+		#caledonian = {}
+		#taexalian = {}
 	}
 	
 	barbarian_names = { ANCALITES ATTACOTTI BIBROCI HORESTI CASSI GABRANTOVICES GANGANI NOVANTAE LOPOCARES SEGONTIACI SELGOVAE }

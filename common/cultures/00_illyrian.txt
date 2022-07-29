@@ -82,6 +82,11 @@
 		messapian = {}
         paeonian = {}
         liburnian = {}
+		#added cultures
+		pannonian = {}
+		iapodian = {}
+		liburnian_culture = {}
+		histrian = {}
 	}
 
 	barbarian_names = {
