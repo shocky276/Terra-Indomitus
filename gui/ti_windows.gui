@@ -24,6 +24,7 @@ base_window = {
 
     }
     button_close = {
+        onclick = "[GetScriptedGui('close_chinese_empire_window').Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
         onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets chinese_empire')]"
         tooltip = "CLOSE"
         parentanchor = top|right
@@ -55,23 +56,19 @@ base_window = {
     icon_and_text = {
         size = { 110 0 }
         position = { 265 95 }
-        datacontext = "[Player]"
-        visible = "[EqualTo_int32( Player.GetId, DiplomaticView.GetTargetCountry.GetId )]"
         blockoverride "Icon"
         {
             texture = "gfx/interface/china/emperor_of_china_icon.dds"
         }
         blockoverride "Text"
         {
-            text = "[Player.GetManpower]" #this will be mandate value
+            text = "[Player.MakeScope.Var('mandate_variable').GetValue]" #this will be mandate value
         }
-        tooltip = "Current Mandate: #BOLD;COLOR:{0.0,1.0,0.6} Todo#!"
+        tooltip = "Current Mandate: #G [Player.MakeScope.Var('mandate_variable').GetValue]#!"
     }
     icon_and_text = {
         size = { 110 0 }
         position = { 265 155 }
-        datacontext = "[Player]"
-        visible = "[EqualTo_int32( Player.GetId, DiplomaticView.GetTargetCountry.GetId )]"
         blockoverride "Icon"
         {
             texture = "gfx/interface/china/mandate_of_heaven_icon.dds"
@@ -79,9 +76,9 @@ base_window = {
         }
         blockoverride "Text"
         {
-            text = "0" #this will be mandate growth value
+            text = "[GuiScope.SetRoot( Player.MakeScope ).ScriptValue('mandate_yearly_change')|=]" #this will be mandate growth value
         }
-        tooltip = "Monthly Mandate Growth: #BOLD;COLOR:{0.0,1.0,0.6} Todo#!"
+        tooltip = "YEARLY_MANDATE_TT"
     }
     margin_widget = {
         size = { 240 110 }
@@ -107,45 +104,51 @@ base_window = {
                     spacing = 5
                     list_button = {
                         size = { 230 32 }
-                        tooltip = "Hi"
-                        #onclick = "[CultureDecisionItem.Enact]"
-                        #enabled = "[CultureDecisionItem.IsAllowed]"
-                        text = "#COLOR:{0.0,0.0,0.0} Introduce Gaituguiliu#!"
+                        tooltip = "CELESTIAL_REFORM_1_TT"
+                        datacontext = "[GetScriptedGui('pass_celestial_reform_one_button')]"
+                        enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        text = "celestial_reform_1_gui"
                     }
                     list_button = {
                         size = { 230 32 }
-                        # tooltip = "[CultureDecisionItem.GetEffect]"
-                        #onclick = "[CultureDecisionItem.Enact]"
-                        #enabled = "[CultureDecisionItem.IsAllowed]"
-                        text = "#COLOR:{0.0,0.0,0.0} Reform Seaban#!"
+                        tooltip = "CELESTIAL_REFORM_2_TT"
+                        datacontext = "[GetScriptedGui('pass_celestial_reform_two_button')]"
+                        enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        text = "celestial_reform_2_gui"
                     }
                     list_button = {
                         size = { 230 32 }
-                        # tooltip = "[CultureDecisionItem.GetEffect]"
-                        #onclick = "[CultureDecisionItem.Enact]"
-                        #enabled = "[CultureDecisionItem.IsAllowed]"
-                        text = "#COLOR:{0.0,0.0,0.0} Delegate Zongdu#!"
+                        tooltip = "CELESTIAL_REFORM_3_TT"
+                        datacontext = "[GetScriptedGui('pass_celestial_reform_three_button')]"
+                        enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        text = "celestial_reform_3_gui"
                     }
                     list_button = {
                         size = { 230 32 }
-                        # tooltip = "[CultureDecisionItem.GetEffect]"
-                        #onclick = "[CultureDecisionItem.Enact]"
-                        #enabled = "[CultureDecisionItem.IsAllowed]"
-                        text = "#COLOR:{0.0,0.0,0.0} Establish Lifan Yuan#!"
+                        tooltip = "CELESTIAL_REFORM_4_TT"
+                        datacontext = "[GetScriptedGui('pass_celestial_reform_four_button')]"
+                        enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        text = "celestial_reform_4_gui"
                     }
                     list_button = {
                         size = { 230 32 }
-                        # tooltip = "[CultureDecisionItem.GetEffect]"
-                        #onclick = "[CultureDecisionItem.Enact]"
-                        #enabled = "[CultureDecisionItem.IsAllowed]"
-                        text = "#COLOR:{0.0,0.0,0.0} Reshape Bureaucratic Ranks#!"
+                        tooltip = "CELESTIAL_REFORM_5_TT"
+                        datacontext = "[GetScriptedGui('pass_celestial_reform_five_button')]"
+                        enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        text = "celestial_reform_5_gui"
                     }
                     list_button = {
                         size = { 230 32 }
-                        # tooltip = "[CultureDecisionItem.GetEffect]"
-                        #onclick = "[CultureDecisionItem.Enact]"
-                        #enabled = "[CultureDecisionItem.IsAllowed]"
-                        text = "#COLOR:{0.0,0.0,0.0} Introduce Gaituguiliu#!"
+                        tooltip = "CELESTIAL_REFORM_6_TT"
+                        datacontext = "[GetScriptedGui('pass_celestial_reform_six_button')]"
+                        enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
+                        text = "celestial_reform_6_gui"
                     }
                 }
             }
@@ -201,15 +204,13 @@ base_window = {
                 parentanchor = top|center
                 position = { 0 7 }
                 datacontext = "[Player]"
-                visible = "[EqualTo_int32( Player.GetId, DiplomaticView.GetTargetCountry.GetId )]"
                 blockoverride "Icon"
                 {
-                    texture = "gfx/interface/china/meritocracy.dds"
-                    size = { 32 32 }
+                    using = icon_legitimacy
                 }
                 blockoverride "Text"
                 {
-                    text = "0" #this will be mandate growth value
+                    text = "[Player.GetLegitimacy]"
                 }
                 tooltip = "Current Meritocracy: #BOLD;COLOR:{0.0,1.0,0.6} Todo#!"
             }

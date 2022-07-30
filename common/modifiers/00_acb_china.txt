@@ -1,4 +1,608 @@
-﻿china_unified = {
+﻿celestial_reform_1 = {
+	global_pop_conversion_speed_modifier = 0.05
+}
+
+celestial_reform_2 = {
+	oratory_tech_investment = 0.1
+}
+
+celestial_reform_3 = {
+	global_pop_assimilation_speed_modifier = 0.05
+}
+
+celestial_reform_4 = {
+	global_export_commerce_modifier = 0.1
+}
+
+celestial_reform_5 = {
+	fabricate_claim_speed = 5
+	fabricate_claim_cost_modifier = -0.2
+}
+
+celestial_reform_6 = {
+	country_civilization_value = 2
+}
+
+mandate_mod_0_to_25 = {
+	global_unrest = 1
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.12
+	global_manpower_modifier = -0.12
+}
+
+mandate_mod_25_to_50 = {
+	global_unrest = 0.75
+	stability_monthly_change = -0.01
+	land_morale_modifier = -0.09
+	global_manpower_modifier = -0.09
+}
+
+mandate_mod_50_to_75 = {
+	global_unrest = -0.25
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.05
+}
+
+mandate_mod_75_to_100 = {
+	global_unrest = -0.35
+	stability_monthly_change = 0.03
+	global_manpower_modifier = 0.1
+}
+
+mandate_mod_100 = {
+
+}
+
+mandate_mod_0 = {
+	global_unrest = 1
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.12
+	global_manpower_modifier = -0.12
+}
+mandate_mod_1 = {
+	global_unrest = 0.99
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.12
+	global_manpower_modifier = -0.12
+}
+mandate_mod_2 = {
+	global_unrest = 0.98
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.12
+	global_manpower_modifier = -0.12
+}
+mandate_mod_3 = {
+	global_unrest = 0.97
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.12
+	global_manpower_modifier = -0.12
+}
+mandate_mod_4 = {
+	global_unrest = 0.96
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.12
+	global_manpower_modifier = -0.12
+}
+mandate_mod_5 = {
+	global_unrest = 0.95
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.12
+	global_manpower_modifier = -0.12
+}
+mandate_mod_6 = {
+	global_unrest = 0.94
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.12
+	global_manpower_modifier = -0.12
+}
+mandate_mod_7 = {
+	global_unrest = 0.93
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.12
+	global_manpower_modifier = -0.12
+}
+mandate_mod_8 = {
+	global_unrest = 0.92
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.11
+	global_manpower_modifier = -0.11
+}
+mandate_mod_9 = {
+	global_unrest = 0.91
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.11
+	global_manpower_modifier = -0.11
+}
+mandate_mod_10 = {
+	global_unrest = 0.90
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.11
+	global_manpower_modifier = -0.11
+}
+mandate_mod_11 = {
+	global_unrest = 0.89
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.11
+	global_manpower_modifier = -0.11
+}
+mandate_mod_12 = {
+	global_unrest = 0.88
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.11
+	global_manpower_modifier = -0.11
+}
+mandate_mod_13 = {
+	global_unrest = 0.87
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.11
+	global_manpower_modifier = -0.11
+}
+mandate_mod_14 = {
+	global_unrest = 0.86
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.11
+	global_manpower_modifier = -0.11
+}
+mandate_mod_15 = {
+	global_unrest = 0.85
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.11
+	global_manpower_modifier = -0.11
+}
+mandate_mod_16 = {
+	global_unrest = 0.84
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.10
+	global_manpower_modifier = -0.10
+}
+mandate_mod_17 = {
+	global_unrest = 0.83
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.10
+	global_manpower_modifier = -0.10
+}
+mandate_mod_18 = {
+	global_unrest = 0.82
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.10
+	global_manpower_modifier = -0.10
+}
+mandate_mod_19 = {
+	global_unrest = 0.81
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.10
+	global_manpower_modifier = -0.10
+}
+mandate_mod_20 = {
+	global_unrest = 0.80
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.10
+	global_manpower_modifier = -0.10
+}
+mandate_mod_21 = {
+	global_unrest = 0.79
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.10
+	global_manpower_modifier = -0.10
+}
+mandate_mod_22 = {
+	global_unrest = 0.78
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.10
+	global_manpower_modifier = -0.10
+}
+mandate_mod_23 = {
+	global_unrest = 0.77
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.10
+	global_manpower_modifier = -0.10
+}
+mandate_mod_24 = {
+	global_unrest = 0.76
+	stability_monthly_change = -0.03
+	land_morale_modifier = -0.10
+	global_manpower_modifier = -0.10
+}
+mandate_mod_25 = {
+	global_unrest = 0.75
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.09
+	global_manpower_modifier = -0.09
+}
+mandate_mod_26 = {
+	global_unrest = 0.74
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.09
+	global_manpower_modifier = -0.09
+}
+mandate_mod_27 = {
+	global_unrest = 0.73
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.09
+	global_manpower_modifier = -0.09
+}
+mandate_mod_28 = {
+	global_unrest = 0.72
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.09
+	global_manpower_modifier = -0.09
+}
+mandate_mod_29 = {
+	global_unrest = 0.71
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.09
+	global_manpower_modifier = -0.09
+}
+mandate_mod_30 = {
+	global_unrest = 0.70
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.09
+	global_manpower_modifier = -0.09
+}
+mandate_mod_31 = {
+	global_unrest = 0.65
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.07
+	global_manpower_modifier = -0.07
+}
+mandate_mod_32 = {
+	global_unrest = 0.65
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.07
+	global_manpower_modifier = -0.07
+}
+mandate_mod_33 = {
+	global_unrest = 0.6
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.07
+	global_manpower_modifier = -0.07
+}
+mandate_mod_34 = {
+	global_unrest = 0.6
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.07
+	global_manpower_modifier = -0.07
+}
+mandate_mod_35 = {
+	global_unrest = 0.55
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.06
+	global_manpower_modifier = -0.06
+}
+mandate_mod_36 = {
+	global_unrest = 0.55
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.06
+	global_manpower_modifier = -0.06
+}
+mandate_mod_37 = {
+	global_unrest = 0.5
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.06
+	global_manpower_modifier = -0.06
+}
+mandate_mod_38 = {
+	global_unrest = 0.5
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.06
+	global_manpower_modifier = -0.06
+}
+mandate_mod_39 = {
+	global_unrest = 0.5
+	stability_monthly_change = -0.02
+	land_morale_modifier = -0.06
+	global_manpower_modifier = -0.06
+}
+mandate_mod_40 = {
+	global_unrest = 0.25
+	stability_monthly_change = -0.01
+	land_morale_modifier = -0.05
+	global_manpower_modifier = -0.05
+}
+mandate_mod_41 = {
+	global_unrest = 0.25
+	stability_monthly_change = -0.01
+	land_morale_modifier = -0.05
+	global_manpower_modifier = -0.05
+}
+mandate_mod_42 = {
+	global_unrest = 0.2
+	stability_monthly_change = -0.01
+	land_morale_modifier = -0.04
+	global_manpower_modifier = -0.04
+}
+mandate_mod_43 = {
+	global_unrest = 0.2
+	stability_monthly_change = -0.01
+	land_morale_modifier = -0.04
+	global_manpower_modifier = -0.04
+}
+mandate_mod_44 = {
+	global_unrest = 0.1
+	stability_monthly_change = -0.01
+	land_morale_modifier = -0.04
+	global_manpower_modifier = -0.04
+}
+mandate_mod_45 = {
+	global_unrest = 0.1
+	stability_monthly_change = -0.01
+	land_morale_modifier = -0.04
+	global_manpower_modifier = -0.04
+}
+mandate_mod_46 = {
+	stability_monthly_change = -0.01
+	land_morale_modifier = -0.03
+	global_manpower_modifier = -0.03
+}
+mandate_mod_47 = {
+	stability_monthly_change = -0.01
+	land_morale_modifier = -0.03
+	global_manpower_modifier = -0.03
+}
+mandate_mod_48 = {
+	stability_monthly_change = -0.01
+	land_morale_modifier = -0.03
+	global_manpower_modifier = -0.03
+}
+mandate_mod_49 = {
+	land_morale_modifier = -0.02
+	global_manpower_modifier = -0.02
+}
+mandate_mod_50 = {
+
+}
+mandate_mod_51 = {
+	global_unrest = -0.01
+	#stability_monthly_change = 0.02
+	#global_manpower_modifier = 0.05
+}
+mandate_mod_52 = {
+	global_unrest = -0.02
+	#stability_monthly_change = 0.02
+	#global_manpower_modifier = 0.05
+}
+mandate_mod_53 = {
+	global_unrest = -0.02
+	#stability_monthly_change = 0.02
+	#global_manpower_modifier = 0.05
+}
+mandate_mod_54 = {
+	global_unrest = -0.03
+	#stability_monthly_change = 0.02
+	#global_manpower_modifier = 0.05
+}
+mandate_mod_55 = {
+	global_unrest = -0.03
+	#stability_monthly_change = 0.02
+	#global_manpower_modifier = 0.05
+}
+mandate_mod_56 = {
+	global_unrest = -0.04
+	#stability_monthly_change = 0.01
+	#global_manpower_modifier = 0.05
+}
+mandate_mod_57 = {
+	global_unrest = -0.05
+	#stability_monthly_change = 0.01
+	#global_manpower_modifier = 0.05
+}
+mandate_mod_58 = {
+	global_unrest = -0.05
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.01
+}
+mandate_mod_59 = {
+	global_unrest = -0.05
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.01
+}
+mandate_mod_60 = {
+	global_unrest = -0.05
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.01
+}
+mandate_mod_61 = {
+	global_unrest = -0.05
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.01
+}
+mandate_mod_62 = {
+	global_unrest = -0.05
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.01
+}
+mandate_mod_63 = {
+	global_unrest = -0.07
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.02
+}
+mandate_mod_64 = {
+	global_unrest = -0.07
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.02
+}
+mandate_mod_65 = {
+	global_unrest = -0.07
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.02
+}
+mandate_mod_66 = {
+	global_unrest = -0.09
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.02
+}
+mandate_mod_67 = {
+	global_unrest = -0.09
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.02
+}
+mandate_mod_68 = {
+	global_unrest = -0.1
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.02
+}
+mandate_mod_69 = {
+	global_unrest = -0.1
+	#stability_monthly_change = 0.02
+	global_manpower_modifier = 0.02
+}
+mandate_mod_70 = {
+	global_unrest = -0.1
+	stability_monthly_change = 0.01
+	global_manpower_modifier = 0.02
+}
+mandate_mod_71 = {
+	global_unrest = -0.1
+	stability_monthly_change = 0.01
+	global_manpower_modifier = 0.02
+}
+mandate_mod_72 = {
+	global_unrest = -0.1
+	stability_monthly_change = 0.01
+	global_manpower_modifier = 0.02
+}
+mandate_mod_73 = {
+	global_unrest = -0.1
+	stability_monthly_change = 0.01
+	global_manpower_modifier = 0.02
+}
+mandate_mod_74 = {
+	global_unrest = -0.11
+	stability_monthly_change = 0.01
+	global_manpower_modifier = 0.02
+}
+mandate_mod_75 = {
+	global_unrest = -0.12
+	stability_monthly_change = 0.01
+	global_manpower_modifier = 0.03
+}
+mandate_mod_76 = {
+	global_unrest = -0.12
+	stability_monthly_change = 0.01
+	global_manpower_modifier = 0.03
+}
+mandate_mod_77 = {
+	global_unrest = -0.13
+	stability_monthly_change = 0.01
+	global_manpower_modifier = 0.03
+}
+mandate_mod_78 = {
+	global_unrest = -0.14
+	stability_monthly_change = 0.01
+	global_manpower_modifier = 0.03
+}
+mandate_mod_79 = {
+	global_unrest = -0.15
+	stability_monthly_change = 0.01
+	global_manpower_modifier = 0.03
+}
+mandate_mod_80 = {
+	global_unrest = -0.15
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.05
+}
+mandate_mod_81 = {
+	global_unrest = -0.17
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.05
+}
+mandate_mod_82 = {
+	global_unrest = -0.17
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.05
+}
+mandate_mod_83 = {
+	global_unrest = -0.19
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.06
+}
+mandate_mod_84 = {
+	global_unrest = -0.19
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.06
+}
+mandate_mod_85 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.07
+}
+mandate_mod_86 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.07
+}
+mandate_mod_87 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.07
+}
+mandate_mod_88 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.07
+}
+mandate_mod_89 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.08
+}
+mandate_mod_90 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.08
+}
+mandate_mod_91 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.08
+}
+mandate_mod_92 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.08
+}
+mandate_mod_93 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.08
+}
+mandate_mod_94 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.08
+}
+mandate_mod_95 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.08
+}
+mandate_mod_96 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.09
+}
+mandate_mod_97 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.09
+}
+mandate_mod_98 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.09
+}
+mandate_mod_99 = {
+	global_unrest = -0.2
+	stability_monthly_change = 0.02
+	global_manpower_modifier = 0.09
+}
+mandate_mod_100 = {
+	global_unrest = -0.25
+	stability_monthly_change = 0.03
+	global_manpower_modifier = 0.1
+}
+
+china_unified = {
 	happiness_for_same_culture_modifier = 0.15
 	global_freemen_output = output_huge_svalue
 }

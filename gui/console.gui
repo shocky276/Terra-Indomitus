@@ -189,6 +189,8 @@ window = {
 							text = "Chinese Empire Window"
 							size = { 0 0 }
 							blockoverride "icon" {}
+							enabled = "[GetScriptedGui('open_chinese_empire_window').IsValid( GuiScope.SetRoot( Player.MakeScope ).End )]"
+							onclick = "[GetScriptedGui('open_chinese_empire_window').Execute( GuiScope.SetRoot( Player.MakeScope ).End )]"
 							onclick = "[ExecuteConsoleCommand('gui.createwidget gui/ti_windows.gui chinese_empire')]"
 							tooltip = "Open the Chinese Empire window"
 						}

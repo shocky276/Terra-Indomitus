@@ -44,5 +44,17 @@ yearly_country_pulse = {
 		trigger_event = { id = harvest.1 days = 333 }
 		trigger_event = { id = harvest.2 days = 148 }
 		trigger_event = { id = monsoon.1 days = 148 }
+
+		#TI mandate
+		if = {
+			limit = {
+				has_variable = mandate_variable
+			}
+			change_variable = {
+				name = mandate_variable
+				add = mandate_yearly_real_change
+			}
+			mandate_yearly_effects = yes
+		}
 	}
 }

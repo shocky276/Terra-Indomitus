@@ -13,7 +13,7 @@ base_window = {
 
 		on_start = "[PdxGuiTriggerAllAnimations('instantiate_then_hide_subwindow')]"
 	}
-
+	movable = no
 	using = main_window_template
 
 	### Audio ###
