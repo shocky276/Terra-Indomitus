@@ -29,12 +29,14 @@ ZHO = {
 	colored_emblem = {
 		texture = "ce_zhou.dds"
 		color1 = "light_gold"
+		instance = { scale = { 1.05 1.05 } }
 	}
 
 	colored_emblem = {
 		texture = "ce_border_chinese_banner_1.dds"
-		color1 = rgb { 198 172 123 }
+		color1 = "samnite_beige"
 		color2 = "light_gold"
+		instance = { scale = { 1.05 1.05 } }
 	}
 }
 
