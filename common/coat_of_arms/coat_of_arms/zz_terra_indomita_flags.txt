@@ -38,3 +38,27 @@ ZHO = {
 	}
 }
 
+#Chu
+CHU = {
+	pattern = "pattern_solid.tga"
+	color1 = "phrygia_red"
+	color2 = "phrygia_red"	#Chu affiliated themselves with Red and the god of fire Zhurong in Chinese mythology
+
+	colored_emblem = {
+		texture = "ce_chu.dds"
+		color1 = "roman_gold"
+	}
+
+	colored_emblem = {
+		texture = "ce_border_chinese_banner_1.dds"
+		color1 = "phrygia_red"
+		color2 = "roman_gold"
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_simple_square.dds"
+		color1 = "roman_gold"
+		instance = { scale = { 0.91 0.91 } }
+	}
+}
+
