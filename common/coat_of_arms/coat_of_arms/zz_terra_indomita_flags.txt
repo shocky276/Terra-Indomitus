@@ -170,6 +170,7 @@ WEI = {
 		instance = { scale = { 0.85 0.85 } }
 	}
 }
+
 #Weii / Wey
 WII = {
 	pattern = "pattern_solid.tga"
@@ -185,6 +186,25 @@ WII = {
 		texture = "ce_border_chinese_banner_1.dds"
 		color1 = "roman_gold"
 		color2 = "offwhite"
+		instance = { scale = { 1.04 1.04 } }
+	}
+}
+
+#Hann
+HAN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 110 181 141 }
+	color2 = rgb { 110 181 141 }
+
+	colored_emblem = {
+		texture = "ce_hann.dds"
+		color1 = "ck2_black"
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_chinese_banner_1.dds"
+		color1 = rgb { 110 181 141 }
+		color2 = "ck2_black"
 		instance = { scale = { 1.04 1.04 } }
 	}
 }
