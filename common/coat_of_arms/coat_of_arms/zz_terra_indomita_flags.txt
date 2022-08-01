@@ -62,3 +62,29 @@ CHU = {
 	}
 }
 
+#Qi
+QII = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_white"
+	color2 = rgb { 171 114 204 }	#Qi liked purple
+
+	colored_emblem = {
+		texture = "ce_qi.dds"
+		color1 = { 171 114 204 }
+		instance = { position = { 0.5 0.53 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_chinese_banner_1.dds"
+		color1 = rgb { 171 114 204 }
+		color2 = rgb { 171 114 204 }
+		instance = { scale = { 1 1 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_simple_square.dds"
+		color1 = "ck2_white"
+		instance = { scale = { 0.9 0.9 } }
+	}
+}
+
