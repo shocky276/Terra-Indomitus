@@ -7292,10 +7292,10 @@ country = {
 			primary_culture = talaiotic
 			religion = animism
 
-			capital = 1466
+			capital = 1465
 
 			own_control_core = 	{
-				1466 1467 1468
+				1466 1467 1468 1465 1469
 			}
 		}
 		
