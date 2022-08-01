@@ -110,3 +110,35 @@ ZHA = {
 	}
 }
 
+#Zhongshan
+ZHS = {
+	pattern = "pattern_solid.tga"
+	color1 = "spartan_rust"
+	color2 = "spartan_rust"
+
+	colored_emblem = {
+		texture = "ce_zhongshan.dds"
+		color1 = "offwhite"
+		instance = { scale = { 1.08	1.08 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_chinese_banner_1.dds"
+		color1 = "offwhite"
+		color2 = "samnite_beige"
+		instance = { scale = { 0.91	2 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_simple_square.dds"
+		color1 = "samnite_beige"
+		instance = { scale = { 0.69 2 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_simple_square.dds"
+		color1 = "offwhite"
+		instance = { scale = { 0.96 2 } }
+	}
+}
+
