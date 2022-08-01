@@ -7914,19 +7914,6 @@ country = {
 			}
 		}
 		
-		TUR = {
-			government = tribal_kingdom
-			primary_culture = turdetanian
-			religion = animism
-			centralization=25
-
-			capital = 1352 
-
-			own_control_core = 	{
-				1350 1361 1363 1364 1349 1352 1351 1346 1343 1353 1357 1360 1354 1365 1388 1375 1369 1368 1370 1374 1355 1373 1372 1442 1377 1376 1378 1446 1379 1386 1371
-			}
-		}
-		
 		VSC = {
 			government = tribal_kingdom
 			primary_culture = vasconian
@@ -7959,18 +7946,6 @@ country = {
 			}
 		}
 		
-		TAT = {
-			government = tribal_kingdom
-			primary_culture = turdetanian
-			religion = animism
-
-			capital = 1341
-
-			own_control_core = 	{
-				1341 1340 1339 1415 1359 1358 1338 1335 1416 1417 1414 1410 1412 1356 1409
-			}
-		}
-		
 		GAD = {
 			government = plutocratic_republic
 			primary_culture = carthaginian
@@ -7987,26 +7962,6 @@ country = {
 
 			own_control_core = 	{
 				1344 1345
-			}
-			
-		}
-		
-		MST = {
-			government = plutocratic_republic
-			primary_culture = massalian
-			religion = roman_pantheon
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			capital = 1342
-
-			own_control_core = 	{
-				1342
 			}
 			
 		}
@@ -8046,7 +8001,7 @@ country = {
 			capital = 3937
 			
 			own_control_core = {
-				3938 3939 3931 3935 3937 3914 3916 3923 3933 3917 3819 3934 3817 3818 3936
+				3938 3939 3931 3935 3937 3914 3916 3923 3933 3917 3819 3934 3817 3818 3936 3943 3920 3921 3922 3930 3932
 			}
 		}
 		
@@ -10056,7 +10011,7 @@ country = {
 			capital = 4505
 
 			own_control_core = 	{
-				4505 4297 4503 4504
+				4505 4297 4503 4504 4910
 			}
 		}
 		
@@ -10068,7 +10023,7 @@ country = {
 			capital = 4508
 
 			own_control_core = 	{
-				4508 4507 4506 4511 4510 4509
+				4508 4507 4506 4511 4510 4509 4906 4907
 			}
 		}
 		
@@ -14021,10 +13976,10 @@ country = {
 			
 			}
 			
-			capital = 6259
+			capital = 6254
 			
 			own_control_core = {
-				4901 6259 4895 6265 6266
+				4887 4895 6259 6254 6260 6255 6263 6261 6257 6258
 			}
 		}
 		
@@ -14275,7 +14230,7 @@ country = {
 			capital = 3990
 			
 			own_control_core = {
-				3990 3981 3991 3988				
+				3990 3981 3991 3988	3997
 			}
 		}
 		
@@ -14447,7 +14402,7 @@ country = {
 			capital = 6275
 			
 			own_control_core = {
-				6268 6273 6274 6277 6267 6275
+				6289 6275 6267 6290 6293 6264 6291 6294 6262
 			}
 		}
 		
@@ -14877,7 +14832,7 @@ country = {
 			capital = 7805
 
 			own_control_core = {
-				7806 7805
+				7806 7823 7805 10275 10276 10277
 			}
 		}
 
@@ -15562,6 +15517,173 @@ country = {
 			}
 		}
 		
+		# New Turdetanian Tags
+		
+		ASA = { #Astaia
+			government = tribal_federation
+			primary_culture = turdetanian
+			religion = animism
+			centralization = 50
+			tribal_currency_laws = coin_minting_law
+			tribal_authority_laws = absolute_authority
+			tribal_domestic_laws = oppidi_law_tribal
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 1342
+
+			own_control_core = 	{
+				1341 1342 1343 1351 1353 1354 1358 1360
+			}
+		}
+		
+		CIP = { #Lacinippaia
+			government = tribal_federation
+			primary_culture = turdetanian
+			religion = animism
+			centralization = 50
+			tribal_currency_laws = coin_minting_law
+			tribal_authority_laws = absolute_authority
+			tribal_domestic_laws = oppidi_law_tribal
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 1350
+
+			own_control_core = 	{
+				1349 1350 1352 1361 1363 1364 1365
+			}
+		}
+		
+		COD = { #Cordubaia
+			government = tribal_federation
+			primary_culture = turdetanian
+			religion = animism
+			centralization = 50
+			tribal_currency_laws = coin_minting_law
+			tribal_authority_laws = absolute_authority
+			tribal_domestic_laws = oppidi_law_tribal
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 1377
+
+			own_control_core = 	{
+				1376 1377 1378 1379 1386 1442 1446
+			}
+		}
+		
+		CRM = { #Carmoia
+			government = tribal_federation
+			primary_culture = turdetanian
+			religion = animism
+			centralization = 50
+			tribal_currency_laws = coin_minting_law
+			tribal_authority_laws = absolute_authority
+			tribal_domestic_laws = oppidi_law_tribal
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 1374
+
+			own_control_core = 	{
+				1355 1357 1368 1369 1370 1371 1372 1373 1374 1375 1388
+			}
+			
+			treasures = { 504 }
+		}
+		
+		ORP = { #Orippaia
+			government = tribal_federation
+			primary_culture = turdetanian
+			religion = animism
+			centralization = 50
+			tribal_currency_laws = coin_minting_law
+			tribal_authority_laws = absolute_authority
+			tribal_domestic_laws = oppidi_law_tribal
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 1356
+
+			own_control_core = 	{
+				1356 1409 1410 1412 1414 1417
+			}
+			
+			treasures = { 506 }
+		}
+		
+		ONU = { #Onubaia
+			government = tribal_federation
+			primary_culture = turdetanian
+			religion = animism
+			centralization = 50
+			tribal_currency_laws = coin_minting_law
+			tribal_authority_laws = absolute_authority
+			tribal_domestic_laws = oppidi_law_tribal
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 1339
+
+			own_control_core = 	{
+				1335 1338 1339 1340 1359 1415 1416
+			}
+		}
+		
+		LSC = { #Lascutaia
+			government = tribal_kingdom
+			primary_culture = turdetanian
+			religion = animism
+			centralization = 50
+			tribal_currency_laws = barter_economy_law
+			tribal_authority_laws = increased_council_powers
+			tribal_domestic_laws = oppidi_law_tribal
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 1346
+
+			own_control_core = 	{
+				1346
+			}
+		}
+		
 		#added for Germania and Pannonia
 
 		AUA = {
@@ -15722,7 +15844,7 @@ country = {
 			capital = 4853
 
 			own_control_core = 	{
-				4876 4880 4852 4855 4853 4854 4857 4877
+				4876 4880 4852 4855 4853 4854 4857 4877 4874
 			}
 		}
 		#Tolistobogia
@@ -16023,7 +16145,7 @@ country = {
 			capital = 4904
 			
 			own_control_core = {
-				4776 4775 4904 6272 6276 6279 6280 6278
+				4776 4775 4904 6272 6276 6279 6280 6277 6278 6274
 			}
 		}
 		#Haria
@@ -16043,7 +16165,7 @@ country = {
 			capital = 6270
 			
 			own_control_core = {
-				6271 6270 6269 4902 4903 4900
+				6271 6273 6270 6269 6265 6266 6268 4901 4902
 			}
 		}
 		#Helisia
@@ -16063,7 +16185,7 @@ country = {
 			capital = 4773
 			
 			own_control_core = {
-				4774 4773 4772 4777
+				4774 4773 4771 4772 4900 4777 4903
 			}
 		}
 		#Naharvalia
@@ -16080,10 +16202,10 @@ country = {
 			}
 			religion = germanic_religion
 			
-			capital = 4004
+			capital = 4006
 			
 			own_control_core = {
-				4770 4004
+				4770 4004 4006 4007 4010 4003 4005
 			}
 		}
 		
@@ -16549,6 +16671,45 @@ country = {
 
 			own_control_core = 	{
 				2108
+			}
+		}
+		
+		#Costobocia
+		X59 = {
+			government = tribal_kingdom
+			primary_culture = costoboci
+			religion = shamanism
+
+			capital = 4883
+
+			own_control_core = 	{
+				4859 4882 4881 4883 4908 4905 4884 4885 4927
+			}
+		}
+		#Veltae
+		X60 = {
+			government = tribal_chiefdom
+			primary_culture = aestian
+			religion = matrist_religion
+			centralization = -50
+
+			capital = 7814
+
+			own_control_core = {
+				7814 7815 7809 7813 7808 7810
+			}
+		}
+		
+		X61 = { #Osia
+			government = tribal_kingdom
+			primary_culture = eravisci
+			religion = druidism
+			centralization=25
+
+			capital = 3919
+
+			own_control_core = 	{
+				4868 4872 4869 3925 3927 3924 3919 4867
 			}
 		}
 	}
