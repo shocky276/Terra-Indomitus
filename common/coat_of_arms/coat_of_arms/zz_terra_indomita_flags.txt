@@ -88,3 +88,23 @@ QII = {
 	}
 }
 
+#Zhao
+ZHA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 148 204 224 }
+	color2 = rgb { 148 204 224 }
+
+	colored_emblem = {
+		texture = "ce_zhao.dds"
+		color1 = "ck2_black"
+		instance { { scale = { 1.1 1.1 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_chinese_banner_1.dds"
+		color1 = "frost_blue"
+		color2 = "ck2_black"
+		instance = { scale = { 1.05 1.05 } }
+	}
+}
+
