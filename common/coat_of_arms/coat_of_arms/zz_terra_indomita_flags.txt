@@ -142,3 +142,50 @@ ZHS = {
 	}
 }
 
+#Wei
+WEI = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 59 99 206 }
+	color2 = rgb { 59 99 196 }
+
+	colored_emblem = {
+		texture = "ce_wei.dds"
+		color1 = "offwhite"
+		instance = { 
+			scale = { 1.1 1.1 }
+			position = { 0.5 0.52 }	
+		}
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_chinese_banner_1.dds"
+		color1 = rgb { 59 99 206 }
+		color2 = "offwhite"
+		instance = { scale = { 1 1 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_simple_square.dds"
+		color1 = "offwhite"
+		instance = { scale = { 0.85 0.85 } }
+	}
+}
+#Weii / Wey
+WII = {
+	pattern = "pattern_solid.tga"
+	color1 = "roman_red"
+	color2 = "roman_red"
+
+	colored_emblem = {
+		texture = "ce_wey.dds"
+		color1 = "offwhite"
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_chinese_banner_1.dds"
+		color1 = "roman_gold"
+		color2 = "offwhite"
+		instance = { scale = { 1.04 1.04 } }
+	}
+}
+
