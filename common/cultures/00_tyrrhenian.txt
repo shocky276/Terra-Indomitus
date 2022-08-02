@@ -346,14 +346,10 @@
 	}
 	
 	culture = {
-		etruscan = {}
-		ligurian = {}
-		rhaetian = { levy_template = levy_rhaetian }
-		nuragic = { levy_template = levy_sardinian }
-		corsian = { levy_template = levy_sardinian }
-		talaiotic = { levy_template = levy_sardinian }
-		elymian = {}
-		sicanian = {}
+		#nuragic = { levy_template = levy_sardinian }
+		#corsian = { levy_template = levy_sardinian }
+		#talaiotic = { levy_template = levy_sardinian }
+		
 	}
 	
 	barbarian_names = { BRUTTII CAMUNNI CARACENI CENOMANI EUGANEI FRINIATES LIBURNI LIGURES LEPONTII LUCANI MAMERTINI PATAVINI PENTRI }

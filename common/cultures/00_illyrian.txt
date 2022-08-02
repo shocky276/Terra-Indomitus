@@ -86,7 +86,6 @@
 		pannonian = {}
 		iapodian = {}
 		liburnian_culture = {}
-		histrian = {}
 	}
 
 	barbarian_names = {
