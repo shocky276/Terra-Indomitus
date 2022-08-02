@@ -1149,3 +1149,6 @@ ONU = "setup/countries/iberia/onuba.txt"
 ORP = "setup/countries/iberia/orippo.txt"
 LSC = "setup/countries/iberia/lascuta.txt"
 #USO = "setup/countries/iberia/urso.txt"
+
+#TI/Invictus Persia
+GED = "setup/countries/ti_persia/gedrosia.txt"

@@ -12,6 +12,9 @@ diplomacy = {
 #Budini
 	dependency = { first = BDI second = GLO subject_type = tributary } #Gelonia
 
+#Seleukid New
+	dependency = { first = SEL second = GED subject_type = satrapy } #Gedrosia
+
 }
 
 
@@ -874,6 +877,29 @@ country = {
 			own_control_core = {
 				7266 6793 6794 6795 7272 7269 7262 7261 7251 7250 7249
 				7248 7247 7246 7252 7253 7254 7255 7256 7257 7258 7259 7260
+			}
+		}
+		
+		GED = { #Satrapy of Seleukid
+			government = despotic_monarchy
+			primary_culture = gedrosian
+			religion = zoroaster
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 6513
+			
+			own_control_core = {
+				6513 6530 6592 6517 6520 6521 6522 6523 6524 6620 6525 6593 #Mauryan Gedrosia
+				6540 6571 6616 6539 6538 6617 6537 6618 6535 6534 6619 6533 #Parecania
+				6531 6532 6536
+				6514 6580 6583 6581 6515 6578 6579 6516 #harmozeia/Rudiana
+				6512 6582
 			}
 		}
 

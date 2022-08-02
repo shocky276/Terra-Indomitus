@@ -416,19 +416,46 @@
 	}
 }
 
-6513={ #Poura
+6513={ #Pura
 	terrain="hills"
 	culture="gedrosian"
 	religion="zoroaster"
 	trade_goods="camel"
 	civilization_value=29
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	citizen={
+		culture="pasargadi"
+		amount=1
+	}
+	citizen={
+		culture="macedonian"
+		religion="roman_pantheon"
+		amount=1
+	}
 	freemen={
+		amount=3
+	}
+	freemen={
+		culture="pasargadi"
+		amount=1
+	}
+	freemen={
+		culture="macedonian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=4
+	}
+	slaves={
+		amount=4
 	}
 }
 
