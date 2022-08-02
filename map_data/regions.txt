@@ -1,5 +1,4 @@
-﻿central_italy_region = {
-	#9 areas
+﻿central_italy_region = { #9 areas
 	areas = {
 		roma_area
 		south_etruria_area
@@ -10,23 +9,26 @@
 		corsica_area
 		sardinia_septentrionalis
 		sardinia_meridionalis
-		neapolis_area
 	}
-	# color = hsv { 0.5 1.0 1.0 }  # or named color, or rgb
+    color = rgb { 160 10 10 }
 }
 
-taurica_region = {
-	#8
+taurica_region = { #8
 	areas = {
 		maeotia_area
 		bosproranum_area
 		taurica_area
+		maeotia_minores_area
+		alania_area
+		tanaissa_area
+		sattara_area
 		borysthenia_minor_area
 	}
+    color = rgb { 224 22 255 }
 }
 
 sarmatia_asiatica_region = {
-	#18 areas
+	#15 areas
 	areas = {
 		borysthenia_maioris_area
 		danaia_superioris_area
@@ -36,9 +38,6 @@ sarmatia_asiatica_region = {
 		alania_proper_area
 		alania_orientalis_area
 		maeotia_minores_area
-		alania_area
-		tanaissa_area
-		sattara_area
 		hyrcania_superior_area
 		atara_area
 		transhyrcania_area
@@ -49,8 +48,7 @@ sarmatia_asiatica_region = {
 	}
 }
 
-greece_region = {
-	#10 areas
+greece_region = {	#10 areas
 	areas = {
 		crete_area
 		aegean_islands_area
@@ -63,11 +61,11 @@ greece_region = {
 		arcadia_area
 		euboea_area
 	}
+    color = rgb { 62 157 224 }
 }
 
 #Anatolia
-asia_region = {
-	#8 areas
+asia_region = {		#8 areas
 	areas = {
 		lydia_area
 		ionia_area
@@ -78,31 +76,36 @@ asia_region = {
 		coastal_caria_area
 		sporades_area
 	}
+    color = rgb { 244 222 89 }
 }
 
-cilicia_region = {
-	#Lycia, Pamphylia, Cilicia	#7 areas
+cilicia_region = {	#Lycia, Pamphylia, Cilicia	#7 areas
 	areas = {
 		cilicia_trachea_area
 		cilicia_pedias_area
+		lycia_area
 		cyprus_area
+		pamphylia_area
+		pisidia_area
+		milyas_area
 	}
+    color = rgb { 227 103 61 }
 }
 
-galatia_region = {
-	#Galatia & Phrygia	#7 areas
+galatia_region = {	#Galatia & Phrygia	#7 areas
 	areas = {
 		lycaonia_area
+		isauria_area
 		phrygia_parorea_area
 		phrygia_area
 		phrygia_epiktetos
 		galatia_area
 		galatia_trocmi_area
 	}
+    color = rgb { 133 115 25 }
 }
 
-bithynia_region = {
-	#8
+bithynia_region = { #8
 	areas = {
 		bithynia_inferior_area
 		bithynia_superior_area
@@ -111,33 +114,28 @@ bithynia_region = {
 		paphlagonia_inferior_area
 		bithynia_area
 	}
+    color = rgb { 96 255 249 }
 }
 
-cappadocia_region = {
-	#5
+cappadocia_region = { #5
 	areas = {
 		cappadocia_area
 		cappadocia_cataonia_area
 		cappadocia_garsauritis_area
 		cappadocia_saravene_area
 		cappadocia_melitene_area
+	}
+}
+
+cappadocia_pontica_region = { #5
+	areas = {
 		pontus_colopene_area
 		armenia_minor_area
 		armenia_maior_area
 		pontus_area
 		machelonia_area
 	}
-}
-
-cappadocia_pontica_region = {
-	#5
-	areas = {
-		lycia_area
-		pamphylia_area
-		pisidia_area
-		milyas_area
-		isauria_area
-	}
+    color = rgb { 238 225 244 }
 }
 
 #Mesopotamia
@@ -771,9 +769,9 @@ illyria_region = {
 	}
 }
 
-magna_graecia_region = {
-	#8 areas
+magna_graecia_region = {		#8 areas
 	areas = {
+		neapolis_area
 		cannae_area
 		tarentum_area
 		heraclea_area
@@ -782,6 +780,7 @@ magna_graecia_region = {
 		west_sicily_area
 		syracuse_area
 	}
+    color = rgb { 109 43 175 }
 }
 
 belgica_region = {
