@@ -14282,16 +14282,24 @@ country = {
 		#Bactrian
 		
 		PRN = {
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = derbiccan
 			religion = indo_iranian_religion
 			centralization=10
 			capital = 5423
 			is_antagonist = yes
-			
+
 			own_control_core = {
-				5423 6776 6725 5390 5422 6812 6811 5424 5425 5426 5428 5427 6808 6810 6806 5391 5392 5393#5460 5473 5461 5463 5462 5466 5470 5465 5464 5469 6806 6810 5391 5393 5392 
+				5423 6776 6725 5390 5422 6812 6811 5424 5425 5426 5428 5427 6808 5451 5458 5459 5460 5473 5461 5463 5462 5466 5470 5465 5464 5469
 			}
+
+			pantheon = {
+				{ deity = 600 }
+				{ deity = 604 }
+				{ deity = 325 }
+				{ deity = 606 }
+			}
+			
 		}
 		
 		PSS = {
@@ -14307,14 +14315,14 @@ country = {
 		}
 		
 		ZNT = {
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = derbiccan
 			religion = indo_iranian_religion
 			centralization=-50
 			capital = 5454
 			is_antagonist = yes
 			own_control_core = {
-				6807 6809 6796 5452 5453 5456 5455 5454 5475 5474 5472 5476 5451 5458 5459 
+				5391 6810 5393 5392 6806 6807 6809 6796 5452 5453 5456 5455 5454 5475 5474 5472 5476
 			}
 		}
 		
