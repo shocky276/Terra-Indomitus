@@ -10,7 +10,7 @@
 	secondary_navy = octere
 	flank_navy = liburnian
 	
-	color = { 0.3 0.1 0.4  }
+	color = hsv { 0.12 0.45 0.68 }
 	
 	family = {
 			Abeghean.Abeghean.Abegheans.Abegheanid
@@ -57,8 +57,11 @@
 		}
 
 	culture = {
+		albanian = { levy_template = levy_albanian }
 		ibero = {}
 		colchian = {}
+		legian = {} #moved from scythian
+		#diff to Invictus:
 		sasperires = {}
 		bekhyrian = {}
 	}
@@ -67,7 +70,6 @@
 	
 	graphical_culture = persian_gfx
 	ethnicities = {
-		5 = persian
-		5 = anatolian
+		10 = persian
 	}
 }

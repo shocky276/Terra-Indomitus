@@ -43,14 +43,15 @@
 		Kunlyu.Kunlyu.Kunlyus.Kunlayad
 	}
 	culture = {
-		#scythian = { levy_template = levy_scythians }
-		#sarmatian = { levy_template = levy_sarmatian }
-		#sindi = {}
-		#siraci = {}
-		#maeotian = {}
-		#thyssagetaen = {}
-		#agathyrsian = {}
+		scythian = { levy_template = levy_scythians }
+		sarmatian = { levy_template = levy_sarmatian }
+		sindi = {}
+		siraci = {}
+		maeotian = {}
+		thyssagetaen = {}
+		agathyrsian = {}
 		gelonian = {}
+		abasgoi = {}
 	}
 	
 	barbarian_names = { 
