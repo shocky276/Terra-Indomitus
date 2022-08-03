@@ -1,52 +1,4 @@
-﻿3650={ #Namare
-	terrain="hills"
-	culture="noric"
-	religion="druidism"
-	trade_goods="horses"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-3651={ #Faviana
-	terrain="hills"
-	culture="noric"
-	religion="druidism"
-	trade_goods="cloth"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-3652={ #Augustinia
-	terrain="hills"
-	culture="noric"
-	religion="druidism"
-	trade_goods="vegetables"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-3653={ #Quadriburgium
+﻿3653={ #Quadriburgium
 	terrain="hills"
 	culture="noric"
 	religion="druidism"
@@ -84,41 +36,18 @@
 	}
 }
 
-3919={ #Anduetium
-	terrain="plains"
-	culture="eravisci"
-	religion="druidism"
-	trade_goods="leather"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-3924={ #Rhacatia
-	terrain="plains"
-	culture="eravisci"
+4024={ #Emona
+	terrain="mountain"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-}
-
-3925={ #Felicia
-	terrain="hills"
-	culture="eravisci"
-	religion="druidism"
-	trade_goods="fur"
-	civilization_value=0
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=2
+	}
+	slaves={
 		amount=2
 	}
 	tribesmen={
@@ -126,73 +55,40 @@
 	}
 }
 
-3926={ #Eburodunum Carnuntii
-	terrain="forest"
-	culture="boian"
+4025={ #Carnium
+	terrain="mountain"
+	culture="carnian"
 	religion="druidism"
-	trade_goods="horses"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-3927={ #Celamantia
-	terrain="forest"
-	culture="eravisci"
-	religion="druidism"
-	trade_goods="cattle"
-	civilization_value=0
+	trade_goods="cinnabar"
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=5
 	}
 	tribesmen={
-		amount=1
+		amount=6
 	}
 }
 
-3929={ #Auchia
-	terrain="plains"
-	culture="boian"
-	religion="druidism"
-	trade_goods="fur"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-4016={ #Oreinia
-	terrain="plains"
-	culture="boian"
+4026={ #Longaticum
+	terrain="hills"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=0
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4017={ #Asanca
-	terrain="hills"
-	culture="eravisci"
-	religion="druidism"
-	trade_goods="wood"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	slaves={
 		amount=1
 	}
 	tribesmen={
@@ -304,25 +200,6 @@
 	}
 }
 
-4038={ #Andautonion
-	terrain="hills"
-	culture="catari"
-	religion="roman_pantheon"
-	trade_goods="wood"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 4039={ #Romula
 	terrain="hills"
 	culture="letobician"
@@ -335,22 +212,6 @@
 		amount=1
 	}
 	slaves={
-		amount=1
-	}
-}
-
-4041={ #Segestike
-	terrain="hills"
-	culture="catari"
-	religion="roman_pantheon"
-	trade_goods="cattle"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	tribesmen={
 		amount=1
 	}
 }
@@ -390,205 +251,6 @@
 	}
 	tribesmen={
 		amount=4
-	}
-}
-
-4073={ #Praitorion
-	terrain="forest"
-	culture="deurian"
-	religion="roman_pantheon"
-	trade_goods="stone"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-4074={ #Serbinon
-	terrain="hills"
-	culture="deurian"
-	religion="roman_pantheon"
-	trade_goods="stone"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4076={ #Ourbate
-	terrain="forest"
-	culture="deurian"
-	religion="roman_pantheon"
-	trade_goods="wood"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4077={ #Marsonia
-	terrain="plains"
-	culture="deurian"
-	religion="roman_pantheon"
-	trade_goods="wood"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4123={ #Halas
-	terrain="hills"
-	culture="deurian"
-	religion="roman_pantheon"
-	trade_goods="horses"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4124={ #Ad Drinum
-	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
-	trade_goods="wine"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4126={ #Drinum
-	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
-	trade_goods="wine"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-4128={ #Sarouiana
-	terrain="plains"
-	culture="deurian"
-	religion="roman_pantheon"
-	trade_goods="stone"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4129={ #Sarouia
-	terrain="forest"
-	culture="deurian"
-	religion="roman_pantheon"
-	trade_goods="honey"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4130={ #Saldia
-	terrain="plains"
-	culture="deurian"
-	religion="roman_pantheon"
-	trade_goods="wood"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
 	}
 }
 
@@ -1157,7 +819,7 @@
 	}
 }
 
-4165={ #Silicenis
+4165={ #Silikenis
 	terrain="forest"
 	culture="letobician"
 	religion="druidism"
@@ -1192,7 +854,7 @@
 	}
 }
 
-4167={ #Limusa
+4167={ #Limousa
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1211,7 +873,7 @@
 	}
 }
 
-4168={ #Sopianae
+4168={ #Sopianai
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1287,7 +949,7 @@
 	}
 }
 
-4172={ #Cardono
+4172={ #Kardonon
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1322,7 +984,7 @@
 	}
 }
 
-4174={ #Piretis
+4174={ #Peiratis
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1427,7 +1089,7 @@
 	}
 }
 
-4180={ #Lentulis
+4180={ #Lentoulis
 	terrain="forest"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1500,7 +1162,7 @@
 	}
 }
 
-4184={ #Dravia
+4184={ #Drauia
 	terrain="hills"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1519,7 +1181,7 @@
 	}
 }
 
-4185={ #Stravianis
+4185={ #Strauianis
 	terrain="hills"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1538,7 +1200,7 @@
 	}
 }
 
-4186={ #Picentino
+4186={ #Pikentinon
 	terrain="farmland"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1554,7 +1216,7 @@
 	}
 }
 
-4187={ #Mursella
+4187={ #Moursella Mikra
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1567,7 +1229,7 @@
 	}
 }
 
-4188={ #Cibalae
+4188={ #Kibalai
 	terrain="farmland"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1615,7 +1277,7 @@
 	}
 }
 
-4191={ #Causilena
+4191={ #Kausilena
 	terrain="plains"
 	culture="celtic_pannonian"
 	religion="druidism"
@@ -1666,101 +1328,6 @@
 	}
 	tribesmen={
 		amount=5
-	}
-}
-
-4194={ #Gensis
-	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
-	trade_goods="horses"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4195={ #Singidunum
-	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
-	trade_goods="cinnabar"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4196={ #Siluvia
-	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
-	trade_goods="vegetables"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-4197={ #Moesiana
-	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
-	trade_goods="precious_metals"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4198={ #Ad Sextum Miliarem
-	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
-	trade_goods="cattle"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
 	}
 }
 

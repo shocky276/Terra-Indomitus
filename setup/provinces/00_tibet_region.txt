@@ -8,6 +8,19 @@
 	province_rank="settlement"
 }
 
+5587={ #Chomolangma
+	terrain="mountain"
+	culture="himalayan"
+	religion="bon_religion"
+	trade_goods="stone"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
 5588={ #Lhayul
 	terrain="mountain"
 	culture="tsang"

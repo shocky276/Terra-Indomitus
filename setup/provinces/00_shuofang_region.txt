@@ -1,4 +1,4 @@
-﻿8279={ #Oceanus Atlanticus
+﻿8279={ #Yiqu
 	terrain="dry_plains"
 	culture="yiqu"
 	religion="bon_religion"
@@ -20,7 +20,7 @@
 	}
 }
 
-8563={ #Tikhaya Sosna
+8563={ #Yuzhi
 	terrain="dry_plains"
 	culture="yiqu"
 	religion="bon_religion"
@@ -33,7 +33,7 @@
 	}
 }
 
-8564={ #Chernyanka
+8564={ #Niyang
 	terrain="forest"
 	culture="yiqu"
 	religion="bon_religion"
@@ -65,7 +65,7 @@
 	}
 }
 
-8566={ #Bila
+8566={ #Fangqu
 	terrain="steppe"
 	culture="yiqu"
 	religion="bon_religion"
@@ -78,7 +78,7 @@
 	}
 }
 
-8567={ #Kupyansk
+8567={ #Xuyan
 	terrain="steppe"
 	culture="juyan"
 	religion="bon_religion"
@@ -107,7 +107,7 @@
 	}
 }
 
-8569={ #Kozynka
+8569={ #Zhilu
 	terrain="hills"
 	culture="yiqu"
 	religion="bon_religion"
@@ -136,7 +136,7 @@
 	}
 }
 
-8571={ #Artilne
+8571={ #Fuping
 	terrain="dry_plains"
 	culture="juyan"
 	religion="bon_religion"
@@ -149,7 +149,7 @@
 	}
 }
 
-8572={ #Borysthenes
+8572={ #Lian
 	terrain="dry_plains"
 	culture="juyan"
 	religion="bon_religion"
@@ -165,7 +165,7 @@
 	}
 }
 
-8573={ #Borysthenes
+8573={ #Lingwu
 	terrain="dry_plains"
 	culture="juyan"
 	religion="bon_religion"
@@ -181,7 +181,7 @@
 	}
 }
 
-8574={ #Borysthenes
+8574={ #Fushi
 	terrain="dry_plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -210,7 +210,7 @@
 	}
 }
 
-8575={ #Ammodeis Ochthes
+8575={ #Pingzhou
 	terrain="dry_plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -239,7 +239,7 @@
 	}
 }
 
-8576={ #Ammodeis Ochthes
+8576={ #Pingdu
 	terrain="dry_plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -268,7 +268,7 @@
 	}
 }
 
-8577={ #Ammodeis Ochthes
+8577={ #Yangzhou
 	terrain="forest"
 	culture="qin"
 	religion="chinese_religions"
@@ -292,7 +292,7 @@
 	}
 }
 
-8578={ #Dexi Cheri
+8578={ #Gaonu
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -316,7 +316,7 @@
 	}
 }
 
-8579={ #Dexi Cheri
+8579={ #Diaoyin
 	terrain="forest"
 	culture="qin"
 	religion="chinese_religions"
@@ -340,7 +340,7 @@
 	}
 }
 
-8580={ #Dexi Cheri
+8580={ #Qiyuan
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -364,7 +364,7 @@
 	}
 }
 
-8581={ #Dexi Cheri
+8581={ #Luodu
 	terrain="forest"
 	culture="linhu"
 	religion="hu_religions"
@@ -388,7 +388,7 @@
 	}
 }
 
-8582={ #Tanais
+8582={ #Baitu
 	terrain="steppe"
 	culture="linhu"
 	religion="hu_religions"
@@ -401,7 +401,7 @@
 	}
 }
 
-8583={ #Tanais
+8583={ #Gaowang
 	terrain="steppe"
 	culture="linhu"
 	religion="hu_religions"
@@ -414,7 +414,7 @@
 	}
 }
 
-8584={ #Tanais
+8584={ #Zhenlin
 	terrain="dry_plains"
 	culture="linhu"
 	religion="hu_religions"
@@ -427,7 +427,7 @@
 	}
 }
 
-8585={ #Tanais
+8585={ #Dingyang
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -470,7 +470,7 @@
 	}
 }
 
-8587={ #Huanyang
+8587={ #Xicheng
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -489,7 +489,7 @@
 	}
 }
 
-8588={ #Huanyang
+8588={ #Tujun
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -508,7 +508,7 @@
 	}
 }
 
-8589={ #Huanyang
+8589={ #Lin
 	terrain="dry_plains"
 	culture="baidi"
 	religion="hu_religions"
@@ -527,7 +527,7 @@
 	}
 }
 
-8590={ #Aborepi
+8590={ #Lishi
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -591,7 +591,7 @@
 	}
 }
 
-8593={ #Mahdood
+8593={ #Pingding
 	terrain="dry_plains"
 	culture="linhu"
 	religion="hu_religions"
@@ -658,7 +658,7 @@
 	}
 }
 
-8597={ #Hejeilat
+8597={ #Zengshan
 	terrain="steppe"
 	culture="linhu"
 	religion="hu_religions"
@@ -690,7 +690,7 @@
 	}
 }
 
-8599={ #Bafalil
+8599={ #Humeng
 	terrain="steppe"
 	culture="linhu"
 	religion="hu_religions"
@@ -706,7 +706,7 @@
 	}
 }
 
-8600={ #Hatab
+8600={ #Impassable
 	terrain="impassable_terrain"
 	culture="linhu"
 	religion="hu_religions"
@@ -732,7 +732,7 @@
 	}
 }
 
-8602={ #Adabda
+8602={ #Impassable
 	terrain="impassable_terrain"
 	culture="jin"
 	religion="chinese_religions"
@@ -771,7 +771,7 @@
 	}
 }
 
-8605={ #Harazah
+8605={ #Qusou
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -816,7 +816,7 @@
 	}
 }
 
-8608={ #Tabot
+8608={ #Woye
 	terrain="dry_plains"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -845,7 +845,7 @@
 	}
 }
 
-8610={ #Hamdab
+8610={ #Yuhun
 	terrain="dry_plains"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -871,7 +871,7 @@
 	}
 }
 
-8612={ #Talguharai
+8612={ #Xiudou
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -897,7 +897,7 @@
 	}
 }
 
-8614={ #Qoqay
+8614={ #Xianyang
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -913,7 +913,7 @@
 	}
 }
 
-8615={ #Hashim
+8615={ #Jiuyuan
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -945,7 +945,7 @@
 	}
 }
 
-8617={ #Hufrah
+8617={ #Yiliang
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -961,7 +961,7 @@
 	}
 }
 
-8618={ #Bagarah
+8618={ #Heyin
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -977,7 +977,7 @@
 	}
 }
 
-8619={ #Essayal
+8619={ #Wuyuan
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -1025,7 +1025,7 @@
 	}
 }
 
-8622={ #Kawahilah
+8622={ #Manbai
 	terrain="dry_plains"
 	culture="linhu"
 	religion="hu_religions"
@@ -1057,7 +1057,7 @@
 	}
 }
 
-8624={ #Qigi
+8624={ #Wudu
 	terrain="dry_plains"
 	culture="linhu"
 	religion="hu_religions"

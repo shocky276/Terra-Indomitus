@@ -1946,12 +1946,196 @@
 	}
 }
 
+7227={ #Zamm
+	terrain="dry_plains"
+	culture="sogdian"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		religion="indo_iranian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7228={ #Ebousmou Anassa
+	terrain="dry_plains"
+	culture="sogdian"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		religion="indo_iranian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
 7229={ #Kariatas
 	terrain="dry_plains"
 	culture="sogdian"
 	religion="zoroaster"
 	trade_goods="grain"
 	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7230={ #Sourogana
+	terrain="dry_plains"
+	culture="sogdian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7232={ #Tarmantis
+	terrain="hills"
+	culture="sogdian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7233={ #Bazaria
+	terrain="hills"
+	culture="sogdian"
+	religion="zoroaster"
+	trade_goods="honey"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7234={ #Bazistris
+	terrain="dry_plains"
+	culture="sogdian"
+	religion="indo_iranian_religion"
+	trade_goods="fur"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+7235={ #Choana Baktriane
+	terrain="dry_plains"
+	culture="sogdian"
+	religion="indo_iranian_religion"
+	trade_goods="wood"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7236={ #Dilyar
+	terrain="dry_plains"
+	culture="sogdian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		religion="indo_iranian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7237={ #Aqcha
+	terrain="dry_plains"
+	culture="sogdian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7239={ #Phratroua
+	terrain="dry_plains"
+	culture="sogdian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7243={ #Bezda
+	terrain="desert"
+	culture="sogdian"
+	religion="indo_iranian_religion"
+	trade_goods="wild_game"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7244={ #Amu
+	terrain="desert"
+	culture="sogdian"
+	religion="indo_iranian_religion"
+	trade_goods="honey"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={

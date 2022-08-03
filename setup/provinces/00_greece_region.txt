@@ -1853,6 +1853,25 @@
 	}
 }
 
+3192={ #Byllis
+	terrain="forest"
+	culture="epirote"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
 7798={ #Elateia
 	terrain="hills"
 	culture="boeotian"

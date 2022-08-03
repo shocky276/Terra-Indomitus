@@ -1,652 +1,4 @@
-﻿600={ #Peherse
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="spices"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=16
-	}
-	freemen={
-		amount=11
-	}
-	slaves={
-		amount=9
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-601={ #Serra
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="vegetables"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-602={ #Tamania
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="horses"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-603={ #Boon
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="leather"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-}
-
-604={ #Semna Nubia
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-}
-
-605={ #Noa
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="cloth"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-}
-
-606={ #Saye
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="vegetables"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-607={ #Gugo
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-608={ #Paroa
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-609={ #Acina
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="spices"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=2
-	}
-}
-
-610={ #Prummu
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="stone"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-611={ #Orsum
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="leather"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-612={ #Direla
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="cloth"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-613={ #Patigga
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="spices"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=9
-	}
-	freemen={
-		amount=13
-	}
-	slaves={
-		amount=6
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-614={ #Bagada
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="cattle"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=7
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-615={ #Pago
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="vegetables"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-}
-
-616={ #Mulon
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-}
-
-617={ #Breues
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-618={ #Urbim
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="horses"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-619={ #Segasa
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="vegetables"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-}
-
-620={ #Arcas
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="hemp"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-}
-
-621={ #Tergendum
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-}
-
-622={ #Zamnes
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="cattle"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-623={ #Dumuna
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="vegetables"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-624={ #Mambil
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="spices"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-}
-
-625={ #Cortum
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="stone"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-}
-
-626={ #Napata
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="cloth"
-	civilization_value=22
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=6
-	}
-	freemen={
-		amount=5
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-627={ #Marru
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="spices"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-628={ #Alana
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="cloth"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-629={ #Sankole
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-630={ #Scammos
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-}
-
-631={ #Gora
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="cattle"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-632={ #Abale
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="vegetables"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-633={ #Druka
+﻿633={ #Druka
 	terrain="dry_plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -656,107 +8,6 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
-	}
-}
-
-634={ #Darou
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="cloth"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=10
-	}
-	freemen={
-		amount=10
-	}
-	slaves={
-		amount=8
-	}
-	tribesmen={
-		amount=6
-	}
-}
-
-635={ #Galim
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-636={ #Seserem
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="vegetables"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-637={ #Mallo
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="vegetables"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-638={ #Sakolche
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="earthware"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
 	}
 }
 
@@ -890,72 +141,6 @@
 	}
 	slaves={
 		amount=3
-	}
-}
-
-645={ #Kurgus
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="cattle"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-646={ #Fourth Cataract
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-651={ #Sumita
-	terrain="hills"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="cattle"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		religion="arabian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="aksumite"
-		religion="arabian_pantheon"
-		amount=1
 	}
 }
 
@@ -1208,155 +393,6 @@
 	}
 }
 
-7579={ #Firke
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="fish"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-}
-
-7580={ #Tila
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="earthware"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-7581={ #Pderme
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="precious_metals"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-}
-
-7582={ #Soleb
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="papyrus"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-7583={ #Kedurma
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="iron"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-7584={ #Hashem
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="iron"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-}
-
-7585={ #Nuri
-	terrain="flood_plain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wood"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-7586={ #Kuru
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="stone"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
 7587={ #Anak
 	terrain="dry_plains"
 	culture="meroitic"
@@ -1475,277 +511,7 @@
 	}
 }
 
-9888={ #Tulih
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-9889={ #Fura
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="camel"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		culture="blemmyan"
-		religion="egyptian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-9890={ #Kurmut
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="earthware"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-9891={ #Halfa
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="precious_metals"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	slaves={
-		culture="blemmyan"
-		religion="egyptian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-9892={ #Kalas
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-9893={ #Kuweib
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="stone"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	slaves={
-		culture="blemmyan"
-		religion="egyptian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-9894={ #Khafur
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="leather"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		culture="blemmyan"
-		religion="egyptian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-9895={ #Barkol
-	terrain="desert"
-	culture="meroitic"
-	religion="egyptian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="blemmyan"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	slaves={
-		culture="blemmyan"
-		amount=1
-	}
-}
-
-9914={ #Biyar
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="camel"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-9915={ #Duweb
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-9916={ #Hidiglib
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-9917={ #Murrat
-	terrain="desert_hills"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="precious_metals"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		culture="upper_egyptian"
-		religion="egyptian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-9918={ #Sufar
-	terrain="desert_hills"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="gems"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-9919={ #Doum
-	terrain="desert_hills"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="precious_metals"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	slaves={
-		culture="upper_egyptian"
-		religion="egyptian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-9920={ #Gabgaba
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="precious_metals"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-9921={ #Dayyub
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="leather"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-9922={ #Meragh
+9922={ #PROV9922
 	terrain="desert"
 	culture="napatan"
 	religion="egyptian_pantheon"
@@ -1766,7 +532,7 @@
 	}
 }
 
-9923={ #Hosh
+9923={ #PROV9923
 	terrain="desert"
 	culture="alutan"
 	religion="egyptian_pantheon"
@@ -1787,7 +553,7 @@
 	}
 }
 
-9924={ #Bum
+9924={ #PROV9924
 	terrain="desert"
 	culture="alutan"
 	religion="egyptian_pantheon"
@@ -1803,7 +569,7 @@
 	}
 }
 
-9925={ #Baggura
+9925={ #PROV9925
 	terrain="desert"
 	culture="alutan"
 	religion="egyptian_pantheon"
@@ -1816,7 +582,7 @@
 	}
 }
 
-9926={ #Samra
+9926={ #PROV9926
 	terrain="desert"
 	culture="alutan"
 	religion="egyptian_pantheon"
@@ -1832,7 +598,7 @@
 	}
 }
 
-9927={ #Fashfash
+9927={ #PROV9927
 	terrain="desert"
 	culture="alutan"
 	religion="egyptian_pantheon"
@@ -1848,7 +614,7 @@
 	}
 }
 
-9928={ #Muqaddam
+9928={ #PROV9928
 	terrain="desert"
 	culture="alutan"
 	religion="egyptian_pantheon"
@@ -1864,7 +630,7 @@
 	}
 }
 
-9929={ #Bana
+9929={ #PROV9929
 	terrain="desert"
 	culture="alutan"
 	religion="egyptian_pantheon"
@@ -1877,7 +643,7 @@
 	}
 }
 
-9930={ #Kigeira
+9930={ #PROV9930
 	terrain="desert"
 	culture="alutan"
 	religion="egyptian_pantheon"
@@ -1890,7 +656,7 @@
 	}
 }
 
-9931={ #Amara
+9931={ #PROV9931
 	terrain="plains"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -1914,7 +680,7 @@
 	}
 }
 
-9932={ #Sennar
+9932={ #PROV9932
 	terrain="flood_plain"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -1941,7 +707,7 @@
 	}
 }
 
-9933={ #Jebel Moya
+9933={ #PROV9933
 	terrain="plains"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -1963,7 +729,7 @@
 	}
 }
 
-9934={ #Rabak
+9934={ #PROV9934
 	terrain="flood_plain"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -1985,7 +751,7 @@
 	}
 }
 
-9935={ #Kawah
+9935={ #PROV9935
 	terrain="plains"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -2004,7 +770,7 @@
 	}
 }
 
-9936={ #Manaqil
+9936={ #PROV9936
 	terrain="hills"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -2023,7 +789,7 @@
 	}
 }
 
-9937={ #Singa
+9937={ #PROV9937
 	terrain="flood_plain"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -2042,7 +808,7 @@
 	}
 }
 
-9938={ #Surayj
+9938={ #PROV9938
 	terrain="plains"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -2058,7 +824,7 @@
 	}
 }
 
-9939={ #Sabbalo
+9939={ #PROV9939
 	terrain="plains"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -2074,7 +840,7 @@
 	}
 }
 
-9940={ #Santah
+9940={ #PROV9940
 	terrain="plains"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -2087,7 +853,7 @@
 	}
 }
 
-9941={ #Abal
+9941={ #PROV9941
 	terrain="marsh"
 	culture="syrbotian"
 	religion="egyptian_pantheon"
@@ -2100,7 +866,7 @@
 	}
 }
 
-10373={ #Aborepi
+10373={ #PROV10373
 	terrain="hills"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2145,7 +911,7 @@
 	}
 }
 
-10374={ #Nagaa
+10374={ #PROV10374
 	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2195,7 +961,7 @@
 	}
 }
 
-10375={ #Kasir
+10375={ #PROV10375
 	terrain="plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2218,7 +984,7 @@
 	}
 }
 
-10376={ #Mahdood
+10376={ #PROV10376
 	terrain="plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2238,7 +1004,7 @@
 	}
 }
 
-10377={ #Hissuna
+10377={ #PROV10377
 	terrain="plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2261,7 +1027,7 @@
 	}
 }
 
-10378={ #Surayriyah
+10378={ #PROV10378
 	terrain="plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2284,7 +1050,7 @@
 	}
 }
 
-10379={ #Sayyidab
+10379={ #PROV10379
 	terrain="plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2304,7 +1070,7 @@
 	}
 }
 
-10380={ #Hejeilat
+10380={ #PROV10380
 	terrain="plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2327,7 +1093,7 @@
 	}
 }
 
-10381={ #Hamadab
+10381={ #PROV10381
 	terrain="flood_plain"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2350,7 +1116,7 @@
 	}
 }
 
-10382={ #Bafalil
+10382={ #PROV10382
 	terrain="plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2370,7 +1136,7 @@
 	}
 }
 
-10383={ #Hatab
+10383={ #PROV10383
 	terrain="plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2393,7 +1159,7 @@
 	}
 }
 
-10384={ #Suriba
+10384={ #PROV10384
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2410,7 +1176,7 @@
 	}
 }
 
-10385={ #Adabda
+10385={ #PROV10385
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2427,7 +1193,7 @@
 	}
 }
 
-10386={ #Zariba
+10386={ #PROV10386
 	terrain="hills"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2440,7 +1206,7 @@
 	}
 }
 
-10387={ #Keili
+10387={ #PROV10387
 	terrain="hills"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2457,7 +1223,7 @@
 	}
 }
 
-10388={ #Harazah
+10388={ #PROV10388
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2470,161 +1236,7 @@
 	}
 }
 
-10389={ #Kaweit
-	terrain="desert_hills"
-	culture="adabulian"
-	religion="egyptian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		culture="meroitic"
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-10390={ #Sinkat
-	terrain="desert_hills"
-	culture="adabulian"
-	religion="egyptian_pantheon"
-	trade_goods="gems"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=8
-	}
-	slaves={
-		culture="meroitic"
-		amount=2
-	}
-	slaves={
-		culture="blemmyan"
-		amount=1
-	}
-}
-
-10391={ #Tabot
-	terrain="desert_hills"
-	culture="adabulian"
-	religion="egyptian_pantheon"
-	trade_goods="precious_metals"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=5
-	}
-	slaves={
-		culture="meroitic"
-		amount=1
-	}
-}
-
-10392={ #Misrar
-	terrain="desert"
-	culture="adabulian"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-10393={ #Hamdab
-	terrain="desert_hills"
-	culture="adabulian"
-	religion="egyptian_pantheon"
-	trade_goods="cattle"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=4
-	}
-}
-
-10394={ #Tohamiyam
-	terrain="desert_hills"
-	culture="adabulian"
-	religion="egyptian_pantheon"
-	trade_goods="leather"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-}
-
-10395={ #Talguharai
-	terrain="desert_hills"
-	culture="adabulian"
-	religion="egyptian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-10396={ #Mahaneit
-	terrain="desert_hills"
-	culture="adabulian"
-	religion="egyptian_pantheon"
-	trade_goods="cattle"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-}
-
-10397={ #Qoqay
-	terrain="desert_hills"
-	culture="adabulian"
-	religion="egyptian_pantheon"
-	trade_goods="stone"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=4
-	}
-	slaves={
-		culture="boran"
-		amount=1
-	}
-	slaves={
-		culture="meroitic"
-		amount=1
-	}
-}
-
-10398={ #Hashim
-	terrain="desert"
-	culture="adabulian"
-	religion="egyptian_pantheon"
-	trade_goods="camel"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-10399={ #Kakabi
+10399={ #PROV10399
 	terrain="plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2645,7 +1257,7 @@
 	}
 }
 
-10400={ #Hufrah
+10400={ #PROV10400
 	terrain="plains"
 	culture="meroitic"
 	religion="egyptian_pantheon"
@@ -2662,7 +1274,7 @@
 	}
 }
 
-10401={ #Bagarah
+10401={ #PROV10401
 	terrain="plains"
 	culture="boran"
 	religion="egyptian_pantheon"
@@ -2675,7 +1287,7 @@
 	}
 }
 
-10402={ #Essayal
+10402={ #PROV10402
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2688,7 +1300,7 @@
 	}
 }
 
-10403={ #Mirikh
+10403={ #PROV10403
 	terrain="plains"
 	culture="boran"
 	religion="egyptian_pantheon"
@@ -2701,7 +1313,7 @@
 	}
 }
 
-10404={ #Shirayyet
+10404={ #PROV10404
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2714,7 +1326,7 @@
 	}
 }
 
-10405={ #Kawahilah
+10405={ #PROV10405
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2727,7 +1339,7 @@
 	}
 }
 
-10406={ #Thalathun
+10406={ #PROV10406
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2744,7 +1356,7 @@
 	}
 }
 
-10407={ #Qigi
+10407={ #PROV10407
 	terrain="hills"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2757,7 +1369,7 @@
 	}
 }
 
-10408={ #Azraq
+10408={ #PROV10408
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2774,7 +1386,7 @@
 	}
 }
 
-10409={ #Ghorani
+10409={ #PROV10409
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2787,7 +1399,7 @@
 	}
 }
 
-10410={ #Fao
+10410={ #PROV10410
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2804,7 +1416,7 @@
 	}
 }
 
-10411={ #Singda
+10411={ #PROV10411
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2817,7 +1429,7 @@
 	}
 }
 
-10412={ #Qadarif
+10412={ #PROV10412
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2834,7 +1446,7 @@
 	}
 }
 
-10413={ #Dinder
+10413={ #PROV10413
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2851,7 +1463,7 @@
 	}
 }
 
-10414={ #Qalbi
+10414={ #PROV10414
 	terrain="plains"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2864,7 +1476,7 @@
 	}
 }
 
-10415={ #Simsim
+10415={ #PROV10415
 	terrain="forest"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2877,7 +1489,7 @@
 	}
 }
 
-10416={ #Rumaylah
+10416={ #PROV10416
 	terrain="forest"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2890,7 +1502,7 @@
 	}
 }
 
-10417={ #Gisi
+10417={ #PROV10417
 	terrain="forest"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2903,7 +1515,7 @@
 	}
 }
 
-10418={ #Kura
+10418={ #PROV10418
 	terrain="forest"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -2916,7 +1528,7 @@
 	}
 }
 
-10419={ #Gamal
+10419={ #PROV10419
 	terrain="plains"
 	culture="rhizophagian"
 	religion="egyptian_pantheon"
@@ -2929,7 +1541,7 @@
 	}
 }
 
-10420={ #Matamir
+10420={ #PROV10420
 	terrain="plains"
 	culture="rhizophagian"
 	religion="egyptian_pantheon"
@@ -2942,7 +1554,7 @@
 	}
 }
 
-10421={ #Kassala
+10421={ #PROV10421
 	terrain="plains"
 	culture="rhizophagian"
 	religion="egyptian_pantheon"
@@ -2955,7 +1567,7 @@
 	}
 }
 
-10422={ #Hagiz
+10422={ #PROV10422
 	terrain="plains"
 	culture="rhizophagian"
 	religion="egyptian_pantheon"
@@ -2968,7 +1580,7 @@
 	}
 }
 
-10423={ #Gash
+10423={ #PROV10423
 	terrain="plains"
 	culture="rhizophagian"
 	religion="egyptian_pantheon"
@@ -2981,7 +1593,7 @@
 	}
 }
 
-10424={ #Taragaga
+10424={ #PROV10424
 	terrain="plains"
 	culture="boran"
 	religion="egyptian_pantheon"
@@ -2998,7 +1610,7 @@
 	}
 }
 
-10425={ #Tuwesat
+10425={ #PROV10425
 	terrain="plains"
 	culture="boran"
 	religion="egyptian_pantheon"
@@ -3011,7 +1623,7 @@
 	}
 }
 
-10426={ #Kalakoy
+10426={ #PROV10426
 	terrain="plains"
 	culture="boran"
 	religion="egyptian_pantheon"
@@ -3024,7 +1636,7 @@
 	}
 }
 
-10427={ #Haykota
+10427={ #PROV10427
 	terrain="plains"
 	culture="rhizophagian"
 	religion="egyptian_pantheon"
@@ -3037,7 +1649,7 @@
 	}
 }
 
-10428={ #Mareb
+10428={ #PROV10428
 	terrain="plains"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -3050,7 +1662,7 @@
 	}
 }
 
-10429={ #Hambok
+10429={ #PROV10429
 	terrain="hills"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -3063,7 +1675,7 @@
 	}
 }
 
-10430={ #Durna
+10430={ #PROV10430
 	terrain="hills"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -3076,7 +1688,7 @@
 	}
 }
 
-10431={ #Baqbaqah
+10431={ #PROV10431
 	terrain="forest"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3094,7 +1706,7 @@
 	}
 }
 
-10432={ #Gabub
+10432={ #PROV10432
 	terrain="forest"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3112,7 +1724,7 @@
 	}
 }
 
-10433={ #Barakit
+10433={ #PROV10433
 	terrain="forest"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3130,7 +1742,7 @@
 	}
 }
 
-10434={ #Boval
+10434={ #PROV10434
 	terrain="forest"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3143,7 +1755,7 @@
 	}
 }
 
-10435={ #Metemmeh
+10435={ #PROV10435
 	terrain="hills"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3156,7 +1768,7 @@
 	}
 }
 
-10436={ #Tawirda
+10436={ #PROV10436
 	terrain="forest"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3174,7 +1786,7 @@
 	}
 }
 
-10437={ #Gherma
+10437={ #PROV10437
 	terrain="forest"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3187,7 +1799,7 @@
 	}
 }
 
-10438={ #Haria
+10438={ #PROV10438
 	terrain="hills"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3205,7 +1817,7 @@
 	}
 }
 
-10439={ #Maganan
+10439={ #PROV10439
 	terrain="forest"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3223,7 +1835,7 @@
 	}
 }
 
-10440={ #Uacne
+10440={ #PROV10440
 	terrain="hills"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3241,7 +1853,7 @@
 	}
 }
 
-10441={ #Samtarru
+10441={ #PROV10441
 	terrain="forest"
 	culture="kumuzan"
 	religion="egyptian_pantheon"
@@ -3254,7 +1866,7 @@
 	}
 }
 
-10442={ #Weyto
+10442={ #PROV10442
 	terrain="forest"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -3266,3 +1878,4 @@
 		amount=2
 	}
 }
+

@@ -1,23 +1,4 @@
-﻿340={ #Turgalium
-	terrain="hills"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="precious_metals"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-1023={ #Mantua Carpetania
+﻿1023={ #Mantua Carpetania
 	terrain="plains"
 	culture="carpetanian"
 	religion="druidism"
@@ -378,54 +359,6 @@
 	citizen={
 		amount=1
 	}
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1200={ #Vettonia Superioris
-	terrain="hills"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="stone"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1201={ #Vettonia Inferioris
-	terrain="hills"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="base_metals"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1202={ #Vaddua
-	terrain="hills"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="fur"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
 	freemen={
 		amount=1
 	}
@@ -1282,108 +1215,6 @@
 	}
 }
 
-1406={ #Artigi
-	terrain="plains"
-	culture="turdulian"
-	religion="animism"
-	trade_goods="leather"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1434={ #Tamusia
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="earthware"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-1437={ #Augustobriga Vettonia
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="grain"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1438={ #Caesarobriga
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="grain"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=6
-	}
-}
-
-1439={ #Mirobriga
-	terrain="plains"
-	culture="turdulian"
-	religion="animism"
-	trade_goods="cinnabar"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1440={ #Baedro
-	terrain="plains"
-	culture="turdulian"
-	religion="animism"
-	trade_goods="base_metals"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
 1443={ #Edeba
 	terrain="hills"
 	culture="oretanian"
@@ -1397,60 +1228,6 @@
 	}
 	tribesmen={
 		amount=4
-	}
-}
-
-1444={ #Solia
-	terrain="plains"
-	culture="turdulian"
-	religion="animism"
-	trade_goods="cloth"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1448={ #Carcuvium
-	terrain="plains"
-	culture="oretanian"
-	religion="animism"
-	trade_goods="base_metals"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1449={ #Oretum
-	terrain="plains"
-	culture="oretanian"
-	religion="animism"
-	trade_goods="horses"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=5
 	}
 }
 
@@ -1502,38 +1279,6 @@
 	}
 }
 
-1454={ #Brutobriga
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="horses"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1455={ #Satella
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="cattle"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
 1456={ #Pilonicoria
 	terrain="plains"
 	culture="carpetanian"
@@ -1555,108 +1300,6 @@
 	culture="carpetanian"
 	religion="druidism"
 	trade_goods="leather"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1458={ #Dunites
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="horses"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1459={ #Messicia
-	terrain="plains"
-	culture="turdulian"
-	religion="animism"
-	trade_goods="horses"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1460={ #Sattalicia
-	terrain="plains"
-	culture="turdulian"
-	religion="animism"
-	trade_goods="cloth"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1461={ #Bocouriqua
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="fur"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1462={ #Catonita
-	terrain="hills"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="fur"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-1463={ #Solorbes
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="fur"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"

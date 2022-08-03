@@ -11,6 +11,64 @@
 	}
 }
 
+4771={ #Leucaristus
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4772={ #Calisia
+	terrain="forest"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="base_metals"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4777={ #Vartia
+	terrain="plains"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4778={ #Lygia
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
 4887={ #Cracovia
 	terrain="plains"
 	culture="irminonic"
@@ -98,6 +156,22 @@
 	}
 }
 
+4894={ #Arsonis
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
 4895={ #Mitabis
 	terrain="plains"
 	culture="irminonic"
@@ -124,11 +198,11 @@
 	}
 }
 
-4914={ #Carsidava
-	terrain="forest"
-	culture="harpii"
-	religion="shamanism"
-	trade_goods="wood"
+4897={ #Lecrotiana
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="hemp"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -137,11 +211,40 @@
 	}
 }
 
-4936={ #Ad Verticem
+4898={ #Vectia
 	terrain="forest"
-	culture="harpii"
-	religion="shamanism"
-	trade_goods="fur"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4899={ #Sidaris
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4900={ #Ambium
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="grain"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -156,16 +259,67 @@
 	}
 }
 
-4937={ #Confluentia Subcarpathica
+4901={ #Salata
 	terrain="forest"
-	culture="harpii"
-	religion="shamanism"
+	culture="irminonic"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
 		amount=2
+	}
+}
+
+4902={ #Amellua
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4903={ #Exitanes
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4904={ #Laudicum
+	terrain="forest"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
 	}
 }
 
@@ -369,265 +523,6 @@
 	}
 }
 
-6067={ #Alkonet
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="horses"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-6068={ #Khurra
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="vegetables"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-6069={ #Gosthinya
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="wood"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-6070={ #Lechta
-	terrain="forest"
-	culture="harpii"
-	religion="shamanism"
-	trade_goods="steppe_horses"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-}
-
-6071={ #Shethigk
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="base_metals"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-6072={ #Yukta
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="steppe_horses"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-6073={ #Vonnet
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="hemp"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-6074={ #Tiersi
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="cattle"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-6075={ #Mechkeht
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="vegetables"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-6076={ #Krueng
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="base_metals"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-6077={ #Ghanilkatta
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="hemp"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-6078={ #Notghi
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="hemp"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-6079={ #Vryank
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="fur"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-}
-
-6080={ #Oschka
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="fur"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-6081={ #Kyrtik
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="cattle"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-6082={ #Donts
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="wild_game"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-6084={ #Schech
-	terrain="forest"
-	culture="harpii"
-	religion="shamanism"
-	trade_goods="grain"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-6085={ #Tumin
-	terrain="forest"
-	culture="harpii"
-	religion="shamanism"
-	trade_goods="grain"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-6086={ #Volyatss
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="cattle"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
 6089={ #Vurdant
 	terrain="forest"
 	culture="slavian"
@@ -637,48 +532,6 @@
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-6090={ #Sitya
-	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
-	trade_goods="grain"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-6091={ #Aggrygh
-	terrain="forest"
-	culture="scythian"
-	religion="indo_iranian_religion"
-	trade_goods="horses"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-6092={ #Gelts
-	terrain="forest"
-	culture="scythian"
-	religion="indo_iranian_religion"
-	trade_goods="grain"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
 		amount=1
 	}
 	tribesmen={
@@ -1170,6 +1023,164 @@
 	}
 }
 
+6267={ #Maranot
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6268={ #Venideva
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6269={ #Gurala Venedia
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6270={ #Mantora
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6271={ #Filin
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6272={ #Kavera Venedia
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6273={ #Sopha
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6274={ #Kunegria
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6275={ #Korotan
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6276={ #Venedicania
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6290={ #Egladia
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
 6291={ #Vorytta
 	terrain="plains"
 	culture="aestian"
@@ -1199,6 +1210,19 @@
 	}
 	tribesmen={
 		amount=2
+	}
+}
+
+6293={ #Makkate
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
 	}
 }
 
@@ -1268,142 +1292,6 @@
 	slaves={
 		amount=2
 	}
-	tribesmen={
-		amount=1
-	}
-}
-
-7820={ #Ossioia
-	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
-	trade_goods="wood"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-}
-
-7821={ #Ossioia Orientalis
-	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
-	trade_goods="grain"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-7822={ #Sudionoia Australis
-	terrain="plains"
-	culture="aestian"
-	religion="matrist_religion"
-	trade_goods="leather"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-7823={ #Sudionoia Orientalis
-	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
-	trade_goods="leather"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-7824={ #Revacia
-	terrain="forest"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="fur"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-7825={ #Sentia
-	terrain="plains"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="grain"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-7826={ #Merania
-	terrain="forest"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="fur"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-7827={ #Orentia
-	terrain="forest"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="cattle"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-7828={ #Manoia
-	terrain="forest"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="cattle"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-7829={ #Heritia
-	terrain="forest"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="woad"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
 	tribesmen={
 		amount=1
 	}

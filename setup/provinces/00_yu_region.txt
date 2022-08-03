@@ -22,7 +22,7 @@
 	port_building=1
 }
 
-8380={ #Mcif
+8380={ #Wangcheng (Henan)
 	terrain="farmland"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -66,7 +66,7 @@
 	}
 }
 
-8382={ #Chioukh
+8382={ #Liang
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -88,7 +88,7 @@
 	}
 }
 
-8383={ #Moudjebara
+8383={ #Xincheng
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -110,7 +110,7 @@
 	}
 }
 
-8384={ #Djelfa
+8384={ #Zheng
 	terrain="farmland"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -132,7 +132,7 @@
 	}
 }
 
-8385={ #Ibel
+8385={ #Xingyang
 	terrain="farmland"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -220,7 +220,7 @@
 	}
 }
 
-8393={ #Magoura
+8393={ #Yangdi
 	terrain="farmland"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -242,7 +242,7 @@
 	}
 }
 
-8394={ #Bazensis
+8394={ #Kunyang
 	terrain="farmland"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -264,7 +264,7 @@
 	}
 }
 
-8395={ #Agourai
+8395={ #Wuyang
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -286,7 +286,7 @@
 	}
 }
 
-8396={ #Kandar
+8396={ #Yanling
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -308,7 +308,7 @@
 	}
 }
 
-8397={ #Guigou
+8397={ #Xu
 	terrain="forest"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -368,7 +368,7 @@
 	}
 }
 
-8400={ #Merla
+8400={ #Yangcheng
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -388,7 +388,7 @@
 	holy_site=omen_chinese_songshan
 }
 
-8401={ #Trostyanets
+8401={ #Xiangcheng
 	terrain="farmland"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -473,7 +473,7 @@
 	}
 }
 
-8405={ #Merefa
+8405={ #Ruyang
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -517,7 +517,7 @@
 	}
 }
 
-8407={ #Birky
+8407={ #Tang
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -539,7 +539,7 @@
 	}
 }
 
-8408={ #Hlynsk
+8408={ #Shangcai
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -561,7 +561,7 @@
 	}
 }
 
-8409={ #Boromlya
+8409={ #Yang an
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -646,7 +646,7 @@
 	}
 }
 
-8413={ #Basivka
+8413={ #Nyuyin
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -677,7 +677,7 @@
 	}
 }
 
-8414={ #Moshchenoe
+8414={ #Qin
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -715,7 +715,7 @@
 	}
 }
 
-8416={ #Tereshkivka
+8416={ #Xincai
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -742,7 +742,7 @@
 	}
 }
 
-8417={ #Poharshchyna
+8417={ #Yiyang
 	terrain="forest"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -769,7 +769,7 @@
 	}
 }
 
-8418={ #Nedryhailiv
+8418={ #Qisi
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -796,7 +796,7 @@
 	}
 }
 
-8419={ #Khotove
+8419={ #Qi
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -893,7 +893,7 @@
 	}
 }
 
-8423={ #Ros
+8423={ #Shansang
 	terrain="plains"
 	culture="chu"
 	religion="chinese_religions"
@@ -927,7 +927,7 @@
 	}
 }
 
-8424={ #Teteriv
+8424={ #Xiang
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -949,7 +949,7 @@
 	}
 }
 
-8425={ #Krasne
+8425={ #Xiao
 	terrain="forest"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -971,7 +971,7 @@
 	}
 }
 
-8426={ #Hdzyen
+8426={ #Pei
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -1031,7 +1031,7 @@
 	}
 }
 
-8428={ #Sula
+8428={ #Teng
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -1091,7 +1091,7 @@
 	}
 }
 
-8431={ #Irsha
+8431={ #Qiao
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -1168,7 +1168,7 @@
 	}
 }
 
-8434={ #Hlumcha
+8434={ #Xiayi
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -1187,7 +1187,7 @@
 	}
 }
 
-8447={ #Vasilievicy
+8447={ #Yan
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -1214,7 +1214,7 @@
 	}
 }
 
-8448={ #Milohrad
+8448={ #Ningling
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -1280,7 +1280,7 @@
 	}
 }
 
-8459={ #Kleven
+8459={ #Zhe
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -1302,7 +1302,7 @@
 	}
 }
 
-8460={ #Ret
+8460={ #Yangxia
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -1324,7 +1324,7 @@
 	}
 }
 
-8461={ #Hrabiv
+8461={ #Yu
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"

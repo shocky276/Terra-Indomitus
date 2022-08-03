@@ -1,4 +1,4 @@
-﻿8479={ #Belaya
+﻿8479={ #Chengyang
 	terrain="plains"
 	culture="qilu"
 	religion="chinese_religions"
@@ -64,7 +64,7 @@
 	}
 }
 
-8525={ #Dyagili
+8525={ #Gumu
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -86,7 +86,7 @@
 	}
 }
 
-8526={ #Guta
+8526={ #Ji
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -151,7 +151,7 @@
 	}
 }
 
-8528={ #Yelnya
+8528={ #Zuohang
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -226,7 +226,7 @@
 	}
 }
 
-8533={ #Dzyarzhynsk
+8533={ #Qufu
 	terrain="farmland"
 	culture="xu"
 	religion="chinese_religions"
@@ -248,7 +248,7 @@
 	}
 }
 
-8534={ #Berezina
+8534={ #Bian
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -305,7 +305,7 @@
 	}
 }
 
-8537={ #Minsk
+8537={ #Zou
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -327,7 +327,7 @@
 	}
 }
 
-8538={ #Byerazino
+8538={ #Ni
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -349,7 +349,7 @@
 	}
 }
 
-8539={ #Smarhon
+8539={ #Xue
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -371,7 +371,7 @@
 	}
 }
 
-8540={ #Lunichno
+8540={ #Pengcheng
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -425,7 +425,7 @@
 	}
 }
 
-8542={ #Lepiel
+8542={ #Wu
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -452,7 +452,7 @@
 	}
 }
 
-8543={ #Lukomlskoye
+8543={ #Youyang
 	terrain="marsh"
 	culture="xu"
 	religion="chinese_religions"
@@ -476,7 +476,7 @@
 	}
 }
 
-8544={ #Krasnaya
+8544={ #Licheng
 	terrain="forest"
 	culture="xu"
 	religion="chinese_religions"
@@ -500,7 +500,7 @@
 	}
 }
 
-8545={ #Shlou
+8545={ #Siwu
 	terrain="forest"
 	culture="xu"
 	religion="chinese_religions"
@@ -524,7 +524,7 @@
 	}
 }
 
-8546={ #Gory
+8546={ #Qiyang
 	terrain="forest"
 	culture="xu"
 	religion="chinese_religions"
@@ -543,7 +543,7 @@
 	}
 }
 
-8547={ #Mogilev
+8547={ #Wucheng
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -581,7 +581,7 @@
 	}
 }
 
-8549={ #Chavusy
+8549={ #Xiangfen
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -638,7 +638,7 @@
 	}
 }
 
-8552={ #Liska
+8552={ #Xiapei
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -661,7 +661,7 @@
 	}
 }
 
-8553={ #Bazki
+8553={ #Xu
 	terrain="farmland"
 	culture="xu"
 	religion="chinese_religions"
@@ -711,7 +711,7 @@
 	}
 }
 
-8554={ #Kalmykovskii
+8554={ #Ling
 	terrain="forest"
 	culture="huaiyi"
 	religion="chinese_religions"
@@ -742,7 +742,7 @@
 	}
 }
 
-8555={ #Bolshoi
+8555={ #Guangling
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -784,7 +784,7 @@
 	}
 }
 
-8556={ #Berezovaya
+8556={ #Haiyang
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -813,7 +813,7 @@
 	}
 }
 
-8557={ #Tikhaya
+8557={ #Yan
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -870,7 +870,7 @@
 	}
 }
 
-8559={ #Bogucharka
+8559={ #Tang
 	terrain="marsh"
 	culture="wuyue"
 	religion="chinese_religions"
@@ -897,7 +897,7 @@
 	}
 }
 
-8560={ #Titarevka
+8560={ #Tong
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"
@@ -932,7 +932,7 @@
 	}
 }
 
-8561={ #Komyshna
+8561={ #Rouyou
 	terrain="plains"
 	culture="xu"
 	religion="chinese_religions"

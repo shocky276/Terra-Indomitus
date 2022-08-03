@@ -842,8 +842,8 @@
 		amount=3
 	}
 	slaves={
-		amount=3
 		culture="joseon"
+		amount=3
 	}
 	port_building=1
 }
@@ -974,8 +974,8 @@
 		amount=2
 	}
 	slaves={
-		amount=3
 		culture="joseon"
+		amount=3
 	}
 }
 

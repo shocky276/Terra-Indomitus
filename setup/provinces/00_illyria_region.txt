@@ -138,66 +138,6 @@
 	}
 }
 
-4024={ #Emona
-	terrain="mountain"
-	culture="carnian"
-	religion="druidism"
-	trade_goods="horses"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4025={ #Carnium
-	terrain="mountain"
-	culture="carnian"
-	religion="druidism"
-	trade_goods="cinnabar"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=6
-	}
-}
-
-4026={ #Longaticum
-	terrain="hills"
-	culture="carnian"
-	religion="druidism"
-	trade_goods="horses"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
 4032={ #Curicum
 	terrain="hills"
 	culture="histrian"
@@ -309,6 +249,25 @@
 	}
 }
 
+4038={ #Andautonion
+	terrain="hills"
+	culture="catari"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
 4040={ #Kataraia
 	terrain="forest"
 	culture="catari"
@@ -325,6 +284,22 @@
 	}
 	tribesmen={
 		amount=3
+	}
+}
+
+4041={ #Segestike
+	terrain="hills"
+	culture="catari"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
 	}
 }
 
@@ -420,7 +395,7 @@
 	}
 }
 
-4049={ #Vegium
+4049={ #Begion
 	terrain="hills"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -455,7 +430,7 @@
 	}
 }
 
-4051={ #Ancus
+4051={ #Ankos
 	terrain="forest"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -471,7 +446,7 @@
 	}
 }
 
-4052={ #Cissa
+4052={ #Kissa
 	terrain="plains"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -493,7 +468,7 @@
 	}
 }
 
-4053={ #Aenona
+4053={ #Ainona
 	terrain="farmland"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -515,7 +490,7 @@
 	}
 }
 
-4054={ #Iader
+4054={ #Idassa
 	terrain="plains"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -535,7 +510,7 @@
 	port_building=1
 }
 
-4055={ #Argyruntum
+4055={ #Arkyrounton
 	terrain="hills"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -884,6 +859,47 @@
 	}
 }
 
+4073={ #Praitorion
+	terrain="forest"
+	culture="deurian"
+	religion="roman_pantheon"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4074={ #Serbinon
+	terrain="hills"
+	culture="deurian"
+	religion="roman_pantheon"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
 4075={ #Kastra
 	terrain="plains"
 	culture="deurian"
@@ -894,6 +910,28 @@
 	province_rank="settlement"
 	freemen={
 		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4076={ #Ourbate
+	terrain="forest"
+	culture="deurian"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -1177,76 +1215,6 @@
 	}
 }
 
-4092={ #Labeiaton
-	terrain="mountain"
-	culture="taulantian"
-	religion="roman_pantheon"
-	trade_goods="leather"
-	civilization_value=16
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-4094={ #Gabouleion
-	terrain="forest"
-	culture="dardanian"
-	religion="roman_pantheon"
-	trade_goods="fur"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-4102={ #Grabaion
-	terrain="mountain"
-	culture="taulantian"
-	religion="roman_pantheon"
-	trade_goods="stone"
-	civilization_value=6
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-}
-
-4103={ #Seuaston
-	terrain="mountain"
-	culture="deraemestian"
-	religion="roman_pantheon"
-	trade_goods="horses"
-	civilization_value=6
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-}
-
 4104={ #Leousinion
 	terrain="mountain"
 	culture="greco_illyrian"
@@ -1285,25 +1253,6 @@
 	}
 }
 
-4106={ #Rhisetia
-	terrain="hills"
-	culture="deraemestian"
-	religion="roman_pantheon"
-	trade_goods="wood"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=5
-	}
-}
-
 4107={ #Haidon
 	terrain="forest"
 	culture="deraemestian"
@@ -1314,85 +1263,6 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4121={ #Gradus
-	terrain="hills"
-	culture="deraemestian"
-	religion="roman_pantheon"
-	trade_goods="stone"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-4122={ #Parthinia
-	terrain="plains"
-	culture="celtic_pannonian"
-	religion="roman_pantheon"
-	trade_goods="wood"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-4125={ #Domavia
-	terrain="hills"
-	culture="deurian"
-	religion="roman_pantheon"
-	trade_goods="horses"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4127={ #Malouesia
-	terrain="hills"
-	culture="deraemestian"
-	religion="roman_pantheon"
-	trade_goods="precious_metals"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
 	}
 	slaves={
 		amount=1

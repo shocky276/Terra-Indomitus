@@ -157,7 +157,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-3292={ #Desert
+
+3292={ #Bezereos
 	terrain="impassable_terrain"
 	culture="massylian"
 	religion="berber_religion"
@@ -3577,7 +3578,7 @@
 	province_rank=""
 }
 
-5320={ #Salinae Tubunenses
+5320={ #Eastern Gaetulia
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -4047,7 +4048,7 @@
 	province_rank=""
 }
 
-5367{ #Lake Tritonis
+5367={ #Eastern Musalamia
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -4365,6 +4366,22 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
+}
+
+5601={ #Kusta
+	terrain="mountain"
+	culture="zhangzhung"
+	religion="bon_religion"
+	trade_goods="cattle"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
 }
 
 5710={ #Fretum Gallicum
@@ -8467,7 +8484,7 @@
 	province_rank=""
 }
 
-8063={ #Desert
+8063={ #PROV8063
 	terrain="impassable_terrain"
 	culture="meroitic"
 	religion="berber_religion"
@@ -8477,7 +8494,7 @@
 	province_rank=""
 }
 
-8064={ #Desert
+8064={ #PROV8064
 	terrain="impassable_terrain"
 	culture="nasamonian"
 	religion="berber_religion"
@@ -8487,7 +8504,7 @@
 	province_rank=""
 }
 
-8065={ #Desert
+8065={ #PROV8065
 	terrain="impassable_terrain"
 	culture="macaean"
 	religion="berber_religion"
@@ -8497,7 +8514,7 @@
 	province_rank=""
 }
 
-8066={ #Desert
+8066={ #PROV8066
 	terrain="impassable_terrain"
 	culture="garamantic"
 	religion="berber_religion"
@@ -8507,7 +8524,7 @@
 	province_rank=""
 }
 
-8067={ #Desert
+8067={ #PROV8067
 	terrain="impassable_terrain"
 	culture="nasamonian"
 	religion="berber_religion"
@@ -8517,7 +8534,7 @@
 	province_rank=""
 }
 
-8068={ #Desert
+8068={ #PROV8068
 	terrain="impassable_terrain"
 	culture="garamantic"
 	religion="berber_religion"
@@ -8527,7 +8544,7 @@
 	province_rank=""
 }
 
-8069={ #Desert
+8069={ #PROV8069
 	terrain="impassable_terrain"
 	culture="garamantic"
 	religion="berber_religion"
@@ -8537,7 +8554,7 @@
 	province_rank=""
 }
 
-8070={ #Desert
+8070={ #PROV8070
 	terrain="impassable_terrain"
 	culture="macaean"
 	religion="berber_religion"
@@ -8547,7 +8564,7 @@
 	province_rank=""
 }
 
-8071={ #Desert
+8071={ #PROV8071
 	terrain="impassable_terrain"
 	culture="macaean"
 	religion="berber_religion"
@@ -8557,7 +8574,7 @@
 	province_rank=""
 }
 
-8072={ #Desert
+8072={ #PROV8072
 	terrain="impassable_terrain"
 	culture="macaean"
 	religion="berber_religion"
@@ -8567,7 +8584,7 @@
 	province_rank=""
 }
 
-8073={ #Desert
+8073={ #PROV8073
 	terrain="impassable_terrain"
 	culture="macaean"
 	religion="berber_religion"
@@ -8577,7 +8594,7 @@
 	province_rank=""
 }
 
-8074={ #Desert
+8074={ #PROV8074
 	terrain="impassable_terrain"
 	culture="phazani"
 	religion="berber_religion"
@@ -8587,7 +8604,7 @@
 	province_rank=""
 }
 
-8075={ #Desert
+8075={ #PROV8075
 	terrain="impassable_terrain"
 	culture="phazani"
 	religion="berber_religion"
@@ -8597,7 +8614,7 @@
 	province_rank=""
 }
 
-8076={ #Desert
+8076={ #PROV8076
 	terrain="impassable_terrain"
 	culture="phazani"
 	religion="berber_religion"
@@ -8607,7 +8624,7 @@
 	province_rank=""
 }
 
-8077={ #Desert
+8077={ #PROV8077
 	terrain="impassable_terrain"
 	culture="phazani"
 	religion="berber_religion"
@@ -8617,7 +8634,7 @@
 	province_rank=""
 }
 
-8078={ #Desert
+8078={ #PROV8078
 	terrain="impassable_terrain"
 	culture="phazani"
 	religion="berber_religion"
@@ -8627,7 +8644,7 @@
 	province_rank=""
 }
 
-8079={ #Desert
+8079={ #PROV8079
 	terrain="impassable_terrain"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -8637,7 +8654,7 @@
 	province_rank=""
 }
 
-8080={ #Desert
+8080={ #PROV8080
 	terrain="impassable_terrain"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -8647,7 +8664,7 @@
 	province_rank=""
 }
 
-8081={ #Desert
+8081={ #PROV8081
 	terrain="impassable_terrain"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -8657,7 +8674,7 @@
 	province_rank=""
 }
 
-8082={ #Desert
+8082={ #PROV8082
 	terrain="impassable_terrain"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -8667,7 +8684,7 @@
 	province_rank=""
 }
 
-8083={ #Desert
+8083={ #PROV8083
 	terrain="impassable_terrain"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -8677,7 +8694,7 @@
 	province_rank=""
 }
 
-8084={ #Atlas Impassable
+8084={ #PROV8084
 	terrain="impassable_terrain"
 	culture="daphnitaean"
 	religion="berber_religion"
@@ -8687,7 +8704,7 @@
 	province_rank=""
 }
 
-8085={ #Atlas Impassable
+8085={ #PROV8085
 	terrain="impassable_terrain"
 	culture="daphnitaean"
 	religion="berber_religion"
@@ -8697,7 +8714,7 @@
 	province_rank=""
 }
 
-8086={ #Atlas Impassable
+8086={ #PROV8086
 	terrain="impassable_terrain"
 	culture="daphnitaean"
 	religion="berber_religion"
@@ -8707,7 +8724,7 @@
 	province_rank=""
 }
 
-8087={ #Atlas Impassable
+8087={ #PROV8087
 	terrain="impassable_terrain"
 	culture="capariensian"
 	religion="berber_religion"
@@ -8717,7 +8734,7 @@
 	province_rank=""
 }
 
-8088={ #Sahara
+8088={ #PROV8088
 	terrain="impassable_terrain"
 	culture="canarian"
 	religion="berber_religion"
@@ -8727,7 +8744,7 @@
 	province_rank=""
 }
 
-8089={ #Sahara
+8089={ #PROV8089
 	terrain="impassable_terrain"
 	culture="perorsian"
 	religion="berber_religion"
@@ -8737,7 +8754,7 @@
 	province_rank=""
 }
 
-8090={ #Lake Bazensis
+8090={ #PROV8090
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -8747,7 +8764,7 @@
 	province_rank=""
 }
 
-8091={ #Desert
+8091={ #PROV8091
 	terrain="impassable_terrain"
 	culture="garamantic"
 	religion="berber_religion"
@@ -8757,7 +8774,7 @@
 	province_rank=""
 }
 
-8092={ #Desert
+8092={ #PROV8092
 	terrain="impassable_terrain"
 	culture="garamantic"
 	religion="berber_religion"
@@ -8767,7 +8784,7 @@
 	province_rank=""
 }
 
-8093={ #Desert
+8093={ #PROV8093
 	terrain="impassable_terrain"
 	culture="garamantic"
 	religion="berber_religion"
@@ -8777,27 +8794,7 @@
 	province_rank=""
 }
 
-8094={ #Oceanus Atlanticus
-	terrain="ocean"
-	culture=""
-	religion=""
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-8095={ #Oceanus Atlanticus
-	terrain="ocean"
-	culture=""
-	religion=""
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-8096={ #Sudan Impassable
+8096={ #PROV8096
 	terrain="impassable_terrain"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -8807,7 +8804,7 @@
 	province_rank=""
 }
 
-8097={ #Sudan Impassable
+8097={ #PROV8097
 	terrain="impassable_terrain"
 	culture="nubian"
 	religion="egyptian_pantheon"
@@ -8817,7 +8814,7 @@
 	province_rank=""
 }
 
-8098={ #Ethiopia Mountains
+8098={ #PROV8098
 	terrain="impassable_terrain"
 	culture="daamoti"
 	religion="arabian_pantheon"
@@ -8827,7 +8824,7 @@
 	province_rank=""
 }
 
-8099={ #Ethiopia Mountains
+8099={ #PROV8099
 	terrain="impassable_terrain"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -8837,7 +8834,7 @@
 	province_rank=""
 }
 
-8100={ #Ethiopia Mountains
+8100={ #PROV8100
 	terrain="impassable_terrain"
 	culture="ona"
 	religion="arabian_pantheon"
@@ -8847,7 +8844,7 @@
 	province_rank=""
 }
 
-8101={ #Ethiopia Impassable
+8101={ #PROV8101
 	terrain="impassable_terrain"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -8857,7 +8854,7 @@
 	province_rank=""
 }
 
-8102={ #Sudan Impassable
+8102={ #PROV8102
 	terrain="impassable_terrain"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -8867,7 +8864,7 @@
 	province_rank=""
 }
 
-8103={ #Sudan Impassable
+8103={ #PROV8103
 	terrain="impassable_terrain"
 	culture="adabulian"
 	religion="egyptian_pantheon"
@@ -8877,7 +8874,7 @@
 	province_rank=""
 }
 
-8104={ #Sudan Impassable
+8104={ #PROV8104
 	terrain="impassable_terrain"
 	culture="ona"
 	religion="arabian_pantheon"
@@ -8887,7 +8884,7 @@
 	province_rank=""
 }
 
-8105={ #Somali Impassable
+8105={ #PROV8105
 	terrain="impassable_terrain"
 	culture="avalitian"
 	religion="arabian_pantheon"
@@ -8897,7 +8894,7 @@
 	province_rank=""
 }
 
-8106={ #Somali Impassable
+8106={ #PROV8106
 	terrain="impassable_terrain"
 	culture="berberian"
 	religion="puntic_religion"
@@ -8907,7 +8904,7 @@
 	province_rank=""
 }
 
-8107={ #Somali Impassable
+8107={ #PROV8107
 	terrain="impassable_terrain"
 	culture="puntic"
 	religion="puntic_religion"
@@ -8917,7 +8914,7 @@
 	province_rank=""
 }
 
-8108={ #Somali Impassable
+8108={ #PROV8108
 	terrain="impassable_terrain"
 	culture="puntic"
 	religion="puntic_religion"
@@ -8927,7 +8924,7 @@
 	province_rank=""
 }
 
-8109={ #Somali Impassable
+8109={ #PROV8109
 	terrain="impassable_terrain"
 	culture="puntic"
 	religion="puntic_religion"
@@ -8937,7 +8934,7 @@
 	province_rank=""
 }
 
-8110={ #Mongolian Mountain
+8110={ #PROV8110
 	terrain="impassable_terrain"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -8947,7 +8944,7 @@
 	province_rank=""
 }
 
-8111={ #Manaqil
+8111={ #PROV8111
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8957,7 +8954,7 @@
 	province_rank=""
 }
 
-8112={ #Singa
+8112={ #PROV8112
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8967,7 +8964,7 @@
 	province_rank=""
 }
 
-8113={ #Surayj
+8113={ #PROV8113
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8977,7 +8974,7 @@
 	province_rank=""
 }
 
-8114={ #Sabbalo
+8114={ #PROV8114
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8987,7 +8984,7 @@
 	province_rank=""
 }
 
-8115={ #Northern Bayuda Desert
+8115={ #PROV8115
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -8997,7 +8994,7 @@
 	province_rank=""
 }
 
-8116={ #Southern Bayuda Desert
+8116={ #PROV8116
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9007,7 +9004,7 @@
 	province_rank=""
 }
 
-8117={ #Troglodytic Desert
+8117={ #PROV8117
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9017,7 +9014,7 @@
 	province_rank=""
 }
 
-8118={ #Upper Egyptian Desert
+8118={ #PROV8118
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9027,7 +9024,7 @@
 	province_rank=""
 }
 
-8119={ #Allaqi Desert
+8119={ #PROV8119
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9037,7 +9034,7 @@
 	province_rank=""
 }
 
-8120={ #Kerman Desert
+8120={ #PROV8120
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9047,7 +9044,7 @@
 	province_rank=""
 }
 
-8121={ #Tubat
+8121={ #PROV8121
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9057,7 +9054,7 @@
 	province_rank=""
 }
 
-8122={ #Jaghbub
+8122={ #PROV8122
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9067,7 +9064,7 @@
 	province_rank=""
 }
 
-8123={ #Tarfawi
+8123={ #PROV8123
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9077,7 +9074,7 @@
 	province_rank=""
 }
 
-8124={ #Qabr
+8124={ #PROV8124
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9087,7 +9084,7 @@
 	province_rank=""
 }
 
-8125={ #Mawahi
+8125={ #PROV8125
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9097,7 +9094,7 @@
 	province_rank=""
 }
 
-8126={ #Gicherra
+8126={ #PROV8126
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9107,7 +9104,7 @@
 	province_rank=""
 }
 
-8127={ #Gialo
+8127={ #PROV8127
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9117,7 +9114,7 @@
 	province_rank=""
 }
 
-8128={ #Augila
+8128={ #PROV8128
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9127,7 +9124,7 @@
 	province_rank=""
 }
 
-8129={ #Bu Athla
+8129={ #PROV8129
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9137,7 +9134,7 @@
 	province_rank=""
 }
 
-8130={ #Sahabi
+8130={ #PROV8130
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9147,7 +9144,7 @@
 	province_rank=""
 }
 
-8131={ #Kalanshah
+8131={ #PROV8131
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9157,7 +9154,7 @@
 	province_rank=""
 }
 
-8132={ #Jabbanah
+8132={ #PROV8132
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9167,7 +9164,7 @@
 	province_rank=""
 }
 
-8133={ #Maradah
+8133={ #PROV8133
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9177,7 +9174,7 @@
 	province_rank=""
 }
 
-8134={ #Jafr
+8134={ #PROV8134
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9187,7 +9184,7 @@
 	province_rank=""
 }
 
-8135={ #Desert
+8135={ #PROV8135
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9197,7 +9194,7 @@
 	province_rank=""
 }
 
-8136={ #Talhah
+8136={ #PROV8136
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9207,7 +9204,7 @@
 	province_rank=""
 }
 
-8137={ #Tagrifet
+8137={ #PROV8137
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9217,7 +9214,7 @@
 	province_rank=""
 }
 
-8138={ #Meduin
+8138={ #PROV8138
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9227,7 +9224,7 @@
 	province_rank=""
 }
 
-8139={ #Zala
+8139={ #PROV8139
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9237,7 +9234,7 @@
 	province_rank=""
 }
 
-8140={ #Jufrah
+8140={ #PROV8140
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9247,7 +9244,7 @@
 	province_rank=""
 }
 
-8141={ #Fuqaha
+8141={ #PROV8141
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9257,7 +9254,7 @@
 	province_rank=""
 }
 
-8142={ #Waddan
+8142={ #PROV8142
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9267,7 +9264,7 @@
 	province_rank=""
 }
 
-8143={ #Hun
+8143={ #PROV8143
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9277,7 +9274,7 @@
 	province_rank=""
 }
 
-8144={ #Socna
+8144={ #PROV8144
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9287,7 +9284,7 @@
 	province_rank=""
 }
 
-8145={ #Wilyan
+8145={ #PROV8145
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9297,7 +9294,7 @@
 	province_rank=""
 }
 
-8146={ #Tamshin
+8146={ #PROV8146
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9307,7 +9304,7 @@
 	province_rank=""
 }
 
-8147={ #Mughattah
+8147={ #PROV8147
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9317,7 +9314,7 @@
 	province_rank=""
 }
 
-8148={ #Eastern Black Mountains
+8148={ #PROV8148
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9327,7 +9324,7 @@
 	province_rank=""
 }
 
-8149={ #Umm Abid
+8149={ #PROV8149
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9337,7 +9334,7 @@
 	province_rank=""
 }
 
-8150={ #Psyllic Desert
+8150={ #PROV8150
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9347,7 +9344,7 @@
 	province_rank=""
 }
 
-8151={ #Harawa
+8151={ #PROV8151
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9357,7 +9354,7 @@
 	province_rank=""
 }
 
-8152={ #Brak
+8152={ #PROV8152
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9367,7 +9364,7 @@
 	province_rank=""
 }
 
-8153={ #Hait
+8153={ #PROV8153
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9377,7 +9374,7 @@
 	province_rank=""
 }
 
-8154={ #Wanin
+8154={ #PROV8154
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9387,7 +9384,7 @@
 	province_rank=""
 }
 
-8155={ #Mahruqah
+8155={ #PROV8155
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9397,7 +9394,7 @@
 	province_rank=""
 }
 
-8156={ #Bergin
+8156={ #PROV8156
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9407,7 +9404,7 @@
 	province_rank=""
 }
 
-8157={ #Dedris
+8157={ #PROV8157
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9417,7 +9414,7 @@
 	province_rank=""
 }
 
-8158={ #Shaqiq
+8158={ #PROV8158
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9427,7 +9424,7 @@
 	province_rank=""
 }
 
-8159={ #Adri
+8159={ #PROV8159
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9437,7 +9434,7 @@
 	province_rank=""
 }
 
-8160={ #Adwesa
+8160={ #PROV8160
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9447,7 +9444,7 @@
 	province_rank=""
 }
 
-8161={ #Samnu
+8161={ #PROV8161
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9457,7 +9454,7 @@
 	province_rank=""
 }
 
-8162={ #Sabha
+8162={ #PROV8162
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9467,7 +9464,7 @@
 	province_rank=""
 }
 
-8163={ #Chlef
+8163={ #PROV8163
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9477,7 +9474,7 @@
 	province_rank=""
 }
 
-8164={ #Gelah
+8164={ #PROV8164
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9487,7 +9484,7 @@
 	province_rank=""
 }
 
-8165={ #Western Psyllic Desert
+8165={ #PROV8165
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9497,7 +9494,7 @@
 	province_rank=""
 }
 
-8166={ #Lecksair
+8166={ #PROV8166
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9507,7 +9504,7 @@
 	province_rank=""
 }
 
-8167={ #Zamzam Desert
+8167={ #PROV8167
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9517,7 +9514,7 @@
 	province_rank=""
 }
 
-8168={ #Garama
+8168={ #PROV8168
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9527,7 +9524,7 @@
 	province_rank=""
 }
 
-8169={ #Zinchekra
+8169={ #PROV8169
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9537,7 +9534,7 @@
 	province_rank=""
 }
 
-8170={ #Ninah
+8170={ #PROV8170
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9547,7 +9544,7 @@
 	province_rank=""
 }
 
-8171={ #Gadduwah
+8171={ #PROV8171
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9557,7 +9554,7 @@
 	province_rank=""
 }
 
-8172={ #Daydaban
+8172={ #PROV8172
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9567,7 +9564,7 @@
 	province_rank=""
 }
 
-8173={ #Traghen
+8173={ #PROV8173
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9577,7 +9574,7 @@
 	province_rank=""
 }
 
-8174={ #Murzuq
+8174={ #PROV8174
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9587,7 +9584,7 @@
 	province_rank=""
 }
 
-8175={ #Dujal
+8175={ #PROV8175
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9597,7 +9594,7 @@
 	province_rank=""
 }
 
-8176={ #Desert
+8176={ #PROV8176
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9607,7 +9604,7 @@
 	province_rank=""
 }
 
-8177={ #Desert
+8177={ #PROV8177
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9617,7 +9614,7 @@
 	province_rank=""
 }
 
-8178={ #Sharraba
+8178={ #PROV8178
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9627,7 +9624,7 @@
 	province_rank=""
 }
 
-8179={ #Baghira
+8179={ #PROV8179
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9637,7 +9634,7 @@
 	province_rank=""
 }
 
-8180={ #Harakat
+8180={ #PROV8180
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9647,7 +9644,7 @@
 	province_rank=""
 }
 
-8181={ #Zuwila
+8181={ #PROV8181
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9657,7 +9654,7 @@
 	province_rank=""
 }
 
-8182={ #Tmessa
+8182={ #PROV8182
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9667,7 +9664,7 @@
 	province_rank=""
 }
 
-8183={ #Desert
+8183={ #PROV8183
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9677,7 +9674,7 @@
 	province_rank=""
 }
 
-8184={ #Tisit
+8184={ #PROV8184
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9687,7 +9684,7 @@
 	province_rank=""
 }
 
-8185={ #Garamantic Desert
+8185={ #PROV8185
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9697,7 +9694,7 @@
 	province_rank=""
 }
 
-8186={ #Desert
+8186={ #PROV8186
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9707,7 +9704,7 @@
 	province_rank=""
 }
 
-8187={ #Western Black Mountains
+8187={ #PROV8187
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9717,7 +9714,7 @@
 	province_rank=""
 }
 
-8188={ #Desert
+8188={ #PROV8188
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9727,7 +9724,7 @@
 	province_rank=""
 }
 
-8189={ #Majdul
+8189={ #PROV8189
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9737,7 +9734,7 @@
 	province_rank=""
 }
 
-8190={ #Terbu
+8190={ #PROV8190
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9747,7 +9744,7 @@
 	province_rank=""
 }
 
-8191={ #Izam
+8191={ #PROV8191
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9757,7 +9754,7 @@
 	province_rank=""
 }
 
-8192={ #Qatrun
+8192={ #PROV8192
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9767,7 +9764,7 @@
 	province_rank=""
 }
 
-8193={ #Tajhiri
+8193={ #PROV8193
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9777,7 +9774,7 @@
 	province_rank=""
 }
 
-8194={ #Mastutah
+8194={ #PROV8194
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9787,7 +9784,7 @@
 	province_rank=""
 }
 
-8195={ #Jashalam
+8195={ #PROV8195
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9797,7 +9794,7 @@
 	province_rank=""
 }
 
-8196={ #Gholaia
+8196={ #PROV8196
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9807,7 +9804,7 @@
 	province_rank=""
 }
 
-8197={ #Zayden
+8197={ #PROV8197
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9817,7 +9814,7 @@
 	province_rank=""
 }
 
-8198={ #Auxiqua
+8198={ #PROV8198
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9827,7 +9824,7 @@
 	province_rank=""
 }
 
-8199={ #Manfuchia
+8199={ #PROV8199
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9837,7 +9834,7 @@
 	province_rank=""
 }
 
-8200={ #Nagdiyah
+8200={ #PROV8200
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9847,7 +9844,7 @@
 	province_rank=""
 }
 
-8201={ #Qarinah
+8201={ #PROV8201
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9857,7 +9854,7 @@
 	province_rank=""
 }
 
-8202={ #Majdubiyah
+8202={ #PROV8202
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9867,7 +9864,7 @@
 	province_rank=""
 }
 
-8203={ #Faschia
+8203={ #PROV8203
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9877,7 +9874,7 @@
 	province_rank=""
 }
 
-8204={ #Ghirza
+8204={ #PROV8204
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9887,7 +9884,7 @@
 	province_rank=""
 }
 
-8205={ #Scedeua
+8205={ #PROV8205
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9897,7 +9894,7 @@
 	province_rank=""
 }
 
-8206={ #Duraybikah
+8206={ #PROV8206
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -9907,7 +9904,7 @@
 	province_rank=""
 }
 
-8207={ #Gharbya
+8207={ #PROV8207
 	terrain="impassable_terrain"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -10469,6 +10466,166 @@
 
 9870={ #Impassable
 	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10512={ #PROV10512
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10513={ #PROV10513
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10514={ #PROV10514
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10515={ #PROV10515
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10516={ #PROV10516
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10517={ #PROV10517
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10518={ #PROV10518
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10519={ #PROV10519
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10520={ #PROV10520
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10521={ #PROV10521
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10522={ #PROV10522
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10523={ #PROV10523
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10524={ #PROV10524
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10525={ #PROV10525
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10526={ #PROV10526
+	terrain="true_ocean_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10527={ #PROV10527
+	terrain="true_ocean_terrain"
 	culture=""
 	religion=""
 	trade_goods=""

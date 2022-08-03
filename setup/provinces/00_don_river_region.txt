@@ -77,7 +77,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-10365={ #Tanais6
+
+10365={ #PROV10365
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -86,7 +87,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-10366={ #Tanais7
+
+10366={ #PROV10366
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -95,7 +97,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-10367={ #Tanais8
+
+10367={ #PROV10367
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -104,7 +107,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-10368={ #Tanais9
+
+10368={ #PROV10368
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -113,3 +117,4 @@
 	barbarian_power=0
 	province_rank=""
 }
+

@@ -1,4 +1,4 @@
-﻿8625={ #Azraq
+﻿8625={ #Gaodu
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -17,7 +17,7 @@
 	}
 }
 
-8626={ #Ghorani
+8626={ #Xuanshi
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -38,7 +38,7 @@
 	}
 }
 
-8627={ #Fao
+8627={ #Yishi
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -56,7 +56,7 @@
 	}
 }
 
-8628={ #Singda
+8628={ #Zhangzi
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -75,7 +75,7 @@
 	}
 }
 
-8629={ #Qadarif
+8629={ #Tunliu
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -96,7 +96,7 @@
 	}
 }
 
-8630={ #Dinder
+8630={ #Yuwu
 	terrain="hills"
 	culture="chidi"
 	religion="chinese_religions"
@@ -114,7 +114,7 @@
 	}
 }
 
-8631={ #Qalbi
+8631={ #Ti
 	terrain="plains"
 	culture="chidi"
 	religion="chinese_religions"
@@ -132,7 +132,7 @@
 	}
 }
 
-8632={ #Simsim
+8632={ #Xiangyuan
 	terrain="plains"
 	culture="chidi"
 	religion="chinese_religions"
@@ -163,7 +163,7 @@
 	}
 }
 
-8634={ #Gamal
+8634={ #Lu 
 	terrain="mountain"
 	culture="chidi"
 	religion="chinese_religions"
@@ -181,7 +181,7 @@
 	}
 }
 
-8635={ #Matamir
+8635={ #Zhan
 	terrain="mountain"
 	culture="chidi"
 	religion="chinese_religions"
@@ -226,7 +226,7 @@
 	}
 }
 
-8637={ #Hagiz
+8637={ #Wu
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -245,7 +245,7 @@
 	}
 }
 
-8638={ #Gash
+8638={ #Pingtao
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -264,7 +264,7 @@
 	}
 }
 
-8639={ #Taragaga
+8639={ #Yuci
 	terrain="plains"
 	culture="jin"
 	religion="chinese_religions"
@@ -304,7 +304,7 @@
 	}
 }
 
-8641={ #Kalakoy
+8641={ #Yu
 	terrain="forest"
 	culture="jin"
 	religion="chinese_religions"
@@ -328,7 +328,7 @@
 	}
 }
 
-8642={ #Baqbaqah
+8642={ #Yangqu
 	terrain="hills"
 	culture="baidi"
 	religion="hu_religions"
@@ -350,7 +350,7 @@
 	}
 }
 
-8643={ #Gabub
+8643={ #Luti
 	terrain="mountain"
 	culture="baidi"
 	religion="hu_religions"
@@ -371,7 +371,7 @@
 	}
 }
 
-8644={ #Barakit
+8644={ #Junren
 	terrain="hills"
 	culture="baidi"
 	religion="hu_religions"
@@ -392,7 +392,7 @@
 	}
 }
 
-8645={ #Boval
+8645={ #Fenyang
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -455,7 +455,7 @@
 	}
 }
 
-8648={ #Gherma
+8648={ #Lu
 	terrain="hills"
 	culture="shanrong"
 	religion="hu_religions"
@@ -471,7 +471,7 @@
 	}
 }
 
-8649={ #Haria
+8649={ #Yishi
 	terrain="dry_plains"
 	culture="shanrong"
 	religion="hu_religions"
@@ -526,7 +526,7 @@
 	}
 }
 
-8653={ #Mai Adrasha
+8653={ #Pingcheng
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -566,7 +566,7 @@
 	}
 }
 
-8655={ #Gijet
+8655={ #Loufan
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -595,7 +595,7 @@
 	}
 }
 
-8657={ #Tsirhan
+8657={ #Woyang
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -608,7 +608,7 @@
 	}
 }
 
-8658={ #Mezber
+8658={ #Qiangyin
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -634,7 +634,7 @@
 	}
 }
 
-8660={ #Adi Ugri
+8660={ #Chengle
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -647,7 +647,7 @@
 	}
 }
 
-8661={ #Debarwa
+8661={ #Dingxiang
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -660,7 +660,7 @@
 	}
 }
 
-8662={ #Taille
+8662={ #Wucheng
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"
@@ -673,7 +673,7 @@
 	}
 }
 
-8663={ #Akordat
+8663={ #Yunzhong
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -692,7 +692,7 @@
 	}
 }
 
-8664={ #Tucul
+8664={ #Yuanyang
 	terrain="dry_plains"
 	culture="loufan"
 	religion="hu_religions"
@@ -734,7 +734,7 @@
 	}
 }
 
-8667={ #Isis
+8667={ #Shanan
 	terrain="hills"
 	culture="loufan"
 	religion="hu_religions"

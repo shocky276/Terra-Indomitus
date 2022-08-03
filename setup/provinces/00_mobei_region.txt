@@ -1132,7 +1132,7 @@
 	province_rank=""
 }
 
-10528={ #Astyn Gol
+10528={ #PROV10528
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1145,7 +1145,7 @@
 	}
 }
 
-10529={ #Longcheng
+10529={ #PROV10529
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1160,12 +1160,12 @@
 		amount=11
 	}
 	slaves={
-		amount=4
 		culture="jiankun"
+		amount=4
 	}
 }
 
-10530={ #Egiin Gol
+10530={ #PROV10530
 	terrain="hills"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1178,7 +1178,7 @@
 	}
 }
 
-10531={ #Boroo
+10531={ #PROV10531
 	terrain="hills"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1191,7 +1191,7 @@
 	}
 }
 
-10532={ #Darkhan
+10532={ #PROV10532
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1204,7 +1204,7 @@
 	}
 }
 
-10533={ #Ivolga
+10533={ #PROV10533
 	terrain="steppe"
 	culture="dingling"
 	religion="hu_religions"
@@ -1217,7 +1217,7 @@
 	}
 }
 
-10534={ #Tsakir
+10534={ #PROV10534
 	terrain="steppe"
 	culture="dingling"
 	religion="hu_religions"
@@ -1230,7 +1230,7 @@
 	}
 }
 
-10535={ #Sagan
+10535={ #PROV10535
 	terrain="taiga"
 	culture="dingling"
 	religion="hu_religions"
@@ -1243,7 +1243,7 @@
 	}
 }
 
-10536={ #Irkutsk
+10536={ #PROV10536
 	terrain="taiga"
 	culture="dingling"
 	religion="hu_religions"
@@ -1256,7 +1256,7 @@
 	}
 }
 
-10537={ #Baykalsk
+10537={ #PROV10537
 	terrain="steppe"
 	culture="dingling"
 	religion="hu_religions"
@@ -1269,7 +1269,7 @@
 	}
 }
 
-10538={ #Bayannuur
+10538={ #PROV10538
 	terrain="hills"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1282,7 +1282,7 @@
 	}
 }
 
-10539={ #Zuunmod
+10539={ #PROV10539
 	terrain="hills"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1295,7 +1295,7 @@
 	}
 }
 
-10540={ #Ayrmyrlyg
+10540={ #PROV10540
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1308,7 +1308,7 @@
 	}
 }
 
-10541={ #Dusdag
+10541={ #PROV10541
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1321,7 +1321,7 @@
 	}
 }
 
-10542={ #Ulangom
+10542={ #PROV10542
 	terrain="mountain"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1334,7 +1334,7 @@
 	}
 }
 
-10543={ #Zuungovi
+10543={ #PROV10543
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1347,7 +1347,7 @@
 	}
 }
 
-10544={ #Huryee
+10544={ #PROV10544
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1360,7 +1360,7 @@
 	}
 }
 
-10545={ #Baishint
+10545={ #PROV10545
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1373,7 +1373,7 @@
 	}
 }
 
-10546={ #Terekhol
+10546={ #PROV10546
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1386,7 +1386,7 @@
 	}
 }
 
-10547={ #Haraa Boomiin
+10547={ #PROV10547
 	terrain="hills"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1399,7 +1399,7 @@
 	}
 }
 
-10548={ #Burenhaan
+10548={ #PROV10548
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1412,7 +1412,7 @@
 	}
 }
 
-10549={ #Bulag
+10549={ #PROV10549
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1425,7 +1425,7 @@
 	}
 }
 
-10550={ #Gurvansaikhan
+10550={ #PROV10550
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1438,7 +1438,7 @@
 	}
 }
 
-10551={ #Altraga
+10551={ #PROV10551
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1451,7 +1451,7 @@
 	}
 }
 
-10552={ #Kungurtug
+10552={ #PROV10552
 	terrain="steppe"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1464,7 +1464,7 @@
 	}
 }
 
-10553={ #Yanzeli
+10553={ #PROV10553
 	terrain="hills"
 	culture="xiongnu"
 	religion="hu_religions"
@@ -1477,7 +1477,7 @@
 	}
 }
 
-10554={ #Elga
+10554={ #PROV10554
 	terrain="taiga"
 	culture="dingling"
 	religion="hu_religions"

@@ -1356,7 +1356,7 @@
 	}
 }
 
-10117={ #Zaio
+10117={ #PROV10117
 	terrain="plains"
 	culture="socossian"
 	religion="berber_religion"
@@ -1377,7 +1377,7 @@
 	}
 }
 
-10118={ #Laatamna
+10118={ #PROV10118
 	terrain="plains"
 	culture="socossian"
 	religion="berber_religion"
@@ -1398,7 +1398,7 @@
 	}
 }
 
-10128={ #Kach Kouch
+10128={ #PROV10128
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -1416,7 +1416,7 @@
 	}
 }
 
-10129={ #Jebha
+10129={ #PROV10129
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -1429,7 +1429,7 @@
 	}
 }
 
-10130={ #Hoceima
+10130={ #PROV10130
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -1442,7 +1442,7 @@
 	}
 }
 
-10131={ #Sidi Driss
+10131={ #PROV10131
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -1460,7 +1460,7 @@
 	}
 }
 
-10132={ #Tiztoutine
+10132={ #PROV10132
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -1478,7 +1478,7 @@
 	}
 }
 
-10133={ #Midar
+10133={ #PROV10133
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -1491,7 +1491,7 @@
 	}
 }
 
-10134={ #Ajdir
+10134={ #PROV10134
 	terrain="mountain"
 	culture="socossian"
 	religion="berber_religion"
@@ -1504,7 +1504,7 @@
 	}
 }
 
-10135={ #Mnoud Nekkour
+10135={ #PROV10135
 	terrain="hills"
 	culture="socossian"
 	religion="berber_religion"
@@ -1517,7 +1517,7 @@
 	}
 }
 
-10136={ #Ziam
+10136={ #PROV10136
 	terrain="mountain"
 	culture="socossian"
 	religion="berber_religion"
@@ -1530,7 +1530,7 @@
 	}
 }
 
-10137={ #Senada
+10137={ #PROV10137
 	terrain="mountain"
 	culture="socossian"
 	religion="berber_religion"
@@ -1543,7 +1543,7 @@
 	}
 }
 
-10171={ #Agourai
+10171={ #PROV10171
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -1556,7 +1556,7 @@
 	}
 }
 
-10172={ #Kandar
+10172={ #PROV10172
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"
@@ -1569,7 +1569,7 @@
 	}
 }
 
-10173={ #Guigou
+10173={ #PROV10173
 	terrain="forest"
 	culture="socossian"
 	religion="berber_religion"

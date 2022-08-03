@@ -1,4 +1,4 @@
-﻿8435={ #Mazyr
+﻿8435={ #Puyang
 	terrain="farmland"
 	culture="yaan"
 	religion="chinese_religions"
@@ -21,7 +21,7 @@
 	port_building=1
 }
 
-8436={ #Pripyat
+8436={ #Yan
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -84,7 +84,7 @@
 	}
 }
 
-8439={ #Buhski
+8439={ #Pingyi
 	terrain="farmland"
 	culture="yaan"
 	religion="chinese_religions"
@@ -106,7 +106,7 @@
 	}
 }
 
-8440={ #Gorodische
+8440={ #Linqiu
 	terrain="plains"
 	culture="yaan"
 	religion="chinese_religions"
@@ -204,7 +204,7 @@
 	}
 }
 
-8445={ #Chervonoye
+8445={ #Liaocheng
 	terrain="plains"
 	culture="yaan"
 	religion="chinese_religions"
@@ -245,7 +245,7 @@
 	}
 }
 
-8449={ #Brahin
+8449={ #Waihuang
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -267,7 +267,7 @@
 	}
 }
 
-8450={ #Dnipro
+8450={ #Jiyang
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -286,7 +286,7 @@
 	}
 }
 
-8451={ #Gomel
+8451={ #Pu
 	terrain="plains"
 	culture="yaan"
 	religion="chinese_religions"
@@ -305,7 +305,7 @@
 	}
 }
 
-8452={ #Desna
+8452={ #Shouyuan
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -324,7 +324,7 @@
 	}
 }
 
-8453={ #Mena
+8453={ #Pingqiu
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -343,7 +343,7 @@
 	}
 }
 
-8454={ #Snov
+8454={ #Suanzao
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -362,7 +362,7 @@
 	}
 }
 
-8455={ #Lyubech
+8455={ #Weishi
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -381,7 +381,7 @@
 	}
 }
 
-8456={ #Kuchynivka
+8456={ #Yongqiu
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -488,7 +488,7 @@
 	}
 }
 
-8466={ #Blagoveshchenskaya
+8466={ #Zhuzao
 	terrain="plains"
 	culture="yaan"
 	religion="chinese_religions"
@@ -554,7 +554,7 @@
 	}
 }
 
-8469={ #Grunya
+8469={ #Shanyang
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -717,7 +717,7 @@
 	}
 }
 
-8477={ #Orlik
+8477={ #Pinglu
 	terrain="farmland"
 	culture="yaan"
 	religion="chinese_religions"
@@ -739,7 +739,7 @@
 	}
 }
 
-8478={ #Oskil
+8478={ #Rencheng
 	terrain="farmland"
 	culture="yaan"
 	religion="chinese_religions"
@@ -784,7 +784,7 @@
 	holy_site=omen_chinese_daizong
 }
 
-8481={ #Maciejowice
+8481={ #Wuyang
 	terrain="plains"
 	culture="qilu"
 	religion="chinese_religions"
@@ -822,7 +822,7 @@
 	}
 }
 
-8483={ #Ogorodniki
+8483={ #Ying
 	terrain="forest"
 	culture="qilu"
 	religion="chinese_religions"
@@ -898,7 +898,7 @@
 	}
 }
 
-8487={ #Bielsk
+8487={ #Chai
 	terrain="plains"
 	culture="qilu"
 	religion="chinese_religions"

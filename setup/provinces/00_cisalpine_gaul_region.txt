@@ -515,7 +515,7 @@
 	}
 }
 
-3545={ #Album Intimilium
+3545={ #Album Intemelium
 	terrain="plains"
 	culture="ligurian"
 	religion="roman_pantheon"
@@ -2091,7 +2091,7 @@
 	}
 }
 
-3661={ #Tridentium
+3661={ #Tridentum
 	terrain="forest"
 	culture="rhaetian"
 	religion="roman_pantheon"

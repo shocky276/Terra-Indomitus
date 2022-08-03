@@ -771,25 +771,6 @@
 	}
 }
 
-4349={ #Malava
-	terrain="farmland"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="dates"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
 4350={ #Mulasthanapura
 	terrain="farmland"
 	culture="sivi"
@@ -870,81 +851,6 @@
 	}
 }
 
-4371={ #Deogarh
-	terrain="plains"
-	culture="macedonian"
-	religion="roman_pantheon"
-	trade_goods="incense"
-	civilization_value=41
-	barbarian_power=0
-	province_rank="city"
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=2
-	}
-	slaves={
-		culture="sindhi"
-		religion="hindu"
-		amount=1
-	}
-	tribesmen={
-		culture="sindhi"
-		religion="hindu"
-		amount=3
-	}
-	port_building=1
-}
-
-4373={ #Siberai
-	terrain="dry_plains"
-	culture="sindhi"
-	religion="hindu"
-	trade_goods="dates"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-}
-
-4377={ #Bisambritai
-	terrain="dry_plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="wild_game"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4378={ #Osioi
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="horses"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 4379={ #Phegas
 	terrain="farmland"
 	culture="purus"
@@ -986,44 +892,6 @@
 	}
 	tribesmen={
 		amount=4
-	}
-}
-
-4381={ #Hydrakai
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="horses"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=8
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4382={ #Anatachara
-	terrain="farmland"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="cattle"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=3
 	}
 }
 

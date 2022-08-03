@@ -1,26 +1,4 @@
-﻿235={ #Tomisa
-	terrain="hills"
-	culture="sophene"
-	religion="zoroaster"
-	trade_goods="hemp"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=5
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-483={ #Artales
+﻿483={ #Arda
 	terrain="mountain"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -55,77 +33,6 @@
 	}
 	tribesmen={
 		amount=2
-	}
-}
-
-858={ #Rhandeia
-	terrain="hills"
-	culture="sophene"
-	religion="armenian_religion"
-	trade_goods="stone"
-	civilization_value=34
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		culture="armenian"
-		religion="zoroaster"
-		amount=2
-	}
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	slaves={
-		culture="armenian"
-		religion="zoroaster"
-		amount=1
-	}
-}
-
-859={ #Dadima
-	terrain="hills"
-	culture="sophene"
-	religion="zoroaster"
-	trade_goods="base_metals"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-860={ #Anzitene
-	terrain="hills"
-	culture="sophene"
-	religion="zoroaster"
-	trade_goods="leather"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		religion="armenian_religion"
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
 	}
 }
 
@@ -170,7 +77,7 @@
 	}
 }
 
-988={ #Thospia
+988={ #Tushpa
 	terrain="forest"
 	culture="van"
 	religion="armenian_religion"
@@ -189,7 +96,7 @@
 	}
 }
 
-989={ #Nymphaeum
+989={ #Bulak
 	terrain="hills"
 	culture="van"
 	religion="armenian_religion"
@@ -208,7 +115,7 @@
 	}
 }
 
-990={ #Elegoana
+990={ #Artchesh
 	terrain="plains"
 	culture="van"
 	religion="armenian_religion"
@@ -366,7 +273,7 @@
 	}
 }
 
-998={ #Artemita Vaspurakan
+998={ #Artamat
 	terrain="hills"
 	culture="van"
 	religion="armenian_religion"
@@ -423,7 +330,7 @@
 	}
 }
 
-1501={ #Naxouana
+1501={ #Nakhchevan
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -446,7 +353,232 @@
 	}
 }
 
-1528={ #Morounda
+1502={ #Tasuk
+	terrain="hills"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1503={ #Salamas
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="armenian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1504={ #Gazrik
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="armenian_religion"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="armenian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1505={ #Arziyayad tepe
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="fish"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1506={ #Ormi
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1507={ #Sormanabad tepe
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1508={ #Balajuk tepe
+	terrain="hills"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1509={ #Siraganon
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1511={ #Qalatgah
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1518={ #Kuh-i Chorblach
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1519={ #Qalat
+	terrain="hills"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="fish"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1527={ #Yanik tepe
+	terrain="dry_plains"
+	culture="armenian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1528={ #Marand
 	terrain="hills"
 	culture="armenian"
 	religion="zoroaster"
@@ -733,7 +865,7 @@
 	}
 }
 
-1542={ #Arxata
+1542={ #Shahtakht
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -1138,7 +1270,7 @@
 	}
 }
 
-1570={ #Armaouira
+1570={ #Argishtikhinili
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1164,7 +1296,7 @@
 	holy_site=omen_khaldi
 }
 
-1571={ #Artaxata
+1571={ #Artashat
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -1199,7 +1331,7 @@
 	holy_site=omen_tir
 }
 
-1572={ #Doubios
+1572={ #Dvin
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1221,7 +1353,7 @@
 	}
 }
 
-1573={ #Gorneae
+1573={ #Kotayk
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1257,7 +1389,7 @@
 	holy_site=omen_theispas
 }
 
-1576={ #Kainepolis Syracene
+1576={ #Vagharshapat
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1333,7 +1465,7 @@
 	}
 }
 
-1581={ #Eruandashat
+1581={ #Yervandashat
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1561,25 +1693,6 @@
 	}
 }
 
-1614={ #Sigan
-	terrain="hills"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="wood"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-}
-
 1615={ #Balaberd
 	terrain="hills"
 	culture="armenian"
@@ -1596,38 +1709,6 @@
 	}
 	tribesmen={
 		amount=3
-	}
-}
-
-1616={ #Kapan
-	terrain="hills"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="wood"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-1617={ #Nakorzan
-	terrain="forest"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="grain"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
 	}
 }
 
@@ -1654,177 +1735,6 @@
 	}
 	tribesmen={
 		religion="zoroaster"
-		amount=2
-	}
-}
-
-1639={ #Amaras
-	terrain="hills"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="honey"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-}
-
-1640={ #Tigranakert
-	terrain="forest"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="iron"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	freemen={
-		culture="albanian"
-		religion="caucasian_religion"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	slaves={
-		culture="albanian"
-		religion="caucasian_religion"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-1650={ #Sisakan Inferior
-	terrain="forest"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="vegetables"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-1663={ #Vaykunik
-	terrain="hills"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="leather"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-1664={ #Arank
-	terrain="hills"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="leather"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-1665={ #Parsakank
-	terrain="hills"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="cattle"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-1666={ #Koght
-	terrain="hills"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="wood"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-1667={ #Aghahechk
-	terrain="mountain"
-	culture="armenian"
-	religion="armenian_religion"
-	trade_goods="base_metals"
-	civilization_value=16
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
 		amount=2
 	}
 }
@@ -1935,7 +1845,7 @@
 	}
 }
 
-1747={ #Gymnias
+1747={ #Basean
 	terrain="hills"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -1992,7 +1902,7 @@
 	}
 }
 
-1760={ #Sinoria
+1760={ #Baiberdon
 	terrain="mountain"
 	culture="sasperires"
 	religion="caucasian_religion"
@@ -2121,7 +2031,7 @@
 	}
 }
 
-1770={ #Satala
+1770={ #Satal
 	terrain="mountain"
 	culture="phasiane"
 	religion="armenian_religion"
@@ -2144,54 +2054,6 @@
 	}
 }
 
-1855={ #Gareina
-	terrain="forest"
-	culture="sophene"
-	religion="zoroaster"
-	trade_goods="cattle"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=2
-	}
-}
-
-1856={ #Anzita
-	terrain="hills"
-	culture="sophene"
-	religion="armenian_religion"
-	trade_goods="vegetables"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-}
-
-1857={ #Hierapolis Sophenias
-	terrain="hills"
-	culture="sophene"
-	religion="armenian_religion"
-	trade_goods="wood"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
 4037={ #Kitharizon
 	terrain="hills"
 	culture="phasiane"
@@ -2211,85 +2073,6 @@
 	}
 	tribesmen={
 		religion="zoroaster"
-		amount=1
-	}
-}
-
-8007={ #Halouras
-	terrain="hills"
-	culture="sophene"
-	religion="armenian_religion"
-	trade_goods="vegetables"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-}
-
-8008={ #Palios
-	terrain="hills"
-	culture="phasiane"
-	religion="anatolian_religion"
-	trade_goods="stone"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		religion="armenian_religion"
-		amount=1
-	}
-	tribesmen={
-		culture="phasiane"
-		religion="armenian_religion"
-		amount=1
-	}
-}
-
-8009={ #Balisbiga
-	terrain="hills"
-	culture="sophene"
-	religion="armenian_religion"
-	trade_goods="leather"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-8010={ #Koloua
-	terrain="hills"
-	culture="phasiane"
-	religion="anatolian_religion"
-	trade_goods="base_metals"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="armenian_religion"
-		amount=1
-	}
-	tribesmen={
-		culture="phasiane"
-		religion="armenian_religion"
 		amount=1
 	}
 }

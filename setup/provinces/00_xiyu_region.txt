@@ -1,20 +1,4 @@
-﻿5601={ #Kusta
-	terrain="mountain"
-	culture="zhangzhung"
-	religion="bon_religion"
-	trade_goods="cattle"
-	civilization_value=6
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-5603={ #Gondogoro Pass
+﻿5603={ #Gondogoro Pass
 	terrain="mountain"
 	culture="saka"
 	religion="eastern_animism"
@@ -798,7 +782,7 @@
 	}
 }
 
-8208={ #Tabaqah
+8208={ #Yancheng
 	terrain="hills"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -836,7 +820,7 @@
 	}
 }
 
-8210={ #Schiueref
+8210={ #Wulei
 	terrain="dry_plains"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -855,7 +839,7 @@
 	}
 }
 
-8211={ #Shawi
+8211={ #Weili
 	terrain="hills"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -874,7 +858,7 @@
 	}
 }
 
-8212={ #Mizda
+8212={ #Weixu
 	terrain="dry_plains"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -893,7 +877,7 @@
 	}
 }
 
-8213={ #Centenarium
+8213={ #Wuni
 	terrain="desert"
 	culture="loulan"
 	religion="eastern_animism"
@@ -912,7 +896,7 @@
 	}
 }
 
-8214={ #Thenteos
+8214={ #Yixun
 	terrain="dry_plains"
 	culture="loulan"
 	religion="eastern_animism"
@@ -962,7 +946,7 @@
 	}
 }
 
-8216={ #Garian
+8216={ #Jiaohe
 	terrain="dry_plains"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -1011,7 +995,7 @@
 	}
 }
 
-8218={ #Mesphe
+8218={ #Wutugu
 	terrain="hills"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1049,7 +1033,7 @@
 	}
 }
 
-8220={ #Banat
+8220={ #Beilu
 	terrain="dry_plains"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1106,7 +1090,7 @@
 	}
 }
 
-8223={ #Bularkan
+8223={ #Dong Qiemi
 	terrain="dry_plains"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1125,7 +1109,7 @@
 	}
 }
 
-8224={ #Lebr
+8224={ #Xi Qiemi
 	terrain="dry_plains"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1144,7 +1128,7 @@
 	}
 }
 
-8225={ #Scemech
+8225={ #Yuanqu
 	terrain="farmland"
 	culture="tocharian"
 	religion="eastern_animism"
@@ -1163,7 +1147,7 @@
 	}
 }
 
-8226={ #Rimoniana
+8226={ #Shanguo
 	terrain="dry_plains"
 	culture="loulan"
 	religion="eastern_animism"
@@ -1198,7 +1182,7 @@
 	}
 }
 
-8255={ #Faouar
+8255={ #Pulei Houguo
 	terrain="dry_hills"
 	culture="beishan"
 	religion="eastern_animism"
@@ -1224,7 +1208,7 @@
 	}
 }
 
-8303={ #Aoulouze
+8303={ #Chigu
 	terrain="mountain"
 	culture="sakan"
 	religion="eastern_animism"
@@ -1256,7 +1240,7 @@
 	}
 }
 
-8305={ #Larbaa Magnoun
+8305={ #Roqiang
 	terrain="impassable_terrain"
 	culture="ruoqiang"
 	religion="bon_religion"
@@ -1266,7 +1250,7 @@
 	province_rank=""
 }
 
-8306={ #Kerrouchen
+8306={ #Xiaowan
 	terrain="mountain"
 	culture="loulan"
 	religion="eastern_animism"

@@ -97,22 +97,6 @@
 	}
 }
 
-1043={ #Ocelum Duri
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="wine"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 1044={ #Lancia
 	terrain="plains"
 	culture="asturian"
@@ -151,22 +135,6 @@
 	}
 }
 
-1046={ #Salmantica
-	terrain="forest"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="wine"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
 1047={ #Lucus
 	terrain="forest"
 	culture="callaecian"
@@ -202,50 +170,6 @@
 	}
 	tribesmen={
 		amount=5
-	}
-}
-
-1050={ #Aquae Flaviae
-	terrain="plains"
-	culture="callaecian"
-	religion="druidism"
-	trade_goods="wood"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=6
-	}
-}
-
-1051={ #Bracara Augusta
-	terrain="hills"
-	culture="callaecian"
-	religion="druidism"
-	trade_goods="salt"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=6
 	}
 }
 
@@ -1018,22 +942,6 @@
 	}
 }
 
-1153={ #Salacia Aebocosia
-	terrain="hills"
-	culture="callaecian"
-	religion="druidism"
-	trade_goods="grain"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=7
-	}
-}
-
 1154={ #Aquae Originae
 	terrain="hills"
 	culture="callaecian"
@@ -1066,87 +974,6 @@
 	}
 }
 
-1156={ #Vicus Vagornicensis
-	terrain="plains"
-	culture="callaecian"
-	religion="druidism"
-	trade_goods="wood"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-1157={ #Baniensium
-	terrain="plains"
-	culture="asturian"
-	religion="druidism"
-	trade_goods="wood"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1161={ #Sibaris
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="wine"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1163={ #Zoelarum
-	terrain="plains"
-	culture="asturian"
-	religion="druidism"
-	trade_goods="leather"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-	holy_site=omen_endouellicus
-}
-
-1164={ #Veniatia
-	terrain="plains"
-	culture="asturian"
-	religion="druidism"
-	trade_goods="leather"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=7
-	}
-}
-
 1165={ #Nemetobriga
 	terrain="plains"
 	culture="asturian"
@@ -1168,22 +995,6 @@
 	culture="asturian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1167={ #Zoelia
-	terrain="plains"
-	culture="asturian"
-	religion="druidism"
-	trade_goods="leather"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
@@ -1259,38 +1070,6 @@
 	}
 }
 
-1172={ #Vicus Aquarius
-	terrain="plains"
-	culture="asturian"
-	religion="druidism"
-	trade_goods="wine"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1173={ #Arboukale
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="horses"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 1174={ #Amallobriga
 	terrain="forest"
 	culture="vaccaeian"
@@ -1323,22 +1102,6 @@
 	}
 }
 
-1176={ #Nivaria
-	terrain="forest"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="hemp"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 1177={ #Cauca
 	terrain="plains"
 	culture="carpetanian"
@@ -1368,38 +1131,6 @@
 	}
 	tribesmen={
 		amount=5
-	}
-}
-
-1179={ #Vettonia Relicta
-	terrain="forest"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="horses"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-1180={ #Vettonia Deserta
-	terrain="forest"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="grain"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=3
 	}
 }
 
@@ -1590,102 +1321,5 @@
 	tribesmen={
 		amount=3
 	}
-}
-
-1194={ #Avila
-	terrain="hills"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="stone"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-1196={ #Tullium
-	terrain="plains"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="hemp"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1197={ #Ad Lippos
-	terrain="forest"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="grain"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1199={ #Platanus
-	terrain="hills"
-	culture="vettonian"
-	religion="druidism"
-	trade_goods="precious_metals"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1288={ #Lamecum
-	terrain="hills"
-	culture="callaecian"
-	religion="druidism"
-	trade_goods="precious_metals"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1289={ #Tongobriga
-	terrain="plains"
-	culture="callaecian"
-	religion="druidism"
-	trade_goods="salt"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=5
-	}
-	port_building=1
 }
 

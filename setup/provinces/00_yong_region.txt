@@ -1,4 +1,4 @@
-﻿8307={ #Aghbala
+﻿8307={ #Qian
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -39,7 +39,7 @@
 	}
 }
 
-8309={ #Tounfit
+8309={ #Yong
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -55,7 +55,7 @@
 	}
 }
 
-8310={ #Boumia
+8310={ #Chencang
 	terrain="forest"
 	culture="qin"
 	religion="chinese_religions"
@@ -87,7 +87,7 @@
 	}
 }
 
-8312={ #Ksabi
+8312={ #Mei
 	terrain="farmland"
 	culture="qin"
 	religion="chinese_religions"
@@ -109,7 +109,7 @@
 	}
 }
 
-8313={ #Missour
+8313={ #Xianyang
 	terrain="farmland"
 	culture="qin"
 	religion="chinese_religions"
@@ -185,7 +185,7 @@
 	}
 }
 
-8317={ #Guercif
+8317={ #Wugong
 	terrain="farmland"
 	culture="qin"
 	religion="chinese_religions"
@@ -217,7 +217,7 @@
 	}
 }
 
-8319={ #Maghessel
+8319={ #Qi
 	terrain="forest"
 	culture="qin"
 	religion="chinese_religions"
@@ -233,7 +233,7 @@
 	}
 }
 
-8320={ #Lamrija
+8320={ #Xunyi
 	terrain="forest"
 	culture="yiqu"
 	religion="bon_religion"
@@ -294,7 +294,7 @@
 	}
 }
 
-8324={ #Atlas Pass
+8324={ #Yunyang
 	terrain="forest"
 	culture="qin"
 	religion="chinese_religions"
@@ -310,7 +310,7 @@
 	}
 }
 
-8325={ #Atlas Pass
+8325={ #Yueyang
 	terrain="farmland"
 	culture="qin"
 	religion="chinese_religions"
@@ -332,7 +332,7 @@
 	}
 }
 
-8326={ #Ifri
+8326={ #Wucheng
 	terrain="farmland"
 	culture="qin"
 	religion="chinese_religions"
@@ -370,7 +370,7 @@
 	}
 }
 
-8328={ #Goulmima
+8328={ #Pinyang
 	terrain="plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -386,7 +386,7 @@
 	}
 }
 
-8329={ #Errachidia
+8329={ #Zheng
 	terrain="plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -440,7 +440,7 @@
 	}
 }
 
-8332={ #Merzouga
+8332={ #Ya
 	terrain="forest"
 	culture="qin"
 	religion="chinese_religions"
@@ -494,7 +494,7 @@
 	}
 }
 
-8335={ #Atlas Pass
+8335={ #Lantian
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -513,7 +513,7 @@
 	}
 }
 
-8336={ #Mare Erythraeum
+8336={ #Zhiyang
 	terrain="farmland"
 	culture="qin"
 	religion="chinese_religions"
@@ -551,7 +551,7 @@
 	}
 }
 
-8338={ #Boduthiladhunmathi
+8338={ #Xi
 	terrain="farmland"
 	culture="qin"
 	religion="chinese_religions"
@@ -570,7 +570,7 @@
 	}
 }
 
-8339={ #Mare Erythraeum
+8339={ #Zheng
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -605,7 +605,7 @@
 	}
 }
 
-8341={ #Mare Erythraeum
+8341={ #Yinjin
 	terrain="hills"
 	culture="jin"
 	religion="chinese_religions"
@@ -694,7 +694,7 @@
 	}
 }
 
-8345={ #Mare Erythraeum
+8345={ #Yishi
 	terrain="plains"
 	culture="qin"
 	religion="chinese_religions"
@@ -721,7 +721,7 @@
 	}
 }
 
-8346={ #Kach Kouch
+8346={ #Pufan
 	terrain="hills"
 	culture="qin"
 	religion="chinese_religions"
@@ -781,7 +781,7 @@
 	}
 }
 
-8349={ #Sidi Driss
+8349={ #Yuan
 	terrain="farmland"
 	culture="jin"
 	religion="chinese_religions"
@@ -819,7 +819,7 @@
 	}
 }
 
-8351={ #Midar
+8351={ #Pingyang
 	terrain="plains"
 	culture="jin"
 	religion="chinese_religions"
@@ -841,7 +841,7 @@
 	}
 }
 
-8352={ #Ajdir
+8352={ #Zuoyi
 	terrain="farmland"
 	culture="jin"
 	religion="chinese_religions"
@@ -923,7 +923,7 @@
 	}
 }
 
-8356={ #Boudenib
+8356={ #Hongnong
 	terrain="hills"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -951,7 +951,7 @@
 	}
 }
 
-8357={ #Guir
+8357={ #Shan
 	terrain="farmland"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -967,7 +967,7 @@
 	}
 }
 
-8358={ #Bechar
+8358={ #Mianchi
 	terrain="farmland"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -986,7 +986,7 @@
 	}
 }
 
-8359={ #Lahmar
+8359={ #Xin an
 	terrain="farmland"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -1005,7 +1005,7 @@
 	}
 }
 
-8360={ #Figuig
+8360={ #Lushi
 	terrain="hills"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -1024,7 +1024,7 @@
 	}
 }
 
-8361={ #Abadla
+8361={ #Yiyang
 	terrain="plains"
 	culture="zhongyuan"
 	religion="chinese_religions"
@@ -1063,7 +1063,7 @@
 	}
 }
 
-8363={ #Goumi
+8363={ #Shang
 	terrain="mountain"
 	culture="qin"
 	religion="chinese_religions"
@@ -1086,7 +1086,7 @@
 	}
 }
 
-8364={ #Fendi
+8364={ #Xi
 	terrain="hills"
 	culture="chu"
 	religion="chinese_religions"
@@ -1105,7 +1105,7 @@
 	}
 }
 
-8365={ #Bourzeg
+8365={ #Impassable
 	terrain="impassable_terrain"
 	culture="qin"
 	religion="chinese_religions"
@@ -1155,7 +1155,7 @@
 	province_rank=""
 }
 
-8392={ #Brazzia
+8392={ #Impassable
 	terrain="impassable_terrain"
 	culture="jin"
 	religion="chinese_religions"

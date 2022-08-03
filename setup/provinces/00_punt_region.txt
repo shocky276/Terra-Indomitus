@@ -1,28 +1,14 @@
-﻿7500={ #Ptolemais Theron
-	terrain="dry_plains"
-	culture="blemmyan"
+﻿651={ #Sumita
+	terrain="hills"
+	culture="meroitic"
 	religion="egyptian_pantheon"
-	trade_goods="elephants"
-	civilization_value=10
+	trade_goods="cattle"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=2
+	citizen={
+		amount=1
 	}
-	tribesmen={
-		amount=2
-	}
-	port_building=1
-}
-
-7501={ #Elephanton Chora
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="elephants"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
 	freemen={
 		amount=2
 	}
@@ -30,6 +16,15 @@
 		amount=1
 	}
 	tribesmen={
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="aksumite"
+		religion="arabian_pantheon"
 		amount=1
 	}
 }
@@ -974,7 +969,7 @@
 	}
 }
 
-7547={ #Undulli
+7547={ #Punt Desert
 	terrain="desert"
 	culture="avalitian"
 	religion="arabian_pantheon"
@@ -987,7 +982,7 @@
 	}
 }
 
-7548={ #Thio
+7548={ #Punt Desert
 	terrain="desert"
 	culture="avalitian"
 	religion="arabian_pantheon"
@@ -1000,7 +995,7 @@
 	}
 }
 
-7549={ #Ras Andada
+7549={ #Punt Desert
 	terrain="desert"
 	culture="ona"
 	religion="arabian_pantheon"
@@ -1065,97 +1060,7 @@
 	}
 }
 
-7594={ #Sabraiton
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="dates"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-7595={ #Arachos
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="incense"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-}
-
-7596={ #Canarbis
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="fish"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-7597={ #Erascum
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="dates"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-7598={ #Sabaste
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="elephants"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-7599={ #Setronon
-	terrain="desert"
-	culture="blemmyan"
-	religion="egyptian_pantheon"
-	trade_goods="gems"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-10443={ #Enda Cherqos
+10443={ #PROV10443
 	terrain="hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -1182,7 +1087,7 @@
 	}
 }
 
-10444={ #Mai Adrasha
+10444={ #PROV10444
 	terrain="farmland"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -1205,7 +1110,7 @@
 	}
 }
 
-10445={ #Seglamen
+10445={ #PROV10445
 	terrain="hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -1228,7 +1133,7 @@
 	}
 }
 
-10446={ #Gijet
+10446={ #PROV10446
 	terrain="hills"
 	culture="daamoti"
 	religion="arabian_pantheon"
@@ -1254,7 +1159,7 @@
 	}
 }
 
-10447={ #Tembien
+10447={ #PROV10447
 	terrain="hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -1281,7 +1186,7 @@
 	}
 }
 
-10448={ #Tsirhan
+10448={ #PROV10448
 	terrain="hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -1308,7 +1213,7 @@
 	}
 }
 
-10449={ #Mezber
+10449={ #PROV10449
 	terrain="hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -1335,7 +1240,7 @@
 	}
 }
 
-10450={ #Sembel
+10450={ #PROV10450
 	terrain="hills"
 	culture="ona"
 	religion="arabian_pantheon"
@@ -1358,7 +1263,7 @@
 	}
 }
 
-10451={ #Adi Ugri
+10451={ #PROV10451
 	terrain="hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -1378,7 +1283,7 @@
 	}
 }
 
-10452={ #Debarwa
+10452={ #PROV10452
 	terrain="hills"
 	culture="ona"
 	religion="arabian_pantheon"
@@ -1397,7 +1302,7 @@
 	}
 }
 
-10453={ #Taille
+10453={ #PROV10453
 	terrain="desert_hills"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -1410,7 +1315,7 @@
 	}
 }
 
-10454={ #Akordat
+10454={ #PROV10454
 	terrain="hills"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -1426,7 +1331,7 @@
 	}
 }
 
-10455={ #Tucul
+10455={ #PROV10455
 	terrain="hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -1446,7 +1351,7 @@
 	}
 }
 
-10456={ #Tokore
+10456={ #PROV10456
 	terrain="hills"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -1463,7 +1368,7 @@
 	}
 }
 
-10457={ #Tokolay
+10457={ #PROV10457
 	terrain="desert_hills"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -1480,7 +1385,7 @@
 	}
 }
 
-10458={ #Isis
+10458={ #PROV10458
 	terrain="desert"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1502,7 +1407,7 @@
 	}
 }
 
-10459={ #Bagan
+10459={ #PROV10459
 	terrain="hills"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1526,7 +1431,7 @@
 	}
 }
 
-10460={ #Barkhadle
+10460={ #PROV10460
 	terrain="plains"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1550,7 +1455,7 @@
 	}
 }
 
-10461={ #Hargeysa
+10461={ #PROV10461
 	terrain="plains"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1574,7 +1479,7 @@
 	}
 }
 
-10462={ #Gebiilay
+10462={ #PROV10462
 	terrain="hills"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1598,7 +1503,7 @@
 	}
 }
 
-10463={ #Suuqsade
+10463={ #PROV10463
 	terrain="plains"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1617,7 +1522,7 @@
 	}
 }
 
-10464={ #Gidheys
+10464={ #PROV10464
 	terrain="plains"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1640,7 +1545,7 @@
 	holy_site=omen_biriir_ina_barqo
 }
 
-10465={ #Seeto
+10465={ #PROV10465
 	terrain="desert"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1656,7 +1561,7 @@
 	}
 }
 
-10466={ #Haqayo Malaas
+10466={ #PROV10466
 	terrain="desert"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1677,7 +1582,7 @@
 	}
 }
 
-10467={ #Lafaha
+10467={ #PROV10467
 	terrain="desert"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1690,7 +1595,7 @@
 	}
 }
 
-10468={ #Goyar
+10468={ #PROV10468
 	terrain="plains"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1709,7 +1614,7 @@
 	}
 }
 
-10469={ #Bandarbeyla
+10469={ #PROV10469
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -1725,7 +1630,7 @@
 	}
 }
 
-10470={ #Mudun
+10470={ #PROV10470
 	terrain="desert_hills"
 	culture="puntic"
 	religion="puntic_religion"
@@ -1744,7 +1649,7 @@
 	}
 }
 
-10471={ #Qandala
+10471={ #PROV10471
 	terrain="desert_hills"
 	culture="puntic"
 	religion="puntic_religion"
@@ -1772,7 +1677,7 @@
 	port_building=1
 }
 
-10472={ #Shalcaw
+10472={ #PROV10472
 	terrain="desert_hills"
 	culture="sheban"
 	religion="arabian_pantheon"
@@ -1798,7 +1703,7 @@
 	}
 }
 
-10473={ #Ceerigabo
+10473={ #PROV10473
 	terrain="hills"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1817,7 +1722,7 @@
 	}
 }
 
-10474={ #Jidali
+10474={ #PROV10474
 	terrain="hills"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1836,7 +1741,7 @@
 	}
 }
 
-10475={ #Hadaaftimo
+10475={ #PROV10475
 	terrain="hills"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1855,7 +1760,7 @@
 	}
 }
 
-10476={ #Kalabeyr
+10476={ #PROV10476
 	terrain="hills"
 	culture="puntic"
 	religion="puntic_religion"
@@ -1871,7 +1776,7 @@
 	}
 }
 
-10477={ #Mindigale
+10477={ #PROV10477
 	terrain="hills"
 	culture="puntic"
 	religion="puntic_religion"
@@ -1890,7 +1795,7 @@
 	}
 }
 
-10478={ #Iskushuban
+10478={ #PROV10478
 	terrain="plains"
 	culture="puntic"
 	religion="puntic_religion"
@@ -1909,7 +1814,7 @@
 	}
 }
 
-10479={ #Kob Dehad
+10479={ #PROV10479
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -1922,7 +1827,7 @@
 	}
 }
 
-10480={ #Hodmane
+10480={ #PROV10480
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -1935,7 +1840,7 @@
 	}
 }
 
-10481={ #Aelal
+10481={ #PROV10481
 	terrain="desert_hills"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1951,7 +1856,7 @@
 	}
 }
 
-10482={ #Xood
+10482={ #PROV10482
 	terrain="desert"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1964,7 +1869,7 @@
 	}
 }
 
-10483={ #Danano
+10483={ #PROV10483
 	terrain="desert_hills"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1977,7 +1882,7 @@
 	}
 }
 
-10484={ #Qoridheere
+10484={ #PROV10484
 	terrain="desert_hills"
 	culture="berberian"
 	religion="puntic_religion"
@@ -1990,7 +1895,7 @@
 	}
 }
 
-10485={ #Gar Adag
+10485={ #PROV10485
 	terrain="desert_hills"
 	culture="berberian"
 	religion="puntic_religion"
@@ -2003,7 +1908,7 @@
 	}
 }
 
-10486={ #Bohol
+10486={ #PROV10486
 	terrain="desert"
 	culture="berberian"
 	religion="puntic_religion"
@@ -2016,7 +1921,7 @@
 	}
 }
 
-10487={ #Afweyn
+10487={ #PROV10487
 	terrain="desert_hills"
 	culture="berberian"
 	religion="puntic_religion"
@@ -2029,7 +1934,7 @@
 	}
 }
 
-10488={ #Jidbaaley
+10488={ #PROV10488
 	terrain="desert"
 	culture="berberian"
 	religion="puntic_religion"
@@ -2042,7 +1947,7 @@
 	}
 }
 
-10489={ #Raas Xoor
+10489={ #PROV10489
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2055,7 +1960,7 @@
 	}
 }
 
-10490={ #Apocopa
+10490={ #PROV10490
 	terrain="plains"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2092,7 +1997,7 @@
 	port_building=1
 }
 
-10491={ #Dalmoxor
+10491={ #PROV10491
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2105,7 +2010,7 @@
 	}
 }
 
-10492={ #Qarxis
+10492={ #PROV10492
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2118,7 +2023,7 @@
 	}
 }
 
-10493={ #Gallacoodday
+10493={ #PROV10493
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2131,7 +2036,7 @@
 	}
 }
 
-10494={ #Garacad
+10494={ #PROV10494
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2144,7 +2049,7 @@
 	}
 }
 
-10495={ #Moqor Yar
+10495={ #PROV10495
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2157,7 +2062,7 @@
 	}
 }
 
-10496={ #Mulug
+10496={ #PROV10496
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2170,7 +2075,7 @@
 	}
 }
 
-10497={ #Afdugweyne
+10497={ #PROV10497
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2183,7 +2088,7 @@
 	}
 }
 
-10498={ #Bililicweyn
+10498={ #PROV10498
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2193,7 +2098,7 @@
 	province_rank=""
 }
 
-10499={ #Garowe
+10499={ #PROV10499
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2203,7 +2108,7 @@
 	province_rank=""
 }
 
-10500={ #Laanle
+10500={ #PROV10500
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2213,7 +2118,7 @@
 	province_rank=""
 }
 
-10501={ #Sool
+10501={ #PROV10501
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
@@ -2223,7 +2128,7 @@
 	province_rank=""
 }
 
-10502={ #Gondar
+10502={ #PROV10502
 	terrain="mountain"
 	culture="athagaun"
 	religion="arabian_pantheon"
@@ -2236,7 +2141,7 @@
 	}
 }
 
-10503={ #Yoboki
+10503={ #PROV10503
 	terrain="mountain"
 	culture="avalitian"
 	religion="arabian_pantheon"
@@ -2249,7 +2154,7 @@
 	}
 }
 
-10504={ #Gehar
+10504={ #PROV10504
 	terrain="plains"
 	culture="avalitian"
 	religion="arabian_pantheon"
@@ -2262,7 +2167,7 @@
 	}
 }
 
-10505={ #Logiya
+10505={ #PROV10505
 	terrain="plains"
 	culture="avalitian"
 	religion="arabian_pantheon"
@@ -2275,7 +2180,7 @@
 	}
 }
 
-10506={ #Mille
+10506={ #PROV10506
 	terrain="plains"
 	culture="avalitian"
 	religion="arabian_pantheon"
@@ -2288,7 +2193,7 @@
 	}
 }
 
-10507={ #Weki
+10507={ #PROV10507
 	terrain="hills"
 	culture="avalitian"
 	religion="arabian_pantheon"
@@ -2301,7 +2206,7 @@
 	}
 }
 
-10508={ #Weama
+10508={ #PROV10508
 	terrain="forest"
 	culture="avalitian"
 	religion="arabian_pantheon"
@@ -2314,7 +2219,7 @@
 	}
 }
 
-10509={ #Gher
+10509={ #PROV10509
 	terrain="desert_hills"
 	culture="ona"
 	religion="arabian_pantheon"
@@ -2327,7 +2232,7 @@
 	}
 }
 
-10510={ #Nakfa
+10510={ #PROV10510
 	terrain="desert_hills"
 	culture="ona"
 	religion="arabian_pantheon"
@@ -2340,7 +2245,7 @@
 	}
 }
 
-10511={ #Afabet
+10511={ #PROV10511
 	terrain="desert_hills"
 	culture="ona"
 	religion="arabian_pantheon"

@@ -1,4 +1,38 @@
-﻿174={ #Kongoustos
+﻿169={ #Laranda
+	terrain="plains"
+	culture="isaurian"
+	religion="anatolian_religion"
+	trade_goods="cloth"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="lycaonian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="lycaonian"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="lycaonian"
+		amount=1
+	}
+}
+
+174={ #Kongoustos
 	terrain="dry_plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -1260,6 +1294,83 @@
 	}
 }
 
+1780={ #Artanada
+	terrain="hills"
+	culture="isaurian"
+	religion="anatolian_religion"
+	trade_goods="cattle"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="lycaonian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="lycaonian"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1784={ #Klibanos
+	terrain="hills"
+	culture="lalasian"
+	religion="anatolian_religion"
+	trade_goods="stone"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="isaurian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="isaurian"
+		amount=1
+	}
+}
+
+1785={ #Ilistra
+	terrain="dry_plains"
+	culture="isaurian"
+	religion="anatolian_religion"
+	trade_goods="leather"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="lycaonian"
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
 1825={ #Taouion
 	terrain="hills"
 	culture="paphlagonian"
@@ -1367,6 +1478,119 @@
 	}
 	tribesmen={
 		culture="isaurian"
+		amount=1
+	}
+}
+
+1918={ #Homonadeis
+	terrain="plains"
+	culture="isaurian"
+	religion="anatolian_religion"
+	trade_goods="cloth"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="oroandian"
+		amount=1
+	}
+}
+
+1919={ #Isaura
+	terrain="plains"
+	culture="isaurian"
+	religion="anatolian_religion"
+	trade_goods="earthware"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="lycaonian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="lycaonian"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="lycaonian"
+		amount=1
+	}
+}
+
+1920={ #Ouasada
+	terrain="plains"
+	culture="oroandian"
+	religion="anatolian_religion"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		culture="isaurian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="isaurian"
+		amount=3
+	}
+}
+
+1922={ #Misteia
+	terrain="plains"
+	culture="oroandian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="pisidian"
 		amount=1
 	}
 }
@@ -1898,6 +2122,29 @@
 	}
 }
 
+1955={ #Thebasa
+	terrain="plains"
+	culture="isaurian"
+	religion="anatolian_religion"
+	trade_goods="honey"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="lycaonian"
+		amount=1
+	}
+}
+
 1965={ #Lystra
 	terrain="hills"
 	culture="isaurian"
@@ -1973,6 +2220,79 @@
 	}
 	tribesmen={
 		amount=1
+	}
+	tribesmen={
+		culture="isaurian"
+		amount=1
+	}
+}
+
+7961={ #Kagrai
+	terrain="hills"
+	culture="oroandian"
+	religion="anatolian_religion"
+	trade_goods="leather"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="pisidian"
+		amount=1
+	}
+	tribesmen={
+		culture="isaurian"
+		amount=1
+	}
+}
+
+7963={ #Adrasos
+	terrain="hills"
+	culture="lalasian"
+	religion="anatolian_religion"
+	trade_goods="leather"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="isaurian"
+		amount=1
+	}
+}
+
+7964={ #Koropissos
+	terrain="mountain"
+	culture="isaurian"
+	religion="anatolian_religion"
+	trade_goods="stone"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
 	}
 	tribesmen={
 		culture="isaurian"

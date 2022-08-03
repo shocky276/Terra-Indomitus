@@ -970,44 +970,6 @@
 	}
 }
 
-4801={ #Polondava
-	terrain="plains"
-	culture="getian"
-	religion="shamanism"
-	trade_goods="leather"
-	civilization_value=10
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-4802={ #Agarusia
-	terrain="forest"
-	culture="getian"
-	religion="shamanism"
-	trade_goods="cattle"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 4803={ #Rhamidava
 	terrain="forest"
 	culture="getian"
@@ -2017,22 +1979,6 @@
 		amount=2
 	}
 	holy_site=omen_bendis
-}
-
-4913={ #Piroboridava
-	terrain="forest"
-	culture="getian"
-	religion="shamanism"
-	trade_goods="hemp"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
 }
 
 4926={ #Dure

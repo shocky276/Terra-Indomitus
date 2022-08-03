@@ -305,7 +305,7 @@
 	}
 }
 
-1016={ #Calagurris Iulia
+1016={ #Calagurris
 	terrain="forest"
 	culture="vasconian"
 	religion="animism"

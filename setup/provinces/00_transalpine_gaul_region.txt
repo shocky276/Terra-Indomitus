@@ -14,6 +14,22 @@
 	}
 }
 
+1719={ #Avitacum
+	terrain="forest"
+	culture="arverni"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=14
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
 2253={ #Consoranni
 	terrain="plains"
 	culture="aquitani"
@@ -279,6 +295,22 @@
 	}
 }
 
+2268={ #Carantomagus
+	terrain="forest"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
 2280={ #Marinavas
 	terrain="plains"
 	culture="volcae"
@@ -295,12 +327,114 @@
 	}
 }
 
+2284={ #Gergovia
+	terrain="plains"
+	culture="arverni"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+2285={ #Gabalum
+	terrain="forest"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="marble"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2286={ #Vellavorum
+	terrain="forest"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2295={ #Ad Silanum
+	terrain="forest"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2296={ #Condate Arvernorum
+	terrain="forest"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
 2297={ #Cebennia
 	terrain="forest"
 	culture="salluvian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2298={ #Brivas
+	terrain="forest"
+	culture="arverni"
+	religion="druidism"
+	trade_goods="iron"
+	civilization_value=14
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -781,6 +915,22 @@
 	port_building=1
 }
 
+2339={ #Uxellodunum
+	terrain="forest"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
 2356={ #Ludna
 	terrain="plains"
 	culture="helvetian"
@@ -810,6 +960,19 @@
 	}
 	tribesmen={
 		amount=4
+	}
+}
+
+3309={ #Canniaco
+	terrain="forest"
+	culture="volcae"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
 	}
 }
 
@@ -1243,7 +1406,7 @@
 	}
 }
 
-3541={ #Agathom
+3541={ #Agathum
 	terrain="forest"
 	culture="ligurian"
 	religion="roman_pantheon"
@@ -1319,7 +1482,7 @@
 	port_building=1
 }
 
-3544={ #Navelis
+3544={ #Cemelenum
 	terrain="plains"
 	culture="ligurian"
 	religion="roman_pantheon"

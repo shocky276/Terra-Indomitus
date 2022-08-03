@@ -14,6 +14,22 @@
 	}
 }
 
+2444={ #Catalacus
+	terrain="plains"
+	culture="veliocassian"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
 2445={ #Augustomagus
 	terrain="forest"
 	culture="bellovacian"
@@ -113,44 +129,6 @@
 	}
 }
 
-2453={ #Tullum
-	terrain="forest"
-	culture="haedui"
-	religion="druidism"
-	trade_goods="wood"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-2454={ #Divodurum
-	terrain="plains"
-	culture="treverian"
-	religion="druidism"
-	trade_goods="fur"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
 2455={ #Viriodunum
 	terrain="forest"
 	culture="treverian"
@@ -232,6 +210,216 @@
 	}
 	tribesmen={
 		amount=3
+	}
+}
+
+2472={ #Briva Isarae
+	terrain="forest"
+	culture="veliocassian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2473={ #Avalocum
+	terrain="plains"
+	culture="veliocassian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2474={ #Nemetodurum
+	terrain="plains"
+	culture="veliocassian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2475={ #Lutetia
+	terrain="plains"
+	culture="biturigan"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=9
+	}
+}
+
+2476={ #Dortenco
+	terrain="plains"
+	culture="biturigan"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2477={ #Diodurum
+	terrain="plains"
+	culture="biturigan"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2481={ #Mellodunum
+	terrain="plains"
+	culture="biturigan"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2482={ #Agedincum
+	terrain="plains"
+	culture="sennonian"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2483={ #Cala
+	terrain="farmland"
+	culture="sennonian"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2484={ #Calagum
+	terrain="plains"
+	culture="bellovacian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2485={ #Riobe
+	terrain="farmland"
+	culture="sennonian"
+	religion="druidism"
+	trade_goods="honey"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2486={ #Lucia
+	terrain="forest"
+	culture="sennonian"
+	religion="druidism"
+	trade_goods="cloth"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
 	}
 }
 
@@ -363,22 +551,6 @@
 	}
 }
 
-2497={ #Nasium
-	terrain="forest"
-	culture="haedui"
-	religion="druidism"
-	trade_goods="cloth"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
 2498={ #Sauriciacum
 	terrain="forest"
 	culture="haedui"
@@ -395,146 +567,11 @@
 	}
 }
 
-2499={ #Scarponna
-	terrain="plains"
-	culture="haedui"
-	religion="druidism"
-	trade_goods="grain"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-	holy_site=omen_rosmerta
-}
-
 3001={ #Castrum Vabrense
 	terrain="forest"
 	culture="treverian"
 	religion="druidism"
 	trade_goods="honey"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-3002={ #Pannorum
-	terrain="forest"
-	culture="treverian"
-	religion="druidism"
-	trade_goods="cloth"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-3003={ #Solicia
-	terrain="forest"
-	culture="haedui"
-	religion="druidism"
-	trade_goods="horses"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-3004={ #Mosa
-	terrain="plains"
-	culture="haedui"
-	religion="druidism"
-	trade_goods="horses"
-	civilization_value=11
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-3007={ #Grannum
-	terrain="forest"
-	culture="haedui"
-	religion="druidism"
-	trade_goods="vegetables"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-3015={ #Aquae Borbonis
-	terrain="forest"
-	culture="haedui"
-	religion="druidism"
-	trade_goods="cattle"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-3016={ #Vicus Bodatius
-	terrain="forest"
-	culture="haedui"
-	religion="druidism"
-	trade_goods="wood"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-3017={ #Decem Pagi
-	terrain="forest"
-	culture="treverian"
-	religion="druidism"
-	trade_goods="fur"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
@@ -1172,6 +1209,22 @@
 	}
 }
 
+3685={ #Orolaunum
+	terrain="plains"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
 3686={ #Eposium
 	terrain="forest"
 	culture="treverian"
@@ -1220,6 +1273,41 @@
 	}
 	tribesmen={
 		amount=4
+	}
+}
+
+3689={ #Andethanna
+	terrain="plains"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3690={ #Treveria
+	terrain="plains"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
 	}
 }
 
@@ -1328,6 +1416,170 @@
 	}
 }
 
+3709={ #Traiectus
+	terrain="forest"
+	culture="eburonian"
+	religion="druidism"
+	trade_goods="honey"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3710={ #Catualium
+	terrain="forest"
+	culture="eburonian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3711={ #Blariacum
+	terrain="plains"
+	culture="belgae"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3712={ #Harenatium
+	terrain="plains"
+	culture="belgae"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+3713={ #Ad Duodecimum
+	terrain="plains"
+	culture="belgae"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3714={ #Castra Vetera
+	terrain="plains"
+	culture="istvaeonic"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+3715={ #Asciburgium
+	terrain="forest"
+	culture="aduatacian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+3716={ #Iuliacum
+	terrain="forest"
+	culture="aduatacian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3717={ #Novaesium
+	terrain="plains"
+	culture="aduatacian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+3718={ #Aquae Granni
+	terrain="forest"
+	culture="aduatacian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
 3719={ #Belsonancum
 	terrain="plains"
 	culture="aduatacian"
@@ -1344,6 +1596,249 @@
 	}
 	tribesmen={
 		amount=4
+	}
+}
+
+3720={ #Bonna
+	terrain="plains"
+	culture="aduatacian"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3721={ #Confluentes
+	terrain="plains"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3722={ #Vosolvia
+	terrain="plains"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3724={ #Belginum
+	terrain="plains"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3726={ #Beda
+	terrain="plains"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3727={ #Marcomagus
+	terrain="plains"
+	culture="aduatacian"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3728={ #Icorigium
+	terrain="forest"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3729={ #Epternacus
+	terrain="plains"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3730={ #Vicus Voclannionum
+	terrain="plains"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="vegetables"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3843={ #Ganuenta
+	terrain="marsh"
+	culture="belgae"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+3844={ #Fletio
+	terrain="marsh"
+	culture="belgae"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	holy_site=omen_nehalennia
+}
+
+3845={ #Marsacia
+	terrain="marsh"
+	culture="belgae"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3846={ #Lugadurum
+	terrain="plains"
+	culture="istvaeonic"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+3849={ #Manaritum
+	terrain="plains"
+	culture="belgae"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7738={ #Rigomagus
+	terrain="plains"
+	culture="treverian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
 	}
 }
 

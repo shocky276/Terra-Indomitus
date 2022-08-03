@@ -228,43 +228,7 @@
 	province_rank=""
 }
 
-10353={ #Borysthenes12
-	terrain="riverine_terrain"
-	culture=""
-	religion=""
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-10354={ #Borysthenes13
-	terrain="riverine_terrain"
-	culture=""
-	religion=""
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-10355={ #Borysthenes14
-	terrain="riverine_terrain"
-	culture=""
-	religion=""
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-10356={ #Borysthenes15
-	terrain="riverine_terrain"
-	culture=""
-	religion=""
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-10357={ #Borysthenes16
+10353={ #PROV10353
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -274,7 +238,7 @@
 	province_rank=""
 }
 
-10358={ #Pripyat1
+10354={ #PROV10354
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -283,7 +247,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-10359={ #Pripyat2
+
+10355={ #PROV10355
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -292,7 +257,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-10360={ #Pripyat3
+
+10356={ #PROV10356
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -301,7 +267,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-10361={ #Desna1
+
+10357={ #PROV10357
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -310,7 +277,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-10362={ #Desna2
+
+10358={ #PROV10358
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -319,7 +287,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-10363={ #Desna3
+
+10359={ #PROV10359
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -328,7 +297,8 @@
 	barbarian_power=0
 	province_rank=""
 }
-10364={ #Desna4
+
+10360={ #PROV10360
 	terrain="riverine_terrain"
 	culture=""
 	religion=""
@@ -337,3 +307,44 @@
 	barbarian_power=0
 	province_rank=""
 }
+
+10361={ #PROV10361
+	terrain="riverine_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10362={ #PROV10362
+	terrain="riverine_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10363={ #PROV10363
+	terrain="riverine_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10364={ #PROV10364
+	terrain="riverine_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+

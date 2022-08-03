@@ -988,10 +988,10 @@
 	}
 	holy_site=omen_tanit
 	port_building=3
-	aqueduct_building=2
 	library_building=2
 	commerce_building=2
 	town_hall_building=1
+	aqueduct_building=2
 }
 
 3257={ #Atiq
@@ -1820,7 +1820,7 @@
 	}
 }
 
-3288={ #Makom Hadash
+3288={ #Macomades Minores
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2133,438 +2133,7 @@
 	}
 }
 
-3301={ #Tsabratan
-	terrain="dry_plains"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="olive"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	slaves={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=1
-	}
-	holy_site=omen_nanna_tala
-}
-
-3302={ #Zanazia
-	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="fish"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-}
-
-3303={ #Oyat
-	terrain="dry_plains"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="olive"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=12
-	}
-	freemen={
-		amount=6
-	}
-	freemen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=2
-	}
-	freemen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=1
-	}
-	port_building=1
-}
-
-3304={ #Amarea
-	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="fish"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=1
-	}
-}
-
-3305={ #Gaphara
-	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="stone"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-}
-
-3306={ #Lapki
-	terrain="dry_plains"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="stone"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	nobles={
-		amount=1
-	}
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	freemen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-}
-
-3324={ #Kinyps
-	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="leather"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-}
-
-3325={ #Takash
-	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="cattle"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	slaves={
-		amount=1
-	}
-	holy_site=omen_gurzil
-	port_building=1
-}
-
-3326={ #Base
-	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="olive"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=1
-	}
-	slaves={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=1
-	}
-}
-
-3327={ #Thebunte
-	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="fish"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-3329={ #Annesel
-	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="leather"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-}
-
-3330={ #Auxiu
-	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="cattle"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=2
-	}
-	slaves={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=2
-	}
-}
-
-3332={ #Dysopon
-	terrain="desert"
-	culture="garamantic"
-	religion="berber_religion"
-	trade_goods="cattle"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-3333={ #Euphranta
-	terrain="desert"
-	culture="garamantic"
-	religion="berber_religion"
-	trade_goods="olive"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-3334={ #Iscina
-	terrain="desert"
-	culture="garamantic"
-	religion="berber_religion"
-	trade_goods="olive"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
-	}
-}
-
-3335={ #Aulazon
-	terrain="desert"
-	culture="garamantic"
-	religion="berber_religion"
-	trade_goods="salt"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-3336={ #Ad Palmam
-	terrain="desert"
-	culture="garamantic"
-	religion="berber_religion"
-	trade_goods="fish"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-3337={ #Digdida Selorum
-	terrain="desert"
-	culture="garamantic"
-	religion="berber_religion"
-	trade_goods="wood"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
-	}
-}
-
-3338={ #Arae Philaenorum
-	terrain="desert"
-	culture="garamantic"
-	religion="berber_religion"
-	trade_goods="fish"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-3339={ #Automalax
-	terrain="desert"
-	culture="garamantic"
-	religion="berber_religion"
-	trade_goods="salt"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10050={ #Tabalati
+10050={ #PROV10050
 	terrain="desert"
 	culture="lotophagoi"
 	religion="berber_religion"
@@ -2593,7 +2162,7 @@
 	}
 }
 
-10051={ #Augemmi
+10051={ #PROV10051
 	terrain="desert"
 	culture="lotophagoi"
 	religion="berber_religion"
@@ -2627,7 +2196,7 @@
 	}
 }
 
-10052={ #Recheb
+10052={ #PROV10052
 	terrain="desert"
 	culture="lotophagoi"
 	religion="berber_religion"
@@ -2653,7 +2222,7 @@
 	}
 }
 
-10053={ #Mahalla
+10053={ #PROV10053
 	terrain="desert"
 	culture="lotophagoi"
 	religion="berber_religion"
@@ -2671,7 +2240,7 @@
 	}
 }
 
-10054={ #Tisavar
+10054={ #PROV10054
 	terrain="desert"
 	culture="lotophagoi"
 	religion="berber_religion"
@@ -2684,7 +2253,7 @@
 	}
 }
 
-10055={ #Tibubuci
+10055={ #PROV10055
 	terrain="desert"
 	culture="lotophagoi"
 	religion="berber_religion"
@@ -2702,7 +2271,7 @@
 	}
 }
 
-10056={ #Bezereos
+10056={ #PROV10056
 	terrain="desert"
 	culture="lotophagoi"
 	religion="berber_religion"
@@ -2720,7 +2289,7 @@
 	}
 }
 
-10057={ #Tabria
+10057={ #PROV10057
 	terrain="desert"
 	culture="lotophagoi"
 	religion="berber_religion"
@@ -2733,7 +2302,7 @@
 	}
 }
 
-10058={ #Naffatiyah
+10058={ #PROV10058
 	terrain="desert"
 	culture="lotophagoi"
 	religion="berber_religion"
@@ -2759,7 +2328,7 @@
 	}
 }
 
-10059={ #Arelliorum
+10059={ #PROV10059
 	terrain="dry_plains"
 	culture="carthaginian"
 	religion="berber_religion"
@@ -2777,7 +2346,7 @@
 	}
 }
 
-10060={ #Turris Tamaleni
+10060={ #PROV10060
 	terrain="plains"
 	culture="gyzantian"
 	religion="berber_religion"
@@ -2814,7 +2383,7 @@
 	}
 }
 
-10061={ #Aquae Tacapitanae
+10061={ #PROV10061
 	terrain="plains"
 	culture="gyzantian"
 	religion="berber_religion"
@@ -2841,7 +2410,7 @@
 	}
 }
 
-10062={ #Jamnah
+10062={ #PROV10062
 	terrain="plains"
 	culture="gyzantian"
 	religion="berber_religion"
@@ -2870,7 +2439,7 @@
 	}
 }
 
-10063={ #Ghidma
+10063={ #PROV10063
 	terrain="plains"
 	culture="gyzantian"
 	religion="berber_religion"
@@ -2886,7 +2455,7 @@
 	}
 }
 
-10064={ #Faouar
+10064={ #PROV10064
 	terrain="plains"
 	culture="gyzantian"
 	religion="berber_religion"
@@ -2902,7 +2471,7 @@
 	}
 }
 
-10065={ #Rjim Maatoug
+10065={ #PROV10065
 	terrain="plains"
 	culture="gyzantian"
 	religion="berber_religion"
@@ -2915,7 +2484,7 @@
 	}
 }
 
-10066={ #Talib
+10066={ #PROV10066
 	terrain="plains"
 	culture="gyzantian"
 	religion="berber_religion"
