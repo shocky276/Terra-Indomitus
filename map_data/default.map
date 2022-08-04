@@ -157,6 +157,7 @@ lakes = LIST { 5320 5367 8090 }
 
 #Seazones, TI:
 sea_zones = RANGE { 10512 10527 }
+sea_zones = RANGE { 10576 10582 }
 sea_zones = LIST { 8094 8095 }
 
 #Major Rivers, TI:
