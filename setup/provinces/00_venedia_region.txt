@@ -23,7 +23,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=3
+		amount=2
+	}
+	tribesmen={
+		culture="aestian"
+		religion="matrist_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
 	}
 	port_building=1
 }
@@ -38,6 +48,11 @@
 	province_rank="settlement"
 	tribesmen={
 		amount=3
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
 	}
 }
 
@@ -57,7 +72,7 @@
 
 4753={ #Rhuticlia Helveconia
 	terrain="plains"
-	culture="vandal"
+	culture="gothonic"
 	religion="germanic_religion"
 	trade_goods="amber"
 	civilization_value=5
@@ -73,7 +88,7 @@
 
 4754={ #Turcilingia
 	terrain="plains"
-	culture="vandal"
+	culture="gothonic"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=5
@@ -97,6 +112,11 @@
 	province_rank="settlement"
 	tribesmen={
 		amount=3
+	}
+	tribesmen={
+		culture="aestian"
+		religion="matrist_religion"
+		amount=1
 	}
 }
 
@@ -150,6 +170,11 @@
 	tribesmen={
 		amount=3
 	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
 }
 
 4760={ #Campia
@@ -167,7 +192,7 @@
 
 4761={ #Ascaucalis
 	terrain="forest"
-	culture="bastarnae"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=3
@@ -176,11 +201,16 @@
 	tribesmen={
 		amount=3
 	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
 }
 
 4762={ #Buguntia
 	terrain="forest"
-	culture="bastarnae"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="horses"
 	civilization_value=3
@@ -190,7 +220,12 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
 	}
 }
 
@@ -203,13 +238,18 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=3
+		amount=2
+	}
+	tribesmen={
+		culture="aestian"
+		religion="matrist_religion"
+		amount=1
 	}
 }
 
 4764={ #Helveconiana
 	terrain="forest"
-	culture="vandal"
+	culture="gothonic"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=3
@@ -221,11 +261,16 @@
 	tribesmen={
 		amount=3
 	}
+	tribesmen={
+		culture="aestian"
+		religion="matrist_religion"
+		amount=1
+	}
 }
 
 4765={ #Carinia
 	terrain="plains"
-	culture="vandal"
+	culture="gothonic"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=5
@@ -241,7 +286,7 @@
 
 4766={ #Cariniana
 	terrain="plains"
-	culture="vandal"
+	culture="gothonic"
 	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=5
@@ -263,6 +308,11 @@
 	tribesmen={
 		amount=1
 	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
 }
 
 4768={ #Erbia
@@ -281,7 +331,7 @@
 
 4769={ #Manimia
 	terrain="plains"
-	culture="bastarnae"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=5
@@ -296,11 +346,16 @@
 	tribesmen={
 		amount=1
 	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
 }
 
 4770={ #Vindua
 	terrain="forest"
-	culture="bastarnae"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=3
@@ -316,7 +371,7 @@
 
 4773={ #Elysia
 	terrain="plains"
-	culture="bastarnae"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=5
@@ -329,7 +384,7 @@
 
 4774={ #Elysiana
 	terrain="forest"
-	culture="bastarnae"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=3
@@ -338,11 +393,16 @@
 	tribesmen={
 		amount=1
 	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
 }
 
 4775={ #Setideva
 	terrain="plains"
-	culture="bastarnae"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=5
@@ -367,12 +427,17 @@
 	tribesmen={
 		amount=1
 	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
 }
 
 4862={ #Vistuliana
 	terrain="plains"
-	culture="gothonic"
-	religion="germanic_religion"
+	culture="aestian"
+	religion="matrist_religion"
 	trade_goods="amber"
 	civilization_value=5
 	barbarian_power=0
@@ -387,8 +452,8 @@
 
 4863={ #Voreynica
 	terrain="plains"
-	culture="gothonic"
-	religion="germanic_religion"
+	culture="aestian"
+	religion="matrist_religion"
 	trade_goods="vegetables"
 	civilization_value=5
 	barbarian_power=0
@@ -433,8 +498,8 @@
 
 6277={ #Duretica
 	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=0
 	barbarian_power=0
@@ -447,8 +512,8 @@
 
 6278={ #Mornal
 	terrain="plains"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="vandal"
+	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=0
 	barbarian_power=0
@@ -463,8 +528,8 @@
 
 6279={ #Vadina
 	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="vandal"
+	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=0
 	barbarian_power=0
@@ -492,8 +557,8 @@
 
 6281={ #Follia
 	terrain="plains"
-	culture="vandal"
-	religion="germanic_religion"
+	culture="aestian"
+	religion="matrist_religion"
 	trade_goods="woad"
 	civilization_value=5
 	barbarian_power=0
@@ -692,7 +757,7 @@
 }
 
 7808={ #Rubonia
-	terrain="taiga"
+	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="wood"
@@ -718,7 +783,7 @@
 }
 
 7810={ #Turuntia Australis
-	terrain="taiga"
+	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="wood"
@@ -731,7 +796,7 @@
 }
 
 7811={ #Turuntia
-	terrain="taiga"
+	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="wild_game"
@@ -741,7 +806,7 @@
 }
 
 7812={ #Turuntia Borealis
-	terrain="taiga"
+	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="wild_game"
@@ -767,7 +832,7 @@
 }
 
 7814={ #Veltaea
-	terrain="taiga"
+	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="cattle"
@@ -780,7 +845,7 @@
 }
 
 7815={ #Veltaea Borealis
-	terrain="taiga"
+	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="cattle"
@@ -794,7 +859,7 @@
 }
 
 7816={ #Carbonia Occidentalis
-	terrain="taiga"
+	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="fish"
@@ -807,7 +872,7 @@
 }
 
 7817={ #Carbonia
-	terrain="taiga"
+	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="woad"
@@ -820,7 +885,7 @@
 }
 
 7818={ #Careotaia Borealis
-	terrain="taiga"
+	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="fur"
@@ -830,7 +895,7 @@
 }
 
 7819={ #Careotaia Australis
-	terrain="taiga"
+	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="leather"
@@ -897,79 +962,11 @@
 	}
 }
 
-7824={ #Revacia
-	terrain="forest"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="fur"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
 7825={ #Sentia
 	terrain="plains"
-	culture="slavian"
+	culture="aestian"
 	religion="matrist_religion"
 	trade_goods="grain"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-7826={ #Merania
-	terrain="forest"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="fur"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-7827={ #Orentia
-	terrain="forest"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="cattle"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-7828={ #Manoia
-	terrain="forest"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="cattle"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-7829={ #Heritia
-	terrain="forest"
-	culture="slavian"
-	religion="matrist_religion"
-	trade_goods="woad"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

@@ -329,9 +329,9 @@
 	port_building=1
 }
 
-23={ #Narnia
+23={ #Nequinum
 	terrain="hills"
-	culture="umbrian"
+	culture="samnite"
 	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=9
@@ -353,7 +353,7 @@
 
 24={ #Peltuinum
 	terrain="hills"
-	culture="umbrian"
+	culture="roman"
 	religion="roman_pantheon"
 	trade_goods="horses"
 	civilization_value=24
@@ -410,7 +410,7 @@
 
 27={ #Alba Fucens
 	terrain="hills"
-	culture="umbrian"
+	culture="roman"
 	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=24
@@ -429,7 +429,7 @@
 
 28={ #Corfinium
 	terrain="hills"
-	culture="umbrian"
+	culture="samnite"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=9
@@ -451,7 +451,7 @@
 
 29={ #Histonium
 	terrain="farmland"
-	culture="umbrian"
+	culture="samnite"
 	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=13
@@ -473,7 +473,7 @@
 
 30={ #Aufidena
 	terrain="hills"
-	culture="umbrian"
+	culture="roman"
 	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=9
@@ -495,7 +495,7 @@
 
 34={ #Iuvanum
 	terrain="hills"
-	culture="umbrian"
+	culture="samnite"
 	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=9
@@ -653,7 +653,7 @@
 
 105={ #Trebula
 	terrain="forest"
-	culture="umbrian"
+	culture="samnite"
 	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=9
@@ -672,7 +672,7 @@
 
 106={ #Aternum
 	terrain="farmland"
-	culture="south_picena"
+	culture="samnite"
 	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=21
@@ -695,7 +695,7 @@
 
 107={ #Interamnia
 	terrain="forest"
-	culture="umbrian"
+	culture="samnite"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=9
@@ -717,7 +717,7 @@
 
 108={ #Matrinum
 	terrain="farmland"
-	culture="south_picena"
+	culture="samnite"
 	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=16
@@ -740,7 +740,7 @@
 
 109={ #Asculum
 	terrain="plains"
-	culture="south_picena"
+	culture="samnite"
 	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=14
@@ -762,7 +762,7 @@
 
 110={ #Septempeda
 	terrain="forest"
-	culture="south_picena"
+	culture="umbrian"
 	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=24
@@ -784,7 +784,7 @@
 
 111={ #Picenum
 	terrain="farmland"
-	culture="south_picena"
+	culture="samnite"
 	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=21
@@ -949,7 +949,7 @@
 
 118={ #Cingulum
 	terrain="hills"
-	culture="south_picena"
+	culture="umbrian"
 	religion="roman_pantheon"
 	trade_goods="horses"
 	civilization_value=24
@@ -1022,7 +1022,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="lepontic"
+		culture="sennonian"
 		amount=1
 	}
 	citizen={
@@ -1035,7 +1035,7 @@
 		amount=1
 	}
 	slaves={
-		culture="north_picena"
+		culture="umbrian"
 		religion="roman_pantheon"
 		amount=1
 	}
@@ -1043,11 +1043,11 @@
 		amount=2
 	}
 	tribesmen={
-		culture="lepontic"
+		culture="sennonian"
 		amount=4
 	}
 	tribesmen={
-		culture="north_picena"
+		culture="umbrian"
 		religion="roman_pantheon"
 		amount=2
 	}
@@ -1055,8 +1055,8 @@
 
 122={ #Urbinum
 	terrain="hills"
-	culture="north_picena"
-	religion="roman_pantheon"
+	culture="umbrian"
+	religion="druidism"
 	trade_goods="wood"
 	civilization_value=24
 	barbarian_power=0
@@ -1292,7 +1292,7 @@
 132={ #Sarsina
 	terrain="hills"
 	culture="umbrian"
-	religion="roman_pantheon"
+	religion="druidism"
 	trade_goods="wood"
 	civilization_value=24
 	barbarian_power=0
@@ -1313,14 +1313,14 @@
 
 133={ #Arimna
 	terrain="farmland"
-	culture="north_picena"
+	culture="umbrian"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		culture="lepontic"
+		culture="sennonian"
 		amount=1
 	}
 	freemen={
@@ -1332,7 +1332,6 @@
 	}
 	slaves={
 		culture="italiotian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -1343,73 +1342,6 @@
 		religion="druidism"
 		amount=4
 	}
-}
-
-134={ #Birent
-	terrain="farmland"
-	culture="etruscan"
-	religion="roman_pantheon"
-	trade_goods="grain"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=5
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-135={ #Valvata
-	terrain="plains"
-	culture="etruscan"
-	religion="roman_pantheon"
-	trade_goods="marble"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-136={ #Pisna
-	terrain="farmland"
-	culture="etruscan"
-	religion="roman_pantheon"
-	trade_goods="salt"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=7
-	}
-	port_building=1
 }
 
 140={ #Faesulae
@@ -1442,6 +1374,69 @@
 	}
 }
 
+142={ #Ravna
+	terrain="plains"
+	culture="umbrian"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+	tribesmen={
+		culture="haedui"
+		religion="druidism"
+		amount=4
+	}
+	tribesmen={
+		culture="lepontic"
+		religion="druidism"
+		amount=2
+	}
+	port_building=1
+}
+
+147={ #Faventia
+	terrain="farmland"
+	culture="lepontic"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="etruscan"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		culture="sennonian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="umbrian"
+		religion="roman_pantheon"
+		amount=2
+	}
+}
+
 148={ #Ficline
 	terrain="hills"
 	culture="lepontic"
@@ -1457,7 +1452,7 @@
 		amount=1
 	}
 	freemen={
-		culture="lepontic"
+		culture="sennonian"
 		amount=1
 	}
 	slaves={
@@ -1470,9 +1465,9 @@
 
 1712={ #Antinum
 	terrain="hills"
-	culture="umbrian"
+	culture="roman"
 	religion="roman_pantheon"
-	trade_goods="fruits"
+	trade_goods="wine"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
@@ -1502,13 +1497,13 @@
 		amount=3
 	}
 	citizen={
-		amount=12
+		amount=17
 	}
 	freemen={
-		amount=14
+		amount=20
 	}
 	slaves={
-		amount=10
+		amount=13
 	}
 	port_building=1
 }
@@ -1516,7 +1511,7 @@
 3482={ #Hydata Neapolitana
 	terrain="farmland"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="iron"
 	civilization_value=28
 	barbarian_power=0
@@ -1546,6 +1541,7 @@
 	slaves={
 		amount=5
 	}
+	holy_site=omen_babai
 }
 
 3484={ #Karali
@@ -1567,7 +1563,7 @@
 	}
 }
 
-3485={ #Metalla
+3485={ #Sardopatoris
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1587,12 +1583,13 @@
 	tribesmen={
 		amount=2
 	}
+	holy_site=omen_sardus_can
 }
 
 3486={ #Ferraria
 	terrain="hills"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
@@ -1614,7 +1611,7 @@
 3487={ #Porticenses
 	terrain="hills"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
@@ -1636,7 +1633,7 @@
 3488={ #Sulcis
 	terrain="hills"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
@@ -1658,7 +1655,7 @@
 3489={ #Fanum Carisi
 	terrain="hills"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="wine"
 	civilization_value=24
 	barbarian_power=0
@@ -1680,7 +1677,7 @@
 3490={ #Sestis
 	terrain="plains"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="iron"
 	civilization_value=26
 	barbarian_power=0
@@ -1702,7 +1699,7 @@
 3491={ #Lesa
 	terrain="mountain"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="wood"
 	civilization_value=6
 	barbarian_power=0
@@ -1791,7 +1788,7 @@
 3495={ #Aquae Hypsitanae
 	terrain="mountain"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="grain"
 	civilization_value=6
 	barbarian_power=0
@@ -1810,10 +1807,10 @@
 	}
 }
 
-3496={ #Gouroulis
+3496={ #Gurulis
 	terrain="plains"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="grain"
 	civilization_value=15
 	barbarian_power=0
@@ -1835,7 +1832,7 @@
 3497={ #Hermaion Akron
 	terrain="hills"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="hemp"
 	civilization_value=24
 	barbarian_power=0
@@ -1857,7 +1854,7 @@
 3498={ #Makopsis
 	terrain="mountain"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=11
 	barbarian_power=0
@@ -1879,7 +1876,7 @@
 3499={ #Nymphaios Limen
 	terrain="farmland"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="wine"
 	civilization_value=28
 	barbarian_power=0
@@ -1898,7 +1895,7 @@
 3500={ #Turris Libisonis
 	terrain="farmland"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="salt"
 	civilization_value=28
 	barbarian_power=0
@@ -1917,7 +1914,7 @@
 3501={ #Erycinum
 	terrain="hills"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="grain"
 	civilization_value=13
 	barbarian_power=0
@@ -1939,7 +1936,7 @@
 3502={ #Sorabile
 	terrain="mountain"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=11
 	barbarian_power=0
@@ -1961,7 +1958,7 @@
 3503={ #Coclearia
 	terrain="hills"
 	culture="nuragic"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="wine"
 	civilization_value=24
 	barbarian_power=0
@@ -1976,7 +1973,7 @@
 
 3504={ #Olbia Rasna
 	terrain="plains"
-	culture="nuragic"
+	culture="corsian"
 	religion="carthaginian_pantheon"
 	trade_goods="salt"
 	civilization_value=33
@@ -2023,7 +2020,7 @@
 3505={ #Portus Tibulae
 	terrain="hills"
 	culture="corsian"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
@@ -2042,7 +2039,7 @@
 3506={ #Viniolae
 	terrain="hills"
 	culture="corsian"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="stone"
 	civilization_value=24
 	barbarian_power=0
@@ -2061,7 +2058,7 @@
 3507={ #Rubra
 	terrain="plains"
 	culture="corsian"
-	religion="roman_pantheon"
+	religion="carthaginian_pantheon"
 	trade_goods="fish"
 	civilization_value=26
 	barbarian_power=0
@@ -2083,7 +2080,7 @@
 3508={ #Phikaria
 	terrain="hills"
 	culture="corsian"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="stone"
 	civilization_value=0
 	barbarian_power=0
@@ -2103,7 +2100,7 @@
 3509={ #Pauka
 	terrain="hills"
 	culture="corsian"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="salt"
 	civilization_value=0
 	barbarian_power=0
@@ -2122,7 +2119,7 @@
 3510={ #Ourkinion
 	terrain="hills"
 	culture="corsian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
 	barbarian_power=0
@@ -2144,7 +2141,7 @@
 3511={ #Alouka
 	terrain="hills"
 	culture="corsian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=0
 	barbarian_power=0
@@ -2164,7 +2161,7 @@
 3512={ #Rhopikon
 	terrain="hills"
 	culture="corsian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=0
 	barbarian_power=0
@@ -2186,7 +2183,7 @@
 3513={ #Centurinum
 	terrain="hills"
 	culture="corsian"
-	religion="roman_pantheon"
+	religion="druidism"
 	trade_goods="salt"
 	civilization_value=24
 	barbarian_power=0
@@ -2208,7 +2205,7 @@
 3514={ #Mariana
 	terrain="hills"
 	culture="corsian"
-	religion="roman_pantheon"
+	religion="druidism"
 	trade_goods="wine"
 	civilization_value=24
 	barbarian_power=0
@@ -2229,7 +2226,7 @@
 
 3515={ #Alalia
 	terrain="farmland"
-	culture="massalian"
+	culture="etruscan"
 	religion="roman_pantheon"
 	trade_goods="honey"
 	civilization_value=39
@@ -2242,14 +2239,17 @@
 		amount=4
 	}
 	freemen={
-		amount=6
+		amount=3
+	}
+	freemen={
+		culture="massalian"
+		amount=3
 	}
 	slaves={
 		amount=3
 	}
 	tribesmen={
 		culture="corsian"
-		religion="roman_pantheon"
 		amount=4
 	}
 	port_building=1
@@ -2258,7 +2258,7 @@
 3516={ #Sermigium
 	terrain="mountain"
 	culture="corsian"
-	religion="roman_pantheon"
+	religion="druidism"
 	trade_goods="grain"
 	civilization_value=22
 	barbarian_power=0

@@ -344,7 +344,7 @@
 	port_building=1
 }
 
-401={ #Hypata
+401={ #Hypate
 	terrain="mountain"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -556,7 +556,7 @@
 
 417={ #Megara
 	terrain="hills"
-	culture="argolian"
+	culture="athenian"
 	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=37
@@ -579,7 +579,7 @@
 
 418={ #Korinthos
 	terrain="hills"
-	culture="argolian"
+	culture="achaean"
 	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=31
@@ -618,7 +618,7 @@
 	port_building=1
 }
 
-419={ #Gitana
+419={ #Toryne
 	terrain="hills"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -720,7 +720,7 @@
 }
 
 426={ #Thebai
-	terrain="plains"
+	terrain="farmland"
 	culture="boeotian"
 	religion="roman_pantheon"
 	trade_goods="earthware"
@@ -833,7 +833,7 @@
 	}
 }
 
-429={ #Epidauros Limera
+429={ #Epidauros Limira
 	terrain="hills"
 	culture="peloponnesian"
 	religion="roman_pantheon"
@@ -1145,7 +1145,7 @@
 	port_building=1
 }
 
-443={ #Kynthos
+443={ #Kythnos
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -1321,7 +1321,7 @@
 
 454={ #Thera
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="silk"
 	civilization_value=19
@@ -1481,7 +1481,7 @@
 	}
 }
 
-463={ #Thyrreion
+463={ #Thyrrheion
 	terrain="farmland"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -1646,7 +1646,7 @@
 	terrain="hills"
 	culture="peloponnesian"
 	religion="roman_pantheon"
-	trade_goods="dye"
+	trade_goods="wine"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1834,7 +1834,7 @@
 
 1964={ #Melos
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=19
@@ -2095,7 +2095,7 @@
 	slaves={
 		amount=3
 	}
-	holy_site=demeter
+	holy_site=omen_demeter
 }
 
 7898={ #Rhamnous
@@ -2192,6 +2192,7 @@
 	slaves={
 		amount=2
 	}
+	holy_site=omen_hestia
 }
 
 7904={ #Styra

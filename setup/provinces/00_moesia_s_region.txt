@@ -1,6 +1,6 @@
 ﻿4077={ #Marsonia
 	terrain="plains"
-	culture="deurian"
+	culture="pannonian"
 	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=10
@@ -172,7 +172,7 @@
 	}
 }
 
-4102={ #Grabaion
+4102={ #Kambaion
 	terrain="mountain"
 	culture="taulantian"
 	religion="roman_pantheon"
@@ -282,8 +282,8 @@
 
 4111={ #Hammeum
 	terrain="farmland"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="hemp"
 	civilization_value=12
 	barbarian_power=0
@@ -336,8 +336,8 @@
 
 4118={ #Gramrianae
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="precious_metals"
 	civilization_value=11
 	barbarian_power=0
@@ -393,8 +393,8 @@
 
 4121={ #Gradus
 	terrain="hills"
-	culture="deraemestian"
-	religion="roman_pantheon"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="stone"
 	civilization_value=9
 	barbarian_power=0
@@ -413,7 +413,7 @@
 4122={ #Parthinia
 	terrain="plains"
 	culture="celtic_pannonian"
-	religion="roman_pantheon"
+	religion="druidism"
 	trade_goods="wood"
 	civilization_value=11
 	barbarian_power=0
@@ -431,8 +431,8 @@
 
 4123={ #Salinae
 	terrain="hills"
-	culture="deurian"
-	religion="roman_pantheon"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=8
 	barbarian_power=0
@@ -469,8 +469,8 @@
 
 4125={ #Domavia
 	terrain="hills"
-	culture="deurian"
-	religion="roman_pantheon"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=9
 	barbarian_power=0
@@ -507,8 +507,8 @@
 
 4127={ #Malvesia
 	terrain="hills"
-	culture="deraemestian"
-	religion="roman_pantheon"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="precious_metals"
 	civilization_value=8
 	barbarian_power=0
@@ -529,7 +529,7 @@
 
 4128={ #Sarouiana
 	terrain="plains"
-	culture="deurian"
+	culture="pannonian"
 	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=10
@@ -545,7 +545,7 @@
 
 4129={ #Sarouia
 	terrain="forest"
-	culture="deurian"
+	culture="pannonian"
 	religion="roman_pantheon"
 	trade_goods="honey"
 	civilization_value=8
@@ -567,8 +567,8 @@
 
 4130={ #Saldia
 	terrain="plains"
-	culture="deurian"
-	religion="roman_pantheon"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -700,8 +700,8 @@
 
 4200={ #Viminacium Moesiacum
 	terrain="forest"
-	culture="dacian"
-	religion="shamanism"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="wood"
 	civilization_value=8
 	barbarian_power=0
@@ -716,8 +716,8 @@
 
 4201={ #Municipium
 	terrain="plains"
-	culture="triballoi"
-	religion="shamanism"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -735,8 +735,8 @@
 
 4202={ #Dasminium
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -751,8 +751,8 @@
 
 4203={ #Horreum Margi
 	terrain="forest"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="leather"
 	civilization_value=9
 	barbarian_power=0
@@ -770,8 +770,8 @@
 
 4204={ #Idimum
 	terrain="forest"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="hemp"
 	civilization_value=9
 	barbarian_power=0
@@ -824,8 +824,8 @@
 
 4207={ #Cuppae
 	terrain="plains"
-	culture="dacian"
-	religion="shamanism"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -843,8 +843,8 @@
 
 4212={ #Bao
 	terrain="hills"
-	culture="triballoi"
-	religion="shamanism"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="woad"
 	civilization_value=8
 	barbarian_power=0
@@ -862,7 +862,7 @@
 
 4213={ #Romuliana
 	terrain="hills"
-	culture="celtic_pannonian"
+	culture="triballoi"
 	religion="shamanism"
 	trade_goods="leather"
 	civilization_value=8

@@ -1,6 +1,6 @@
 ﻿3806={ #Varistia
 	terrain="plains"
-	culture="helvetian"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=0
@@ -16,7 +16,7 @@
 
 3807={ #Nariscia
 	terrain="plains"
-	culture="helvetian"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -67,7 +67,7 @@
 
 3811={ #Brodentia
 	terrain="plains"
-	culture="vindelician"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=0
@@ -99,7 +99,7 @@
 
 3813={ #Reganus
 	terrain="hills"
-	culture="vindelician"
+	culture="boian"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=0
@@ -115,7 +115,7 @@
 
 3814={ #Parmacampia
 	terrain="hills"
-	culture="vindelician"
+	culture="boian"
 	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=0
@@ -134,7 +134,7 @@
 
 3815={ #Augustania
 	terrain="hills"
-	culture="vindelician"
+	culture="boian"
 	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=0
@@ -217,7 +217,7 @@
 
 3820={ #Cantiabis
 	terrain="plains"
-	culture="vindelician"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -236,7 +236,7 @@
 
 3821={ #Moenosgadia
 	terrain="forest"
-	culture="vindelician"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=0
@@ -252,7 +252,7 @@
 
 3822={ #Devona
 	terrain="plains"
-	culture="treverian"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=0
@@ -799,7 +799,7 @@
 
 3945={ #Sudetiana
 	terrain="forest"
-	culture="vindelician"
+	culture="boian"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=0
@@ -815,7 +815,7 @@
 
 3946={ #Sudetica Planus
 	terrain="forest"
-	culture="vindelician"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=0
@@ -831,7 +831,7 @@
 
 3948={ #Turoniana
 	terrain="forest"
-	culture="treverian"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=0
@@ -844,8 +844,8 @@
 
 3952={ #Sudetia
 	terrain="hills"
-	culture="irminonic"
-	religion="germanic_religion"
+	culture="teurian"
+	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=0
 	barbarian_power=0
@@ -876,7 +876,7 @@
 
 4003={ #Lugidunum
 	terrain="forest"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=0
@@ -889,7 +889,7 @@
 
 4004={ #Didunia
 	terrain="plains"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=0
@@ -902,7 +902,7 @@
 
 4005={ #Stragona
 	terrain="plains"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=0
@@ -911,11 +911,16 @@
 	tribesmen={
 		amount=2
 	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
 }
 
 4006={ #Marsignia
 	terrain="hills"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="stone"
 	civilization_value=0
@@ -934,13 +939,18 @@
 
 4007={ #Leucara
 	terrain="plains"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
 		amount=1
 	}
 }
@@ -979,7 +989,7 @@
 
 4010={ #Casurgis
 	terrain="plains"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=0
@@ -998,7 +1008,7 @@
 
 4011={ #Cognia
 	terrain="hills"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=0
@@ -1011,7 +1021,7 @@
 
 4012={ #Viadria
 	terrain="plains"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=0
@@ -1030,8 +1040,8 @@
 
 4013={ #Carredunum
 	terrain="plains"
-	culture="irminonic"
-	religion="germanic_religion"
+	culture="boian"
+	religion="druidism"
 	trade_goods="fur"
 	civilization_value=0
 	barbarian_power=0
@@ -1043,8 +1053,8 @@
 
 4014={ #Eburum
 	terrain="plains"
-	culture="irminonic"
-	religion="germanic_religion"
+	culture="boian"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=0
 	barbarian_power=0
@@ -1056,8 +1066,8 @@
 
 4015={ #Gothinia
 	terrain="hills"
-	culture="irminonic"
-	religion="germanic_religion"
+	culture="boian"
+	religion="druidism"
 	trade_goods="stone"
 	civilization_value=0
 	barbarian_power=0
@@ -1091,7 +1101,7 @@
 
 4017={ #Asanca
 	terrain="hills"
-	culture="eravisci"
+	culture="cotinian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0

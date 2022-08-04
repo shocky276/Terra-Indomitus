@@ -17,7 +17,7 @@
 1020={ #Aracillum
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fur"
 	civilization_value=9
 	barbarian_power=0
@@ -198,7 +198,7 @@
 1103={ #Segisama Iulia
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="olive"
 	civilization_value=11
 	barbarian_power=0
@@ -214,7 +214,7 @@
 1108={ #Veseiasueca
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=9
 	barbarian_power=0
@@ -231,7 +231,7 @@
 1109={ #Maggiaviensium
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="marble"
 	civilization_value=11
 	barbarian_power=0
@@ -247,7 +247,7 @@
 1110={ #Camarica
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fur"
 	civilization_value=11
 	barbarian_power=0
@@ -263,7 +263,7 @@
 1111={ #Equosera
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="stone"
 	civilization_value=11
 	barbarian_power=0
@@ -285,7 +285,7 @@
 1112={ #Caiellum
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="stone"
 	civilization_value=9
 	barbarian_power=0
@@ -301,7 +301,7 @@
 1113={ #Pallontion
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fur"
 	civilization_value=9
 	barbarian_power=0
@@ -334,7 +334,7 @@
 1115={ #Ad Mare
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="leather"
 	civilization_value=9
 	barbarian_power=0
@@ -1198,7 +1198,7 @@
 1185={ #Camala
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="marble"
 	civilization_value=11
 	barbarian_power=0
