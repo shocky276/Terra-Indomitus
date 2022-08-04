@@ -178,11 +178,7 @@
 		amount=11
 	}
 	slaves={
-		amount=8
-	}
-	slaves={
-		culture="brygian"
-		amount=3
+		amount=11
 	}
 	slaves={
 		culture="hebrew"
@@ -370,7 +366,7 @@
 	}
 }
 
-383={ #Europos
+383={ #Europos Almopias
 	terrain="farmland"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -541,7 +537,7 @@
 	port_building=1
 }
 
-392={ #Kastanaia
+392={ #Meliboia
 	terrain="hills"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -601,7 +597,7 @@
 	}
 }
 
-395={ #Trikka
+395={ #Trikke
 	terrain="farmland"
 	culture="thessalian"
 	religion="roman_pantheon"
@@ -718,7 +714,7 @@
 	}
 }
 
-405={ #Styberra
+405={ #Stymbara
 	terrain="forest"
 	culture="macedonian"
 	religion="roman_pantheon"
@@ -790,17 +786,12 @@
 		amount=1
 	}
 	freemen={
-		amount=2
-	}
-	freemen={
-		culture="brygian"
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		culture="brygian"
 		amount=2
 	}
 }
@@ -829,7 +820,7 @@
 
 415={ #Epidamnos
 	terrain="farmland"
-	culture="epirote"
+	culture="italiotian"
 	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=27
@@ -868,7 +859,7 @@
 
 422={ #Apollonia Epidamnon
 	terrain="farmland"
-	culture="epirote"
+	culture="italiotian"
 	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=33
@@ -906,7 +897,7 @@
 	}
 }
 
-455={ #Dimalion
+455={ #Dimallon
 	terrain="farmland"
 	culture="epirote"
 	religion="roman_pantheon"
@@ -968,8 +959,8 @@
 
 499={ #Spinopara
 	terrain="farmland"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="leather"
 	civilization_value=13
 	barbarian_power=0
@@ -1008,22 +999,13 @@
 		amount=2
 	}
 	freemen={
-		culture="brygian"
 		amount=3
 	}
 	slaves={
-		amount=1
-	}
-	slaves={
-		culture="brygian"
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="brygian"
 		amount=3
+	}
+	tribesmen={
+		amount=4
 	}
 }
 
@@ -1039,17 +1021,12 @@
 		amount=2
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="brygian"
-		amount=2
+		amount=3
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		culture="brygian"
 		amount=1
 	}
 }
@@ -1156,10 +1133,10 @@
 	}
 }
 
-4097={ #Germania
+4097={ #Helice
 	terrain="hills"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="base_metals"
 	civilization_value=9
 	barbarian_power=0

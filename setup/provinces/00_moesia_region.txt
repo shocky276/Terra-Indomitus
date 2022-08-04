@@ -1,7 +1,7 @@
 ﻿477={ #Serdica
 	terrain="hills"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="wood"
 	civilization_value=9
 	barbarian_power=0
@@ -20,10 +20,10 @@
 	}
 }
 
-4112={ #Naissus
+4112={ #Navissos
 	terrain="farmland"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="cattle"
 	civilization_value=12
 	barbarian_power=0
@@ -41,8 +41,8 @@
 
 4115={ #Remesiana
 	terrain="hills"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="honey"
 	civilization_value=8
 	barbarian_power=0
@@ -63,8 +63,8 @@
 
 4116={ #Ballanstra
 	terrain="hills"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="stone"
 	civilization_value=8
 	barbarian_power=0
@@ -85,8 +85,8 @@
 
 4208={ #Taliata
 	terrain="plains"
-	culture="dacian"
-	religion="shamanism"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -104,8 +104,8 @@
 
 4209={ #Egeta
 	terrain="plains"
-	culture="dacian"
-	religion="shamanism"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -123,8 +123,8 @@
 
 4214={ #Clevora
 	terrain="plains"
-	culture="dacian"
-	religion="shamanism"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -215,8 +215,8 @@
 
 4219={ #Timacum
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -269,8 +269,8 @@
 
 4222={ #Turres
 	terrain="hills"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="wood"
 	civilization_value=8
 	barbarian_power=0
@@ -418,8 +418,8 @@
 
 4230={ #Scretisca
 	terrain="hills"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="triballoi"
+	religion="shamanism"
 	trade_goods="wood"
 	civilization_value=8
 	barbarian_power=0
@@ -711,7 +711,7 @@
 	}
 }
 
-4246={ #Durostorum
+4246={ #Silistra
 	terrain="forest"
 	culture="moesi"
 	religion="shamanism"
@@ -827,7 +827,7 @@
 	}
 }
 
-4251={ #Marcianopolis
+4251={ #Parthenopolis
 	terrain="plains"
 	culture="moesi"
 	religion="shamanism"
@@ -902,11 +902,11 @@
 		amount=1
 	}
 	slaves={
-		culture="moesi"
+		culture="getian"
 		amount=2
 	}
 	tribesmen={
-		culture="moesi"
+		culture="getian"
 		religion="shamanism"
 		amount=6
 	}
@@ -928,11 +928,11 @@
 		amount=2
 	}
 	slaves={
-		culture="moesi"
+		culture="getian"
 		amount=1
 	}
 	tribesmen={
-		culture="moesi"
+		culture="getian"
 		religion="shamanism"
 		amount=3
 	}
@@ -976,7 +976,7 @@
 	}
 }
 
-4258={ #Panissus
+4258={ #Panisus
 	terrain="hills"
 	culture="moesi"
 	religion="shamanism"
@@ -1016,7 +1016,7 @@
 
 4512={ #Axiopolis
 	terrain="forest"
-	culture="moesi"
+	culture="getian"
 	religion="shamanism"
 	trade_goods="cattle"
 	civilization_value=24
@@ -1045,16 +1045,16 @@
 		amount=3
 	}
 	freemen={
-		culture="scythian"
+		culture="getian"
 		amount=1
 	}
 	slaves={
-		culture="scythian"
+		culture="getian"
 		amount=2
 	}
 	tribesmen={
-		culture="scythian"
-		religion="indo_iranian_religion"
+		culture="getian"
+		religion="shamanism"
 		amount=5
 	}
 	port_building=1
@@ -1062,21 +1062,21 @@
 
 4514={ #Kios Skythike
 	terrain="marsh"
-	culture="scythian"
+	culture="getian"
 	religion="roman_pantheon"
 	trade_goods="honey"
 	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		religion="indo_iranian_religion"
+		religion="shamanism"
 		amount=4
 	}
 }
 
 4515={ #Skenopsis
 	terrain="forest"
-	culture="scythian"
+	culture="getian"
 	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=24
@@ -1086,14 +1086,14 @@
 		amount=1
 	}
 	tribesmen={
-		religion="indo_iranian_religion"
+		religion="shamanism"
 		amount=3
 	}
 }
 
 4516={ #Orgame
 	terrain="forest"
-	culture="scythian"
+	culture="getian"
 	religion="roman_pantheon"
 	trade_goods="hemp"
 	civilization_value=29
@@ -1111,15 +1111,15 @@
 		amount=1
 	}
 	tribesmen={
-		religion="indo_iranian_religion"
+		religion="shamanism"
 		amount=2
 	}
 }
 
 4517={ #Libida
 	terrain="forest"
-	culture="scythian"
-	religion="indo_iranian_religion"
+	culture="getian"
+	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=24
 	barbarian_power=0
@@ -1131,15 +1131,15 @@
 		amount=1
 	}
 	tribesmen={
-		religion="indo_iranian_religion"
+		religion="shamanism"
 		amount=1
 	}
 }
 
 4518={ #Beroe Skythike
 	terrain="marsh"
-	culture="scythian"
-	religion="indo_iranian_religion"
+	culture="getian"
+	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=22
 	barbarian_power=0
@@ -1160,7 +1160,7 @@
 
 4519={ #Almyris
 	terrain="forest"
-	culture="scythian"
+	culture="getian"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=24
@@ -1176,7 +1176,7 @@
 		amount=1
 	}
 	tribesmen={
-		religion="indo_iranian_religion"
+		religion="shamanism"
 		amount=1
 	}
 	port_building=1
@@ -1184,14 +1184,14 @@
 
 4520={ #Troismos
 	terrain="marsh"
-	culture="scythian"
+	culture="getian"
 	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		religion="indo_iranian_religion"
+		religion="shamanism"
 		amount=4
 	}
 }

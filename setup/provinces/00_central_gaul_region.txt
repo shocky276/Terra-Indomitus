@@ -130,7 +130,7 @@
 
 2355={ #Vesontio
 	terrain="forest"
-	culture="helvetian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="wine"
 	civilization_value=9
@@ -146,7 +146,7 @@
 
 2358={ #Lunna
 	terrain="plains"
-	culture="helvetian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="marble"
 	civilization_value=11
@@ -162,7 +162,7 @@
 
 2359={ #Matisco
 	terrain="forest"
-	culture="helvetian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="honey"
 	civilization_value=9
@@ -197,7 +197,7 @@
 
 2361={ #Crucinae
 	terrain="forest"
-	culture="helvetian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="wine"
 	civilization_value=9
@@ -232,7 +232,7 @@
 
 2363={ #Pons Ariola
 	terrain="forest"
-	culture="helvetian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=9
@@ -248,7 +248,7 @@
 
 2364={ #Rodumna
 	terrain="plains"
-	culture="arverni"
+	culture="allobrogian"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=11
@@ -264,7 +264,7 @@
 
 2365={ #Pocrinnium
 	terrain="plains"
-	culture="arverni"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=11
@@ -280,7 +280,7 @@
 
 2366={ #Allsincum
 	terrain="plains"
-	culture="arverni"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=11
@@ -296,7 +296,7 @@
 
 2367={ #Decetia
 	terrain="plains"
-	culture="arverni"
+	culture="biturigan"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=11
@@ -312,7 +312,7 @@
 
 2368={ #Tincontium
 	terrain="plains"
-	culture="arverni"
+	culture="biturigan"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=11
@@ -328,7 +328,7 @@
 
 2369={ #Berberensis
 	terrain="forest"
-	culture="arverni"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=9
@@ -459,7 +459,7 @@
 
 2377={ #Derventum
 	terrain="forest"
-	culture="arverni"
+	culture="biturigan"
 	religion="druidism"
 	trade_goods="iron"
 	civilization_value=9
@@ -475,7 +475,7 @@
 
 2378={ #Finis Secundus
 	terrain="plains"
-	culture="lemovician"
+	culture="arverni"
 	religion="druidism"
 	trade_goods="wine"
 	civilization_value=11
@@ -491,7 +491,7 @@
 
 2379={ #Accitodunum
 	terrain="farmland"
-	culture="lemovician"
+	culture="arverni"
 	religion="druidism"
 	trade_goods="precious_metals"
 	civilization_value=13
@@ -504,7 +504,7 @@
 
 2380={ #Cambonum
 	terrain="farmland"
-	culture="arverni"
+	culture="biturigan"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=13
@@ -520,7 +520,7 @@
 
 2381={ #Mediolanicum
 	terrain="forest"
-	culture="arverni"
+	culture="biturigan"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=9
@@ -663,7 +663,7 @@
 
 2413={ #Vicus Massava
 	terrain="plains"
-	culture="biturigan"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=11
@@ -695,7 +695,7 @@
 
 2415={ #Intaranum
 	terrain="plains"
-	culture="biturigan"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=11
@@ -727,7 +727,7 @@
 
 2417={ #Belca
 	terrain="plains"
-	culture="biturigan"
+	culture="sennonian"
 	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=11
@@ -743,7 +743,7 @@
 
 2418={ #Bandritum
 	terrain="plains"
-	culture="biturigan"
+	culture="sennonian"
 	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=11
@@ -759,7 +759,7 @@
 
 2427={ #Segobodium
 	terrain="forest"
-	culture="helvetian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=9
@@ -940,7 +940,7 @@
 	trade_goods="wood"
 	civilization_value=16
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	freemen={
 		amount=1
 	}
@@ -1022,7 +1022,7 @@
 
 2479={ #Ad Fines Galliarum
 	terrain="plains"
-	culture="biturigan"
+	culture="sennonian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=11
@@ -1134,7 +1134,7 @@
 
 3010={ #Valtudurum
 	terrain="forest"
-	culture="helvetian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=9
@@ -1182,4 +1182,3 @@
 		amount=4
 	}
 }
-

@@ -107,6 +107,7 @@
 	tribesmen={
 		amount=6
 	}
+	holy_site=omen_nabia
 }
 
 1153={ #Salacia Aebocosia
@@ -251,7 +252,6 @@
 	tribesmen={
 		amount=4
 	}
-	holy_site=omen_endouellicus
 }
 
 1164={ #Veniatia
@@ -447,6 +447,7 @@
 	tribesmen={
 		amount=4
 	}
+	holy_site=omen_vaelicus
 }
 
 1200={ #Vettonia Superioris
@@ -548,7 +549,7 @@
 
 1291={ #Langobriga
 	terrain="forest"
-	culture="turdulian"
+	culture="oppidanian"
 	religion="druidism"
 	trade_goods="dye"
 	civilization_value=9
@@ -580,7 +581,7 @@
 
 1293={ #Aeminium
 	terrain="plains"
-	culture="turdulian"
+	culture="oppidanian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=11
@@ -597,7 +598,7 @@
 
 1294={ #Conimbriga
 	terrain="plains"
-	culture="turdulian"
+	culture="oppidanian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=11
@@ -651,7 +652,7 @@
 
 1297={ #Collippo
 	terrain="plains"
-	culture="turdulian"
+	culture="oppidanian"
 	religion="druidism"
 	trade_goods="salt"
 	civilization_value=11
@@ -923,7 +924,7 @@
 
 1314={ #Scallabis
 	terrain="plains"
-	culture="lusitanian"
+	culture="oppidanian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=11
@@ -956,9 +957,9 @@
 	}
 }
 
-1316={ #Eburobricio
+1316={ #Eburobrittium
 	terrain="plains"
-	culture="turdulian"
+	culture="oppidanian"
 	religion="druidism"
 	trade_goods="salt"
 	civilization_value=11
@@ -974,7 +975,7 @@
 
 1317={ #Arabriga
 	terrain="plains"
-	culture="celtician"
+	culture="oppidanian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=11
@@ -990,7 +991,7 @@
 
 1318={ #Barbarion
 	terrain="plains"
-	culture="celtician"
+	culture="oppidanian"
 	religion="druidism"
 	trade_goods="salt"
 	civilization_value=11
@@ -1245,7 +1246,7 @@
 1401={ #Ugultunia
 	terrain="hills"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="wine"
 	civilization_value=9
 	barbarian_power=0
@@ -1261,7 +1262,7 @@
 1402={ #Perceiana
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=11
 	barbarian_power=0
@@ -1283,7 +1284,7 @@
 1403={ #Caspiana
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=11
 	barbarian_power=0
@@ -1305,7 +1306,7 @@
 1407={ #Iulipa
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="olive"
 	civilization_value=11
 	barbarian_power=0
@@ -1321,7 +1322,7 @@
 1408={ #Phornakis
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="grain"
 	civilization_value=11
 	barbarian_power=0
@@ -1356,7 +1357,7 @@
 1418={ #Seria
 	terrain="hills"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=9
 	barbarian_power=0
@@ -1372,7 +1373,7 @@
 1419={ #Turdulia Inferioris
 	terrain="forest"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="wine"
 	civilization_value=9
 	barbarian_power=0
@@ -1391,7 +1392,7 @@
 1420={ #Varna
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=11
 	barbarian_power=0
@@ -1410,7 +1411,7 @@
 1421={ #Luserium
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fur"
 	civilization_value=11
 	barbarian_power=0
@@ -1458,7 +1459,7 @@
 1424={ #Dipo
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="wood"
 	civilization_value=11
 	barbarian_power=0
@@ -1539,6 +1540,7 @@
 	tribesmen={
 		amount=4
 	}
+	holy_site=omen_endouellicus
 }
 
 1429={ #Badua
@@ -1665,7 +1667,7 @@
 1436={ #Metellinum
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=11
 	barbarian_power=0

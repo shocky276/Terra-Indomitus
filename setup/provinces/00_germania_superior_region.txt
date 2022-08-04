@@ -71,7 +71,7 @@
 
 3002={ #Pannorum
 	terrain="forest"
-	culture="treverian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=9
@@ -141,7 +141,7 @@
 
 3009={ #Larga
 	terrain="hills"
-	culture="helvetian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=9
@@ -160,7 +160,7 @@
 
 3011={ #Epamanduodurum
 	terrain="hills"
-	culture="helvetian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=9
@@ -224,7 +224,7 @@
 
 3017={ #Decem Pagi
 	terrain="forest"
-	culture="treverian"
+	culture="haedui"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=9
@@ -297,7 +297,7 @@
 
 3021={ #Argentorate
 	terrain="forest"
-	culture="helvetian"
+	culture="treverian"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=9
@@ -329,7 +329,7 @@
 
 3023={ #Brocomagus
 	terrain="forest"
-	culture="helvetian"
+	culture="treverian"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=9
@@ -351,7 +351,7 @@
 
 3024={ #Altitona
 	terrain="forest"
-	culture="helvetian"
+	culture="treverian"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=9
@@ -367,7 +367,7 @@
 
 3025={ #Aurelia Aquensis
 	terrain="forest"
-	culture="helvetian"
+	culture="treverian"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=9
@@ -383,7 +383,7 @@
 
 3052={ #Saletio
 	terrain="forest"
-	culture="treverian"
+	culture="helvetian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=9
@@ -437,7 +437,7 @@
 
 3055={ #Lopodunum
 	terrain="hills"
-	culture="treverian"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=0
@@ -629,7 +629,7 @@
 
 3702={ #Civitas Auderiensium
 	terrain="hills"
-	culture="treverian"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -766,7 +766,7 @@
 
 3737={ #Vicus Nediensis
 	terrain="hills"
-	culture="treverian"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -782,7 +782,7 @@
 
 3738={ #Vicus Alsinensium
 	terrain="hills"
-	culture="treverian"
+	culture="helvetian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=9
@@ -798,7 +798,7 @@
 
 3742={ #Viana
 	terrain="forest"
-	culture="vindelician"
+	culture="helvetian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=9
@@ -814,7 +814,7 @@
 
 3743={ #Riusiava
 	terrain="forest"
-	culture="vindelician"
+	culture="helvetian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=9
@@ -830,7 +830,7 @@
 
 3744={ #Bragodurum
 	terrain="plains"
-	culture="vindelician"
+	culture="helvetian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=11
@@ -1000,7 +1000,7 @@
 
 3802={ #Locoritum
 	terrain="forest"
-	culture="treverian"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -1045,7 +1045,7 @@
 
 3805={ #Bergium
 	terrain="plains"
-	culture="helvetian"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=0
@@ -1058,7 +1058,7 @@
 
 7732={ #Vicus Augustanus
 	terrain="plains"
-	culture="treverian"
+	culture="ubian"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=0

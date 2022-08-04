@@ -131,7 +131,7 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		culture="odrysi"
@@ -140,7 +140,7 @@
 	}
 	tribesmen={
 		culture="bithynian"
-		amount=1
+		amount=2
 	}
 }
 
@@ -846,7 +846,7 @@
 }
 
 1453={ #Byzantion
-	terrain="farmland"
+	terrain="forest"
 	culture="thracian"
 	religion="roman_pantheon"
 	trade_goods="earthware"
@@ -1014,7 +1014,7 @@
 	}
 }
 
-4313={ #Kaspapauras
+4313={ #Selymnos
 	terrain="hills"
 	culture="odrysi"
 	religion="shamanism"

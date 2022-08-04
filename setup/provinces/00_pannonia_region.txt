@@ -1,6 +1,6 @@
 ﻿3653={ #Quadriburgium
 	terrain="hills"
-	culture="noric"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=9
@@ -22,7 +22,7 @@
 
 3918={ #Carnuntum
 	terrain="forest"
-	culture="noric"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=9
@@ -40,7 +40,7 @@
 	terrain="mountain"
 	culture="carnian"
 	religion="druidism"
-	trade_goods="horses"
+	trade_goods="cattle"
 	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
@@ -98,7 +98,7 @@
 
 4027={ #Latobicorum
 	terrain="mountain"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=6
@@ -120,7 +120,7 @@
 
 4028={ #Neviodunum
 	terrain="mountain"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=6
@@ -158,7 +158,7 @@
 
 4030={ #Poetovio
 	terrain="hills"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=8
@@ -202,7 +202,7 @@
 
 4039={ #Romula
 	terrain="hills"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=8
@@ -218,7 +218,7 @@
 
 4047={ #Luena
 	terrain="mountain"
-	culture="carnian"
+	culture="noric"
 	religion="druidism"
 	trade_goods="marble"
 	civilization_value=7
@@ -297,7 +297,7 @@
 
 4133={ #Salla
 	terrain="forest"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=8
@@ -316,7 +316,7 @@
 
 4134={ #Ad Vicessimum
 	terrain="forest"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=8
@@ -354,7 +354,7 @@
 
 4136={ #Halicanum
 	terrain="farmland"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=12
@@ -373,7 +373,7 @@
 
 4137={ #Populi
 	terrain="farmland"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="woad"
 	civilization_value=12
@@ -430,7 +430,7 @@
 
 4140={ #Salia
 	terrain="forest"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=8
@@ -478,7 +478,7 @@
 
 4143={ #Confluentia Latobicorum
 	terrain="forest"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=8
@@ -516,7 +516,7 @@
 
 4145={ #Muteno
 	terrain="forest"
-	culture="noric"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=9
@@ -565,7 +565,7 @@
 	}
 }
 
-4148={ #Caesariana
+4148={ #Pelsodis
 	terrain="forest"
 	culture="eravisci"
 	religion="druidism"
@@ -682,10 +682,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -821,8 +821,8 @@
 
 4165={ #Silikenis
 	terrain="forest"
-	culture="letobician"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=9
 	barbarian_power=0
@@ -856,8 +856,8 @@
 
 4167={ #Limousa
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=11
 	barbarian_power=0
@@ -875,8 +875,8 @@
 
 4168={ #Sopianai
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=11
 	barbarian_power=0
@@ -894,7 +894,7 @@
 
 4169={ #Lugio
 	terrain="plains"
-	culture="celtic_pannonian"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=11
@@ -913,7 +913,7 @@
 
 4170={ #Mursa
 	terrain="farmland"
-	culture="celtic_pannonian"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=13
@@ -929,8 +929,8 @@
 
 4171={ #Serena
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=11
 	barbarian_power=0
@@ -951,8 +951,8 @@
 
 4172={ #Kardonon
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=11
 	barbarian_power=0
@@ -967,8 +967,8 @@
 
 4173={ #Sonista
 	terrain="plains"
-	culture="letobician"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=11
 	barbarian_power=0
@@ -986,8 +986,8 @@
 
 4174={ #Peiratis
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=11
 	barbarian_power=0
@@ -1005,7 +1005,7 @@
 
 4175={ #Aquae Iasae
 	terrain="hills"
-	culture="letobician"
+	culture="carnian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=8
@@ -1075,8 +1075,8 @@
 
 4179={ #Serota
 	terrain="forest"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="catari"
+	religion="roman_pantheon"
 	trade_goods="woad"
 	civilization_value=9
 	barbarian_power=0
@@ -1091,8 +1091,8 @@
 
 4180={ #Lentoulis
 	terrain="forest"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="catari"
+	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=9
 	barbarian_power=0
@@ -1129,8 +1129,8 @@
 
 4182={ #Claudia
 	terrain="plains"
-	culture="letobician"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=11
 	barbarian_power=0
@@ -1145,7 +1145,7 @@
 
 4183={ #Inkeron
 	terrain="plains"
-	culture="deurian"
+	culture="pannonian"
 	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=10
@@ -1164,8 +1164,8 @@
 
 4184={ #Drauia
 	terrain="hills"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=9
 	barbarian_power=0
@@ -1183,8 +1183,8 @@
 
 4185={ #Strauianis
 	terrain="hills"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=9
 	barbarian_power=0
@@ -1202,8 +1202,8 @@
 
 4186={ #Pikentinon
 	terrain="farmland"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=13
 	barbarian_power=0
@@ -1218,8 +1218,8 @@
 
 4187={ #Moursella Mikra
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=11
 	barbarian_power=0
@@ -1231,8 +1231,8 @@
 
 4188={ #Kibalai
 	terrain="farmland"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="hemp"
 	civilization_value=13
 	barbarian_power=0
@@ -1279,8 +1279,8 @@
 
 4191={ #Kausilena
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="hemp"
 	civilization_value=11
 	barbarian_power=0
@@ -1301,8 +1301,8 @@
 
 4192={ #Spaneta
 	terrain="plains"
-	culture="celtic_pannonian"
-	religion="druidism"
+	culture="pannonian"
+	religion="roman_pantheon"
 	trade_goods="woad"
 	civilization_value=11
 	barbarian_power=0
@@ -1333,7 +1333,7 @@
 
 4842={ #Acumincum
 	terrain="plains"
-	culture="celtic_pannonian"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=0
@@ -1346,7 +1346,7 @@
 
 4843={ #Onagrinum
 	terrain="plains"
-	culture="celtic_pannonian"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -1365,7 +1365,7 @@
 
 4844={ #Florentia
 	terrain="farmland"
-	culture="celtic_pannonian"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=0
@@ -1381,7 +1381,7 @@
 
 4845={ #Agria
 	terrain="forest"
-	culture="celtic_pannonian"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -1397,7 +1397,7 @@
 
 4846={ #Tibiscua
 	terrain="forest"
-	culture="celtic_pannonian"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=0
@@ -1416,8 +1416,8 @@
 
 4847={ #Partiskon
 	terrain="farmland"
-	culture="dacian"
-	religion="shamanism"
+	culture="eravisci"
+	religion="druidism"
 	trade_goods="fur"
 	civilization_value=0
 	barbarian_power=0
@@ -1435,7 +1435,7 @@
 
 4848={ #Triticum
 	terrain="forest"
-	culture="celtic_pannonian"
+	culture="eravisci"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=0
@@ -1476,8 +1476,8 @@
 
 4850={ #Iazygiana
 	terrain="farmland"
-	culture="dacian"
-	religion="shamanism"
+	culture="eravisci"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=0
 	barbarian_power=0
@@ -1495,8 +1495,8 @@
 
 4852={ #Burgus Quadorum
 	terrain="forest"
-	culture="dacian"
-	religion="shamanism"
+	culture="eravisci"
+	religion="druidism"
 	trade_goods="grain"
 	civilization_value=0
 	barbarian_power=0
@@ -1508,8 +1508,8 @@
 
 4854={ #Anartiana
 	terrain="forest"
-	culture="dacian"
-	religion="shamanism"
+	culture="eravisci"
+	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=0
 	barbarian_power=0
@@ -1540,7 +1540,7 @@
 
 4866={ #Laugaricio
 	terrain="hills"
-	culture="eravisci"
+	culture="cotinian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=0
@@ -1598,7 +1598,7 @@
 
 4870={ #Maronis
 	terrain="hills"
-	culture="eravisci"
+	culture="cotinian"
 	religion="druidism"
 	trade_goods="iron"
 	civilization_value=0
@@ -1614,7 +1614,7 @@
 
 4871={ #Bekum
 	terrain="hills"
-	culture="eravisci"
+	culture="cotinian"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=0
@@ -1643,7 +1643,7 @@
 
 4873={ #Collata
 	terrain="hills"
-	culture="eravisci"
+	culture="cotinian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
@@ -1659,8 +1659,8 @@
 
 4874={ #Astrum
 	terrain="plains"
-	culture="biephi"
-	religion="shamanism"
+	culture="eravisci"
+	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=0
 	barbarian_power=0

@@ -33,7 +33,7 @@
 	}
 }
 
-4019={ #Parentium
+4019={ #Parenthos
 	terrain="farmland"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -55,7 +55,7 @@
 	}
 }
 
-4020={ #Pola
+4020={ #Polai
 	terrain="farmland"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -75,7 +75,7 @@
 	port_building=1
 }
 
-4021={ #Flanona
+4021={ #Albona
 	terrain="forest"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -94,7 +94,7 @@
 	}
 }
 
-4022={ #Piquentum
+4022={ #Pikenton
 	terrain="hills"
 	culture="histrian"
 	religion="roman_pantheon"
@@ -118,7 +118,7 @@
 
 4023={ #Tarsatica
 	terrain="hills"
-	culture="histrian"
+	culture="iapodian"
 	religion="roman_pantheon"
 	trade_goods="cloth"
 	civilization_value=8
@@ -138,9 +138,9 @@
 	}
 }
 
-4032={ #Curicum
+4032={ #Kyrista
 	terrain="hills"
-	culture="histrian"
+	culture="iapodian"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=8
@@ -160,9 +160,9 @@
 	}
 }
 
-4033={ #Senia
+4033={ #Athyinites
 	terrain="hills"
-	culture="histrian"
+	culture="iapodian"
 	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=8
@@ -189,7 +189,7 @@
 	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
-	province_rank="city"
+	province_rank="settlement"
 	citizen={
 		amount=1
 	}
@@ -198,19 +198,17 @@
 	}
 	tribesmen={
 		culture="histrian"
-		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={
 		culture="histrian"
-		religion="roman_pantheon"
 		amount=1
 	}
 }
 
 4035={ #Ortopla
 	terrain="hills"
-	culture="liburnian_culture"
+	culture="iapodian"
 	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=8
@@ -230,9 +228,9 @@
 	}
 }
 
-4036={ #Metulum
+4036={ #Tetrapones
 	terrain="forest"
-	culture="catari"
+	culture="iapodian"
 	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=8
@@ -324,7 +322,7 @@
 
 4043={ #Klandate
 	terrain="forest"
-	culture="deurian"
+	culture="pannonian"
 	religion="roman_pantheon"
 	trade_goods="horses"
 	civilization_value=8
@@ -395,7 +393,7 @@
 	}
 }
 
-4049={ #Begion
+4049={ #Ouegion
 	terrain="hills"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
@@ -411,9 +409,9 @@
 	}
 }
 
-4050={ #Arupium
+4050={ #Aroupion
 	terrain="hills"
-	culture="liburnian_culture"
+	culture="iapodian"
 	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=8
@@ -472,7 +470,7 @@
 	terrain="farmland"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
-	trade_goods="salt"
+	trade_goods="fish"
 	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
@@ -494,7 +492,7 @@
 	terrain="plains"
 	culture="liburnian_culture"
 	religion="roman_pantheon"
-	trade_goods="olive"
+	trade_goods="fish"
 	civilization_value=15
 	barbarian_power=0
 	province_rank="city"
@@ -605,7 +603,7 @@
 	}
 }
 
-4060={ #Tragourion
+4060={ #Tragyrion
 	terrain="farmland"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -839,7 +837,7 @@
 
 4072={ #Aimate
 	terrain="forest"
-	culture="deurian"
+	culture="pannonian"
 	religion="roman_pantheon"
 	trade_goods="woad"
 	civilization_value=8
@@ -861,7 +859,7 @@
 
 4073={ #Praitorion
 	terrain="forest"
-	culture="deurian"
+	culture="pannonian"
 	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=8
@@ -880,7 +878,7 @@
 
 4074={ #Serbinon
 	terrain="hills"
-	culture="deurian"
+	culture="pannonian"
 	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=8
@@ -902,7 +900,7 @@
 
 4075={ #Kastra
 	terrain="plains"
-	culture="deurian"
+	culture="pannonian"
 	religion="roman_pantheon"
 	trade_goods="woad"
 	civilization_value=10
@@ -921,7 +919,7 @@
 
 4076={ #Ourbate
 	terrain="forest"
-	culture="deurian"
+	culture="pannonian"
 	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=8
@@ -1080,7 +1078,7 @@
 	port_building=1
 }
 
-4085={ #Epidauros Illyrias
+4085={ #Epidauros Ilyrias
 	terrain="hills"
 	culture="italiotian"
 	religion="roman_pantheon"
@@ -1128,7 +1126,7 @@
 	}
 }
 
-4087={ #Anderba
+4087={ #Enderon
 	terrain="forest"
 	culture="greco_illyrian"
 	religion="roman_pantheon"
@@ -1215,7 +1213,7 @@
 	}
 }
 
-4104={ #Leousinion
+4104={ #Leusinion
 	terrain="mountain"
 	culture="greco_illyrian"
 	religion="roman_pantheon"

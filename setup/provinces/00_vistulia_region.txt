@@ -1,5 +1,5 @@
 ﻿2543={ #Uccrynyika
-	terrain="forest"
+	terrain="plains"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
 	trade_goods="horses"
@@ -7,13 +7,16 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
+		amount=7
+	}
+	slaves={
 		amount=2
 	}
 }
 
 4771={ #Leucaristus
 	terrain="plains"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=0
@@ -26,7 +29,7 @@
 
 4772={ #Calisia
 	terrain="forest"
-	culture="bastarnae"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=3
@@ -39,7 +42,7 @@
 
 4777={ #Vartia
 	terrain="plains"
-	culture="bastarnae"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="hemp"
 	civilization_value=5
@@ -55,7 +58,7 @@
 
 4778={ #Lygia
 	terrain="forest"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=0
@@ -71,7 +74,7 @@
 
 4887={ #Cracovia
 	terrain="plains"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="hemp"
 	civilization_value=0
@@ -84,8 +87,8 @@
 
 4889={ #Tantonum
 	terrain="hills"
-	culture="costoboci"
-	religion="shamanism"
+	culture="celtic_pannonian"
+	religion="druidism"
 	trade_goods="gems"
 	civilization_value=0
 	barbarian_power=0
@@ -97,8 +100,8 @@
 
 4890={ #Agrum
 	terrain="forest"
-	culture="irminonic"
-	religion="germanic_religion"
+	culture="cotinian"
+	religion="druidism"
 	trade_goods="wood"
 	civilization_value=0
 	barbarian_power=0
@@ -113,8 +116,8 @@
 
 4891={ #Ectonum
 	terrain="plains"
-	culture="costoboci"
-	religion="shamanism"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=0
 	barbarian_power=0
@@ -126,8 +129,8 @@
 
 4892={ #Ibadura
 	terrain="mountain"
-	culture="irminonic"
-	religion="germanic_religion"
+	culture="cotinian"
+	religion="druidism"
 	trade_goods="precious_metals"
 	civilization_value=0
 	barbarian_power=0
@@ -139,8 +142,8 @@
 
 4893={ #Matiscua
 	terrain="plains"
-	culture="irminonic"
-	religion="germanic_religion"
+	culture="cotinian"
+	religion="druidism"
 	trade_goods="woad"
 	civilization_value=0
 	barbarian_power=0
@@ -158,8 +161,8 @@
 
 4894={ #Arsonis
 	terrain="plains"
-	culture="irminonic"
-	religion="germanic_religion"
+	culture="cotinian"
+	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=0
 	barbarian_power=0
@@ -174,7 +177,7 @@
 
 4895={ #Mitabis
 	terrain="plains"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=0
@@ -187,7 +190,7 @@
 
 4896={ #Valitum
 	terrain="plains"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=0
@@ -200,7 +203,7 @@
 
 4897={ #Lecrotiana
 	terrain="plains"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="hemp"
 	civilization_value=0
@@ -213,7 +216,7 @@
 
 4898={ #Vectia
 	terrain="forest"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=0
@@ -226,7 +229,7 @@
 
 4899={ #Sidaris
 	terrain="forest"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=0
@@ -242,7 +245,7 @@
 
 4900={ #Ambium
 	terrain="forest"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=0
@@ -261,7 +264,7 @@
 
 4901={ #Salata
 	terrain="forest"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=0
@@ -274,7 +277,7 @@
 
 4902={ #Amellua
 	terrain="forest"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=0
@@ -293,7 +296,7 @@
 
 4903={ #Exitanes
 	terrain="forest"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="hemp"
 	civilization_value=0
@@ -309,7 +312,7 @@
 
 4904={ #Laudicum
 	terrain="forest"
-	culture="bastarnae"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=3
@@ -319,14 +322,19 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
 	}
 }
 
 4938={ #Tannis
-	terrain="forest"
-	culture="costoboci"
-	religion="shamanism"
+	terrain="hills"
+	culture="agathyrsian"
+	religion="indo_iranian_religion"
 	trade_goods="base_metals"
 	civilization_value=0
 	barbarian_power=0
@@ -337,9 +345,9 @@
 }
 
 4939={ #Octavum
-	terrain="forest"
-	culture="harpii"
-	religion="shamanism"
+	terrain="plains"
+	culture="agathyrsian"
+	religion="indo_iranian_religion"
 	trade_goods="horses"
 	civilization_value=0
 	barbarian_power=0
@@ -353,9 +361,9 @@
 }
 
 4940={ #Limnorum
-	terrain="forest"
-	culture="costoboci"
-	religion="shamanism"
+	terrain="hills"
+	culture="agathyrsian"
+	religion="indo_iranian_religion"
 	trade_goods="leather"
 	civilization_value=0
 	barbarian_power=0
@@ -367,8 +375,8 @@
 
 4941={ #Salumnis
 	terrain="forest"
-	culture="costoboci"
-	religion="shamanism"
+	culture="agathyrsian"
+	religion="indo_iranian_religion"
 	trade_goods="cattle"
 	civilization_value=0
 	barbarian_power=0
@@ -379,9 +387,9 @@
 }
 
 4942={ #Acrium
-	terrain="forest"
-	culture="costoboci"
-	religion="shamanism"
+	terrain="hills"
+	culture="agathyrsian"
+	religion="indo_iranian_religion"
 	trade_goods="leather"
 	civilization_value=0
 	barbarian_power=0
@@ -393,8 +401,8 @@
 
 4943={ #Castrana
 	terrain="forest"
-	culture="costoboci"
-	religion="shamanism"
+	culture="agathyrsian"
+	religion="indo_iranian_religion"
 	trade_goods="vegetables"
 	civilization_value=0
 	barbarian_power=0
@@ -411,9 +419,9 @@
 }
 
 4944={ #Dolarum
-	terrain="forest"
-	culture="costoboci"
-	religion="shamanism"
+	terrain="hills"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=0
 	barbarian_power=0
@@ -424,9 +432,9 @@
 }
 
 4945={ #Riparum
-	terrain="forest"
-	culture="costoboci"
-	religion="shamanism"
+	terrain="hills"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=0
 	barbarian_power=0
@@ -441,8 +449,8 @@
 
 4946={ #Solitarium
 	terrain="forest"
-	culture="costoboci"
-	religion="shamanism"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=0
 	barbarian_power=0
@@ -454,8 +462,8 @@
 
 4947={ #Tandum
 	terrain="plains"
-	culture="costoboci"
-	religion="shamanism"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=0
 	barbarian_power=0
@@ -469,7 +477,7 @@
 }
 
 5383={ #Oggrunet
-	terrain="forest"
+	terrain="plains"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
 	trade_goods="cattle"
@@ -486,8 +494,8 @@
 
 6047={ #Olnish
 	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="hemp"
 	civilization_value=0
 	barbarian_power=0
@@ -500,7 +508,7 @@
 6065={ #Granika
 	terrain="forest"
 	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	religion="matrist_religion"
 	trade_goods="hemp"
 	civilization_value=0
 	barbarian_power=0
@@ -511,7 +519,7 @@
 }
 
 6066={ #Utkennita
-	terrain="forest"
+	terrain="plains"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
 	trade_goods="vegetables"
@@ -525,8 +533,8 @@
 
 6089={ #Vurdant
 	terrain="forest"
-	culture="slavian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="fur"
 	civilization_value=0
 	barbarian_power=0
@@ -542,7 +550,7 @@
 6233={ #Urschelats
 	terrain="forest"
 	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	religion="matrist_religion"
 	trade_goods="wood"
 	civilization_value=0
 	barbarian_power=0
@@ -555,20 +563,20 @@
 6234={ #Myanik
 	terrain="forest"
 	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	religion="matrist_religion"
 	trade_goods="vegetables"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
 6235={ #Anakkesta
 	terrain="forest"
 	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	religion="matrist_religion"
 	trade_goods="fur"
 	civilization_value=0
 	barbarian_power=0
@@ -581,7 +589,7 @@
 6236={ #Forom
 	terrain="forest"
 	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	religion="matrist_religion"
 	trade_goods="vegetables"
 	civilization_value=0
 	barbarian_power=0
@@ -593,8 +601,8 @@
 
 6237={ #Arforom
 	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="fur"
 	civilization_value=0
 	barbarian_power=0
@@ -606,8 +614,8 @@
 
 6238={ #Arhao
 	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="leather"
 	civilization_value=0
 	barbarian_power=0
@@ -620,7 +628,7 @@
 6239={ #Sitha
 	terrain="forest"
 	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	religion="matrist_religion"
 	trade_goods="wild_game"
 	civilization_value=0
 	barbarian_power=0
@@ -632,7 +640,7 @@
 
 6240={ #Assula
 	terrain="forest"
-	culture="slavian"
+	culture="sporic"
 	religion="matrist_religion"
 	trade_goods="stone"
 	civilization_value=0
@@ -645,8 +653,8 @@
 
 6241={ #Masticat
 	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="iron"
 	civilization_value=0
 	barbarian_power=0
@@ -659,7 +667,7 @@
 6242={ #Seno
 	terrain="forest"
 	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	religion="matrist_religion"
 	trade_goods="stone"
 	civilization_value=0
 	barbarian_power=0
@@ -671,8 +679,8 @@
 
 6243={ #Vorta
 	terrain="forest"
-	culture="slavian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="woad"
 	civilization_value=0
 	barbarian_power=0
@@ -687,8 +695,8 @@
 
 6244={ #Kanale
 	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="wood"
 	civilization_value=0
 	barbarian_power=0
@@ -700,8 +708,8 @@
 
 6245={ #Mitteria
 	terrain="plains"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="wood"
 	civilization_value=0
 	barbarian_power=0
@@ -713,7 +721,7 @@
 
 6246={ #Venulia
 	terrain="forest"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=0
@@ -726,8 +734,8 @@
 
 6247={ #Sottika
 	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="leather"
 	civilization_value=0
 	barbarian_power=0
@@ -739,8 +747,8 @@
 
 6248={ #Bonava
 	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="vegetables"
 	civilization_value=0
 	barbarian_power=0
@@ -755,8 +763,8 @@
 
 6249={ #Celavira
 	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="vegetables"
 	civilization_value=0
 	barbarian_power=0
@@ -768,8 +776,8 @@
 
 6250={ #Arha
 	terrain="forest"
-	culture="agathyrsian"
-	religion="indo_iranian_religion"
+	culture="sporic"
+	religion="matrist_religion"
 	trade_goods="hemp"
 	civilization_value=0
 	barbarian_power=0
@@ -784,7 +792,7 @@
 
 6251={ #Gala
 	terrain="plains"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=0
@@ -797,7 +805,7 @@
 
 6252={ #Histrine
 	terrain="plains"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=0
@@ -810,7 +818,7 @@
 
 6253={ #Mavar
 	terrain="forest"
-	culture="slavian"
+	culture="sporic"
 	religion="matrist_religion"
 	trade_goods="fur"
 	civilization_value=0
@@ -823,7 +831,7 @@
 
 6254={ #Donaria
 	terrain="plains"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="stone"
 	civilization_value=0
@@ -836,7 +844,7 @@
 
 6255={ #Donar
 	terrain="plains"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=0
@@ -849,7 +857,7 @@
 
 6256={ #Venediana
 	terrain="forest"
-	culture="slavian"
+	culture="sporic"
 	religion="matrist_religion"
 	trade_goods="grain"
 	civilization_value=0
@@ -862,7 +870,7 @@
 
 6257={ #Malica
 	terrain="forest"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=0
@@ -881,7 +889,7 @@
 
 6258={ #Cariala
 	terrain="plains"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=0
@@ -897,7 +905,7 @@
 
 6259={ #Urgana
 	terrain="forest"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="stone"
 	civilization_value=0
@@ -913,7 +921,7 @@
 
 6260={ #Folla
 	terrain="forest"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=0
@@ -929,7 +937,7 @@
 
 6261={ #Sophine
 	terrain="plains"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=0
@@ -945,8 +953,8 @@
 
 6262={ #Varcret
 	terrain="plains"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=0
 	barbarian_power=0
@@ -961,7 +969,7 @@
 
 6263={ #Shurita
 	terrain="forest"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=0
@@ -977,8 +985,8 @@
 
 6264={ #Vinata
 	terrain="plains"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=0
 	barbarian_power=0
@@ -990,7 +998,7 @@
 
 6265={ #Gorideva
 	terrain="forest"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=0
@@ -1009,7 +1017,7 @@
 
 6266={ #Gorion
 	terrain="plains"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="gems"
 	civilization_value=0
@@ -1025,8 +1033,8 @@
 
 6267={ #Maranot
 	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=0
 	barbarian_power=0
@@ -1038,7 +1046,7 @@
 
 6268={ #Venideva
 	terrain="forest"
-	culture="irminonic"
+	culture="bastarnae"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=0
@@ -1054,7 +1062,7 @@
 
 6269={ #Gurala Venedia
 	terrain="forest"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=0
@@ -1070,7 +1078,7 @@
 
 6270={ #Mantora
 	terrain="plains"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=0
@@ -1086,7 +1094,7 @@
 
 6271={ #Filin
 	terrain="plains"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=0
@@ -1102,7 +1110,7 @@
 
 6272={ #Kavera Venedia
 	terrain="forest"
-	culture="irminonic"
+	culture="vandal"
 	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=0
@@ -1111,12 +1119,17 @@
 	tribesmen={
 		amount=1
 	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
 }
 
 6273={ #Sopha
 	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=0
 	barbarian_power=0
@@ -1128,8 +1141,8 @@
 
 6274={ #Kunegria
 	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=0
 	barbarian_power=0
@@ -1140,12 +1153,17 @@
 	tribesmen={
 		amount=2
 	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
 }
 
 6275={ #Korotan
 	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=0
 	barbarian_power=0
@@ -1157,8 +1175,8 @@
 
 6276={ #Venedicania
 	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="vandal"
+	religion="germanic_religion"
 	trade_goods="wild_game"
 	civilization_value=0
 	barbarian_power=0
@@ -1170,8 +1188,8 @@
 
 6290={ #Egladia
 	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="horses"
 	civilization_value=0
 	barbarian_power=0
@@ -1183,8 +1201,8 @@
 
 6291={ #Vorytta
 	terrain="plains"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=0
 	barbarian_power=0
@@ -1199,7 +1217,7 @@
 
 6292={ #Trakylli
 	terrain="forest"
-	culture="slavian"
+	culture="sporic"
 	religion="matrist_religion"
 	trade_goods="grain"
 	civilization_value=0
@@ -1215,8 +1233,8 @@
 
 6293={ #Makkate
 	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=0
 	barbarian_power=0
@@ -1228,8 +1246,8 @@
 
 6294={ #Felita
 	terrain="forest"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="bastarnae"
+	religion="germanic_religion"
 	trade_goods="horses"
 	civilization_value=0
 	barbarian_power=0
@@ -1241,7 +1259,7 @@
 
 6295={ #Orona
 	terrain="forest"
-	culture="slavian"
+	culture="sporic"
 	religion="matrist_religion"
 	trade_goods="stone"
 	civilization_value=0
@@ -1254,7 +1272,7 @@
 
 6296={ #Kire
 	terrain="forest"
-	culture="slavian"
+	culture="sporic"
 	religion="matrist_religion"
 	trade_goods="cattle"
 	civilization_value=0
@@ -1270,7 +1288,7 @@
 
 6297={ #Thure
 	terrain="forest"
-	culture="slavian"
+	culture="sporic"
 	religion="matrist_religion"
 	trade_goods="cattle"
 	civilization_value=0
@@ -1283,7 +1301,7 @@
 
 6298={ #Bostor
 	terrain="forest"
-	culture="slavian"
+	culture="sporic"
 	religion="matrist_religion"
 	trade_goods="fur"
 	civilization_value=0
@@ -1292,6 +1310,74 @@
 	slaves={
 		amount=2
 	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7824={ #Revacia
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7826={ #Merania
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7827={ #Orentia
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7828={ #Manoia
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7829={ #Heritia
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
 	tribesmen={
 		amount=1
 	}

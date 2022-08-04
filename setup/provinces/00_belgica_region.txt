@@ -266,12 +266,12 @@
 
 2475={ #Lutetia
 	terrain="plains"
-	culture="biturigan"
+	culture="sennonian"
 	religion="druidism"
 	trade_goods="earthware"
 	civilization_value=16
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=1
 	}
@@ -288,7 +288,7 @@
 
 2476={ #Dortenco
 	terrain="plains"
-	culture="biturigan"
+	culture="sennonian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=11
@@ -307,7 +307,7 @@
 
 2477={ #Diodurum
 	terrain="plains"
-	culture="biturigan"
+	culture="sennonian"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=11
@@ -326,7 +326,7 @@
 
 2481={ #Mellodunum
 	terrain="plains"
-	culture="biturigan"
+	culture="sennonian"
 	religion="druidism"
 	trade_goods="woad"
 	civilization_value=11
@@ -505,7 +505,7 @@
 
 2494={ #Basillia
 	terrain="forest"
-	culture="sennonian"
+	culture="nervian"
 	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=9
@@ -839,7 +839,7 @@
 
 3041={ #Turnacum
 	terrain="plains"
-	culture="nervian"
+	culture="belgae"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=11
@@ -1001,7 +1001,7 @@
 
 3050={ #Mosomagus
 	terrain="forest"
-	culture="treverian"
+	culture="nervian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=9
@@ -1090,7 +1090,7 @@
 
 3678={ #Condacum
 	terrain="plains"
-	culture="belgae"
+	culture="nervian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=11
@@ -1141,29 +1141,26 @@
 
 3681={ #Momalle
 	terrain="forest"
-	culture="aduatacian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
 3682={ #Amanium
 	terrain="plains"
-	culture="aduatacian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=11
@@ -1179,7 +1176,7 @@
 
 3683={ #Vervigium
 	terrain="forest"
-	culture="nervian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=9
@@ -1195,7 +1192,7 @@
 
 3684={ #Nasagus
 	terrain="forest"
-	culture="nervian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=9
@@ -1313,7 +1310,7 @@
 
 3703={ #Remia
 	terrain="forest"
-	culture="nervian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=9
@@ -1361,7 +1358,7 @@
 
 3706={ #Tienen
 	terrain="forest"
-	culture="eburonian"
+	culture="nervian"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=9
@@ -1380,7 +1377,7 @@
 
 3707={ #Andellium
 	terrain="plains"
-	culture="eburonian"
+	culture="nervian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=11
@@ -1444,20 +1441,20 @@
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=3
 	}
 }
 
 3711={ #Blariacum
 	terrain="plains"
-	culture="belgae"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1466,7 +1463,7 @@
 
 3712={ #Harenatium
 	terrain="plains"
-	culture="belgae"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=11
@@ -1481,18 +1478,21 @@
 	tribesmen={
 		amount=5
 	}
+	slaves={
+		amount=3
+	}
 }
 
 3713={ #Ad Duodecimum
 	terrain="plains"
-	culture="belgae"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -1501,14 +1501,17 @@
 
 3714={ #Castra Vetera
 	terrain="plains"
-	culture="istvaeonic"
-	religion="germanic_religion"
+	culture="eburonian"
+	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -1518,7 +1521,7 @@
 
 3715={ #Asciburgium
 	terrain="forest"
-	culture="aduatacian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=9
@@ -1534,7 +1537,7 @@
 
 3716={ #Iuliacum
 	terrain="forest"
-	culture="aduatacian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=9
@@ -1550,7 +1553,7 @@
 
 3717={ #Novaesium
 	terrain="plains"
-	culture="aduatacian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=11
@@ -1566,7 +1569,7 @@
 
 3718={ #Aquae Granni
 	terrain="forest"
-	culture="aduatacian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=9
@@ -1582,7 +1585,7 @@
 
 3719={ #Belsonancum
 	terrain="plains"
-	culture="aduatacian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=11
@@ -1601,7 +1604,7 @@
 
 3720={ #Bonna
 	terrain="plains"
-	culture="aduatacian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=11
@@ -1687,7 +1690,7 @@
 
 3727={ #Marcomagus
 	terrain="plains"
-	culture="aduatacian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="woad"
 	civilization_value=11
@@ -1703,7 +1706,7 @@
 
 3728={ #Icorigium
 	terrain="forest"
-	culture="treverian"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="earthware"
 	civilization_value=9
@@ -1798,8 +1801,8 @@
 
 3846={ #Lugadurum
 	terrain="plains"
-	culture="istvaeonic"
-	religion="germanic_religion"
+	culture="belgae"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=11
 	barbarian_power=0
@@ -1815,14 +1818,17 @@
 
 3849={ #Manaritum
 	terrain="plains"
-	culture="belgae"
+	culture="eburonian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=1
+	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 

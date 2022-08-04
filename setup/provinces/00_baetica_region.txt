@@ -152,7 +152,7 @@
 1324={ #Mirobriga Couneia
 	terrain="plains"
 	culture="couneian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="iron"
 	civilization_value=11
 	barbarian_power=0
@@ -168,7 +168,7 @@
 1330={ #Patulus Portus
 	terrain="plains"
 	culture="couneian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="salt"
 	civilization_value=11
 	barbarian_power=0
@@ -185,7 +185,7 @@
 1333={ #Portus Cibilis
 	terrain="hills"
 	culture="couneian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=9
 	barbarian_power=0
@@ -201,7 +201,7 @@
 1334={ #Ossonoba
 	terrain="plains"
 	culture="couneian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="wood"
 	civilization_value=11
 	barbarian_power=0
@@ -223,22 +223,25 @@
 
 1335={ #Baesuri
 	terrain="plains"
-	culture="carthaginian"
+	culture="turdetanian"
 	religion="carthaginian_pantheon"
 	trade_goods="wine"
-	civilization_value=10
+	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
+		culture="carthaginian"
 		amount=2
 	}
 	freemen={
+		culture="carthaginian"
 		amount=4
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
+		religion="animism"
 		amount=6
 	}
 }
@@ -246,7 +249,7 @@
 1336={ #Mirobigensia
 	terrain="plains"
 	culture="couneian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="iron"
 	civilization_value=11
 	barbarian_power=0
@@ -262,7 +265,7 @@
 1337={ #Couneia
 	terrain="plains"
 	culture="couneian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="wine"
 	civilization_value=11
 	barbarian_power=0
@@ -278,13 +281,13 @@
 1338={ #Tartessia
 	terrain="farmland"
 	culture="turdetanian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="leather"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -296,15 +299,26 @@
 	culture="turdetanian"
 	religion="carthaginian_pantheon"
 	trade_goods="fish"
-	civilization_value=10
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=4
+	}
+	slaves={
+		amount=2
 	}
 	tribesmen={
+		religion="animism"
 		amount=5
 	}
+	port_building=1
 }
 
 1340={ #Ad Rubras
@@ -312,72 +326,86 @@
 	culture="turdetanian"
 	religion="carthaginian_pantheon"
 	trade_goods="olive"
-	civilization_value=10
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=5
 	}
 	tribesmen={
+		religion="animism"
 		amount=2
 	}
 }
 
 1341={ #Turta
-	terrain="plains"
+	terrain="marsh"
 	culture="turdetanian"
 	religion="carthaginian_pantheon"
 	trade_goods="salt"
-	civilization_value=15
+	civilization_value=18
 	barbarian_power=0
-	province_rank="city"
+	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=6
 	}
 	tribesmen={
-		amount=5
+		religion="animism"
+		amount=2
 	}
 	port_building=1
 }
 
 1342={ #Hasta
 	terrain="marsh"
-	culture="massalian"
-	religion="roman_pantheon"
+	culture="turdetanian"
+	religion="carthaginian_pantheon"
 	trade_goods="salt"
-	civilization_value=27
+	civilization_value=25
 	barbarian_power=0
 	province_rank="city"
-	citizen={
+	nobles={
 		amount=2
 	}
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=5
+	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
-		amount=1
-	}
-	tribesmen={
-		culture="turdetanian"
 		religion="animism"
 		amount=3
+	}
+	tribesmen={
+		religion="animism"
+		amount=5
 	}
 	port_building=1
 }
 
 1343={ #Asta
-	terrain="plains"
+	terrain="marsh"
 	culture="turdetanian"
-	religion="animism"
+	religion="carthaginian_pantheon"
 	trade_goods="grain"
-	civilization_value=12
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
+	}
+	slaves={
+		religion="animism"
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=2
+	}
+	tribesmen={
+		religion="animism"
+		amount=2
 	}
 }
 
@@ -389,13 +417,17 @@
 	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
-		amount=3
+		amount=6
 	}
 	freemen={
-		amount=3
+		amount=6
 	}
 	tribesmen={
+		culture="turdetanian"
 		amount=6
 	}
 	port_building=1
@@ -410,9 +442,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
+		culture="turdetanian"
 		amount=3
 	}
 }
@@ -420,16 +453,24 @@
 1346={ #Lascuta
 	terrain="hills"
 	culture="turdetanian"
-	religion="animism"
-	trade_goods="grain"
-	civilization_value=10
+	religion="carthaginian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=19
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		religion="animism"
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=5
 	}
 	tribesmen={
-		amount=5
+		amount=2
+	}
+	tribesmen={
+		religion="animism"
+		amount=3
 	}
 }
 
@@ -483,14 +524,22 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="olive"
-	civilization_value=10
+	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=2
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=6
 	}
 }
 
@@ -499,30 +548,43 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="base_metals"
-	civilization_value=10
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=2
+	}
 	freemen={
-		amount=1
+		religion="carthaginian_pantheon"
+		amount=3
+	}
+	slaves={
+		amount=4
 	}
 	tribesmen={
 		amount=3
 	}
+	port_building=1
 }
 
 1351={ #Turirecina
 	terrain="plains"
 	culture="turdetanian"
 	religion="animism"
-	trade_goods="olive"
-	civilization_value=12
+	trade_goods="grain"
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
-		amount=2
+		amount=3
 	}
 }
 
@@ -531,17 +593,17 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="olive"
-	civilization_value=15
+	civilization_value=17
 	barbarian_power=0
-	province_rank="city"
+	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=7
+		amount=2
 	}
 }
 
@@ -550,29 +612,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="earthware"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-1354={ #Carissa
-	terrain="plains"
-	culture="turdetanian"
-	religion="animism"
-	trade_goods="olive"
-	civilization_value=12
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+		religion="carthaginian_pantheon"
 		amount=2
 	}
 	freemen={
@@ -586,25 +630,49 @@
 	}
 }
 
-1355={ #Ispal
+1354={ #Carissa
 	terrain="plains"
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="grain"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1355={ #Ispal
+	terrain="plains"
+	culture="turdetanian"
+	religion="carthaginian_pantheon"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="carthaginian"
 		amount=1
 	}
 	freemen={
-		amount=3
+		amount=2
+	}
+	freemen={
+		culture="carthaginian"
+		amount=1
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -613,11 +681,23 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="olive"
-	civilization_value=12
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=2
+	}
 	freemen={
+		religion="carthaginian_pantheon"
 		amount=1
+	}
+	slaves={
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -629,11 +709,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="horses"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -645,14 +725,18 @@
 	culture="turdetanian"
 	religion="carthaginian_pantheon"
 	trade_goods="leather"
-	civilization_value=12
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=3
+	}
+	tribesmen={
 		amount=1
 	}
 	tribesmen={
-		amount=4
+		religion="animism"
+		amount=3
 	}
 }
 
@@ -661,13 +745,17 @@
 	culture="turdetanian"
 	religion="carthaginian_pantheon"
 	trade_goods="base_metals"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=4
+	}
+	slaves={
+		amount=2
 	}
 	tribesmen={
+		religion="animism"
 		amount=3
 	}
 }
@@ -677,11 +765,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="wine"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -693,7 +781,7 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="dye"
-	civilization_value=10
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -739,11 +827,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="base_metals"
-	civilization_value=10
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -755,7 +843,7 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -771,11 +859,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="wood"
-	civilization_value=10
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -826,11 +914,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="stone"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -842,11 +930,19 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="wood"
-	civilization_value=12
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=2
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -858,11 +954,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="wood"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -873,10 +969,22 @@
 	terrain="plains"
 	culture="turdetanian"
 	religion="animism"
-	trade_goods="olive"
-	civilization_value=12
+	trade_goods="cloth"
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=3
+	}
 	freemen={
 		amount=1
 	}
@@ -890,11 +998,15 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="stone"
-	civilization_value=14
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -905,15 +1017,15 @@
 	terrain="farmland"
 	culture="turdetanian"
 	religion="animism"
-	trade_goods="olive"
-	civilization_value=14
+	trade_goods="grain"
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=3
+		amount=4
 	}
 }
 
@@ -922,14 +1034,33 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="olive"
-	civilization_value=14
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	citizen={
+		amount=2
+	}
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=4
+	}
 	freemen={
-		amount=1
+		amount=2
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=5
+	}
+	slaves={
+		religion="carthaginian_pantheon"
+		amount=2
 	}
 }
 
@@ -938,7 +1069,7 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="stone"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -960,14 +1091,14 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="olive"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=1
+		amount=6
 	}
 }
 
@@ -975,15 +1106,24 @@
 	terrain="farmland"
 	culture="turdetanian"
 	religion="animism"
-	trade_goods="grain"
-	civilization_value=14
+	trade_goods="wine"
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	citizen={
+		religion="carthaginian_pantheon"
+		amount=4
+	}
 	freemen={
-		amount=1
+		religion="carthaginian_pantheon"
+		amount=5
 	}
 	tribesmen={
-		amount=5
+		amount=6
 	}
 }
 
@@ -992,11 +1132,12 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="grain"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		religion="carthaginian_pantheon"
+		amount=3
 	}
 	tribesmen={
 		amount=5
@@ -1008,14 +1149,14 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="cattle"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1040,9 +1181,12 @@
 	culture="oretanian"
 	religion="animism"
 	trade_goods="fish"
-	civilization_value=15
+	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=1
 	}
@@ -1126,14 +1270,14 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="grain"
-	civilization_value=14
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=5
 	}
 }
 
@@ -1158,11 +1302,14 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="stone"
-	civilization_value=10
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -1380,7 +1527,7 @@
 1406={ #Artigi
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="leather"
 	civilization_value=11
 	barbarian_power=0
@@ -1398,11 +1545,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="base_metals"
-	civilization_value=10
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -1414,11 +1561,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="iron"
-	civilization_value=10
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -1432,7 +1579,7 @@
 	trade_goods="olive"
 	civilization_value=13
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	freemen={
 		amount=1
 	}
@@ -1446,11 +1593,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="wine"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -1461,15 +1608,15 @@
 	terrain="plains"
 	culture="turdetanian"
 	religion="animism"
-	trade_goods="wine"
-	civilization_value=10
+	trade_goods="honey"
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -1478,13 +1625,17 @@
 	culture="turdetanian"
 	religion="carthaginian_pantheon"
 	trade_goods="iron"
-	civilization_value=12
+	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
+		religion="animism"
+		amount=2
+	}
+	slaves={
 		amount=4
 	}
 }
@@ -1494,11 +1645,11 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="leather"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -1510,21 +1661,21 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="olive"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=3
+		amount=4
 	}
 }
 
 1439={ #Mirobriga
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="cinnabar"
 	civilization_value=11
 	barbarian_power=0
@@ -1540,8 +1691,8 @@
 1440={ #Baedro
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
-	trade_goods="base_metals"
+	religion="druidism"
+	trade_goods="cattle"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
@@ -1574,7 +1725,7 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="vegetables"
-	civilization_value=12
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1591,7 +1742,7 @@
 1444={ #Solia
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=11
 	barbarian_power=0
@@ -1615,14 +1766,17 @@
 	culture="turdetanian"
 	religion="animism"
 	trade_goods="marble"
-	civilization_value=10
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
+	}
+	slaves={
+		amount=2
 	}
 }
 
@@ -1645,7 +1799,7 @@
 1448={ #Carcuvium
 	terrain="plains"
 	culture="oretanian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1661,7 +1815,7 @@
 1449={ #Oretum
 	terrain="plains"
 	culture="oretanian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -1693,7 +1847,7 @@
 1459={ #Messicia
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=11
 	barbarian_power=0
@@ -1709,7 +1863,7 @@
 1460={ #Sattalicia
 	terrain="plains"
 	culture="turdulian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=11
 	barbarian_power=0
