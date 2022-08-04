@@ -1936,3 +1936,275 @@
 	province_rank=""
 }
 
+10555={ #Sado
+	terrain="mountain"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="stone"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10556={ #Uzen
+	terrain="forest"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10557={ #Dewa
+	terrain="hills"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="fish"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10558={ #Sunazawa
+	terrain="plains"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="amber"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=7
+	}
+}
+
+10559={ #Sannaimaruyama
+	terrain="hills"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="amber"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=6
+	}
+}
+
+10560={ #Ogawara
+	terrain="hills"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="wild_game"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10561={ #Mutsu
+	terrain="plains"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="honey"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10562={ #Kazuno
+	terrain="mountain"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="base_metals"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10563={ #Kitakami
+	terrain="hills"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="earthware"
+	civilization_value=7
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+10564={ #Miyako
+	terrain="mountain"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="fish"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10565={ #Osaki
+	terrain="plains"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="wild_game"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10566={ #Yamgata
+	terrain="forest"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="vegetables"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10567={ #Oshima
+	terrain="hills"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="fish"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10568={ #Makkarinupuri
+	terrain="mountain"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="precious_metals"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10569={ #Ishikari
+	terrain="plains"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="earthware"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+}
+
+10570={ #Chiu Pet
+	terrain="mountain"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="leather"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10571={ #Nayoro
+	terrain="forest"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="wild_game"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10572={ #Okhotsk
+	terrain="forest"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="wood"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+10573={ #Kushiro
+	terrain="marsh"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="vegetables"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10574={ #Tokachi
+	terrain="marsh"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="fish"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+10575={ #Hidaka
+	terrain="mountain"
+	culture="ainu"
+	religion="yi_religions"
+	trade_goods="base_metals"
+	civilization_value=6
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}

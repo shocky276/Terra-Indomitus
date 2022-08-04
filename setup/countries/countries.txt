@@ -1152,3 +1152,10 @@ LSC = "setup/countries/iberia/lascuta.txt"
 
 #TI/Invictus Persia
 GED = "setup/countries/ti_persia/gedrosia.txt"
+
+#TI Japan
+ESN = "setup/countries/ti_japan/esan.txt"
+ESU = "setup/countries/ti_japan/ebetsu.txt"
+KTM = "setup/countries/ti_japan/kitami.txt"
+SZW = "setup/countries/ti_japan/sunazawa.txt"
+DEW = "setup/countries/ti_japan/dewa.txt"

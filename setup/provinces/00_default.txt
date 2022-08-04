@@ -8944,40 +8944,40 @@
 	province_rank=""
 }
 
-8111={ #PROV8111
+8111={ #Japan Mountain
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="ainu"
+	religion="yi_religions"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8112={ #PROV8112
+8112={ #Japan Mountain
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="ainu"
+	religion="yi_religions"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8113={ #PROV8113
+8113={ #Japan Mountain
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="ainu"
+	religion="yi_religions"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-8114={ #PROV8114
+8114={ #Japan Mountain
 	terrain="impassable_terrain"
-	culture="tocharian"
-	religion="eastern_animism"
+	culture="ainu"
+	religion="yi_religions"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

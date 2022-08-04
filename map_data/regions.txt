@@ -1435,7 +1435,6 @@ jin_region = {
 }
 
 wa_region = {
-	#倭國
 	areas = {
 		matsura_area
 		tsuma_area
@@ -1448,6 +1447,8 @@ wa_region = {
 		sinano_area
 		musasi_area
 		kumaso_area
+		tohoku_area
+		hokkaido_area
 	}
 }
 
