@@ -1195,16 +1195,20 @@
 	}
 }
 
-8256={ #Pulei
+8256={ #Barkol
 	terrain="hills"
-	culture="beishan"
+	culture="yuezhi"
 	religion="eastern_animism"
-	trade_goods="cattle"
-	civilization_value=5
+	trade_goods="steppe_horses"
+	civilization_value=14
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=3
+		amount=12
+	}
+	slaves={
+		amount=4
+		culture="wusun"
 	}
 }
 
@@ -1490,3 +1494,70 @@
 	province_rank=""
 }
 
+10583={ #Yiwu
+	terrain="hills"
+	culture="yuezhi"
+	religion="eastern_animism"
+	trade_goods="horses"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=2
+		culture="wusun"
+	}
+}
+
+10584={ #Tougong
+	terrain="hills"
+	culture="yuezhi"
+	religion="eastern_animism"
+	trade_goods="base_metals"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+	slaves={
+		amount=2
+		culture="wusun"
+	}
+}
+
+10585={ #Shichengzhicun
+	terrain="hills"
+	culture="yuezhi"
+	religion="eastern_animism"
+	trade_goods="jade"
+	civilization_value=11
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=2
+		culture="shanma"
+	}
+}
+
+10586={ #Naomaohuzhen
+	terrain="hills"
+	culture="yuezhi"
+	religion="eastern_animism"
+	trade_goods="wild_game"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+		culture="xiongnu"
+	}
+}

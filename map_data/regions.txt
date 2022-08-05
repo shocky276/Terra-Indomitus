@@ -1213,6 +1213,7 @@ xiyu_region = {
 		north_beishan_area
 		talas_area
 		pamir_area
+		barkol_area
 	}
 }
 
