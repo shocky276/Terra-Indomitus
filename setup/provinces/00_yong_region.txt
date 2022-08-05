@@ -665,38 +665,30 @@
 
 8344={ #Anyi
 	terrain="farmland"
-	culture="qin"
+	culture="jin"
 	religion="chinese_religions"
 	trade_goods="salt"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="jin"
-		amount=4
-	}
-	citizen={
-		amount=3
+		amount=7
 	}
 	freemen={
-		amount=2
-	}
-	freemen={
-		culture="jin"
-		amount=4
+		amount=6
 	}
 	nobles={
-		amount=1
+		amount=4
 	}
 	slaves={
-		culture="jin"
+		culture="qin"
 		amount=6
 	}
 }
 
 8345={ #Yishi
 	terrain="plains"
-	culture="qin"
+	culture="jin"
 	religion="chinese_religions"
 	trade_goods="grain"
 	civilization_value=24
@@ -706,17 +698,13 @@
 		amount=3
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="jin"
-		amount=1
+		amount=2
 	}
 	nobles={
 		amount=1
 	}
 	slaves={
-		culture="jin"
+		culture="qin"
 		amount=2
 	}
 }

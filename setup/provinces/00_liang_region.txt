@@ -201,16 +201,16 @@
 	}
 }
 
-8242={ #Juyan
-	terrain="desert"
-	culture="xiongnu"
-	religion="hu_religions"
+8242={ #Lucheng
+	terrain="plains"
+	culture="wusun"
+	religion="eastern_animisn"
 	trade_goods="salt"
 	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=3
 	}
 }
 

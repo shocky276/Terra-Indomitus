@@ -36,6 +36,7 @@
 	
 	
 	culture = {
+		shajing = { levy_template = levy_rongdi }
 		yiqu = { levy_template = levy_rongdi }
 		juyan = { levy_template = levy_rongdi }
 		qiang = {}

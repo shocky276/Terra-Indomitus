@@ -353,14 +353,11 @@ country = {
 				8834
 				8588
 				8826
-				8349
 				8601
 				8587
-				8344
 				8320
 				8280
 				8259
-				8345
 				8580
 				9415
 			}
@@ -708,6 +705,9 @@ country = {
 				8680
 				8676
 				8346
+				8344
+				8345
+				8349
 			}
 		}
 		HAN = {
@@ -759,6 +759,7 @@ country = {
 				8674
 				8350
 				8627
+				8629
 			}
 		}
 		QII = {
@@ -1240,7 +1241,6 @@ country = {
 				8688
 				8689
 				8737
-				8629
 				8733
 				8699
 				8715
@@ -2060,11 +2060,11 @@ country = {
 			}
 		}
 		YEZ = {
-			#月氏
+			#Yuezhi
 			government = tribal_chiefdom
 			primary_culture = yuezhi
 			religion = eastern_animism
-			capital = 8249
+			capital = 8256
 			technology = {
 				military_tech = {
 					level = 1
@@ -2084,17 +2084,10 @@ country = {
 				}
 			}
 			own_control_core = {
-				8248
-				8249
-				8250
-				8251
-				8252
-				8253
-				8245
-				8246
-				8247
+				8218 8219 8255 8256 9475 9579 9582 9583
 			}
 		}
+		
 		WUS = {
 			#烏孫 每次更新檢查原版default文件
 			government = tribal_chiefdom
@@ -2140,6 +2133,7 @@ country = {
 				9581
 				9578
 				9878
+				8242
 			}
 		}
 		KSA = {
@@ -2535,9 +2529,6 @@ country = {
 				8216
 				8215
 				8217
-				8218
-				8219
-				8255
 			}
 		}
 		BLU = {
@@ -8116,6 +8107,10 @@ country = {
 }
 
 provinces = {
+	8344 = {
+		# Anyi
+		fortress_building = 1
+	}
 	8356 = {
 		# 函谷關
 		fortress_building = 1

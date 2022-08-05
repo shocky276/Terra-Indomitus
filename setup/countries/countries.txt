@@ -1062,6 +1062,7 @@ HRP = "setup/countries/ti_steppe/harpia.txt"
 HUY = "setup/countries/ti_easternsteppe/hunyu.txt"
 QSI = "setup/countries/ti_easternsteppe/qushi.txt"
 MGT = "setup/countries/ti_easternsteppe/massagetae.txt"
+SHJ = "setup/countries/ti_easternsteppe/shajing.txt"
 
 #SEA
 TGU = "setup/countries/acb_others/taguang.txt"

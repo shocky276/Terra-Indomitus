@@ -952,6 +952,35 @@ country = {
 				10556 10557 10566
 			}
 		}
+		
+		SHJ = {
+			#Shajing
+			government = tribal_chiefdom
+			primary_culture = shajing
+			religion = bon_religion
+			technology = {
+				military_tech = {
+					level = 1
+					progress = 0
+				}
+				civic_tech = {
+					level = 1
+					progress = 0
+				}
+				oratory_tech = {
+					level = 1
+					progress = 0
+				}
+				religious_tech = {
+					level = 1
+					progress = 0
+				}
+			}
+			capital = 8249
+			own_control_core = {
+				8245 8246 8247 8248 8249 8250 8251 8252 8253 8254 8268
+			}
+		}
 
 	}
 	
