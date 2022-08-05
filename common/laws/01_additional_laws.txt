@@ -589,11 +589,13 @@ social_welfare_laws = {
 
 #minting
 #education
+#social welfare 
 
 #moral laws (prostitution f.ex.) 
-#social welfare 
 #holdings laws
 #colonisation - Dementive
+
+#eunuchs/governors
 
 ###ruled out - for now
 
