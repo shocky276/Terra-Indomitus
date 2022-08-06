@@ -986,7 +986,7 @@ country = {
 			#Wusun from TI
 			government = tribal_chiefdom
 			primary_culture = wusun
-			religion = eastern_animisn
+			religion = eastern_animism
 			technology = {
 				military_tech = {
 					level = 1
