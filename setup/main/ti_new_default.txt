@@ -981,6 +981,35 @@ country = {
 				8245 8246 8247 8248 8249 8250 8251 8252 8253 8254 8268
 			}
 		}
+		
+		WUS = {
+			#Wusun from TI
+			government = tribal_chiefdom
+			primary_culture = wusun
+			religion = eastern_animisn
+			technology = {
+				military_tech = {
+					level = 1
+					progress = 0
+				}
+				civic_tech = {
+					level = 1
+					progress = 0
+				}
+				oratory_tech = {
+					level = 1
+					progress = 0
+				}
+				religious_tech = {
+					level = 1
+					progress = 0
+				}
+			}
+			capital = 8223
+			own_control_core = {
+				8222 8223 8224 9458 9459 9460 9461
+			}
+		}
 
 	}
 	

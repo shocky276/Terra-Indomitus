@@ -1,9 +1,9 @@
 ﻿8227={ #Longle
 	terrain="desert"
-	culture="wusun"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="camel"
-	civilization_value=12
+	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -11,12 +11,13 @@
 	}
 	slaves={
 		amount=1
+		religion="bon_religion"
 	}
 }
 
 8228={ #Dunhuang
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="leather"
 	civilization_value=12
@@ -26,13 +27,20 @@
 		amount=3
 	}
 	slaves={
-		amount=2
+		amount=1
+		culture="qiang"
+		religion="bon_religion"
+	}
+	slaves={
+		amount=1
+		culture="shajing"
+		religion="bon_religion"
 	}
 }
 
 8229={ #Xiaogu
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="hemp"
 	civilization_value=12
@@ -44,8 +52,8 @@
 }
 
 8230={ #Guangzhi
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="incense"
 	civilization_value=12
@@ -57,21 +65,21 @@
 }
 
 8231={ #Ming an
-	terrain="desert"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="steppe_horses"
 	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
 8232={ #Yuanquan
-	terrain="dry_hills"
-	culture="wusun"
+	terrain="hills"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="horses"
 	civilization_value=12
@@ -83,8 +91,8 @@
 }
 
 8233={ #Chitou
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="grain"
 	civilization_value=15
@@ -95,12 +103,14 @@
 	}
 	slaves={
 		amount=1
+		culture="qiang"
+		religion="bon_religion"
 	}
 }
 
 8234={ #Ganqi
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="glass"
 	civilization_value=12
@@ -112,8 +122,8 @@
 }
 
 8235={ #Yumen
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="camel"
 	civilization_value=12
@@ -124,28 +134,32 @@
 	}
 	slaves={
 		amount=1
+		culture="shajing"
+		religion="bon_religion"
 	}
 }
 
 8236={ #Lufu
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="cattle"
 	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=3
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=2
+		culture="shajing"
+		religion="bon_religion"
 	}
 }
 
 8237={ #Suimi
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="dye"
 	civilization_value=12
@@ -157,8 +171,8 @@
 }
 
 8238={ #Huishui
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="grain"
 	civilization_value=12
@@ -170,8 +184,8 @@
 }
 
 8239={ #Biaoshi
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="stone"
 	civilization_value=12
@@ -186,8 +200,8 @@
 }
 
 8240={ #Leguan
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="spices"
 	civilization_value=12
@@ -203,8 +217,8 @@
 
 8242={ #Lucheng
 	terrain="plains"
-	culture="wusun"
-	religion="eastern_animisn"
+	culture="shanma"
+	religion="eastern_animism"
 	trade_goods="salt"
 	civilization_value=6
 	barbarian_power=0
@@ -215,8 +229,8 @@
 }
 
 8243={ #Lide
-	terrain="dry_plains"
-	culture="yuezhi"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="stone"
 	civilization_value=12
@@ -228,25 +242,26 @@
 }
 
 8244={ #Zhaowu
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="horses"
 	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
+		culture="shajing"
 	}
 }
 
 8245={ #Shandan
-	terrain="dry_plains"
-	culture="yuezhi"
-	religion="eastern_animism"
+	terrain="plains"
+	culture="shajing"
+	religion="bon_religion"
 	trade_goods="dye"
 	civilization_value=12
 	barbarian_power=0
@@ -260,9 +275,9 @@
 }
 
 8246={ #Dichi
-	terrain="dry_plains"
-	culture="yuezhi"
-	religion="eastern_animism"
+	terrain="plains"
+	culture="shajing"
+	religion="bon_religion"
 	trade_goods="camel"
 	civilization_value=12
 	barbarian_power=0
@@ -273,11 +288,24 @@
 }
 
 8247={ #Lijian
-	terrain="dry_plains"
-	culture="yuezhi"
-	religion="eastern_animism"
+	terrain="plains"
+	culture="shajing"
+	religion="bon_religion"
 	trade_goods="leather"
 	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+8248={ #Wuwei
+	terrain="plains"
+	culture="shajing"
+	religion="bon_religion"
+	trade_goods="steppe_horses"
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -285,23 +313,10 @@
 	}
 }
 
-8248={ #Wuwei
-	terrain="desert"
-	culture="xiongnu"
-	religion="hu_religions"
-	trade_goods="steppe_horses"
-	civilization_value=6
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
 8249={ #Guzang
-	terrain="dry_plains"
-	culture="yuezhi"
-	religion="eastern_animism"
+	terrain="plains"
+	culture="shajing"
+	religion="bon_religion"
 	trade_goods="gems"
 	civilization_value=15
 	barbarian_power=0
@@ -315,9 +330,9 @@
 }
 
 8250={ #Puhuai
-	terrain="dry_plains"
-	culture="yuezhi"
-	religion="eastern_animism"
+	terrain="plains"
+	culture="shajing"
+	religion="bon_religion"
 	trade_goods="camel"
 	civilization_value=12
 	barbarian_power=0
@@ -328,9 +343,9 @@
 }
 
 8251={ #Xuanwei
-	terrain="dry_plains"
-	culture="yuezhi"
-	religion="eastern_animism"
+	terrain="plains"
+	culture="shajing"
+	religion="bon_religion"
 	trade_goods="cattle"
 	civilization_value=8
 	barbarian_power=0
@@ -341,9 +356,9 @@
 }
 
 8252={ #Xiutu
-	terrain="dry_plains"
-	culture="yuezhi"
-	religion="eastern_animism"
+	terrain="plains"
+	culture="shajing"
+	religion="bon_religion"
 	trade_goods="grain"
 	civilization_value=12
 	barbarian_power=0
@@ -358,8 +373,8 @@
 
 8253={ #Cangsong
 	terrain="forest"
-	culture="yuezhi"
-	religion="eastern_animism"
+	culture="shajing"
+	religion="bon_religion"
 	trade_goods="vegetables"
 	civilization_value=14
 	barbarian_power=0
@@ -373,8 +388,8 @@
 }
 
 8254={ #Zhangye
-	terrain="dry_plains"
-	culture="qiang"
+	terrain="plains"
+	culture="shajing"
 	religion="bon_religion"
 	trade_goods="cattle"
 	civilization_value=13
@@ -389,8 +404,8 @@
 }
 
 8257={ #Tianyi
-	terrain="dry_hills"
-	culture="wusun"
+	terrain="mountains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="dye"
 	civilization_value=12
@@ -532,7 +547,7 @@
 }
 
 8268={ #Aowei
-	terrain="dry_plains"
+	terrain="plains"
 	culture="qiang"
 	religion="bon_religion"
 	trade_goods="earthware"
@@ -1125,8 +1140,8 @@
 }
 
 9578={ #Mingze West
-	terrain="dry_plains"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="cattle"
 	civilization_value=0
@@ -1138,14 +1153,18 @@
 }
 
 9579={ #Kunlunzhang
-	terrain="desert"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="horses"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
+		amount=1
+		culture="yuezhi"
+	}
+	slaves={
 		amount=1
 	}
 }
@@ -1161,31 +1180,28 @@
 }
 
 9581={ #Mingze North
-	terrain="desert"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="horses"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
 9878={ #Ruoshui
-	terrain="desert"
-	culture="wusun"
+	terrain="plains"
+	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="dye"
 	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
-	}
-	slaves={
-		amount=1
+		amount=2
 	}
 }
 

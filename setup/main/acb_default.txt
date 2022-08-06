@@ -2088,10 +2088,10 @@ country = {
 			}
 		}
 		
-		WUS = {
-			#烏孫 每次更新檢查原版default文件
+		SHA = {
+			#Shanma replaced Wusun in this area (Wusun moved to ti_default)
 			government = tribal_chiefdom
-			primary_culture = wusun
+			primary_culture = shanma
 			religion = eastern_animism
 			technology = {
 				military_tech = {
@@ -2531,8 +2531,8 @@ country = {
 				8217
 			}
 		}
-		BLU = {
-			#卑陸
+		EQM = {
+			#東且彌
 			government = tribal_kingdom
 			primary_culture = beishan
 			religion = eastern_animism
@@ -2559,8 +2559,8 @@ country = {
 				8220
 			}
 		}
-		JIE = {
-			#劫國
+		WQM = {
+			#西且彌
 			government = tribal_kingdom
 			primary_culture = beishan
 			religion = eastern_animism
@@ -2585,90 +2585,6 @@ country = {
 			capital = 8221
 			own_control_core = {
 				8221
-			}
-		}
-		SHH = {
-			#單桓
-			government = tribal_kingdom
-			primary_culture = beishan
-			religion = eastern_animism
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			capital = 8222
-			own_control_core = {
-				8222
-			}
-		}
-		EQM = {
-			#東且彌
-			government = tribal_kingdom
-			primary_culture = beishan
-			religion = eastern_animism
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			capital = 8223
-			own_control_core = {
-				8223
-			}
-		}
-		WQM = {
-			#西且彌
-			government = tribal_kingdom
-			primary_culture = beishan
-			religion = eastern_animism
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
-			capital = 8224
-			own_control_core = {
-				8224
 			}
 		}
 		WTO = {

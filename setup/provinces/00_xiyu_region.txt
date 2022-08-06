@@ -951,30 +951,38 @@
 	culture="tocharian"
 	religion="eastern_animism"
 	trade_goods="spices"
-	civilization_value=18
+	civilization_value=21
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=2
 	}
+	citizen={
+		amount=4
+	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	freemen={
 		culture="beishan"
 		amount=2
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=1
+		amount=3
+		culture="yuezhi"
+	}
+	tribesmen={
+		amount=3
+		culture="wusun"
 	}
 }
 
 8217={ #Cheshiliugu
 	terrain="hills"
-	culture="beishan"
+	culture="tocharian"
 	religion="eastern_animism"
 	trade_goods="cattle"
 	civilization_value=16
@@ -987,7 +995,7 @@
 		amount=1
 	}
 	slaves={
-		culture="tocharian"
+		culture="beishan"
 		amount=1
 	}
 	tribesmen={
@@ -997,26 +1005,24 @@
 
 8218={ #Wutugu
 	terrain="hills"
-	culture="beishan"
+	culture="yuezhi"
 	religion="eastern_animism"
 	trade_goods="fur"
 	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=2
-	}
 	slaves={
 		amount=2
+		culture="tocharian"
 	}
 	tribesmen={
-		amount=2
+		amount=5
 	}
 }
 
 8219={ #Houcheng
-	terrain="desert"
-	culture="beishan"
+	terrain="plains"
+	culture="yuezhi"
 	religion="eastern_animism"
 	trade_goods="salt"
 	civilization_value=17
@@ -1034,11 +1040,11 @@
 }
 
 8220={ #Beilu
-	terrain="dry_plains"
+	terrain="plains"
 	culture="beishan"
 	religion="eastern_animism"
 	trade_goods="spices"
-	civilization_value=5
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1053,11 +1059,11 @@
 }
 
 8221={ #Jie
-	terrain="dry_plains"
+	terrain="plains"
 	culture="beishan"
 	religion="eastern_animism"
 	trade_goods="grain"
-	civilization_value=5
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1072,21 +1078,19 @@
 }
 
 8222={ #Danhuan
-	terrain="dry_plains"
-	culture="beishan"
+	terrain="plains"
+	culture="wusun"
 	religion="eastern_animism"
 	trade_goods="horses"
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=2
-	}
 	slaves={
 		amount=2
+		culture="beishan"
 	}
 	tribesmen={
-		amount=2
+		amount=5
 	}
 }
 
@@ -1098,14 +1102,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=2
-	}
 	slaves={
-		amount=2
+		amount=3
+		culture="beishan"
 	}
 	tribesmen={
-		amount=2
+		amount=9
 	}
 }
 
@@ -1117,14 +1119,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=2
-	}
 	slaves={
 		amount=2
+		culture="yuezhi"
 	}
 	tribesmen={
-		amount=2
+		amount=7
 	}
 }
 
@@ -1171,7 +1171,7 @@
 
 8241={ #Bailongdui
 	terrain="desert"
-	culture="wusun"
+	culture="tocharian"
 	religion="eastern_animism"
 	trade_goods="camel"
 	civilization_value=4
@@ -1183,15 +1183,15 @@
 }
 
 8255={ #Pulei Houguo
-	terrain="dry_hills"
-	culture="beishan"
+	terrain="hills"
+	culture="yuezhi"
 	religion="eastern_animism"
 	trade_goods="camel"
 	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=3
+		amount=4
 	}
 }
 
@@ -1323,53 +1323,53 @@
 
 9458={ #Yehe
 	terrain="steppe"
-	culture="beishan"
+	culture="wusun"
 	religion="eastern_animism"
 	trade_goods="base_metals"
-	civilization_value=0
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
 9459={ #Heishui
 	terrain="steppe"
-	culture="beishan"
+	culture="wusun"
 	religion="eastern_animism"
 	trade_goods="leather"
-	civilization_value=0
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
 9460={ #Donglin
 	terrain="steppe"
-	culture="beishan"
+	culture="wusun"
 	religion="eastern_animism"
 	trade_goods="fur"
-	civilization_value=0
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
 9461={ #Xilin
 	terrain="steppe"
-	culture="beishan"
+	culture="wusun"
 	religion="eastern_animism"
 	trade_goods="cattle"
-	civilization_value=0
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1409,16 +1409,16 @@
 	province_rank=""
 }
 
-9475={ #PASS
-	terrain="desert"
-	culture="beishan"
+9475={ #Bo'er
+	terrain="plains"
+	culture="yuezhi"
 	religion="eastern_animism"
 	trade_goods="horses"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1447,7 +1447,7 @@
 
 9577={ #Yumen
 	terrain="desert"
-	culture="wusun"
+	culture="tocharian"
 	religion="eastern_animism"
 	trade_goods="horses"
 	civilization_value=0
@@ -1458,29 +1458,29 @@
 	}
 }
 
-9582={ #Pulei East
-	terrain="desert"
-	culture="beishan"
+9582={ #
+	terrain="plains"
+	culture="yuezhi"
 	religion="eastern_animism"
 	trade_goods="steppe_horses"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=7
 	}
 }
 
-9583={ #Impassable
-	terrain="desert"
-	culture="beishan"
+9583={ #
+	terrain="mountain"
+	culture="yuezhi"
 	religion="eastern_animism"
 	trade_goods="stone"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=5
 	}
 }
 
@@ -1546,7 +1546,7 @@
 }
 
 10586={ #Naomaohuzhen
-	terrain="hills"
+	terrain="plains"
 	culture="yuezhi"
 	religion="eastern_animism"
 	trade_goods="wild_game"
