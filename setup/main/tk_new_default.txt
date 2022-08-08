@@ -11,26 +11,7 @@ diplomacy = {
 }
 country = {
 	countries = {
-		
-		SOP = {
-			government = despotic_monarchy
-			primary_culture = sophene
-			religion = zoroaster
-			
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-		
-			capital = 858
-			own_control_core = 	{
-				858 859 860 1855 8009 235 8007 #sophene_region
-				1856 1857 8008 8010 1858 1769
-			}
-		}
-		
+
 		PES = {
 			government = aristocratic_monarchy
 			primary_culture = pasargadi

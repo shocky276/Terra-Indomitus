@@ -5816,7 +5816,7 @@ country = {
 		
 		PIE = {
 			government = tribal_kingdom
-			primary_culture = south_picena
+			primary_culture = samnite
 			religion = roman_pantheon
 			centralization = 35
 			capital = 106
@@ -5854,7 +5854,8 @@ country = {
 			}
 		
 			own_control_core = 	{
-				14 17 21 22 102 120 124 131 130 136 135 134 126 114 127 112 113 115 116 125 129 128 137 3507 3515 3514 3513 3516
+				14 17 21 22 102 120 124 131 130 136 135 134 126 114 127 112 113 115 116 125 129 128 137 3507 3515 3514 3513 3516 
+				138 139 140 #from Friniatia
 			}
 			
 			treasures = { 40 }
@@ -5866,7 +5867,6 @@ country = {
 			primary_culture = ligurian
 			religion = roman_pantheon
 			centralization=8
-			capital = 138 
 			diplomatic_stance=trading_stance
 			
 			technology={
@@ -5877,7 +5877,6 @@ country = {
 			}
 		
 			own_control_core = 	{
-				138 139 140
 			}
 			
 		}
@@ -12493,6 +12492,8 @@ country = {
 				997 1502 1503 1504 #North of Lake Urmia
 				978 990 993 994 1562 1563 1564 1566 1567 1736 #tarawn_region
 				483 4037 7844 7845 1733 1775
+				858 859 860 1855 8009 235 8007 #sophene_region
+				1856 1857 8008 8010 1858 1769
 			}
 			
 		}
