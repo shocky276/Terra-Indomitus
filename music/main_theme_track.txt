@@ -1,5 +1,4 @@
 ﻿main_theme_track = {
-	music = "file:/music/china.mp3"
+	music = "file:/music/Tsuki.wav"
 	can_be_interrupted = yes
-
 }
