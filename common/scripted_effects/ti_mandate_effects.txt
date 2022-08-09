@@ -1,4 +1,4 @@
-change_mandate_effect = {
+﻿change_mandate_effect = {
 	if = {
 		limit = {
 			has_variable = mandate_variable

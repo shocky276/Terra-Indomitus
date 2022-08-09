@@ -99,7 +99,7 @@ ZHA = {
 	colored_emblem = {
 		texture = "ce_zhao.dds"
 		color1 = "ck2_black"
-		instance { { scale = { 1.1 1.1 } }
+		instance = { scale = { 1.1 1.1 } }
 	}
 	
 	colored_emblem = {
