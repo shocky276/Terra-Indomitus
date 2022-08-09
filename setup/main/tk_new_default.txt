@@ -2,9 +2,7 @@
 diplomacy = {
 	dependency = { first = SEL second = PES subject_type = client_state }
 	dependency = { first = SEL second = DRA subject_type = tributary }
-	dependency = { first = ARM second = TSN subject_type = tributary }
-	dependency = { first = ARM second = COZ subject_type = tributary }
-	dependency = { first = ARM second = SOP subject_type = tributary }
+	dependency = { first = COL second = SUA subject_type = feudatory }
 	dependency = { first = CAR second = MSL subject_type = tributary }
 	dependency = { first = CAR second = ELY subject_type = tributary }
 	dependency = { first = MRY second = LUM subject_type = tributary }
@@ -94,88 +92,10 @@ country = {
 			capital = 1707
 
 			own_control_core = 	{
-				1705 1707 1746 1748 1706 1703 1704 #suaneti_region
+				1705 1707 1746 1748 1706 1704 #suaneti_region
 			}
 		}
-		
-		TSN = {
-			government = tribal_kingdom
-			centralization = 35
-			primary_culture = ibero
-			religion = caucasian_religion
-			
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
 
-			capital = 1702
-
-			own_control_core = 	{
-				1586 1587 1702 #gugark_region
-				1754 1755
-			}
-		}
-		
-		COZ = {
-			government = tribal_kingdom
-			centralization = 35
-			primary_culture = sasperires
-			religion = caucasian_religion
-			
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-
-			capital = 1752
-
-			own_control_core = 	{
-				1752 1753 1756 #tayk_region
-				1728 1757 1758
-			}
-		}
-		
-		ARN = {
-			government = tribal_kingdom
-			primary_culture = albanian
-			religion = caucasian_religion
-
-			capital = 1670
-
-			own_control_core = 	{
-				1584 1608 1637 1646 1661 1670 1671 1672 #arran_region
-			}
-		}
-		
-		BAZ = {
-			government = tribal_kingdom
-			primary_culture = caspian
-			religion = caucasian_religion
-
-			capital = 1644
-
-			own_control_core = 	{
-				1633 1642 1647 1644 1651 1652
-			}
-		}
-		
-		CAS = {
-			government = tribal_kingdom
-			primary_culture = caspian
-			religion = zoroaster
-
-			capital = 1631
-
-			own_control_core = 	{
-				1630 1631 1632 1638 1648 1649 1654 #paytankert_region 
-			}
-		}
-		
 		SIC = {
 			government = tribal_kingdom
 			primary_culture = sicanian

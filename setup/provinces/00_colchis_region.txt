@@ -1,7 +1,7 @@
 ﻿1586={ #Hokhmik
 	terrain="forest"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="armenian_religion"
 	trade_goods="iron"
 	civilization_value=18
 	barbarian_power=0
@@ -447,7 +447,7 @@
 1702={ #Javakheti
 	terrain="forest"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="armenian_religion"
 	trade_goods="iron"
 	civilization_value=18
 	barbarian_power=0
@@ -794,7 +794,7 @@
 
 1727={ #Kissa
 	terrain="forest"
-	culture="bekhyrian"
+	culture="colchian"
 	religion="caucasian_religion"
 	trade_goods="fish"
 	civilization_value=18
@@ -810,7 +810,7 @@
 
 1728={ #Morthoula
 	terrain="hills"
-	culture="sasperires"
+	culture="colchian"
 	religion="caucasian_religion"
 	trade_goods="honey"
 	civilization_value=18
@@ -928,7 +928,7 @@
 
 1740={ #Tzibile
 	terrain="mountain"
-	culture="abasgoi"
+	culture="colchian"
 	religion="caucasian_religion"
 	trade_goods="wild_game"
 	civilization_value=16
@@ -947,8 +947,8 @@
 
 1741={ #Dioskourias
 	terrain="hills"
-	culture="abasgoi"
-	religion="caucasian_religion"
+	culture="greco_pontic"
+	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=24
 	barbarian_power=0
@@ -971,7 +971,7 @@
 
 1742={ #Anakopia
 	terrain="hills"
-	culture="abasgoi"
+	culture="colchian"
 	religion="caucasian_religion"
 	trade_goods="wine"
 	civilization_value=18
@@ -990,7 +990,7 @@
 
 1743={ #Pityous
 	terrain="hills"
-	culture="abasgoi"
+	culture="colchian"
 	religion="caucasian_religion"
 	trade_goods="wine"
 	civilization_value=18
@@ -1010,7 +1010,7 @@
 
 1745={ #Masaitike
 	terrain="hills"
-	culture="abasgoi"
+	culture="colchian"
 	religion="caucasian_religion"
 	trade_goods="fish"
 	civilization_value=18
@@ -1078,8 +1078,8 @@
 
 1750={ #Klukhor Pass
 	terrain="mountain"
-	culture="abasgoi"
-	religion="indo_iranian_religion"
+	culture="colchian"
+	religion="caucasian_religion"
 	trade_goods="wild_game"
 	civilization_value=0
 	barbarian_power=0
@@ -1088,7 +1088,7 @@
 
 1752={ #Chorzene
 	terrain="plains"
-	culture="sasperires"
+	culture="armenian"
 	religion="armenian_religion"
 	trade_goods="horses"
 	civilization_value=20
@@ -1110,8 +1110,8 @@
 
 1753={ #Kola
 	terrain="plains"
-	culture="sasperires"
-	religion="caucasian_religion"
+	culture="ibero"
+	religion="armenian_religion"
 	trade_goods="wine"
 	civilization_value=20
 	barbarian_power=0
@@ -1130,7 +1130,7 @@
 1754={ #Artahan
 	terrain="plains"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="armenian_religion"
 	trade_goods="steppe_horses"
 	civilization_value=20
 	barbarian_power=0
@@ -1153,7 +1153,7 @@
 1755={ #Colit
 	terrain="plains"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="armenian_religion"
 	trade_goods="leather"
 	civilization_value=20
 	barbarian_power=0
@@ -1175,7 +1175,7 @@
 
 1756={ #Artanuji
 	terrain="hills"
-	culture="sasperires"
+	culture="colchian"
 	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=18
@@ -1198,8 +1198,8 @@
 
 1757={ #Kaballa
 	terrain="hills"
-	culture="sasperires"
-	religion="caucasian_religion"
+	culture="colchian"
+	religion="armenian_religion"
 	trade_goods="vegetables"
 	civilization_value=18
 	barbarian_power=0
@@ -1217,7 +1217,7 @@
 
 1758={ #Pharangion
 	terrain="hills"
-	culture="sasperires"
+	culture="colchian"
 	religion="armenian_religion"
 	trade_goods="leather"
 	civilization_value=18
@@ -1241,21 +1241,20 @@
 4567={ #Torikos
 	terrain="plains"
 	culture="sindi"
-	religion="caucasian_religion"
+	religion="indo_iranian_religion"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=3
+		amount=1
 	}
-	holy_site=omen_papaios
 }
 
 4568={ #Palaia Achaia
 	terrain="hills"
-	culture="abasgoi"
-	religion="caucasian_religion"
+	culture="sindi"
+	religion="indo_iranian_religion"
 	trade_goods="wine"
 	civilization_value=8
 	barbarian_power=0
