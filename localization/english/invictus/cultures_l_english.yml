@@ -428,6 +428,9 @@
  roxolanian:0 "Roxolanian"
  sardonian:0 "Sardonian"
  suessionian:0 "Suessionian"
+ #New Italic
+ elymian:0 "Elymian"
+ sicanian:0 "Sicanian"
  #Naming
  aksumite_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aksumite_group_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"

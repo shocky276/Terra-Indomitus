@@ -404,7 +404,7 @@
 }
 
 8257={ #Tianyi
-	terrain="mountains"
+	terrain="mountain"
 	culture="shanma"
 	religion="eastern_animism"
 	trade_goods="dye"
