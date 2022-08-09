@@ -142,7 +142,7 @@
 }
 
 173={ #Koropassos
-	terrain="dry_plains"
+	terrain="plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
 	trade_goods="salt"
@@ -477,7 +477,7 @@
 }
 
 1811={ #Parnassos
-	terrain="dry_plains"
+	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="salt"
@@ -595,7 +595,7 @@
 	}
 }
 
-1820={ #Odogra
+1820={ #Saraouene
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -740,7 +740,7 @@
 		amount=2
 	}
 	freemen={
-		culture="sophene"
+		culture="armenian"
 		amount=1
 	}
 	slaves={
@@ -750,15 +750,15 @@
 		amount=2
 	}
 	tribesmen={
-		culture="sophene"
+		culture="armenian"
 		amount=2
 	}
 }
 
 1853={ #Kiakis
 	terrain="forest"
-	culture="sophene"
-	religion="armenian_religion"
+	culture="armenian"
+	religion="anatolian_religion"
 	trade_goods="leather"
 	civilization_value=18
 	barbarian_power=0
@@ -791,7 +791,7 @@
 		amount=2
 	}
 	citizen={
-		culture="sophene"
+		culture="armenian"
 		religion="armenian_religion"
 		amount=1
 	}
@@ -800,7 +800,7 @@
 		amount=2
 	}
 	freemen={
-		culture="sophene"
+		culture="armenian"
 		religion="armenian_religion"
 		amount=2
 	}
@@ -821,7 +821,7 @@
 		amount=3
 	}
 	tribesmen={
-		culture="sophene"
+		culture="armenian"
 		religion="armenian_religion"
 		amount=1
 	}
@@ -849,7 +849,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
@@ -867,7 +867,7 @@
 		amount=1
 	}
 	freemen={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
@@ -881,7 +881,7 @@
 
 1865={ #Miasena
 	terrain="hills"
-	culture="sophene"
+	culture="armenian"
 	religion="zoroaster"
 	trade_goods="wood"
 	civilization_value=18
@@ -902,7 +902,7 @@
 
 1866={ #Korne
 	terrain="mountain"
-	culture="sophene"
+	culture="armenian"
 	religion="zoroaster"
 	trade_goods="wood"
 	civilization_value=16
@@ -1016,7 +1016,7 @@
 	trade_goods="cloth"
 	civilization_value=20
 	barbarian_power=0
-	province_rank="city"
+	province_rank="settlement"
 	nobles={
 		culture="pasargadi"
 		religion="zoroaster"
@@ -1311,7 +1311,7 @@
 		amount=1
 	}
 	freemen={
-		culture="sophene"
+		culture="armenian"
 		amount=1
 	}
 	slaves={
@@ -1321,7 +1321,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="sophene"
+		culture="armenian"
 		amount=1
 	}
 }
@@ -1388,7 +1388,7 @@
 }
 
 1940={ #Kybistra
-	terrain="dry_plains"
+	terrain="plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -1418,7 +1418,7 @@
 }
 
 1951={ #Tyana
-	terrain="dry_plains"
+	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="hemp"

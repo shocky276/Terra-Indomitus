@@ -1,6 +1,6 @@
 ﻿235={ #Tomisa
 	terrain="hills"
-	culture="sophene"
+	culture="armenian"
 	religion="zoroaster"
 	trade_goods="hemp"
 	civilization_value=29
@@ -21,9 +21,9 @@
 }
 
 773={ #Amostai
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=31
 	barbarian_power=0
@@ -37,7 +37,7 @@
 }
 
 804={ #Soura
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="dates"
@@ -53,7 +53,7 @@
 }
 
 817={ #Batnai
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="honey"
@@ -72,7 +72,7 @@
 }
 
 818={ #Adma
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="glass"
@@ -109,7 +109,7 @@
 		amount=2
 	}
 	freemen={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
@@ -122,14 +122,14 @@
 		amount=2
 	}
 	slaves={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
 }
 
-819={ #Karrai
-	terrain="dry_plains"
+819={ #Karrhai
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="grain"
@@ -170,9 +170,9 @@
 }
 
 821={ #Rhesaina
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=31
 	barbarian_power=0
@@ -191,7 +191,7 @@
 		amount=3
 	}
 	slaves={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
@@ -200,7 +200,7 @@
 822={ #Nabada
 	terrain="desert"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=28
 	barbarian_power=0
@@ -221,7 +221,7 @@
 823={ #Oraba
 	terrain="desert"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="wild_game"
 	civilization_value=28
 	barbarian_power=0
@@ -238,7 +238,7 @@
 }
 
 830={ #Antiocheia Mygdonias
-	terrain="dry_plains"
+	terrain="plains"
 	culture="macedonian"
 	religion="roman_pantheon"
 	trade_goods="horses"
@@ -270,7 +270,7 @@
 831={ #Singara
 	terrain="hills"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
@@ -290,9 +290,9 @@
 }
 
 832={ #Taidon
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="steppe_horses"
 	civilization_value=31
 	barbarian_power=0
@@ -316,7 +316,7 @@
 	}
 }
 
-833={ #Pinaka
+833={ #Phainicha
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -328,23 +328,23 @@
 		amount=1
 	}
 	freemen={
-		religion="carthaginian_pantheon"
+		religion="mesopotamian_religion"
 		amount=1
 	}
 	freemen={
 		amount=1
 	}
 	slaves={
-		religion="carthaginian_pantheon"
+		religion="mesopotamian_religion"
 		amount=1
 	}
 	tribesmen={
-		culture="van"
+		culture="armenian"
 		amount=1
 	}
 }
 
-834={ #Satalka
+834={ #Thamanon
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -356,7 +356,7 @@
 		amount=2
 	}
 	slaves={
-		religion="carthaginian_pantheon"
+		religion="mesopotamian_religion"
 		amount=1
 	}
 	slaves={
@@ -366,13 +366,13 @@
 		amount=1
 	}
 	tribesmen={
-		religion="carthaginian_pantheon"
+		religion="mesopotamian_religion"
 		amount=1
 	}
 }
 
 836={ #Samsat
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="zoroaster"
 	trade_goods="grain"
@@ -413,7 +413,7 @@
 }
 
 837={ #Tharsa
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="vegetables"
@@ -421,7 +421,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
@@ -440,14 +440,14 @@
 		amount=2
 	}
 	slaves={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
 }
 
 838={ #Charmodara
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="zoroaster"
 	trade_goods="grain"
@@ -551,7 +551,7 @@
 }
 
 841={ #Epiphaneia Tigridos
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="horses"
@@ -596,7 +596,7 @@
 
 843={ #Chlomaron
 	terrain="hills"
-	culture="van"
+	culture="armenian"
 	religion="zoroaster"
 	trade_goods="leather"
 	civilization_value=34
@@ -629,7 +629,7 @@
 }
 
 844={ #Antiocheia Mesopotamias
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="earthware"
@@ -641,7 +641,7 @@
 		amount=2
 	}
 	citizen={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
@@ -656,7 +656,7 @@
 	}
 }
 
-845={ #Np'rkert
+845={ #Maipa
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -695,7 +695,7 @@
 }
 
 849={ #Ballatha
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="vegetables"
@@ -729,9 +729,9 @@
 }
 
 854={ #Ganaba
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="wild_game"
 	civilization_value=26
 	barbarian_power=0
@@ -745,7 +745,7 @@
 }
 
 855={ #Siphrios
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="carthaginian_pantheon"
 	trade_goods="grain"
@@ -763,13 +763,13 @@
 		amount=2
 	}
 	tribesmen={
-		religion="carthaginian_pantheon"
+		religion="mesopotamian_religion"
 		amount=1
 	}
 }
 
 856={ #Amida
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="grain"
@@ -787,7 +787,7 @@
 		amount=1
 	}
 	slaves={
-		religion="carthaginian_pantheon"
+		religion="mesopotamian_religion"
 		amount=1
 	}
 	slaves={
@@ -797,13 +797,13 @@
 		amount=1
 	}
 	tribesmen={
-		culture="sophene"
+		culture="armenian"
 		amount=1
 	}
 }
 
 857={ #Sitai
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="grain"
@@ -821,10 +821,10 @@
 	}
 }
 
-858={ #Arsamasat
+858={ #Arsamosata
 	terrain="hills"
-	culture="sophene"
-	religion="armenian_religion"
+	culture="armenian"
+	religion="anatolian_religion"
 	trade_goods="stone"
 	civilization_value=34
 	barbarian_power=0
@@ -850,9 +850,9 @@
 	}
 }
 
-859={ #Dadima
+859={ #Kolchis Mesopotamias
 	terrain="hills"
-	culture="sophene"
+	culture="armenian"
 	religion="zoroaster"
 	trade_goods="base_metals"
 	civilization_value=29
@@ -872,9 +872,9 @@
 	}
 }
 
-860={ #Hanzith
+860={ #Anzitene
 	terrain="hills"
-	culture="sophene"
+	culture="armenian"
 	religion="zoroaster"
 	trade_goods="leather"
 	civilization_value=29
@@ -895,7 +895,7 @@
 861={ #Bimatra
 	terrain="desert"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="horses"
 	civilization_value=28
 	barbarian_power=0
@@ -912,21 +912,19 @@
 	}
 }
 
-862={ #Nineue
-	terrain="dry_plains"
+862={ #Ninos
+	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="zoroaster"
 	trade_goods="base_metals"
 	civilization_value=38
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		culture="pasargadi"
-		religion="zoroaster"
 		amount=1
 	}
 	citizen={
-		religion="zoroaster"
 		amount=7
 	}
 	citizen={
@@ -935,7 +933,7 @@
 		amount=2
 	}
 	freemen={
-		religion="carthaginian_pantheon"
+		religion="mesopotamian_religion"
 		amount=3
 	}
 	freemen={
@@ -956,7 +954,7 @@
 }
 
 863={ #Mespyla
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="grain"
@@ -976,7 +974,7 @@
 }
 
 864={ #Atouria
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="leather"
@@ -1033,9 +1031,9 @@
 }
 
 867={ #Bessara
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=31
 	barbarian_power=0
@@ -1056,9 +1054,9 @@
 }
 
 868={ #Betouma
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="dates"
 	civilization_value=31
 	barbarian_power=0
@@ -1078,7 +1076,7 @@
 	}
 }
 
-869={ #Ilansura
+869={ #Rhiskephas
 	terrain="hills"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1090,14 +1088,14 @@
 		amount=2
 	}
 	freemen={
-		religion="carthaginian_pantheon"
+		religion="mesopotamian_religion"
 		amount=1
 	}
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="van"
+		culture="armenian"
 		amount=1
 	}
 	slaves={
@@ -1107,7 +1105,7 @@
 		amount=2
 	}
 	tribesmen={
-		religion="carthaginian_pantheon"
+		religion="mesopotamian_religion"
 		amount=1
 	}
 }
@@ -1128,7 +1126,7 @@
 871={ #Margdis
 	terrain="hills"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="earthware"
 	civilization_value=29
 	barbarian_power=0
@@ -1147,16 +1145,16 @@
 		amount=1
 	}
 	tribesmen={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
 }
 
 872={ #Ammodios
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="dates"
 	civilization_value=36
 	barbarian_power=0
@@ -1165,7 +1163,7 @@
 		amount=2
 	}
 	freemen={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
@@ -1182,9 +1180,9 @@
 }
 
 873={ #Asson
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="cattle"
 	civilization_value=31
 	barbarian_power=0
@@ -1207,7 +1205,7 @@
 874={ #Thannourios
 	terrain="desert"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=28
 	barbarian_power=0
@@ -1224,9 +1222,9 @@
 }
 
 875={ #Zagourai
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=31
 	barbarian_power=0
@@ -1240,9 +1238,9 @@
 }
 
 876={ #Thelia
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=31
 	barbarian_power=0
@@ -1283,7 +1281,7 @@
 }
 
 878={ #Arsinia
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="dates"
@@ -1299,7 +1297,7 @@
 }
 
 879={ #Barbare
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="grain"
@@ -1315,7 +1313,7 @@
 }
 
 880={ #Arba-ilu
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="glass"
@@ -1340,7 +1338,7 @@
 }
 
 881={ #Kilizu
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="leather"
@@ -1364,7 +1362,7 @@
 }
 
 884={ #Arrap'ha
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="dates"
@@ -1380,7 +1378,7 @@
 }
 
 886={ #Nuzi
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="gems"
@@ -1403,7 +1401,7 @@
 }
 
 887={ #Arzuhin
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="stone"
@@ -1422,7 +1420,7 @@
 }
 
 957={ #Turshan
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
@@ -1464,7 +1462,7 @@
 }
 
 984={ #Hazza
-	terrain="dry_plains"
+	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="wild_game"
@@ -1507,13 +1505,13 @@
 986={ #Thisaphata
 	terrain="hills"
 	culture="assyrian"
-	religion="carthaginian_pantheon"
+	religion="zoroaster"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		religion="zoroaster"
+		religion="mesopotamian_religion"
 		amount=1
 	}
 	slaves={
@@ -1523,14 +1521,14 @@
 		amount=1
 	}
 	tribesmen={
-		religion="carthaginian_pantheon"
+		religion="mesopotamian_religion"
 		amount=1
 	}
 }
 
 1578={ #Orontes
 	terrain="hills"
-	culture="median"
+	culture="assyrian"
 	religion="zoroaster"
 	trade_goods="dye"
 	civilization_value=19
@@ -1551,7 +1549,7 @@
 }
 
 1847={ #Bithias
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="vegetables"
@@ -1571,7 +1569,7 @@
 
 1855={ #Gareina
 	terrain="forest"
-	culture="sophene"
+	culture="armenian"
 	religion="zoroaster"
 	trade_goods="cattle"
 	civilization_value=29
@@ -1587,8 +1585,8 @@
 
 1856={ #Anzita
 	terrain="hills"
-	culture="sophene"
-	religion="armenian_religion"
+	culture="armenian"
+	religion="anatolian_religion"
 	trade_goods="vegetables"
 	civilization_value=18
 	barbarian_power=0
@@ -1603,8 +1601,8 @@
 
 1857={ #Chamishkatsag
 	terrain="hills"
-	culture="sophene"
-	religion="armenian_religion"
+	culture="armenian"
+	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=18
 	barbarian_power=0
@@ -1632,7 +1630,7 @@
 		amount=1
 	}
 	freemen={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
@@ -1643,7 +1641,7 @@
 		amount=3
 	}
 	tribesmen={
-		culture="sophene"
+		culture="armenian"
 		religion="zoroaster"
 		amount=1
 	}
@@ -1652,7 +1650,7 @@
 1862={ #Adatha
 	terrain="hills"
 	culture="cataonian"
-	religion="anatolian_religion"
+	religion="carthaginian_pantheon"
 	trade_goods="cattle"
 	civilization_value=18
 	barbarian_power=0
@@ -1700,7 +1698,7 @@
 }
 
 1864={ #Nisos
-	terrain="dry_plains"
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="earthware"
@@ -1722,7 +1720,7 @@
 }
 
 1867={ #Markash
-	terrain="dry_plains"
+	terrain="plains"
 	culture="cataonian"
 	religion="anatolian_religion"
 	trade_goods="stone"
@@ -1839,8 +1837,8 @@
 
 8007={ #Halouras
 	terrain="hills"
-	culture="sophene"
-	religion="armenian_religion"
+	culture="armenian"
+	religion="anatolian_religion"
 	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
@@ -1852,7 +1850,7 @@
 
 8008={ #Palios
 	terrain="hills"
-	culture="phasiane"
+	culture="armenian"
 	religion="anatolian_religion"
 	trade_goods="stone"
 	civilization_value=18
@@ -1863,19 +1861,14 @@
 	}
 	tribesmen={
 		religion="armenian_religion"
-		amount=1
-	}
-	tribesmen={
-		culture="phasiane"
-		religion="armenian_religion"
-		amount=1
+		amount=2
 	}
 }
 
 8009={ #Balisbiga
 	terrain="hills"
-	culture="sophene"
-	religion="armenian_religion"
+	culture="armenian"
+	religion="anatolian_religion"
 	trade_goods="leather"
 	civilization_value=29
 	barbarian_power=0
@@ -1896,7 +1889,7 @@
 
 8010={ #Koloua
 	terrain="hills"
-	culture="phasiane"
+	culture="armenian"
 	religion="anatolian_religion"
 	trade_goods="base_metals"
 	civilization_value=18
@@ -1907,12 +1900,7 @@
 	}
 	tribesmen={
 		religion="armenian_religion"
-		amount=1
-	}
-	tribesmen={
-		culture="phasiane"
-		religion="armenian_religion"
-		amount=1
+		amount=2
 	}
 }
 
