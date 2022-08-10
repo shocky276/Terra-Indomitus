@@ -6897,6 +6897,7 @@ country = {
 					culture = egyptian 
 					type = citizen
 				}
+			}
 			own_control_core = 	{
 				591 592 593 594 595 596 597 598 599 5519 5521 # 5518 5520
 				600 601
@@ -7307,6 +7308,7 @@ country = {
 				{ deity = 401 } 
 				{ deity = 432 } 
 				{ deity = 431 }
+			}
 			own_control_core = 	{
 				1466 1467 1468 1465 1469
 			}
@@ -11920,6 +11922,7 @@ country = {
 				civic_tech={ level=1 progress=0 }
 				oratory_tech={ level=1 progress=0 }
 				religious_tech= { level=1 progress=0  }
+			}
 			capital = 7209
 			
 			own_control_core = 	{
@@ -11937,6 +11940,7 @@ country = {
 				civic_tech={ level=1 progress=0 }
 				oratory_tech={ level=1 progress=0 }
 				religious_tech= { level=1 progress=0  }
+			}
 			capital = 7199
 			
 			own_control_core = 	{
