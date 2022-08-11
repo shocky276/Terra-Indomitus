@@ -24,7 +24,7 @@
 	terrain="forest"
 	culture="dardic"
 	religion="hindu"
-	trade_goods="cedar"
+	trade_goods="wood"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -324,7 +324,7 @@
 
 4423={ #Soreyya
 	terrain="farmland"
-	culture="kuru"
+	culture="kosala"
 	religion="buddhism"
 	trade_goods="grain"
 	civilization_value=28
@@ -390,7 +390,7 @@
 
 4426={ #Kampili
 	terrain="farmland"
-	culture="kuru"
+	culture="kosala"
 	religion="buddhism"
 	trade_goods="cloth"
 	civilization_value=28
@@ -435,7 +435,7 @@
 4428={ #Prayaga
 	terrain="farmland"
 	culture="kasi"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="earthware"
 	civilization_value=33
 	barbarian_power=0
@@ -551,19 +551,19 @@
 4433={ #Kitagiri
 	terrain="farmland"
 	culture="kasi"
-	religion="buddhism"
+	religion="hindu"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
-		amount=4
+		amount=13
 	}
 	tribesmen={
 		amount=1
@@ -572,7 +572,7 @@
 
 4434={ #Sotthavati
 	terrain="forest"
-	culture="kosala"
+	culture="shauraseni"
 	religion="hindu"
 	trade_goods="hemp"
 	civilization_value=24
@@ -591,7 +591,7 @@
 
 4435={ #Erakaccha
 	terrain="forest"
-	culture="kosala"
+	culture="shauraseni"
 	religion="hindu"
 	trade_goods="earthware"
 	civilization_value=29
@@ -615,21 +615,21 @@
 	terrain="farmland"
 	culture="kosala"
 	religion="hindu"
-	trade_goods="cattle"
+	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
-		amount=5
+		amount=13
 	}
 	tribesmen={
-		amount=2
+		amount=1
 	}
 }
 
@@ -658,11 +658,11 @@
 	}
 }
 
-4441={ #Alavi
+4441={ #Asthagora
 	terrain="farmland"
-	culture="magadhi"
-	religion="buddhism"
-	trade_goods="wine"
+	culture="vrji"
+	religion="hindu"
+	trade_goods="silk"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -705,7 +705,7 @@
 
 4450={ #Kapilavastu
 	terrain="jungle"
-	culture="vrji"
+	culture="himalayan"
 	religion="buddhism"
 	trade_goods="wild_game"
 	civilization_value=8
@@ -771,7 +771,7 @@
 
 4453={ #Dhampur
 	terrain="forest"
-	culture="dardic"
+	culture="himalayan"
 	religion="buddhism"
 	trade_goods="wood"
 	civilization_value=24
@@ -793,7 +793,7 @@
 
 4454={ #Matipura
 	terrain="forest"
-	culture="dardic"
+	culture="himalayan"
 	religion="hindu"
 	trade_goods="wood"
 	civilization_value=8
@@ -813,10 +813,10 @@
 	}
 }
 
-4455={ #Jaisingpur
+4455={ #Jaisingpura
 	terrain="farmland"
-	culture="kasi"
-	religion="buddhism"
+	culture="malla"
+	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=28
 	barbarian_power=0
@@ -859,7 +859,7 @@
 
 4457={ #Lumbini
 	terrain="jungle"
-	culture="vrji"
+	culture="himalayan"
 	religion="buddhism"
 	trade_goods="wood"
 	civilization_value=8
@@ -923,7 +923,7 @@
 4466={ #Khoh
 	terrain="forest"
 	culture="atavi"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="dye"
 	civilization_value=24
 	barbarian_power=0
@@ -1018,44 +1018,9 @@
 	}
 }
 
-5573={ #Terai
-	terrain="forest"
-	culture="kosala"
-	religion="bon_religion"
-	trade_goods="hemp"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-5584={ #Tshongdu
-	terrain="mountain"
-	culture="himalayan"
-	religion="bon_religion"
-	trade_goods="wild_game"
-	civilization_value=6
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-}
-
 7218={ #Yamaprastha
 	terrain="forest"
-	culture="kuru"
+	culture="kosala"
 	religion="hindu"
 	trade_goods="elephants"
 	civilization_value=24
@@ -1132,7 +1097,7 @@
 7369={ #Pipphalivana
 	terrain="plains"
 	culture="vrji"
-	religion="buddhism"
+	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=26
 	barbarian_power=0
@@ -1211,7 +1176,7 @@
 7373={ #Sringivera
 	terrain="farmland"
 	culture="kasi"
-	religion="hindu"
+	religion="jainism"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -1223,7 +1188,7 @@
 		amount=1
 	}
 	slaves={
-		amount=4
+		amount=12
 	}
 	tribesmen={
 		amount=1
@@ -1232,8 +1197,8 @@
 
 7374={ #Kusapura
 	terrain="farmland"
-	culture="kasi"
-	religion="buddhism"
+	culture="malla"
+	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=28
 	barbarian_power=0
@@ -1258,13 +1223,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
-		amount=4
+		amount=2
 	}
 	slaves={
-		amount=6
+		amount=13
 	}
 	tribesmen={
 		amount=2
@@ -1274,7 +1239,7 @@
 7376={ #Asani
 	terrain="farmland"
 	culture="kosala"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="cloth"
 	civilization_value=28
 	barbarian_power=0
@@ -1390,8 +1355,8 @@
 
 7382={ #Raebareli
 	terrain="farmland"
-	culture="kasi"
-	religion="buddhism"
+	culture="malla"
+	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
@@ -1519,7 +1484,7 @@
 
 7404={ #Anupshahr
 	terrain="plains"
-	culture="kuru"
+	culture="kosala"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -1774,7 +1739,7 @@
 
 7471={ #Orai
 	terrain="forest"
-	culture="kosala"
+	culture="shauraseni"
 	religion="hindu"
 	trade_goods="dye"
 	civilization_value=24
@@ -1812,8 +1777,8 @@
 
 7473={ #Sasaram
 	terrain="plains"
-	culture="magadhi"
-	religion="buddhism"
+	culture="kasi"
+	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=26
 	barbarian_power=0
@@ -1832,7 +1797,7 @@
 7474={ #Rohtas
 	terrain="hills"
 	culture="atavi"
-	religion="buddhism"
+	religion="hindu"
 	trade_goods="stone"
 	civilization_value=8
 	barbarian_power=0
@@ -1873,7 +1838,7 @@
 7476={ #Bhadohi
 	terrain="farmland"
 	culture="kasi"
-	religion="hindu"
+	religion="jainism"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -1895,8 +1860,8 @@
 7477={ #Saran
 	terrain="plains"
 	culture="vrji"
-	religion="buddhism"
-	trade_goods="cattle"
+	religion="hindu"
+	trade_goods="silk"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1916,8 +1881,8 @@
 
 7478={ #Rivilganj
 	terrain="farmland"
-	culture="magadhi"
-	religion="buddhism"
+	culture="vrji"
+	religion="hindu"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -1976,7 +1941,7 @@
 
 7484={ #Bhawaniganj
 	terrain="plains"
-	culture="malla"
+	culture="vrji"
 	religion="hindu"
 	trade_goods="leather"
 	civilization_value=26

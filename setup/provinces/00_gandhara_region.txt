@@ -43,9 +43,9 @@
 }
 
 4301={ #Nagarahara
-	terrain="dry_plains"
-	culture="sattagydian"
-	religion="zoroaster"
+	terrain="plains"
+	culture="gandhari"
+	religion="hindu"
 	trade_goods="earthware"
 	civilization_value=11
 	barbarian_power=0
@@ -62,7 +62,7 @@
 }
 
 4308={ #Cakravala
-	terrain="dry_plains"
+	terrain="plains"
 	culture="gandhari"
 	religion="hindu"
 	trade_goods="elephants"
@@ -80,7 +80,7 @@
 	}
 }
 
-4315={ #Dyrte
+4315={ #Jobnathnagar
 	terrain="forest"
 	culture="purus"
 	religion="hindu"
@@ -148,8 +148,8 @@
 
 4318={ #Apritas
 	terrain="mountain"
-	culture="sattagydian"
-	religion="zoroaster"
+	culture="gandhari"
+	religion="hindu"
 	trade_goods="stone"
 	civilization_value=22
 	barbarian_power=0
@@ -167,8 +167,8 @@
 
 4319={ #Gorydale
 	terrain="hills"
-	culture="sattagydian"
-	religion="zoroaster"
+	culture="gandhari"
+	religion="hindu"
 	trade_goods="stone"
 	civilization_value=24
 	barbarian_power=0
@@ -185,7 +185,7 @@
 }
 
 4320={ #Singhapura
-	terrain="dry_plains"
+	terrain="plains"
 	culture="gandhari"
 	religion="buddhism"
 	trade_goods="earthware"
@@ -368,7 +368,7 @@
 }
 
 4329={ #Nara
-	terrain="dry_plains"
+	terrain="plains"
 	culture="gandhari"
 	religion="buddhism"
 	trade_goods="grain"
@@ -390,7 +390,7 @@
 }
 
 4330={ #Gogaraioi
-	terrain="dry_plains"
+	terrain="desert"
 	culture="gandhari"
 	religion="hindu"
 	trade_goods="cattle"
@@ -413,7 +413,7 @@
 
 4331={ #Khushab
 	terrain="forest"
-	culture="purus"
+	culture="gandhari"
 	religion="hindu"
 	trade_goods="dates"
 	civilization_value=24
@@ -472,7 +472,7 @@
 	terrain="mountain"
 	culture="dardic"
 	religion="hindu"
-	trade_goods="wood"
+	trade_goods="cedar"
 	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
@@ -654,7 +654,7 @@
 	}
 }
 
-4343={ #Banihal Pass
+4343={ #Budia
 	terrain="mountain"
 	culture="dardic"
 	religion="hindu"
@@ -792,7 +792,7 @@
 }
 
 4351={ #Apakara
-	terrain="dry_plains"
+	terrain="desert"
 	culture="sivi"
 	religion="hindu"
 	trade_goods="vegetables"
@@ -810,10 +810,10 @@
 	}
 }
 
-4367={ #Arigaion
+4367={ #Arjunava
 	terrain="hills"
-	culture="sattagydian"
-	religion="zoroaster"
+	culture="gandhari"
+	religion="hindu"
 	trade_goods="base_metals"
 	civilization_value=9
 	barbarian_power=0
@@ -875,7 +875,7 @@
 
 4380={ #Mallava
 	terrain="plains"
-	culture="sivi"
+	culture="gandhari"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -896,8 +896,8 @@
 }
 
 4383={ #Abortai
-	terrain="dry_plains"
-	culture="sivi"
+	terrain="desert"
+	culture="gandhari"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=23
@@ -917,9 +917,9 @@
 	}
 }
 
-4384={ #Kekaya
+4384={ #Kekayai
 	terrain="plains"
-	culture="sivi"
+	culture="gandhari"
 	religion="hindu"
 	trade_goods="horses"
 	civilization_value=26
@@ -959,7 +959,7 @@
 }
 
 4386={ #Jadamapura
-	terrain="dry_plains"
+	terrain="desert"
 	culture="sivi"
 	religion="hindu"
 	trade_goods="wild_game"
@@ -1102,7 +1102,7 @@
 
 4394={ #Adrestai
 	terrain="forest"
-	culture="purus"
+	culture="dardic"
 	religion="hindu"
 	trade_goods="elephants"
 	civilization_value=8
@@ -1122,7 +1122,7 @@
 	}
 }
 
-4395={ #Turvasa
+4395={ #Turvasha
 	terrain="plains"
 	culture="sivi"
 	religion="hindu"
@@ -1166,7 +1166,7 @@
 	}
 }
 
-4397={ #Vipasa
+4397={ #Vipasha
 	terrain="farmland"
 	culture="purus"
 	religion="hindu"
@@ -1188,11 +1188,11 @@
 	}
 }
 
-4398={ #Bhatiah
+4398={ #Bhatiai
 	terrain="plains"
 	culture="purus"
 	religion="hindu"
-	trade_goods="wine"
+	trade_goods="silk"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1320,7 +1320,7 @@
 	}
 }
 
-4414={ #Mansa
+4414={ #Salagishsha
 	terrain="plains"
 	culture="kuru"
 	religion="hindu"
@@ -1429,7 +1429,7 @@
 
 5445={ #Grodaka
 	terrain="plains"
-	culture="purus"
+	culture="kuru"
 	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=0
@@ -1485,7 +1485,7 @@
 }
 
 7314={ #Taksasila
-	terrain="dry_plains"
+	terrain="plains"
 	culture="gandhari"
 	religion="buddhism"
 	trade_goods="papyrus"
@@ -1610,8 +1610,8 @@
 
 7492={ #Aspakora
 	terrain="hills"
-	culture="sattagydian"
-	religion="zoroaster"
+	culture="gandhari"
+	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=24
 	barbarian_power=0

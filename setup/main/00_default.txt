@@ -12772,6 +12772,7 @@ country = {
 			own_control_core = 	{ 
 				6951 6952 6953 6965 6966 6977 6980 6981 10590 10593
 			}
+			treasures = { 869 }
 		}
 		
 		MLY = { #Malaya
@@ -12790,6 +12791,7 @@ country = {
 			own_control_core = 	{ 
 				5314 6971 6982 10587 10591 10592
 			}
+			treasures = { 870 }
 		}
 		
 		PRB = { #Parambu
@@ -12810,6 +12812,7 @@ country = {
 			own_control_core = 	{ 
 				6941 6942 6946 6947
 			}
+			treasures = { 875 }
 		}
 		
 		KSR = { #Kosar
@@ -12831,6 +12834,7 @@ country = {
 				6907 6938 6939 6940 6943 6944 6945
 				6937 6949
 			}
+			treasures = { 871 }
 		}
 		
 		ADG = { #Adigaiman
@@ -12908,6 +12912,7 @@ country = {
 				5445
 				4390 4392
 			}
+			treasures = { 872 }
 		}
 		
 		KHB = { #Khambojas
@@ -12980,6 +12985,7 @@ country = {
 				7340 7331 7332 7333 7334 7356 7401 7490 7491 7494 7495 7496 #samatata_area
 				7330 7394 7395 7396
 			}
+			treasures = { 873 }
 		}
 		
 		TSA = {
@@ -13035,6 +13041,7 @@ country = {
 				7015 6881 6882 6883 6884 6887 6885 7089 7088 7023
 				7035 7038 
 			}
+			treasures = { 876 }
 		}
 		
 		KUN = {
@@ -13051,6 +13058,7 @@ country = {
 				7021 7005 
 				# 7107 7112
 			}
+			treasures = { 878 }
 		}
 		
 		PIT = {
@@ -13128,23 +13136,22 @@ country = {
 			}
 		}
 		
-		KAL = {
+		KAL = { #Kalinga
 			family = 39
-			government = tribal_kingdom
-			centralization = 40
+			government = despotic_monarchy
 			primary_culture = kalingan
 			religion = hindu
 		
 			capital = 7081
 			
 			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
-			treasures = { 181  }
+			treasures = { 181 881}
 		
 			own_control_core = 	{ 
 				7080 7083 7081 7172 7082 7085 7171 7137 7138
@@ -13233,6 +13240,7 @@ country = {
 				6918 6920 6913 6919 6917 # Malayas
 				6931 6929 6932 # 	
 			}
+			treasures = { 886 887 }
 		}
 		
 		KRA = {
@@ -13273,6 +13281,7 @@ country = {
 				7028 7000 7001 6998 7027
 				7025 7031 7033
 			}
+			treasures = { 885 }
 		}
 		
 		AYY = {
@@ -13293,6 +13302,7 @@ country = {
 			own_control_core = 	{ 
 				6911 6902 6901 6900 6899
 			}
+			treasures = { 882 }
 		}
 		
 		CHR = {
@@ -13313,6 +13323,7 @@ country = {
 			own_control_core = 	{ 
 				6916 6898 6909 6897 6896 6904 6895 6905 6906 6894 6908 6893 6910 6892
 			}
+			treasures = { 884 }
 		}
 		
 		STY = {
@@ -13417,6 +13428,7 @@ country = {
 				 6860 4388 
 				7366
 			}
+			treasures = { 874 877 883 }
 			
 			pantheon = {
 				{ deity = 1106 }

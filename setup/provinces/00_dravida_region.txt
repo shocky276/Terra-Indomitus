@@ -432,7 +432,7 @@
 	terrain="farmland"
 	culture="cholan"
 	religion="hindu"
-	trade_goods="fruits"
+	trade_goods="wood"
 	civilization_value=23
 	barbarian_power=0
 	province_rank="settlement"
@@ -733,7 +733,7 @@
 	terrain="hills"
 	culture="tamil"
 	religion="hindu"
-	trade_goods="fruits"
+	trade_goods="base_metals"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -940,7 +940,7 @@
 		amount=10
 	}
 	freemen={
-		culture="macedonian"
+		culture="hellenistic"
 		religion="roman_pantheon"
 		amount=1
 	}
@@ -1052,7 +1052,7 @@
 
 6966={ #Rohanada
 	terrain="jungle"
-	culture="lankan"
+	culture="tamil"
 	religion="hindu"
 	trade_goods="wood"
 	civilization_value=24
@@ -1131,7 +1131,7 @@
 6969={ #Jambukola Pattana
 	terrain="plains"
 	culture="tamil"
-	religion="buddhism"
+	religion="hindu"
 	trade_goods="elephants"
 	civilization_value=26
 	barbarian_power=0
@@ -1167,9 +1167,9 @@
 
 6970={ #Vijitanagara
 	terrain="jungle"
-	culture="lankan"
+	culture="tamil"
 	religion="hindu"
-	trade_goods="fruits"
+	trade_goods="spices"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
@@ -1316,7 +1316,7 @@
 
 6977={ #Dighavapi
 	terrain="plains"
-	culture="lankan"
+	culture="tamil"
 	religion="hindu"
 	trade_goods="elephants"
 	civilization_value=31
@@ -1381,7 +1381,7 @@
 
 6980={ #Salikhaprava
 	terrain="jungle"
-	culture="lankan"
+	culture="tamil"
 	religion="hindu"
 	trade_goods="gems"
 	civilization_value=24
@@ -1489,7 +1489,7 @@
 	terrain="jungle"
 	culture="cholan"
 	religion="hindu"
-	trade_goods="vegetables"
+	trade_goods="fruits"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
@@ -1556,7 +1556,7 @@
 	terrain="plains"
 	culture="cholan"
 	religion="hindu"
-	trade_goods="fruits"
+	trade_goods="hemp"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
@@ -1575,7 +1575,7 @@
 	terrain="jungle"
 	culture="cholan"
 	religion="hindu"
-	trade_goods="cattle"
+	trade_goods="fruits"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
@@ -1753,7 +1753,7 @@
 6999={ #Mayurasattapattinam
 	terrain="plains"
 	culture="cholan"
-	religion="buddhism"
+	religion="hindu"
 	trade_goods="leather"
 	civilization_value=26
 	barbarian_power=0
@@ -1775,7 +1775,7 @@
 
 7000={ #Tondana
 	terrain="jungle"
-	culture="tamil"
+	culture="cholan"
 	religion="hindu"
 	trade_goods="elephants"
 	civilization_value=19
@@ -1795,7 +1795,7 @@
 7001={ #Melange
 	terrain="plains"
 	culture="telugu"
-	religion="buddhism"
+	religion="hindu"
 	trade_goods="stone"
 	civilization_value=26
 	barbarian_power=0
@@ -1952,7 +1952,7 @@
 
 7028={ #Tirumala
 	terrain="hills"
-	culture="tamil"
+	culture="telugu"
 	religion="hindu"
 	trade_goods="woad"
 	civilization_value=24
@@ -2008,7 +2008,7 @@
 
 7043={ #Mallayapalam
 	terrain="hills"
-	culture="telugu"
+	culture="andhran"
 	religion="hindu"
 	trade_goods="fur"
 	civilization_value=9
@@ -2044,7 +2044,7 @@
 	terrain="jungle"
 	culture="telugu"
 	religion="hindu"
-	trade_goods="leather"
+	trade_goods="fruits"
 	civilization_value=14
 	barbarian_power=0
 	province_rank="city"
@@ -2086,7 +2086,7 @@
 
 7049={ #Naconda
 	terrain="hills"
-	culture="telugu"
+	culture="assaka"
 	religion="hindu"
 	trade_goods="precious_metals"
 	civilization_value=9
@@ -2192,7 +2192,7 @@
 
 7091={ #Bhakkuli
 	terrain="jungle"
-	culture="telugu"
+	culture="assaka"
 	religion="hindu"
 	trade_goods="gems"
 	civilization_value=9

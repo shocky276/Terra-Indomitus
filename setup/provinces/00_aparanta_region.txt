@@ -60,7 +60,7 @@
 
 6854={ #Kheta
 	terrain="forest"
-	culture="saurashtran"
+	culture="avanti"
 	religion="hindu"
 	trade_goods="gems"
 	civilization_value=29
@@ -82,7 +82,7 @@
 
 6855={ #Baroda
 	terrain="forest"
-	culture="rathikan"
+	culture="avanti"
 	religion="hindu"
 	trade_goods="precious_metals"
 	civilization_value=24
@@ -105,7 +105,7 @@
 6858={ #Minnagara
 	terrain="plains"
 	culture="rathikan"
-	religion="buddhism"
+	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=31
 	barbarian_power=0
@@ -553,7 +553,7 @@
 6876={ #Palaipatmai
 	terrain="hills"
 	culture="maharashtran"
-	religion="buddhism"
+	religion="hindu"
 	trade_goods="stone"
 	civilization_value=14
 	barbarian_power=0
@@ -575,7 +575,7 @@
 6877={ #Jaygarh
 	terrain="plains"
 	culture="maharashtran"
-	religion="buddhism"
+	religion="hindu"
 	trade_goods="hemp"
 	civilization_value=11
 	barbarian_power=0
@@ -597,7 +597,7 @@
 6878={ #Yakaris
 	terrain="hills"
 	culture="maharashtran"
-	religion="buddhism"
+	religion="hindu"
 	trade_goods="precious_metals"
 	civilization_value=14
 	barbarian_power=0
@@ -795,7 +795,7 @@
 
 7061={ #Valuraka
 	terrain="hills"
-	culture="rathikan"
+	culture="maharashtran"
 	religion="hindu"
 	trade_goods="fur"
 	civilization_value=14
@@ -1095,7 +1095,7 @@
 	terrain="plains"
 	culture="kuntalan"
 	religion="hindu"
-	trade_goods="fruits"
+	trade_goods="elephants"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
@@ -1366,9 +1366,9 @@
 
 7107={ #Jayatnagar
 	terrain="jungle"
-	culture="kannadan"
+	culture="kuntalan"
 	religion="hindu"
-	trade_goods="wild_game"
+	trade_goods="fruits"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
@@ -1476,7 +1476,7 @@
 
 7112={ #Pandaprata
 	terrain="jungle"
-	culture="kannadan"
+	culture="kuntalan"
 	religion="hindu"
 	trade_goods="hemp"
 	civilization_value=9
@@ -1520,7 +1520,7 @@
 
 7114={ #Tapia
 	terrain="hills"
-	culture="rathikan"
+	culture="avanti"
 	religion="hindu"
 	trade_goods="incense"
 	civilization_value=14
@@ -1605,7 +1605,7 @@
 
 7119={ #Kothapala
 	terrain="jungle"
-	culture="telugu"
+	culture="assaka"
 	religion="hindu"
 	trade_goods="precious_metals"
 	civilization_value=9
@@ -1624,7 +1624,7 @@
 
 7120={ #Raichur
 	terrain="plains"
-	culture="kuntalan"
+	culture="assaka"
 	religion="hindu"
 	trade_goods="fur"
 	civilization_value=16
@@ -1668,7 +1668,7 @@
 
 7125={ #Pandavleni
 	terrain="jungle"
-	culture="rathikan"
+	culture="avanti"
 	religion="hindu"
 	trade_goods="leather"
 	civilization_value=9
@@ -1781,7 +1781,7 @@
 
 7142={ #Manyakheta
 	terrain="plains"
-	culture="kuntalan"
+	culture="assaka"
 	religion="hindu"
 	trade_goods="wood"
 	civilization_value=11
@@ -1919,7 +1919,7 @@
 
 7161={ #Darur
 	terrain="plains"
-	culture="mulaka"
+	culture="vidharban"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=11
@@ -1950,7 +1950,7 @@
 
 7182={ #Jhodga
 	terrain="jungle"
-	culture="cedi"
+	culture="vidharban"
 	religion="hindu"
 	trade_goods="leather"
 	civilization_value=9
@@ -2051,7 +2051,7 @@
 
 7420={ #Nandipuri
 	terrain="hills"
-	culture="rathikan"
+	culture="avanti"
 	religion="hindu"
 	trade_goods="wood"
 	civilization_value=29
@@ -2070,7 +2070,7 @@
 
 7421={ #Narmadapuram
 	terrain="jungle"
-	culture="avanti"
+	culture="cedi"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=24
@@ -2092,7 +2092,7 @@
 
 7422={ #Betul
 	terrain="jungle"
-	culture="avanti"
+	culture="cedi"
 	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=29
@@ -2133,7 +2133,7 @@
 
 7424={ #Omkareshwar
 	terrain="farmland"
-	culture="avanti"
+	culture="cedi"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=28

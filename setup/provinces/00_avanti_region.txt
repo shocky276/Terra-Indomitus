@@ -1,6 +1,6 @@
 ﻿4420={ #Mathura
 	terrain="farmland"
-	culture="kuru"
+	culture="shauraseni"
 	religion="hindu"
 	trade_goods="dye"
 	civilization_value=33
@@ -272,7 +272,7 @@
 }
 
 4481={ #Barli
-	terrain="dry_plains"
+	terrain="plains"
 	culture="shauraseni"
 	religion="hindu"
 	trade_goods="stone"
@@ -341,7 +341,7 @@
 
 4486={ #Devasabha
 	terrain="hills"
-	culture="avanti"
+	culture="cedi"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=24
@@ -559,7 +559,7 @@
 
 7301={ #Rajasayana
 	terrain="plains"
-	culture="matsya"
+	culture="avanti"
 	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=26
@@ -722,7 +722,7 @@
 }
 
 7309={ #Mritti Kavati
-	terrain="dry_plains"
+	terrain="plains"
 	culture="shauraseni"
 	religion="hindu"
 	trade_goods="vegetables"
@@ -745,7 +745,7 @@
 
 7310={ #Mandapura
 	terrain="desert"
-	culture="kaccha"
+	culture="avanti"
 	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=23
@@ -811,7 +811,7 @@
 }
 
 7388={ #Govindgarh
-	terrain="dry_plains"
+	terrain="plains"
 	culture="shauraseni"
 	religion="hindu"
 	trade_goods="wood"
@@ -833,7 +833,7 @@
 }
 
 7389={ #Nehrawati
-	terrain="dry_plains"
+	terrain="plains"
 	culture="shauraseni"
 	religion="hindu"
 	trade_goods="base_metals"
@@ -1108,8 +1108,8 @@
 }
 
 7432={ #Rajsamand
-	terrain="dry_plains"
-	culture="matsya"
+	terrain="plains"
+	culture="avanti"
 	religion="hindu"
 	trade_goods="stone"
 	civilization_value=26
@@ -1207,7 +1207,7 @@
 
 7437={ #Dhavagarta
 	terrain="hills"
-	culture="shauraseni"
+	culture="matsya"
 	religion="hindu"
 	trade_goods="glass"
 	civilization_value=29
@@ -1264,7 +1264,7 @@
 
 7440={ #Khandar
 	terrain="hills"
-	culture="shauraseni"
+	culture="matsya"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=24
@@ -1283,7 +1283,7 @@
 
 7441={ #Jirapur
 	terrain="farmland"
-	culture="matsya"
+	culture="avanti"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=28
@@ -1304,7 +1304,7 @@
 }
 
 7442={ #Vyaghrapataka
-	terrain="dry_plains"
+	terrain="plains"
 	culture="matsya"
 	religion="hindu"
 	trade_goods="cattle"
@@ -1323,7 +1323,7 @@
 }
 
 7443={ #Narayana
-	terrain="dry_plains"
+	terrain="plains"
 	culture="shauraseni"
 	religion="hindu"
 	trade_goods="salt"
@@ -1463,7 +1463,7 @@
 
 7450={ #Sarangpur
 	terrain="farmland"
-	culture="matsya"
+	culture="avanti"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=28
