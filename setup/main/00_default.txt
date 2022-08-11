@@ -12743,7 +12743,7 @@ country = {
 		
 		PLD = { #Paladas
 			government = tribal_kingdom
-			primary_culture = vidharban
+			primary_culture = mulaka
 			religion = hindu
 			capital = 7075
 		
@@ -12796,8 +12796,7 @@ country = {
 		
 		PRB = { #Parambu
 			family=82
-			government = tribal_kingdom
-			centralization = 40
+			government = despotic_monarchy
 			primary_culture = tamil
 			religion = hindu
 			capital = 6942
@@ -12817,8 +12816,7 @@ country = {
 		
 		KSR = { #Kosar
 			family=83
-			government = tribal_kingdom
-			centralization = 40
+			government = despotic_monarchy
 			primary_culture = tamil
 			religion = jainism
 			capital = 6938 #Karur
@@ -12839,8 +12837,7 @@ country = {
 		
 		ADG = { #Adigaiman
 			family=81
-			government = tribal_kingdom
-			centralization = 40
+			government = despotic_monarchy
 			primary_culture = tamil
 			religion = hindu
 			capital = 6989 #Tagadur
@@ -12877,8 +12874,8 @@ country = {
 		
 		PRA = { #Pauravas
 			family=85
-			government = oligarchic_republic
-			primary_culture = gandhari
+			government = despotic_monarchy
+			primary_culture = purus
 			religion = hindu
 			capital = 4340
 			
@@ -12890,13 +12887,15 @@ country = {
 			}
 		
 			own_control_core = 	{ 
-				4340 4346 4379 4389 4396 4397 4400 4393
+				4340 4346 4379 4389 4396 4397 4400
+				#added
+				4315 4316 4398 4399 7399 
 			}
 		}
 		
 		YDD = { #Yadheuya Republic
 			government = oligarchic_republic
-			primary_culture = shauraseni
+			primary_culture = kuru
 			religion = hindu
 			capital = 4406
 			
@@ -12910,7 +12909,7 @@ country = {
 			own_control_core = 	{ 
 				4387 4406 4407 4408 4409 4410 4411 4412 4413 4414 4415 4416 4417 4418 7485
 				5445
-				4390 4392
+				4390 4392 4393
 			}
 			treasures = { 872 }
 		}
@@ -12944,7 +12943,7 @@ country = {
 			
 		
 			own_control_core = 	{ 
-				4332 4333 4335 4336 4337 4338 4339 4341 4342 4343 4344 4345 4347
+				4332 4333 4334 4335 4336 4337 4338 4339 4341 4342 4343 4344 4345 4347
 				4391 4394
 			}
 		}
@@ -12957,7 +12956,7 @@ country = {
 			capital = 7385
 		
 			own_control_core = 	{ 
-				4401 4402 4403 4419 4454 7385 7402
+				4401 4402 4403 4419 4454 7385 7386 7402
 			}
 		}
 		
@@ -12969,7 +12968,7 @@ country = {
 			capital = 4459
 		
 			own_control_core = 	{ 
-				4459 4460 4461 4464 5587 5628
+				4459 4460 4461 4464 5587
 				7383 7481 7486 7487 7655 7656 
 			}
 		}
@@ -12990,14 +12989,14 @@ country = {
 		
 		TSA = {
 			government = tribal_kingdom
-			primary_culture = sumpa
+			primary_culture = tsang
 			religion = bon_religion
 			centralization=-10
 			capital = 5630
 		
 			own_control_core = 	{ 
-				#5588 5590 5611 5606 5610 5613 5589 5605 5608 5607 #chomolangma
-				5641 5640 5618 5621 5619 5620 5655 5658 5656 5659 
+				5588 5590 5611 5606 5610 5613 5589 5605 5608 5607 #chomolangma
+				5627 5623 5624 5626 5625 5630 5638 5639 #tsang
 			}
 		}
 		
@@ -13009,9 +13008,8 @@ country = {
 			capital = 5636
 		
 			own_control_core = 	{ 
-				5632 5642 5653 5636 5637 5648 5622 #yarlung 5633 5631 
-				5635
-				5627 5624 5626 5625 5630 5638 5639 #tsang 5623
+				5632 5633 5642 5653 5636 5637 5649 5648 5645 5647 5622 #yarlung
+				5631 5635
 			}
 		}
 		
@@ -13020,19 +13018,18 @@ country = {
 			primary_culture = sumpa
 			religion = bon_religion
 			centralization=-10
-			capital = 5650
+			capital = 5618
 		
 			own_control_core = 	{ 
-				#lhasa 5663 5664
-				5660 5657 5643 5646 5651 5644 5650 5652 #sumpa5661 5662 
-				5645 5647 5649
+				5641 5640 5618 5621 5619 5620 5655 5658 5656 5659 5663 5664 #lhasa
+				5661 5662 5660 5657 5643 5646 5651 5644 5650 5652 #sumpa
 			}
 		}
 		
 		ALU = {
 			family = 38
 			government = tribal_kingdom
-			primary_culture = kannadan
+			primary_culture = alupan
 			religion = hindu
 			centralization=10
 			capital = 7015
@@ -13046,17 +13043,16 @@ country = {
 		
 		KUN = {
 			government = tribal_kingdom
-			primary_culture = kannadan
+			primary_culture = kuntalan
 			religion = hindu
 			centralization=10
 			capital = 7108
 		
 			own_control_core = 	{ 
-				7108 7090 7109 7110 7113 7072 7087
+				7108 7107 7112 7090 7109 7110 7113 7072 7087
 				7006 7111 7069 7071 7092 7120 7070
-				7020 7037 7073
-				7021 7005 
-				# 7107 7112
+				7005 7020 7037 7073
+				7021
 			}
 			treasures = { 878 }
 		}
@@ -13069,8 +13065,7 @@ country = {
 			capital = 7061
 		
 			own_control_core = 	{ 
-				7061 6875 6874 6873 6872 7060 6871 6876 6877 6878 6880 6879
-				# 7052 7104 7059 7103
+				7061 7104 6875 6874 6873 6872 7060 6871 7103 6876 7059 6877 6878 7052 6880 6879
 			}
 		}
 		
@@ -13088,7 +13083,7 @@ country = {
 		
 		RTI = {
 			government = despotic_monarchy
-			primary_culture = maharashtran
+			primary_culture = rathikan
 			religion = hindu
 			centralization=10
 			capital = 7066
@@ -13108,32 +13103,34 @@ country = {
 		
 		ASM = {
 			government = tribal_kingdom
-			primary_culture = telugu
+			primary_culture = assaka
 			religion = hindu
 			centralization=10
 			capital = 7058
 		
 			own_control_core = 	{ 
-				7058 7149 7148 7155 7145 7156 7055 7057 7152
-				7074 7102 7127 7143 7146 7153 7160 7161 7078 7079 7106 7105
-				7053 7144 7142 7154 7098 7150
-				#7118 7119 7133 7099
+				7058 7150 7099 7149 7148 7155 7145 7156 7055 7057 7152
+				7074 7102 7105 7106 7127 7143 7146 7153 7160 7161 7078 7079
+				7053 7144 7142 7154 7098
+				7118 7119 7133
 			}
+			treasures = { 879 }
 		}
 		
 		ANH = {
 			government = tribal_kingdom
-			primary_culture = telugu
+			primary_culture = andhran
 			religion = hindu
 			centralization=10
 			capital = 7019
 		
 			own_control_core = 	{ 
-				7019 7040 7046 7084 7045 7041 7039 7043 7042 7044 #7054 7056
+				7019 7040 7046 7084 7045 7041 7039 7043 7042 7044 7054 7056
 				7003 7002 7012 7050
-				7013 7026 7047 7049 7091 7051 7048 
-				#7014 7024 7034
+				7013 7014 7024 7026 7034 7047 7048 7049 7051
+				7091
 			}
+			treasures = { 880 }
 		}
 		
 		KAL = { #Kalinga
@@ -13155,7 +13152,8 @@ country = {
 		
 			own_control_core = 	{ 
 				7080 7083 7081 7172 7082 7085 7171 7137 7138
-				7170 7167 7173 7174 7180 7181 7086 7100
+				7170 7167 7173 7174 7179 7180 7181 7086 7100
+				7178 7366
 			}
 		}
 		
@@ -13203,14 +13201,14 @@ country = {
 		
 			own_control_core = 	{ 
 				7030 7011 7007 7022 7004
-				7036 
+				7010 7036 
 				7009 7016 7017
 			}
 		}
 		
 		IDR = {
 			government = tribal_kingdom
-			primary_culture = telugu
+			primary_culture = savara
 			religion = hindu
 			centralization=-10
 			capital = 7134
@@ -13220,10 +13218,10 @@ country = {
 			}
 		}
 		
-		PND = {
+		PND = { #Pandya
 			family = 37
 			government = despotic_monarchy
-			primary_culture = tamil
+			primary_culture = pandyan
 			religion = hindu
 			
 			technology={
@@ -13260,10 +13258,10 @@ country = {
 			}
 		}
 		
-		CHL = {
+		CHL = { #Chola
 			family = 36
 			government = despotic_monarchy
-			primary_culture = tamil
+			primary_culture = cholan
 			religion = hindu
 			
 			technology={
@@ -13285,9 +13283,8 @@ country = {
 		}
 		
 		AYY = {
-			government = tribal_kingdom
-			centralization = 40
-			primary_culture = tamil
+			government = despotic_monarchy
+			primary_culture = cheran
 			religion = hindu
 			
 			technology={
@@ -13305,12 +13302,12 @@ country = {
 			treasures = { 882 }
 		}
 		
-		CHR = {
-			government = despotic_monarchy
-			primary_culture = tamil
-			religion = hindu
+		CHR = { #Chera
 			family = 250
-
+			government = despotic_monarchy
+			primary_culture = cheran
+			religion = hindu
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -13358,7 +13355,7 @@ country = {
 			}
 		}
 		
-		MRY = {
+		MRY = { #Maurya
 			family = 27
 			family = 28
 			government = aristocratic_monarchy
@@ -13370,10 +13367,6 @@ country = {
 			poptype_rights = { 
 				{
 					culture = shauraseni 
-					type = citizen
-				}
-				{
-					culture = sindhi 
 					type = citizen
 				}
 				{
@@ -13399,7 +13392,7 @@ country = {
 				4434 4435 4466 4485 7219 7409 7376 7470 7471 7472 #west_cedi_region
 				4428 4429 4430 4433 4465 7370 7371 7373 7473 7476 #kasi_region
 				4425 4426 4427 4436 7375 7404 7218 7408 7410 7411 #pancala_region
-				4424 4453 4456 7377 7381 7403 7405 7406 7407 7378 5573 #ahicchatra_region
+				4424 4453 4456 7377 7381 7403 7405 7406 7407 7378 #ahicchatra_region
 				4437 4451 4455 7374 7379 7380 7382 7482 7483 7484 #kosala_region
 				4448 7360 7479 7488 #vrji_region
 				4441 4449 7369 7372 7477 7478 #malla_region
@@ -13410,10 +13403,9 @@ country = {
 				7329 7336 7358 7359 7393 7397 #vanga_region
 				7322 7650 #kamata_region
 				4404 4405 4421 4422 4423 4452 #kuru_region
-				4308 4316 4317 4318 4320 4322 4326 4327 4328 4329 7314 7492 #taxila_region
+				4308 4317 4318 4320 4322 4326 4327 4328 4329 7314 7492 #taxila_region
 				7361 #kasmira_region
-				4331 4380 4384 4395 4398 4399 7399 #panchanada_region
-				4315 #madra_region
+				4331 4380 4384 4395 #panchanada_region
 				4319 4321 4330 4348 4350 4351 4383 4385 4386 #sivi_region
 				4349 4371 4373 4374 4378 4372 4375 4377 4381 4382 #north_sindhu_region
 				6833 6840 6844 6845 6841 6825 6842 #kaccha_region
@@ -13424,11 +13416,9 @@ country = {
 				6813 6823 6816 6817 6824 6814 6819 6818 6828 6834 6829 #outer_saurashtra_region
 				4494 6831 6835 6820 6839 6832 6846 6847 6838 6837 6836 6830 #inner_saurashtra_region
 				4352 4355 4361 4362 4364 4365 4366 4368 4376 #south_sindhu_region
-				6815 6821 6822 6848 6852 6849 #patalene_region
-				 6860 4388 
-				7366
+				6526 6815 6821 6822 6848 6852 6849 #patalene_region
+				6860 4388 4369
 			}
-			treasures = { 874 877 883 }
 			
 			pantheon = {
 				{ deity = 1106 }
@@ -13436,7 +13426,7 @@ country = {
 				{ deity = 1101 }
 				{ deity = 1111 }
 			}
-
+			treasures = { 874 877 883 }
 		}
 		
 		PHY = {
