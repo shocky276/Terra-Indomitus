@@ -1937,12 +1937,12 @@ north_sindhu_area = { #10
 
 #Southern India
 
-north_tambapamni_area = { #11
-    provinces = { 6979 6974 6978 6967 6973 6950 6975 6976 6968 6972 6969 }
+north_tambapamni_area = { #14
+    provinces = { 6970 6979 6974 6978 6967 6973 6950 6975 6976 6968 6972 6969 10588 10589 }
 }
 
-south_tambapamni_area = { #11
-    provinces = { 6951 6965 6952 6953 6977 6966 6982 6971 6980 6981 6970 }
+south_tambapamni_area = { #16
+    provinces = { 5314 6951 6965 6952 6953 6977 6966 6982 6971 6980 6981 10587 10590 10591 10592 10593 }
 }
 
 keralaputa_area = { #12

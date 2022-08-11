@@ -3518,16 +3518,6 @@
 	province_rank=""
 }
 
-5314={ #Palaiogonoi
-	terrain="impassable_terrain"
-	culture="lankan"
-	religion="hindu"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
 5315={ #Baglana
 	terrain="impassable_terrain"
 	culture="rathikan"

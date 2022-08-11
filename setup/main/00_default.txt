@@ -5186,9 +5186,6 @@ provinces = { #Any entry must contain a comment with city name.
 	5313 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
-	5314 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
 	5315 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -12759,12 +12756,10 @@ country = {
 		}
 		
 		RHN = { #Ruhunu
-			government = tribal_kingdom
-			centralization = 40
+			family=251
+			government = aristocratic_monarchy
 			primary_culture = lankan
 			religion = hindu
-			family = 251
-
 			capital = 6977
 			
 			technology={
@@ -12775,13 +12770,12 @@ country = {
 			}
 		
 			own_control_core = 	{ 
-				6952 6953 6966 6977 6980 6981
+				6951 6952 6953 6965 6966 6977 6980 6981 10590 10593
 			}
 		}
 		
 		MLY = { #Malaya
-			government = tribal_kingdom
-			centralization = 40
+			government = aristocratic_monarchy
 			primary_culture = lankan
 			religion = hindu
 			capital = 6971
@@ -12794,7 +12788,7 @@ country = {
 			}
 		
 			own_control_core = 	{ 
-				6951 6965 6971 6982
+				5314 6971 6982 10587 10591 10592
 			}
 		}
 		
@@ -13189,7 +13183,7 @@ country = {
 		
 			own_control_core = 	{ 
 				6979 6974 6978 6967 6973 6950 6975 6976 6968 6972 6969 # north tambapamni
-				6970 # south tambapamni
+				6970 10588 10589 # south tambapamni
 			}
 		}
 		
