@@ -8,7 +8,7 @@ TODO_events:0 "#BOLD;COLOR:{0.0,1.0,0.7} Todo  -  Events #!"
 # -------------------------------------------------
 
 
-qin_01_shan_yang:0 "Shan Yang's Legacy"
+qin_01_shan_yang:0 "Shang Yang's Legacy"
 qin_01_shan_yang_DESCRIPTION:0 "Mission description"
 qin_01_shan_yang_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
 qin_01_shan_yang_BUTTON_TOOLTIP:0 ""
@@ -16,7 +16,7 @@ qin_01_shan_yang_BUTTON_TOOLTIP:0 ""
 #Missions
 
 qin_01_shan_yang_task_1:0 "Abrogate Fengjian"
-qin_01_shan_yang_DESC:0 ""
+qin_01_shan_yang_DESC:0 "The Fengjian feudal system has been the bedrock of Zhou dynasty governance for hundreds of years. However, this decentralized governing form flies in the face of Shang Yang's legalist reforms, which call for increased centralization. We should continue reforming away from feudal obligations as Shang Yang guided us to."
 
 qin_01_shan_yang_task_2:0 "Claim Yiqu"
 qin_01_shan_yang_DESC:0 ""
@@ -24,10 +24,10 @@ qin_01_shan_yang_DESC:0 ""
 qin_01_shan_yang_task_3:0 "Neuter Yiqu"
 qin_01_shan_yang_DESC:0 ""
 
-qin_01_shan_yang_task_4:0 "Womens Militias"
+qin_01_shan_yang_task_4:0 "Women's Militias"
 qin_01_shan_yang_DESC:0 ""
 
-qin_01_shan_yang_task_5:0 "Sechuan Assimilation"
+qin_01_shan_yang_task_5:0 "Sichuan Assimilation"
 qin_01_shan_yang_DESC:0 ""
 
 qin_01_shan_yang_task_6:0 "Curtail Aristocracy"
@@ -45,7 +45,7 @@ qin_01_shan_yang_DESC:0 ""
 qin_01_shan_yang_task_10:0 "End of the Rong"
 qin_01_shan_yang_DESC:0 ""
 
-qin_01_shan_yang_task_11:0 "Shan Yang's Legacy"
+qin_01_shan_yang_task_11:0 "Shang Yang's Legacy"
 qin_01_shan_yang_DESC:0 ""
 
 #Tooltips
@@ -58,7 +58,7 @@ qin_01_shan_yang_task_5_tt:0 "Our administrators will attempt to woo the people 
 sechuan_admin_mod:0 "Sechuan Administration"
 absolute_authority_country_mod:0 "Absolute Authority"
 end_of_rong_country_mod:0 "End of the Rong"
-shan_yangs_legacy_country_mod:0 "Shan Yang's Legacy"
+shan_yangs_legacy_country_mod:0 "Shang Yang's Legacy"
 destruction_of_yiqu:0 "Destruction of Yiqu"
 
 
