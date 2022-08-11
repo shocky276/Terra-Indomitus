@@ -250,7 +250,7 @@
 
 255={ #Parion
 	terrain="forest"
-	culture="thracian"
+	culture="troan"
 	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=24
@@ -285,7 +285,7 @@
 
 256={ #Lampsakos
 	terrain="plains"
-	culture="thracian"
+	culture="troan"
 	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=26
@@ -445,7 +445,7 @@
 
 261={ #Abydos
 	terrain="plains"
-	culture="thracian"
+	culture="troan"
 	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=26
@@ -474,7 +474,7 @@
 
 262={ #Kolonai
 	terrain="hills"
-	culture="thracian"
+	culture="troan"
 	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=19
@@ -550,7 +550,7 @@
 
 266={ #Rhodos
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="glass"
 	civilization_value=33
@@ -1038,7 +1038,7 @@
 	}
 }
 
-282={ #Atarna
+282={ #Elateia Aioleia
 	terrain="plains"
 	culture="troan"
 	religion="roman_pantheon"
@@ -1077,7 +1077,7 @@
 
 283={ #Mytilene
 	terrain="hills"
-	culture="aeolian"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="marble"
 	civilization_value=24
@@ -1105,7 +1105,7 @@
 
 284={ #Eresos
 	terrain="hills"
-	culture="aeolian"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="dye"
 	civilization_value=19
@@ -1246,7 +1246,7 @@
 
 288={ #Teos
 	terrain="hills"
-	culture="ionian"
+	culture="aeolian"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=24
@@ -1285,7 +1285,7 @@
 
 289={ #Erythrai
 	terrain="hills"
-	culture="ionian"
+	culture="aeolian"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=24
@@ -1897,7 +1897,7 @@
 
 310={ #Leros
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=24
@@ -1995,7 +1995,7 @@
 
 1653={ #Kalymnos
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=24
@@ -2056,7 +2056,7 @@
 
 1830={ #Lindos
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=24
@@ -2075,7 +2075,7 @@
 
 1876={ #Physkos
 	terrain="hills"
-	culture="cretan"
+	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="marble"
 	civilization_value=24
@@ -2104,7 +2104,7 @@
 
 1884={ #Syme
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=24
@@ -2559,7 +2559,7 @@
 
 1970={ #Kos
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="silk"
 	civilization_value=34
@@ -2821,7 +2821,7 @@
 
 1985={ #Idyma
 	terrain="hills"
-	culture="cretan"
+	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="cloth"
 	civilization_value=26
@@ -2850,7 +2850,7 @@
 
 1987={ #Knidos
 	terrain="hills"
-	culture="cretan"
+	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="dye"
 	civilization_value=29
@@ -2890,7 +2890,7 @@
 
 1989={ #Kaunos
 	terrain="hills"
-	culture="cretan"
+	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="dye"
 	civilization_value=31
@@ -2930,7 +2930,7 @@
 
 1996={ #Astypalaia
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="marble"
 	civilization_value=24
@@ -2969,7 +2969,7 @@
 
 7934={ #Keramos
 	terrain="hills"
-	culture="cretan"
+	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=24
@@ -3026,7 +3026,7 @@
 
 7936={ #Nisyros
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=24
@@ -3045,7 +3045,7 @@
 
 7937={ #Telos
 	terrain="hills"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="cloth"
 	civilization_value=24
@@ -3142,7 +3142,7 @@
 
 8015={ #Kameiros
 	terrain="mountain"
-	culture="cretan"
+	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=22
