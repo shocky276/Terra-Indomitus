@@ -8214,11 +8214,6 @@ provinces = {
 	8673 = {#地块太小
 		modifier = { modifier = aos_terrain_too_small_modifier always = yes }
 	}
-	9385 = {
-		modifier = {
-			modifier = major_barbarian_spawn_place
-		}
-	}
 	9388 = {
 		modifier = {
 			modifier = major_barbarian_spawn_place
@@ -8270,11 +8265,6 @@ provinces = {
 		}
 	}
 	9775 = {
-		modifier = {
-			modifier = generic_barbarian_spawn_place
-		}
-	}
-	5967 = {
 		modifier = {
 			modifier = generic_barbarian_spawn_place
 		}
@@ -8349,11 +8339,6 @@ provinces = {
 			modifier = generic_barbarian_spawn_place
 		}
 	}
-	9381 = {
-		modifier = {
-			modifier = generic_barbarian_spawn_place
-		}
-	}
 	8301 = {
 		modifier = {
 			modifier = generic_barbarian_spawn_place
@@ -8390,11 +8375,6 @@ provinces = {
 		}
 	}
 	9391 = {
-		modifier = {
-			modifier = generic_barbarian_spawn_place
-		}
-	}
-	8305 = {
 		modifier = {
 			modifier = generic_barbarian_spawn_place
 		}

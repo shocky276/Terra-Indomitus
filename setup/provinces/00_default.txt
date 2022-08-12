@@ -3648,9 +3648,9 @@
 	province_rank=""
 }
 
-5328={ #
+5328={ #Eastern Desesrt
 	terrain="impassable_terrain"
-	culture="meroitic"
+	culture="blemmyan"
 	religion="egyptian_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -3658,10 +3658,10 @@
 	province_rank=""
 }
 
-5329={ #
+5329={ #Central Asian Impassable
 	terrain="impassable_terrain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
+	culture="shajing"
+	religion="bon_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3918,10 +3918,10 @@
 	province_rank=""
 }
 
-5355={ #Koha
+5355={ #Central Asian Impassable
 	terrain="impassable_terrain"
-	culture="meroitic"
-	religion="egyptian_pantheon"
+	culture="shanma"
+	religion="hu_religions"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4784,10 +4784,10 @@
 	province_rank=""
 }
 
-5972={ #
+5972={ #Eurasian Northlands
 	terrain="impassable_terrain"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="hujie"
+	religion="eastern_animism"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4804,20 +4804,20 @@
 	province_rank=""
 }
 
-5974={ #
+5974={ #Eurasian Northlands
 	terrain="impassable_terrain"
-	culture="aestian"
-	religion="matrist_religion"
+	culture="jiankun"
+	religion="hu_religions"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-5975={ #
+5975={ #Eurasian Northlands
 	terrain="impassable_terrain"
-	culture="bastarnae"
-	religion="germanic_religion"
+	culture="dingling"
+	religion="hu_religions"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -5784,10 +5784,10 @@
 	province_rank=""
 }
 
-6354={ #
-	terrain="ocean"
-	culture=""
-	religion=""
+6354={ #Northern Impassable
+	terrain="impassable_terrain"
+	culture="jiankun"
+	religion="hu_religions"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -10074,7 +10074,7 @@
 	province_rank=""
 }
 
-9770={ #D PROV9770!
+9770={ #PROV9770
 	terrain="impassable_terrain"
 	culture="jiankun"
 	religion="hu_religions"
@@ -10084,7 +10084,7 @@
 	province_rank=""
 }
 
-9771={ #D PROV9771!
+9771={ #PROV9771
 	terrain="impassable_terrain"
 	culture="hujie"
 	religion="hu_religions"
@@ -10094,7 +10094,7 @@
 	province_rank=""
 }
 
-9772={ #D PROV9772!
+9772={ #PROV9772
 	terrain="impassable_terrain"
 	culture="xiongnu"
 	religion="hu_religions"
