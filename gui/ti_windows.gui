@@ -31,28 +31,34 @@ base_window = {
         position = { -7 10}
     }
     icon = {
-        position = { 30 60 }
-        size = { 134 149 }
-        texture = "gfx/interface/china/retcon_dragon.dds"
+        position = { 20 130 }
+        size = { 250 100 }
+        texture = "gfx/interface/china/emperor_of_china_dragon.dds"
     }
-    icon = {
-        texture = "gfx/interface/china/emperor_of_china_icon.dds"
-        position = { 38 159 }
-        size = { 33 33 }
-        tooltip = "Current Meritocracy: #BOLD;COLOR:{0.0,1.0,0.6} Todo#!"
+    cpt_button = {
+        position = { 120 54 }
+        size = { 55 85 }
+        datacontext = "[Player.GetRuler]"
+        blockoverride "ShowIcons" { visible = no }
     }
-    icon = {
-        position = { 39 87 }
-        texture = "gfx/interface/china/china_temple.dds"
-        #texture = "gfx/interface/icons/shared_icons/political_influence.dds"
-        size = { 32 32 }
-        tooltip = "The current Emperor of China is [Player.GetRuler.GetName]"
-    }
-    banner_great_power = {
-        position = { 173 85 }
-        datacontext = "[Player]"
-        tooltip = "[Player.GetRankInformation]"
-    }
+    #icon = {
+    #    texture = "gfx/interface/china/emperor_of_china_icon.dds"
+    #    position = { 38 159 }
+    #    size = { 33 33 }
+    #    tooltip = "Current Meritocracy: #BOLD;COLOR:{0.0,1.0,0.6} Todo#!"
+    #}
+    #icon = {
+    #    position = { 39 87 }
+    #    texture = "gfx/interface/china/china_temple.dds"
+    #    #texture = "gfx/interface/icons/shared_icons/political_influence.dds"
+    #    size = { 32 32 }
+    #    tooltip = "The current Emperor of China is [Player.GetRuler.GetName]"
+    #}
+    #banner_great_power = {
+    #    position = { 173 85 }
+    #    datacontext = "[Player]"
+    #    tooltip = "[Player.GetRankInformation]"
+    #}
     icon_and_text = {
         size = { 110 0 }
         position = { 265 95 }
@@ -156,7 +162,6 @@ base_window = {
     }
     container = {
         name = "bottom_margin_container"
-        #resizeparent = yes
         ignoreinvisible = yes
         parentanchor = bottom|hcenter
         position = {0 -15}

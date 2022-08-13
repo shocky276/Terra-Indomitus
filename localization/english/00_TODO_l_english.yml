@@ -4,14 +4,8 @@
 #Once they are done they should be moved to other files.
 
 #LOBBY RECCOMENDED COUNTRY INTROS
-QININTRO:0 "#T Qin#!\nDifficulty: #Y Medium#!\n\ndescription"
-QIIINTRO:0 "#T Qi#!\nDifficulty: #Y Medium#!\n\ndescription"
-CHUINTRO:0 "#T Chu#!\nDifficulty: #Y Easy#!\n\ndescription"
-YANINTRO:0 "#T Yan#!\nDifficulty: #Y Hard#!\n\ndescription"
-ZHAINTRO:0 "#T Zha#!\nDifficulty: #Y Medium#!\n\ndescription"
-WEIINTRO:0 "#T Wei#!\nDifficulty: #Y Medium#!\n\ndescription"
-JOSEONINTRO:0 "#T Joseon#!\nDifficulty: #Y Medium#!\n\ndescription"
-YAMATOINTRO:0 "#T Yamato#!\nDifficulty: #Y Medium#!\n\ndescription"
+qin_start:0 "#T Qin#!\nDifficulty: #Y Medium#!\n\ndescription"
+yamato_start:0 "#T Yamato#!\nDifficulty: #Y Medium#!\n\ndescription"
 
  ##ACB RELIGIONS
  chinese_religions:0 "Chinese"

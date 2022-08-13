@@ -1,4 +1,4 @@
-﻿qin_01_shan_yang = {
+qin_01_shan_yang = {
     header = "mission_image_general"
     icon = "general_1"
 
