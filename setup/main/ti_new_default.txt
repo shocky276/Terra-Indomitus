@@ -1010,6 +1010,19 @@ country = {
 				8222 8223 8224 9458 9459 9460 9461
 			}
 		}
+		
+		MDP = {
+			government = despotic_monarchy
+			primary_culture = dhivehi
+			religion = hindu
+			
+			capital = 10598
+			
+			own_control_core = {
+				10594 10595 10596 10597 10598 10599 10600
+			
+				}
+		}
 
 	}
 	
