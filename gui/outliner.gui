@@ -617,13 +617,14 @@ window = {
 				}
 			}
 
-			debug_button = {}
+			debug_button_1 = {}
 
 			button_slide_out = {
 				name = "hide_outliner_button"
 				position = { -19 6 }
 				alwaystransparent = no
 				inherit_visual_state = yes
+				shortcut = "outliner"
 				onclick = "[PdxGuiTriggerAllAnimations('hide_outliner')]"
 				onclick = "[PdxGuiWidget.Hide]"
 				onclick = "[PdxGuiWidget.AccessParent.FindChild('show_outliner_button').Show]"
@@ -643,6 +644,7 @@ window = {
 				visible = no
 				alwaystransparent = no
 				inherit_visual_state = yes
+				shortcut = "outliner"
 				onclick = "[PdxGuiTriggerAllAnimations('show_outliner')]"
 				onclick = "[PdxGuiWidget.Hide]"
 				onclick = "[PdxGuiWidget.AccessParent.FindChild('hide_outliner_button').Show]"
