@@ -596,6 +596,7 @@ social_welfare_laws = {
 #colonisation - Dementive
 
 #eunuchs/governors
+#justicial/due proceedings in court - investigation, interragion, oaths etc
 
 ###ruled out - for now
 
